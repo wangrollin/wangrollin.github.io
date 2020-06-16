@@ -1,0 +1,15 @@
+<ul>
+    {% for article in include.articles %}
+    <li>
+        {% if article.subIterms == nil and article.link == include.curPageUrl %}
+            <a href="{{ article.link }}"><b>{{ article.name }}</b></a>
+        {% else %}
+            <a href="{{ article.link }}">{{ article.name }}</a>
+        {% endif %}
+        
+        {% if article.subIterms != nil %}
+            {%- include sidebar.html articles=article.subIterms curPageUrl=include.curPageUrl -%}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
