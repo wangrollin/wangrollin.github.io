@@ -1,21 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>BigDemoStudio</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 </head>
+
 <body>
+  <nav></nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+
+      name: 'BigDemoStudio',
+      repo: 'https://github.com/BigDemoStudio',
+
+      // 封面配置
+      coverpage: true,
+      onlyCover: true,
+
+      // 导航栏配置
+      loadNavbar: true,
+      mergeNavbar: true,
+
+      // 侧边栏配置
+      loadSidebar: true, // hhh
+      //hideSidebar: true,
+      subMaxLevel: 2,
+      maxLevel: 1,
+      autoHeader: true,
+
+      auto2top: true,
+
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: [], // or 'auto'
+        placeholder: '搜索',
+        noData: '找不到结果!'
+      },
+
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      }
+
+    }
+  </script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  </script>
 </body>
+
 </html>
