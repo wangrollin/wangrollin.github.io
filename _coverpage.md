@@ -7,6 +7,4 @@
 > 帮老油条打开新世界
 
 [GitHub](https://github.com/BigDemoStudio)
-[Get Started](/docs/css)
-
-<!-- ![color](#f0f0f0) -->
+[Get Started](/docs/bigdemo/需求分析.md)
