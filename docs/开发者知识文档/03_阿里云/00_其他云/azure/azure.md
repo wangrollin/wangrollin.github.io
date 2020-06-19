@@ -1,0 +1,1 @@
+云服务器需要在所有资源中找到Network security group，然后添加一条inbound规则，放行22端口，才能ssh连上
