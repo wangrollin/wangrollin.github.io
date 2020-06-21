@@ -1,4 +1,4 @@
-![logo](_media/logo.jpeg ':size=100%')
+<!-- ![logo](_media/logo.jpeg ':size=5%') -->
 
 # BigDemoStudio <small>0.0.1</small>
 
