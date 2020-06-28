@@ -10,6 +10,3 @@
 java SidebarGenerator.java
 ```
 
-### 联系我们
-
-wangrollin@foxmail.com
