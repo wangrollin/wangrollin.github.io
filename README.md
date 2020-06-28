@@ -6,7 +6,12 @@
 
 
 ## 自动生成目录
-```
+```bash
 java SidebarGenerator.java
+```
+
+## 本地起服务
+```bash
+docsify serve
 ```
 

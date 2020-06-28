@@ -444,6 +444,7 @@
             * 进程通信
                 * [进程通信](/docs/开发者知识文档/01_软件开发/06_linux/Linux内核模块和代码/进程通信/进程通信.md)
         * gnu自由软件
+            * [Zabbix](/docs/开发者知识文档/01_软件开发/06_linux/gnu自由软件/Zabbix.md)
             * [gnu工具](/docs/开发者知识文档/01_软件开发/06_linux/gnu自由软件/gnu工具.md)
         * 其他语言
             * cpp
