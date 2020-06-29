@@ -698,7 +698,28 @@ https://blog.csdn.net/qq_39101581/article/details/79308851
     }
     ```
 
-    
+    在AOP中，通过反射获得【类名，方法名，参数类型，参数变量名，方法引用，参数列表】
+    参考博客 https://yq.aliyun.com/articles/652997
+
+    ```java
+        /**
+         * 通过className、methodName、参数类型classes，来确定唯一的方法
+         * 然后通过ParameterNameDiscoverer来获取方法的变量名
+         */
+        Object[] args = joinPoint.getArgs();
+        String className = joinPoint.getTarget().getClass().getName();
+        String methodName = joinPoint.getSignature().getName();
+
+        Class<?>[] classes = new Class[args.length];
+        for (int i = 0; i < args.length; i++) {
+            classes[i] = args[i].getClass();
+        }
+
+        Method method = Class.forName(className).getMethod(methodName);
+
+        ParameterNameDiscoverer pnd = new DefaultParameterNameDiscoverer();
+        String[] parameterNames = pnd.getParameterNames(method);
+    ```
 
 - Implement AOP advice: Before
 
