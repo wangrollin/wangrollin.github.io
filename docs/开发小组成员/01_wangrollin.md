@@ -11,7 +11,7 @@
 
 #### 🍖其他github项目
 - [leetcode每日一题](https://github.com/wangrollin/leetcode)
-- [仿写QQ堂](https://github.com/wangrollin/QQTang4.0)
+- [仿写QQ堂](https://github.com/wangrollin/QQTang4.0)：[视频介绍](https://www.bilibili.com/video/BV14J411z7Af?from=search&seid=2392020730416138943)
 
 
 #### 🍖阅读：读书破千卷
