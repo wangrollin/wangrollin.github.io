@@ -7,4 +7,4 @@
 > 帮老油条打开新世界
 
 [GitHub](https://github.com/BigDemoStudio)
-[Get Started](/docs/BigDemo项目文档/_sidebar.md)
+[Get Started](/docs/开发者知识文档/_sidebar.md)
