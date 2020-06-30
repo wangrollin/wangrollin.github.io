@@ -573,6 +573,7 @@
     * 其他厂商的服务
         * CDN
             * [jsdelivr](/docs/开发者知识文档/03_阿里云/01_其他厂商的服务/CDN/jsdelivr.md)
+            * [unpkg](/docs/开发者知识文档/03_阿里云/01_其他厂商的服务/CDN/unpkg.md)
     * CICD服务
         * [codepipeline](/docs/开发者知识文档/03_阿里云/CICD服务/codepipeline.md)
     * 云存储
