@@ -1,7 +1,8 @@
 # wangrollin 个人简介
 - [个人github账号](https://github.com/wangrollin)
 - [个人网站](https://wangrollin.com)
-
+- 学历：山东大学>[泰山学堂](https://www.tsxt.sdu.edu.cn/)>计算机取向
+- 工作：[华为苏研所](https://www.huawei.com/)，[EPAM](https://www.epam.com/)
 
 #### 🍖全栈项目：BigDemoStudio
 - [项目github账号](https://github.com/BigDemoStudio/)
