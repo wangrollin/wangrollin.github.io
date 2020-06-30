@@ -1,6 +1,6 @@
 <!-- ![logo](_media/logo.jpeg ':size=5%') -->
 
-# BigDemoStudio <small>0.0.1</small>
+# 💥BigDemoStudio <small>0.1.0</small>
 
 > 带初学者见识大场面
 
@@ -9,6 +9,6 @@
 
 
 [GitHub](https://github.com/BigDemoStudio)
-[Get Started](/docs/开发者知识文档/_sidebar.md)
+[Get Started](/docs/进展/2020.md)
 
 ![color](#EFEFEF)
