@@ -570,6 +570,9 @@
             * [init](/docs/开发者知识文档/03_阿里云/00_其他云/腾讯云/init.md)
         * 金山云
             * [金山云](/docs/开发者知识文档/03_阿里云/00_其他云/金山云/金山云.md)
+    * 其他厂商的服务
+        * CDN
+            * [jsdelivr](/docs/开发者知识文档/03_阿里云/01_其他厂商的服务/CDN/jsdelivr.md)
     * CICD服务
         * [codepipeline](/docs/开发者知识文档/03_阿里云/CICD服务/codepipeline.md)
     * 云存储
