@@ -138,7 +138,7 @@ sudo ./queryserver.py start
     <groupId>org.apache.phoenix</groupId>
     <artifactId>phoenix-queryserver-client</artifactId>
     <version>5.0.0-HBase-2.0</version>
-</dependency
+</dependency>
 ```
 
 

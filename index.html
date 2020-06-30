@@ -19,6 +19,7 @@
   </div>
   <nav></nav>
   <div id="app"></div>
+
   <script>
     window.$docsify = {
 
@@ -36,8 +37,8 @@
       // 侧边栏配置
       loadSidebar: true, // hhh
       //hideSidebar: true,
-      subMaxLevel: 1,
-      maxLevel: 1,
+      subMaxLevel: 0,
+      maxLevel: 0,
 
       auto2top: true,
       autoHeader: true,
@@ -60,6 +61,12 @@
         'cache-control': 'max-age=1',
       },
 
+      footer: {
+        copy: '<span>&copy; 2020</span>',
+        auth: 'BigDemoStudio',
+        style: 'text-align: left;'
+      },
+
       pagination: {
         // previousText: '上一章节',
         // nextText: '下一章节',
@@ -68,17 +75,31 @@
       },
 
     }
+  </script>
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.zhimg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="//unpkg.zhimg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
-  </script>
-  <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.zhimg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="//unpkg.zhimg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  </script>
+<script src="//unpkg.zhimg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+<!-- html css js docsify自带prism高亮  -->
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-jason.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-liquid.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-ruby.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-scss.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-typescript.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-docker.min.js"></script>
 
 </body>
 
