@@ -49,13 +49,24 @@ public class SidebarGenerator {
             }
 
             if (fileOrDir.isDirectory()) {
-                stream.write((indent + prefix + "🗂" +fileOrDir.getName().substring(fileOrDir.getName().indexOf("_") + 1)
-                        + System.lineSeparator()).getBytes());
+                
+                String nameToShow = fileOrDir.getName();
+                if (nameToShow.matches("\\d*_.*")) {
+                    nameToShow = nameToShow.substring(fileOrDir.getName().indexOf("_") + 1);
+                }
+
+                stream.write((indent + prefix + "🗂" + nameToShow + System.lineSeparator()).getBytes());
                 print(fileOrDir, indent + "    ", stream);
             } else {
+
+                String nameToShow = fileOrDir.getName().substring(0, fileOrDir.getName().indexOf(".md"));
+
+                if (nameToShow.matches("\\d*_.*")) {
+                    nameToShow = nameToShow.substring(fileOrDir.getName().indexOf("_") + 1);
+                }
+
                 stream.write((indent + prefix + "[📝"
-                        + fileOrDir.getName().substring(fileOrDir.getName().indexOf("_") + 1,
-                        fileOrDir.getName().indexOf(".md"))
+                        + nameToShow
                         + "](" + fileOrDir.getAbsolutePath().substring(fileOrDir.getPath().indexOf("/docs")) + ")"
                         + System.lineSeparator()).getBytes());
             }
