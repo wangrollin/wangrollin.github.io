@@ -98,6 +98,8 @@
         * 其他前台脚本语言
             * [CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/其他前台脚本语言/CoffeeScript.md)
             * [Dart](/docs/开发者知识文档/01_软件开发/01_前端/其他前台脚本语言/Dart.md)
+        * 常见问题
+            * [网站小图标](/docs/开发者知识文档/01_软件开发/01_前端/常见问题/网站小图标.md)
     * 后端
         * JHipster
             * [jHipster](/docs/开发者知识文档/01_软件开发/02_后端/JHipster/jHipster.md)
