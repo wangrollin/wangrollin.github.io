@@ -81,6 +81,7 @@
                     * 🗂集成测试
                         * [📝Protractor](/docs/开发者知识文档/01_软件开发/01_前端/js/库和框架/测试框架/集成测试/Protractor.md)
             * 🗂打包工具
+                * [📝snowpack](/docs/开发者知识文档/01_软件开发/01_前端/js/打包工具/snowpack.md)
                 * [📝webpack](/docs/开发者知识文档/01_软件开发/01_前端/js/打包工具/webpack.md)
                 * [📝yoeman](/docs/开发者知识文档/01_软件开发/01_前端/js/打包工具/yoeman.md)
         * 🗂中间件
@@ -343,7 +344,10 @@
         * 🗂分析展示
             * [📝Jupyter](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/Jupyter.md)
             * [📝Zeppelin](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/Zeppelin.md)
+            * [📝dataV](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/dataV.md)
             * [📝esForHadoop](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/esForHadoop.md)
+            * [📝jeecy](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/jeecy.md)
+            * [📝vueDataV](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/vueDataV.md)
         * 🗂SQL和脚本引擎
             * [📝hive](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_SQL和脚本引擎/hive.md)
             * [📝pig](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_SQL和脚本引擎/pig.md)
