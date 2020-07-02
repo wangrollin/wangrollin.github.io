@@ -97,8 +97,8 @@ Document Object Model(DOM)
 
 - 方法
   - document.getElementByID 速度最快
-  - document.QuerySelector 速度也快，同时更灵活
-  - document.QuerySelectorAll 速度也快，同时更灵活
+  - document.QuerySelector 速度也快，同时更灵活，参数使用css语法
+  - document.QuerySelectorAll 速度也快，同时更灵活，参数使用css语法
 - 属性
   - value
   - checked
@@ -115,27 +115,294 @@ Document Object Model(DOM)
 
 #### Text fields and select boxes
 
-
+在浏览器console里使用 dom api来获取html数据
 
 #### Radio buttons and checkboxes
 
+属性：checked(true, false)
+
 #### Changing submission with events
+
+对事件作出反应，就会有交互性
+
+完全由页面跳转来完成后台调用 -> 部分页面跳转调用后台 + 部分js调用后台 -> 全部js调用后台（单页面应用）
+
+```javascript
+(function() {
+  "use strict";
+
+  document
+    .getElementById("cart-hplus")
+    .addEventListener("submit", estimateTotal);
+
+  function estimateTotal(event) {
+    event.preventDefault;
+
+    console.log("You submitted the form");
+  }
+})();
+```
 
 #### Starting to validate input
 
+```javascript
+(function() {
+  "use strict";
+
+  document
+    .getElementById("cart-hplus")
+    .addEventListener("submit", estimateTotal);
+
+  function estimateTotal(event) {
+    event.preventDefault();
+
+    var state = document.getElementById("s-state");
+
+    if (state.value === "") {
+      alert("Please choose your shipping state");
+
+      // 在alert点掉之后出现
+      state.focus();
+
+      return;
+    }
+  }
+})();
+```
+
+
 #### Disabling and enabling fields
+
+```javascript
+(function() {
+  "use strict";
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var state = document.getElementById("s-state");
+
+    document
+      .getElementById("cart-hplus")
+      .addEventListener("submit", estimateTotal);
+
+    var btnEstimate = document.getElementById("btn-estimate");
+
+    btnEstimate.disabled = true;
+
+    state.addEventListener("change", function() {
+      if (state.value === "") {
+        btnEstimate.disabled = true;
+      } else {
+        btnEstimate.disabled = false;
+      }
+    });
+
+    // 避免js加载陷阱，所以还是要加上这个
+    function estimateTotal(event) {
+      event.preventDefault();
+
+      if (state.value === "") {
+        alert("Please choose your shipping state");
+
+        state.focus();
+
+        return;
+      }
+    }
+  });
+})();
+```
+
 
 #### The basics of sanitizing user input
 
+```javascript
+(function() {
+  "use strict";
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var state = document.getElementById("s-state");
+
+    document
+      .getElementById("cart-hplus")
+      .addEventListener("submit", estimateTotal);
+
+    var btnEstimate = document.getElementById("btn-estimate");
+
+    btnEstimate.disabled = true;
+
+    state.addEventListener("change", function() {
+      if (state.value === "") {
+        btnEstimate.disabled = true;
+      } else {
+        btnEstimate.disabled = false;
+      }
+    });
+
+    function estimateTotal(event) {
+      event.preventDefault();
+
+      if (state.value === "") {
+        alert("Please choose your shipping state");
+
+        state.focus();
+
+        return;
+      }
+
+      var itemBball =
+          parseInt(document.getElementById("txt-q-bball").value, 10) || 0,
+        itemJersey =
+          parseInt(document.getElementById("txt-q-jersey").value, 10) || 0,
+        itemPower =
+          parseInt(document.getElementById("txt-q-power").value, 10) || 0,
+        shippingState = state.value,
+        shippingMethod =
+          document.querySelector("[name=r_method]:checked").value || "";
+
+      var totalQty = itemBball + itemJersey + itemPower,
+        shippingCostPer,
+        shippingCost,
+        taxFactor = 1,
+        estimate,
+        totalItemPrice = 90 * itemBball + 25 * itemJersey + 30 * itemPower;
+
+      if (shippingState === "CA") {
+        taxFactor = 1.075;
+      }
+
+      switch (shippingMethod) {
+        case "usps":
+          shippingCostPer = 2;
+          break;
+        case "ups":
+          shippingCostPer = 3;
+          break;
+        default:
+          shippingCostPer = 0;
+          break;
+      }
+
+      shippingCost = shippingCostPer * totalQty;
+
+      estimate = "$" + (totalItemPrice * taxFactor + shippingCost).toFixed(2);
+
+      document.getElementById("txt-estimate").value = estimate;
+    }
+  });
+})();
+```
+
+
 #### Get and set with innerHTML
 
-#### Challenge: Add and use more fields
+```javascript
+(function () {
+  "use strict";
 
-#### Solution: Add and use more fields
+  document.addEventListener("DOMContentLoaded", function () {
+    var state = document.getElementById("s-state");
+
+    document
+      .getElementById("cart-hplus")
+      .addEventListener("submit", estimateTotal);
+
+    var btnEstimate = document.getElementById("btn-estimate");
+
+    btnEstimate.disabled = true;
+
+    state.addEventListener("change", function () {
+      if (state.value === "") {
+        btnEstimate.disabled = true;
+      } else {
+        btnEstimate.disabled = false;
+      }
+    });
+
+    function estimateTotal(event) {
+      event.preventDefault();
+
+      if (state.value === "") {
+        alert("Please choose your shipping state");
+
+        state.focus();
+
+        return;
+      }
+
+      var itemBball =
+          parseInt(document.getElementById("txt-q-bball").value, 10) || 0,
+        itemJersey =
+          parseInt(document.getElementById("txt-q-jersey").value, 10) || 0,
+        itemPower =
+          parseInt(document.getElementById("txt-q-power").value, 10) || 0,
+        shippingState = state.value,
+        shippingMethod =
+          document.querySelector("[name=r_method]:checked").value || "";
+
+      var totalQty = itemBball + itemJersey + itemPower,
+        shippingCostPer,
+        shippingCost,
+        taxFactor = 1,
+        estimate,
+        totalItemPrice = 90 * itemBball + 25 * itemJersey + 30 * itemPower;
+
+      if (shippingState === "CA") {
+        taxFactor = 1.075;
+      }
+
+      switch (shippingMethod) {
+        case "usps":
+          shippingCostPer = 2;
+          break;
+        case "ups":
+          shippingCostPer = 3;
+          break;
+        default:
+          shippingCostPer = 0;
+          break;
+      }
+
+      shippingCost = shippingCostPer * totalQty;
+
+      estimate = "$" + (totalItemPrice * taxFactor + shippingCost).toFixed(2);
+
+      document.getElementById("txt-estimate").value = estimate;
+
+      var results = document.getElementById("results");
+
+      results.innerHTML = "Total items: " + totalQty + "<br>";
+      results.innerHTML +=
+        "Total shipping: $" + shippingCost.toFixed(2) + "<br>";
+      results.innerHTML +=
+        "Tax: " +
+        ((taxFactor - 1) * 100).toFixed(2) +
+        "% (" +
+        shippingState +
+        ")<br>";
+
+      // total items
+      // total shipping cost
+      // tax
+    }
+  });
+})();
+```
+
+```javascript
+.innerHtml 保留了html标签
+.textContent 把html标签去掉了，只有text
+```
+
 
 ### 4. A Matter of Time
 
 #### Use JavaScript to tell time
+
+
+
+
+
+
 
 #### Get pieces of time
 
