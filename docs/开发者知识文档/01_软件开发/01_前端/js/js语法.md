@@ -53,14 +53,15 @@ browser develop tool：console， debugger
 
 ```javascript
 (function () {
-  "use strict";
+    "use strict";
 
-  var variable1 = 2,
-    variable2 = "Hello";
+    var variable1 = 2,
+        variable2 = "Hello";
 
-  console.log("Variable 1, and variable 2", variable1, variable2);
-  console.error("Variable 2", variable2);
+    console.log("Variable 1, and variable 2", variable1, variable2);
+    console.error("Variable 2", variable2);
 })();
+
 ```
 
 #### Jargon 行话
@@ -128,168 +129,184 @@ Document Object Model(DOM)
 完全由页面跳转来完成后台调用 -> 部分页面跳转调用后台 + 部分js调用后台 -> 全部js调用后台（单页面应用）
 
 ```javascript
-(function() {
-  "use strict";
+(function () {
+    "use strict";
 
-  document
-    .getElementById("cart-hplus")
-    .addEventListener("submit", estimateTotal);
+    document
+        .getElementById("cart-hplus")
+        .addEventListener("submit", estimateTotal);
 
-  function estimateTotal(event) {
-    event.preventDefault;
+    function estimateTotal(event) {
+        event.preventDefault;
 
-    console.log("You submitted the form");
-  }
+        console.log("You submitted the form");
+    }
 })();
+
 ```
 
 #### Starting to validate input
 
 ```javascript
-(function() {
-  "use strict";
+(function () {
+    "use strict";
 
-  document
-    .getElementById("cart-hplus")
-    .addEventListener("submit", estimateTotal);
+    document
+        .getElementById("cart-hplus")
+        .addEventListener("submit", estimateTotal);
 
-  function estimateTotal(event) {
-    event.preventDefault();
+    function estimateTotal(event) {
+        event.preventDefault();
 
-    var state = document.getElementById("s-state");
+        var state = document.getElementById("s-state");
 
-    if (state.value === "") {
-      alert("Please choose your shipping state");
+        if (state.value === "") {
+            alert("Please choose your shipping state");
 
-      // 在alert点掉之后出现
-      state.focus();
+            // 在alert点掉之后出现
+            state.focus();
 
-      return;
+            return;
+        }
     }
-  }
 })();
+
 ```
 
 
 #### Disabling and enabling fields
 
 ```javascript
-(function() {
-  "use strict";
+(function () {
+    "use strict";
 
-  document.addEventListener("DOMContentLoaded", function() {
-    var state = document.getElementById("s-state");
+    document.addEventListener("DOMContentLoaded", function () {
+        var state = document.getElementById("s-state");
 
-    document
-      .getElementById("cart-hplus")
-      .addEventListener("submit", estimateTotal);
+        document
+            .getElementById("cart-hplus")
+            .addEventListener("submit", estimateTotal);
 
-    var btnEstimate = document.getElementById("btn-estimate");
+        var btnEstimate = document.getElementById("btn-estimate");
 
-    btnEstimate.disabled = true;
-
-    state.addEventListener("change", function() {
-      if (state.value === "") {
         btnEstimate.disabled = true;
-      } else {
-        btnEstimate.disabled = false;
-      }
+
+        state.addEventListener("change", function () {
+            if (state.value === "") {
+                btnEstimate.disabled = true;
+            } else {
+                btnEstimate.disabled = false;
+            }
+        });
+
+        // 避免js加载陷阱，所以还是要加上这个
+        function estimateTotal(event) {
+            event.preventDefault();
+
+            if (state.value === "") {
+                alert("Please choose your shipping state");
+
+                state.focus();
+
+                return;
+            }
+        }
     });
-
-    // 避免js加载陷阱，所以还是要加上这个
-    function estimateTotal(event) {
-      event.preventDefault();
-
-      if (state.value === "") {
-        alert("Please choose your shipping state");
-
-        state.focus();
-
-        return;
-      }
-    }
-  });
 })();
+
 ```
 
 
 #### The basics of sanitizing user input
 
 ```javascript
-(function() {
-  "use strict";
+(function () {
+    "use strict";
 
-  document.addEventListener("DOMContentLoaded", function() {
-    var state = document.getElementById("s-state");
+    document.addEventListener("DOMContentLoaded", function () {
+        var state = document.getElementById("s-state");
 
-    document
-      .getElementById("cart-hplus")
-      .addEventListener("submit", estimateTotal);
+        document
+            .getElementById("cart-hplus")
+            .addEventListener("submit", estimateTotal);
 
-    var btnEstimate = document.getElementById("btn-estimate");
+        var btnEstimate = document.getElementById("btn-estimate");
 
-    btnEstimate.disabled = true;
-
-    state.addEventListener("change", function() {
-      if (state.value === "") {
         btnEstimate.disabled = true;
-      } else {
-        btnEstimate.disabled = false;
-      }
+
+        state.addEventListener("change", function () {
+            if (state.value === "") {
+                btnEstimate.disabled = true;
+            } else {
+                btnEstimate.disabled = false;
+            }
+        });
+
+        function estimateTotal(event) {
+            event.preventDefault();
+
+            if (state.value === "") {
+                alert("Please choose your shipping state");
+
+                state.focus();
+
+                return;
+            }
+
+            var itemBball =
+                    parseInt(
+                        document.getElementById("txt-q-bball").value,
+                        10
+                    ) || 0,
+                itemJersey =
+                    parseInt(
+                        document.getElementById("txt-q-jersey").value,
+                        10
+                    ) || 0,
+                itemPower =
+                    parseInt(
+                        document.getElementById("txt-q-power").value,
+                        10
+                    ) || 0,
+                shippingState = state.value,
+                shippingMethod =
+                    document.querySelector("[name=r_method]:checked").value ||
+                    "";
+
+            var totalQty = itemBball + itemJersey + itemPower,
+                shippingCostPer,
+                shippingCost,
+                taxFactor = 1,
+                estimate,
+                totalItemPrice =
+                    90 * itemBball + 25 * itemJersey + 30 * itemPower;
+
+            if (shippingState === "CA") {
+                taxFactor = 1.075;
+            }
+
+            switch (shippingMethod) {
+                case "usps":
+                    shippingCostPer = 2;
+                    break;
+                case "ups":
+                    shippingCostPer = 3;
+                    break;
+                default:
+                    shippingCostPer = 0;
+                    break;
+            }
+
+            shippingCost = shippingCostPer * totalQty;
+
+            estimate =
+                "$" + (totalItemPrice * taxFactor + shippingCost).toFixed(2);
+
+            document.getElementById("txt-estimate").value = estimate;
+        }
     });
-
-    function estimateTotal(event) {
-      event.preventDefault();
-
-      if (state.value === "") {
-        alert("Please choose your shipping state");
-
-        state.focus();
-
-        return;
-      }
-
-      var itemBball =
-          parseInt(document.getElementById("txt-q-bball").value, 10) || 0,
-        itemJersey =
-          parseInt(document.getElementById("txt-q-jersey").value, 10) || 0,
-        itemPower =
-          parseInt(document.getElementById("txt-q-power").value, 10) || 0,
-        shippingState = state.value,
-        shippingMethod =
-          document.querySelector("[name=r_method]:checked").value || "";
-
-      var totalQty = itemBball + itemJersey + itemPower,
-        shippingCostPer,
-        shippingCost,
-        taxFactor = 1,
-        estimate,
-        totalItemPrice = 90 * itemBball + 25 * itemJersey + 30 * itemPower;
-
-      if (shippingState === "CA") {
-        taxFactor = 1.075;
-      }
-
-      switch (shippingMethod) {
-        case "usps":
-          shippingCostPer = 2;
-          break;
-        case "ups":
-          shippingCostPer = 3;
-          break;
-        default:
-          shippingCostPer = 0;
-          break;
-      }
-
-      shippingCost = shippingCostPer * totalQty;
-
-      estimate = "$" + (totalItemPrice * taxFactor + shippingCost).toFixed(2);
-
-      document.getElementById("txt-estimate").value = estimate;
-    }
-  });
 })();
+
 ```
 
 
@@ -297,95 +314,108 @@ Document Object Model(DOM)
 
 ```javascript
 (function () {
-  "use strict";
+    "use strict";
 
-  document.addEventListener("DOMContentLoaded", function () {
-    var state = document.getElementById("s-state");
+    document.addEventListener("DOMContentLoaded", function () {
+        var state = document.getElementById("s-state");
 
-    document
-      .getElementById("cart-hplus")
-      .addEventListener("submit", estimateTotal);
+        document
+            .getElementById("cart-hplus")
+            .addEventListener("submit", estimateTotal);
 
-    var btnEstimate = document.getElementById("btn-estimate");
+        var btnEstimate = document.getElementById("btn-estimate");
 
-    btnEstimate.disabled = true;
-
-    state.addEventListener("change", function () {
-      if (state.value === "") {
         btnEstimate.disabled = true;
-      } else {
-        btnEstimate.disabled = false;
-      }
+
+        state.addEventListener("change", function () {
+            if (state.value === "") {
+                btnEstimate.disabled = true;
+            } else {
+                btnEstimate.disabled = false;
+            }
+        });
+
+        function estimateTotal(event) {
+            event.preventDefault();
+
+            if (state.value === "") {
+                alert("Please choose your shipping state");
+
+                state.focus();
+
+                return;
+            }
+
+            var itemBball =
+                    parseInt(
+                        document.getElementById("txt-q-bball").value,
+                        10
+                    ) || 0,
+                itemJersey =
+                    parseInt(
+                        document.getElementById("txt-q-jersey").value,
+                        10
+                    ) || 0,
+                itemPower =
+                    parseInt(
+                        document.getElementById("txt-q-power").value,
+                        10
+                    ) || 0,
+                shippingState = state.value,
+                shippingMethod =
+                    document.querySelector("[name=r_method]:checked").value ||
+                    "";
+
+            var totalQty = itemBball + itemJersey + itemPower,
+                shippingCostPer,
+                shippingCost,
+                taxFactor = 1,
+                estimate,
+                totalItemPrice =
+                    90 * itemBball + 25 * itemJersey + 30 * itemPower;
+
+            if (shippingState === "CA") {
+                taxFactor = 1.075;
+            }
+
+            switch (shippingMethod) {
+                case "usps":
+                    shippingCostPer = 2;
+                    break;
+                case "ups":
+                    shippingCostPer = 3;
+                    break;
+                default:
+                    shippingCostPer = 0;
+                    break;
+            }
+
+            shippingCost = shippingCostPer * totalQty;
+
+            estimate =
+                "$" + (totalItemPrice * taxFactor + shippingCost).toFixed(2);
+
+            document.getElementById("txt-estimate").value = estimate;
+
+            var results = document.getElementById("results");
+
+            results.innerHTML = "Total items: " + totalQty + "<br>";
+            results.innerHTML +=
+                "Total shipping: $" + shippingCost.toFixed(2) + "<br>";
+            results.innerHTML +=
+                "Tax: " +
+                ((taxFactor - 1) * 100).toFixed(2) +
+                "% (" +
+                shippingState +
+                ")<br>";
+
+            // total items
+            // total shipping cost
+            // tax
+        }
     });
-
-    function estimateTotal(event) {
-      event.preventDefault();
-
-      if (state.value === "") {
-        alert("Please choose your shipping state");
-
-        state.focus();
-
-        return;
-      }
-
-      var itemBball =
-          parseInt(document.getElementById("txt-q-bball").value, 10) || 0,
-        itemJersey =
-          parseInt(document.getElementById("txt-q-jersey").value, 10) || 0,
-        itemPower =
-          parseInt(document.getElementById("txt-q-power").value, 10) || 0,
-        shippingState = state.value,
-        shippingMethod =
-          document.querySelector("[name=r_method]:checked").value || "";
-
-      var totalQty = itemBball + itemJersey + itemPower,
-        shippingCostPer,
-        shippingCost,
-        taxFactor = 1,
-        estimate,
-        totalItemPrice = 90 * itemBball + 25 * itemJersey + 30 * itemPower;
-
-      if (shippingState === "CA") {
-        taxFactor = 1.075;
-      }
-
-      switch (shippingMethod) {
-        case "usps":
-          shippingCostPer = 2;
-          break;
-        case "ups":
-          shippingCostPer = 3;
-          break;
-        default:
-          shippingCostPer = 0;
-          break;
-      }
-
-      shippingCost = shippingCostPer * totalQty;
-
-      estimate = "$" + (totalItemPrice * taxFactor + shippingCost).toFixed(2);
-
-      document.getElementById("txt-estimate").value = estimate;
-
-      var results = document.getElementById("results");
-
-      results.innerHTML = "Total items: " + totalQty + "<br>";
-      results.innerHTML +=
-        "Total shipping: $" + shippingCost.toFixed(2) + "<br>";
-      results.innerHTML +=
-        "Tax: " +
-        ((taxFactor - 1) * 100).toFixed(2) +
-        "% (" +
-        shippingState +
-        ")<br>";
-
-      // total items
-      // total shipping cost
-      // tax
-    }
-  });
 })();
+
 ```
 
 ```javascript
@@ -398,41 +428,461 @@ Document Object Model(DOM)
 
 #### Use JavaScript to tell time
 
+```javascript
+(function () {
+    "use strict";
 
+    document.addEventListener("DOMContentLoaded", function () {
+        var c = document.getElementById("current-time");
 
+        var d = new Date();
 
-
+        c.innerHTML = d.toTimeString();
+    });
+})();
+```
 
 
 #### Get pieces of time
 
+```javascript
+(function () {
+    "use strict";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var c = document.getElementById("current-time");
+
+        var d = new Date();
+
+        var hours = d.getHours();
+        if (hours > 12) {
+            hours -= 12;
+        }
+
+        c.innerHTML = hours + ":" + d.getMinutes();
+    });
+})();
+```
+
+
 #### Use timers to update the page
+
+```javascript
+(function () {
+    "use strict";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var c = document.getElementById("current-time");
+
+        setInterval(updateTime, 1000);
+
+        function updateTime() {
+            var d = new Date();
+
+            var hours = d.getHours();
+            if (hours > 12) {
+                hours -= 12;
+            }
+
+            var sep = ":";
+            if (d.getSeconds() % 2 === 1) sep = " ";
+
+            c.innerHTML = hours + sep + d.getMinutes();
+        }
+    });
+})();
+```
+
 
 #### Polish the clock
 
-#### Challenge: Add the date
+```javascript
+(function () {
+    "use strict";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var c = document.getElementById("current-time");
+
+        setInterval(updateTime, 1000);
+
+        function updateTime() {
+            var d = new Date();
+
+            var hours = d.getHours(),
+                minutes = d.getMinutes(),
+                ampm = "AM";
+
+            if (hours > 12) {
+                hours -= 12;
+                ampm = "PM";
+            } else if (hours === 0) {
+                hours = 12;
+            }
+
+            if (minutes < 10) {
+                minutes = "0" + minutes;
+            }
+
+            var sepClass = "";
+            if (d.getSeconds() % 2 === 1) sepClass = "trans";
+
+            var sep = "<span class='" + sepClass + "'>:</span>";
+
+            c.innerHTML = hours + sep + minutes + " " + ampm;
+        }
+    });
+})();
+```
+
 
 #### Solution: Add the date
 
+```javascript
+(function () {
+  "use strict";
+
+  document.addEventListener("DOMContentLoaded", function () {
+      var currentTime = document.getElementById("current-time"),
+          currentDate = document.getElementById("current-date");
+
+      setInterval(function () {
+          var d = new Date();
+
+          var hours = d.getHours(),
+              minutes = d.getMinutes(),
+              month = formatMonth(d.getMonth()),
+              date = d.getDate(),
+              ampm = "AM";
+
+          if (hours > 12) {
+              hours -= 12;
+              ampm = "PM";
+          } else if (hours === 0) {
+              hours = 12;
+          }
+
+          if (minutes < 10) {
+              minutes = "0" + minutes;
+          }
+
+          var sepClass = "";
+          if (d.getSeconds() % 2 === 1) sepClass = "trans";
+
+          var sep = '<span class="' + sepClass + '">:</span>';
+
+          currentTime.innerHTML = hours + sep + minutes + " " + ampm;
+          currentDate.textContent = month + " " + date;
+      }, 1000);
+
+      function formatMonth(m) {
+          m = parseInt(m, 10);
+
+          if (m < 0) {
+              m = 0;
+          } else if (m > 11) {
+              m = 11;
+          }
+
+          /*
+      var monthName;
+      switch(m) {
+        case 0 :
+          monthName = "January";
+          break;
+        case 1 :
+          monthName = "February";
+          break;
+        // and so on...
+      }
+    */
+
+          var monthNames = [
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December",
+          ];
+
+          return monthNames[m];
+      }
+  });
+})();
+```
+
+
 #### Filling in gaps with Moment.js
+
+```javascript
+(function () {
+    "use strict";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var currentTime = document.getElementById("current-time"),
+            currentDate = document.getElementById("current-date");
+
+        setInterval(function () {
+            // var dm = moment();
+            var d = new Date();
+            date.plugin("meridiem");
+
+            var sepClass = "";
+            if (d.getSeconds() % 2 === 1) sepClass = "trans";
+
+            var sep = '<span class="' + sepClass + '">:</span>';
+
+            currentTime.innerHTML =
+                date.format(d, "h") + sep + date.format(d, "mm AA");
+            currentDate.textContent = date.format(d, "MMMM D");
+        }, 1000);
+    });
+})();
+```
+
 
 ### 5. Consuming a Third-Party API
 
 #### What is an API?
 
+[bing的内嵌地图](https://www.bing.com/maps/embed-a-map?src=SHELL&cp=22.404211197667138~114.52010172663205&lvl=10&form=LMLTEW)
+
+
 #### Create a map
+
+[bing maps portal 网站](https://www.bingmapsportal.com/)
+
+[Bing Maps 文档](https://docs.microsoft.com/en-us/bingmaps/)
+
+```javascript
+var bMapAPIKey = "YOUR_API_KEY";
+
+function initMap() {
+    "use strict";
+
+    var map = new Microsoft.Maps.Map("#hplus-map", {
+        // credentials: 'Your Bing Maps Key',
+        center: new Microsoft.Maps.Location(51.50632, -0.12714),
+        mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+        zoom: 10,
+    });
+}
+```
+
 
 #### Change the center point
 
+[gpsvisualizer](https://www.gpsvisualizer.com/)
+
+geocoding
+
+
 #### Change the type and zoom level
+
+```html
+<div id="hplus-map"></div>
+
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=initMap&key=YOUR_API_KEY' async defer></script>
+```
+
+
+```javascript
+var bMapAPIKey = "YOUR_API_KEY";
+
+var map;
+function initMap() {
+    "use strict";
+
+    map = new Microsoft.Maps.Map("#hplus-map", {
+        credentials: bMapAPIKey,
+        center: new Microsoft.Maps.Location(34.10309, -118.326493),
+        mapTypeId: Microsoft.Maps.MapTypeId.road,
+        zoom: 14,
+        disableScrollWheelZoom: true,
+        disablePanning: true,
+    });
+}
+```
+
 
 #### Add a marker
 
+```javascript
+var bMapAPIKey = "YOUR_API_KEY";
+
+var map;
+function initMap() {
+    "use strict";
+
+    var storeLocation = new Microsoft.Maps.Location(34.10309, -118.326493);
+
+    map = new Microsoft.Maps.Map("#hplus-map", {
+        credentials: bMapAPIKey,
+        center: storeLocation,
+        mapTypeId: Microsoft.Maps.MapTypeId.road,
+        zoom: 14,
+        disableScrollWheelZoom: true,
+        disablePanning: true,
+    });
+
+    var pin = new Microsoft.Maps.Pushpin(storeLocation, {
+        title: "H+ Sport in Hollywood",
+        subTitle: "(Actually Capitol Records)",
+    });
+
+    //Add the pushpin to the map
+    map.entities.push(pin);
+}
+```
+
+
 #### Add a popup to the marker
 
-#### Challenge: Modify the map
+```javascript
+var bMapAPIKey = "YOUR_API_KEY";
+
+var map;
+function initMap() {
+    "use strict";
+
+    var storeLocation = new Microsoft.Maps.Location(34.10309, -118.326493);
+
+    map = new Microsoft.Maps.Map("#hplus-map", {
+        credentials: bMapAPIKey,
+        center: storeLocation,
+        mapTypeId: Microsoft.Maps.MapTypeId.road,
+        zoom: 14,
+        disableScrollWheelZoom: true,
+        disablePanning: true,
+    });
+
+    //Create an infobox at the center of the map but don't show it.
+    var infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+        visible: false,
+    });
+
+    //Assign the infobox to a map instance.
+    infobox.setMap(map);
+
+    var pin = new Microsoft.Maps.Pushpin(storeLocation, {
+        title: "H+ Sport in Hollywood",
+        subTitle: "(Actually Capitol Records)",
+    });
+    pin.metadata = {
+        title: "H+ Sport in Hollywood",
+        description: "1750 Vine St, Los Angeles, CA",
+    };
+
+    //Add the pushpin to the map
+    map.entities.push(pin);
+
+    Microsoft.Maps.Events.addHandler(pin, "click", function pushpinClicked(e) {
+        //Make sure the infobox has metadata to display.
+        if (e.target.metadata) {
+            //Set the infobox options with the metadata of the pushpin.
+            infobox.setOptions({
+                location: e.target.getLocation(),
+                title: e.target.metadata.title,
+                description: e.target.metadata.description,
+                visible: true,
+            });
+        }
+    });
+}
+```
+
 
 #### Solution: Modify the map
+
+```javascript
+var bMapAPIKey = "YOUR_API_KEY";
+
+var map;
+function initMap() {
+    "use strict";
+
+    var storeLocationHollywood = new Microsoft.Maps.Location(
+            34.1031131,
+            -118.326343
+        ),
+        storeLocationChavez = new Microsoft.Maps.Location(
+            34.073873,
+            -118.24077740000001
+        ),
+        centerPoint = new Microsoft.Maps.Location(
+            34.0937772394951,
+            -118.27888622568359
+        );
+
+    map = new Microsoft.Maps.Map("#hplus-map", {
+        credentials: bMapAPIKey,
+        center: centerPoint,
+        zoom: 12,
+        mapTypeId: Microsoft.Maps.MapTypeId.road,
+        disableScrollWheelZoom: true,
+        disablePanning: true,
+    });
+
+    // Create infobox, which is reusable
+    var infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+        visible: false,
+    });
+
+    // Assign the infobox to a map instance.
+    infobox.setMap(map);
+
+    // add a pin for the Hollywood location
+    var pinHollywood = new Microsoft.Maps.Pushpin(storeLocationHollywood, {
+        title: "H+ Sport in Hollywood",
+        subTitle: "(actually Capitol Records)",
+    });
+    Microsoft.Maps.Events.addHandler(pinHollywood, "click", pinClick);
+
+    pinHollywood.metadata = {
+        title: "H+ Sport Hollywood",
+        description: "1750 Vine St, Los Angeles, CA",
+    };
+
+    map.entities.push(pinHollywood);
+
+    // add a pin for the Chavez Ravine location
+    var pinChavez = new Microsoft.Maps.Pushpin(storeLocationChavez, {
+        title: "H+ Sport in Chavez Ravine",
+        subTitle: "(actually Dodger Stadium)",
+    });
+
+    Microsoft.Maps.Events.addHandler(pinChavez, "click", pinClick);
+
+    pinChavez.metadata = {
+        title: "H+ Sport Chavez Ravine",
+        description: "1000 Vin Scully Ave<br>Los Angeles, CA",
+    };
+
+    map.entities.push(pinChavez);
+
+    function pinClick(e) {
+        //Make sure the infobox has metadata to display.
+        if (e.target.metadata) {
+            //Set the infobox options with the metadata of the pushpin.
+            infobox.setOptions({
+                location: e.target.getLocation(),
+                title: e.target.metadata.title,
+                description: e.target.metadata.description,
+                visible: true,
+            });
+        }
+    }
+}
+
+// https://dev.virtualearth.net/REST/v1/Locations?q=1000 Vin Scully Ave, Los Angeles,CA&key=YOUR_KEY_HERE
+```
+
 
 ### 6. Better User Experience with an API
 
@@ -440,8 +890,78 @@ Document Object Model(DOM)
 
 #### Fetching data from a third party API
 
+```javascript
+(function () {
+    "use strict";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("body").classList.add("js");
+
+        var zipField = document.getElementById("billing_postcode"),
+            cityField = document.getElementById("billing_city"),
+            stateField = document.getElementById("billing_state");
+
+        zipField.addEventListener("blur", function queryPostalCode() {
+            var zipCode = parseInt(zipField.value, 10);
+            if (zipCode <= 0 || zipCode > 99999) return;
+
+            // making the query
+
+            cityField.parentNode.parentNode.style.display = "block";
+            stateField.parentNode.parentNode.style.display = "block";
+        });
+    });
+})();
+```
+
+
 #### Better UX for the checkout page
+
+```javascript
+(function () {
+    "use strict";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("body").classList.add("js");
+
+        var zipField = document.getElementById("billing_postcode"),
+            cityField = document.getElementById("billing_city"),
+            stateField = document.getElementById("billing_state");
+
+        zipField.addEventListener("blur", function queryPostalCode() {
+            var zipCode = parseInt(zipField.value, 10);
+            if (zipCode <= 0 || zipCode > 99999) return;
+
+            // making the query
+            axios
+                .get("../api?zip=" + zipCode)
+                .then(function (response) {
+                    // handle success
+                    console.log(response.data);
+
+                    var state = response.data.abbr;
+                    var city = response.data.city;
+
+                    cityField.value = city;
+                    stateField.value = state;
+
+                    cityField.parentNode.parentNode.style.display = "block";
+                    stateField.parentNode.parentNode.style.display = "block";
+                })
+                .catch(function (error) {
+                    // handle error
+                    console.log(error);
+                });
+        });
+    });
+})();
+```
+
 
 ### 7. Conclusion
 
 #### Next step: More about JavaScript
+
+
+
+
