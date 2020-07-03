@@ -92,6 +92,8 @@
                         * [📝Jest](/docs/开发者知识文档/01_软件开发/01_前端/js/框架/测试框架/单元测试/Jest.md)
                     * 🗂集成测试
                         * [📝Protractor](/docs/开发者知识文档/01_软件开发/01_前端/js/框架/测试框架/集成测试/Protractor.md)
+            * 🗂脚本规范
+                * [📝ECMAScript](/docs/开发者知识文档/01_软件开发/01_前端/js/脚本规范/ECMAScript.md)
         * 🗂中间件
             * 🗂ProgressiveWebApp
                 * [📝ProgressiveWebApp](/docs/开发者知识文档/01_软件开发/01_前端/中间件/ProgressiveWebApp/ProgressiveWebApp.md)
