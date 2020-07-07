@@ -329,10 +329,11 @@
                 * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册和发现/Consul_by_Hashicorp.md)
                 * [📝zookeeper](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册和发现/zookeeper.md)
             * 🗂消息中间件
-                * [📝activemq](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/activemq.md)
-                * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/kafka.md)
-                * [📝rabbitMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/rabbitMQ.md)
-                * [📝rocketMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/rocketMQ.md)
+                * [📝消息中间件概述](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/00_消息中间件概述.md)
+                * [📝activemq](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/01_activemq.md)
+                * [📝rabbitMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/02_rabbitMQ.md)
+                * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/03_kafka.md)
+                * [📝rocketMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/04_rocketMQ.md)
             * 🗂缓存
                 * 🗂分布式缓存
                     * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/Hazelcast.md)
