@@ -5,7 +5,7 @@
 其中路由功能负责将外部请求转发到具体的微服务实例上，是实现外部访问统一入口的基础而过滤器功能则负责对请求的处理过程进行干预，是实现请求校验、服务聚合等功能的基础.
 Zuul和Eureka进行整合，将Zuul自身注册为Eureka服务治理下的应用，同时从Eureka中获得其他微服务的消息，也即以后的访问微服务都是通过Zuul跳转后获得。
  注意：Zuul服务最终还是会注册进Eureka
-  
+
 ### 路由：
  项目加入依赖:
  ```maven
@@ -17,7 +17,7 @@ Zuul和Eureka进行整合，将Zuul自身注册为Eureka服务治理下的应用
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
 </dependency>
-```
+ ```
 因为上文说过Zuul最终会注册进eureka 所以我们这里也依赖了eureka
 
  yml文件:
@@ -49,7 +49,7 @@ public class AppZuul {
     }
 }
 ```
- 
+
 这样 简单的zuul就搭建好了， 启动项目 我们就可以通过zuul然后加上对应的微服务名字访问微服务:
 
 看看eureka上面的微服务名称
@@ -59,7 +59,7 @@ public class AppZuul {
 调用：
 
 ![](Spring-Cloud组件：zuul.assets/pic-20200706-161451.png)
- 
+
  到这里 一个简单的zuul已经搭建好了
  在实际开发当中我们肯定不会是这样通过微服务调用，比如我要调用power 可能只要一个/power就好了 而不是/server-power
  在yml加入以下配置即可:
@@ -72,9 +72,9 @@ zuul:
     myorder:
       serviceId: server-order
       path: /order/**
-```
- 讲道理看意思都看得出来把，my***是自己制定的名字 这个就不解释了
-注意/ **代表是所有层级 / * 是代表一层。 如果是/ * 的话 /power/admin/getUser.do 就不会被路由 。 
+ ```
+ 讲道理看意思都看得出来把，my\*\*\*是自己制定的名字 这个就不解释了
+注意/\*\*代表是所有层级 /\* 是代表一层。 如果是/\* 的话 /power/admin/getUser.do 就不会被路由 。 
 来看效果：
 
 ![](Spring-Cloud组件：zuul.assets/pic-20200706-161619.png)
@@ -175,7 +175,7 @@ public String getRoute() {
 public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
     return null;
 }
-```
+ ```
 这里 会发现有这2个方法需要重写， 那么如何来写呢？ 我们可以查阅官方文档：
 
 这是官方提供的demo 
