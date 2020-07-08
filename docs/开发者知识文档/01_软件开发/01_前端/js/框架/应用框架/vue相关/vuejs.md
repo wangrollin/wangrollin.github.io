@@ -2698,3 +2698,190 @@ npm run build # minified version
 
 [awesome-vue project](https://github.com/vuejs/awesome-vue)
 
+
+
+## Lynda课程：Vue.js Essential Training
+
+### 0. Introduction
+
+#### Using the exercises for this course
+
+[exercise file on github](https://github.com/planetoftheweb/vue-essentials)
+
+```bash
+git clone https://github.com/planetoftheweb/vue-essentials.git
+
+```
+
+
+### 1. Vue.js Overview
+
+#### Basic installation
+
+两种使用方式：
+- 直接在已有的项目中添加vue.js依赖，然后开始使用
+- 使用vue cli创建一个vue项目，对于大型项目比较有用
+
+
+#### Reactive data
+
+reactive是什么意思呢，就是跟着变的意思：一个变量变了，另一个依赖的变量会自动跟着变，而不需要手动去操作
+
+
+#### Binding data to attributes
+
+最佳实践：
+- 对于内容，使用{{ var }}
+- 对于标签属性，使用 :attribute="var"
+
+
+#### Looping through data
+
+属性 v-for
+
+
+#### Conditional data
+
+属性
+- v-if
+- v-else-if
+- v-else
+
+v-for v-if 可以放在同一个div的属性里
+
+
+#### Handing user input
+
+- :value="max"  仅展示，而不负责set
+- v-model="max" 双向传递
+
+
+#### Events and methods
+
+@click="cart.push(item)"
+
+
+### 2. Working with Templates
+
+#### Template interpolations
+
+```html
+<!--会显示string-->
+<span>{{ name }}</span>
+
+<!--会当作html渲染后显示-->
+<span v-html="name"></span>
+
+<!--
+    会显示，然后保持不变，即使name变了也不会重新渲染
+    对该标签和它的子标签有效
+-->
+<span v-once>{{ name }}</span>
+
+<script>
+    name="xxx <b>hello</b>"
+<script>
+
+```
+
+
+#### Binding attributes with v-bind
+
+
+
+
+
+
+
+
+
+
+
+#### Using computed properties
+
+#### Using methods
+
+
+### 3. managing CSS Styles
+
+#### Binding classes with objects and arrays
+
+#### Expressions and conputed classes
+
+#### Toggling computed classes
+
+#### Creating transitions and animations
+
+#### Using an animation framework
+
+#### Working with transition groups
+
+#### namaging styles with javaScript
+
+
+### 4. Digging Deeper
+
+#### Creating filters
+
+#### Toggling elements with a key
+
+#### Categorizing lists
+
+#### Adding computed classes
+
+#### Deleting items and modifiers
+
+
+### 5. Component Based Vue
+
+#### Creating reusable components
+
+#### Using props
+
+#### Prop options
+
+#### Building complex components
+
+#### Emitting events from within components
+
+
+### 6. Building with the CLI
+
+#### Installing projects using the Vue CLI
+
+#### Understanding Vue CLI installations
+
+#### How CLI components load
+
+#### Installing additional modules
+
+#### Testing your module installations
+
+
+### 7. Projects with the Build Tools
+
+#### Creating a component
+
+#### Managing complex child components
+
+#### Using the Chrome DevTools
+
+#### Emitting updates
+
+#### Adding navigation
+
+#### Fixing conponent issues
+
+
+### 8. Using the Vue Router
+
+#### Reorganizing hierarchy
+
+#### Creating a checkout page
+
+#### Building your routes
+
+#### Creating route links
+
+
+### Conclusion
