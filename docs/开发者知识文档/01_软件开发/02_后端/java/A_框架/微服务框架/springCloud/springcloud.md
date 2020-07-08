@@ -12,6 +12,19 @@ http://www.ityouknow.com/springcloud/2018/12/12/spring-cloud-gateway-start.html
 
 # 微服务架构：Spring-Cloud
 
+## 总结
+
+![](springcloud.assets/pic-20200708-165029.png)
+
+spring cloud 把各个组件相互配合起来， 整合成一套成熟的微服务架构体系
+其中， 由eureka做服务注册与发现，很好的把各个服务链接起来
+ribbon+fegin提供了微服务的调用和负载均衡解决方案
+hystrix 负责监控微服务之间的调用情况，以及降级和熔断保护
+Hystrix dashboard监控Hystrix的熔断情况以及监控信息以图形化界面展示
+spring cloud config 提供了统一的配置中心服务
+所有外来的请求由zuul统一进行路由和转发，起到了API网关的作用
+Sleuth+Zipkin把我们微服务的追踪数据记录下来并展示方便我们进行后续分析
+
 ## 什么是微服务？
 
  微服务就是把原本臃肿的一个项目的所有模块拆分开来并做到互相没有关联，甚至可以不使用同一个数据库。  比如：项目里面有User模块和Power模块，但是User模块和Power模块并没有直接关系，仅仅只是一些数据需要交互，那么就可以吧这2个模块单独分开来，当user需要调用power的时候，power是一个服务方，但是power需要调用user的时候，user又是服务方了， 所以，他们并不在乎谁是服务方谁是调用方，他们都是2个独立的服务，这时候，微服务的概念就出来了。
