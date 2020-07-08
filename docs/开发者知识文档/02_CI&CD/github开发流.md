@@ -1,3 +1,3 @@
-# To be continuedd
+## 如何正确接收 GitHub 的消息邮件
 
-To be continuedd
+https://github.com/cssmagic/blog/issues/49

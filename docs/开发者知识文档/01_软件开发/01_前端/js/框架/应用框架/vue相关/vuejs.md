@@ -1959,75 +1959,742 @@ vue component是什么？
 
 #### componentizing existing in-DOM templates
 
-```html
+```css
+[v-cloak] {
+    display: none;
+}
+.highlight {
+    border: solid 3px red;
+    color: red;
+}
+.shooting-star-leave-to,
+.shooting-star-enter {
+    transform: translateX(150px) rotate(30deg);
+    opacity: 0;
+}
+.shooting-star-enter-active,
+.shooting-star-leave-active {
+    transition: all 0.5s ease;
+}
+.neo-list-leave-to,
+.neo-list-enter {
+    opacity: 0;
+    transform: translateY(30px);
+}
+.neo-list-enter-active,
+.neo-list-leave-active {
+    transition: all 1s linear;
+}
 
 ```
 
+```javascript
+// requires Vue.js and Bootstrap
+Vue.component("asteroid-grid", {
+    props: ["asteroids", "header"],
+    data: function () {
+        return {
+            showSummary: true,
+        };
+    },
+    computed: {
+        numAsteroids: function () {
+            return this.asteroids.length;
+        },
+        closestObject: function () {
+            var neosHavingData = this.asteroids.filter(function (neo) {
+                return neo.close_approach_data.length > 0;
+            });
+            var simpleNeos = neosHavingData.map(function (neo) {
+                return {
+                    name: neo.name,
+                    miles: neo.close_approach_data[0].miss_distance.miles,
+                };
+            });
+            var sortedNeos = simpleNeos.sort(function (a, b) {
+                return a.miles - b.miles;
+            });
+            return sortedNeos[0].name;
+        },
+    },
+    methods: {
+        getCloseApproachDate: function (a) {
+            if (a.close_approach_data.length > 0) {
+                return a.close_approach_data[0].close_approach_date;
+            }
+            return "N/A";
+        },
+        remove: function (index) {
+            this.asteroids.splice(index, 1);
+        },
+        getRowStyle: function (a) {
+            if (a.close_approach_data.length == 0) {
+                return {
+                    border: "solid 2px red",
+                    color: "red",
+                };
+            }
+        },
+        isMissingData: function (a) {
+            return a.close_approach_data.length == 0;
+        },
+    },
+    template:
+        '<div class="card mt-5"> \
+                    <h2 class="card-header">{{header}}</h2> \
+                    <transition name="shooting-star"> \
+                        <div class="mt-3 ml-3" v-cloak v-if="numAsteroids > 0 && showSummary"> \
+                            <p>showing {{numAsteroids}} items</p> \
+                            <p>{{closestObject}} has the smallest miss distance.</p> \
+                        </div> \
+                    </transition> \
+                    <div class="m-3"> \
+                        <a href="#" @click="showSummary = !showSummary">Show/hide summary</a> \
+                    </div> \
+                    <table class="table table-striped" :class="[{\'table-dark\': false}, \'table-bordered\']"> \
+                        <thead class="thead-light"> \
+                            <th>#</th> \
+                            <th>Name</th> \
+                            <th>Close Approach Date</th> \
+                            <th>Miss Distance</th> \
+                            <th>Remove</th> \
+                        </thead> \
+                        <tbody is="transition-group" name="neo-list" v-cloak> \
+                            <tr v-for="(a, index) in asteroids" \
+                                :key="a.neo_reference_id" \
+                                :class="{highlight: isMissingData(a), \'shadow-sm\': true}"> \
+                                <td>{{index + 1}}</td> \
+                                <td>{{a.name}}</td> \
+                                <td>{{getCloseApproachDate(a)}}</td> \
+                                <td> \
+                                    <ul v-if="a.close_approach_data.length > 0"> \
+                                        <li v-for="(value, key) in a.close_approach_data[0].miss_distance"> \
+                                            {{key}}: {{value}} \
+                                        </li> \
+                                    </ul> \
+                                </td> \
+                                <td><button class="btn btn-warning" @click="remove(index)">remove</button></td> \
+                             </tr> \
+                        </tbody> \
+                    </table> \
+                </div>',
+});
+
+```
+
+```html
+<!DOCTYPE html>
+
+<link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="style.css" />
+
+<div id="app">
+    <div class="container">
+        <asteroid-grid
+            :asteroids="asteroids"
+            header="Near-Earth Objects"
+        ></asteroid-grid>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="AsteroidGrid.js"></script>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            asteroids: [],
+        },
+        created: function () {
+            this.fetchAsteroids();
+        },
+        methods: {
+            fetchAsteroids: function () {
+                var apiKey = "lkgI9to0hRizfzk4xTAxtNTTFkkA4Mtq7y1yW5me";
+                var url =
+                    "https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=" +
+                    apiKey;
+                axios.get(url).then(function (res) {
+                    vm.asteroids = res.data.near_earth_objects.slice(0, 10);
+                });
+            },
+        },
+    });
+</script>
+
+```
 
 
 #### handling events in components
 
-```html
+```css
+[v-cloak] {
+    display: none;
+}
+.highlight {
+    border: solid 3px red;
+    color: red;
+}
+.shooting-star-leave-to,
+.shooting-star-enter {
+    transform: translateX(150px) rotate(30deg);
+    opacity: 0;
+}
+.shooting-star-enter-active,
+.shooting-star-leave-active {
+    transition: all 0.5s ease;
+}
+.neo-list-leave-to,
+.neo-list-enter {
+    opacity: 0;
+    transform: translateY(30px);
+}
+.neo-list-enter-active,
+.neo-list-leave-active {
+    transition: all 1s linear;
+}
 
 ```
 
+```javascript
+// requires Vue.js and Bootstrap
+Vue.component("asteroid-grid", {
+    /*
+        asteroids 数组在从parent data传进来的时候，是传引用而不是传值
+        在component里 asteroids = []，parent data asteroids仍然有10个
+        parent data asteroids pop，然后会rerender，重新传递下去，所以component里 asteroids恢复成了9个
+        原因：parent修改会传递下来，component修改会直接改变值
+        特别注意！！极其小心！！
+        解决方法：让值的修改，和引用的改变指向，由vue instance完成
+     */
+    props: ["asteroids", "header"],
+    data: function () {
+        return {
+            showSummary: true,
+        };
+    },
+    computed: {
+        numAsteroids: function () {
+            return this.asteroids.length;
+        },
+        closestObject: function () {
+            var neosHavingData = this.asteroids.filter(function (neo) {
+                return neo.close_approach_data.length > 0;
+            });
+            var simpleNeos = neosHavingData.map(function (neo) {
+                return {
+                    name: neo.name,
+                    miles: neo.close_approach_data[0].miss_distance.miles,
+                };
+            });
+            var sortedNeos = simpleNeos.sort(function (a, b) {
+                return a.miles - b.miles;
+            });
+            return sortedNeos[0].name;
+        },
+    },
+    methods: {
+        getCloseApproachDate: function (a) {
+            if (a.close_approach_data.length > 0) {
+                return a.close_approach_data[0].close_approach_date;
+            }
+            return "N/A";
+        },
+        remove: function (index) {
+            /**
+             * 让parent去处理，这是component的一个event
+             */
+            this.$emit("remove", index);
+        },
+        getRowStyle: function (a) {
+            if (a.close_approach_data.length == 0) {
+                return {
+                    border: "solid 2px red",
+                    color: "red",
+                };
+            }
+        },
+        isMissingData: function (a) {
+            return a.close_approach_data.length == 0;
+        },
+    },
+    template:
+        '<div class="card mt-5"> \
+                    <h2 class="card-header">{{header}}</h2> \
+                    <transition name="shooting-star"> \
+                        <div class="mt-3 ml-3" v-cloak v-if="numAsteroids > 0 && showSummary"> \
+                            <p>showing {{numAsteroids}} items</p> \
+                            <p>{{closestObject}} has the smallest miss distance.</p> \
+                        </div> \
+                    </transition> \
+                    <div class="m-3"> \
+                        <a href="#" @click="showSummary = !showSummary">Show/hide summary</a> \
+                    </div> \
+                    <table class="table table-striped" :class="[{\'table-dark\': false}, \'table-bordered\']"> \
+                        <thead class="thead-light"> \
+                            <th>#</th> \
+                            <th>Name</th> \
+                            <th>Close Approach Date</th> \
+                            <th>Miss Distance</th> \
+                            <th>Remove</th> \
+                        </thead> \
+                        <tbody is="transition-group" name="neo-list" v-cloak> \
+                            <tr v-for="(a, index) in asteroids" \
+                                :key="a.neo_reference_id" \
+                                :class="{highlight: isMissingData(a), \'shadow-sm\': true}"> \
+                                <td>{{index + 1}}</td> \
+                                <td>{{a.name}}</td> \
+                                <td>{{getCloseApproachDate(a)}}</td> \
+                                <td> \
+                                    <ul v-if="a.close_approach_data.length > 0"> \
+                                        <li v-for="(value, key) in a.close_approach_data[0].miss_distance"> \
+                                            {{key}}: {{value}} \
+                                        </li> \
+                                    </ul> \
+                                </td> \
+                                <td><button class="btn btn-warning" @click="remove(index)">remove</button></td> \
+                             </tr> \
+                        </tbody> \
+                    </table> \
+                </div>',
+});
+
+```
+
+```html
+<!DOCTYPE html>
+
+<link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="style.css" />
+
+<div id="app">
+    <div class="container">
+        <!--
+            rmove event的处理
+        -->
+        <asteroid-grid
+            @remove="remove"
+            :asteroids="asteroids"
+            header="Near-Earth Objects"
+        ></asteroid-grid>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="AsteroidGrid.js"></script>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            asteroids: [],
+        },
+        created: function () {
+            this.fetchAsteroids();
+        },
+        methods: {
+            fetchAsteroids: function () {
+                var apiKey = "lkgI9to0hRizfzk4xTAxtNTTFkkA4Mtq7y1yW5me";
+                var url =
+                    "https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=" +
+                    apiKey;
+                axios.get(url).then(function (res) {
+                    vm.asteroids = res.data.near_earth_objects.slice(0, 10);
+                });
+            },
+            remove: function (index) {
+                this.asteroids.splice(index, 1);
+            },
+        },
+    });
+</script>
+
+```
 
 
 #### installing vue cli
 
-```html
+```bash
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
 
+vue create hello-world
+
+npm run serve # 会热加载
 ```
-
-
-
-#### vue cli project template
-
-```html
-
-```
-
 
 
 #### moving to single-file components
 
 ```html
+<!-- components/AsteroidGrid.vue -->
+<template>
+    <div class="card mt-5">
+        <h2 class="card-header">{{ header }}</h2>
+        <transition name="shooting-star">
+            <div
+                class="mt-3 ml-3"
+                v-cloak
+                v-if="numAsteroids > 0 && showSummary"
+            >
+                <p>showing {{ numAsteroids }} items</p>
+                <p>{{ closestObject }} has the smallest miss distance.</p>
+            </div>
+        </transition>
+        <div class="m-3">
+            <a href="#" @click="showSummary = !showSummary"
+                >Show/hide summary</a
+            >
+        </div>
+        <table
+            class="table table-striped"
+            :class="[{ 'table-dark': false }, 'table-bordered']"
+        >
+            <thead class="thead-light">
+                <th>#</th>
+                <th>Name</th>
+                <th>Close Approach Date</th>
+                <th>Miss Distance</th>
+                <th>Remove</th>
+            </thead>
+            <tbody is="transition-group" name="neo-list" v-cloak>
+                <tr
+                    v-for="(a, index) in asteroids"
+                    :key="a.neo_reference_id"
+                    :class="{ highlight: isMissingData(a), 'shadow-sm': true }"
+                >
+                    <td>{{ index + 1 }}</td>
+                    <td>{{ a.name }}</td>
+                    <td>{{ getCloseApproachDate(a) }}</td>
+                    <td>
+                        <ul v-if="a.close_approach_data.length > 0">
+                            <li
+                                v-for="(value, key) in a.close_approach_data[0]
+                                    .miss_distance"
+                            >
+                                {{ key }}: {{ value }}
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning" @click="remove(index)">
+                            remove
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</template>
+
+<script>
+export default {
+    props: ["asteroids", "header"],
+    data: function () {
+        return {
+            showSummary: true,
+        };
+    },
+    computed: {
+        numAsteroids: function () {
+            return this.asteroids.length;
+        },
+        closestObject: function () {
+            var neosHavingData = this.asteroids.filter(function (neo) {
+                return neo.close_approach_data.length > 0;
+            });
+            var simpleNeos = neosHavingData.map(function (neo) {
+                return {
+                    name: neo.name,
+                    miles: neo.close_approach_data[0].miss_distance.miles,
+                };
+            });
+            var sortedNeos = simpleNeos.sort(function (a, b) {
+                return a.miles - b.miles;
+            });
+            return sortedNeos[0].name;
+        },
+    },
+    methods: {
+        getCloseApproachDate: function (a) {
+            if (a.close_approach_data.length > 0) {
+                return a.close_approach_data[0].close_approach_date;
+            }
+            return "N/A";
+        },
+        remove: function (index) {
+            this.$emit("remove", index);
+        },
+        getRowStyle: function (a) {
+            if (a.close_approach_data.length == 0) {
+                return {
+                    border: "solid 2px red",
+                    color: "red",
+                };
+            }
+        },
+        isMissingData: function (a) {
+            return a.close_approach_data.length == 0;
+        },
+    },
+};
+</script>
+
+<style scoped>
+.highlight {
+    border: solid 3px red;
+    color: red;
+}
+.shooting-star-leave-to,
+.shooting-star-enter {
+    transform: translateX(150px) rotate(30deg);
+    opacity: 0;
+}
+.shooting-star-enter-active,
+.shooting-star-leave-active {
+    transition: all 0.5s ease;
+}
+.neo-list-leave-to,
+.neo-list-enter {
+    opacity: 0;
+    transform: translateY(30px);
+}
+.neo-list-enter-active,
+.neo-list-leave-active {
+    transition: all 1s linear;
+}
+</style>
 
 ```
 
+```html
+<!-- components/HelloWorld.vue -->
+<template>
+    <div class="hello">
+        <h1>{{ msg }}</h1>
+        <p>
+            For guide and recipes on how to configure / customize this
+            project,<br />
+            check out the
+            <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
+                >vue-cli documentation</a
+            >.
+        </p>
+        <h3>Installed CLI Plugins</h3>
+        <ul>
+            <li>
+                <a
+                    href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
+                    target="_blank"
+                    rel="noopener"
+                    >babel</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
+                    target="_blank"
+                    rel="noopener"
+                    >eslint</a
+                >
+            </li>
+        </ul>
+        <h3>Essential Links</h3>
+        <ul>
+            <li>
+                <a href="https://vuejs.org" target="_blank" rel="noopener"
+                    >Core Docs</a
+                >
+            </li>
+            <li>
+                <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
+                    >Forum</a
+                >
+            </li>
+            <li>
+                <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
+                    >Community Chat</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://twitter.com/vuejs"
+                    target="_blank"
+                    rel="noopener"
+                    >Twitter</a
+                >
+            </li>
+            <li>
+                <a href="https://news.vuejs.org" target="_blank" rel="noopener"
+                    >News</a
+                >
+            </li>
+        </ul>
+        <h3>Ecosystem</h3>
+        <ul>
+            <li>
+                <a
+                    href="https://router.vuejs.org"
+                    target="_blank"
+                    rel="noopener"
+                    >vue-router</a
+                >
+            </li>
+            <li>
+                <a href="https://vuex.vuejs.org" target="_blank" rel="noopener"
+                    >vuex</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://github.com/vuejs/vue-devtools#vue-devtools"
+                    target="_blank"
+                    rel="noopener"
+                    >vue-devtools</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://vue-loader.vuejs.org"
+                    target="_blank"
+                    rel="noopener"
+                    >vue-loader</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://github.com/vuejs/awesome-vue"
+                    target="_blank"
+                    rel="noopener"
+                    >awesome-vue</a
+                >
+            </li>
+        </ul>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "HelloWorld",
+    props: {
+        msg: String,
+    },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h3 {
+    margin: 40px 0 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+a {
+    color: #42b983;
+}
+</style>
+
+```
+
+```html
+<!-- App.vue -->
+<template>
+    <div id="app">
+        <AsteroidGrid
+            @remove="remove"
+            :asteroids="asteroids"
+            header="Near-Earth Objects"
+        />
+    </div>
+</template>
+
+<script>
+import AsteroidGrid from "./components/AsteroidGrid.vue";
+import axios from "axios";
+
+export default {
+    name: "app",
+    components: {
+        AsteroidGrid,
+    },
+    data() {
+        return {
+            asteroids: [],
+        };
+    },
+    created: function () {
+        this.fetchAsteroids();
+    },
+    methods: {
+        fetchAsteroids: function () {
+            var apiKey = "lkgI9to0hRizfzk4xTAxtNTTFkkA4Mtq7y1yW5me";
+            var url =
+                "https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=" + apiKey;
+            axios.get(url).then((res) => {
+                this.asteroids = res.data.near_earth_objects.slice(0, 10);
+            });
+        },
+        remove: function (index) {
+            this.asteroids.splice(index, 1);
+        },
+    },
+};
+</script>
+
+<style>
+[v-cloak] {
+    display: none;
+}
+</style>
+
+```
+
+```javascript
+// main.js
+import Vue from "vue";
+import App from "./App.vue";
+
+Vue.config.productionTip = false;
+
+new Vue({
+    render: (h) => h(App),
+}).$mount("#app");
+
+```
 
 
 #### building for production
 
-```html
+默认状态下，index.html是无法展示任何东西的，除非有vue dev server的帮助，所以需要手动build
+
+```bash
+npm run build # minified version
+# dist -> distribution 发布版本
 
 ```
 
 
-
-
-
 ### conclusion
 
+[official vuejs github](https://github.com/vuejs)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[awesome-vue project](https://github.com/vuejs/awesome-vue)
 
