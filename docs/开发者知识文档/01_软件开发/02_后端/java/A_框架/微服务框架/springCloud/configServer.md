@@ -1,250 +1,158 @@
-# Spring-Cloud组件：
-## zuul:
-### zuul是什么？
- Zuul包含了对请求的路由和过滤两个最主要的功能：
-其中路由功能负责将外部请求转发到具体的微服务实例上，是实现外部访问统一入口的基础而过滤器功能则负责对请求的处理过程进行干预，是实现请求校验、服务聚合等功能的基础.
-Zuul和Eureka进行整合，将Zuul自身注册为Eureka服务治理下的应用，同时从Eureka中获得其他微服务的消息，也即以后的访问微服务都是通过Zuul跳转后获得。
- 注意：Zuul服务最终还是会注册进Eureka
+# Spring-Cloud-Config
 
-### 路由：
- 项目加入依赖:
- ```maven
-<dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+# config是什么?
+ 我们既然要做项目， 那么就少不了配置，传统的项目还好，但是我们微服务项目， 每个微服务就要做独立的配置， 这样难免有点复杂， 所以， config项目出来了，它就是为了解决这个问题： 把你所有的微服务配置通过某个平台：
+
+比如 github， gitlib 或者其他的git仓库 进行集中化管理（当然，也可以放在本地）.
+
+可能这样讲有点抽象，我们来看一张图:
+  
+![](configServer.assets/pic-20200708-153550.png)
+
+大概是这样一个关系
+
+# 怎么使用config？
+刚刚讲完理论， 那么我们来实践一下， 怎么配置这个confi呢？ 我们刚刚说过 由一个config server 来管理所有的配置文件， 那么我们现在新建一个config server 项目 然后引入依赖:
+```maven
+<dependency> 
+    <groupId>org.springframework.cloud</groupId> 
+    <artifactId>spring-cloud-config-server</artifactId> 
 </dependency>
-<dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-</dependency>
- ```
-因为上文说过Zuul最终会注册进eureka 所以我们这里也依赖了eureka
-
- yml文件:
- ```yml
-server:
-  port: 9000
-
-eureka:
-
-  client:
-    serviceUrl:
-        defaultZone: http://localhost:3000/eureka/
-  instance:
-    instance-id: zuul-1
-    prefer-ip-address: true
-
-spring:
-  application:
-    name: zuul
- ```
- 启动类：
+```
+spring-cloud 的依赖我们就不提了
+然后启动类上面加入注解EnableConfigServer:
 ```java
 @SpringBootApplication
-@EnableZuulProxy
-public class AppZuul {
+@EnableConfigServer
+public class AppConfig {
 
     public static void main(String[] args) {
-        SpringApplication.run(AppZuul.class);
+        SpringApplication.run(AppConfig.class);
     }
 }
 ```
-
-这样 简单的zuul就搭建好了， 启动项目 我们就可以通过zuul然后加上对应的微服务名字访问微服务:
-
-看看eureka上面的微服务名称
-
-![](zuul.assets/pic-20200706-161038.png)
-
-调用：
-
-![](zuul.assets/pic-20200706-161451.png)
-
- 到这里 一个简单的zuul已经搭建好了
- 在实际开发当中我们肯定不会是这样通过微服务调用，比如我要调用power 可能只要一个/power就好了 而不是/server-power
- 在yml加入以下配置即可:
- ```yml
-zuul:
-  routes:
-    mypower:
-      serviceId: server-power
-      path: /power/**
-    myorder:
-      serviceId: server-order
-      path: /order/**
- ```
- 讲道理看意思都看得出来把，my\*\*\*是自己制定的名字 这个就不解释了
-注意/\*\*代表是所有层级 /\* 是代表一层。 如果是/\* 的话 /power/admin/getUser.do 就不会被路由 。 
-来看效果：
-
-![](zuul.assets/pic-20200706-161619.png)
-
-这时候我们能通过我们自定义的规则来访问了，但是还有一个问题，就是我们现在依然能用之前的微服务名调用，这样子是不合理的，第一是有多重地址了， 第二，一般微服务名这种最好不要暴露在外。所以我们一般会禁用微服务名方式调用。
-加入配置:
+yml配置:
 ```yml
-ignored-services: server-power
+server: 
+  port: 8080 
+spring: 
+  application: 
+    name: test 
+ 
+  cloud: 
+    config: 
+      server: 
+        git: 
+          uri: https://github.com/513667225/my-spring-cloud-config.git #配置文件在github上的地址 
+ #         search-paths: foo,bar*,foo1/src  #Configserver会在 Git仓库根目录、 foo子目录，以及所有以 bar开头的子目录中查找配置文件。 
+#          clone-on-start: true  #启动时就clone仓库到本地，默认是在配置被首次请求时，config server才会clone git仓库 
+        #native: 
+          #search-locations: classpath:/config #若配置中心在本地，本地的地址 
 ```
-这里咱们先禁用power的看看：
+配置好以后，我们先试试通过config server来读取配置
+这里我在github上有一些配置文件:
 
-![](zuul.assets/pic-20200706-161721.png)
+![](configServer.assets/pic-20200708-153957.png)
 
-这里能发现我们不能通过微服务名来调用了， 不过这个配置
-如果一个一个通过微服务名来配置难免有点复杂，所以一般这样配置来禁用所有:
+我们来看看test-config的内容：
+
+![](configServer.assets/pic-20200708-153922.png)
+
+那么如何通过config server来访问呢？ 
+启动项目后， 我们可以通过名字来读取里面的配置信息：  
+
+![](configServer.assets/pic-20200708-154059.png)
+
+那我们要获取dev环境/或者test环境下的配置呢？ 通过-隔开即可。
+我们现在来访问 test-config-dev：
+ 
+![](configServer.assets/pic-20200708-154129.png)
+
+同理 如果要访问test环境下的配置， 改为test即可
+其实，config访问配置文件，是需要一个具体的访问规则的， 那么这个访问规则到底是什么呢？ 我们可以在官网找到：
+
+/{application}/{profile}[/{label}] 
+/{application}-{profile}.yml 
+/{label}/{application}-{profile}.yml 
+/{application}-{profile}.properties 
+/{label}/{application}-{profile}.properties
+
+**application就是配置文件的名字， profile就是对应的环境， label就是不同的分支**。
+由这个规则可见， 我们使用的是第二种规则， 剩下的规则， 同学们可以自己去试试 ，  对于yml 和properties类型config可以完美转换， 也就是说你存的是yml 但是可以读取为properties类型的反过来也是如此：
+ 
+![](configServer.assets/pic-20200708-154217.png)
+
+# 客户端从config上获取配置
+刚刚给大家简单演示了一下config 以及怎么读取配置， 不过实际开发中，更多的不是我们人为去获取，而是由微服务从config上加载配置， 那么， 怎么来加载呢?
+
+首先，我们需要在我们的微服务加入一个依赖声明他是config的客户端:
+```maven
+<dependency> 
+    <groupId>org.springframework.cloud</groupId> 
+    <artifactId>spring-cloud-starter-config</artifactId> 
+</dependency>
+```
+需要注意的是，这个依赖不包括spring -boot依赖， 也就是说， 假设你这个项目要当作spring boot来启动的话， 还得依赖spring boot 
+启动类不需要做改动， 标准的spring boot启动类即可
+需要注意的是yml文件
+以前我们对于spring boot的配置 是在application.yml里面配置的,现在从config上读取配置的话，还得需要一个bootstrap.yml配置文件
+
+解释一下这个bootstrap.yml:
+spring cloud有一个“引导上下文"的概念，这是主应用程序的父上下文。引导上下文负责从配置服务器加载配置属性，以及解密外部配置文件中的属性。和主应用程序加载application.(yml或 properties)中的属性不同，引导上下文加载(bootstrap.)中的属性。配置在 bootstrap.*中的属性有更高的优先级，因此默认情况下它们不能被本地配置
+那么我们application.yml配置文件里面 只需要做一些简单的配置就可以了：
 ```yml
-ignored-services: "*"
+spring:
+  application:
+    name: test-config
 ```
-可能有时候我们的接口调用需要一定的规范，譬如调用微服务的API URL前缀需要加上/api 对于这种情况， zuul也考虑到了并给出了解决方案：
+重点在于bootstrap.yml:
 ```yml
-zuul:
-  prefix: /api
-  ignored-services: "*"
-  routes:
-    mypower:
-      serviceId: server-power
-      path: /power/**
-    myorder:
-      serviceId: server-order
-      path: /order/**
+spring: 
+  cloud: 
+    config: 
+      name: test-config #这是我们要读取的配置文件名 对应获取规则的{application} 
+      profile: dev   #这个是要获取的环境 对应的便是{profile} 
+      label: master #这个就是获取的节点 对应的是{label} 
+      uri: http://localhost:8080/ #这就是我们config server的一个地址
 ```
-加上一个prefix 即定义好了一个前缀， 那么我们每次需要路由的时候需要加上一个/api的前缀
-但是 这样有一个问题，就是这个/api前缀 会不会出现在我们路由后的IP地址中呢？因为有可能我们微服务提供的接口也是含有/api前缀的
-答案是不会的。 但是可以进行配置
+那么 他就会获取到我们刚刚看到的那个配置:
 ```yml
-zuul:
-  prefix: /api
-  strip-prefix: false
-  ignored-services: "*"
-  routes:
-    mypower:
-      serviceId: server-power
-      path: /power/**
-    myorder:
-      serviceId: server-order
-      path: /order/**
+server:
+  port: 8201
+
+spring:
+  profiles: dev
+  application:
+    name: test-cloud-dev-2.0
 ```
+测试一下 看看他会不会使用这个8201端口启动
+ 
+这里 我们查看启动信息，能发现他现在使用的是我们从config server上读取到的配置。
 
-### 过滤器:
-过滤器(filter)是zuul的核心组件 zuul大部分功能都是通过过滤器来实现的。 zuul中定义了4种标准过滤器类型，这些过滤器类型对应于请求的典型生命周期。 PRE：这种过滤器在请求被路由之前调用。可利用这种过滤器实现身份验证、在 集群中选择请求的微服务、记录调试信息等。 ROUTING：这种过滤器将请求路由到微服务。这种过滤器用于构建发送给微服 务的请求，并使用 Apache HttpCIient或 Netfilx Ribbon请求微服务 POST:这种过滤器在路由到微服务以后执行。这种过滤器可用来为响应添加标准 的 HTTP Header、收集统计信息和指标、将响应从微服务发送给客户端等。 ERROR：在其他阶段发生错误时执行该过滤器。 
-如果要编写一个过滤器，则需继承ZuulFilter类 实现其中方法:
-```java
-@Component
-public class LogFilter extends ZuulFilter {
-    @Override
-    public String filterType() {
-        return FilterConstants.ROUTE_TYPE;
-    }
 
-    @Override
-    public int filterOrder() {
-        return FilterConstants.PRE_DECORATION_FILTER_ORDER;
-    }
+# spring cloud config 高可用
+config 高可用可以通过很多种方式， 比如说搭建一个nginx:
+ 
+![](configServer.assets/pic-20200708-154649.png)
 
-    @Override
-    public boolean shouldFilter() {
-        return true;
-    }
+那么bootstrap.yml配置文件中的地址就可以直接写上nginx的地址即可。就可以用nginx实现负载均衡。
+ 
+![](configServer.assets/pic-20200708-154710.png)
 
-    @Override
-    public Object run() throws ZuulException {
-        RequestContext currentContext = RequestContext.getCurrentContext();
-        HttpServletRequest request = currentContext.getRequest();
-        String remoteAddr = request.getRemoteAddr();
-        System.out.println("访问者IP："+remoteAddr+"访问地址:"+request.getRequestURI());
-        return null;
-    }
-}
+或者config server注册到eureka上，client端也注册到eureka上，则已经实现高可用
+如何注册就不提了，需要注意的点就是当config server都注册完之后 client的配置文件进行以下改动：
+```yml
+spring: 
+  cloud: 
+    config: 
+      name: test-config 
+      profile: dev 
+      label: master 
+      discovery: 
+        enabled: true #打开对服务注册中心的支持 
+        service-id: test-config #eureka注册中心中config的服务名称
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: http://localhost:3000/eureka/
 ```
- 由代码可知，自定义的 zuul Filter需实现以下几个方法。
-filterType:返回过滤器的类型。有 pre、 route、 post、 error等几种取值，分别对应上文的几种过滤器。
-详细可以参考 com.netflix.zuul.ZuulFilter.filterType()中的注释。
-filter0rder:返回一个 int值来指定过滤器的执行顺序，不同的过滤器允许返回相同的数字。
-shouldFilter：返回一个 boolean值来判断该过滤器是否要执行， true表示执行， false表示不执行。
-run：过滤器的具体逻辑。
-禁用zuul过滤器 Spring Cloud默认为Zuul编写并启用了一些过滤器，例如DebugFilter、 FormBodyWrapperFilter等，这些过滤器都存放在spring-cloud-netflix-core这个jar包 里，一些场景下，想要禁用掉部分过滤器，该怎么办呢？ 只需在application.yml里设置zuul...disable=true 例如，要禁用上面我们写的过滤器，这样配置就行了： zuul.LogFilter.pre.disable=true
-
-### zuul容错与回退
- zuul默认是整合了hystrix和ribbon的， 提供降级回退，那如何来使用hystrix呢？
- 我们自行写一个类，继承FallbackProvider 类 然后重写里面的方法
- ```java
-@Override
-public String getRoute() {
-    return null;
-}
-
-@Override
-public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
-    return null;
-}
- ```
-这里 会发现有这2个方法需要重写， 那么如何来写呢？ 我们可以查阅官方文档：
-
-这是官方提供的demo 
-代码：
-
-```java
-class MyFallbackProvider implements FallbackProvider {
-    @Override
-    public String getRoute() {
-        //制定为哪个微服务提供回退（这里写微服务名 写*代表所有微服务）
-        return "*";
-    }
-	
-    //此方法需要返回一个ClientHttpResponse对象  ClientHttpResponse是一个接口，具体的回退逻辑要实现此接口
-    //route：出错的微服务名     cause：出错的异常对象
-  @Override
-    public ClientHttpResponse fallbackResponse(String route, final Throwable cause) {
-        //这里可以判断根据不同的异常来做不同的处理， 也可以不判断
-        //完了之后调用response方法并根据异常类型传入HttpStatus
-        if (cause instanceof HystrixTimeoutException) {
-            return response(HttpStatus.GATEWAY_TIMEOUT);
-        } else {
-            return response(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-    }
-	
-    
-  	
-    private ClientHttpResponse response(final HttpStatus status) {
-        //这里返回一个ClientHttpResponse对象 并实现其中的方法，关于回退逻辑的详细，便在下面的方法中
-        return new ClientHttpResponse() {
-            @Override
-            public HttpStatus getStatusCode() throws IOException {
-                //返回一个HttpStatus对象 这个对象是个枚举对象， 里面包含了一个status code 和reasonPhrase信息
-                return status;
-            }
-
-            @Override
-            public int getRawStatusCode() throws IOException {
-                //返回status的code  比如 404，500等
-                return status.value();
-            }
-
-            @Override
-            public String getStatusText() throws IOException {
-                //返回一个HttpStatus对象的reasonPhrase信息
-                return status.getReasonPhrase();
-            }
-
-            @Override
-            public void close() {
-               //close的时候调用的方法， 讲白了就是当降级信息全部响应完了之后调用的方法
-            }
-
-            @Override
-            public InputStream getBody() throws IOException {
-                //吧降级信息响应回前端
-                return new ByteArrayInputStream("降级信息".getBytes());
-            }
-
-            @Override
-            public HttpHeaders getHeaders() {
-                //需要对响应报头设置的话可以在此设置
-                HttpHeaders headers = new HttpHeaders();
-                headers.setContentType(MediaType.APPLICATION_JSON);
-                return headers;
-            }
-        };
-    }
-}
-```
-
