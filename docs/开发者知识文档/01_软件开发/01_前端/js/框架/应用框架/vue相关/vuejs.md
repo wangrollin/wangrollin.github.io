@@ -2787,19 +2787,37 @@ v-for v-if 可以放在同一个div的属性里
 
 #### Binding attributes with v-bind
 
+```html
+<!-- 茴香豆的三种写法 -->
 
+<img
+    v-bind="{
+        class: imgClass,
+        src: products[0].image,
+        alt: products[0].name
+    }"
+/>
 
+<img v-bind:src="products[0].image"
+     v-bind:alt="products[0].name">
 
+<img :src="products[0].image"
+     :alt="products[0].name">
 
-
-
-
-
+```
 
 
 #### Using computed properties
 
+就像数据库的一个视图
+
+
 #### Using methods
+
+
+
+
+
 
 
 ### 3. managing CSS Styles
