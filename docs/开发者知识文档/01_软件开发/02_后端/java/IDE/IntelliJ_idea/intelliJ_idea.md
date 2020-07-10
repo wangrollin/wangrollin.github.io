@@ -17,6 +17,12 @@
 ​	sonarLint
 
 
+## 在idea中打开多个maven项目
+
+File->Project Structure…->Modules可以添加Modules
+
+https://jordanzheng.github.io/open-multi-module-in-one-project-for-idea/
+
 
 ## 配置java doc
 

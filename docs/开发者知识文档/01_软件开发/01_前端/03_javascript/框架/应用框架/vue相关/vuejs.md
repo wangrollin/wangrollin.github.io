@@ -2814,32 +2814,136 @@ v-for v-if 可以放在同一个div的属性里
 
 #### Using methods
 
-
-
-
-
+computed 和 methods 的区别
+- computed只有存在reactive var的时候，才会计算，其他情况只返回缓存的计算结果（所以在conputed里放一个var date = new Date()，这个date不会更新，因为不是reactive var）
+- methods每次都会计算
 
 
 ### 3. managing CSS Styles
 
 #### Binding classes with objects and arrays
 
-#### Expressions and conputed classes
+```html
+<!-- 其他属性只有一个值，但是class和style有很多值 -->
 
-#### Toggling computed classes
+<div class="font-weight-bold mr-2"></div>
+<div :class="['font-weight-bold', 'mr-2']"></div>
+
+<div style="width: 60px; text-align: center"></div>
+<div :style="{'width': '60px', 'text-align': 'center'}"></div>
+
+```
+
+
+#### Expressions and computed classes
+
+```html
+<div :style="{'width': '60px', 'text-align': 'center'}"></div>
+
+<div :style="{'width': '60px', textAlign: 'center'}"></div>
+
+<div :style="{'width': inputWidth, 'text-align': 'center'}"></div>
+inputWidth: '60px'
+
+<div :style="{'width': inputWidth + 'px', 'text-align': 'center'}"></div>
+inputWidth: 60
+
+
+<div class="font-weight-bold mr-2"></div>
+
+<div class="font-weight-bold" :class="'mr-2'"></div>
+
+<div class="font-weight-bold" :class="sliderState"></div>
+
+<script>
+    computed: {
+        silderState: function() {
+            return 'mr-2';
+        }
+    }
+</script>
+
+```
+
 
 #### Creating transitions and animations
 
+vue做这些变换的原理是：添加和去掉一些class
+
+
 #### Using an animation framework
+
+animate.css
+
+```html
+<!-- animated 代表由animate.css来控制 -->
+<transition name="custom" 
+        enter-active-class="animated fadeInDown"
+        leave-active-class="animated fadeOutRight"></transition>
+
+```
+
 
 #### Working with transition groups
 
+```html
+<transition-group name="fade" tag="dev"
+    enter-active-class="animated fadeInDown"
+    leave-active-class="animated fadeOutRight">
+
+    <div v-for="item in products"></div>
+
+</transition-group>
+
+```
+
+
 #### namaging styles with javaScript
+
+```html
+<transition-group name="fade" tag="dev"
+    @beforeEnter="beforeEnter"
+    @enter="enter"
+    @leave="leave">
+
+    <div v-for="item in products"></div>
+
+</transition-group>
+
+<script>
+    methods: {
+        beforeEnter: function(el) {
+            el.className='d-none'
+        },
+        enter: function(el) {
+            var delay = el.dataset.index * 100;
+            setTimeout(function() {
+                el.classNamr='row d-flex mb-3 animated fadeInRight'
+            }, delay);
+        },
+        leave: function(el) {
+            var delay = el.dataset.index * 100;
+            setTimeout(function() {
+                el.classNamr='row d-flex mb-3 animated fadeOutRight'
+            }, delay);
+        }
+    }
+</script>
+
+```
 
 
 ### 4. Digging Deeper
 
 #### Creating filters
+
+
+
+
+
+
+
+
 
 #### Toggling elements with a key
 
