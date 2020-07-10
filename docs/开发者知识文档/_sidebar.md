@@ -81,7 +81,6 @@
                 * [📝ajax](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/ajax.md)
                 * [📝backbone](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/backbone.md)
                 * [📝express.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/express.js.md)
-                * [📝flutter](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/flutter.md)
                 * [📝jquery](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/jquery.md)
                 * 🗂应用框架
                     * 🗂angular相关
@@ -109,6 +108,7 @@
         * 🗂其他前台脚本语言
             * [📝CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/CoffeeScript.md)
             * [📝Dart](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/Dart.md)
+            * [📝WebAssembly](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/WebAssembly.md)
         * 🗂中间件
             * 🗂ProgressiveWebApp
                 * [📝ProgressiveWebApp](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
@@ -120,9 +120,28 @@
                 * [📝jekyll](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/jekyll.md)
         * [📝BrowserSync](/docs/开发者知识文档/01_软件开发/01_前端/BrowserSync.md)
         * [📝CORS](/docs/开发者知识文档/01_软件开发/01_前端/CORS.md)
+        * 🗂不同的前端技术
+            * 🗂移动端
+                * [📝hybrid_app](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/01_移动端/hybrid_app.md)
+                * [📝native_app](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/01_移动端/native_app.md)
+                * [📝web_app](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/01_移动端/web_app.md)
+                * [📝微信小程序](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/01_移动端/微信小程序.md)
+            * 🗂桌面端
+                * 🗂CLI
+                    * [📝npm_cli](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/02_桌面端/CLI/npm_cli.md)
+                * 🗂GUI
+                    * [📝Electron](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/02_桌面端/GUI/Electron.md)
+                    * [📝duilib](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/02_桌面端/GUI/duilib.md)
+                    * [📝java_swing](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/02_桌面端/GUI/java_swing.md)
+                    * [📝libcef](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/02_桌面端/GUI/libcef.md)
+                    * [📝qt](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/02_桌面端/GUI/qt.md)
+                    * [📝wpf](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/02_桌面端/GUI/wpf.md)
+            * 🗂移动和桌面端
+                * [📝flutter](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/03_移动和桌面端/flutter.md)
         * 🗂其他
+            * [📝MultiPageApp_MPA](/docs/开发者知识文档/01_软件开发/01_前端/其他/MultiPageApp_MPA.md)
+            * [📝SinglePageApp_SPA](/docs/开发者知识文档/01_软件开发/01_前端/其他/SinglePageApp_SPA.md)
             * [📝web-design](/docs/开发者知识文档/01_软件开发/01_前端/其他/web-design.md)
-            * [📝微信小程序](/docs/开发者知识文档/01_软件开发/01_前端/其他/微信小程序.md)
             * [📝浏览器内核](/docs/开发者知识文档/01_软件开发/01_前端/其他/浏览器内核.md)
         * 🗂常见问题
             * [📝网站小图标](/docs/开发者知识文档/01_软件开发/01_前端/常见问题/网站小图标.md)
