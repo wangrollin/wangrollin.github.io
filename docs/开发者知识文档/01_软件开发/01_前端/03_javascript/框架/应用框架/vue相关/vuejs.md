@@ -2937,7 +2937,14 @@ animate.css
 
 #### Creating filters
 
+```html
 
+<script>
+    var app = new Vue({
+        filters: {}
+    })
+</script>
+```
 
 
 
