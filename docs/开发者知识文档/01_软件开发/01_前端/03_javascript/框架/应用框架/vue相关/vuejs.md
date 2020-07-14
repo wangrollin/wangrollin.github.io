@@ -2939,48 +2939,89 @@ animate.css
 
 ```html
 
+<p>{{ price | currency }}</p>
+
 <script>
     var app = new Vue({
-        filters: {}
+        filters: {
+            currency: function(value) {
+                return "$" + Number.parseFloat(value).toFixed(2);
+            }
+        }
+    })
+</script>
+```
+
+```html
+<!-- filter can be chained -->
+<p :class="price | currency | func">aaa</p>
+<p>{{ price | currency | func }}</p>
+
+<script>
+
+    // 可以在外部定义filter
+    Vue.filter('currency', function(value) {
+                return "$" + Number.parseFloat(value).toFixed(2);
+            })
+
+    var app = new Vue({
+
     })
 </script>
 ```
 
 
-
-
-
-
-
-#### Toggling elements with a key
-
-#### Categorizing lists
-
-#### Adding computed classes
-
 #### Deleting items and modifiers
+
+```html
+<!-- stop 就是一个 modifiers，bootstrap默认点击下拉菜单，菜单会消失，加了这个，就不会消失了 -->
+<a @click.stop="remove"></a>
+
+```
 
 
 ### 5. Component Based Vue
 
-#### Creating reusable components
-
-#### Using props
-
 #### Prop options
 
-#### Building complex components
+```html
+<script>
+    Vue.component("a-pod", {
+        props: ["date"]
+    });
 
-#### Emitting events from within components
+    // 可以传递默认值
+    Vue.component("a-pod", {
+        props: {
+            value: Number,
+            prefix: {
+                type: String,
+                default: '$'
+            },
+            precision: {
+                type: Number,
+                default: 2
+            },
+            conversion: {
+                type: Number,
+                default: 1
+            }
+        }
+    });
+
+</script>
+```
 
 
 ### 6. Building with the CLI
 
-#### Installing projects using the Vue CLI
-
-#### Understanding Vue CLI installations
-
 #### How CLI components load
+
+
+
+
+
+
 
 #### Installing additional modules
 

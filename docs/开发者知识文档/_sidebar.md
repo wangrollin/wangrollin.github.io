@@ -40,6 +40,7 @@
             * [📝html](/docs/开发者知识文档/01_软件开发/01_前端/01_html/html.md)
         * 🗂css
             * [📝css](/docs/开发者知识文档/01_软件开发/01_前端/02_css/css.md)
+            * [📝postCSS](/docs/开发者知识文档/01_软件开发/01_前端/02_css/postCSS.md)
             * [📝sass](/docs/开发者知识文档/01_软件开发/01_前端/02_css/sass.md)
             * 🗂主题
                 * [📝bootstrap4](/docs/开发者知识文档/01_软件开发/01_前端/02_css/主题/bootstrap4.md)
@@ -63,6 +64,7 @@
             * 🗂库
                 * 🗂Http客户端
                     * [📝axios](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/Http客户端/axios.md)
+                * [📝mustache_express](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/mustache_express.md)
                 * 🗂在线展示文稿
                     * [📝reveal.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/在线展示文稿/reveal.js.md)
                 * 🗂提示工具Tooltip
@@ -100,7 +102,9 @@
                     * 🗂vue相关
                         * [📝Vuelidate](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/Vuelidate.md)
                         * [📝nuxt](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/nuxt.md)
+                        * [📝vue-router](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vue-router.md)
                         * [📝vuejs](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vuejs.md)
+                        * [📝vuex](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vuex.md)
                 * 🗂测试框架
                     * 🗂单元测试
                         * [📝Jest](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/测试框架/单元测试/Jest.md)
@@ -112,29 +116,28 @@
                 * [📝后台渲染](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/渲染方式/后台渲染.md)
             * 🗂编译器
                 * [📝Babel](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/编译器/Babel.md)
+                * [📝Typescript](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/编译器/Typescript.md)
             * 🗂脚本规范
                 * [📝ECMAScript](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/脚本规范/ECMAScript.md)
             * 🗂路由方式
                 * [📝前台路由](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/路由方式/前台路由.md)
                 * [📝后台路由](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/路由方式/后台路由.md)
-        * 🗂Typescript
-            * [📝Typescript](/docs/开发者知识文档/01_软件开发/01_前端/04_Typescript/Typescript.md)
         * 🗂其他前台脚本语言
-            * [📝CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/CoffeeScript.md)
-            * [📝Dart](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/Dart.md)
-            * [📝WebAssembly](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/WebAssembly.md)
+            * [📝CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/04_其他前台脚本语言/CoffeeScript.md)
+            * [📝Dart](/docs/开发者知识文档/01_软件开发/01_前端/04_其他前台脚本语言/Dart.md)
+            * [📝WebAssembly](/docs/开发者知识文档/01_软件开发/01_前端/04_其他前台脚本语言/WebAssembly.md)
         * 🗂中间件
             * 🗂ProgressiveWebApp
-                * [📝ProgressiveWebApp](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
+                * [📝ProgressiveWebApp](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
             * 🗂doc
-                * [📝Liquid](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/Liquid.md)
-                * [📝docsify](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/docsify.md)
-                * [📝github_pages](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/github_pages.md)
-                * [📝hexo](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/hexo.md)
-                * [📝jekyll](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/jekyll.md)
+                * [📝Liquid](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/Liquid.md)
+                * [📝docsify](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/docsify.md)
+                * [📝github_pages](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/github_pages.md)
+                * [📝hexo](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/hexo.md)
+                * [📝jekyll](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/jekyll.md)
         * 🗂解决方案
             * 🗂企业级中后台前端_设计解决方案
-                * [📝AntDesignPro](/docs/开发者知识文档/01_软件开发/01_前端/07_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
+                * [📝AntDesignPro](/docs/开发者知识文档/01_软件开发/01_前端/06_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
         * [📝BrowserSync](/docs/开发者知识文档/01_软件开发/01_前端/BrowserSync.md)
         * [📝CORS](/docs/开发者知识文档/01_软件开发/01_前端/CORS.md)
         * 🗂不同的前端技术
@@ -568,6 +571,8 @@
         * [📝Travis](/docs/开发者知识文档/02_CI&CD/01_流水线/Travis.md)
         * [📝jenkins](/docs/开发者知识文档/02_CI&CD/01_流水线/jenkins.md)
     * 🗂代码静态检查
+        * 🗂formatter
+            * [📝Prettier](/docs/开发者知识文档/02_CI&CD/02_代码静态检查/formatter/Prettier.md)
         * [📝sonarqube](/docs/开发者知识文档/02_CI&CD/02_代码静态检查/sonarqube.md)
         * 🗂规则集
             * [📝ESLint](/docs/开发者知识文档/02_CI&CD/02_代码静态检查/规则集/ESLint.md)
