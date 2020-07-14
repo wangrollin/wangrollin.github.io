@@ -2586,12 +2586,13 @@ export default {
 </template>
 
 <script>
-export default {
-    name: "HelloWorld",
-    props: {
-        msg: String,
-    },
-};
+    // 意思是这个component的name是HelloWorld，数据在props里
+    export default {
+        name: "HelloWorld",
+        props: {
+            msg: String,
+        },
+    };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -3015,43 +3016,805 @@ animate.css
 
 ### 6. Building with the CLI
 
-#### How CLI components load
-
-
-
-
-
-
-
 #### Installing additional modules
 
+```bash
+npm i --save animate.css bootstrap jquery popper.js vue-router
+
+npm i --save @fortawesome/fontawesome-free \
+                @fortawesome/fontawesome-svg-core \
+                @fortawesome/free-solid-svg-icons \
+                @fortawesome/vue-fontawesome
+
+```
+
+```javascript
+// main.js
+import Vue from "vue";
+import App from "./App.vue";
+import "bootstrap";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+import "bootstrap/dist/css/bootstrap.css";
+import "animate.css/animate.css";
+
+import {
+    faShoppingCart,
+    faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
+
+library.add(faShoppingCart, faDollarSign);
+
+Vue.config.productionTip = false;
+
+new Vue({
+    render: (h) => h(App),
+}).$mount("#app");
+
+```
+
+
 #### Testing your module installations
+
+```html
+<!-- App.vue -->
+<template>
+  <div id="app" class="container mt-5">
+    <h1>My Shop</h1>
+    <p class="animated fadeInRight">Take a look at our offerings below</p>
+    <font-awesome-icon icon="shopping-cart"></font-awesome-icon>
+  </div>
+</template>
+
+<script>
+// 从外面拿到vue component
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+export default {
+  name: "app",
+  components: {
+    FontAwesomeIcon
+  }
+};
+</script>
+
+```
 
 
 ### 7. Projects with the Build Tools
 
 #### Creating a component
 
+```html
+<!-- Price.vue -->
+<template>
+    <span>{{
+        this.prefix +
+        Number.parseFloat(this.value * this.conversion).toFixed(this.precision)
+    }}</span>
+</template>
+
+<script>
+export default {
+    props: {
+        value: Number,
+        prefix: {
+            type: String,
+            default: "$",
+        },
+        precision: {
+            type: Number,
+            default: 2,
+        },
+        conversion: {
+            type: Number,
+            default: 1,
+        },
+    },
+};
+</script>
+
+```
+
+
 #### Managing complex child components
 
-#### Using the Chrome DevTools
+```html
+<!-- ProductList.vue -->
+<template>
+    <transition-group
+        name="fade"
+        tag="div"
+        @beforeEnter="beforeEnter"
+        @enter="enter"
+        @leave="leave"
+    >
+        <div
+            class="row d-none mb-3 align-items-center"
+            v-for="(item, index) in products"
+            :key="item.id"
+            v-if="item.price <= Number(maximum)"
+            :data-index="index"
+        >
+            <div class="col-1 m-auto">
+                <button class="btn btn-info" @click="$emit('add', item)">
+                    +
+                </button>
+            </div>
+            <div class="col-4">
+                <img
+                    class="img-fluid d-block"
+                    :src="item.image"
+                    :alt="item.name"
+                />
+            </div>
+            <div class="col">
+                <h3 class="text-info">{{ item.name }}</h3>
+                <p class="mb-0">{{ item.description }}</p>
+                <div class="h5 float-right">
+                    <price :value="Number(item.price)"></price>
+                </div>
+            </div>
+        </div>
+    </transition-group>
+</template>
+
+<script>
+import Price from "./Price.vue";
+
+export default {
+    name: "product-list",
+    components: { Price },
+    props: ["products", "maximum"],
+    methods: {
+        beforeEnter: function (el) {
+            el.className = "d-none";
+        },
+        enter: function (el) {
+            var delay = el.dataset.index * 100;
+            setTimeout(function () {
+                el.className =
+                    "row d-flex mb-3 align-items-center animated fadeInRight";
+            }, delay);
+        },
+        leave: function (el) {
+            var delay = el.dataset.index * 100;
+            setTimeout(function () {
+                el.className =
+                    "row d-flex mb-3 align-items-center animated fadeOutRight";
+            }, delay);
+        },
+    },
+};
+</script>
+
+```
+
+```html
+<!-- App.vue -->
+<template>
+    <div id="app" class="container mt-5">
+        <h1>My Shop</h1>
+        <product-list
+            :maximum="maximum"
+            :products="products"
+            @add="addItem"
+        ></product-list>
+    </div>
+</template>
+
+<script>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import ProductList from "./components/ProductList.vue";
+
+export default {
+    name: "app",
+    data: function () {
+        return {
+            maximum: 99,
+            cart: [],
+            products: null,
+        };
+    },
+    methods: {
+        addItem: function (product) {
+            var whichProduct;
+            var existing = this.cart.filter(function (item, index) {
+                if (item.product.id == Number(product.id)) {
+                    whichProduct = index;
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+
+            if (existing.length) {
+                this.cart[whichProduct].qty++;
+            } else {
+                this.cart.push({ product: product, qty: 1 });
+            }
+        },
+    },
+    components: {
+        FontAwesomeIcon,
+        ProductList,
+    },
+    mounted: function () {
+        fetch("https://hplussport.com/api/products/order/price")
+            .then((response) => response.json())
+            .then((data) => {
+                this.products = data;
+            });
+    },
+};
+</script>
+
+```
+
 
 #### Emitting updates
 
+```html
+<!-- PriceSlider.vue -->
+<template>
+    <transition name="fade">
+        <div v-if="sliderStatus">
+            <div class="align-items-center" :class="sliderState">
+                <label :class="labelArr" for="formMax">max</label>
+                <input
+                    type="text"
+                    id="formMax"
+                    class="form-control mx-2 text-center"
+                    style="width: 60px;"
+                    v-model="maxAmount"
+                    @change="$emit('update:maximum', maxAmount)"
+                />
+                <!--
+                    更新parent的maximun，本质上是一个，但是不能下面改上面
+                -->
+                <input
+                    type="range"
+                    class="custom-range"
+                    min="0"
+                    max="200"
+                    v-model="maxAmount"
+                    @input="$emit('update:maximum', maxAmount)"
+                />
+            </div>
+        </div>
+    </transition>
+</template>
+
+<script>
+export default {
+    name: "price-slider",
+    data: function () {
+        return {
+            maxAmount: 99,
+        };
+    },
+    props: ["sliderStatus"],
+    computed: {
+        sliderState: function () {
+            return this.sliderStatus ? "d-flex" : "d-none";
+        },
+    },
+};
+</script>
+
+<style>
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: all 1s ease-in-out;
+}
+</style>
+
+```
+
+```html
+<!-- App.vue -->
+<template>
+    <div id="app" class="container mt-5">
+        <h1>My Shop</h1>
+        <!--
+            这里直接sync
+        -->
+        <price-slider
+            :sliderStatus="sliderStatus"
+            :maximum.sync="maximum"
+        ></price-slider>
+        <product-list
+            :maximum="maximum"
+            :products="products"
+            @add="addItem"
+        ></product-list>
+    </div>
+</template>
+
+<script>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import ProductList from "./components/ProductList.vue";
+import PriceSlider from "./components/PriceSlider.vue";
+
+export default {
+    name: "app",
+    data: function () {
+        return {
+            maximum: 99,
+            sliderStatus: true,
+            cart: [],
+            products: null,
+        };
+    },
+    methods: {
+        addItem: function (product) {
+            var whichProduct;
+            var existing = this.cart.filter(function (item, index) {
+                if (item.product.id == Number(product.id)) {
+                    whichProduct = index;
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+
+            if (existing.length) {
+                this.cart[whichProduct].qty++;
+            } else {
+                this.cart.push({ product: product, qty: 1 });
+            }
+        },
+    },
+    components: {
+        FontAwesomeIcon,
+        ProductList,
+        PriceSlider,
+    },
+    mounted: function () {
+        fetch("https://hplussport.com/api/products/order/price")
+            .then((response) => response.json())
+            .then((data) => {
+                this.products = data;
+            });
+    },
+};
+</script>
+
+```
+
+
 #### Adding navigation
 
-#### Fixing conponent issues
+```html
+<!-- Navbar.vue -->
+<template>
+    <nav class="navbar navbar-light fixed-top">
+        <div class="navbar-text ml-auto d-flex">
+            <button
+                class="btn btn-sm btn-outline-success"
+                @click="$emit('toggle')"
+            >
+                <i class="fas fa-dollar-sign"></i>
+                <font-awesome-icon icon="dollar-sign"></font-awesome-icon>
+            </button>
+            <div class="dropdown ml-2" v-if="cart.length > 0">
+                <button
+                    class="btn btn-success btn-sm dropdown-toggle"
+                    id="cartDropdown"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                >
+                    <span class="badge badge-pill badge-light">{{
+                        cartQty
+                    }}</span>
+                    <i class="fas fa-shopping-cart mx-2"></i>
+                    <price :value="Number(cartTotal)"></price>
+                </button>
+                <div
+                    class="dropdown-menu dropdown-menu-right"
+                    aria-labelledby="cartDropdown"
+                >
+                    <div v-for="(item, index) in cart" :key="index">
+                        <div class="dropdown-item-text text-nowrap text-right">
+                            <span
+                                class="badge badge-pill badge-warning align-text-top mr-1"
+                                >{{ item.qty }}</span
+                            >
+                            {{ item.product.name }}
+                            <b>
+                                <price
+                                    :value="
+                                        Number(item.qty * item.product.price)
+                                    "
+                                ></price>
+                            </b>
+                            <a
+                                href="#"
+                                @click.stop="$emit('delete', index)"
+                                class="badge badge-danger text-white"
+                                >-</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</template>
+
+<script>
+import Price from "./Price.vue";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+export default {
+    name: "navbar",
+    props: ["cart", "cartQty", "cartTotal"],
+    components: {
+        FontAwesomeIcon,
+        Price,
+    },
+};
+</script>
+
+```
+
+```html
+<!-- App.vue -->
+<template>
+    <div id="app" class="container mt-5">
+        <h1>My Shop</h1>
+        <navbar
+            :cart="cart"
+            :cartQty="cartQty"
+            :cartTotal="cartTotal"
+            @toggle="toggleSliderStatus"
+            @delete="deleteItem"
+        ></navbar>
+        <price-slider
+            :sliderStatus="sliderStatus"
+            :maximum.sync="maximum"
+        ></price-slider>
+        <product-list
+            :maximum="maximum"
+            :products="products"
+            @add="addItem"
+        ></product-list>
+    </div>
+</template>
+
+<script>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import ProductList from "./components/ProductList.vue";
+import PriceSlider from "./components/PriceSlider.vue";
+import Navbar from "./components/Navbar.vue";
+
+export default {
+    name: "app",
+    components: {
+        FontAwesomeIcon,
+        ProductList,
+        PriceSlider,
+        Navbar,
+    },
+    data: function () {
+        return {
+            maximum: 99,
+            sliderStatus: true,
+            cart: [],
+            products: null,
+        };
+    },
+    computed: {
+        cartTotal: function () {
+            let sum = 0;
+            for (let key in this.cart) {
+                sum = sum + this.cart[key].product.price * this.cart[key].qty;
+            }
+            return sum;
+        },
+        cartQty: function () {
+            let qty = 0;
+            for (let key in this.cart) {
+                qty = qty + this.cart[key].qty;
+            }
+            return qty;
+        },
+    },
+    methods: {
+        toggleSliderStatus: function () {
+            this.sliderStatus = !this.sliderStatus;
+        },
+        deleteItem: function (id) {
+            if (this.cart[id].qty > 1) {
+                this.cart[id].qty--;
+            } else {
+                this.cart.splice(id, 1);
+            }
+        },
+        addItem: function (product) {
+            var whichProduct;
+            var existing = this.cart.filter(function (item, index) {
+                if (item.product.id == Number(product.id)) {
+                    whichProduct = index;
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+
+            if (existing.length) {
+                this.cart[whichProduct].qty++;
+            } else {
+                this.cart.push({ product: product, qty: 1 });
+            }
+        },
+    },
+    mounted: function () {
+        fetch("https://hplussport.com/api/products/order/price")
+            .then((response) => response.json())
+            .then((data) => {
+                this.products = data;
+            });
+    },
+};
+</script>
+
+```
 
 
 ### 8. Using the Vue Router
 
 #### Reorganizing hierarchy
 
-#### Creating a checkout page
+**把component降一级**
 
-#### Building your routes
+```html
+<template>
+  <transition name="fade">
+    <div v-if="sliderStatus">
+      <div class="align-items-center" :class="sliderState">
+        <label class="font-weight-bold mr-2" for="formMax">max</label>
+        <input
+          type="text"
+          id="formMax"
+          class="form-control mx-2 text-center"
+          style="width: 60px;"
+          v-model="maxAmount"
+          @change="$parent.$emit('update:maximum', maxAmount)"
+        >
+        <!-- $parent.$emit -->
+        <input
+          type="range"
+          class="custom-range"
+          min="0"
+          max="200"
+          v-model="maxAmount"
+          @input="$parent.$emit('update:maximum', maxAmount)"
+        >
+      </div>
+    </div>
+  </transition>
+</template>
+
+```
+
 
 #### Creating route links
 
+```html
+<!-- Checkout.vue -->
+<template>
+    <div>
+        <h1>Checkout</h1>
 
-### Conclusion
+        <table class="table table-hover" v-if="cart.length">
+            <caption class="text-right h3">
+                <b>Total:</b>
+                <price
+                    class="d-block text-success font-weight-light"
+                    :value="Number(cartTotal)"
+                ></price>
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Item</th>
+                    <th scope="col" class="text-center">Qty</th>
+                    <th scope="col" class="text-right">Price</th>
+                    <th scope="col" class="text-right">Sub-total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(item, index) in cart" :key="item.product.id">
+                    <td class="text-center">
+                        <div
+                            class="btn-group"
+                            role="group"
+                            aria-label="Basic example"
+                        >
+                            <button
+                                @click="$emit('add', item.product)"
+                                class="btn btn-info"
+                            >
+                                +
+                            </button>
+                            <button
+                                @click="$emit('delete', index)"
+                                class="btn btn-outline-info"
+                            >
+                                -
+                            </button>
+                        </div>
+                    </td>
+                    <th scope="row">{{ item.product.name }}</th>
+                    <td class="text-center">{{ item.qty }}</td>
+                    <td class="text-right">{{ Number(item.product.price) }}</td>
+                    <td class="text-right">
+                        {{ Number(item.qty * item.product.price) }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!--
+            使用router-link
+        -->
+        <router-link class="btn btn-sm btn-outline-info text-dark" to="/"
+            >Keep Shopping</router-link
+        >
+    </div>
+</template>
+
+<script>
+import Price from "./Price.vue";
+
+export default {
+    name: "checkout",
+    props: ["cart", "cartTotal"],
+    components: {
+        Price,
+    },
+};
+</script>
+
+```
+
+```html
+<!-- App.vue -->
+<template>
+    <div id="app" class="container mt-5">
+        <!--
+            把各个component需要的参数都传进去
+        -->
+        <router-view
+            :cart="cart"
+            :cartQty="cartQty"
+            :cartTotal="cartTotal"
+            :sliderStatus="sliderStatus"
+            :maximum.sync="maximum"
+            :products="products"
+            @add="addItem"
+            @delete="deleteItem"
+            @toggle="toggleSliderStatus"
+        ></router-view>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "app",
+    data: function () {
+        return {
+            maximum: 99,
+            sliderStatus: true,
+            cart: [],
+            products: null,
+        };
+    },
+    computed: {
+        cartTotal: function () {
+            let sum = 0;
+            for (let key in this.cart) {
+                sum = sum + this.cart[key].product.price * this.cart[key].qty;
+            }
+            return sum;
+        },
+        cartQty: function () {
+            let qty = 0;
+            for (let key in this.cart) {
+                qty = qty + this.cart[key].qty;
+            }
+            return qty;
+        },
+    },
+    methods: {
+        toggleSliderStatus: function () {
+            this.sliderStatus = !this.sliderStatus;
+        },
+        deleteItem: function (id) {
+            if (this.cart[id].qty > 1) {
+                this.cart[id].qty--;
+            } else {
+                this.cart.splice(id, 1);
+            }
+        },
+        addItem: function (product) {
+            var whichProduct;
+            var existing = this.cart.filter(function (item, index) {
+                if (item.product.id == Number(product.id)) {
+                    whichProduct = index;
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+
+            if (existing.length) {
+                this.cart[whichProduct].qty++;
+            } else {
+                this.cart.push({ product: product, qty: 1 });
+            }
+        },
+    },
+    mounted: function () {
+        fetch("https://hplussport.com/api/products/order/price")
+            .then((response) => response.json())
+            .then((data) => {
+                this.products = data;
+            });
+    },
+};
+</script>
+
+```
+
+```javascript
+// main.js
+import Vue from "vue";
+import VueRouter from "vue-router";
+
+import App from "./App.vue";
+import "bootstrap";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+import "bootstrap/dist/css/bootstrap.css";
+import "animate.css/animate.css";
+
+import {
+    faShoppingCart,
+    faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
+
+library.add(faShoppingCart, faDollarSign);
+
+import Products from "./components/Products.vue";
+import Checkout from "./components/Checkout.vue";
+
+Vue.use(VueRouter);
+Vue.config.productionTip = false;
+
+// 创建一个路由
+const router = new VueRouter({
+    routes: [
+        {
+            path: "*",
+            component: Products,
+        },
+        {
+            path: "/checkout",
+            component: Checkout,
+        },
+    ],
+});
+
+new Vue({
+    render: (h) => h(App),
+    router,
+}).$mount("#app");
+
+```
