@@ -117,7 +117,7 @@
 
 ```
 xx: sm>576px md>768px lg>992px xl>1200px
-POS:left center right
+POS: left center right
 例子：text-lg-center
 ```
 
@@ -308,18 +308,176 @@ SIZ: 0, sm, lg
 
 #### Layout overview
 
+Grid是bootstrap最有用的部分，可以使用这个框架来实现各种布局
 
+三个主要部分：
 
+- container：响应式内容
+- ?
+- ?
 
+**12-Column Grid Breakpoints**
 
-
+- Extra small
+- Small
+- Medium
+- Latge
+- Extra large
 
 
 #### Using containers
 
+**The Grid**
+
+- 响应式 12列
+- Flexbox Based
+- `container` `row` `column`
+
+**Grid Containers**
+
+- `container(-SIZ)`
+
+```
+SIZ: sm, md, lg, xl, fluid
+所有的container都会做的：加15px padding
+当使用了row和column，container的15px就会消失，变成column之间的30px
+```
+
+![](bootstrap4.assets/pic-20200715-212648.png)
+
+```html
+<!--
+    放不满就扩大每一个的尺寸，尺寸到了最小还是一行放不下，就溢出到下一行，下一行的尺寸再去适应该行的空间
+-->
+<div class="container">
+    <div class="row">
+        <article class="col"></article>
+
+        <article class="col"></article>
+
+        <article class="col"></article>
+    </div>
+</div>
+```
+
+
 #### Working with rows and columns
 
+**Rows**
+
+Rows要放在container下面
+
+- `row`
+- `row-cols(-BP)(-COL)`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+COL: 1-6
+row-cols-2 代表一行有两个item来分享12col
+```
+
+- `no-gutters` 删除中间的空间
+
+**Columns**
+
+最多12列
+
+- `col(-BP)(-COL)`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+COL: 1-12，代表这个col要占用多少个col
+```
+
+**Aligning Columns**
+
+Vertical
+
+- `align-TYP-DIR`
+
+```
+TYP: items, self
+DIR: start, center, end
+```
+
+Horizontal
+
+- `justify-content-DIR`
+
+```
+DIR: start, center, end, around, between
+```
+
+示例
+
+```html
+<!--
+    一行放2个，在页面为lg状态，一行放4个
+-->
+<div class="row row-cols-2 row-lg-cols-4 no-gutters"></div>
+<div class="row justify-content-center"></div>
+<div class="col-3 col-lg-6"></div>
+
+<!--
+    vh-100代表占用百分百的view高度，垂直居中
+-->
+<div class="row vh-100 align-items-center"></div>
+<div class="col-3 align-self-end"></div>
+
+```
+
+
 #### Multiple column classes
+
+**Multiple Rows & cols**
+
+> container
+
+- `container(-SIZ)`
+
+```
+SIZ: sm, md, lg, xl, fluid
+可以控制在不同大小的设备上如何布局
+```
+
+> row
+
+- `row`
+- `row-cols(-BP)(-COL)`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+COL: 1-6
+row-cols-2 代表一行有两个item来分享12col
+```
+
+> col
+
+- `col(-BP)(-COL)`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+COL: 1-12，代表这个col要占用多少个col
+```
+
+示例
+
+```html
+<div class="row row-cols-2 row-lg-cols-4"></div>
+
+<div class="col-3 align-self-end"></div>
+```
+
+
+
+
+
+
+
+
+
+
+
 
 #### Offset columns
 
