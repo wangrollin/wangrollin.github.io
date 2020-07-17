@@ -50,7 +50,10 @@
             * 🗂字体和图标工具包
                 * [📝FontAwesome](/docs/开发者知识文档/01_软件开发/01_前端/02_css/字体和图标工具包/FontAwesome.md)
                 * [📝google_fonts](/docs/开发者知识文档/01_软件开发/01_前端/02_css/字体和图标工具包/google_fonts.md)
+            * 🗂待分类的CSS库
+                * [📝ColorUI](/docs/开发者知识文档/01_软件开发/01_前端/02_css/待分类的CSS库/ColorUI.md)
         * 🗂javascript
+            * [📝CommonJS](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/CommonJS.md)
             * [📝EJS](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/EJS.md)
             * [📝JSFiddle](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/JSFiddle.md)
             * [📝js语法](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/js语法.md)
@@ -108,6 +111,12 @@
                         * [📝vue-router](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vue-router.md)
                         * [📝vuejs](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vuejs.md)
                         * [📝vuex](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vuex.md)
+                        * 🗂基于vue的库和框架
+                            * [📝微信小程序Vant_Weapp](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/微信小程序Vant_Weapp.md)
+                            * [📝微信小程序mpx](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/微信小程序mpx.md)
+                            * [📝微信小程序wux_weapp](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/微信小程序wux_weapp.md)
+                            * [📝桌面端element](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/桌面端element.md)
+                            * [📝移动端vant](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/移动端vant.md)
                 * 🗂测试框架
                     * 🗂单元测试
                         * [📝Jest](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/测试框架/单元测试/Jest.md)
