@@ -463,9 +463,278 @@ COL: 1-12，代表这个col要占用多少个col
 示例
 
 ```html
-<div class="row row-cols-2 row-lg-cols-4"></div>
+<div class="row row-cols-2 row-cols-lg-4"></div>
+
+<div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6"></div>
 
 <div class="col-3 align-self-end"></div>
+```
+
+
+#### Offset columns
+
+> Column Offsets
+
+- 'offset-BP-COL'
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+COL: 1-11
+```
+
+示例
+
+```html
+<!--
+    前面空出来1个col的空间
+-->
+<div class="col col-sm-4 offset-sm-1"></div>
+```
+
+
+#### Nested columns
+
+> Nesting
+
+- `row` inside column
+- 会在这个col里创建一个12-col的grid
+- 使用相同的class
+
+示例
+
+```html
+<div class="row justify-content-center">
+    <div class="col-3 col-lg-6">
+        <div class="row justify-content-center">
+            <div class="col-3 col-lg-6"></div>
+        </div>
+    </div>
+</div>
+
+```
+
+
+#### Custom order
+
+> Order
+
+- `order(-BP)-ORD`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+ORD: 1-12
+```
+
+示例
+
+```html
+<div class="row">
+    <div class="col order-3">3</div>
+    <div class="col order-2">2</div>
+    <div class="col order-1">1</div>
+    <div class="col">0</div>
+</div>
+<!---
+    如果要进行order指定，最好同时指定所有的col，否则可能有奇怪的事情发生
+    不添加order，则在第一层，所以在第一位；然后有order的是第二层，进行排序
+-->
+
+```
+
+
+#### Grid alignment options
+
+> Vertical Alignment
+
+- use in rows
+- `align-items-ALN`
+- works on nested cols
+
+```
+ALN: start, center, end
+```
+
+> individual alignment
+
+- use in cols
+- `align-self-ALN`
+
+```
+ALN: start, center, end
+```
+
+> horizontal alignment
+
+- use in rows
+- need col width
+- `justify-content-ALN`
+
+```
+ALN: start, center, end, around, between
+```
+
+
+#### Display properties
+
+> position(作用和标准css的一样)
+
+- position classes (`fixed-top`, `fixed-bottom`, `sticky-top`)
+- `sticky-top` lacks support
+
+> basic display
+
+- 模仿的css
+- `d(-BP)-TYP`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+TYP: none, inline, inline-block, block, 
+    table, table-row, table-cell, 
+    flex, inline-flex
+```
+
+> print display
+
+- `d-print-TYP`
+
+```
+TYP: none, inline, inline-block, block, 
+    table, table-row, table-cell, 
+    flex, inline-flex
+```
+
+> basic flex container
+
+- `d(-BP)(-inline)-flex`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+```
+
+
+#### Flexbox container options
+
+> flex container
+
+- container/item classes, 可以用container层面的class，可以用内部item层面的class
+- `d(-BP)(-inline)-flex`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+```
+
+> direction
+
+- `flex(-BP)(-DIR)(-reverse)`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+DIR: row(default), column
+```
+
+> order
+
+- `order(-BP)-ORD`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+ORD: 1-12
+```
+
+> justify
+
+- `justify-content(-BP)-ALG`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+ALG: start, end, center, around, between
+```
+
+> wrap
+
+- `flex(-BP)-WRP(-reverse)`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+WRP: wrap, nowrap(default)
+```
+
+> vertical alignment
+
+- `align-content(-BP)-ALG`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+ALG: start, end, center, around, between, stretch
+```
+
+
+#### Individual flex elements
+
+> align self
+
+- `align-self(-BP)-ALG`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+ALG: start, end, center, baseline, stretch(default)
+```
+
+> controlling order
+
+- `order(-BP)-ORD`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+ORD: 1-12
+```
+
+
+#### Floating elements
+
+> floating elements
+
+- `float-(BP)-SID`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+SID: left, right, none
+```
+
+示例
+
+```html
+<div class="container bg-danger">
+    <div class="bg-info clearfix">
+        <div class="item float-sm-left">Exotic</div>
+        <div class="item float-sm-left">Grooming</div>
+        <div class="item float-sm-left">Health</div>
+        <div class="item float-sm-left">Nutrition</div>
+        <div class="item float-sm-right">Pests</div>
+        <div class="item float-sm-right">Vaccinations</div>
+    </div>
+</div>
+<!---
+    使用了float，上层会失去内部item的track，加上clearfix可以解决这个问题
+    就像一个栈，Pests在最右侧，Vaccinations次之
+-->
+
+```
+
+
+#### Margin and padding
+
+space相关的是成员最多的class group，模仿的CSS里的margin和padding
+
+> margin/padding
+
+- `pb(-BP)-(N)SIZ`
+
+```
+PRO: m margin, p padding
+SID: t r b l x y
+BP: sm>576px md>768px lg>992px xl>1200px
+SIZ: 0, 1, 2, 3, 4, 5, auto
 ```
 
 
@@ -479,23 +748,11 @@ COL: 1-12，代表这个col要占用多少个col
 
 
 
-#### Offset columns
 
-#### Nested columns
 
-#### Custom order
 
-#### Grid alignment options
 
-#### Display properties
 
-#### Flexbox container options
-
-#### Individual flex elements
-
-#### Floating elements
-
-#### Margin and padding
 
 #### Visibility
 
