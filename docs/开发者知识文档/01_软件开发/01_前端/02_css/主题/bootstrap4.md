@@ -728,48 +728,272 @@ space相关的是成员最多的class group，模仿的CSS里的margin和padding
 
 > margin/padding
 
-- `pb(-BP)-(N)SIZ`
+- `pb(-BP)-(n)SIZ`
 
 ```
 PRO: m margin, p padding
-SID: t r b l x y
+SID: t r b l x y (top right bottom left x-line y-line)
 BP: sm>576px md>768px lg>992px xl>1200px
-SIZ: 0, 1, 2, 3, 4, 5, auto
+SIZ: 0, 1(0.25 rem), 2(0.5 rem), 3(1 rem), 4(1.5 rem), 5(3 rem), auto (单位：rem)
+
+pb-sm-5
+pb-sm-n5: n代表负数，对padding无效，对margin有效
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #### Visibility
 
+> visibility
+
+- `invisible`, `visible`
+
+```
+invisible: 不可见，但是现实的时候空间仍然被占据了
+visible: 对screen readers可见，一般用于已经隐藏的元素，比如d-none
+```
+
+- `d(-BP)-TYP`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+TYP: none, inline, inline-block, block,
+        table, table-cell, flex, inline-flex
+```
+
+
 #### Sizing utilities
 
+> sizing
+
+- `SIZ(-AMT)`
+
+```
+SIZ: w h, (mw mh, vw vh, min-vw min-vh)(只能和100匹配，max view min)
+AMT: 25 50 75 100 auto
+```
+
+
 #### Using borders
+
+> borders
+
+- `border(-SID)(-COL)(-0)`
+
+```
+SID: top, right, bottom, left
+COL: primary, secondary, success, danger, warning, info, light, dark, white
+-0: clear border
+```
+
+> rounded
+
+- `rounded(-SID)(-SHA)(-SIZ)`
+
+```
+SID: top, right, bottom, left
+SHA: circle, pill
+SIZ: 0 sm lg
+```
+
+示例
+
+```html
+<div class="container">
+    <div class="item border"></div>
+    <div class="item border border-primary"></div>
+    <div class="item border-top"></div>
+    <div class="item border-0 rounded-circle"></div>
+</div>
+
+```
 
 
 ### 4. Using Navs and Navbar Components
 
 #### Navbar overview
 
+navigation components
+
+- navs
+- tabs
+- pills
+- navbars
+  - branding
+  - color schemes
+  - dropdowns
+  - form elements
+
+
 #### Create basic navigation
+
+> basic nav classes
+
+- with/without `UL`s
+- `nav`
+- `nav-item`
+- `nav-link`
+
+> nav link options
+
+- `active`
+- `disabled`
+
+```
+active: 表示这个nav被选中
+disable: 不可点击
+```
+
+> nav styles
+
+- `nav-pills`
+- `nav-tabs`
+
+> nav alignment
+
+- `justify-content-center`
+- `justify-content-end`
+- `nav-fill`
+- `nav-justified`
+- `flex-column`
+
+```
+nav-justified: 让各个菜单占用的空间一样大
+```
+
+示例
+
+```html
+<ul class="nav nav-pills flex-column flex-sm-row">
+    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Mission Awesomeness</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Staff</a></li>
+    <li class="nav-item"><a class="nav-link disabled" href="#">Testimonials</a></li>
+</ul>
+
+<!--
+    默认是col，当大于sm，则变成一行row
+-->
+<nav class="nav nav-pills flex-column flex-sm-row">
+    <a class="nav-item nav-link active" href="#">Home</a>
+    <a class="nav-item nav-link" href="#">Mission Awesomeness</a>
+    <a class="nav-item nav-link" href="#">Services</a>
+    <a class="nav-item nav-link" href="#">Staff</a>
+    <a class="nav-item nav-link disabled" href="#">Testimonials</a>
+</nav>
+
+```
+
 
 #### Create a navbar
 
+> navbar classes
+
+- `navbar`
+- `navbar-expand(-BP)`
+
+```
+BP: sm>576px md>768px lg>992px xl>1200px
+```
+
+> navbar colors
+
+- `bg-COLOR` for backgrounds
+
+```
+COLOR: primary, secondary, success, danger, warning, info, light, dark, white
+```
+
+- `navbar-light`
+- `navbar-dark`
+
+> navbar-nav options
+
+- `navbar-nav` container
+  - `nav-item`
+  - `nav-link`
+  - `active`
+  - `disabled`
+
+示例
+
+```html
+<nav class="nav nav-pills flex-column flex-sm-row">
+    <a class="nav-item nav-link active" href="#">Home</a>
+    <a class="nav-item nav-link" href="#">Mission Awesomeness</a>
+    <a class="nav-item nav-link" href="#">Services</a>
+    <a class="nav-item nav-link" href="#">Staff</a>
+    <a class="nav-item nav-link disabled" href="#">Testimonials</a>
+</nav>
+
+<!-- 对比 -->
+
+<nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+    <div class="container">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Mission</a>
+            <a class="nav-item nav-link" href="#">Services</a>
+            <a class="nav-item nav-link disabled" href="#">Staff</a>
+            <a class="nav-item nav-link" href="#">Testimonials</a>
+        </div>
+    </div>
+</nav>
+
+```
+
+> tips: bootstrap 是一个mobile first的框架
+
+
 #### Use branding and text
+
+> navbar options
+
+- `navbar-brand`
+- Link or Headline
+- using images
+- `navbar-text`
+
+示例
+
+```html
+<nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+    <div class="container">
+        <a class="navbar-brand d-none d-sm-inline-block" href="#">
+            <img src="images/wisdompetlogo.svg" style="width: 40px;" alt="Wisdom Pet Logo"/>
+        </a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Mission</a>
+            <a class="nav-item nav-link" href="#">Services</a>
+            <a class="nav-item nav-link" href="#">Staff</a>
+            <a class="nav-item nav-link" href="#">Testimonials</a>
+        </div>
+        <span class="navbar-text d-none d-xl-inline-block">
+            The best in traditional and alternative medicine
+        </span>
+    </div>
+</nav>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Add a dropdown to navigation
 
