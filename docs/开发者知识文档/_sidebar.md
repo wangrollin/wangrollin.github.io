@@ -617,8 +617,8 @@
         * 🗂UI自动化测试
             * [📝phoenix](/docs/开发者知识文档/02_CI&CD/06_自动测试/05_UI自动化测试/phoenix.md)
             * [📝selenium](/docs/开发者知识文档/02_CI&CD/06_自动测试/05_UI自动化测试/selenium.md)
-        * 🗂性能自动化测试
-            * [📝性能测试](/docs/开发者知识文档/02_CI&CD/06_自动测试/06_性能自动化测试/性能测试.md)
+        * 🗂性能压力自动化测试
+            * [📝JMeter](/docs/开发者知识文档/02_CI&CD/06_自动测试/06_性能压力自动化测试/JMeter.md)
     * 🗂发布策略
         * [📝金丝雀canary](/docs/开发者知识文档/02_CI&CD/07_发布策略/金丝雀canary.md)
     * [📝github开发流](/docs/开发者知识文档/02_CI&CD/github开发流.md)
