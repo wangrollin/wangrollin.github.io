@@ -978,28 +978,115 @@ COLOR: primary, secondary, success, danger, warning, info, light, dark, white
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Add a dropdown to navigation
+
+> dropdown setup
+
+- `dropdown` to align
+- `dropdown-toggle` on link
+- `data-toggle="dropdown"`
+- `dropdown-menu`
+- `dropdown-item`
+- `id` & aria attributes
+
+示例
+
+```html
+<nav
+    id="navbar-site"
+    class="navbar navbar-dark bg-dark navbar-expand-sm"
+>
+    <div class="container">
+        <div class="navbar-nav ml-sm-auto">
+            <a class="nav-item nav-link" href="#mission">Mission</a>
+
+            <div class="dropdown">
+                <a
+                    class="nav-item nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    id="servicesDropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    href="#"
+                    >Services</a
+                >
+
+                <div
+                    class="dropdown-menu"
+                    aria-labelledby="servicesDropdown"
+                >
+                    <a class="dropdown-item" href="#">Grooming</a>
+                    <a class="dropdown-item" href="#">General Health</a>
+                    <a class="dropdown-item" href="#">Nutrition</a>
+                    <a class="dropdown-item" href="#">Pest Control</a>
+                    <a class="dropdown-item" href="#">Vaccinations</a>
+                </div>
+            </div>
+
+            <a class="nav-item nav-link" href="#staff">Staff</a>
+            <a class="nav-item nav-link" href="#testimonials"
+                >Testimonials</a
+            >
+        </div>
+    </div>
+</nav>
+
+```
+
 
 #### Add form elements
 
+> form classes
+
+- `form-inline`
+- `form-control`
+- spacing as needed
+
+示例
+
+```html
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#staff">Staff</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        </ul><!-- navbar-nav -->
+        <form class="form-inline">
+            <input class="form-control mr-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-light" type="submit">Go</button>
+        </form>
+    </div><!-- container -->
+</nav>
+
+```
+
+
 #### Control positioning
+
+> placement options
+
+- ``
+- ``
+- ``
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Create collapsible content
 

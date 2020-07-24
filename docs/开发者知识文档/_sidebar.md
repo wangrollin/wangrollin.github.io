@@ -613,6 +613,7 @@
         * 🗂SIT测试
             * [📝placeholder](/docs/开发者知识文档/02_CI&CD/06_自动测试/03_SIT测试/placeholder.md)
         * 🗂API自动化测试
+            * [📝postman](/docs/开发者知识文档/02_CI&CD/06_自动测试/04_API自动化测试/postman.md)
             * [📝自动测试](/docs/开发者知识文档/02_CI&CD/06_自动测试/04_API自动化测试/自动测试.md)
         * 🗂UI自动化测试
             * [📝phoenix](/docs/开发者知识文档/02_CI&CD/06_自动测试/05_UI自动化测试/phoenix.md)
