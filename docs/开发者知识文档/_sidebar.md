@@ -464,6 +464,7 @@
                 * [📝cpy](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/cpy.md)
                 * [📝pypy解释器](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/pypy解释器.md)
                 * [📝python](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/python.md)
+                * [📝python3语法](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/python3语法.md)
             * 🗂常用库
                 * [📝django](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/django.md)
                 * [📝jieba分词](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/jieba分词.md)

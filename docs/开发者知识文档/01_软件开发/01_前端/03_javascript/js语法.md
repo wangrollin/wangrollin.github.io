@@ -1,5 +1,119 @@
 # JS 语法
 
+
+## Lynda 课程：Learning the JavaScript Language
+
+### 1. Getting started
+
+
+##### Syntax: Learning to read and write
+
+##### Versions of javascript
+
+##### places to tinker with javascript
+
+##### our friend the text editor
+
+##### Additional helpful resources
+
+### 2. Variables and types
+
+##### Declaring and assigning variabes
+
+##### Strings
+
+##### String properties and methods
+
+##### Numbers
+
+##### Booleans and the quest for truth
+
+
+### 3. Objects, Arrays, and More
+
+##### Objects
+
+##### Objects for modeling data
+
+##### Manipulating objects
+
+##### Jargon: References and objects
+
+##### Arrays
+
+##### Manipulating arrays
+
+##### Readability: Whitespace
+
+##### Readability: Comments
+
+##### Regular expressions
+
+
+### 4. Operators and Control Structures
+
+##### Simple comparisons
+
+##### Arithmetic operators
+
+##### Logical operators
+
+##### Conditionals: if
+
+##### Conditionals: switch
+
+##### Terse ifs
+
+##### Ternary operator
+
+##### type checking
+
+
+### 5. Iterating with loops
+
+##### For loops: Sequential
+
+##### For loops: Enumerative
+
+##### while loops
+
+
+### 6. Functions
+
+##### Basic functions
+
+##### Arguments in functions
+
+##### more on arguments
+
+##### objects, references, and functions
+
+##### functions are objects
+
+##### Jargon: Scope in javascript
+
+##### variable scope in functions
+
+##### Jargon: Callback functions
+
+
+### 7. More Advanced pieces
+
+##### Asynchronous code: The waiting is the hardest part
+
+##### Promises, async, and await
+
+##### object-oriented javascript: Prototypes and classes
+
+##### JargonL: Strong vs loose typing 
+
+##### Modern javascript tooling
+
+
+### Conclusion
+
+
+
 ## Lynda 课程：JavaScript for Web Designers
 
 ### 0. Introduction
