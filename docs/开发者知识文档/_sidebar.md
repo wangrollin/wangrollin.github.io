@@ -206,6 +206,39 @@
                     * [📝fastjson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/fastjson.md)
                     * [📝gson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/gson.md)
             * 🗂A_框架
+                * 🗂spring全家桶
+                    * 🗂SpringSecurity
+                        * [📝springSecurity](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/SpringSecurity/springSecurity.md)
+                    * [📝Spring_Data_Jest](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/Spring_Data_Jest.md)
+                    * 🗂springBoot
+                        * [📝springboot](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springBoot/springboot.md)
+                        * [📝springboot热加载](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springBoot/springboot热加载.md)
+                    * 🗂springCloudDataFlow
+                        * [📝springCloudDataFlow](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springCloudDataFlow/springCloudDataFlow.md)
+                    * 🗂springData
+                        * [📝springDataJpa](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springData/springDataJpa.md)
+                        * [📝springdata](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springData/springdata.md)
+                    * 🗂springFramework
+                        * [📝spring5](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/spring5.md)
+                    * 🗂springIntegration
+                        * [📝springIntegration](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springIntegration/springIntegration.md)
+                    * 🗂springSession
+                        * [📝springSession](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springSession/springSession.md)
+                    * [📝springmvc](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springmvc.md)
+                * 🗂微服务框架
+                    * 🗂springCloud
+                        * [📝HystrixDashbord](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/HystrixDashbord.md)
+                        * [📝Hystrix_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Hystrix_by_Netflix.md)
+                        * [📝Nacos_by_alibaba](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Nacos_by_alibaba.md)
+                        * [📝Ribbon_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Ribbon_by_Netflix.md)
+                        * [📝Sleuth和zipkin](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Sleuth和zipkin.md)
+                        * [📝configServer](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/configServer.md)
+                        * [📝eureka_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/eureka_by_Netflix.md)
+                        * [📝openFeign](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/openFeign.md)
+                        * [📝springcloud](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/springcloud.md)
+                        * [📝traefik](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/traefik.md)
+                        * [📝webflux_gateway](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/webflux_gateway.md)
+                        * [📝zuul](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/zuul.md)
                 * 🗂ORM框架
                     * [📝JDBC](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/ORM框架/JDBC.md)
                     * [📝hibernate](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/ORM框架/hibernate.md)
@@ -225,24 +258,6 @@
                     * [📝dubbo](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/rpc框架/dubbo.md)
                     * [📝grpc](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/rpc框架/grpc.md)
                     * [📝protobuf](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/rpc框架/protobuf.md)
-                * 🗂spring全家桶
-                    * 🗂SpringSecurity
-                        * [📝springSecurity](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/SpringSecurity/springSecurity.md)
-                    * [📝Spring_Data_Jest](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/Spring_Data_Jest.md)
-                    * 🗂springBoot
-                        * [📝springboot](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springBoot/springboot.md)
-                    * 🗂springCloudDataFlow
-                        * [📝springCloudDataFlow](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springCloudDataFlow/springCloudDataFlow.md)
-                    * 🗂springData
-                        * [📝springDataJpa](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springData/springDataJpa.md)
-                        * [📝springdata](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springData/springdata.md)
-                    * 🗂springFramework
-                        * [📝spring5](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springFramework/spring5.md)
-                    * 🗂springIntegration
-                        * [📝springIntegration](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springIntegration/springIntegration.md)
-                    * 🗂springSession
-                        * [📝springSession](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springSession/springSession.md)
-                    * [📝springmvc](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/spring全家桶/springmvc.md)
                 * 🗂yaml密码加密框架
                     * [📝druid](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/yaml密码加密框架/druid.md)
                     * [📝jasypt](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/yaml密码加密框架/jasypt.md)
@@ -251,25 +266,13 @@
                     * [📝cglib](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/代码生成框架/cglib.md)
                     * [📝lombok](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/代码生成框架/lombok.md)
                     * [📝mapstruct](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/代码生成框架/mapstruct.md)
+                * 🗂参数校验validator
+                    * [📝javax.validation](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/参数校验validator/javax.validation.md)
                 * 🗂安全认证框架
                     * [📝OpenID_Connect](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/OpenID_Connect.md)
                     * [📝jwt](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/jwt.md)
                     * [📝oauth2](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/oauth2.md)
                     * [📝shrio](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/shrio.md)
-                * 🗂微服务框架
-                    * 🗂springCloud
-                        * [📝HystrixDashbord](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/HystrixDashbord.md)
-                        * [📝Hystrix_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/Hystrix_by_Netflix.md)
-                        * [📝Nacos_by_alibaba](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/Nacos_by_alibaba.md)
-                        * [📝Ribbon_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/Ribbon_by_Netflix.md)
-                        * [📝Sleuth和zipkin](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/Sleuth和zipkin.md)
-                        * [📝configServer](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/configServer.md)
-                        * [📝eureka_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/eureka_by_Netflix.md)
-                        * [📝openFeign](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/openFeign.md)
-                        * [📝springcloud](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/springcloud.md)
-                        * [📝traefik](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/traefik.md)
-                        * [📝webflux_gateway](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/webflux_gateway.md)
-                        * [📝zuul](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/微服务框架/springCloud/zuul.md)
                 * 🗂日志框架
                     * 🗂logs
                         * [📝jdkLog](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/logs/jdkLog.md)
