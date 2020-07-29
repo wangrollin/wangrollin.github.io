@@ -1067,34 +1067,99 @@ COLOR: primary, secondary, success, danger, warning, info, light, dark, white
 
 > placement options
 
-- ``
-- ``
-- ``
+- `fixed-top`
+- `fixed-bottom`
+- `sticky-top`
+- spacing as needed
 
+示例
 
+```html
+<nav class="navbar navbar-dark navbar-expand-sm sticky-top" style="background-color: #55A762;">
+    <div class="container">
+        <div class="navbar-brand">Wisdom Pet Medicine</div>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Mission</a>
+            <a class="nav-item nav-link" href="#">Services</a>
+            <a class="nav-item nav-link" href="#">Staff</a>
+            <a class="nav-item nav-link" href="#">Testimonials</a>
+        </div><!-- navbar-nav -->
+    </div><!-- container -->
+</nav>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 #### Create collapsible content
+
+> collapsable content
+
+- `collapse`
+- `navbar-collapse`
+- `id`
+
+> toggler classes
+
+- `navbar-toggler`
+- other properties
+- `navbar-toggler-icon`
+
+示例
+
+```html
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+
+        <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#myTogglerNav"
+            aria-controls="myTogglerNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a href="#" class="navbar-brand">Wisdom Pet Medicine</a>
+
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Mission</a>
+                <a class="nav-item nav-link" href="#">Services</a>
+                <a class="nav-item nav-link" href="#">Staff</a>
+                <a class="nav-item nav-link" href="#">Testimonials</a>
+            </div><!-- navbar -->
+        </div><!-- collapse -->
+
+    </div><!-- container -->
+</nav><!-- nav -->
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ### 5. Style Element Overview
 
 #### Basic style element overview
+
+示例
+
+```html
+
+
+```
 
 #### Create buttons
 
