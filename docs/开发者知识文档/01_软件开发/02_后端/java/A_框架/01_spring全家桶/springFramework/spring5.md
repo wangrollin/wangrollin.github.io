@@ -26,7 +26,7 @@ implements ApplicationListener<ApplicationReadyEvent>
 
 #### @Scheduled
 
-定时任务注解
+cron表达式 定时任务注解
 
 https://blog.csdn.net/qq_39101581/article/details/79308851
 
