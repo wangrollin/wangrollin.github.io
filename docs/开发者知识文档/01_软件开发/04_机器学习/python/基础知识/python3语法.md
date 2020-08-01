@@ -511,9 +511,9 @@ else:
 
 """
 优先级
-    函数调用(is, is not; in, not in) - 位操作符 - 数值计算操作符
+    函数调用() - 位操作符 - 数值计算操作符
     比较操作符(==, !=, >, <, >=, <=)
-    逻辑操作符(and, or, not)
+    逻辑操作符(and, or, not; is, is not; in, not in)
     赋值操作符
 """
 ```
@@ -540,14 +540,14 @@ print(x)
 
 """
 优先级
-    函数调用(is, is not; in, not in)
+    函数调用()
     位操作符()
     数值计算操作符(+, -, *, /, //, %, **, (正负，相当于乘以-1 or 1)-, +)
                 (+=, -=, *=, /=, //=, %=, **=)
                 (没有++, --)
     比较操作符(==, !=, >, <, >=, <=)
 
-    逻辑操作符(and, or, not)
+    逻辑操作符(and, or, not; is, is not; in, not in)
 
     赋值操作符(=)
 """
@@ -570,144 +570,517 @@ print(+y)  # -3
 
 """
 优先级
-    函数调用(is, is not; in, not in)
+    函数调用()
     位操作符(&, |, ^, <<, >>)
     数值计算操作符(+, -, *, /, //, %, **, (正负，相当于乘以-1 or 1)-, +)
                 (+=, -=, *=, /=, //=, %=, **=)
                 (没有++, --)
     比较操作符(==, !=, >, <, >=, <=)
 
-    逻辑操作符(and, or, not)
+    逻辑操作符(and, or, not; is, is not; in, not in)
 
     赋值操作符(=)
 """
+
+x = 0x0a  # 16进制表示
+y = 0x02
+z = x & y
+
+# 两位的string，补足0，16进制表示
+print(f'(hex) x is {x:02x}, y is {y:02x}, z is {z:02x}')
+print(f'(bin) x is {x:08b}, y is {y:08b}, z is {z:08b}')
+
+# (hex) x is 0a, y is 02, z is 02
+# (bin) x is 00001010, y is 00000010, z is 00000010
+
 ```
 
 
 #### comparison operators
 
-
 ```python
+#!/usr/bin/env python3
+
+"""
+优先级
+    函数调用()
+    位操作符(&, |, ^, <<, >>)
+    数值计算操作符(+, -, *, /, //, %, **, (正负，相当于乘以-1 or 1)-, +)
+                (+=, -=, *=, /=, //=, %=, **=)
+                (没有++, --)
+    比较操作符(==, !=, >, <, >=, <=)
+
+    逻辑操作符(and, or, not; is, is not; in, not in)
+
+    赋值操作符(=)
+"""
+
+x = 42
+y = 73
+
+if x < y:
+    print('comparison is true')
+else:
+    print('comparison is false')
 
 ```
+
 
 #### boolean operators
 
-
 ```python
+#!/usr/bin/env python3
+
+"""
+优先级
+    函数调用()
+    位操作符(&, |, ^, <<, >>)
+    数值计算操作符(+, -, *, /, //, %, **, (正负，相当于乘以-1 or 1)-, +)
+                (+=, -=, *=, /=, //=, %=, **=)
+                (没有++, --)
+    比较操作符(==, !=, >, <, >=, <=)
+
+    逻辑操作符(and, or, not; is, is not; in, not in)
+
+    赋值操作符(=)
+"""
+
+a = True
+b = False
+x = ('bear', 'bunny', 'tree', 'sky', 'rain')
+y = 'bear'
+
+# str是不可变类型，所以指向同一个obj
+if y is x[0]:
+    print('expression is true')
+else:
+    print('expression is false')
 
 ```
+
 
 #### operator precedence
 
+操作优先级
 
-```python
+- **
+- +x, -x
+- *, /, //, %
+- +, -
+- <<, >>
+- &
+- ^
+- |
+- in, not in, is, is not, <, <=, >, >=, !=, ==
+- not x
+- and
+- or
 
-```
 
 ### 6. loops
 
 #### python loops
 
+- for loop
+- while loop
 
-```python
-
-```
 
 #### the while loop
 
-
 ```python
+#!/usr/bin/env python3
+
+secret = 'swordfish'
+pw = ''
+
+while pw != secret:
+    pw = input("What's the secret word? ")
 
 ```
+
 
 #### the for loop
 
-
 ```python
+#!/usr/bin/env python3
+
+animals = ('bear', 'bunny', 'dog', 'cat', 'velociraptor')
+
+for pet in animals:
+    print(pet)
 
 ```
+
 
 #### additional controls
 
+- continue -> body
+- else -> some
+- break -> skip else code
 
 ```python
+#!/usr/bin/env python3
+
+secret = 'swordfish'
+pw = ''
+auth = False
+count = 0
+max_attempt = 5
+
+while pw != secret:
+    count += 1
+    if count > max_attempt:
+        break
+    if count == 3:
+        continue
+    pw = input("What's the secret word? ")
+else:
+    auth = True
+
+print("Authorized" if auth else "Calling the FBI ...")
 
 ```
+
 
 ### 7. functions
 
 #### defining a function
 
-
 ```python
+#!/usr/bin/env python3
+
+# 所有的函数都有返回值，所以不区分函数和过程
+
+def main():
+    kitten(5)
+
+
+def kitten(n):
+    print(f' {n} Meow.')
+
+
+if __name__ == '__main__':
+    main()
 
 ```
+
 
 #### function arguments
 
-
 ```python
+#!/usr/bin/env python3
+
+# 所有的函数都有返回值，所以不区分函数和过程
+
+def main():
+    kitten(5, 6)
+
+
+# 参数默认值；python是值传递
+def kitten(a, b, c=1):
+    print(f'Meow. {a} {b} {c}')
+
+
+if __name__ == '__main__':
+    main()
 
 ```
+
 
 #### argument lists
 
-
 ```python
+#!/usr/bin/env python3
+
+def main():
+    x = ('meow', 'grrr', 'purr')
+    kitten(*x)
+    kitten('meow', 'grrr', 'purr')
+
+
+# 可变长度参数；args是tuple，不可变；args和caller的args id不同，说明引用传递是在里面一层的
+def kitten(*args):
+    if len(args):
+        for s in args:
+            print(s)
+    else:
+        print('Meow.')
+
+
+if __name__ == '__main__':
+    main()
 
 ```
+
 
 #### keyword arguments
 
-
 ```python
+#!/usr/bin/env python3
+
+def main():
+    x = {'Buffy': [1, 2], 'Zilla': 'grr', 'Angel': 'rawr'}
+    kitten(**x)
+    print(id(x))
+
+    y = dict(Buffy='meow', Zilla='grr', Angel='rawr')
+    kitten(**y)
+
+    kitten(Buffy='meow', Zilla='grr', Angel='rawr')
+
+
+# keyword args；args和caller的args id不同，说明引用传递是在里面一层的
+def kitten(*args, a, **kwargs):
+    # kwargs['Buffy'][0] = 2
+    # print(type(kwargs))
+    # print(id(kwargs))
+
+    if len(kwargs):
+        for k in kwargs:
+            print('Kitten {} says {}'.format(k, kwargs[k]))
+    else:
+        print('Meow.')
+
+
+# 会错乱，注意；
+# test(1, 2, 3, 4, **{'a': 2, '3': 4})
+def test(*args, a, **kwargs):
+    print(args)  # (1, 2, 3, 4)
+    print(a)  # 2
+    print(kwargs)  # {'3': 4}
+
+
+if __name__ == '__main__':
+    main()
 
 ```
+
 
 #### return values
 
-
 ```python
+#!/usr/bin/env python3
+
+def main():
+    x = kitten()
+    # <class 'tuple'> (1, 2)
+    print(type(x), x)
+
+
+def kitten():
+    print(f'Meow.')
+    return 1, 2
+
+
+if __name__ == '__main__':
+    main()
 
 ```
+
 
 #### generators
 
-
 ```python
+#!/usr/bin/env python3
+
+def main():
+    # <class 'generator'>
+    print(type(inclusive_range(25)), inclusive_range(25))
+
+    for i in inclusive_range(25):
+        print(i, end=' ')
+    print()
+
+
+# return yield都有时是什么情况？
+def inclusive_range(*args):
+    numargs = len(args)
+    start = 0
+    step = 1
+
+    # initialize parameters
+    if numargs < 1:
+        raise TypeError(f'expected at least 1 argument, got {numargs}')
+    elif numargs == 1:
+        stop = args[0]
+    elif numargs == 2:
+        (start, stop) = args
+    elif numargs == 3:
+        (start, stop, step) = args
+    else:
+        raise TypeError(f'expected at most 3 arguments, got {numargs}')
+
+    # generator
+    i = start
+    while i <= stop:
+        yield i
+        i += step
+
+
+if __name__ == '__main__':
+    main()
 
 ```
+
 
 #### decorators
 
-
 ```python
+#!/usr/bin/env python3
+
+# python中万物都是对象，class，prop，function
+def f1():
+    print('Hello, World. f1')
+
+
+x = f1
+x()
+
+
+def f3(func):
+    def f2():
+        print('Hello, World. f2')
+        func()
+        print('Hello, World again. f2')
+
+    return f2
+
+
+x = f3(f1)
+print(type(x))  # <class 'function'>
+x()
+
+# 装饰模式1
+f1 = f3(f1)
+f1()
+
+
+# 装饰模式2
+@f3  # 装饰上f3
+def f4():
+    print('Hello, World. f1')
+
+
+# 头大，好像python的lambda多行不方便
+x = lambda: print('aaa')
+x = lambda a: print(a)
+
+
+# 成功把f2从function类型变成了int类型
+def f1(f):
+    return 1
+
+
+@f1
+def f2():
+    print('hello')
+
+
+print(type(f2))
 
 ```
+
+```python
+#!/usr/bin/env python3
+
+import time
+
+
+def elapsed_time(f):
+    def wrapper():
+        t1 = time.time()
+        f()
+        t2 = time.time()
+        print(f'Elapsed time: {(t2 - t1) * 1000} ms')
+
+    return wrapper
+
+
+@elapsed_time
+def big_sum():
+    num_list = []
+    for num in (range(0, 10000)):
+        num_list.append(num)
+    print(f'Big sum: {sum(num_list)}')
+
+
+def main():
+    big_sum()
+
+
+if __name__ == '__main__':
+    main()
+
+```
+
 
 ### 8. structured data
 
 #### basic data structures
 
+- list = [1, 2]
+- tuple = (1, 2)
+- dict = {'a' = 'apple'}
+- set = {1, 2}
 
-```python
-
-```
 
 #### lists and tuples
 
-
 ```python
+#!/usr/bin/env python3
+
+def main():
+    game = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock']
+
+    # start, stop, step
+    print(game[1])
+    print(game[1:3])
+    print(game[1:5:2])
+    print(game[:5:2])
+    print(game[::2])
+    print(game[::])
+
+    print(game.index('Paper'))
+    # print(game.index('paper'))  # ValueError: 'paper' is not in list
+
+    game.append('new one')
+
+    game.insert(-10, 'index1')  # 到头自动停止
+    game.insert(10, 'index1')  # 到头自动停止
+    game.insert(-1, 'index1')  # 从后往前数，0 1
+    game.insert(1, 'index1')  # 从前往后数，0 1
+
+    game.remove('index1')  # 删掉第一个遇到的符合的value
+    removed_value = game.pop()  # default index = last
+    removed_value = game.pop(2)  # index = 2
+    del game[2]
+    del game[1:3]
+    del game[1:5:2]
+
+    print(', '.join(game))
+    print(len(game))
+
+    print_list(game)
+
+
+def print_list(o):
+    for i in o:
+        print(i, end=' ', flush=True)
+    print()
+
+
+if __name__ == '__main__':
+    main()
 
 ```
+
 
 #### dictionaries
 
-
 ```python
 
 ```
+
 
 #### sets
 
