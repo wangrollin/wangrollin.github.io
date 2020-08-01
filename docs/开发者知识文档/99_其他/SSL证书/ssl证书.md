@@ -1,5 +1,5 @@
 
 
-# To be continuedd
+# Sometimes structure is more important than content
 
-To be continuedd
+Sometimes structure is more important than content

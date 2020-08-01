@@ -29,7 +29,7 @@
 
 比如 /usr/local/Cellar/openjdk@11/11.0.7+10/libexec/openjdk.jdk
 
-这样sourcepath会有东西，可以看见java api的注释文档
+这样sourcepath会有东西，可以看见`java api的注释文档`
 
 
 ### 在idea中打开多个maven项目
