@@ -392,6 +392,7 @@
                     * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/h2.md)
                     * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/mysql.md)
                     * [📝progres](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/progres.md)
+                    * [📝sqlite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/sqlite.md)
                 * [📝db2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/db2.md)
                 * [📝oceanDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/oceanDB.md)
                 * 🗂图形数据库
@@ -483,9 +484,11 @@
             * 🗂常用库
                 * [📝django](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/django.md)
                 * [📝jieba分词](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/jieba分词.md)
-                * [📝keras](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/keras.md)
                 * [📝numpy](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/numpy.md)
-                * [📝tensorflow](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/tensorflow.md)
+        * 🗂深度学习框架
+            * [📝PyTorch](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/PyTorch.md)
+            * [📝keras](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/keras.md)
+            * [📝tensorflow](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/tensorflow.md)
     * 🗂容器平台
         * 🗂k8s发行版
             * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/01_软件开发/05_容器平台/k8s发行版/Rancher_Kubernetes_Engine.md)
