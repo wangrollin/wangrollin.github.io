@@ -5,20 +5,36 @@
 
 ### 1. Getting started
 
-
-##### Syntax: Learning to read and write
-
 ##### Versions of javascript
 
-##### places to tinker with javascript
+ECMAScript 5: ES5；可以把这个版本当作baseline
 
-##### our friend the text editor
+ECMAScript 2015: ES6
+
+ECMAScript 2016
+
 
 ##### Additional helpful resources
+
+http://eloquentjavascript.net/
+http://exploringjs.com/
+https://github.com/getify/You-Dont-Know-JS
+https://shop.oreilly.com/product/9780596517748.do
+https://github.com/dwyl/Javascript-the-Good-Parts-notes
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+https://caniuse.com/
+https://quirksmode.org/
+
 
 ### 2. Variables and types
 
 ##### Declaring and assigning variabes
+
+
+
+
+
+
 
 ##### Strings
 
