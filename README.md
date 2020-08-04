@@ -11,6 +11,8 @@
 
 ```bash
 java SidebarGenerator.java
+# or
+python3 sidebar_generator.py
 ```
 
 
