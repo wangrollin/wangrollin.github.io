@@ -30,100 +30,297 @@ https://quirksmode.org/
 
 ##### Declaring and assigning variabes
 
+```javascript
+y = "hello world";
 
+var x = 32;
+x = 45;
 
+var whereAmI = "Santa Barbara, CA";
+whereAmI = 75;
 
+var monster1 = "Grover",
+    monster2 = "Cookie Monster",
+    monster3 = "Animal";
 
+// More info:
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+
+```
 
 
 ##### Strings
 
+```javascript
+
+```
+
+
 ##### String properties and methods
+
+```javascript
+
+```
+
 
 ##### Numbers
 
+```javascript
+
+```
+
+
 ##### Booleans and the quest for truth
+
+```javascript
+
+```
+
 
 
 ### 3. Objects, Arrays, and More
 
 ##### Objects
 
+```javascript
+
+```
+
+
 ##### Objects for modeling data
+
+```javascript
+
+```
+
 
 ##### Manipulating objects
 
+```javascript
+
+```
+
+
 ##### Jargon: References and objects
+
+```javascript
+
+```
+
 
 ##### Arrays
 
+```javascript
+
+```
+
+
 ##### Manipulating arrays
+
+```javascript
+
+```
+
 
 ##### Readability: Whitespace
 
+```javascript
+
+```
+
+
 ##### Readability: Comments
 
+```javascript
+
+```
+
+
 ##### Regular expressions
+
+```javascript
+
+```
+
 
 
 ### 4. Operators and Control Structures
 
 ##### Simple comparisons
 
+```javascript
+
+```
+
+
 ##### Arithmetic operators
+
+```javascript
+
+```
+
 
 ##### Logical operators
 
+```javascript
+
+```
+
+
 ##### Conditionals: if
+
+```javascript
+
+```
+
 
 ##### Conditionals: switch
 
+```javascript
+
+```
+
+
 ##### Terse ifs
+
+```javascript
+
+```
+
 
 ##### Ternary operator
 
+```javascript
+
+```
+
+
 ##### type checking
+
+```javascript
+
+```
+
 
 
 ### 5. Iterating with loops
 
 ##### For loops: Sequential
 
+```javascript
+
+```
+
+
 ##### For loops: Enumerative
 
+```javascript
+
+```
+
+
 ##### while loops
+
+```javascript
+
+```
+
 
 
 ### 6. Functions
 
 ##### Basic functions
 
+```javascript
+
+```
+
+
 ##### Arguments in functions
+
+```javascript
+
+```
+
 
 ##### more on arguments
 
+```javascript
+
+```
+
+
 ##### objects, references, and functions
+
+```javascript
+
+```
+
 
 ##### functions are objects
 
+```javascript
+
+```
+
+
 ##### Jargon: Scope in javascript
+
+```javascript
+
+```
+
 
 ##### variable scope in functions
 
+```javascript
+
+```
+
+
 ##### Jargon: Callback functions
+
+```javascript
+
+```
+
 
 
 ### 7. More Advanced pieces
 
 ##### Asynchronous code: The waiting is the hardest part
 
+```javascript
+
+```
+
+
 ##### Promises, async, and await
+
+```javascript
+
+```
+
 
 ##### object-oriented javascript: Prototypes and classes
 
+```javascript
+
+```
+
+
 ##### JargonL: Strong vs loose typing 
 
+```javascript
+
+```
+
+
 ##### Modern javascript tooling
+
+```javascript
+
+```
 
 
 ### Conclusion
