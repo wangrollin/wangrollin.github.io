@@ -52,13 +52,37 @@ var monster1 = "Grover",
 ##### Strings
 
 ```javascript
+"This is a string";
+"This is also a string";
 
+'<a href="">';
+"This is Joe's favorite string";
+
+"This is Joe's \"favorite\" string";
+
+"This is \
+Joe's Favorite \
+String EVER";
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String
 ```
 
 
 ##### String properties and methods
 
 ```javascript
+var myString = "This is my string. Leave it alone";
+myString;
+myString.length;
+myString.toUpperCase();
+
+"This is my string".length;
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String
 
 ```
 
@@ -66,6 +90,29 @@ var monster1 = "Grover",
 ##### Numbers
 
 ```javascript
+// JS中，所有的number都只是一个类型：Number
+12;
+12.0;
+12.82358972893527582;
+-12;
+Infinity;
+-Infinity;
+NaN; // not a number
+
+var myNumber = 33;
+
+Math;
+Math.round(12.4984012840918); // 12
+Math.round(12.92309820948209384); // 13
+
+Math.random(); // 0-1
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Infinity
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Infinity
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/NaN
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math
 
 ```
 
@@ -73,9 +120,25 @@ var monster1 = "Grover",
 ##### Booleans and the quest for truth
 
 ```javascript
+true;
+false;
+
+buttonHasBeenClicked = false;
+
+var myLocation = "Santa Barbara",
+    myOtherLocation = "Los Angeles";
+
+myLocation === myOtherLocation;
+
+myOtherLocation = "Santa Barbara";
+
+myLocation === myOtherLocation;
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Boolean
 
 ```
-
 
 
 ### 3. Objects, Arrays, and More
@@ -83,6 +146,29 @@ var monster1 = "Grover",
 ##### Objects
 
 ```javascript
+12;
+("strings");
+true;
+
+{
+}
+var emptyObject = {};
+emptyObject;
+
+var notEmptyObject = {
+    'label': "value",
+    'label2': "value2",
+};
+
+var notEmptyObject = {
+    label: "value",
+    label2: "value2",
+};
+notEmptyObject;
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Objects
 
 ```
 
@@ -90,6 +176,34 @@ var monster1 = "Grover",
 ##### Objects for modeling data
 
 ```javascript
+var bird = {
+    genus: "corvus",
+    species: "corvax",
+    commonName: "raven",
+    callType: "squawky",
+    quote: "Nevermore",
+    maxOffspring: 5,
+    noisy: true,
+    deadly: false,
+};
+
+var bear = {
+    genus: "ursus",
+    species: "arctos",
+    commonName: "brown bear",
+    callType: "roar",
+    quote: "",
+    maxOffspring: 3,
+    noisy: true,
+    deadly: true,
+};
+
+var bookOfKnowledge = {
+    "lunch time": "12:30 PM",
+    "the ultimate answer": 42,
+    bestSong: "Lonnie's Lament",
+    earth: "Mostly harmless.",
+};
 
 ```
 
@@ -97,6 +211,35 @@ var monster1 = "Grover",
 ##### Manipulating objects
 
 ```javascript
+var bird = {
+    genus: "corvus",
+    species: "corvax",
+    commonName: "raven",
+    callType: "squawky",
+    quote: "Nevermore",
+    maxOffspring: 5,
+    noisy: true,
+    deadly: false,
+};
+
+bird.quote;
+
+bird."quote"; // this does not work
+
+bird["quote"];
+
+bird.color = "black"; // 添加，修改
+bird["where it lives"] = "in a tree";
+bird.whereItLives = "in a tree";
+bird.whereItLives;
+bird["whereItLives"];
+
+delete bird.color;
+bird;
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object
 
 ```
 
@@ -104,6 +247,40 @@ var monster1 = "Grover",
 ##### Jargon: References and objects
 
 ```javascript
+var animal = {
+    genus: "corvus",
+    species: "corvax",
+    commonName: "raven",
+    callType: "squawky",
+    quote: "Nevermore",
+    maxOffspring: 5,
+    noisy: true,
+    deadly: false,
+};
+
+var animal2 = animal;
+
+animal2.genus = "ursus";
+
+animal2 = {
+    genus: "corvus",
+    species: "corvax",
+    commonName: "raven",
+    callType: "squawky", // there is a deliberate bug here in the course, removed for your convenience :)
+    quote: "Nevermore",
+    maxOffspring: 5,
+    noisy: true,
+    deadly: false,
+};
+
+// bonus: make a copy of an object safely
+animal2 = JSON.parse(JSON.stringify(animal));
+
+animal2.genus = "ursus";
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object
 
 ```
 
@@ -111,6 +288,21 @@ var monster1 = "Grover",
 ##### Arrays
 
 ```javascript
+// arr是一个obj
+var myArray = [];
+
+var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday"];
+
+var myArray = [0, 1, 2, "string1", "string2", "string3", true, false];
+
+var counties = ["Belknap", "Strafford", "Carroll", "Rockingham"];
+
+var arrayOfStuff = [{ name: "value" }, [1, 2, 3], true, "nifty"];
+arrayOfStuff.length;
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values%2C_variables%2C_and_literals#Array_literals
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array
 
 ```
 
@@ -118,6 +310,33 @@ var monster1 = "Grover",
 ##### Manipulating arrays
 
 ```javascript
+var counties = ["Belknap", "Strafford", "Carroll", "Rockingham"];
+
+// 查看
+counties[0];
+counties[2];
+
+// 修改
+counties[2] = "Cheshire";
+counties[4] = "Carroll";
+
+// 添加
+counties[counties.length] = "Merrimack";
+counties.push("Coos");
+counties.shift("front")
+
+// 删除 不会改变length，用empty替代了那个位置
+counties.pop();
+delete counties[2];
+counties.unshift()
+
+// 切片，从第2个index开始删，一共删掉1个item
+counties.splice(2, 1);
+
+counties.length;
+
+// More info:
+// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array
 
 ```
 
@@ -125,6 +344,38 @@ var monster1 = "Grover",
 ##### Readability: Whitespace
 
 ```javascript
+var year=2012,month='October',day=31,holiday='Halloween';
+
+var year   = 2012,       month    =    'October', day =          31,          holiday='Halloween';
+
+var year = 2012,
+    month = 'October',
+    day = 31,
+    holiday = 'Halloween';
+
+var year    = 2012,
+    month   = 'October',
+    day     = 31,
+    holiday = 'Halloween';
+
+var tinyAlmanac={'year':2012,'month':'October','day':31,'holiday':'Halloween'};
+
+var tinyAlmanac = {
+    'year' : 2012,
+    'month' : 'October',
+    'day' : 31,
+    'holiday' : 'Halloween'
+};
+
+var longString = "Four score \
+and seven years ago \
+our fathers brought forth \
+on this continent \
+a new nation";
+
+// More info: 
+// These are not specifications on whitespace, but the Mozilla recommended coding style concerning whitespace.
+// https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style#Whitespace
 
 ```
 
