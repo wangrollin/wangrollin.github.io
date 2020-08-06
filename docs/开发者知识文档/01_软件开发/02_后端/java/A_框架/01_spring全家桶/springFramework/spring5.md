@@ -26,10 +26,15 @@ implements ApplicationListener<ApplicationReadyEvent>
 
 #### @Scheduled
 
-cron表达式 定时任务注解
+> cron表达式 定时任务注解
 
 https://blog.csdn.net/qq_39101581/article/details/79308851
 
+
+> springboot Scheduled默认单线程
+
+https://blog.csdn.net/NokeNoke/article/details/81362257
+https://segmentfault.com/a/1190000021559640
 
 
 #### @Async
