@@ -51,6 +51,13 @@ spring:
 
 # avoid openjdk ssl issue
 -Djdk.tls.client.protocols=TLSv1.2
+
+
+
+management:
+  health:
+    vault:
+      enabled: false
 ```
 
 
