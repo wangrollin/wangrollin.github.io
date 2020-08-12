@@ -1,3 +1,10 @@
-# Sometimes structure is more important than content
 
-Sometimes structure is more important than content
+
+## 常用方法
+
+```java
+XxxData dataObj = JSONObject.parseObject("object string", XxxData.class);
+
+String str = JSONObject.toJSONString(new XxxData());
+
+```

@@ -23,6 +23,9 @@
 
 - tab limit 设置为 100
 - front 设置为15
+- Font: Menlo
+- show tabs in one row: false
+- view - appearance - toolbar
 
 
 ### 添加jdk并设置为新项目的默认选项
@@ -74,3 +77,6 @@ Change VM options for importer to -Didea.maven3.use.compat.resolver
 
 ![image-20191230152349614](intelliJ_idea.assets/image-20191230152349614.png)
 
+### 运行两个service实例
+
+在configure里勾选 allow parallel run，改改server port
