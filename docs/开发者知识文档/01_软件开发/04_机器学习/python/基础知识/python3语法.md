@@ -220,7 +220,7 @@ print(i)  # five
 
 #### functions
 
-python种function的作用：function 和 subroutines（子程序）
+python中function的作用：function 和 subroutines（子程序）
 
 ```python
 #!/usr/bin/env python3
@@ -1045,12 +1045,12 @@ def main():
 
     game.append('new one')
 
-    game.insert(-10, 'index1')  # 到头自动停止
-    game.insert(10, 'index1')  # 到头自动停止
-    game.insert(-1, 'index1')  # 从后往前数，0 1
-    game.insert(1, 'index1')  # 从前往后数，0 1
+    game.insert(-10, 'value1')  # 到头自动停止
+    game.insert(10, 'value1')  # 到头自动停止
+    game.insert(-1, 'value1')  # 从后往前数，0 1
+    game.insert(1, 'value1')  # 从前往后数，0 1
 
-    game.remove('index1')  # 删掉第一个遇到的符合的value
+    game.remove('value1')  # 删掉第一个遇到的符合的value
     removed_value = game.pop()  # default index = last
     removed_value = game.pop(2)  # index = 2
     del game[2]

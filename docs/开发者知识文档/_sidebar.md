@@ -232,6 +232,9 @@
                         * [📝springdata](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springData/springdata.md)
                     * 🗂springFramework
                         * [📝spring5](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/spring5.md)
+                        * 🗂spring_web
+                            * [📝RestTemplate](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/spring_web/RestTemplate.md)
+                            * [📝WebClient](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/spring_web/WebClient.md)
                     * 🗂springIntegration
                         * [📝springIntegration](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springIntegration/springIntegration.md)
                     * 🗂springSession
@@ -722,6 +725,7 @@
         * [📝echosite](/docs/开发者知识文档/99_其他/SSL证书/echosite.md)
         * [📝ssl证书](/docs/开发者知识文档/99_其他/SSL证书/ssl证书.md)
         * [📝自认证证书](/docs/开发者知识文档/99_其他/SSL证书/自认证证书.md)
+    * [📝snakeyaml](/docs/开发者知识文档/99_其他/snakeyaml.md)
     * 🗂域名管理
         * [📝域名管理](/docs/开发者知识文档/99_其他/域名管理/域名管理.md)
     * 🗂常见问题

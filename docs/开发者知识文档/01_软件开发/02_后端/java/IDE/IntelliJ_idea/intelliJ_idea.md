@@ -27,6 +27,8 @@
 - show tabs in one row: false
 - view - appearance - toolbar
 
+开启 ide settings 同步
+
 
 ### 添加jdk并设置为新项目的默认选项
 
