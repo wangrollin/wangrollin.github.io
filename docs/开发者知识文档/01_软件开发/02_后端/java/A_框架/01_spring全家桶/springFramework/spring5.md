@@ -1,22 +1,14 @@
 
 ## 网站
 
+[Spring官网](https://spring.io/)
+
 [Spring initializr](https://start.spring.io/)
 
 [Training & Certification](https://spring.io/training)
 
-[Spring官网](https://spring.io/)
 
-- 主要特性：[reactive](https://spring.io/reactive)
-- 主要特性：[event-driven](https://spring.io/event-driven)
-- 主要特性：[cloud](https://spring.io/cloud)
-- 主要特性：[web-applications](https://spring.io/web-applications)
-- 主要特性：[serverless](https://spring.io/serverless)
-- 主要特性：[batch](https://spring.io/batch)
-- 主要特性：[microservices](https://spring.io/microservices)
-
-
-spring 官网学习资料
+> spring 官网学习资料
 
 - [learn](https://spring.io/learn)
 - [quickstart](https://spring.io/quickstart)
@@ -24,11 +16,18 @@ spring 官网学习资料
 - [blog](https://spring.io/blog)
 
 
-[spring projects大全](https://spring.io/projects)
+> 主要特性(支撑每个特性的是多个spring项目)
 
-[spring projects文档大全](https://spring.io/projects/spring-boot)
+- [reactive](https://spring.io/reactive)
+- [event-driven](https://spring.io/event-driven)
+- [cloud](https://spring.io/cloud)
+- [web-applications](https://spring.io/web-applications)
+- [serverless](https://spring.io/serverless)
+- [batch](https://spring.io/batch)
+- [microservices](https://spring.io/microservices)
 
-> 文档在对应project的learn里面，reference doc 和 api doc
+
+> spring projects大全（项目文档在对应project的learn里面，reference doc 和 api doc）
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Framework](https://spring.io/projects/spring-framework)
