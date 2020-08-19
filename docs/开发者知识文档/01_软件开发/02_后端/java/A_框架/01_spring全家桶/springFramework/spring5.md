@@ -27,6 +27,17 @@
 - [microservices](https://spring.io/microservices)
 
 
+> 版本关系
+
+https://start.spring.io/actuator/info
+
+
+> 配置大全
+
+- [spring boot props](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
+- [spring cloud props](https://docs.spring.io/spring-cloud/docs/current/reference/html/configprops.html)
+
+
 > spring projects大全（项目文档在对应project的learn里面，reference doc 和 api doc）
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
@@ -38,7 +49,7 @@
   - [Spring Data LDAP](https://spring.io/projects/spring-data-ldap)
   - [Spring Data MongoDB](https://spring.io/projects/spring-data-mongodb)
   - [Spring Data Redis](https://spring.io/projects/spring-data-redis)
-  - [Spring Data R2DBC](https://spring.io/projects/spring-data-r2dbc)
+  - [Spring Data R2DBC(Reactive Relational Database Connectivity)](https://spring.io/projects/spring-data-r2dbc)
   - [Spring Data REST](https://spring.io/projects/spring-data-rest)
   - [Spring Data for Apache Cassandra](https://spring.io/projects/spring-data-cassandra)
   - [Spring Data for Apache Geode](https://spring.io/projects/spring-data-geode)
