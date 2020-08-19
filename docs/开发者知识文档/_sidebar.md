@@ -32,6 +32,8 @@
         * [📝数据挖掘](/docs/开发者知识文档/00_CS基础/算法/数据挖掘.md)
         * [📝机器学习](/docs/开发者知识文档/00_CS基础/算法/机器学习.md)
         * [📝深度学习](/docs/开发者知识文档/00_CS基础/算法/深度学习.md)
+    * 🗂编程范式
+        * [📝范式大全](/docs/开发者知识文档/00_CS基础/编程范式/范式大全.md)
     * 🗂编译原理
         * [📝编译原理](/docs/开发者知识文档/00_CS基础/编译原理/编译原理.md)
 * 🗂软件开发
@@ -402,20 +404,21 @@
                 * [📝packer_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/packer_by_Hashicorp.md)
                 * [📝terraform_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/terraform_by_Hashicorp.md)
                 * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/vagrant_by_Hashicorp.md)
-            * 🗂数据库
-                * 🗂NoSQL
-                    * [📝Cassandra](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/NoSQL/Cassandra.md)
-                    * [📝Couchbase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/NoSQL/Couchbase.md)
-                    * [📝mongodb](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/NoSQL/mongodb.md)
-                * 🗂SQL
-                    * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/h2.md)
-                    * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/mysql.md)
-                    * [📝progres](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/progres.md)
-                    * [📝sqlite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/SQL/sqlite.md)
-                * [📝db2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/db2.md)
-                * [📝oceanDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/oceanDB.md)
+            * 🗂数据库和SQL
+                * 🗂NoSQL数据库
+                    * [📝Cassandra](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/NoSQL数据库/Cassandra.md)
+                    * [📝Couchbase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/NoSQL数据库/Couchbase.md)
+                    * [📝mongodb](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/NoSQL数据库/mongodb.md)
+                * 🗂SQL数据库
+                    * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/SQL数据库/h2.md)
+                    * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/SQL数据库/mysql.md)
+                    * [📝progres](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/SQL数据库/progres.md)
+                    * [📝sqlite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/SQL数据库/sqlite.md)
+                * [📝db2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/db2.md)
+                * [📝oceanDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/oceanDB.md)
                 * 🗂图形数据库
-                    * [📝Neo4j](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库/图形数据库/Neo4j.md)
+                    * [📝GraphQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/图形数据库/GraphQL.md)
+                    * [📝Neo4j](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库和SQL/图形数据库/Neo4j.md)
             * 🗂数据库迁移
                 * [📝flyway](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库迁移/flyway.md)
                 * [📝liquibase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库迁移/liquibase.md)
