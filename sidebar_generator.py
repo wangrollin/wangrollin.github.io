@@ -42,6 +42,9 @@ def write_to_sidebar(root_path, indent, _sidebar_file):
 
 
 if __name__ == '__main__':
+
+    print("🔥开始生成sidebar...")
     for path in path_list:
         sidebar_file = open(path + '/_sidebar.md', 'w')
         write_to_sidebar(path, '', sidebar_file)
+    print("🎉任务完成!")
