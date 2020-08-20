@@ -351,6 +351,8 @@
                 * [📝jPython](/docs/开发者知识文档/01_软件开发/02_后端/java/JVM编程语言/jPython.md)
                 * [📝jRuby](/docs/开发者知识文档/01_软件开发/02_后端/java/JVM编程语言/jRuby.md)
                 * [📝kotlin](/docs/开发者知识文档/01_软件开发/02_后端/java/JVM编程语言/kotlin.md)
+            * 🗂Jakarta_EE
+                * [📝jakarta_ee](/docs/开发者知识文档/01_软件开发/02_后端/java/Jakarta_EE/jakarta_ee.md)
             * 🗂jdk
                 * [📝adopt-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/adopt-openjdk.md)
                 * [📝oracle-jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/oracle-jdk.md)

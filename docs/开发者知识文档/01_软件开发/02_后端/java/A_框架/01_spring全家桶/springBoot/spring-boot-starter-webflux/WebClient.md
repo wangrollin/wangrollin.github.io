@@ -9,6 +9,9 @@
 
 ```java
 import org.springframework.web.reactive.client.WebClient;
+
+
+
 ```
 
 
@@ -18,3 +21,15 @@ import org.springframework.web.reactive.client.WebClient;
 - [webFlux前世今生](https://www.cnblogs.com/lixinjie/p/a-brother-of-spring-mvc-is-spring-webflux.html)
 - [Spring webflux-反应式编程入门](http://bbs.learnfuture.com/topic/5755)
 
+
+## 重要的类
+
+
+[Mono Flux 方法大全](https://projectreactor.io/docs/core/release/reference/index.html#which-operator)
+
+```java
+Mono
+
+Flux
+
+```
