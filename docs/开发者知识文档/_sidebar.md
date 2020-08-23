@@ -58,7 +58,9 @@
             * [📝CommonJS](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/CommonJS.md)
             * [📝EJS](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/EJS.md)
             * [📝JSFiddle](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/JSFiddle.md)
-            * [📝js语法](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/js语法.md)
+            * 🗂js语法
+                * [📝Lynda_JavaScript_for_Web_Designers](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/js语法/Lynda_JavaScript_for_Web_Designers.md)
+                * [📝Lynda_Learning_the_JavaScript_Language](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/js语法/Lynda_Learning_the_JavaScript_Language.md)
             * 🗂node
                 * [📝nodejs-remote-debug](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/node/nodejs-remote-debug.md)
                 * [📝nodejs](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/node/nodejs.md)
@@ -70,6 +72,8 @@
                 * [📝npm](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/包管理工具/npm.md)
                 * [📝yarn](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/包管理工具/yarn.md)
             * 🗂库
+                * 🗂3D图形onWeb
+                    * [📝Three.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/3D图形onWeb/Three.js.md)
                 * 🗂Http客户端
                     * [📝axios](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/Http客户端/axios.md)
                 * [📝mustache_express](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/mustache_express.md)
@@ -77,9 +81,13 @@
                     * [📝reveal.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/在线展示文稿/reveal.js.md)
                 * 🗂提示工具Tooltip
                     * [📝popper.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/提示工具Tooltip/popper.js.md)
+                * 🗂数据可视化
+                    * [📝D3.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/数据可视化/D3.js.md)
                 * 🗂时间
                     * [📝Moment.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/时间/Moment.js.md)
                     * [📝date-and-time](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/时间/date-and-time.md)
+                * 🗂类型检查
+                    * [📝loadash](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/类型检查/loadash.md)
                 * 🗂邮编
                     * [📝ziptastic](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/邮编/ziptastic.md)
             * 🗂打包工具
