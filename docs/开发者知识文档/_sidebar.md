@@ -59,6 +59,7 @@
             * [📝EJS](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/EJS.md)
             * [📝JSFiddle](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/JSFiddle.md)
             * 🗂js语法
+                * [📝JS语法](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/js语法/JS语法.md)
                 * [📝Lynda_JavaScript_for_Web_Designers](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/js语法/Lynda_JavaScript_for_Web_Designers.md)
                 * [📝Lynda_Learning_the_JavaScript_Language](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/js语法/Lynda_Learning_the_JavaScript_Language.md)
             * 🗂node
