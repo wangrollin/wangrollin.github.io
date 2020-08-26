@@ -206,7 +206,7 @@ class UserController {
 
 ## problems
 
-#### detached entity passed to persist
+> detached entity passed to persist
 
 A里面有B，C里也有B，所以
 
@@ -216,14 +216,14 @@ A里面有B，C里也有B，所以
 
 
 
-#### 只在创建表的时候生效，之后修改不再生效
+> 只在创建表的时候生效，之后修改不再生效
 
 
 @Column(length = 1023)
 
 
 
-#### TransactionRequiredException: Executing an update/delete query
+> TransactionRequiredException: Executing an update/delete query
 
 Service层没有加@Transactional
 
@@ -231,7 +231,7 @@ JPA方法没有加@Modifying吧
 
 
 
-#### 只查询部分字段 
+> 只查询部分字段 
 
 spring-data 的 projection
 
@@ -242,6 +242,15 @@ https://segmentfault.com/q/1010000016704304/a-1020000016765160
 https://www.cnblogs.com/hdwang/p/9599012.html
 
 
-#### 二级缓存配置
+> 二级缓存配置
 
-https://www.jianshu.com/p/0ca49d208c14
+- [ehcacheb本地缓存](https://www.jianshu.com/p/0ca49d208c14)
+- [redis](https://github.com/debop/hibernate-redis)
+
+1.1) First-level cache
+
+First-level cache always Associates with the Session object. Hibernate uses this cache by default. Here, it processes one transaction after another one, means wont process one transaction many times. Mainly it reduces the number of SQL queries it needs to generate within a given transaction. That is instead of updating after every modification done in the transaction, it updates the transaction only at the end of the transaction.
+
+1.2) Second-level cache
+
+Second-level cache always associates with the Session Factory object. While running the transactions, in between it loads the objects at the Session Factory level, so that those objects will be available to the entire application, not bound to single user. Since the objects are already loaded in the cache, whenever an object is returned by the query, at that time no need to go for a database transaction. In this way the second level cache works. Here we can use query level cache also.
