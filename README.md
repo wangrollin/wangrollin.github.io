@@ -13,6 +13,8 @@
 java SidebarGenerator.java
 # or
 python3 sidebar_generator.py
+# or
+node sidebar_generator.js
 ```
 
 

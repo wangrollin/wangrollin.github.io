@@ -240,3 +240,8 @@ https://segmentfault.com/q/1010000016704304/a-1020000016765160
 其他方法
 
 https://www.cnblogs.com/hdwang/p/9599012.html
+
+
+#### 二级缓存配置
+
+https://www.jianshu.com/p/0ca49d208c14
