@@ -1,7 +1,8 @@
 
 ## 使用方法
 
-[使用方法](https://www.baeldung.com/spring-boot-caffeine-cache)
+- [caffeine使用方法](https://www.baeldung.com/spring-boot-caffeine-cache)
+- [spring boot + caffeine 使用方法](https://www.baeldung.com/spring-boot-caffeine-cache)
 
 ```xml
 <dependencies>
