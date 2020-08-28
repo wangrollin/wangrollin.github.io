@@ -12,58 +12,48 @@
 
 #### ES6 browser support
 
-```html
-
-```
-
-```javascript
-
-```
+支持不够，需要转译成ES5
 
 
 #### Using ES6 now
 
-```html
-
-```
-
-```javascript
-
-```
-
+同样需要转译的语言包括：CoffeeScript, TypeScript
 
 
 ### 2. Transpiling ES6
 
 #### Introduction to Babel
 
-```html
+ES6 -> ES5
 
-```
-
-```javascript
-
-```
+Babel作者：Sebastian McKenzie, 澳大利亚的开发者，现就职于facebook
 
 
 #### In-browser Babel transpiling
 
-```html
-
-```
-
-```javascript
-
-```
+在运行时做转换，会让速度变慢
 
 
 #### Transpiling with webpack
 
 ```html
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
+    <script type="text/babel">
+        var nameBuilder = function (firstName = "John", lastName = "Doe") {
+            console.log(firstName + " " + lastName);
+        };
 
-```
+        nameBuilder();
+    </script>
+    <title>Working with Babel</title>
+</head>
+<body>
 
-```javascript
+</body>
+</html>
 
 ```
 
