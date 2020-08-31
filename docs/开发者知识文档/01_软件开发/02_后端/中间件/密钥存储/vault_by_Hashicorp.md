@@ -7,6 +7,10 @@
 https://www.vaultproject.io/
 
 
+## github项目
+
+[vault-kubernetes-authenticator](https://github.com/sethvargo/vault-kubernetes-authenticator)
+
 
 ## 使用docker 搭建vault
 

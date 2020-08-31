@@ -24,3 +24,7 @@ echo "${helmChartName}"
     }
 	echo "${KUBE_CONFIG}"
 ```
+
+## 博客
+
+[jenkins on k8s](https://zhuanlan.zhihu.com/p/90283753)
