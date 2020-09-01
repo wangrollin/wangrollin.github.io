@@ -215,33 +215,3 @@ myEmitter.emit('event', 'a', 'b');
 
 和jquery、vue里的Event是非常类似的。而且前端自己也有EventEmitter。
 
-
-
-
-
-
-
-## Node.js Essential Training
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
