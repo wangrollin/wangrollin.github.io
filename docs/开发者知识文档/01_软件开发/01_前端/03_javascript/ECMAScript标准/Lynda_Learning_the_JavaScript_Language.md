@@ -1,5 +1,5 @@
 
-## Lynda 课程：Learning the JavaScript Language
+## Lynda: Learning the JavaScript Language
 
 ### 1. Getting started
 

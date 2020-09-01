@@ -1,4 +1,4 @@
-## Lynda 课程：Learning ECMAScript 6
+## Lynda: Learning ECMAScript 6
 
 ### 1. What is ECMAScript 6(ES6)
 

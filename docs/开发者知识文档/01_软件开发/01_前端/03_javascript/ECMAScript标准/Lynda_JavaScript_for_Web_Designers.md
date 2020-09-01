@@ -1,4 +1,4 @@
-## Lynda 课程：JavaScript for Web Designers
+## Lynda: JavaScript for Web Designers
 
 ### 0. Introduction
 

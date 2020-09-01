@@ -1,6 +1,5 @@
-# python3 语法
 
-## Lynda 课程：Python Essential Training
+## Lynda: Python Essential Training
 
 ### 2. Language overview
 
