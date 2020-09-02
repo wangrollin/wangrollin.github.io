@@ -195,6 +195,7 @@
                 * [📝AntDesignPro](/docs/开发者知识文档/01_软件开发/01_前端/06_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
         * [📝BrowserSync](/docs/开发者知识文档/01_软件开发/01_前端/BrowserSync.md)
         * [📝CORS](/docs/开发者知识文档/01_软件开发/01_前端/CORS.md)
+        * [📝WebStorm](/docs/开发者知识文档/01_软件开发/01_前端/WebStorm.md)
         * 🗂不同的前端技术
             * 🗂移动端
                 * [📝Rax](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/01_移动端/Rax.md)
@@ -566,7 +567,9 @@
             * 🗂Keras
                 * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
                 * [📝keras](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/Keras/keras.md)
-            * [📝PyTorch](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/PyTorch.md)
+            * 🗂PyTorch
+                * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
+                * [📝PyTorch](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/PyTorch/PyTorch.md)
             * [📝tensorflow](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/tensorflow.md)
         * 🗂深度学习知识点
             * [📝CNN](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习知识点/CNN.md)

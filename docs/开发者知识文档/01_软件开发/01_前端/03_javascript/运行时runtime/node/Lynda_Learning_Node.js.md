@@ -1,25 +1,49 @@
 
 ## Lynda: Learning Node.js
 
-### Introduction
-
-####
-
-### Introduction to Node
+### 1. Introduction to Node
 
 #### Understanding Node
 
+node基于Chrome V8引擎开发
+
+
 #### Demo application overview
+
+Demo是个聊天网站
+
 
 #### Download and install Node
 
+```bash
+node -v
+```
+
+
 #### Why is Javascript Node's language?
+
+前后端统一语言，好处多多
+
 
 #### The benefits and features of Javascript
 
+- 前后端共享语言
+- 前后端共享代码
+- 动态语言
+- JSON是内置的，JavaScript Object Notation（JS对象符号）
+
+
 #### Asynvhronous takes and callbacks
 
-### Understanding npm: Node Package Manager
+耗时大头：
+
+- 从网络中获取数据
+- 从文件系统中获取数据
+
+
+
+
+### 2. Understanding npm: Node Package Manager
 
 #### Write your own module
 
@@ -27,7 +51,7 @@
 
 #### What is the package.json file?
 
-### Reading and Writing Files
+### 3. Reading and Writing Files
 
 #### Read from files
 
@@ -35,7 +59,7 @@
 
 #### Write to a file
 
-### Exploring Web Frameworks
+### 4. Exploring Web Frameworks
 
 #### Node.js frameworks
 
@@ -43,7 +67,7 @@
 
 #### Socket.io
 
-### Building Your Demo App Chat Client for the Browser
+### 5. Building Your Demo App Chat Client for the Browser
 
 #### Static serving with Express
 
@@ -57,7 +81,7 @@
 
 #### Create your Socket.io event
 
-### Exploring Databases
+### 6. Exploring Databases
 
 #### Types of data frameworks
 
@@ -67,7 +91,7 @@
 
 #### Saving data to MongoDB with Mongoose
 
-### Improving Asynchronous Code
+### 7. Improving Asynchronous Code
 
 #### Nested callbacks
 
@@ -75,7 +99,7 @@
 
 #### Async/await
 
-### Error Handling and Debugging
+### 8. Error Handling and Debugging
 
 #### Tyr/catch
 
@@ -83,7 +107,7 @@
 
 #### Editor debugging
 
-### Testing
+### 9. Testing
 
 #### Simple test with Jasmine
 
