@@ -703,6 +703,12 @@ countToFive();
 })('eveporcello');
 ```
 
+await，async是Promise的语法糖，自动封装成Promise; Note that the await keyword only works inside async functions
+
+[From JavaScript Promises to Async/Await: why bother?](https://blog.pusher.com/promises-async-await/)
+
+The fundamental difference between await and vanilla Promises is that await X() suspends execution of the current function, while promise.then(X) continues execution of the current function after adding the X call to the callback chain.
+
 
 ### 6. ES6 Classes
 

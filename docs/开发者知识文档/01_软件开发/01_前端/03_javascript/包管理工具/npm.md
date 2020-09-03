@@ -16,6 +16,10 @@ npm update -g xxx
 npm init # 会自动去node_modules目录下，把相关模块自动加进来
 npm init --yes
 
+npm install -g xxx
+npm install xxx
+npm install -s xxx
+npm install --save-dev xxx # 只在开发阶段使用，如：测试框架
 ```
 
 
