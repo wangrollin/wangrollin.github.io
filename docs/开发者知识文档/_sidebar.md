@@ -57,6 +57,8 @@
             * 🗂待分类的CSS库
                 * [📝ColorUI](/docs/开发者知识文档/01_软件开发/01_前端/02_css/待分类的CSS库/ColorUI.md)
         * 🗂javascript
+            * 🗂CommonJS标准
+                * [📝CommonJS](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/CommonJS标准/CommonJS.md)
             * 🗂ECMAScript标准
                 * 🗂ES1-1997
                     * [📝特性](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/ECMAScript标准/ES1-1997/特性.md)
@@ -166,14 +168,17 @@
                 * [📝Closure](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/转译器/Closure.md)
                 * [📝Traceur](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/转译器/Traceur.md)
             * 🗂运行时runtime
-                * 🗂CommonJS
-                    * [📝CommonJS](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/CommonJS/CommonJS.md)
                 * 🗂node
                     * [📝Lynda_Learning_Node.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/Lynda_Learning_Node.js.md)
                     * [📝Lynda_Node.js_Essential_Training](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/Lynda_Node.js_Essential_Training.md)
                     * [📝nodejs-remote-debug](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/nodejs-remote-debug.md)
                     * [📝nodejs](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/nodejs.md)
-                    * [📝nvm](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/nvm.md)
+                    * 🗂node内置模块
+                        * [📝fs](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/node内置模块/fs.md)
+                    * 🗂npm包
+                        * [📝npm-check-updates](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/npm包/npm-check-updates.md)
+                        * [📝nvm](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/npm包/nvm.md)
+                        * [📝pm2](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/npm包/pm2.md)
                 * 🗂浏览器
                     * [📝浏览器内核](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/浏览器/浏览器内核.md)
         * 🗂其他前台脚本语言

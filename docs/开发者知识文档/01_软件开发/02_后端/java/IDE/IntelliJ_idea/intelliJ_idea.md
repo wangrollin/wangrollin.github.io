@@ -29,6 +29,10 @@
 
 开启 ide settings 同步
 
+快捷键：
+- 删除：quick switch scheme
+- 添加：open in terminal [ctl + `]
+- 添加：reveal in finder [opt + `]
 
 ### 添加jdk并设置为新项目的默认选项
 
