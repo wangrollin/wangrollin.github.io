@@ -26,12 +26,16 @@
         * [📝森林](/docs/开发者知识文档/00_CS基础/数据结构/森林.md)
         * [📝链表](/docs/开发者知识文档/00_CS基础/数据结构/链表.md)
         * [📝队列](/docs/开发者知识文档/00_CS基础/数据结构/队列.md)
+    * 🗂机器学习深度学习
+        * 🗂机器学习
+            * [📝支持向量机](/docs/开发者知识文档/00_CS基础/机器学习深度学习/机器学习/支持向量机.md)
+        * 🗂深度学习
+            * [📝CNN](/docs/开发者知识文档/00_CS基础/机器学习深度学习/深度学习/CNN.md)
+            * [📝RNN](/docs/开发者知识文档/00_CS基础/机器学习深度学习/深度学习/RNN.md)
     * 🗂算法
         * [📝图算法](/docs/开发者知识文档/00_CS基础/算法/图算法.md)
         * [📝推荐算法](/docs/开发者知识文档/00_CS基础/算法/推荐算法.md)
         * [📝数据挖掘](/docs/开发者知识文档/00_CS基础/算法/数据挖掘.md)
-        * [📝机器学习](/docs/开发者知识文档/00_CS基础/算法/机器学习.md)
-        * [📝深度学习](/docs/开发者知识文档/00_CS基础/算法/深度学习.md)
     * 🗂编程范式
         * [📝范式大全](/docs/开发者知识文档/00_CS基础/编程范式/范式大全.md)
     * 🗂编译原理
@@ -124,6 +128,8 @@
                 * [📝backbone](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/backbone.md)
                 * [📝express.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/express.js.md)
                 * [📝jquery](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/jquery.md)
+                * 🗂后台看板框架
+                    * [📝metronic](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/后台看板框架/metronic.md)
                 * 🗂应用框架
                     * 🗂angular相关
                         * [📝Angular_CLI](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/angular相关/Angular_CLI.md)
@@ -570,26 +576,48 @@
             * [📝mockaroo](/docs/开发者知识文档/01_软件开发/03_大数据平台/数据生成器/mockaroo.md)
     * 🗂机器学习
         * 🗂python
+            * 🗂IDE
+                * [📝PyCharm](/docs/开发者知识文档/01_软件开发/04_机器学习/python/IDE/PyCharm.md)
+            * 🗂包管理工具
+                * [📝pip3](/docs/开发者知识文档/01_软件开发/04_机器学习/python/包管理工具/pip3.md)
+                * [📝requirement.txt](/docs/开发者知识文档/01_软件开发/04_机器学习/python/包管理工具/requirement.txt.md)
             * 🗂基础知识
                 * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/Lynda_Python_Essential_Training.md)
                 * [📝cpy](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/cpy.md)
                 * [📝pypy解释器](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/pypy解释器.md)
                 * [📝python](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/python.md)
-            * 🗂常用库
-                * [📝django](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/django.md)
-                * [📝jieba分词](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/jieba分词.md)
-                * [📝numpy](/docs/开发者知识文档/01_软件开发/04_机器学习/python/常用库/numpy.md)
-        * 🗂深度学习框架
-            * 🗂Keras
-                * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
-                * [📝keras](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/Keras/keras.md)
-            * 🗂PyTorch
-                * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
-                * [📝PyTorch](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/PyTorch/PyTorch.md)
-            * [📝tensorflow](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习框架/tensorflow.md)
-        * 🗂深度学习知识点
-            * [📝CNN](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习知识点/CNN.md)
-            * [📝RNN](/docs/开发者知识文档/01_软件开发/04_机器学习/深度学习知识点/RNN.md)
+            * 🗂实用工具
+                * 🗂py环境管理
+                    * [📝Anaconda](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/Anaconda.md)
+                    * [📝Conda](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/Conda.md)
+                    * [📝Miniconda](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/Miniconda.md)
+                    * [📝hatch](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/hatch.md)
+                    * [📝pipenv](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/pipenv.md)
+                    * [📝poetry](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/poetry.md)
+                    * [📝pyenv](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/pyenv.md)
+                    * [📝venv](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/venv.md)
+                    * [📝virtualenv](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/virtualenv.md)
+            * 🗂库
+                * 🗂图像处理库
+                    * [📝Pillow](/docs/开发者知识文档/01_软件开发/04_机器学习/python/库/图像处理库/Pillow.md)
+                * 🗂数值计算库
+                    * [📝numpy](/docs/开发者知识文档/01_软件开发/04_机器学习/python/库/数值计算库/numpy.md)
+                    * [📝pandas](/docs/开发者知识文档/01_软件开发/04_机器学习/python/库/数值计算库/pandas.md)
+                * 🗂语言处理库
+                    * [📝jieba分词](/docs/开发者知识文档/01_软件开发/04_机器学习/python/库/语言处理库/jieba分词.md)
+            * 🗂框架
+                * 🗂web框架
+                    * [📝Django](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/web框架/Django.md)
+                    * [📝Flask](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/web框架/Flask.md)
+                * 🗂深度学习框架
+                    * 🗂Keras
+                        * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
+                        * [📝keras](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/Keras/keras.md)
+                    * 🗂PyTorch
+                        * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
+                        * [📝PyTorch](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/PyTorch/PyTorch.md)
+                    * [📝tensorflow](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/tensorflow.md)
+            * 🗂环境管理
 * 🗂Cloud_Native
     * 🗂linux
         * 🗂bash

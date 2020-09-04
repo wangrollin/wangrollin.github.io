@@ -7,19 +7,19 @@
 
 #### What you should know
 
-### What is Node.js?
+### 1. What is Node.js?
 
 #### Node.js history
 
 #### How Node.js works
 
-### Set up your Environment
+### 2. Set up your Environment
 
 #### Using VS Code
 
 #### Install Node.js
 
-### Node Globals
+### 3. Node Globals
 
 #### The global object
 
@@ -37,7 +37,7 @@
 
 #### Report progress with setInterval
 
-### Node Modules
+### 4. Node Modules
 
 #### Core modules
 
@@ -53,7 +53,7 @@
 
 #### Improve a module with EventEmitter
 
-### File System Basics
+### 5. File System Basics
 
 #### List directory files
 
@@ -69,7 +69,7 @@
 
 #### Rename and remove directories
 
-### Files and Streams
+### 6. Files and Streams
 
 #### Readable file streams
 
