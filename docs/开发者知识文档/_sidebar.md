@@ -373,9 +373,9 @@
                 * 🗂参数校验validator
                     * [📝javax.validation](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/参数校验validator/javax.validation.md)
                 * 🗂安全认证框架
+                    * [📝OAuth2](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/OAuth2.md)
                     * [📝OpenID_Connect](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/OpenID_Connect.md)
                     * [📝jwt](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/jwt.md)
-                    * [📝oauth2](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/oauth2.md)
                     * [📝shrio](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/shrio.md)
                 * 🗂数据库缓存相关
                     * 🗂ORM框架

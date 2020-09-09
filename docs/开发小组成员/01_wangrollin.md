@@ -5,9 +5,8 @@
 - 工作：[华为苏研所](https://www.huawei.com/)，[EPAM](https://www.epam.com/)
 
 
-#### 🍖全栈项目：BigDemoStudio
-- [项目github账号](https://github.com/BigDemoStudio/)
-- [项目网站](https://wangrollin.com)
+#### 🍖IM项目
+- URL待定
 
 
 #### 🍖其他github项目
