@@ -1,3 +1,6 @@
-# Sometimes structure is more important than content
 
-Sometimes structure is more important than content
+## problems
+
+> 跨域报错
+
+@CrossOrigin

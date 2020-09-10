@@ -164,4 +164,10 @@ docker commit 当前运行的容器名 新镜像名:版本号
 ```
 
 
+## problem
 
+> docker-credential-desktop not installed or not available in PATH
+
+sed -i~ 's/"desktop"/"osxkeychain"/g' ~/.docker/config.json
+
+https://github.com/docker/for-mac/issues/3785

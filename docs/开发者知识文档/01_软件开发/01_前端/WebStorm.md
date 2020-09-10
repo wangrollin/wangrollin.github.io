@@ -14,3 +14,4 @@
   - jquery (or npm i @types/jquery)
   - socket.io
 
+- vue indents: 4

@@ -1,4 +1,13 @@
 
+## pom依赖
+
+```xml
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>1.2.73</version>
+</dependency>
+```
 
 ## 常用方法
 
