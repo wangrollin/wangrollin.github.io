@@ -39,7 +39,6 @@ function generateSideBar() {
 
     let basePath = process.cwd()
     let pathList = [basePath + '/docs/开发者知识文档',
-        basePath + '/docs/开发小组成员',
         basePath + '/docs/进展']
 
     pathList.forEach(path => {

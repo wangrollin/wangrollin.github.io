@@ -6,7 +6,6 @@ import re
 prefix = '* '
 base_path = os.getcwd()
 path_list = (base_path + '/docs/开发者知识文档',
-             base_path + '/docs/开发小组成员',
              base_path + '/docs/进展')
 
 
