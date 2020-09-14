@@ -7,8 +7,6 @@
 ## 安装rancher
 
 ```bash
-sudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server
-
 sudo docker run -d --name myrancher --restart=unless-stopped -p 8080:8080 rancher/server:stable
 
 docker logs -f --tail 500 dreamy_morse

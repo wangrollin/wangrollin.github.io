@@ -691,6 +691,8 @@
                 * [📝rbenv](/docs/开发者知识文档/02_Cloud_Native/01_linux/其他语言/ruby/rbenv.md)
                 * [📝ruby](/docs/开发者知识文档/02_Cloud_Native/01_linux/其他语言/ruby/ruby.md)
         * 🗂包管理工具
+            * [📝apt-get](/docs/开发者知识文档/02_Cloud_Native/01_linux/包管理工具/apt-get.md)
+            * [📝snap](/docs/开发者知识文档/02_Cloud_Native/01_linux/包管理工具/snap.md)
             * [📝yum](/docs/开发者知识文档/02_Cloud_Native/01_linux/包管理工具/yum.md)
         * 🗂发行版
             * [📝CoreOS](/docs/开发者知识文档/02_Cloud_Native/01_linux/发行版/CoreOS.md)
@@ -707,6 +709,7 @@
             * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/02_Cloud_Native/02_CNCF/k8s发行版/Rancher_Kubernetes_Engine.md)
             * [📝k3s](/docs/开发者知识文档/02_Cloud_Native/02_CNCF/k8s发行版/k3s.md)
             * [📝k8s](/docs/开发者知识文档/02_Cloud_Native/02_CNCF/k8s发行版/k8s.md)
+            * [📝microk8s](/docs/开发者知识文档/02_Cloud_Native/02_CNCF/k8s发行版/microk8s.md)
             * [📝minikube](/docs/开发者知识文档/02_Cloud_Native/02_CNCF/k8s发行版/minikube.md)
         * 🗂k8s组件
             * 🗂k8s命令行工具
