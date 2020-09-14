@@ -12,9 +12,6 @@
 ```
 
 
-
-
-
 ## 代码
 
 ### 【bean的代码】
@@ -26,7 +23,6 @@
 ```
 
 
-
 #### 让某些字段变成key的时候，首字母大写
 
 ```java
@@ -34,13 +30,11 @@
 ```
 
 
-
 #### 忽略某些值为null的字段
 
 ```java
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 ```
-
 
 
 ### 【mapper的代码】
