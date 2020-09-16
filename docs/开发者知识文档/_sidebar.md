@@ -374,9 +374,11 @@
                 * 🗂参数校验validator
                     * [📝javax.validation](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/参数校验validator/javax.validation.md)
                 * 🗂安全认证框架
-                    * [📝JWT](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/JWT.md)
+                    * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
                     * [📝OAuth2](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/OAuth2.md)
                     * [📝OpenID_Connect](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/OpenID_Connect.md)
+                    * [📝Security-Assertion-Markup-Language-Tokens_SAML](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/Security-Assertion-Markup-Language-Tokens_SAML.md)
+                    * [📝Simple-Web-Tokens_SWT](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/Simple-Web-Tokens_SWT.md)
                     * [📝shrio](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/shrio.md)
                 * 🗂数据库缓存相关
                     * 🗂ORM框架
@@ -664,9 +666,14 @@
             * 🗂进程通信
                 * [📝进程通信](/docs/开发者知识文档/02_Cloud_Native/01_linux/Linux内核模块和代码/进程通信/进程通信.md)
         * 🗂gnu自由软件
-            * [📝Systemd](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/Systemd.md)
             * [📝Zabbix](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/Zabbix.md)
             * [📝gnu工具](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/gnu工具.md)
+            * 🗂session管理
+                * [📝tmux](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/session管理/tmux.md)
+            * 🗂守护进程
+                * [📝Systemd](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/守护进程/Systemd.md)
+                * [📝init](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/守护进程/init.md)
+                * [📝supervisior](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/守护进程/supervisior.md)
         * 🗂其他语言
             * 🗂c
                 * [📝c11](/docs/开发者知识文档/02_Cloud_Native/01_linux/其他语言/c/c11.md)
