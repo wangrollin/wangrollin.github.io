@@ -125,55 +125,6 @@ sudo usermod -aG docker $USER
 
 
 
-## docker镜像换源
-
-https://cr.console.aliyun.com/cn-shanghai/instances/mirrors
-
-针对Docker客户端版本大于 1.10.0 的用户
-
-您可以通过修改daemon配置文件/etc/docker/daemon.json来使用加速器
-
-```bash
-sudo mkdir -p /etc/docker
-
-sudo tee /etc/docker/daemon.json <<-'EOF'
-{
-  "registry-mirrors": ["https://vxcv99nl.mirror.aliyuncs.com"]
-}
-EOF
-
-sudo tee /etc/docker/daemon.json <<-'EOF'
-{
-  "registry-mirrors": ["https://config.example.com"]
-}
-EOF
-
-sudo systemctl daemon-reload
-
-sudo systemctl restart docker
-```
-
-
-
-## 可选项：安装rancher和k8s
-
-```bash
-docker pull rancher/rancher
-
-sudo docker run -d --name myrancher --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
-
-docker logs -f --tail 500 myrancher
-
-# 要过很久，ranchr才会启动好，才能通过web访问
-
-Failed to get job complete status for job rke-network-plugin-deploy-job in namespace kube-system
-
-# 不能开全局代理，否则连不上
-
-# 重新部署的时候，如果etcd报证书错误，删除/etc/kubernetes 目录
-```
-
-
 
 ## rpm包转成deb包
 

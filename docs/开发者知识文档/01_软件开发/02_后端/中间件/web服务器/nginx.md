@@ -1,4 +1,10 @@
 
+## 网站
+
+- [官网](https://www.nginx.com/)
+- [doc](https://nginx.org/en/)
+
+
 ## 配置端口转发
 
 ```bash
