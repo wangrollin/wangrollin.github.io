@@ -35,6 +35,8 @@ tmux list-clients
 
 # 接入会话
 tmux attach -t s1
+tmux a -t s1
+tmux a # 恢复至上一次的会话
 
 # 杀死会话
 tmux kill-session -t <session-name>

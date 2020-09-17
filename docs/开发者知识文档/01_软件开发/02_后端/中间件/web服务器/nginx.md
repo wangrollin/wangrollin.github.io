@@ -15,10 +15,10 @@ nginx -t
 
 server {
   server_name wangrollin.com;
-  listen 443;
+  listen 444;
  
   location / {
-    proxy_pass http://127.0.0.1:8080;
+    proxy_pass www.baidu.com;
   }
 }
 
@@ -30,8 +30,6 @@ server {
     proxy_pass http://127.0.0.1:8080;
   }
 }
-
-
 
 
 # 查看Nginx的版本号
@@ -47,5 +45,19 @@ nginx -s stop
 nginx -s quit
 
 # 配置文件修改重装载命令
+nginx -t
 nginx -s reload
+
+
+
+netstat -anp | grep 443
+netstat -anp | grep nginx
+curl https://wangrollin.com
+
+sudo systemctl start nginx 
+sudo systemctl stop nginx 
+sudo systemctl status nginx
+sudo systemctl restart nginx
+
 ```
+
