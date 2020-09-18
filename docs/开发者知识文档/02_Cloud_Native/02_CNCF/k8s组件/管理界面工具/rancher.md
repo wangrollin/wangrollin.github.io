@@ -20,6 +20,17 @@ https://rancher.com/docs/rancher/v2.x/en/cluster-provisioning/hosted-kubernetes-
 
 
 
+## rancher app商店换源
+
+https://www.bookstack.cn/read/rancher-2.4.4-zh/4202e6686942ae51.md
+
+
+## rancher domain规则
+
+kube-dns.kube-system.svc.cluster.local
+
+service.namespace.svc.cluster.local
+
 
 
 ## 无法删除namespace，卡在removing

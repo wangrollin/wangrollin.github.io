@@ -5,6 +5,22 @@
 - [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
 
 
+## 设置
+
+- 鼠标选择：窗格、窗口
+- 鼠标调节大小
+- 鼠标滚轮滚动
+- option键选择文本，cmd c/v 复制粘贴
+
+```bash
+vi ~/.tmux.conf
+
+set -g mouse on
+
+tmux source ~/.tmux.conf
+```
+
+
 ## 常用命令
 
 ```bash
@@ -130,3 +146,4 @@ tmux info
 # 重新加载当前的 Tmux 配置
 tmux source-file ~/.tmux.conf
 ```
+
