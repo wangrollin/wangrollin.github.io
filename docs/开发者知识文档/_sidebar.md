@@ -284,7 +284,6 @@
                         * [📝SimpleDateFormat](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/旧的/SimpleDateFormat.md)
             * 🗂A_工具库
                 * [📝glassfish](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/glassfish.md)
-                * [📝guava](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/guava.md)
                 * 🗂object_mapper转换
                     * [📝Dozer](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/Dozer.md)
                     * [📝JMapper](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/JMapper.md)
@@ -296,6 +295,9 @@
                     * [📝fastXml](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/xml处理工具/fastXml.md)
                 * 🗂函数式编程
                     * [📝Vavr](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/函数式编程/Vavr.md)
+                * 🗂工具箱
+                    * [📝Hutool](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/Hutool.md)
+                    * [📝guava](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/guava.md)
                 * 🗂序列化_反序列化
                     * [📝fastjson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/fastjson.md)
                     * [📝gson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/gson.md)
@@ -446,6 +448,7 @@
                 * [📝visualVM](/docs/开发者知识文档/01_软件开发/02_后端/java/jvm工具/visualVM.md)
             * 🗂基础知识
                 * [📝Java11](/docs/开发者知识文档/01_软件开发/02_后端/java/基础知识/Java11.md)
+                * [📝Java8](/docs/开发者知识文档/01_软件开发/02_后端/java/基础知识/Java8.md)
                 * [📝Java语法](/docs/开发者知识文档/01_软件开发/02_后端/java/基础知识/Java语法.md)
                 * [📝jvm](/docs/开发者知识文档/01_软件开发/02_后端/java/基础知识/jvm.md)
             * 🗂并发编程
@@ -470,8 +473,12 @@
         * 🗂中间件
             * 🗂API网关
                 * [📝Kong](/docs/开发者知识文档/01_软件开发/02_后端/中间件/API网关/Kong.md)
+            * 🗂CMS网站生成器
+                * [📝MCms](/docs/开发者知识文档/01_软件开发/02_后端/中间件/CMS网站生成器/MCms.md)
             * 🗂web服务器
                 * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/web服务器/nginx.md)
+            * 🗂分布式调度与计算框架
+                * [📝PowerJob](/docs/开发者知识文档/01_软件开发/02_后端/中间件/分布式调度与计算框架/PowerJob.md)
             * 🗂安全认证
                 * [📝Keycloak](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Keycloak.md)
                 * [📝Okta](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Okta.md)
@@ -905,6 +912,9 @@
         * [📝frp](/docs/开发者知识文档/99_其他/内网穿透/frp.md)
     * 🗂域名管理
         * [📝域名管理](/docs/开发者知识文档/99_其他/域名管理/域名管理.md)
+    * 🗂工具网站
+        * 🗂脑图
+            * [📝processOn](/docs/开发者知识文档/99_其他/工具网站/脑图/processOn.md)
     * 🗂常见问题
         * [📝problems](/docs/开发者知识文档/99_其他/常见问题/problems.md)
     * 🗂开源协议
