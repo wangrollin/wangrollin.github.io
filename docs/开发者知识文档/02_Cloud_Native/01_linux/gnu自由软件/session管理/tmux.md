@@ -16,6 +16,8 @@
 vi ~/.tmux.conf
 
 set -g mouse on
+set -g status-position top
+set -g status-justify centre
 
 tmux source ~/.tmux.conf
 ```
@@ -34,8 +36,8 @@ Ctrl+b
 Ctrl+b ?
 q退出
 
-
-
+# 恢复配置，但会丢失session
+tmux kill-server
 
 # 新建会话
 tmux new -s <session-name>
@@ -127,6 +129,10 @@ tmux select-window -t <window-number>
 tmux select-window -t <window-name>
 # 重命名窗口
 tmux rename-window <new-name>
+tmux rename-window frp
+tmux rename-window brew
+tmux rename-window npm
+
 
 # 窗口快捷键
 Ctrl+b c # 创建一个新窗口，状态栏会显示多个窗口的信息。

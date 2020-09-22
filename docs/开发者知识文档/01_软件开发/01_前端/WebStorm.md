@@ -15,3 +15,6 @@
   - socket.io
 
 - vue indents: 4
+
+> 插件
+

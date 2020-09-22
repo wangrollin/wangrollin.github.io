@@ -269,7 +269,7 @@ SIZ: 0, sm, lg
 --info --warning --danger
 ```
 
-**m媒体查询 media queries**
+**媒体查询 media queries**
 
 ```
 --breakpoint-xs --breakpoint-sm --breakpoint-md
