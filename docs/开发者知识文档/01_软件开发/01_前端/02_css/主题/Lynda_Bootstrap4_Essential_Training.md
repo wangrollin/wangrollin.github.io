@@ -1134,110 +1134,1084 @@ COLOR: primary, secondary, success, danger, warning, info, light, dark, white
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 5. Style Element Overview
 
 #### Basic style element overview
 
-示例
+- button
+- progress bar
+- list groups
+- breadcrumb
 
-```html
-
-
-```
 
 #### Create buttons
 
+> Button Options
+
+- `btn` basic class
+- `btn-SIZ` SIZ: `sm` `lg`
+- `<a> <button> <input>` btn class 可以用在这些标签上
+
+> Button Colors
+
+- `btn-COLOR`: primary, secondary, success, danger, warning, info, light, dark
+- `btn-outline-COLOR`: primary, secondary, success, danger, warning, info, light, dark
+
+> Other Options
+
+- `btn-block` full width
+- `active`
+- `disabled`
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <h2>Types</h2>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+            <button class="btn btn-primary" type="submit">Button</button>
+            <input class="btn btn-primary" type="button" value="Input">
+
+            <h2>Contextual Classes</h2>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Secondary</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-light">Light</button>
+            <button class="btn btn-dark">Dark</button>
+
+            <h2>Outline</h2>
+            <button class="btn btn-outline-primary">Primary</button>
+            <button class="btn btn-outline-secondary">Secondary</button>
+            <button class="btn btn-outline-success">Success</button>
+            <button class="btn btn-outline-danger">Danger</button>
+            <button class="btn btn-outline-warning">Warning</button>
+            <button class="btn btn-outline-info">Info</button>
+            <button class="btn btn-outline-light">Light</button>
+            <button class="btn btn-outline-dark">Dark</button>
+
+            <h2>Sizes</h2>
+            <button class="btn btn-primary">Default</button>
+            <button class="btn btn-primary btn-lg">Large</button>
+            <button class="btn btn-primary btn-sm">Small</button>
+            <button class="btn btn-primary btn-block">Block</button>
+
+            <h2>States</h2>
+            <h3>Active</h3>
+            <button class="btn btn-primary active">Active Button</button>
+
+            <h3>Disabled</h3>
+            <button class="btn btn-primary disabled">Disabled Button</button>
+            <a href="#" class="btn btn-primary disabled">Disabled Link Button</a>
+
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+```
+
+
 #### Button groups
+
+> Button Group Classes
+
+- `btn-group`
+- `btn-group-vertical`
+- `btn-toolbar`
+
+> Button Group Options
+
+- `btn-group-SIZ`: SIZ: sm, lg
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <h1>Our Mission</h1>
+
+            <div class="btn-toolbar" aria-label="All Pets">
+                <div class="btn-group  btn-group-lg mb-2 mr-2" aria-label="Common Pets">
+                    <button type="button" class="btn btn-primary active">Cat</button>
+                    <button type="button" class="btn btn-primary">Dog</button>
+                    <button type="button" class="btn btn-primary">Fish</button>
+                    <button type="button" class="btn btn-primary">Bird</button>
+                </div>
+
+                <div class="btn-group btn-group-sm mb-2" aria-label="Exotic Pets">
+                    <button type="button" class="btn btn-primary">Amphibian</button>
+                    <button type="button" class="btn btn-primary active">Reptile</button>
+                    <button type="button" class="btn btn-primary">Other</button>
+                </div>
+            </div>
+
+            <div class="btn-group btn-group-vertical" aria-label="Exotic Pets">
+                <button type="button" class="btn btn-primary">Amphibian</button>
+                <button type="button" class="btn btn-primary active">Reptile</button>
+                <button type="button" class="btn btn-primary">Other</button>
+            </div>
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+```
+
 
 #### Use badges
 
+> Badge Classes
+
+- `badge`
+- `badge-pill`
+- `badge-COLOR`: primary, secondary, success, danger, warning, info, light, dark
+
+通常用在`<span>`里
+
+badge is contextual, 和上下文相关，会自己调整大小
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <section class="content" id="mission">
+                <h1>Our Commitment <span class="badge badge-default">to you</span></h1>
+                <p class="lead">Wisdom Pet Medicine strives to blend the best in traditional and <em>alternative
+                    medicine</em> in the <strong>diagnosis and treatment</strong> of companion animals including dogs,
+                    cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the
+                    <mark>centuries old tradition</mark>
+                    of veterinary medicine, to find the safest treatments and&nbsp;cures.
+                </p>
+                <p><span class="badge badge-info badge-pill">new</span> We strive to be your pet's medical
+                </p>
+            </section>
+
+            <section class="content" id="services">
+                <h3>Grooming <span class="badge badge-danger badge-pill">new</span></h3>
+            </section>
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+```
+
+
 #### Progress bar styles
+
+> Progress Classes
+
+- `progress` containers
+- `progress-bar` item
+- style `width`, `height`: w-25
+- `style="width: 73%; height: 40px"`
+- Label text
+
+> Progress Styles
+
+- use `bg-COLOR`: success, info, warning, danger
+- `progress-bar-striped`
+- `progress-bar-animated`
+- multiple bars
+
+> accessibility properties
+
+- `role="progressbar"`
+- `aria-valuenow`
+- `aria-valuemin`
+- `aria-valuemax`
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <section class="content" id="services">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-value-now="73%" aria-value-min="0"
+                         aria-value-max="100%" style="width:73%">73%
+                    </div>
+                </div>
+              
+                <div class="progress">
+                    <div class="progress-bar bg-success progress-bar-striped" style="width:85%"></div>
+                </div>
+              
+                <div class="progress">
+                    <div class="progress-bar bg-info" style="width:15%"></div>
+                    <div class="progress-bar bg-warning" style="width:30%"></div>
+                </div>
+            
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width:15%"></div>
+                </div>
+            
+                <div class="progress">
+                    <div class="progress-bar bg-danger" style="width:15%"></div>
+                </div>
+             
+            </section>
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+```
+
 
 #### List groups
 
+> List Group Classes
+
+- `list-group` containers, 和`<ul> <div>`搭配使用
+- `list-group-item` items
+- `<li> <button> <a>`
+
+> List Group Styles
+
+- `active` `disabled`
+- `list-group-item-action` style
+- `list-group-item-COLOR`: primary, secondary, success, danger, warning, info, light, dark
+- `list-group-horizontal(-xx)`: xx: sm>576px md>768px lg>992px xl>1200px
+
+> Adding Badges
+
+- `badge` classes
+- `justify-content-between`
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <section class="content" id="services">
+                <h3>Exotic Pets</h3>
+                <p>We offer <strong>specialized</strong> care for <em>reptiles, rodents, birds,</em> and other exotic
+                    pets.</p>
+
+                <ul class="list-group mb-3">
+                    <li class="list-group-item active">Grooming</li>
+                    <li class="list-group-item list-group-item-action">General Health</li>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        Nutrition
+                        <span class="badge badge-primary badge-pill">12</span>
+                    </li>
+                    <li class="list-group-item list-group-item-action">Pest Control</li>
+                    <li class="list-group-item list-group-item-action">Vaccinations</li>
+                </ul>
+
+                <div class="list-group mb-3">
+                    <a class="list-group-item list-group-item-action list-group-item-success" href="#">Grooming</a>
+                    <a class="list-group-item list-group-item-action list-group-item-info" href="#">General Health</a>
+                    <a class="list-group-item list-group-item-action list-group-item-warning" href="#">Nutrition</a>
+                    <a class="list-group-item list-group-item-action list-group-item-danger" href="#">Pest Control</a>
+                    <a class="list-group-item list-group-item-action" href="#">Vaccinations</a>
+                </div>
+
+                <div class="list-group list-group-horizontal-md mb-3">
+                    <button class="list-group-item list-group-item-action" type="button">Grooming</button>
+                    <button class="list-group-item list-group-item-action" type="button">General Health</button>
+                    <button class="list-group-item list-group-item-action" type="button">Nutrition</button>
+                    <button class="list-group-item list-group-item-action" type="button">Pest Control</button>
+                    <button class="list-group-item list-group-item-action" type="button">Vaccinations</button>
+                </div>
+
+            </section>
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+```
+
+
 #### Breadcrumbs
+
+> Breadcrumb Links
+
+- `breadcrumb` containers
+- `breadcrumb-item` items
+- `active` style
+- `<li> or <nav>的<a>`
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <style>
+                .breadcrumb-item + .breadcrumb-item::before {
+                    content: '>'
+                }
+            </style>
+
+            <h3>Exotic Pets</h3>
+
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Exotic Pets</a></li>
+                <li class="breadcrumb-item active">Nutrition</li>
+            </ol>
+
+
+            <nav class="breadcrumb">
+                <a class="breadcrumb-item" href="#">Home</a>
+                <a class="breadcrumb-item" href="#">Exotic Pets</a>
+                <span class="breadcrumb-item active">Nutrition</span>
+            </nav>
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+```
+
 
 #### Shadows
 
+not for text, only for box elements
+
+> shadows
+
+- `shadow-none`
+- `shadow-sm`
+- `shadow`
+- `shadow-lg`
+
+
+```html
+<div class="container">
+    <h2 class="mt-4">Services</h2>
+
+    <section class="border my-4 p-3 shadow-none" style="box-shadow: 10px 10px 10px #DDD">
+        <h4>Exotic Pets</h4>
+        <div>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</div>
+    </section>
+
+    <section class="border my-4 p-3 shadow">
+        <h4>Grooming</h4>
+        <div>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin
+            conditions.
+        </div>
+    </section>
+
+    <section class="border my-4 p-3 shadow-sm">
+        <h4>General Health</h4>
+        <div>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health
+            services.
+        </div>
+    </section>
+
+    <section class="border my-4 p-3 shadow-lg">
+        <h4>Nutrition</h4>
+        <div>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health
+            and disease prevention.
+        </div>
+    </section>
+
+</div><!-- container -->
+
+```
 
 
 ### 6. Using Layout Component
 
 #### Layout conponents overview
 
+Design Patterns
+
+- jumbotron
+- table style
+- card layout
+- media elements
+
+
 #### Add a jumbotron
+
+> Jumbotron Classes
+
+- `jumbotron` container
+- `jumbotron-fluid` items
+- use styles as needed
+
+
+```html
+<header class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="display-2 mb-4">Our Mission</div>
+        <p class="lead">Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the
+            diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We
+            apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest
+            treatments and cures.</p>
+    </div>
+</header>
+
+```
+
 
 #### Table styles
 
+> table classes
+
+- `table`
+- `table-dark`
+
+> style
+
+- `table-striped`
+- `table-bordered`
+- `table-borderless`
+- `table-hover`
+
+> head colors
+
+- `thead-light`
+- `thead-dark`
+
+> color options
+
+- `table-COLOR` TRs & TDs: active, primary,secondary, success, danger, warning, info, light, dark
+- `bg-COLOR` TRs & TDs: primary, success, danger, warning, info
+- `text-COLOR` for text: primary,secondary, success, danger, warning, info, light, dark
+
+> size/responsive
+
+- `table-sm`
+- `table-responsive(-BP)`: sm>576px md>768px lg>992px xl>1200px
+
+
+```html
+<table class="table table-hover table-responsive">
+  <thead><tr><th scope="col">Item #</th><th scope="col">Product or Service</th><th scope="col">Price (ea.)</th><th scope="col">Retail Price (Case)</th><th scope="col">Case Discount</th><th scope="col">Wholesale Price</th><th scope="col">Wholesale Discount</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">100050</th><td>Advance Pet Oral Care Toothbrush and Toothpaste</td><td>$9.55 </td><td>$108.87</td><td>$5.73</td><td>$103.14</td><td>$11.46</td></tr>
+    <tr><th scope="row">100043</th><td>Basic Teeth Cleaning and Exam</td><td>$100.00 </td><td>$1,140.00</td><td>$60.00</td><td>$1,080.00</td><td>$120.00</td></tr>
+    <tr><th scope="row">100013</th><td class="table-success">Calm Cat Anxiety Relief Spray</td><td>$9.49 </td><td>$108.19</td><td>$5.69</td><td>$102.49</td><td>$11.39</td></tr>
+    <tr><th scope="row">100041</th><td>Cat Hairball Remedy Gel</td><td>$6.00 </td><td>$68.40</td><td>$3.60</td><td>$64.80</td><td>$7.20</td></tr>
+    <tr><th scope="row">100051</th><td>Cat Vaccination Package</td><td>$55.00 </td><td>$627.00</td><td>$33.00</td><td>$594.00</td><td>$66.00</td></tr>
+    <tr><th scope="row">100046</th><td>Dog Vaccination Package</td><td>$65.00 </td><td>$741.00</td><td>$39.00</td><td>$702.00</td><td>$78.00</td></tr>
+    <tr><th scope="row">100044</th><td>Healthy Coat Dog Supplement</td><td>$6.44 </td><td>$73.42</td><td>$3.86</td><td>$69.55</td><td>$7.73</td></tr>
+    <tr><th scope="row">100030</th><td>Healthy Coat Dog Supplement</td><td>$9.56 </td><td>$108.98</td><td>$5.74</td><td>$103.25</td><td>$11.47</td></tr>
+    <tr><th scope="row">100045</th><td>Here Kitty Kitty Organic Catnip</td><td>$7.75 </td><td>$88.35</td><td>$4.65</td><td>$83.70</td><td>$9.30</td></tr>
+    <tr><th scope="row">100053</th><td>Kidney Support Liquid Dietary Supplement</td><td>$9.12 </td><td>$103.97</td><td>$5.47</td><td>$98.50</td><td>$10.94</td></tr>
+    <tr><th scope="row">100040</th><td>Large Hypoallergenic Pet Bowl</td><td>$8.14 </td><td>$92.80</td><td>$4.88</td><td>$87.91</td><td>$9.77</td></tr>
+    <tr><th scope="row">100005</th><td>Medicated Dog Shampoo</td><td>$8.73 </td><td>$99.52</td><td>$5.24</td><td>$94.28</td><td>$10.48</td></tr>
+    <tr><th scope="row">100039</th><td>Microchip Service</td><td>$15.00 </td><td>$171.00</td><td>$9.00</td><td>$162.00</td><td>$18.00</td></tr>
+    <tr><th scope="row">100054</th><td>Parasite Treatment Package</td><td>$75.00 </td><td>$855.00</td><td>$45.00</td><td>$810.00</td><td>$90.00</td></tr>
+    <tr><th scope="row">100059</th><td>Probiotic Cat Treats</td><td>$7.89 </td><td>$89.95</td><td>$4.73</td><td>$85.21</td><td>$9.47</td></tr>
+    <tr><th scope="row">100042</th><td>Probiotic Dog Treats</td><td>$8.89 </td><td>$101.35</td><td>$5.33</td><td>$96.01</td><td>$10.67</td></tr>
+    <tr><th scope="row">100009</th><td>Rabies 1 or 3 year Vaccination</td><td>$18.00 </td><td>$205.20</td><td>$10.80</td><td>$194.40</td><td>$21.60</td></tr>
+    <tr><th scope="row">100055</th><td>Senior Dog Vitamin Chews</td><td>$9.66 </td><td>$110.12</td><td>$5.80</td><td>$104.33</td><td>$11.59</td></tr>
+    <tr><th scope="row">100032</th><td>Small Hypoallergenic Pet Bowl</td><td>$6.55 </td><td>$74.67</td><td>$3.93</td><td>$70.74</td><td>$7.86</td></tr>
+    <tr><th scope="row">100021</th><td>Strong Joints Cat Supplement</td><td>$5.53 </td><td>$63.04</td><td>$3.32</td><td>$59.72</td><td>$6.64</td></tr>
+    <tr><th scope="row">100047</th><td>Strong Joints Dog Supplement</td><td>$5.87 </td><td>$66.92</td><td>$3.52</td><td>$63.40</td><td>$7.04</td></tr>
+  </tbody>
+</table>
+
+```
+
+
 #### Basic card layouts
+
+> basic card classes
+
+- `card` container
+- `card-body`
+
+> card content
+
+- `card-text`
+- `card-title`
+- `card-subtitle`
+- `card-link`
+- `card-img`
+
+> colors
+
+- `bg-COLOR`: primary, secondary, success, danger, warning, info, light, dark, white
+- `border-COLOR`: primary, secondary, success, danger, warning, info, light, dark
+- `text-COLOR`: primary, secondary, success, danger, warning, info, light, dark
+
+
+```html
+<div class="container">
+
+    <section class="card mb-5" id="drwinthrop">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-winthrop.jpg" alt="Doctor Winthrop Photo">
+            <h2 class="card-title">Dr. Stanley Winthrop</h2>
+            <h5 class="card-subtitle">Behaviorist</h5>
+            <p class="card-text">Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at
+                the shelter. Dr. Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours
+                outside the clinic, performing free spay and neuter surgeries for the shelter.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5 bg-primary text-light" id="drchase">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-chase.jpg" alt="Doctor Chase Photo">
+            <h2 class="card-title">Dr. Elizabeth Chase</h2>
+            <h5 class="card-subtitle">Dentistry</h5>
+            <p class="card-text">Dr. Chase spends much of her free time helping the local bunny rescue organization find
+                homes for bunnies, such as Kibbles - a Dalmatian bunny who is part of the large Chase household,
+                including two dogs, three cats, and a turtle.</p>
+            <a class="card-link text-light" href="#">About Me</a>
+            <a class="card-link text-light" href="#">My Pets</a>
+            <a class="card-link text-light" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5 border-warning" id="drsanders">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-sanders.jpg" alt="Doctor Sanders Photo">
+            <h2 class="card-title">Dr. Kenneth Sanders</h2>
+            <h5 class="card-subtitle">Nutritionist</h5>
+            <p class="card-text">Leroy walked into Dr. Sanders front door when she was moving into a new house. After
+                searching for weeks for Leroy's guardians, she decided to make Leroy a part of her pet family, and now
+                has three cats.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5" id="drgardner">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-gardner.jpg" alt="Doctor Gardner Photo">
+            <h2 class="card-title">Dr. Michael Gardner</h2>
+            <h5 class="card-subtitle">Practitioner</h5>
+            <p class="card-text">When Dr. Gardner was 8 his family moved to Colorado, where he spent most of his free
+                time playing on his neighbors farm. He came to love spending time with the horses, chickens, and goats.
+                He still considers all of his family's farm animals his own, but Frank, his Cattle dog is his nearest
+                and dearest friend.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5" id="drruiz">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-ruiz.jpg" alt="Doctor Ruiz Photo">
+            <h2 class="card-title">Dr. Brook Ruiz</h2>
+            <h5 class="card-subtitle">Radiology</h5>
+            <p class="card-text">Dr. Brook has spent countless hours helping the local animal shelter with injured
+                animals ,that find their way into their doors. She recently adopted a new feline friend, Trish, that she
+                helped rescue from a flooded area. Trish loves playing with her new sister, Else.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5" id="drwong">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-wong.jpg" alt="Doctor Wong Photo">
+            <h2 class="card-title">Dr. Olivia Wong</h2>
+            <h5 class="card-subtitle">Preventive Care</h5>
+            <p class="card-text">Dr. Wong is a cancer survivor who was fortunate enough to get to spend time with a
+                therapy dog during her recovery. She became passionate about therapy animals, and has started her own
+                foundation to train and provide education to patients in recovery. Now she gets her own dose of daily
+                therapy from her husky, Lilla.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+</div><!-- content container -->
+
+```
+
 
 #### Card content classes
 
+> basic card classes
+
+- `card` container
+- `card-body`
+- `card-header`
+- `card-footer`
+
+> card images
+
+- `card-img`
+- `card-img-top`
+- `card-img-bottom`
+- `card-img-overlay` 来替换 `card-body`
+
+> list groups
+
+- `list-group` container
+- `list-group-item`
+- `list-group-flush`
+
+
+```html
+<div class="container">
+
+    <section class="card mb-5" id="drwinthrop">
+        <div class="card-header">
+            <h2 class="card-title">Dr. Stanley Winthrop</h2>
+            <h5 class="card-subtitle">Behaviorist</h5>
+        </div>
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-winthrop.jpg" alt="Doctor Winthrop Photo">
+            <p class="card-text">Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at
+                the shelter. Dr. Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours
+                outside the clinic, performing free spay and neuter surgeries for the shelter.</p>
+        </div>
+        <div class="card-footer">
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5 bg-primary text-light" id="drchase">
+        <div class="card-body">
+            <h2 class="card-title">Dr. Elizabeth Chase</h2>
+            <h5 class="card-subtitle">Dentistry</h5>
+            <p class="card-text">Dr. Chase spends much of her free time helping the local bunny rescue organization find
+                homes for bunnies, such as Kibbles - a Dalmatian bunny who is part of the large Chase household,
+                including two dogs, three cats, and a turtle.</p>
+            <a class="card-link text-light" href="#">About Me</a>
+            <a class="card-link text-light" href="#">My Pets</a>
+            <a class="card-link text-light" href="#">Client Slideshow</a>
+        </div>
+        <img class="card-img-bottom img-fluid" src="images/doctor-chase.jpg" alt="Doctor Chase Photo">
+    </section>
+
+    <section class="card mb-5 border-warning" id="drsanders">
+        <img class="card-img img-fluid" src="images/doctor-sanders.jpg" alt="Doctor Sanders Photo">
+        <div class="card-img-overlay">
+            <h2 class="card-title">Dr. Kenneth Sanders</h2>
+            <h5 class="card-subtitle">Nutritionist</h5>
+            <p class="card-text">Leroy walked into Dr. Sanders front door when she was moving into a new house. After
+                searching for weeks for Leroy's guardians, she decided to make Leroy a part of her pet family, and now
+                has three cats.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5" id="drgardner">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-gardner.jpg" alt="Doctor Gardner Photo">
+            <h2 class="card-title">Dr. Michael Gardner</h2>
+            <h5 class="card-subtitle">Practitioner</h5>
+            <p class="card-text">When Dr. Gardner was 8 his family moved to Colorado, where he spent most of his free
+                time playing on his neighbors farm. He came to love spending time with the horses, chickens, and goats.
+                He still considers all of his family's farm animals his own, but Frank, his Cattle dog is his nearest
+                and dearest friend.</p>
+        </div>
+        <div class="list-group list-group-flush">
+            <a class="list-group-item" href="#">About Me</a>
+            <a class="list-group-item" href="#">My Pets</a>
+            <a class="list-group-item" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5" id="drruiz">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-ruiz.jpg" alt="Doctor Ruiz Photo">
+            <h2 class="card-title">Dr. Brook Ruiz</h2>
+            <h5 class="card-subtitle">Radiology</h5>
+            <p class="card-text">Dr. Brook has spent countless hours helping the local animal shelter with injured
+                animals ,that find their way into their doors. She recently adopted a new feline friend, Trish, that she
+                helped rescue from a flooded area. Trish loves playing with her new sister, Else.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+    <section class="card mb-5" id="drwong">
+        <div class="card-body">
+            <img class="card-img img-fluid" src="images/doctor-wong.jpg" alt="Doctor Wong Photo">
+            <h2 class="card-title">Dr. Olivia Wong</h2>
+            <h5 class="card-subtitle">Preventive Care</h5>
+            <p class="card-text">Dr. Wong is a cancer survivor who was fortunate enough to get to spend time with a
+                therapy dog during her recovery. She became passionate about therapy animals, and has started her own
+                foundation to train and provide education to patients in recovery. Now she gets her own dose of daily
+                therapy from her husky, Lilla.</p>
+            <a class="card-link" href="#">About Me</a>
+            <a class="card-link" href="#">My Pets</a>
+            <a class="card-link" href="#">Client Slideshow</a>
+        </div>
+    </section>
+
+</div><!-- content container -->
+
+```
+
+
 #### Card layouts
+
+> card layout containers
+
+- `card-group`
+- `card-deck` 默认间隔 30pixel
+- `card-columns`
+
+> using the grid
+
+- `row row-cols`
+
+grid col 使用 card，非常好的布局
+
+
+```html
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="col">
+            <section class="card mb-5" id="drwinthrop">
+                <img class="card-img-top" src="images/doctor-winthrop.jpg" alt="Doctor Winthrop Photo">
+                <div class="card-body">
+                    <h2 class="card-title">Dr. Stanley Winthrop</h2>
+                    <h5 class="card-subtitle">Behaviorist</h5>
+                    <p class="card-text">Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he
+                        adopted at the shelter. Dr. Winthrop is
+                        passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic,
+                        performing free
+                        spay and neuter surgeries for the shelter.</p>
+                </div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="#">About Me</a>
+                    <a class="list-group-item" href="#">My Pets</a>
+                    <a class="list-group-item" href="#">Client Slideshow</a>
+                </div>
+            </section><!-- card -->
+        </div>
+
+        <div class="col">
+            <section class="card mb-5" id="drchase">
+                <img class="card-img-top" src="images/doctor-chase.jpg" alt="Doctor Chase Photo">
+                <div class="card-body">
+                    <h2 class="card-title">Dr. Elizabeth Chase</h2>
+                    <h5 class="card-subtitle">Dentistry</h5>
+                    <p class="card-text">Dr. Chase spends much of her free time helping the local bunny rescue
+                        organization find homes for bunnies, such as
+                        Kibbles - a Dalmatian bunny who is part of the large Chase household, including two dogs, three
+                        cats, and a turtle.</p>
+                </div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="#">About Me</a>
+                    <a class="list-group-item" href="#">My Pets</a>
+                    <a class="list-group-item" href="#">Client Slideshow</a>
+                </div>
+            </section><!-- card -->
+        </div>
+
+        <div class="col">
+            <section class="card mb-5" id="drsanders">
+                <img class="card-img-top" src="images/doctor-sanders.jpg" alt="Doctor Sanders Photo">
+                <div class="card-body">
+                    <h2 class="card-title">Dr. Kenneth Sanders</h2>
+                    <h5 class="card-subtitle">Nutritionist</h5>
+                    <p class="card-text">Leroy walked into Dr. Sanders front door when she was moving into a new house.
+                        After searching for weeks for Leroy's
+                        guardians, she decided to make Leroy a part of her pet family, and now has three cats.</p>
+                </div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="#">About Me</a>
+                    <a class="list-group-item" href="#">My Pets</a>
+                    <a class="list-group-item" href="#">Client Slideshow</a>
+                </div>
+            </section><!-- card -->
+        </div>
+
+        <div class="col">
+            <section class="card mb-5" id="drgardner">
+                <img class="card-img-top" src="images/doctor-gardner.jpg" alt="Doctor Gardner Photo">
+                <div class="card-body">
+                    <h2 class="card-title">Dr. Michael Gardner</h2>
+                    <h5 class="card-subtitle">Practitioner</h5>
+                    <p class="card-text">When Dr. Gardner was 8 his family moved to Colorado, where he spent most of his
+                        free time playing on his neighbors
+                        farm. He came to love spending time with the horses, chickens, and goats. He still considers all
+                        of his family's
+                        farm animals his own, but Frank, his Cattle dog is his nearest and dearest friend.</p>
+                </div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="#">About Me</a>
+                    <a class="list-group-item" href="#">My Pets</a>
+                    <a class="list-group-item" href="#">Client Slideshow</a>
+                </div>
+            </section><!-- card -->
+        </div>
+
+        <div class="col">
+            <section class="card mb-5" id="drruiz">
+                <img class="card-img-top" src="images/doctor-ruiz.jpg" alt="Doctor Ruiz Photo">
+                <div class="card-body">
+                    <h2 class="card-title">Dr. Brook Ruiz</h2>
+                    <h5 class="card-subtitle">Radiology</h5>
+                    <p class="card-text">Dr. Brook has spent countless hours helping the local animal shelter with
+                        injured animals ,that find their way into
+                        their doors. She recently adopted a new feline friend, Trish, that she helped rescue from a
+                        flooded area. Trish
+                        loves playing with her new sister, Else.</p>
+                </div><!-- card-body -->
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="#">About Me</a>
+                    <a class="list-group-item" href="#">My Pets</a>
+                    <a class="list-group-item" href="#">Client Slideshow</a>
+                </div>
+            </section><!-- card -->
+        </div>
+
+        <div class="col">
+            <section class="card mb-5" id="drwong">
+                <img class="card-img-top" src="images/doctor-wong.jpg" alt="Doctor Wong Photo">
+                <div class="card-body">
+                    <h2 class="card-title">Dr. Olivia Wong</h2>
+                    <h5 class="card-subtitle">Preventive Care</h5>
+                    <p class="card-text">Dr. Wong is a cancer survivor who was fortunate enough to get to spend time
+                        with a therapy dog during her recovery.
+                        She became passionate about therapy animals, and has started her own foundation to train and
+                        provide education
+                        to patients in recovery. Now she gets her own dose of daily therapy from her husky, Lilla.</p>
+                </div><!-- card-body -->
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="#">About Me</a>
+                    <a class="list-group-item" href="#">My Pets</a>
+                    <a class="list-group-item" href="#">Client Slideshow</a>
+                </div>
+            </section><!-- card -->
+        </div>
+    </div>
+</div><!-- content container -->
+
+```
+
 
 #### Use the media object
 
+> media classes
+
+- `media` containers
+- `media-body`
+- use flexbox classes
+
+
+```html
+<div class="container">
+
+    <section class="media mb-4" id="drwinthrop">
+        <div class="media-body">
+            <h2>Dr. Stanley Winthrop</h2>
+            <h5>Behaviorist</h5>
+            <p>Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr.
+                Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours outside the
+                clinic, performing free spay and neuter surgeries for the shelter.</p>
+        </div>
+        <img class="d-flex mr-3 img-fluid rounded" style="width: 100px;" src="images/doctor-winthrop.jpg"
+             alt="Doctor Winthrop Photo">
+    </section>
+
+    <section class="media mb-4" id="drchase">
+        <img class="d-flex mr-3 img-fluid rounded" style="width: 100px;" src="images/doctor-chase.jpg"
+             alt="Doctor Chase Photo">
+        <div class="media-body">
+            <h2>Dr. Elizabeth Chase</h2>
+            <h5>Dentistry</h5>
+            <p>Dr. Chase spends much of her free time helping the local bunny rescue organization find homes for
+                bunnies, such as Kibbles - a Dalmatian bunny who is part of the large Chase household, including two
+                dogs, three cats, and a turtle.</p>
+        </div>
+    </section>
+
+</div><!-- content container -->
+
+```
 
 
 ### 7. Using Form Styles
 
 #### Form styles overview
 
+```html
+
+
+```
+
+
 #### Create a basic form
+
+```html
+
+
+```
+
 
 #### Checkboxes and radio classes
 
+```html
+
+
+```
+
+
 #### Size and validation styles
+
+```html
+
+
+```
+
 
 #### Multicolumn forms
 
+```html
+
+
+```
+
+
 #### Create input groups
 
+```html
+
+
+```
+
+
 #### Custom form components
+
+```html
+
+
+```
+
 
 
 ### 8. Working with Interactive Components
 
 #### Interactive component overview
 
+```html
+
+
+```
+
+
 #### Add tooltips
+
+```html
+
+
+```
+
 
 #### Display popovers
 
+```html
+
+
+```
+
+
 #### Create alerts
+
+```html
+
+
+```
+
 
 #### Use dropdowns
 
+```html
+
+
+```
+
+
 #### Add collapse accordions
+
+```html
+
+
+```
+
 
 #### Use modals
 
+```html
+
+
+```
+
+
 #### Build carousels
+
+```html
+
+
+```
+
 
 #### Use scrollspy
 
+```html
+
+
+```
+
+
 #### Toasts
+
+```html
+
+
+```
+
 
 #### Spinners
 
+```html
+
+
+```
+
+
 #### Pagination
+
+```html
+
+
+```
+
 
 #### Stretched links
 
+```html
+
+
+```
+
+
 #### Embeds
+
+```html
+
+
+```
 
 
 ### Conclusion
