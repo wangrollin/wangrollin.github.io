@@ -2043,17 +2043,77 @@ grid col 使用 card，非常好的布局
 
 ### 7. Using Form Styles
 
-#### Form styles overview
-
-```html
-
-
-```
-
-
 #### Create a basic form
 
+> Form Classes
+
+- `form-group`
+- `form-text`
+
+> Form Controls
+
+- `form-control`
+- `form-control-label`
+- `form-control-file`
+
+> tips
+
+- `sr-only`: 在页面上不显示，但是读屏软件可以看到
+
+
 ```html
+<div class="container">
+
+    <h2>Medical Questionnaire</h2>
+
+    <form>
+
+        <fieldset class="form-group">
+            <legend>Owner Info</legend>
+
+            <div class="form-group">
+                <label class="form-control-label" for="ownername">Owner name</label>
+                <input class="form-control" type="text" id="ownername" placeholder="Your Name">
+            </div><!-- form-group -->
+
+            <div class="form-group">
+                <label class="form-control-label" for="owneremail">Email address</label>
+                <input class="form-control" type="email" id="owneremail" aria-describedby="emailHelp"
+                       placeholder="Enter email">
+                <small class="form-text text-muted" id="emailHelp">We'll never share your email</small>
+            </div><!-- form-group -->
+
+        </fieldset><!-- fieldset -->
+        <fieldset class="form-group">
+
+            <legend>Pet Info</legend>
+
+            <div class="form-group">
+                <label class="form-control-label" for="petname">Pet name</label>
+                <input class="form-control" type="text" id="petname" placeholder="Your Pet's name">
+            </div><!-- form-group -->
+
+            <div class="form-group">
+                <label class="form-control-label" for="pettype">Pet type</label>
+                <select class="form-control" id="pettype">
+                    <option>Choose</option>
+                    <option value="cat">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Other</option>
+                </select>
+            </div><!-- form-group -->
+
+            <div class="form-group">
+                <label class="form-control-label" for="reasonforvisit">Reason for today's visit</label>
+                <textarea class="form-control" id="reasonforvisit" rows="3"></textarea>
+            </div><!-- form-group -->
+
+
+        </fieldset><!-- fieldset -->
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+</div><!-- content container -->
 
 
 ```
@@ -2061,88 +2121,521 @@ grid col 使用 card，非常好的布局
 
 #### Checkboxes and radio classes
 
-```html
+> Form Check Classes
 
+- `form-check`
+- `form-check-label`
+- `form-check-input`
+- `form-check-inline`
+
+
+```html
+<div class="container">
+
+    <h2>Medical Questionnaire</h2>
+
+    <form>
+
+        <fieldset class="form-group">
+
+            <legend>Pet Medical Data</legend>
+
+            <div class="form-group">
+                <label class="d-block">Has your pet been spayed or neutered?</label>
+
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="spayneut" value="yes" checked> Yes
+                    </label>
+                </div><!-- form-check -->
+
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="spayneut" value="no"> No
+                    </label>
+                </div><!-- form-check -->
+
+            </div><!-- form-group -->
+
+            <div class="form-group">
+                <label>Has the pet had any of the following in the past 30 days</label>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Abdominal pain
+                    </label>
+                </div><!-- form-check -->
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Lack of appetite
+                    </label>
+                </div><!-- form-check -->
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Weakness
+                    </label>
+                </div><!-- form-check -->
+            </div><!-- form-group -->
+
+        </fieldset><!-- form-group -->
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+</div><!-- content container -->
 
 ```
 
 
 #### Size and validation styles
 
-```html
+> Form Styles
 
+- `form-control-sm`
+- `form-control-lg`
+- `form-inline`
+
+
+```html
+<div class="container">
+
+    <h2>Medical Questionnaire</h2>
+
+    <form>
+        <fieldset class="form-group">
+            <legend>Owner Info</legend>
+
+            <div class="form-group">
+                <label for="ownername">Owner name</label>
+                <input class="form-control" type="text" id="ownername" placeholder="Your Name">
+            </div><!-- form-group -->
+
+            <div class="form-inline">
+                <label for="owneremail">Email address</label>
+                <input class="form-control mx-sm-3" type="email" id="owneremail" aria-describedby="emailHelp"
+                       placeholder="Enter email">
+                <small class="form-text text-muted" id="emailHelp">We'll never share your email</small>
+            </div><!-- form-group -->
+
+        </fieldset><!-- fieldset -->
+        
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    
+</div><!-- content container -->
 
 ```
 
 
 #### Multicolumn forms
 
-```html
+> Form Columns
 
+- grid `row` `col`：默认间距32 pixel
+- `form-row`：间距小一些， `col-auto`：自动处理间距
+- `col-form-label`
+
+
+```html
+<div class="container">
+
+    <h2>Medical Questionnaire</h2>
+
+    <form>
+
+        <fieldset class="form-group">
+            <legend>Owner Info</legend>
+
+            <div class="form-group row">
+                <label class="col-form-label text-md-right col-md-2"
+                       for="ownername">Owner</label>
+                <div class="col-md-10">
+                    <input class="form-control"
+                           type="text" id="ownername" placeholder="Your Name">
+                </div>
+            </div><!-- form-group -->
+
+            <div class="form-group row">
+                <label class="col-form-label text-md-right col-md-2"
+                       for="owneremail">Address</label>
+                <div class="col-md-10">
+                    <input class="form-control"
+                           type="text" id="owneremail" placeholder="Address">
+                </div>
+            </div><!-- form-group -->
+
+            <div class="form-group form-row">
+                <div class="form-group offset-md-2 col">
+                    <label class="col-form-label sr-only" for="ownercity">City</label>
+                    <input class="form-control"
+                           type="text" id="ownercity" placeholder="City">
+                </div><!-- form-group -->
+
+                <div class="form-group col">
+                    <label class="col-form-label sr-only" for="ownerzip">Zip</label>
+                    <input class="form-control"
+                           type="text" id="ownerzip" placeholder="Zip">
+                </div><!-- form-group -->
+            </div><!-- form-group -->
+
+            <div class="form-group row">
+                <div class="offset-md-2 col-auto">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </div>
+
+        </fieldset><!-- fieldset -->
+    </form>
+
+</div><!-- content container -->
 
 ```
 
 
 #### Create input groups
 
-```html
+> Input Group
 
+- `input-group`
+- `input-group-prepend` `input-group-append`
+- `input-group-text`
+- `aria-label` `sr-only`
+
+
+```html
+<div class="container mt-4">
+
+    <h2>Help Another Pet</h2>
+
+    <form>
+
+        <fieldset class="form-group">
+            <legend>Your Info</legend>
+
+            <div class="form-group">
+                <label class="form-control-label" for="name">Name</label>
+                <input class="form-control" type="text" id="name" placeholder="Your Name">
+            </div><!-- form-group -->
+
+            <div class="form-group">
+                <label class="form-control-label" for="owneremail">Email</label>
+                <input class="form-control" type="text" id="owneremail" placeholder="Address">
+            </div><!-- form-group -->
+
+            <div class="form-group">
+                <label class="form-control-label" for="donationamt">Donation Amount</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" id="confirm-donation" checked
+                                   aria-label="Checkbox for confirming donation">
+                        </div>
+                        <div class="input-group-text">$</div>
+                    </div>
+                    <input type="text" class="form-control" id="donationamt" placeholder="Amount">
+                    <div class="input-group-append">
+                        <div class="input-group-text">.00</div>
+                    </div>
+                </div>
+            </div><!-- form-group -->
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+
+        </fieldset><!-- fieldset -->
+    </form>
+
+</div><!-- content container -->
 
 ```
 
 
 #### Custom form components
 
-```html
+让样式在不同浏览器上看起来一致
 
+> Custom Controls
 
-```
+- `custom-TYP`: select(-sm)(-lg), radio, checkbox, switch, range, file-input
+- `custom-control`
+- `custom-control-label`: used for radio, checkbox, switch
+- `custom-control-input`
+- `custom-file-label`
+- `custom-file-input`
 
+// todo
 
 
 ### 8. Working with Interactive Components
 
 #### Interactive component overview
 
-```html
-
-
-```
+- tooltip
+- alert
+- dropdown
+- collapse accordion(手风琴)
+- modal
+- carousel
+- scrollspy
+- toast
+- spinner
+- pagination
+- stretched link
+- embed
 
 
 #### Add tooltips
 
-```html
+> tooltip:
 
+- 只能使用在html的focusable tag上，比如link 和 foreign control
+- `data-toggle="tooltip"`
+- `title="text"`
+
+> Configuration & Activation
+
+- `data` or JS Configuration: 可以使用两个中的一个开启tooltip
+- JavaScript Activation：还需要使用js来配合
+
+> Common Options
+
+- `data-placement`: top, right, bottom, left
+- `data-trigger`: click, hover, focus
+- `data-html`: true, false, 设置为true，则title里可以使用html标签
+
+
+```html
+<body>
+
+<div class="container mt-4">
+
+    <section class="content" id="mission">
+        <h1>Our Commitment <small>to you</small></h1>
+        <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative
+            <a href="#" data-toggle="tooltip" data-placement="bottom"
+               title="Exams, ultrasounds and more.">medicine</a> in the diagnosis and treatment of companion animals
+            including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old
+            tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+        <p>We strive to be your pet's medical staff experts from youth through the senior years. We build preventative
+            health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet
+            receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+    </section>
+
+</div><!-- content container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+</body>
 
 ```
 
 
 #### Display popovers
 
-```html
+> Using PopOver
 
+- `data-toggle="popover"`
+- `title="text"`
+- `data-content="content"`
+
+> JS Activation
+
+> Common Options
+
+- `data-placement`: top, right, bottom, left
+- `data-trigger`: click, hover, focus
+- `container`
+
+
+```html
+<body>
+
+<div class="container mt-4">
+
+    <h1>Our Commitment <small>to you</small></h1>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+        treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+        garnered in the centuries old tradition of veterinary medicine, to find the safest treatments
+        and&nbsp;cures.</p>
+    <p>We strive to be your pet's medical staff experts from youth through the senior years. We build preventative
+        health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet
+        receives the most appropriate care at crucial milestones. We want to give your pet a long and
+        healthy&nbsp;life.</p>
+
+    <button type="button" class="btn btn-info"
+            data-toggle="popover"
+            data-placement="bottom"
+            data-trigger="hover"
+            title="Standard Checkups"
+            data-content="Out standard checkups offer Ultrasounds, X-rays and dental cleanings">
+        Checkup Info
+    </button>
+
+</div><!-- content container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+
+</body>
 
 ```
 
 
 #### Create alerts
 
-```html
+> Setting up Alerts
 
+- `alert`
+- `alert-COLOR`: primary, secondary, success, danger, warning, info, light, dark
+
+> Alert Content
+
+- `alert-heading`
+- `alert-link`
+
+> Dismissible Alerts
+
+- `alert-dismissible` `fade` `show`
+- Add a close button
+
+
+```html
+<div class="container mt-4">
+
+    <h1>Our Commitment <small>to you</small></h1>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+        treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+        garnered in the centuries old tradition of veterinary medicine, to find the safest treatments
+        and&nbsp;cures.</p>
+
+    <div class="alert alert-info alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert" aria-labe="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <h4 class="alert-heading">Standard Checkups</h4>
+        <p class="mb-2">Our standard checkups offer ultrasounds, x-rays and dental cleanings.</p>
+        <a class="alert-link" href="#">More Info</a>
+    </div>
+
+    <p>We strive to be your pet's medical staff experts from youth through the senior years. We build preventative
+        health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet
+        receives the most appropriate care at crucial milestones. We want to give your pet a long and
+        healthy&nbsp;life.</p>
+
+</div><!-- content container -->
 
 ```
 
 
 #### Use dropdowns
 
-```html
+> Dropdown Basics
 
+- can be used in: navs, tabs, buttons, etc.
+- Button/Nav Trigger
+- Menu: links or btns
+
+> Dropdown Classes
+
+- `dropdown`
+- `dropdown-toggle`
+- `dropdown-menu`
+- `dropdown-item`
+
+> Dropdown Elements
+
+- `dropdown-header`
+- `dropdown-divider`
+- `disable`
+
+> Dropdown Options
+
+- `btn-sm` `btn-lg`
+- `dropup`
+- `dropdown-menu-right`
+- `btn-group` `dropdown-toggle-split`
+
+
+```html
+<div class="container mt-4">
+
+    <h1>Our Commitment <small>to you</small></h1>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+        treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+        garnered in the centuries old tradition of veterinary medicine, to find the safest treatments
+        and&nbsp;cures.</p>
+
+    <div class="btn-group mb-3">
+        <button type="button" class="btn btn-primary">Services</button>
+        <button class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-header">Service Options</div>
+            <a class="dropdown-item" href="#">Grooming</a>
+            <a class="dropdown-item" href="#">General Health</a>
+            <a class="dropdown-item" href="#">Nutrition</a>
+            <a class="dropdown-item" href="#">Pest Control</a>
+            <a class="dropdown-item" href="#">Vaccinations</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Other</a>
+        </div>
+    </div>
+
+    <p>We strive to be your pet's medical staff experts from youth through the senior years. We build preventative
+        health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet
+        receives the most appropriate care at crucial milestones. We want to give your pet a long and
+        healthy&nbsp;life.</p>
+
+</div><!-- content container -->
 
 ```
 
 
 #### Add collapse accordions
+
+accordions is a group of collapse
+
+> Collapse
+
+- link or btn
+- `data-toggle="collapse"`
+- `#id` or `data-target`
+- `collapse`
+
+> Accordion
+
+- 需要container
+- 
+
+
+
+
+
+
+
+
+
 
 ```html
 
