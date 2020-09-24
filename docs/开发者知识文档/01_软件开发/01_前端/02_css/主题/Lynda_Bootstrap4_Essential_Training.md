@@ -300,6 +300,12 @@ SIZ: 0, sm, lg
 </div>
 ```
 
+#### Text selection
+
+- `user-select-auto`
+- `user-select-all`
+- `user-select-none`
+
 
 ### 3. Mastering layout with Bootstrap
 
@@ -2364,7 +2370,121 @@ grid col 使用 card，非常好的布局
 - `custom-file-label`
 - `custom-file-input`
 
-// todo
+
+```html
+<div class="container">
+
+    <h2>Medical Questionnaire</h2>
+
+    <form>
+        <fieldset class="form-group">
+
+            <legend>Pet Info</legend>
+
+            <div class="form-group">
+                <label for="pettype">Pet type</label>
+                <select class="form-control" id="pettype">
+                    <option>Choose</option>
+                    <option value="cat">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="pettypea">Pet type</label>
+                <select class="custom-select" id="pettypea">
+                    <option>Choose</option>
+                    <option value="cat">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Other</option>
+                </select>
+            </div>
+
+        </fieldset>
+        <fieldset class="form-group">
+            <legend>Pet Medical Data</legend>
+            <div class="form-group">
+                <label class="d-block">Has your pet been spayed or neutered?</label>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="spayneut" value="yes" checked> Yes
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="spayneut" value="no"> No
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="d-block">Has your pet been spayed or neutered?</label>
+
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" id="Yes" name="spayneut" value="yes" checked>
+                    <label class="custom-control-label" for="Yes">Yes</label>
+                </div>
+
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" id="No" name="spayneut" value="no">
+                    <label class="custom-control-label" for="No">No</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Has the pet had any of the following in the past 30 days</label>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Abdominal pain
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Weakness
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Has the pet had any of the following in the past 30 days</label>
+
+                <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" id="ill">
+                    <label class="custom-control-label" for="ill">Abdominal pain</label>
+                </div>
+
+                <div class="custom-control custom-switch">
+                    <input class="custom-control-input" type="checkbox" id="illl">
+                    <label class="custom-control-label" for="illl">Abdominal pain</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="painlevel">Level off pain</label>
+                <input type="range" class="custom-range" min="0" max="10" id="painlevel">
+            </div>
+
+            <div class="form-group">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="petphoto">
+                    <label class="custom-file-label" for="petphoto">Upload photo</label>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+
+</div><!-- content container -->
+
+```
 
 
 ### 8. Working with Interactive Components
@@ -2626,85 +2746,665 @@ accordions is a group of collapse
 > Accordion
 
 - 需要container
-- 
-
-
-
-
-
-
-
-
+- `show` class once
+- `dropdown-menu`
+- use `card`
 
 
 ```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
 
+            <h2>Services</h2>
+
+            <a class="btn btn-primary mb-3"
+               data-toggle="collapse"
+               href="#pestcontrol"
+            >Pest Control</a>
+            <div id="pestcontrol" class="collapse mb-3">
+                We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms,
+                heart worm, and other parasites.
+            </div>
+
+            <div class="accordion" id="servicesaccordion">
+
+                <div class="card">
+                    <div class="card-header" id="groomingheading">
+                        <h5 class="mb-0">
+                            <a href="#grooming"
+                               data-toggle="collapse"
+                               aria-expanded="true"
+                               aria-controls="grooming"
+                            >Grooming</a>
+                        </h5>
+                    </div><!-- card header -->
+
+                    <div id="grooming"
+                         class="collapse show"
+                         data-parent="#servicesaccordion"
+                         aria-labelledby="groomingheading"
+                    >
+                        <div class="card-body">
+                            <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other
+                                challenging skin conditions.</p>
+                        </div>
+                    </div><!-- collapse -->
+                </div><!-- card -->
+
+                <div class="card">
+                    <div class="card-header" id="generalhealthheading">
+                        <h5 class="mb-0">
+                            <a href="#generalhealth"
+                               class="collapsed"
+                               data-toggle="collapse"
+                               aria-expanded="false"
+                               aria-controls="generalhealth"
+                            >General Health</a>
+                        </h5>
+                    </div><!-- card header -->
+
+                    <div id="generalhealth"
+                         class="collapse"
+                         data-parent="#servicesaccordion"
+                         aria-labelledby="generalhealthheading"
+                    >
+                        <div class="card-body">
+                            <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our
+                                general health services.</p>
+                        </div>
+                    </div><!-- card collapse -->
+                </div><!-- card -->
+
+                <div class="card">
+                    <div class="card-header" id="nutritionheading">
+                        <h5 class="mb-0">
+                            <a href="#nutrition"
+                               class="collapsed"
+                               data-toggle="collapse"
+                               aria-expanded="false"
+                            >Nutrition</a>
+                        </h5>
+                    </div><!-- card header -->
+
+                    <div id="nutrition"
+                         class="collapse"
+                         data-parent="#servicesaccordion"
+                         aria-labelledby="nutritionheading"
+                    >
+                        <div class="card-body">
+                            <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan
+                                for optimum health and disease prevention.</p>
+                        </div>
+                    </div><!-- collapse -->
+                </div><!-- card -->
+
+            </div>
+
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
 
 ```
 
 
 #### Use modals
 
-```html
+> Modals
 
+- trigger: btn or link
+- `#id` or `data-target`
+- `data-toggle="modal"`
+- `modal`
+
+> Structual Classes
+
+- `modal-dialog`
+  - `modal-content`
+    - `modal-header`
+      - `modal-title`
+        - `data-dismiss="modal"`
+    - `modal-body`
+    - `modal-footer`
+      - `data-dismiss="modal"`
+
+> Modal Options
+
+- `modal-dialog-centered`
+- `modal-dialog-scrollable`
+
+> Modal Sizes
+
+| Size        | Class    | Max-width |
+| ----------- | -------- | --------- |
+| Small       | modal-sm | 300px     |
+| Default     | none     | 500px     |
+| Large       | modal-lg | 800px     |
+| Extra Large | modal-xl | 1140px    |
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <button type="button" class="btn btn-primary mt-4"
+                    data-toggle="modal" data-target="#servicesmodal">More Info
+            </button>
+
+
+            <div class="modal fade" id="servicesmodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Pest Control</h5>
+                            <button type="button" class="close"
+                                    data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div><!-- modal-header -->
+                        <div class="modal-body">
+                            <p>We offer the latest advances in safe and effective prevention and treatment of fleas,
+                                ticks, worms, heart worm, and other parasites.</p>
+                        </div><!-- modal-body -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">Back
+                            </button>
+                        </div><!-- modal-header -->
+                    </div><!-- modal-content -->
+                </div><!-- modal-dialog -->
+            </div><!-- modal fade -->
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
 
 ```
 
 
 #### Build carousels
 
-```html
+> Setup
 
+- `carousel` `slide` `carousel-fade` target
+- `carousel-inner`
+  - `carousel-item` `active`
+    - img `d-block` & `w-100`
+    - `carousel-caption`
+- controls & indicators
+
+> Data Attributes
+
+- `data-ride`: carousel | false
+- `data-interval`: 5000/item
+- `data-pause`: hover | false
+- `data-touch` `keyboard` `wrap`: true
+
+> Controls
+
+- `carousel-content-(prev)(next)`
+  - `carousel-content-(prev)(next)-icon`
+  - href="target"
+  - `data-slide="prev"`
+
+> Indicators
+
+- `carousel-indicators`
+  - `data-target="target"`
+  - `data-slide-to="#"` 计数从0开始
+
+
+```html
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+
+            <div class="carousel slide carousel-fade" id="featured" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#featured" data-slide-to="0"></li>
+                    <li data-target="#featured" data-slide-to="1"></li>
+                    <li data-target="#featured" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/carousel-fish.jpg" alt="Mission">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Pete, owner of McAllister</h3>
+                            <p>"Wisdom Pet Medicine is the only clinic around that will even book pet fish for
+                                appointments."</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/carousel-vaccinations.jpg" alt="Vaccinations">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#featured"
+                   role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"
+          aria-hidden="true">
+      <span class="sr-only">Previous</span>
+    </span>
+                </a>
+                <a class="carousel-control-next" href="#featured"
+                   role="button" data-slide="next">
+    <span class="carousel-control-next-icon"
+          aria-hidden="true">
+      <span class="sr-only">Next</span>
+    </span>
+                </a>
+            </div>
+
+            <h2>Our Mission</h2>
+
+            <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis
+                and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply
+                the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments
+                and cures.</p>
+
+            <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative
+                health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet
+                receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy
+                life.</p>
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
 
 ```
 
 
 #### Use scrollspy
 
-```html
+> Using Scrollspy
 
+- `data-spy="scroll"`
+- `position: relative`
+- `data-target="ID"`
+- `fixed-top`
+- `data-offset`
+
+
+```html
+<body data-spy="scroll" data-target="#navbar-site" data-offset="80">
+
+<nav id="navbar-site" class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#staff">Staff</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+    </div><!-- navbar-nav -->
+    </ul><!-- container -->
+</nav>
+
+
+<div class="container">
+
+    <div class="content" id="mission" style="margin-top: 80px;">
+        <h2>Our Mission</h2>
+
+        <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+            treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+            garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+
+        <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health
+            care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives
+            the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+    </div>
+
+    <div class="content" id="services">
+        <h2>Services</h2>
+
+        <section>
+            <h3>Exotic Pets</h3>
+            <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+        </section>
+
+        <section>
+            <h3>Grooming</h3>
+            <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin
+                conditions.</p>
+        </section>
+
+        <section>
+            <h3>General Health</h3>
+            <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health
+                services.</p>
+        </section>
+
+        <section>
+            <h3>Nutrition</h3>
+            <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health
+                and disease prevention.</p>
+        </section>
+
+        <section>
+            <h3>Pest Control</h3>
+            <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart
+                worm, and other parasites.</p>
+        </section>
+
+        <section>
+            <h3>Vaccinations</h3>
+            <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest
+                diseases in pets.</p>
+        </section>
+    </div>
+
+    <div class="content" id="staff">
+        <h2>Our Staff</h2>
+        <h3>Dr. Winthrop</h3>
+        <p>Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr.
+            Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic,
+            performing free spay and neuter surgeries for the shelter.</p>
+        <h3>Dr. Chase</h3>
+        <p>Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as
+            Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a
+            turtle.</p>
+        <h3>Dr Sanders</h3>
+        <p>Leroy walked into Dr. Sanders front door when he was moving into a new house. After searching for weeks for
+            Leroy's guardians, he decided to make Leroy a part of his pet family, and now has three cats.</p>
+    </div>
+
+    <div class="content" id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote class="blockquote">
+            <p>During the summer, our rabbit, Tonto, began to have severe redness and itching on his belly and feet.
+                Through diagnostic testing, we learned that Tonto is severely allergic to over a dozens kinds of grass
+                pollens. We've now been doing allergy injections for several months, and his itching and redness have
+                nearly gone away.</p>
+            <footer class="blockquote-footer">Jane H.</footer>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p>When Samantha, our Siamese cat, began sleeping all the time and urinating excessively, we brought her to
+                see the specialists at Wisdom. After running a blood test, Dr. Winthrop confirmed what we all feared -
+                Samantha was showing signs of diabetes. The doctor put us on a daily routine to provide Samantha insulin
+                injections, and showed us how to administer the shots.</p>
+            <footer class="blockquote-footer">The McPhersons</footer>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p>The staff at Wisdom worked tirelessly to determine why our three-year old Golden Retriever, Roxie,
+                started going into sudden kidney failure. They stabilized her and provided fluids until her kidneys were
+                again functioning normally. We learned just how toxic grapes and raisins are to pets, and Roxie is no
+                longer allowed to roam unattended in the orchard.</p>
+            <footer class="blockquote-footer">John B</footer>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p>Wisdom Pet Medicine is the only clinic around that will even book pet fish for appointments. When our
+                13-year old Comet goldfish, McAllister, turned from silvery white to an angry red, we called around,
+                urgently trying to find a veterinarian who could help. Wisdom not only got us in the same day, but also
+                was able to diagnose McAllister as having a severe case of septicemia.</p>
+            <footer class="blockquote-footer">Lorraine S</footer>
+        </blockquote>
+    </div>
+
+</div><!-- content container -->
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        var topoffset = 70; //variable for menu height
+
+        //Use smooth scrolling when clicking on navigation
+        $('.navbar-nav a').click(function () {
+            if (location.pathname.replace(/^\//, '') ===
+                this.pathname.replace(/^\//, '') &&
+                location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - topoffset
+                    }, 500);
+                    return false;
+                } //target.length
+            } //click function
+        }); //smooth scrolling
+
+    });
+</script>
+</body>
 
 ```
 
 
 #### Toasts
 
-```html
+可以用来显示网站通知
 
+> Using Toasts
+
+- `toast`
+- `toast-header`
+- `toast-body`
+
+Data Attributes
+
+- `data-animation`: true
+- `data-autohide`: true
+- `data-delay`: 500
+
+Setup
+
+- JS activation
+- Positioning
+- `data-dismiss="toast"`
+
+
+```html
+<body>
+
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+     data-delay="5000" style="position: absolute; top: 1rem; right: 1rem;">
+    <div class="toast-header">
+        <strong class="mr-auto">About Wisdom Pet Medicine</strong>
+        <button type="button" class="close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body">
+        We strive to be your pet's medical experts from youth through the senior years. We build preventative health
+        care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the
+        most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="content" id="mission" style="margin-top: 80px;">
+        <h2>Our Mission</h2>
+
+        <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+            treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+            garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+        <button id="showToast" class="btn btn-primary mx-auto">About</button>
+
+    </div>
+
+</div><!-- content container -->
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#showToast").click(function () {
+            $('.toast').toast('show');
+        });
+    });
+</script>
+</body>
 
 ```
 
 
 #### Spinners
 
-```html
+> Spinner
 
+- `spinner-TYP(-SIZ)`: border, grow; sm
+- `text-COLOR`
+
+
+```html
+<body>
+
+<div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+     data-delay="5000" style="position: absolute; top: 1rem; right: 1rem;">
+    <div class="toast-header">
+        <strong class="mr-auto">About Wisdom Pet Medicine</strong>
+        <button type="button" class="close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body">
+        We strive to be your pet's medical experts from youth through the senior years. We build preventative health
+        care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the
+        most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="content" id="mission" style="margin-top: 80px;">
+        <h2>Our Mission</h2>
+
+        <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+            treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+            garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+        <button id="showToast" class="btn btn-primary mx-auto">
+    <span id="mySpinner" class="d-none">
+      <span class="spinner-border spinner-grow-sm text-light"
+            role="status" aria-hidden="true"></span>
+      <span class="sr-only">Loading...</span>
+    </span>
+
+            About
+        </button>
+
+    </div>
+
+</div><!-- content container -->
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#showToast").click(function () {
+            $('.toast').toast('show');
+
+            $('#myToast').on('shown.bs.toast', function () {
+                $('#mySpinner').removeClass('d-none');
+            });
+
+            $('#myToast').on('hidden.bs.toast', function () {
+                $('#mySpinner').addClass('d-none');
+            });
+
+        });
+    });
+</script>
+</body>
 
 ```
 
 
 #### Pagination
 
-```html
+> Pagination
 
+- `pagination`
+  - `page-item` `disabled` `active`
+    - `page-link`
+
+
+```html
+<div class="container">
+
+    <nav class="mt-5" aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#"><</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item active"><a class="page-link" href="#">3</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">></a></li>
+        </ul>
+    </nav>
+
+    <h2>Our Mission</h2>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+        treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+        garnered in the centuries old tradition of veterinary medicine, to find the safest treatments
+        and&nbsp;cures.</p>
+</div><!-- content container -->
 
 ```
 
 
 #### Stretched links
 
-```html
+> Stretched Link
 
+- `stretched-link`
+- 可以用在 Card, Col，不可以用在media element
+- Position, transform
+- Immediate parent
+
+
+```html
+<div class="container d-flex align-items-center vh-100">
+
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title">Our Mission</h2>
+            <p class="card-text">Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine
+                in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and
+                fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the
+                safest treatments and&nbsp;cures.</p>
+            <a href="#" class="btn btn-primary stretched-link">More Info</a>
+        </div>
+    </div>
+
+</div><!-- content container -->
 
 ```
 
 
 #### Embeds
 
-```html
+> Formatting Embeds
 
+- `embed-responsive`
+  - `embed-responsive-SIZ`: 21by9 16by9 4by3 1by1
+- `embed-responsive-item`
+
+
+```html
+<div class="container">
+
+    <h2 class="mt-5">Our Mission</h2>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and
+        treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+        garnered in the centuries old tradition of veterinary medicine, to find the safest treatments
+        and&nbsp;cures.</p>
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-reponsive-item" width="560" height="315" src="https://www.youtube.com/embed/S53U5x_4tBM"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+
+</div><!-- content container -->
 
 ```
-
-
-### Conclusion
