@@ -215,12 +215,9 @@ A里面有B，C里也有B，所以
 @OneToOne(cascade = {CascadeType.MERGE})
 
 
-
 > 只在创建表的时候生效，之后修改不再生效
 
-
 @Column(length = 1023)
-
 
 
 > TransactionRequiredException: Executing an update/delete query
@@ -228,7 +225,6 @@ A里面有B，C里也有B，所以
 Service层没有加@Transactional
 
 JPA方法没有加@Modifying吧
-
 
 
 > 只查询部分字段 
@@ -254,3 +250,10 @@ First-level cache always Associates with the Session object. Hibernate uses this
 1.2) Second-level cache
 
 Second-level cache always associates with the Session Factory object. While running the transactions, in between it loads the objects at the Session Factory level, so that those objects will be available to the entire application, not bound to single user. Since the objects are already loaded in the cache, whenever an object is returned by the query, at that time no need to go for a database transaction. In this way the second level cache works. Here we can use query level cache also.
+
+
+> org.springframework.dao.InvalidDataAccessApiUsageException: Executing an update/delete query; nested exception is javax.persistence.TransactionRequiredException: Executing an update/delete query
+
+Transactional 注解不生效：
+- 自己调自己，不走代理，也就没有Transactional
+- Transactional用在impl里，因为Transactional不会从接口里继承
