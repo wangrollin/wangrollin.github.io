@@ -3,6 +3,7 @@
 
 - [github官网](https://github.com/tmux/tmux)
 - [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+- [保存和恢复 TMUX 工作区 —— The Easy Way](https://harttle.land/2017/11/24/tmux-workspace-plugin.html)
 
 
 ## 设置
@@ -13,13 +14,29 @@
 - option键选择文本，cmd c/v 复制粘贴
 
 ```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+
 vi ~/.tmux.conf
 
 set -g mouse on
 set -g status-position top
 set -g status-justify centre
 
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+run '~/.tmux/plugins/tpm/tpm'
+
 tmux source ~/.tmux.conf
+
+<prefix> + I # 安装插件
+```
+
+
+
+
+```bash
 ```
 
 
@@ -152,4 +169,3 @@ tmux info
 # 重新加载当前的 Tmux 配置
 tmux source-file ~/.tmux.conf
 ```
-
