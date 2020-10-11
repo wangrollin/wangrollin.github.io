@@ -678,6 +678,7 @@
             * [📝gnu工具](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/gnu工具.md)
             * 🗂session管理
                 * [📝tmux](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/session管理/tmux.md)
+            * [📝ssh](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/ssh.md)
             * 🗂守护进程
                 * [📝Systemd](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/守护进程/Systemd.md)
                 * [📝init](/docs/开发者知识文档/02_Cloud_Native/01_linux/gnu自由软件/守护进程/init.md)
