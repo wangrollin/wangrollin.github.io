@@ -8,3 +8,9 @@ $ docker run -d \
     -p 5432:5432 \
     postgres
 ```
+
+## 网站
+
+- [官网](https://www.postgresql.org/)
+- [中文官网](http://www.postgres.cn/index.php/v2/home)
+
