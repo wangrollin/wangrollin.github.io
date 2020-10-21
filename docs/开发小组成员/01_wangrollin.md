@@ -12,7 +12,6 @@
 #### 🍖其他github项目
 - [leetcode每日一题(java版本)](https://github.com/wangrollin/leetcode-java)
 - [leetcode每日一题(javascript版本)](https://github.com/wangrollin/leetcode-javascript)
-- [leetcode每日一题(python3版本)](https://github.com/wangrollin/leetcode-python3)
 - [仿写QQ堂](https://github.com/wangrollin/QQTang4.0)：[视频介绍](https://www.bilibili.com/video/BV14J411z7Af?from=search&seid=2392020730416138943)
 
 
