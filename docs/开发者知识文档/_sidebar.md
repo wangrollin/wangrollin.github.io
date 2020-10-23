@@ -301,6 +301,8 @@
                 * 🗂序列化_反序列化
                     * [📝fastjson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/fastjson.md)
                     * [📝gson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/gson.md)
+                * 🗂调用Python
+                    * [📝java调python](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/调用Python/java调python.md)
             * 🗂A_框架
                 * 🗂spring全家桶
                     * 🗂SpringSecurity
@@ -638,6 +640,8 @@
                     * [📝venv](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/venv.md)
                     * [📝virtualenv](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/virtualenv.md)
             * 🗂库
+                * 🗂串口通信库
+                    * [📝pyserial](/docs/开发者知识文档/01_软件开发/04_机器学习/python/库/串口通信库/pyserial.md)
                 * 🗂图像处理库
                     * [📝Pillow](/docs/开发者知识文档/01_软件开发/04_机器学习/python/库/图像处理库/Pillow.md)
                 * 🗂数值计算库
