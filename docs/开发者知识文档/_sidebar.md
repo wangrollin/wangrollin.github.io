@@ -441,9 +441,12 @@
             * 🗂Jakarta_EE
                 * [📝jakarta_ee](/docs/开发者知识文档/01_软件开发/02_后端/java/Jakarta_EE/jakarta_ee.md)
             * 🗂jdk
-                * [📝adopt-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/adopt-openjdk.md)
-                * [📝oracle-jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/oracle-jdk.md)
-                * [📝oracle-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/oracle-openjdk.md)
+                * 🗂jdk-tools
+                    * [📝命令行运行java](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/jdk-tools/命令行运行java.md)
+                * 🗂发行版
+                    * [📝adopt-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/adopt-openjdk.md)
+                    * [📝oracle-jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/oracle-jdk.md)
+                    * [📝oracle-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/oracle-openjdk.md)
             * 🗂jvm工具
                 * [📝jconsole](/docs/开发者知识文档/01_软件开发/02_后端/java/jvm工具/jconsole.md)
                 * [📝jps](/docs/开发者知识文档/01_软件开发/02_后端/java/jvm工具/jps.md)
@@ -521,11 +524,12 @@
                     * [📝liquibase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库迁移/liquibase.md)
                 * 🗂数据库集群
                     * 🗂主从读写分离-负载平衡
-                        * 🗂MySQL_Proxy
-                            * [📝Atlas](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/MySQL_Proxy/Atlas.md)
-                            * [📝MaxScale](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/MySQL_Proxy/MaxScale.md)
-                            * [📝mysql-proxy](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/MySQL_Proxy/mysql-proxy.md)
-                            * [📝proxysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/MySQL_Proxy/proxysql.md)
+                        * 🗂mysql
+                            * [📝Atlas](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/Atlas.md)
+                            * [📝MaxScale](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MaxScale.md)
+                            * [📝MyCat](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MyCat.md)
+                            * [📝mysql-proxy](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/mysql-proxy.md)
+                            * [📝proxysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/proxysql.md)
                         * 🗂postgresql
                             * [📝Pgpool](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/Pgpool.md)
                             * [📝PlProxy](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/PlProxy.md)
