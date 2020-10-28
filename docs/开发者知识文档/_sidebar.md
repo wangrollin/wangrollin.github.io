@@ -216,23 +216,25 @@
                         * [📝pm2](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/node/npm包/pm2.md)
                 * 🗂浏览器
                     * [📝浏览器内核](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/浏览器/浏览器内核.md)
+        * 🗂TypeScript
+            * [📝Lynda_Learning_TypeScript-Essential-Training](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/Lynda_Learning_TypeScript-Essential-Training.md)
+            * [📝Typescript](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/Typescript.md)
         * 🗂其他前台脚本语言
-            * [📝CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/04_其他前台脚本语言/CoffeeScript.md)
-            * [📝Dart](/docs/开发者知识文档/01_软件开发/01_前端/04_其他前台脚本语言/Dart.md)
-            * [📝Typescript](/docs/开发者知识文档/01_软件开发/01_前端/04_其他前台脚本语言/Typescript.md)
-            * [📝WebAssembly](/docs/开发者知识文档/01_软件开发/01_前端/04_其他前台脚本语言/WebAssembly.md)
+            * [📝CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/CoffeeScript.md)
+            * [📝Dart](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/Dart.md)
+            * [📝WebAssembly](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/WebAssembly.md)
         * 🗂中间件
             * 🗂ProgressiveWebApp
-                * [📝ProgressiveWebApp](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
+                * [📝ProgressiveWebApp](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
             * 🗂doc
-                * [📝Liquid](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/Liquid.md)
-                * [📝docsify](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/docsify.md)
-                * [📝github_pages](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/github_pages.md)
-                * [📝hexo](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/hexo.md)
-                * [📝jekyll](/docs/开发者知识文档/01_软件开发/01_前端/05_中间件/doc/jekyll.md)
+                * [📝Liquid](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/Liquid.md)
+                * [📝docsify](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/docsify.md)
+                * [📝github_pages](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/github_pages.md)
+                * [📝hexo](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/hexo.md)
+                * [📝jekyll](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/doc/jekyll.md)
         * 🗂解决方案
             * 🗂企业级中后台前端_设计解决方案
-                * [📝AntDesignPro](/docs/开发者知识文档/01_软件开发/01_前端/06_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
+                * [📝AntDesignPro](/docs/开发者知识文档/01_软件开发/01_前端/07_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
         * [📝BrowserSync](/docs/开发者知识文档/01_软件开发/01_前端/BrowserSync.md)
         * [📝CORS](/docs/开发者知识文档/01_软件开发/01_前端/CORS.md)
         * [📝WebStorm](/docs/开发者知识文档/01_软件开发/01_前端/WebStorm.md)
