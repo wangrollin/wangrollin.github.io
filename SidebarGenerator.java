@@ -13,7 +13,8 @@ public class SidebarGenerator {
         String basePath = System.getProperty("user.dir");
 
         String[] paths = {basePath + "/docs/开发者知识文档", 
-                            basePath + "/docs/软技能"};
+                            basePath + "/docs/软技能",
+                            basePath + "/docs/关于作者"};
 
         for (String path : paths) {
 

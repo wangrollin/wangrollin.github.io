@@ -39,7 +39,8 @@ function generateSideBar() {
 
     let basePath = process.cwd()
     let pathList = [basePath + '/docs/开发者知识文档',
-        basePath + '/docs/软技能']
+        basePath + '/docs/软技能',
+        basePath + '/docs/关于作者']
 
     pathList.forEach(path => {
         fs.open(path + '/_sidebar.md',
