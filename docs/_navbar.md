@@ -4,4 +4,4 @@
 
 * [软技能](/docs/软技能/_sidebar.md)
 
-* [wangrollin](/docs/关于作者/01_wangrollin.md)
+* [wangrollin](/docs/关于作者/wangrollin.md)
