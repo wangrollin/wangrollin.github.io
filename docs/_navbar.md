@@ -1,7 +1,7 @@
 * [首页](/)
 
-* [Docs进展](/docs/进展/2020.md)
-
 * [开发者知识文档](/docs/开发者知识文档/_sidebar.md)
 
-* [wangrollin](/docs/开发小组成员/wangrollin简历.md)
+* [软技能](/docs/软技能/_sidebar.md)
+
+* [wangrollin](/docs/关于作者/01_wangrollin.md)

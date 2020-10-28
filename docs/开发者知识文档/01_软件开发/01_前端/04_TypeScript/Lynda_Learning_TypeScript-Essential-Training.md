@@ -310,26 +310,60 @@ function totalLength(x, y) {
 
 #### Specifying JavaScript types
 
-
-
 ```typescript
-
+function totalLength(x: any[], y: string): number {
+    const total: number = x.length + y.length;
+    return total;
+}
 ```
-
-
 
 
 #### Specifying function parameter types
 
-```typescript
+union type，组合类型
 
+```typescript
+function totalLength(x: (string | any[]), y: (string | any[])): number {
+
+    const total: number = x.length + y.length;
+
+    x.slice(0)
+
+    if (x instanceof Array) {
+        x.push('TypeScript')
+    }
+
+    if (x instanceof String) {
+        x.substr(0)
+    }
+
+    return total;
+}
 ```
 
 
 #### Adding function overloads
 
-```typescript
+方法重载，ts特有的方式
 
+```typescript
+function totalLength(x: string, y: string): number
+function totalLength(x: any[], y: any[]): number
+function totalLength(x: (string | any[]), y: (string | any[])): number {
+    var total: number = x.length + y.length;
+
+    x.slice(0)
+
+    if (x instanceof Array) {
+        x.push('TypeScript')
+    }
+
+    if (x instanceof String) {
+        x.substr(0)
+    }
+
+    return total;
+}
 ```
 
 
@@ -337,22 +371,110 @@ function totalLength(x, y) {
 
 #### Defining custom types with interfaces
 
-```typescript
+- interface
+- class
+- enum
 
+由于ts只在编译时做检查，在运行时是纯js，所以如果调后台api，返回的类型变了，ts无可奈何
+
+```typescript
+interface Todo {
+    name: string;
+    completed?: boolean; // make it optional
+}
+
+interface ITodoService {
+    add(todo: Todo): Todo;
+
+    delete(todo: Todo): void;
+
+    getAll(): Todo[];
+
+    getById(todoId: number): Todo;
+}
+
+const todo1: Todo = {
+    name: "Pick up drycleaning"
+};
+
+const todo2 = <Todo>{
+    name: "Pick up drycleaning"
+};
 ```
 
 
 #### Using interfaces to describe functions
 
 ```typescript
+interface jQuery {
+    (selector: string): HTMLElement;
 
+    version: number;
+}
+
+
+var $ = <jQuery>function (selector: string) {
+    // Find DOM element
+}
+
+$.version = 1.18
+
+var container = $('#container');
 ```
 
 
 #### Extending interface definitions
 
-```typescript
+js的function的重复会导致第二个定义的覆盖第一个定于的；但是ts的interface重复定义没有问题，会把之后的定义都附加到第一个定义里面；这样就可以不修改**别人**的原代码，而扩展了功能
 
+```typescript
+var $ = <jQuery>function (selector: string) {
+    // Find DOM element
+}
+
+$.version = 1.18;
+
+
+interface Todo {
+    name: string;
+    completed?: boolean;
+}
+
+interface jQuery {
+    (selector: (string | any)): jQueryElement;
+
+    fn: any;
+    version: number;
+}
+
+interface jQueryElement {
+    data(name: string): any;
+
+    data(name: string, data: any): jQueryElement;
+}
+
+interface jQueryElement {
+    todo(): Todo;
+
+    todo(todo: Todo): jQueryElement;
+}
+
+$.fn.todo = function (todo?: Todo): Todo {
+
+    if (todo) {
+        $(this).data('todo', todo)
+    } else {
+        return $(this).data('todo');
+    }
+
+}
+
+var todo = {name: "Pick up drycleaning"};
+var container = $('#container');
+container.data('todo', todo)
+var savedTodo = container.data('todo');
+
+container.todo(todo)
 ```
 
 
