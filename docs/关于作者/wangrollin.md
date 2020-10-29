@@ -1,111 +1,69 @@
 # wangrollin 个人简介
-- [个人github账号](https://github.com/wangrollin)
+
+#### 🍖经历
+
+- 教育经历：山东大学 > [泰山学堂（国家级基础学科实验班）](https://www.tsxt.sdu.edu.cn/) > 计算机取向
+- 工作经历：
+  - [华为苏研所](https://www.huawei.com/)：华为是全球领先的ICT（信息与通信）基础设施和智能终端提供商，致力于把数字世界带入每个人、每个家庭、每个组织，构建万物互联的智能世界。
+  - [EPAM](https://www.epam.com/)：自2013年以来荣列仅有的四家连年荣登《福布斯》“25家增长最快的技术类上市公司”之一，也是《财富》杂志2019年“100家增长最快的公司”中唯一上榜的信息技术服务公司。”
+
+
+#### 🍖项目
+
+- [Github账号：wangrollin](https://github.com/wangrollin)，过去一年共计 **1116** contributions
+  - [仿写QQ堂](https://github.com/wangrollin/QQTang4.0)：[视频介绍](https://www.bilibili.com/video/BV14J411z7Af?from=search&seid=2392020730416138943)
+- [Leetcode账号：wangrollin](https://leetcode-cn.com/u/wangrollin/)，全站排名 **20085**
+  - [leetcode每日一题(Java版本)](https://github.com/wangrollin/leetcode-java)
+  - [leetcode每日一题(TypeScript版本)](https://github.com/wangrollin/leetcode-typescript)
 - [个人网站](https://wangrollin.com)
-- 学历：山东大学>[泰山学堂](https://www.tsxt.sdu.edu.cn/)>计算机取向
-- 工作：[华为苏研所](https://www.huawei.com/)，[EPAM](https://www.epam.com/)
+  - [Docs项目网站](https://docs.wangrollin.com)
+  - [IM项目网站](https://im.wangrollin.com)
 
 
-#### 🍖IM项目
-- URL待定
+#### 🍖技术栈
+
+> **前台app**
+
+- `html`
+- `css`, `boostrap-vue`
+- `node`, `js`, `ts`, `vue`
 
 
-#### 🍖其他github项目
-- [leetcode每日一题(java版本)](https://github.com/wangrollin/leetcode-java)
-- [leetcode每日一题(javascript版本)](https://github.com/wangrollin/leetcode-javascript)
-- [仿写QQ堂](https://github.com/wangrollin/QQTang4.0)：[视频介绍](https://www.bilibili.com/video/BV14J411z7Af?from=search&seid=2392020730416138943)
+> **后台app**
 
+- `java`, `jvm`, `并发编程`, `24种设计模式`, `maven`
+- `spring`, `IOC`, `AOP`
+- `spring boot`
+- `spring cloud`
+- `jhipster`
+- 经典框架和库
+  - `caffeine`
+  - `liquibase`
+  - `netty`
+  - `websocket`
+  - `swagger`
 
-#### 🍖阅读小目标：读书破千卷
+> **中间件**
 
-**☞ 进行中：《百年孤独》**
+- 服务器
+  - `nginx`
+  - `tomcat`
+- 数据库
+  - `redis`
+  - `mongodb`
+  - `postgresql`, `分库分表`, `主从分离`, `数据库迁移（一致性哈希）`, `分布式事务（两阶段提交）`
+  - `elasticsearch`
+- 消息队列
+  - `kafka`
+- 日志系统
+  - `EFK`
+- 一致性
+  - `zookeeper`
 
-**☞ 2020已读书籍**
-1. 《社会契约论》
-2. 《商业的本质》
-3. 《乌合之众》
-4. 《经济解释》
-5. 《疯癫与文明》
-6. 《霍乱时期的爱情》
-7. 《娱乐至死》
-8. 《生命中不能承受之轻》
-9. 《动物庄园》
-10. 《非理性繁荣》
-11. 《自私的基因》
-12. 《心理学的故事》三部曲
-13. 《乡土中国》
-14. 《万物简史》
-15. 《沉默的大多数》
-16. 《万历十五年》
-17. 《理想国》
-18. 《1984》
-19. 《世界尽头与冷酷仙境》
-20. 《边城》
-21. 《月亮与六便士》
+> **云原生**
 
-**☞ 2020之前已读书籍**
-1. 《三体》三部曲
-2. 《北京折叠》
-3. 《活着》
-4. 《白鹿原》
-5. 《平凡的世界》
-6. 《黄金时代》
-7. 《围城》
-8. 《挪威的森林》
-9. 《1Q84》三部曲
-10. 《白夜行》
-11. 《当我们在讨论爱情时我们在谈论什么》
-12. 《黑客与画家》
-13. 《许三观卖血记》
-14. 《小王子》
-15. 《爱丽丝梦游仙境》
-16. 《绿野仙踪》
-17. 《鲁滨孙漂流记》
-18. 《海底两万里》
-19. 《苏菲的世界》
-20. 《老人与海》
-21. 《雾都孤儿》
-22. 《飘》
-23. 《傲慢与偏见》
-24. 《麦田里的守望者》
-25. 《羊脂球》
-
-**☞ 候选清单**
-1. 《十日谈》
-2. 《堂吉诃德》
-3. 《失乐园》
-4. 《忏悔录》
-5. 《追忆似水年华》
-6. 《浮士德》
-7. 《悲惨世界》
-8. 《浮士德》
-9. 《红与黑》
-10. 《丧钟为谁而鸣》
-11. 《荆棘鸟》
-12. 《彼得·潘》
-13. 《呼啸山庄》
-14. 《简·爱》
-15. 《少年维特的烦恼》
-16. 《少年派的奇幻漂流》
-17. 《童年》高尔基自传体小说第1部
-18. 《在人间》高尔基自传体小说第2部
-19. 《我的大学》高尔基自传体小说第3部
-20. 《请以你的名字呼唤我》
-21. 《青铜骑士》
-22. 《少女与死》
-23. 《芭芭拉少校》
-24. 《英国佬的另一个岛》
-25. 《情人》
-26. 《坏小孩》
-27. 《水浒传》
-28. 《三国演义》
-29. 《红楼梦》
-30. 《人间词话》
-31. 《美丽新世界》
-32. 《我们》
-33. 《解忧杂货店》
-35. 《人类简史》
-36. 《小逻辑》
-37. 《自然哲学》
-
-
-#### 🍖健身：一辈子的爱好
+- `docker`
+- `k8s`, `istio`, `helm`, `rancher`
+- `ubuntu server`
+  - Linux内核: `进程管理`, `进程通信`, `内存管理`, `文件系统`, `网络协议栈`
+- `阿里云`
