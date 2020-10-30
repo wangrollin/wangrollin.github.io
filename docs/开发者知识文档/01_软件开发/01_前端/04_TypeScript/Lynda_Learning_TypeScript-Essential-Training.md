@@ -41,9 +41,11 @@ VS code | webstorm | ts cli
 
 #### Creating a TypeScript project
 
+```
 ├── app.ts
 ├── index.html
 └── tsconfig.json
+```
 
 ```json
 {
@@ -481,11 +483,52 @@ container.todo(todo)
 #### Defining constant values with enums
 
 ```typescript
+interface Todo {
+    name: string;
+    state: TodoState;
+}
 
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
+
+let todo: Todo = {
+    name: "Pick up drycleaning",
+    state: TodoState.New
+}
+
+function delete1(todo: Todo) {
+    if (todo.state != TodoState.Complete) {
+        throw "Can't delete incomplete task!"
+    }
+}
 ```
 
 
 #### Defining anonymous types
+
+```typescript
+let todo: { name: string };
+
+// todo = {age: 41} 报错，因为没有name属性
+
+// todo = {name: "w", age: 41} 报错，需要只有一个name属性
+
+// 所有有length属性的都可以作为合法参数，string array等等
+function totalLength(x: { length: number }, y: { length: number }): number {
+    
+    const total: number = x.length + y.length;
+    return total;
+}
+```
+
+
+### 5.Classes
+
+#### Understanding prototypical inheritance
 
 ```typescript
 
@@ -493,77 +536,187 @@ container.todo(todo)
 
 
 
-### 5.Classes
 
-#### Understanding prototypical inheritance
 
 #### Defining a class
 
+```typescript
+
+```
+
 #### Applying static properties
+
+```typescript
+
+```
 
 #### Making properties smarter with accessors
 
+```typescript
+
+```
+
 #### Inheriting behavior from a base class
+
+```typescript
+
+```
 
 #### Implementing an abstract class
 
+```typescript
+
+```
+
 #### Controlling visibility with access modifiers
 
+```typescript
+
+```
+
 #### Implementing interfaces
+
+```typescript
+
+```
 
 
 ### 6.Generics
 
 #### Introducing generics
 
+```typescript
+
+```
+
 #### Creating generic classes
 
+```typescript
+
+```
+
 #### Applying generic constraints
+
+```typescript
+
+```
 
 
 ### 7.Modules
 
 #### Understanding the need for modules in JavaScript
 
+```typescript
+
+```
+
 #### Organizing your code with namespaces
+
+```typescript
+
+```
 
 #### Using namespaces to encapsulate private members
 
+```typescript
+
+```
+
 #### Understanding the difference between internal and external modules
+
+```typescript
+
+```
 
 #### Switching from internal to external modules
 
+```typescript
+
+```
+
 #### Importing modules using CommonJS syntax
+
+```typescript
+
+```
 
 #### Importing modules using EXMAScript 2015 syntax
 
+```typescript
+
+```
+
 #### Loading external modules
+
+```typescript
+
+```
 
 
 ### 8.Real-World Application Development
 
 #### Introducing the sample JavaScript application
 
+```typescript
+
+```
+
 #### Converting existing JavaScript code to TypeScript
+
+```typescript
+
+```
 
 #### Generating declaration files
 
+```typescript
+
+```
+
 #### Referencing third-party libraries
+
+```typescript
+
+```
 
 #### Converting to external modules
 
+```typescript
+
+```
+
 #### Debugging TypeScript with source maps
+
+```typescript
+
+```
 
 
 ### 9.Decorators
 
 #### Implementing method decorators
 
+```typescript
+
+```
+
 #### implementing class decorators
+
+```typescript
+
+```
 
 #### Implementing property decorators
 
+```typescript
+
+```
+
 #### Implementing decorator factories
+
+```typescript
+
+```
 
 
 ### Conclusion
