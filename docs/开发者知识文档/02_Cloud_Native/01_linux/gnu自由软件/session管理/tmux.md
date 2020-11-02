@@ -34,6 +34,12 @@ tmux source ~/.tmux.conf
 ```
 
 
+保存
+<prefix> Ctrl+s
+恢复
+<prefix> Ctrl+r
+
+
 
 
 ```bash
