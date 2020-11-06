@@ -956,5 +956,7 @@
         * [📝OpenStack](/docs/开发者知识文档/99_其他/开源组织/OpenStack.md)
         * [📝Python](/docs/开发者知识文档/99_其他/开源组织/Python.md)
         * [📝redhat](/docs/开发者知识文档/99_其他/开源组织/redhat.md)
+    * 🗂电子签名
+        * [📝docusign](/docs/开发者知识文档/99_其他/电子签名/docusign.md)
     * 🗂项目管理工具
         * [📝语雀](/docs/开发者知识文档/99_其他/项目管理工具/语雀.md)
