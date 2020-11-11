@@ -55,7 +55,7 @@ VS code | webstorm | ts cli
 }
 ```
 
-tsc运行时，会在根目录下找tsconfig.json，如果找到了，会把真个目录当作一个project，这样就不需要指定编译哪个文件了，只需要`tsc -w`
+tsc运行时，会在根目录下找tsconfig.json，如果找到了，会把这个目录当作一个project，这样就不需要指定编译哪个文件了，只需要`tsc -w`
 
 
 ### 2.ES6 Language Features
@@ -530,19 +530,50 @@ function totalLength(x: { length: number }, y: { length: number }): number {
 
 #### Understanding prototypical inheritance
 
+ts没有引入class的概念，es6引入了class的概念，是语法糖，js仍然是基于**对象**和**原型继承**的（基于原型的编程）
+
+Prototype-based programming 起源于一个特殊的对象：prototype；没有class的概念，只有object实例，js中的object只是一堆动态的属性props
+
+定义一个prototype，然后把实例link到prototype上来，就让实例拥有这个方法了
+
+访问object中的一个member 比测试这个member是否存在更难
+
+js会现在这个object中寻找，没有匹配的，就去prototype中找，再没有就再上去找，一直到root of everything：Object.prototype
+
+![](Lynda_Learning_TypeScript-Essential-Training.assets/pic-20201110-152845.png)
+
+Object.prototype是什么时候产生的，然后什么时候link到我的object的：简单版答案：js做的；复杂的答案：很多种方式让prototype被赋值
+
+1. `let todo = {};`，此时js会自动把Object.prototype link 到todo上
+2. `function`，此时js会自动把Function.prototype link 到todo上
+3. `array`，此时js会自动把Array.prototype link 到todo上
+4. `constructor function`，js做了三件事：创建一个对象，把prototype设置为constructor function的prototype，执行这个constructor function（在这个function里可以用`this`来指代这个新object）
+
 ```typescript
+function TodoService() {
+    this.todos = [];
+}
 
+TodoService.prototype.getAll = function () {
+    return this.todos; // this 指代 对象实例
+}
+
+let service = new TodoService();
+service.getAll()
 ```
-
-
-
 
 
 #### Defining a class
 
+
+
 ```typescript
 
 ```
+
+
+
+
 
 #### Applying static properties
 
