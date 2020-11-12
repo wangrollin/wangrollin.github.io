@@ -565,50 +565,437 @@ service.getAll()
 
 #### Defining a class
 
-
-
 ```typescript
+/* From the last video...
 
+function TodoService() {
+    this.todos = [];
+}
+
+TodoService.prototype.getAll = function() {
+    return this.todos;
+}
+
+*/
+
+class TodoService {
+
+    // strs: string[] = [];
+
+    // 声明、赋值 在同一个表达式里；类的属性，方法的参数 在同一个表达式里
+    constructor(private todos: Todo[]) {
+        // this.strs = [];
+    }
+
+    getAll() {
+        return this.todos;
+    }
+}
+
+interface Todo {
+    name: string;
+    state: TodoState;
+}
+
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
 ```
-
-
-
 
 
 #### Applying static properties
 
-```typescript
+很久之前，js中实现静态变量是通过全局命名空间里的变量来实现的
 
+之后，更加广为接受的方式是通过prototype link到object里
+
+```typescript
+class TodoService {
+
+    static lastId: number = 0;
+
+    constructor(private todos: Todo[]) {
+    }
+
+    add(todo: Todo) {
+        var newId = TodoService.getNextId();
+    }
+
+    getAll() {
+        return this.todos;
+    }
+
+    static getNextId() {
+        return TodoService.lastId += 1;
+    }
+}
+
+interface Todo {
+    name: string;
+    state: TodoState;
+}
+
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
+
+var todo = {
+    name: "Pick up drycleaning",
+    state: TodoState.Complete
+}
 ```
+
 
 #### Making properties smarter with accessors
 
 ```typescript
+class TodoService {
 
+    static lastId: number = 0;
+
+    constructor(private todos: Todo[]) {
+    }
+
+    add(todo: Todo) {
+        var newId = TodoService.getNextId();
+    }
+
+    getAll() {
+        return this.todos;
+    }
+
+    static getNextId() {
+        return TodoService.lastId += 1;
+    }
+}
+
+interface Todo {
+    name: string;
+    state: TodoState;
+}
+
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
+
+class SmartTodo {
+
+    _state: TodoState;
+
+    name: string;
+
+    get state() {
+        return this._state;
+    }
+
+    set state(newState) {
+
+        if (newState == TodoState.Complete) {
+
+            var canBeCompleted =
+                this.state == TodoState.Active
+                || this.state == TodoState.Deleted;
+
+            if (!canBeCompleted) {
+                throw "Todo must be Active or Deleted in order to be marked Completed"
+            }
+        }
+
+        this._state = newState;
+    }
+
+    constructor(name: string) {
+        this.name = name;
+    }
+}
+
+var todo = new SmartTodo("Pick up drycleaning");
+
+todo.state = TodoState.Complete;
+
+todo.state
 ```
+
 
 #### Inheriting behavior from a base class
 
-```typescript
+js和es6不支持创建和继承抽象类，ts支持
 
+```typescript
+interface Todo {
+    name: string;
+    state: TodoState;
+}
+
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
+
+class TodoStateChanger {
+
+    constructor(private newState: TodoState) {
+    }
+
+    canChangeState(todo: Todo): boolean {
+        return !!todo;
+    }
+
+    changeState(todo: Todo): Todo {
+        if (this.canChangeState(todo)) {
+            todo.state = this.newState;
+        }
+
+        return todo;
+    }
+
+}
+
+class CompleteTodoStateChanger extends TodoStateChanger {
+
+    constructor() {
+        super(TodoState.Complete);
+    }
+
+    canChangeState(todo: Todo): boolean {
+        return super.canChangeState(todo) && (
+            todo.state == TodoState.Active
+            || todo.state == TodoState.Deleted
+        )
+    }
+
+}
 ```
+
 
 #### Implementing an abstract class
 
-```typescript
+抽象类不能直接实例化，只能被当作base class；抽象类中的抽象方法不能有实现，子类必须实现
 
+```typescript
+interface Todo {
+    name: string;
+    state: TodoState;
+}
+
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
+
+abstract class TodoStateChanger {
+
+    constructor(private newState: TodoState) {
+    }
+
+    abstract canChangeState(todo: Todo): boolean;
+
+    changeState(todo: Todo): Todo {
+        if (this.canChangeState(todo)) {
+            todo.state = this.newState;
+        }
+
+        return todo;
+    }
+
+}
+
+class CompleteTodoStateChanger extends TodoStateChanger {
+
+    constructor() {
+        super(TodoState.Complete);
+    }
+
+    canChangeState(todo: Todo): boolean {
+        return !!todo && (
+            todo.state == TodoState.Active
+            || todo.state == TodoState.Deleted
+        )
+    }
+
+}
 ```
+
 
 #### Controlling visibility with access modifiers
 
-```typescript
+getter setter需要是同一种权限（都是private或者都不是）
 
+- private 只有类内部可以访问
+- protected 只有类内部和子类可以访问
+- public 都可以访问，默认的js行为
+
+命名习惯：如果以下划线开头，则说明不希望外部访问
+
+```typescript
+interface Todo {
+    name: string;
+    state: TodoState;
+}
+
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
+
+
+class TodoService {
+
+    private static _lastId: number = 0;
+
+    private get nextId() {
+        return TodoService.getNextId();
+    }
+
+    private set nextId(nextId) {
+        TodoService._lastId = nextId - 1;
+    }
+
+    constructor(private todos: Todo[]) {
+    }
+
+    add(todo: Todo) {
+        var newId = this.nextId;
+    }
+
+    private getAll() {
+        return this.todos;
+    }
+
+    static getNextId() {
+        return TodoService._lastId += 1;
+    }
+}
+
+
+abstract class TodoStateChanger {
+
+    constructor(protected newState: TodoState) {
+    }
+
+    abstract canChangeState(todo: Todo): boolean;
+
+    changeState(todo: Todo): Todo {
+        if (this.canChangeState(todo)) {
+            todo.state = this.newState;
+        }
+
+        return todo;
+    }
+
+}
+
+class CompleteTodoStateChanger extends TodoStateChanger {
+
+    constructor() {
+        super(TodoState.Complete);
+    }
+
+    canChangeState(todo: Todo): boolean {
+        return !!todo && (
+            todo.state == TodoState.Active
+            || todo.state == TodoState.Deleted
+        )
+    }
+
+}
+
+
+class SmartTodo {
+    constructor(public name: string) {
+    }
+}
 ```
+
 
 #### Implementing interfaces
 
 ```typescript
+interface ITodoService {
+    add(todo: Todo): Todo;
 
+    delete(todoId: number): void;
+
+    getAll(): Todo[];
+
+    getById(todoId: number): Todo;
+}
+
+interface Todo {
+    id: number;
+    name: string;
+    state: TodoState;
+}
+
+enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
+
+interface IIdGenerator {
+    nextId: number;
+}
+
+class TodoService implements ITodoService, IIdGenerator {
+
+    private static _lastId: number = 0;
+
+    get nextId() {
+        return TodoService._lastId += 1;
+    }
+
+    constructor(private todos: Todo[]) {
+    }
+
+    add(todo: Todo): Todo {
+        todo.id = this.nextId;
+
+        this.todos.push(todo);
+
+        return todo;
+    }
+
+    delete(todoId: number): void {
+        var toDelete = this.getById(todoId);
+
+        var deletedIndex = this.todos.indexOf(toDelete);
+
+        this.todos.splice(deletedIndex, 1);
+    }
+
+    getAll(): Todo[] {
+        var clone = JSON.stringify(this.todos);
+        return JSON.parse(clone);
+    }
+
+    getById(todoId: number): Todo {
+        var filtered =
+            this.todos.filter(x => x.id == todoId);
+
+        if (filtered.length) {
+            return filtered[0];
+        }
+
+        return null;
+    }
+}
 ```
 
 
@@ -617,19 +1004,89 @@ service.getAll()
 #### Introducing generics
 
 ```typescript
+function clone<T>(value: T): T {
+    let serialized = JSON.stringify(value);
+    return JSON.parse(serialized);
+}
 
+clone('Hello!')
+
+clone(123)
+
+let todo: Todo = {
+    id: 1,
+    name: 'Pick up drycleaning',
+    state: TodoState.Active
+};
+
+clone(todo)
+
+clone({name: 'Jess'})
 ```
+
 
 #### Creating generic classes
 
-```typescript
+ts把js的array看作是泛型类
 
+```typescript
+let array: number[] = [1, 2, 3]
+let array2: Array<number> = [1, 2, 3]
+
+class KeyValuePair<TKey, TValue> {
+
+    constructor(
+        public key: TKey,
+        public value: TValue
+    ) {
+    }
+    
+}
+
+let pair1 = new KeyValuePair<number, string>(1, 'First');
+let pair2 = new KeyValuePair<string, Date>('Second', new Date(Date.now()));
+let pair3 = new KeyValuePair(3, 'Third');
+
+class KeyValuePairPrinter<T, U> {
+
+    constructor(private pairs: KeyValuePair<T, U>[]) {
+    }
+
+    print() {
+
+        for (let p of this.pairs) {
+            console.log(`${p.key}: ${p.value}`)
+        }
+    }
+
+}
+
+let printer = new KeyValuePairPrinter([pair1, pair3])
+printer.print();
 ```
+
 
 #### Applying generic constraints
 
 ```typescript
+function totalLength1<T extends { length: number }>(x: T, y: T) {
+    let total: number = x.length + y.length;
+    return total;
+}
 
+interface IHaveALength {
+    length: number;
+}
+
+function totalLength<T extends IHaveALength>(x: T, y: T) {
+    let total: number = x.length + y.length;
+    return total;
+}
+
+class CustomArray<T> extends Array<T> {
+}
+
+let length1 = totalLength([1, 2, 3], new CustomArray<number>())
 ```
 
 
@@ -637,21 +1094,138 @@ service.getAll()
 
 #### Understanding the need for modules in JavaScript
 
-```typescript
+放在一个全局命名空间里是一个坏的习惯，但是js就是这样的，所以现在要用module来做组件之间的分割
 
-```
+js的封装方法大全（模块化的方式）：
+
+- module pattern / revealing module pattern
+- 命名空间
+- es6 modules / module loaders
+
 
 #### Organizing your code with namespaces
 
-```typescript
+规则如下：
 
+- 一个namespace可以分开成两份，每一份之间可以正常访问，而不通份之间则需要export才可以访问
+- 不同namespace要访问，必须要一个export，一个import才能访问，也可以直接用带namespace的全路径名访问
+
+```typescript
+namespace TodoApp.Model {
+
+    export interface Todo {
+        id: number;
+        name: string;
+        state: TodoState;
+    }
+
+}
+
+namespace TodoApp.Model {
+
+    export enum TodoState {
+        New = 1,
+        Active,
+        Complete,
+        Deleted
+    }
+}
+
+namespace DataAccess {
+
+    import Model = TodoApp.Model;
+    import Todo = Model.Todo;
+
+    export interface ITodoService {
+        add(todo: Todo): Todo;
+
+        delete(todoId: number): void;
+
+        getAll(): Todo[];
+
+        getById(todoId: number): Todo;
+    }
+}
 ```
+
 
 #### Using namespaces to encapsulate private members
 
+js设计模式：`Immediately Invoked Function Expression` IIFE
+
+ts的namespace就是IIFE的语法糖
+
+同一个namespace写成了两份，就分别包在了两个不同的IIFE里，所以默认不能互相访问；export关键字就让这些namespace link到了object上，在应用里可以随便访问
+
 ```typescript
+var jQuery = {
+    version: 1.19,
+    fn: {}
+};
+
+(function defineType($) {
+    
+    if( $.version < 1.15 )
+        throw 'Plugin requires jQuery version 1.15+'
+        
+    $.fn.myPlugin = function() {
+        // my plugin code
+    }
+    
+    
+})(jQuery)
+
+/************************/
+
+namespace TodoApp.Model {
+
+    export enum TodoState {
+        New = 1,
+        Active,
+        Complete,
+        Deleted
+    }
+}
+
+// 编译成了js的namespace代码
+var TodoApp; // 顶级变量
+(function (TodoApp) {
+    var Model;
+    (function (Model) {
+        var TodoState; // 这一行代表export了
+        (function (TodoState) {
+            TodoState[TodoState["New"] = 1] = "New";
+            TodoState[TodoState["Active"] = 2] = "Active";
+            TodoState[TodoState["Complete"] = 3] = "Complete";
+            TodoState[TodoState["Deleted"] = 4] = "Deleted";
+        })(TodoState = Model.TodoState || (Model.TodoState = {}));
+    })(Model = TodoApp.Model || (TodoApp.Model = {}));
+})(TodoApp || (TodoApp = {}));
+
+/************************/
+
+namespace TodoApp.Model {
+
+    export interface Todo {
+        id: number;
+        name: string;
+        state: TodoState;
+    }
+
+}
+
+namespace TodoApp.Model {
+
+    export enum TodoState {
+        New = 1,
+        Active,
+        Complete,
+        Deleted
+    }
+}
 
 ```
+
 
 #### Understanding the difference between internal and external modules
 
