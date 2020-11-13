@@ -1224,20 +1224,90 @@ namespace TodoApp.Model {
     }
 }
 
+/************************/
+
+namespace DataAccess {
+
+    import Model = TodoApp.Model;
+    import Todo = Model.Todo;
+
+    // 通过把这个变量挪出来，然后整个代码放在namespace里
+    // 既通过namespace的IIFE变成了真正的私有，又因为是namespace，所以不是全局变量，缩小了范围
+    // 之前可以访问，ts只警告，不要访问这个变量，现在是直接无法访问了
+    let _lastId: number = 0;
+
+    function generateTodoId() {
+        return _lastId += 1;
+    }
+
+
+    export interface ITodoService {
+        add(todo: Todo): Todo;
+        delete(todoId: number): void;
+        getAll(): Todo[];
+        getById(todoId: number): Todo;
+    }
+
+    class TodoService implements ITodoService {
+
+        constructor(private todos: Todo[]) {
+        }
+
+        add(todo: Todo): Todo {
+            todo.id = generateTodoId();
+
+            this.todos.push(todo);
+
+            return todo;
+        }
+
+        delete(todoId: number): void {
+            var toDelete = this.getById(todoId);
+
+            var deletedIndex = this.todos.indexOf(toDelete);
+
+            this.todos.splice(deletedIndex, 1);
+        }
+
+        getAll(): Todo[] {
+            var clone = JSON.stringify(this.todos);
+            return JSON.parse(clone);
+        }
+
+        getById(todoId: number): Todo {
+            var filtered =
+                this.todos.filter(x => x.id == todoId);
+
+            if (filtered.length) {
+                return filtered[0];
+            }
+
+            return null;
+        }
+    }
+}
 ```
 
 
 #### Understanding the difference between internal and external modules
 
-```typescript
+- internal modules (namespace): namespace function scope
+- external modules: file scope
 
-```
+都需要import和export
+
+ts module import语法有两种，在es6出之前就已经实现了require语法；功能上是一样的，生成的代码也是一样的
+
+- Require(like Node.js)
+- es6
+
 
 #### Switching from internal to external modules
 
 ```typescript
 
 ```
+
 
 #### Importing modules using CommonJS syntax
 
