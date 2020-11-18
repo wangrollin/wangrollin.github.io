@@ -2,7 +2,8 @@
 
 ## 网站
 
-[官网](https://www.typescriptlang.org/)
+- [官网](https://www.typescriptlang.org/)
+- [github](https://github.com/Mircrosoft/TypeScript)
 
 
 ## 配置文件

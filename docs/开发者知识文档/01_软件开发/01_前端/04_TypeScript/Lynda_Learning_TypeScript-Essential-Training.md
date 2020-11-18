@@ -1532,24 +1532,101 @@ todos.forEach(todo =>
 
 #### Referencing third-party libraries
 
-- npm包 tsd
+获取第三方库的ts描述文件 方法汇总：
+
+- npm install -g tsd
 - typings install dt~angular --global
 - npm install @types/<package>
 
-```typescript
-
+```bash
+tsd query jquery
+tsd install jquery # 通过这种方式下载，是一次性的
+tsd install jquery --save # 生成 tsd.json文件，保存tsd信息
+tsd install # 会根据tsd.json文件，下载tsd
 ```
+
+tsd工作原理的背后是依靠着一个github开源项目`Definitely Typed`
+
+> tsd.json
+
+```json
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "jquery/jquery.d.ts": {
+      "commit": "dade4414712ce84e3c63393f1aae407e9e7e6af7"
+    }
+  }
+}
+```
+
 
 #### Converting to external modules
 
 ```typescript
+import { Todo, TodoState } from './Model';
+import '//code.jquery.com/jquery-1.12.1.min.js';
 
+// export default 意味着如果import，则只导入这个
+// import {TodoListComponent} from './TodoListComponent'; -> import TodoListComponent from './TodoListComponent';
+// import TodoService, { ITodoService } from './TodoService'; TodoService是default export，{}里的是其他的export
+export default class TodoListComponent {
+
+}
 ```
+
+```html
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.22/system.js"></script>
+<script type="text/javascript">
+    System.defaultJSExtensions = true;
+
+    System.import('TodoApp').then(function (module) {
+
+        new module.TodoApp(document, [
+            'Pick up drycleaning',
+            'Clean Batcave',
+            'Save Gotham'
+        ]);
+    });
+</script>
+```
+
+```bash
+tsc
+lite-server
+```
+
 
 #### Debugging TypeScript with source maps
 
-```typescript
+在chrome里直接debug，会跳到js的源码
 
+浏览器的一个功能：`source map`，浏览器会让代码编译器告诉它每行js代码在源码的哪行，不管是什么源码
+
+所以理论上可以写一个WangScript编译器，和source map，然后编译成js让chrome运行，然后debug时候显示源码
+
+`"sourceMap": true`
+
+- ToDoApp.ts
+- ToDoApp.d.ts 生成的
+- ToDoApp.js 生成的，在最下面会有元数据 `//# sourceMappingURL=Model.js.map`
+- ToDoApp.js.map 生成的
+
+> tsconfig.json
+
+```json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "declaration": true,
+        "module": "system",
+        "sourceMap": true
+    }
+}
 ```
 
 
@@ -1557,29 +1634,405 @@ todos.forEach(todo =>
 
 #### Implementing method decorators
 
+decorators是es的提议语法，来实现 装饰器设计模式，可以看做是aop
+
 ```typescript
 
+// 1 直接在方法中加log
+
+// 2 替换原始的prototype方法
+let originalMethod = TodoService.prototype.add;
+
+TodoService.prototype.add = function(...args) {
+    console.log();
+    let returnValue = originalMethod.apply(this, args);
+    console.log();
+    return returnValue;
+}
 ```
+
+3 注解的方式，如下：
+
+- decorators本质是一个function
+- targets类型：类，方法，属性，参数
+
+> tsconfig.json -- "experimentalDecorators": true
+
+```json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "declaration": true,
+        "module": "system",
+        "sourceMap": true,
+        "experimentalDecorators": true
+    }
+}
+```
+
+```typescript
+export default class TodoService implements ITodoService {
+
+    // Accepts a todo name or todo object
+    add(todo: Todo): Todo
+    add(todo: string): Todo
+    @log
+    add(input): Todo {
+
+        var todo: Todo = {
+            id: generateTodoId(),
+            name: null,
+            state: TodoState.Active
+        };
+
+        if (typeof input === 'string') {
+            todo.name = input;
+        } else if (typeof input.name === 'string') {
+            todo.name = input.name;
+        } else {
+            throw 'Invalid Todo name!';
+        }
+
+        this.todos.push(todo);
+
+        return todo;
+    };
+
+}
+
+// target代表类的实例，methodName代表方法名字，descriptor代表这个方法
+function log(target: Object, methodName: string, descriptor: TypedPropertyDescriptor<Function>) {
+
+    let originalMethod = descriptor.value;
+
+    descriptor.value = function (...args) {
+
+        console.log(`${methodName}(${JSON.stringify(args)})`)
+
+        let returnValue = originalMethod.apply(this, args);
+
+        console.log(`${methodName}(${JSON.stringify(args)}) => ${JSON.stringify(returnValue)}`)
+
+        return returnValue;
+    }
+}
+```
+
 
 #### implementing class decorators
 
-```typescript
+> Validators.ts
 
+```typescript
+import {Todo, TodoState} from './Model';
+
+@validatable
+export class ValidatableTodo implements Todo {
+
+    id: number;
+
+    name: string;
+
+    state: TodoState;
+}
+
+export interface ValidatableTodo extends IValidatable {
+}
+
+
+export interface IValidatable {
+    validate(): IValidationResult[];
+}
+
+export interface IValidationResult {
+    isValid: boolean;
+    message: string;
+    property?: string;
+}
+
+export interface IValidator {
+    (instance: Object): IValidationResult;
+}
+
+export function validate(): IValidationResult[] {
+    let validators: IValidator[] = [].concat(this._validators),
+        errors: IValidationResult[] = [];
+
+    for (let validator of validators) {
+
+        let result = validator(this);
+
+        if (!result.isValid) {
+            errors.push(result);
+        }
+
+    }
+
+    return errors;
+}
+
+// target 类的构造函数
+export function validatable(target: Function) {
+
+    target.prototype.validate = validate;
+
+}
 ```
+
+> TodoService.ts
+
+```typescript
+import {Todo, TodoState} from './Model';
+import {ValidatableTodo} from './Validators';
+
+export default class TodoService implements ITodoService {
+
+    // Accepts a todo name or todo object
+    add(todo: Todo): Todo
+    add(todo: string): Todo
+    @log
+    add(input): Todo {
+
+        var todo = new ValidatableTodo();
+        todo.id = generateTodoId();
+        todo.state = TodoState.Active;
+
+        if (typeof input === 'string') {
+            todo.name = input;
+        } else if (typeof input.name === 'string') {
+            todo.name = input.name;
+        } else {
+            throw 'Invalid Todo name!';
+        }
+
+        let errors = todo.validate();
+
+        if (errors.length) {
+
+            let combinedErrors = errors.map(x => `${x.property}: ${x.message}`);
+            throw `Invalid Todo: ${combinedErrors}`;
+
+        }
+
+        this.todos.push(todo);
+
+        return todo;
+    };
+}
+
+function log(target: Object, methodName: string, descriptor: TypedPropertyDescriptor<Function>) {
+
+    let originalMethod = descriptor.value;
+
+    descriptor.value = function (...args) {
+
+        console.log(`${methodName}(${JSON.stringify(args)})`)
+
+        let returnValue = originalMethod.apply(this, args);
+
+        console.log(`${methodName}(${JSON.stringify(args)}) => ${JSON.stringify(returnValue)}`)
+
+        return returnValue;
+    }
+}
+```
+
 
 #### Implementing property decorators
 
-```typescript
+属性和参数的装饰器应该是一样的用法
 
+```typescript
+import {Todo, TodoState} from './Model';
+
+@validatable
+export class ValidatableTodo implements Todo {
+
+    id: number;
+
+    @required
+    name: string;
+
+    state: TodoState;
+}
+
+export interface ValidatableTodo extends IValidatable {
+}
+
+
+export interface IValidatable {
+    validate(): IValidationResult[];
+}
+
+export interface IValidationResult {
+    isValid: boolean;
+    message: string;
+    property?: string;
+}
+
+export interface IValidator {
+    (instance: Object): IValidationResult;
+}
+
+export function validate(): IValidationResult[] {
+    let validators: IValidator[] = [].concat(this._validators),
+        errors: IValidationResult[] = [];
+
+    for (let validator of validators) {
+
+        let result = validator(this);
+
+        if (!result.isValid) {
+            errors.push(result);
+        }
+
+    }
+
+    return errors;
+}
+
+export function validatable(target: Function) {
+
+    target.prototype.validate = validate;
+
+}
+
+export function required(target: Object, propertyName: string) {
+
+    let validatable = <{ _validators: IValidator[] }>target,
+        validators = (validatable._validators || (validatable._validators = []));
+
+    validators.push(function (instance) {
+
+        let propertyValue = instance[propertyName],
+            isValid = propertyValue != undefined;
+
+        if (typeof propertyValue === 'string') {
+            isValid = propertyValue && propertyValue.length > 0;
+        }
+
+        return {
+            isValid,
+            message: `${propertyName} is required`,
+            property: propertyName
+        }
+
+    })
+}
 ```
+
 
 #### Implementing decorator factories
 
+装饰器工厂模式
+
+上面几小节学的装饰器，都是function，带有固定格式的签名；如果想自己传一个参数，就会打破签名范式，这时就需要装饰器工厂
+
+装饰器工厂是一个function，返回值是装饰器function
+
 ```typescript
+import {Todo, TodoState} from './Model';
 
+@validatable
+export class ValidatableTodo implements Todo {
+
+    id: number;
+
+    @required // @FunctionRef
+    @regex(`^[a-zA-Z ]*$`) // @FunctionRef
+    name: string;
+
+    state: TodoState;
+}
+
+export interface ValidatableTodo extends IValidatable {
+}
+
+
+export interface IValidatable {
+    validate(): IValidationResult[];
+}
+
+export interface IValidationResult {
+    isValid: boolean;
+    message: string;
+    property?: string;
+}
+
+export interface IValidator {
+    (instance: Object): IValidationResult;
+}
+
+export function validate(): IValidationResult[] {
+    let validators: IValidator[] = [].concat(this._validators),
+        errors: IValidationResult[] = [];
+
+    for (let validator of validators) {
+
+        let result = validator(this);
+
+        if (!result.isValid) {
+            errors.push(result);
+        }
+
+    }
+
+    return errors;
+}
+
+export function validatable(target: Function) {
+
+    target.prototype.validate = validate;
+
+}
+
+export function required(target: Object, propertyName: string) {
+
+    let validatable = <{ _validators: IValidator[] }>target,
+        validators = (validatable._validators || (validatable._validators = []));
+
+    validators.push(function (instance) {
+
+        let propertyValue = instance[propertyName],
+            isValid = propertyValue != undefined;
+
+        if (typeof propertyValue === 'string') {
+            isValid = propertyValue && propertyValue.length > 0;
+        }
+
+        return {
+            isValid,
+            message: `${propertyName} is required`,
+            property: propertyName
+        }
+
+    })
+
+}
+
+export function regex(pattern: string) {
+
+    let expression = new RegExp(pattern);
+
+    return function regex(target: Object, propertyName: string) {
+
+        let validatable = <{ _validators: IValidator[] }>target,
+            validators = (validatable._validators || (validatable._validators = []));
+
+        validators.push(function (instance) {
+
+            let propertyValue = instance[propertyName],
+                isValid = expression.test(propertyValue);
+
+            return {
+                isValid,
+                message: `${propertyName} does not match ${expression}`,
+                property: propertyName
+            }
+
+        })
+
+    };
+
+}
 ```
-
-
-### Conclusion
-
-#### Next steps

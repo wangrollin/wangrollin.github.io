@@ -845,8 +845,11 @@
                     * [📝github](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/github.md)
                     * [📝gitlab](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/gitlab.md)
                     * 🗂版本号控制
-                        * [📝semver](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/版本号控制/semver.md)
+                        * [📝Project_Module](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/版本号控制/Project_Module.md)
+                        * [📝Release_Train](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/版本号控制/Release_Train.md)
+                        * [📝日历化版本号](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/版本号控制/日历化版本号.md)
                         * [📝版本号控制](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/版本号控制/版本号控制.md)
+                        * [📝语义化版本号](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/00_代码托管平台/版本号控制/语义化版本号.md)
                 * 🗂流水线
                     * [📝AzurePipelines](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/01_流水线/AzurePipelines.md)
                     * [📝CircleCI](/docs/开发者知识文档/02_Cloud_Native/03_阿里云/SaaS/CICD测试/01_流水线/CircleCI.md)
