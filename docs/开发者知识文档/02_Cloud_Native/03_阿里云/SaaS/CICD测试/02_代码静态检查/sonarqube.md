@@ -67,3 +67,12 @@ sudo cp /tmp/sonar-plugins-backup/* /srv/sonarqube/extensions/plugins/
  
 
 mvn sonar:sonar -P sonar
+
+
+## tips
+
+> 在java代码中屏蔽sonar检测
+
+```java
+@SuppressWarnings("all")
+```

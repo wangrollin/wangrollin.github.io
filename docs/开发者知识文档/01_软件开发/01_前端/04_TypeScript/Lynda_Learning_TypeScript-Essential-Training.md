@@ -1304,27 +1304,190 @@ ts module import语法有两种，在es6出之前就已经实现了require语法
 
 #### Switching from internal to external modules
 
-```typescript
-
-```
-
-
 #### Importing modules using CommonJS syntax
 
-```typescript
 
+> model.ts
+
+```typescript
+export interface Todo {
+    id: number;
+    name: string;
+    state: TodoState;
+}
+
+export enum TodoState {
+    New = 1,
+    Active,
+    Complete,
+    Deleted
+}
 ```
+
+> DataAccess.ts
+
+```typescript
+import Model = require('./model');
+import Todo = Model.Todo;
+
+// ts暂时不支持这种写法
+// import Todo = require('./model').Todo;
+
+let _lastId: number = 0;
+
+function generateTodoId() {
+    return _lastId += 1;
+}
+
+
+export interface ITodoService {
+    add(todo: Todo): Todo;
+
+    delete(todoId: number): void;
+
+    getAll(): Todo[];
+
+    getById(todoId: number): Todo;
+}
+
+class TodoService implements ITodoService {
+
+    constructor(private todos: Todo[]) {
+    }
+
+    add(todo: Todo): Todo {
+        todo.id = generateTodoId();
+
+        this.todos.push(todo);
+
+        return todo;
+    }
+
+    delete(todoId: number): void {
+        var toDelete = this.getById(todoId);
+
+        var deletedIndex = this.todos.indexOf(toDelete);
+
+        this.todos.splice(deletedIndex, 1);
+    }
+
+    getAll(): Todo[] {
+        var clone = JSON.stringify(this.todos);
+        return JSON.parse(clone);
+    }
+
+    getById(todoId: number): Todo {
+        var filtered =
+            this.todos.filter(x => x.id == todoId);
+
+        if (filtered.length) {
+            return filtered[0];
+        }
+
+        return null;
+    }
+}
+```
+
+> tsconfig.json
+
+```json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system"
+    }
+}
+```
+
 
 #### Importing modules using EXMAScript 2015 syntax
 
 ```typescript
+import * as Model from './model';
+import {Todo as TodoTask, TodoState} from './model';
+import './jQuery'
 
+let todo: TodoTask;
 ```
+
 
 #### Loading external modules
 
-```typescript
+es6 模块化语法的两个问题：
 
+- 还没有被广泛支持
+- 没有载入模块的标准定义
+
+在没有解决这两个问题之前，我们需要一个工具，Module Loader
+
+- 有很多选项可以选择
+- ts生成的代码几乎兼容所有的
+
+System.js module loader
+
+- 这个loader 尝试实现 es 倡议的 spec
+- 如果幸运的话，等到浏览器原生支持module loader的时候，就可以直接丢掉system.js而不需要修改代码
+- 这个loader支持es6语法
+
+在使用module loader之前，我们需要把每一个js文件都写在html里当使用了loader，我们只需要
+
+- 导入loader的js文件就可以了
+- 或者 npm install systemjs
+
+```html
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>TypeScript Todo App</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+<div id="container" class="container">
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.22/system.js"></script>
+<script type="text/javascript">
+    System.defaultJSExtensions = true;
+    System.import('app');
+</script>
+</body>
+
+</html>
+```
+
+> app.ts
+
+```typescript
+import { Todo as TodoTask, TodoState } from './model';
+import { TodoService } from './DataAccess';
+
+
+let service = new TodoService([]);
+
+service.add({
+    id: 1,
+    name: 'Pick up drycleaning',
+    state: TodoState.New
+});
+
+let todos = service.getAll();
+
+todos.forEach(todo =>
+    console.log(`${todo.name} [${TodoState[todo.state]}]`) 
+)
+```
+
+> tsconfig.json
+
+```json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system"
+    }
+}
 ```
 
 
@@ -1332,23 +1495,46 @@ ts module import语法有两种，在es6出之前就已经实现了require语法
 
 #### Introducing the sample JavaScript application
 
-```typescript
-
-```
-
 #### Converting existing JavaScript code to TypeScript
 
-```typescript
+自己的js代码转换成ts的步骤：
 
-```
+- 修改js为ts后缀
+- 添加tsconfig.json文件
+- 可选：语法使用ts语法
+
 
 #### Generating declaration files
 
-```typescript
+第三方库，js转成ts的两种方法：
 
+- declare var $: any; // 这么做了之后，没有利用到ts的类型系统，而仅仅是屏蔽了报错
+- ts declaration file
+
+> ts declaration file
+
+- 这个文件用来描述一个没有用ts写的js lib，或者描述一个ts项目编译成的js lib分发版；很像c c++的头文件
+- ts declaration file是使用ts特殊的语法写成的，但是可以不用学，ts可以自动生成
+
+> tsconfig.json
+
+```json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "declaration": true
+    }
+}
 ```
 
+`.ts` 生成 `.js` `.d.ts`
+
+
 #### Referencing third-party libraries
+
+- npm包 tsd
+- typings install dt~angular --global
+- npm install @types/<package>
 
 ```typescript
 
