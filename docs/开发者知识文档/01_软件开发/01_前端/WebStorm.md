@@ -17,3 +17,14 @@
 - vue indents: 4
 
 > 插件
+
+- Run Configuration For Typescript
+
+
+## tips
+
+> 在webstorm里直接运行ts，而不需要手动编译ts，然后在js里运行
+
+插件Run Configuration For Typescript
+npm install -D typescript
+npm install -D ts-node
