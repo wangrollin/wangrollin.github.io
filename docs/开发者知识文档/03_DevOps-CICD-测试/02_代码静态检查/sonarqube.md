@@ -61,5 +61,5 @@ mvn sonar:sonar -P sonar
 > 在java代码中屏蔽sonar检测
 
 ```java
-@SuppressWarnings("all")
+@SuppressWarnings({"java:S1607", "java:S2925"})
 ```
