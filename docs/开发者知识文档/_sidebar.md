@@ -219,6 +219,40 @@
                     * [📝浏览器内核](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/运行时runtime/浏览器/浏览器内核.md)
         * 🗂TypeScript
             * [📝Lynda_Learning_TypeScript-Essential-Training](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/Lynda_Learning_TypeScript-Essential-Training.md)
+            * 🗂ReleaseNotes
+                * 🗂1.x
+                    * [📝TypeScript_1.1](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/1.x/TypeScript_1.1.md)
+                    * [📝TypeScript_1.3](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/1.x/TypeScript_1.3.md)
+                    * [📝TypeScript_1.4](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/1.x/TypeScript_1.4.md)
+                    * [📝TypeScript_1.5](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/1.x/TypeScript_1.5.md)
+                    * [📝TypeScript_1.6](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/1.x/TypeScript_1.6.md)
+                    * [📝TypeScript_1.7](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/1.x/TypeScript_1.7.md)
+                    * [📝TypeScript_1.8](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/1.x/TypeScript_1.8.md)
+                * 🗂2.x
+                    * [📝TypeScript_2.0](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.0.md)
+                    * [📝TypeScript_2.1](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.1.md)
+                    * [📝TypeScript_2.2](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.2.md)
+                    * [📝TypeScript_2.3](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.3.md)
+                    * [📝TypeScript_2.4](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.4.md)
+                    * [📝TypeScript_2.5](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.5.md)
+                    * [📝TypeScript_2.6](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.6.md)
+                    * [📝TypeScript_2.7](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.7.md)
+                    * [📝TypeScript_2.8](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.8.md)
+                    * [📝TypeScript_2.9](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/2.x/TypeScript_2.9.md)
+                * 🗂3.x
+                    * [📝TypeScript_3.0](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.0.md)
+                    * [📝TypeScript_3.1](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.1.md)
+                    * [📝TypeScript_3.2](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.2.md)
+                    * [📝TypeScript_3.3](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.3.md)
+                    * [📝TypeScript_3.4](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.4.md)
+                    * [📝TypeScript_3.5](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.5.md)
+                    * [📝TypeScript_3.6](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.6.md)
+                    * [📝TypeScript_3.7](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.7.md)
+                    * [📝TypeScript_3.8](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.8.md)
+                    * [📝TypeScript_3.9](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/3.x/TypeScript_3.9.md)
+                * 🗂4.x
+                    * [📝TypeScript_4.0](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/4.x/TypeScript_4.0.md)
+                    * [📝TypeScript_4.1](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/ReleaseNotes/4.x/TypeScript_4.1.md)
             * [📝Typescript](/docs/开发者知识文档/01_软件开发/01_前端/04_TypeScript/Typescript.md)
         * 🗂其他前台脚本语言
             * [📝CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/CoffeeScript.md)
@@ -927,6 +961,9 @@
             * [📝域名备案](/docs/开发者知识文档/05_阿里云/管理服务/网络服务/域名备案.md)
             * [📝网站备案](/docs/开发者知识文档/05_阿里云/管理服务/网络服务/网站备案.md)
     * [📝阿里云概览](/docs/开发者知识文档/05_阿里云/阿里云概览.md)
+* 🗂scrum
+    * [📝总流程概览](/docs/开发者知识文档/06_scrum/总流程概览.md)
+    * [📝需求管理](/docs/开发者知识文档/06_scrum/需求管理.md)
 * 🗂其他
     * 🗂SSL证书
         * [📝LetsEncrypt](/docs/开发者知识文档/99_其他/SSL证书/LetsEncrypt.md)
