@@ -2,3 +2,40 @@
 https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html
 
 - Null- and undefined-aware types
+- --strictNullChecks
+- Assigned-before-use checking
+- Optional parameters and properties
+- Non-null and non-undefined type guards
+- Dotted names in type guards
+- Expression operators
+- Type widening
+- Non-null assertion operator
+- Compatibility
+- Control flow based type analysis
+- Tagged union types
+- The never type
+- Read-only properties and index signatures
+- Specifying the type of this for functions
+- this parameters in callbacks
+- --noImplicitThis
+- Glob support in tsconfig.json
+- Module resolution enhancements: BaseUrl, Path mapping, rootDirs and tracing
+- Base URL
+- Path mapping
+- Virtual Directories with rootDirs
+- Tracing module resolution
+- Shorthand ambient module declarations
+- Wildcard character in module names
+- Support for UMD module definitions
+- Optional class properties
+- Private and Protected Constructors
+- Abstract properties and accessors
+- Implicit index signatures
+- Including built-in type declarations with --lib
+- Flag unused declarations with --noUnusedParameters and --noUnusedLocals
+- Module identifiers allow for .js extension
+- Support ‘target : es5’ with ‘module: es6’
+- Trailing commas in function parameter and argument lists
+- New --skipLibCheck
+- Allow duplicate identifiers across declarations
+- New --declarationDir
