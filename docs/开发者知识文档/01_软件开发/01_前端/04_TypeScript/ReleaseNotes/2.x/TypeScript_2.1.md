@@ -12,7 +12,6 @@ https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html
 - Improved any Inference
 - Implicit any errors
 - Better inference for literal types
-
-
-
-
+- Use returned values from super calls as ‘this’
+- Configuration inheritance
+- New --alwaysStrict
