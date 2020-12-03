@@ -449,6 +449,8 @@
                     * 🗂单元测试框架
                         * [📝JUnit5](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/JUnit5.md)
                         * [📝Lynda_Spring_Test-Driven_Development_with_JUnit](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/Lynda_Spring_Test-Driven_Development_with_JUnit.md)
+                        * [📝Mockito](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/Mockito.md)
+                        * [📝PowerMock](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/PowerMock.md)
                     * 🗂性能测试
                         * [📝Gatling](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/性能测试/Gatling.md)
                     * 🗂架构单元测试
@@ -497,6 +499,7 @@
             * 🗂并发编程
                 * [📝CompletableFuture](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/CompletableFuture.md)
                 * [📝多线程](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/多线程.md)
+                * [📝相关方法](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/相关方法.md)
             * 🗂构建工具
                 * 🗂ant
                     * [📝ant](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/ant/ant.md)
@@ -963,6 +966,7 @@
     * [📝阿里云概览](/docs/开发者知识文档/05_阿里云/阿里云概览.md)
 * 🗂scrum
     * [📝总流程概览](/docs/开发者知识文档/06_scrum/总流程概览.md)
+    * [📝论市场和技术的关系](/docs/开发者知识文档/06_scrum/论市场和技术的关系.md)
     * [📝需求管理](/docs/开发者知识文档/06_scrum/需求管理.md)
 * 🗂其他
     * 🗂SSL证书
