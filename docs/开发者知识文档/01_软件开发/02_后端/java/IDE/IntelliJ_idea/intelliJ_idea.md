@@ -2,19 +2,20 @@
 
 ## 插件
 
-​- snakeYaml plugin
-​- alibaba cloud toolkit
-​- alibaba Java coding guidelines
-​- sonarLint
-​- docker
-​- maven helper
-​- lombok
-​- markdown
-​- ideavim
-​- shellcheck
-​- database navigat
-​- junit
-​- bashsupport
+- statistics
+- snakeYaml plugin
+- alibaba cloud toolkit
+- alibaba Java coding guidelines
+- sonarLint
+- docker
+- maven helper
+- lombok
+- markdown
+- ideavim
+- shellcheck
+- database navigat
+- junit
+- bashsupport
 
 
 ## 配置
