@@ -257,7 +257,6 @@
         * 🗂其他前台脚本语言
             * [📝CoffeeScript](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/CoffeeScript.md)
             * [📝Dart](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/Dart.md)
-            * [📝WebAssembly](/docs/开发者知识文档/01_软件开发/01_前端/05_其他前台脚本语言/WebAssembly.md)
         * 🗂中间件
             * 🗂ProgressiveWebApp
                 * [📝ProgressiveWebApp](/docs/开发者知识文档/01_软件开发/01_前端/06_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
@@ -270,6 +269,9 @@
         * 🗂解决方案
             * 🗂企业级中后台前端_设计解决方案
                 * [📝AntDesignPro](/docs/开发者知识文档/01_软件开发/01_前端/07_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
+        * 🗂前沿技术
+            * [📝WebAssembly](/docs/开发者知识文档/01_软件开发/01_前端/08_前沿技术/WebAssembly.md)
+            * [📝WebRTC](/docs/开发者知识文档/01_软件开发/01_前端/08_前沿技术/WebRTC.md)
         * [📝BrowserSync](/docs/开发者知识文档/01_软件开发/01_前端/BrowserSync.md)
         * [📝CORS](/docs/开发者知识文档/01_软件开发/01_前端/CORS.md)
         * [📝WebStorm](/docs/开发者知识文档/01_软件开发/01_前端/WebStorm.md)
