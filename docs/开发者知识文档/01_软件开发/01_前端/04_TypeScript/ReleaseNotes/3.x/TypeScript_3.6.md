@@ -9,8 +9,6 @@ https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-6.html
 - get and set Accessors Are Allowed in Ambient Contexts
 - Ambient Classes and Functions Can Merge
 - APIs to Support --build and --incremental
-- 
-
-
-
-
+- Semicolon-Aware Code Edits
+- Smarter Auto-Import Syntax
+- New TypeScript Playground

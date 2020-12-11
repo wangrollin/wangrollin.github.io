@@ -110,6 +110,7 @@
                 * [📝Composer](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/包管理工具/Composer.md)
                 * [📝Meteor](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/包管理工具/Meteor.md)
                 * [📝npm](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/包管理工具/npm.md)
+                * [📝npx](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/包管理工具/npx.md)
                 * [📝yarn](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/包管理工具/yarn.md)
             * 🗂库
                 * 🗂3D图形onWeb
@@ -563,6 +564,7 @@
                         * [📝Couchbase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/NoSQL数据库/Couchbase.md)
                         * [📝mongodb](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/NoSQL数据库/mongodb.md)
                     * 🗂SQL数据库
+                        * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/MySQL存储位置迁移.md)
                         * [📝PostgreSQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/PostgreSQL.md)
                         * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/h2.md)
                         * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/mysql.md)
