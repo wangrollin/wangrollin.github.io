@@ -10,9 +10,9 @@
 
 #### 🍖项目
 
-- [Github账号：wangrollin](https://github.com/wangrollin)，过去一年共计 **1247** contributions
+- [Github账号：wangrollin](https://github.com/wangrollin)，过去一年共计 **1267** contributions
   - [仿写QQ堂](https://github.com/wangrollin/QQTang4.0)：[视频介绍](https://www.bilibili.com/video/BV14J411z7Af?from=search&seid=2392020730416138943)
-- [Leetcode账号：wangrollin](https://leetcode-cn.com/u/wangrollin/)，全站排名 **16088**
+- [Leetcode账号：wangrollin](https://leetcode-cn.com/u/wangrollin/)，全站排名 **15557**
   - [leetcode每日一题(Java版本)](https://github.com/wangrollin/leetcode-java)
   - [leetcode每日一题(TypeScript版本)](https://github.com/wangrollin/leetcode-typescript)
 - [个人网站](https://wangrollin.com)
