@@ -821,7 +821,9 @@
     * 🗂代码静态检查
         * 🗂formatter
             * [📝Prettier](/docs/开发者知识文档/03_DevOps-CICD-测试/02_代码静态检查/formatter/Prettier.md)
-        * [📝sonarqube](/docs/开发者知识文档/03_DevOps-CICD-测试/02_代码静态检查/sonarqube.md)
+        * 🗂sonar
+            * [📝sonarCloud](/docs/开发者知识文档/03_DevOps-CICD-测试/02_代码静态检查/sonar/sonarCloud.md)
+            * [📝sonarqube](/docs/开发者知识文档/03_DevOps-CICD-测试/02_代码静态检查/sonar/sonarqube.md)
         * 🗂规则集
             * [📝ESLint](/docs/开发者知识文档/03_DevOps-CICD-测试/02_代码静态检查/规则集/ESLint.md)
             * [📝PMD](/docs/开发者知识文档/03_DevOps-CICD-测试/02_代码静态检查/规则集/PMD.md)
@@ -1015,6 +1017,8 @@
         * [📝OpenStack](/docs/开发者知识文档/99_其他/开源组织/OpenStack.md)
         * [📝Python](/docs/开发者知识文档/99_其他/开源组织/Python.md)
         * [📝redhat](/docs/开发者知识文档/99_其他/开源组织/redhat.md)
+    * 🗂游戏引擎
+        * [📝Godot](/docs/开发者知识文档/99_其他/游戏引擎/Godot.md)
     * 🗂电子签名
         * [📝docusign](/docs/开发者知识文档/99_其他/电子签名/docusign.md)
     * 🗂项目管理工具

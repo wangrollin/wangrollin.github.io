@@ -85,12 +85,23 @@ https://blog.csdn.net/qq_27818541/article/details/73647797
 
 ## 配置docker阿里云的镜像加速器
 
-针对安装了Docker for Mac的用户，您可以参考以下配置步骤：
+> 针对安装了Docker for Mac的用户，您可以参考以下配置步骤：
 
 右键点击桌面顶栏的 docker 图标，选择 Preferences ，在 Daemon 标签（Docker 17.03 之前版本为 Advanced 标签）下的 Registry mirrors 列表中将
 
 https://vxcv99nl.mirror.aliyuncs.com加到"registry-mirrors"的数组里，点击 Apply & Restart按钮，等待Docker重启并应用配置的镜像加速器。
 
+
+> ubuntu server
+
+/etc/docker/daemon.json
+{
+  "registry-mirrors": ["https://vxcv99nl.mirror.aliyuncs.com"]
+}
+
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+docker info
 
 
 ## docker login fail ubuntu18.04： error saving credentials: error storing credentials - err: exit status 1, out: Cannot autolaunch D-Bus without X11 $DISPLA
