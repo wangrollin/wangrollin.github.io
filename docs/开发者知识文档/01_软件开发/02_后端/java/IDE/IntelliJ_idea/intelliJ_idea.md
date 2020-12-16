@@ -16,6 +16,7 @@
 - database navigat
 - junit
 - bashsupport
+- go template
 
 
 ## 配置
