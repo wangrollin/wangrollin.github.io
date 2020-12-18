@@ -1,5 +1,5 @@
 # wangrollin 个人简介
-
+`
 #### 🍖经历
 
 - 教育经历：山东大学 > [泰山学堂（国家级基础学科实验班）](https://www.tsxt.sdu.edu.cn/) > 计算机取向
@@ -12,7 +12,7 @@
 
 - [Github账号：wangrollin](https://github.com/wangrollin)，过去一年共计 **1267** contributions
   - [仿写QQ堂](https://github.com/wangrollin/QQTang4.0)：[视频介绍](https://www.bilibili.com/video/BV14J411z7Af?from=search&seid=2392020730416138943)
-- [Leetcode账号：wangrollin](https://leetcode-cn.com/u/wangrollin/)，全站排名 **15557**
+- [Leetcode账号：wangrollin](https://leetcode-cn.com/u/wangrollin/)，全站排名 **14859**
   - [leetcode每日一题(Java版本)](https://github.com/wangrollin/leetcode-java)
   - [leetcode每日一题(TypeScript版本)](https://github.com/wangrollin/leetcode-typescript)
 - [个人网站](https://wangrollin.com)
