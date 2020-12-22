@@ -1,3 +1,5 @@
-# Sometimes structure is more important than content
 
-Sometimes structure is more important than content
+用途
+
+- Jenkins pipeline script
+- gradle
