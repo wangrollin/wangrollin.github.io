@@ -63,6 +63,11 @@ apply
 
 ## 问题和解决方案 problems
 
+### 查看jar包源码
+
+如果是maven的依赖，自动就能看到，但是如果是独立的jar，就看不到。把jar包 add as Library，然后就能看啦
+
+
 ### maven reimport 一直报错，修改如下
 
 Go to File > Settings > Build,Execution,Deployment> Build Tools > Maven > Importing .
