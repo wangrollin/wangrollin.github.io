@@ -9,6 +9,7 @@
 - Node路径：会自动获取系统node路径
 - npm路径：手动配置，示例：/usr/local/lib/node_modules/npm
 - Editor > code style > javascript > punctuation > use semicolon **always**
+- Editor > code style > typescript > punctuation > semicolon **always**
 - Language & Frameworks > javascript > libraries > download
   - express
   - jquery (or npm i @types/jquery)
