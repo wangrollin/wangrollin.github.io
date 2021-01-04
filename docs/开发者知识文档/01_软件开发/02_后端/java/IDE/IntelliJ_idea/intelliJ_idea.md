@@ -17,6 +17,7 @@
 - junit
 - bashsupport
 - go template
+- javafx runtime for plugin
 
 
 ## 配置
