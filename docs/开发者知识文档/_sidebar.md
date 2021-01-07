@@ -344,6 +344,7 @@
                     * [📝Hutool](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/Hutool.md)
                     * [📝guava](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/guava.md)
                 * 🗂序列化_反序列化
+                    * [📝Apache_Avro](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/Apache_Avro.md)
                     * [📝fastjson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/fastjson.md)
                     * [📝gson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/gson.md)
                 * 🗂调用Python
@@ -619,6 +620,7 @@
                 * [📝rabbitMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/02_rabbitMQ.md)
                 * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/03_kafka.md)
                 * [📝rocketMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/04_rocketMQ.md)
+                * [📝apache_confluent](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/05_apache_confluent.md)
             * 🗂缓存
                 * 🗂分布式缓存
                     * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/Hazelcast.md)
