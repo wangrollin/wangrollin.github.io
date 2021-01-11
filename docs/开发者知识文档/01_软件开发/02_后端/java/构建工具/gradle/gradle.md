@@ -1,3 +1,4 @@
-# Sometimes structure is more important than content
 
-Sometimes structure is more important than content
+## 网页
+
+- [Gradle+Groovy基础篇](https://zhuanlan.zhihu.com/p/96899139)
