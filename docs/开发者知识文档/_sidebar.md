@@ -902,6 +902,7 @@
             * [📝docker-swarm](/docs/开发者知识文档/04_CNCF/k8s组件/计算docker/docker-swarm.md)
             * [📝docker](/docs/开发者知识文档/04_CNCF/k8s组件/计算docker/docker.md)
         * 🗂部署工具
+            * [📝CloudFoundry](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/CloudFoundry.md)
             * [📝Helm](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/Helm.md)
             * [📝Knative](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/Knative.md)
             * [📝kustomize](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/kustomize.md)
