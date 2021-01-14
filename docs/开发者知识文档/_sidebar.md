@@ -501,6 +501,9 @@
                     * [📝adopt-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/adopt-openjdk.md)
                     * [📝oracle-jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/oracle-jdk.md)
                     * [📝oracle-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/oracle-openjdk.md)
+                * 🗂编译jdk
+                    * [📝Mercurial](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/编译jdk/Mercurial.md)
+                    * [📝编译jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/编译jdk/编译jdk.md)
             * 🗂jvm剖析
                 * [📝jvm内存](/docs/开发者知识文档/01_软件开发/02_后端/java/jvm剖析/jvm内存.md)
             * 🗂基础知识
@@ -526,8 +529,6 @@
                     * [📝class](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/打包形态/class.md)
                     * [📝jar](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/打包形态/jar.md)
                     * [📝war](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/打包形态/war.md)
-            * 🗂设计模式
-                * [📝设计模式](/docs/开发者知识文档/01_软件开发/02_后端/java/设计模式/设计模式.md)
         * 🗂中间件
             * 🗂API网关
                 * [📝Kong](/docs/开发者知识文档/01_软件开发/02_后端/中间件/API网关/Kong.md)
@@ -639,6 +640,11 @@
         * 🗂商业解决方案
             * 🗂云通信平台
                 * [📝twilio](/docs/开发者知识文档/01_软件开发/02_后端/商业解决方案/云通信平台/twilio.md)
+        * 🗂设计模式
+            * 🗂设计模式大全
+                * [📝发布订阅模式](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/设计模式大全/发布订阅模式.md)
+                * [📝观察者模式](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/设计模式大全/观察者模式.md)
+            * [📝设计模式总览](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/设计模式总览.md)
     * 🗂大数据平台
         * 🗂分析展示
             * [📝Jupyter](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/Jupyter.md)
@@ -802,6 +808,9 @@
         * [📝redhat](/docs/开发者知识文档/02_GNU-Linux/发行版/redhat.md)
     * 🗂系统API
         * [📝POSIX](/docs/开发者知识文档/02_GNU-Linux/系统API/POSIX.md)
+    * 🗂编译Linux
+        * [📝Linux-From-Scratch](/docs/开发者知识文档/02_GNU-Linux/编译Linux/Linux-From-Scratch.md)
+        * [📝编译ubuntu](/docs/开发者知识文档/02_GNU-Linux/编译Linux/编译ubuntu.md)
     * 🗂虚拟化技术
         * [📝LXC](/docs/开发者知识文档/02_GNU-Linux/虚拟化技术/LXC.md)
 * 🗂DevOps-CICD-测试
@@ -873,6 +882,9 @@
     * [📝CNCF概览](/docs/开发者知识文档/04_CNCF/CNCF概览.md)
     * 🗂cloud_foundry
         * [📝CloudFoundry](/docs/开发者知识文档/04_CNCF/cloud_foundry/CloudFoundry.md)
+        * [📝KubeCF](/docs/开发者知识文档/04_CNCF/cloud_foundry/KubeCF.md)
+        * [📝cf-for-k8s](/docs/开发者知识文档/04_CNCF/cloud_foundry/cf-for-k8s.md)
+        * [📝cfdev](/docs/开发者知识文档/04_CNCF/cloud_foundry/cfdev.md)
     * 🗂k8s
         * 🗂k8s发行版
             * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/Rancher_Kubernetes_Engine.md)
@@ -995,6 +1007,8 @@
     * [📝总流程概览](/docs/开发者知识文档/06_scrum/总流程概览.md)
     * [📝论市场和技术的关系](/docs/开发者知识文档/06_scrum/论市场和技术的关系.md)
     * [📝需求管理](/docs/开发者知识文档/06_scrum/需求管理.md)
+* 🗂系统设计
+    * [📝系统设计](/docs/开发者知识文档/07_系统设计/系统设计.md)
 * 🗂其他
     * 🗂SSL证书
         * [📝LetsEncrypt](/docs/开发者知识文档/99_其他/SSL证书/LetsEncrypt.md)
@@ -1034,3 +1048,4 @@
     * 🗂项目管理工具
         * [📝teambition](/docs/开发者知识文档/99_其他/项目管理工具/teambition.md)
         * [📝语雀](/docs/开发者知识文档/99_其他/项目管理工具/语雀.md)
+* [📝路线图](/docs/开发者知识文档/路线图.md)
