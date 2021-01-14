@@ -546,6 +546,7 @@
             * 🗂分布式调度与计算框架
                 * [📝PowerJob](/docs/开发者知识文档/01_软件开发/02_后端/中间件/分布式调度与计算框架/PowerJob.md)
             * 🗂安全认证
+                * [📝Kerberos](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Kerberos.md)
                 * [📝Keycloak](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Keycloak.md)
                 * [📝Okta](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Okta.md)
             * 🗂密钥存储
@@ -869,45 +870,48 @@
     * [📝codepipeline](/docs/开发者知识文档/03_DevOps-CICD-测试/codepipeline.md)
     * [📝github开发流](/docs/开发者知识文档/03_DevOps-CICD-测试/github开发流.md)
 * 🗂CNCF
-    * 🗂k8s发行版
-        * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/04_CNCF/k8s发行版/Rancher_Kubernetes_Engine.md)
-        * [📝k3s](/docs/开发者知识文档/04_CNCF/k8s发行版/k3s.md)
-        * [📝k8s](/docs/开发者知识文档/04_CNCF/k8s发行版/k8s.md)
-        * [📝microk8s](/docs/开发者知识文档/04_CNCF/k8s发行版/microk8s.md)
-        * [📝minikube](/docs/开发者知识文档/04_CNCF/k8s发行版/minikube.md)
-    * 🗂k8s组件
-        * 🗂k8s命令行工具
-            * [📝kubeadm](/docs/开发者知识文档/04_CNCF/k8s组件/k8s命令行工具/kubeadm.md)
-            * [📝kubectl](/docs/开发者知识文档/04_CNCF/k8s组件/k8s命令行工具/kubectl.md)
-        * 🗂service_mesh
-            * [📝envoy](/docs/开发者知识文档/04_CNCF/k8s组件/service_mesh/envoy.md)
-            * [📝istio](/docs/开发者知识文档/04_CNCF/k8s组件/service_mesh/istio.md)
-            * [📝linkerd](/docs/开发者知识文档/04_CNCF/k8s组件/service_mesh/linkerd.md)
-        * 🗂存储
-            * [📝longhorn](/docs/开发者知识文档/04_CNCF/k8s组件/存储/longhorn.md)
-            * [📝nfs](/docs/开发者知识文档/04_CNCF/k8s组件/存储/nfs.md)
-            * [📝storage](/docs/开发者知识文档/04_CNCF/k8s组件/存储/storage.md)
-            * [📝zfs](/docs/开发者知识文档/04_CNCF/k8s组件/存储/zfs.md)
-        * 🗂工具镜像
-            * [📝BusyBox](/docs/开发者知识文档/04_CNCF/k8s组件/工具镜像/BusyBox.md)
-        * 🗂管理界面工具
-            * [📝k8s_dashboard](/docs/开发者知识文档/04_CNCF/k8s组件/管理界面工具/k8s_dashboard.md)
-            * [📝openshift](/docs/开发者知识文档/04_CNCF/k8s组件/管理界面工具/openshift.md)
-            * [📝rancher](/docs/开发者知识文档/04_CNCF/k8s组件/管理界面工具/rancher.md)
-        * 🗂网络
-            * [📝Kube-DNS](/docs/开发者知识文档/04_CNCF/k8s组件/网络/Kube-DNS.md)
-        * 🗂计算docker
-            * [📝docker-compose](/docs/开发者知识文档/04_CNCF/k8s组件/计算docker/docker-compose.md)
-            * [📝docker-machine](/docs/开发者知识文档/04_CNCF/k8s组件/计算docker/docker-machine.md)
-            * [📝docker-swarm](/docs/开发者知识文档/04_CNCF/k8s组件/计算docker/docker-swarm.md)
-            * [📝docker](/docs/开发者知识文档/04_CNCF/k8s组件/计算docker/docker.md)
-        * 🗂部署工具
-            * [📝CloudFoundry](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/CloudFoundry.md)
-            * [📝Helm](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/Helm.md)
-            * [📝Knative](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/Knative.md)
-            * [📝kustomize](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/kustomize.md)
-            * [📝skaffold](/docs/开发者知识文档/04_CNCF/k8s组件/部署工具/skaffold.md)
-    * [📝kubernetes概览](/docs/开发者知识文档/04_CNCF/kubernetes概览.md)
+    * [📝CNCF概览](/docs/开发者知识文档/04_CNCF/CNCF概览.md)
+    * 🗂cloud_foundry
+        * [📝CloudFoundry](/docs/开发者知识文档/04_CNCF/cloud_foundry/CloudFoundry.md)
+    * 🗂k8s
+        * 🗂k8s发行版
+            * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/Rancher_Kubernetes_Engine.md)
+            * [📝k3s](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/k3s.md)
+            * [📝k8s](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/k8s.md)
+            * [📝microk8s](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/microk8s.md)
+            * [📝minikube](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/minikube.md)
+        * 🗂k8s组件
+            * 🗂k8s命令行工具
+                * [📝kubeadm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/k8s命令行工具/kubeadm.md)
+                * [📝kubectl](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/k8s命令行工具/kubectl.md)
+            * 🗂service_mesh
+                * [📝envoy](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/envoy.md)
+                * [📝istio](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/istio.md)
+                * [📝linkerd](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/linkerd.md)
+            * 🗂存储
+                * [📝longhorn](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/longhorn.md)
+                * [📝nfs](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/nfs.md)
+                * [📝storage](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/storage.md)
+                * [📝zfs](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/zfs.md)
+            * 🗂工具镜像
+                * [📝BusyBox](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/工具镜像/BusyBox.md)
+            * 🗂管理界面工具
+                * [📝k8s_dashboard](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/管理界面工具/k8s_dashboard.md)
+                * [📝openshift](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/管理界面工具/openshift.md)
+                * [📝rancher](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/管理界面工具/rancher.md)
+            * 🗂网络
+                * [📝Kube-DNS](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/网络/Kube-DNS.md)
+            * 🗂计算docker
+                * [📝docker-compose](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/计算docker/docker-compose.md)
+                * [📝docker-machine](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/计算docker/docker-machine.md)
+                * [📝docker-swarm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/计算docker/docker-swarm.md)
+                * [📝docker](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/计算docker/docker.md)
+            * 🗂部署工具
+                * [📝Helm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/Helm.md)
+                * [📝Knative](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/Knative.md)
+                * [📝kustomize](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/kustomize.md)
+                * [📝skaffold](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/skaffold.md)
+        * [📝kubernetes概览](/docs/开发者知识文档/04_CNCF/k8s/kubernetes概览.md)
 * 🗂阿里云
     * 🗂其他云
         * 🗂Cloud_Foundry
