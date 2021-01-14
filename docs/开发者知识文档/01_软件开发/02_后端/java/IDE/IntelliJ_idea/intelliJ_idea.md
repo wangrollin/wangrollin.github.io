@@ -94,3 +94,11 @@ Change VM options for importer to -Didea.maven3.use.compat.resolver
 ### 运行两个service实例
 
 在configure里勾选 allow parallel run，改改server port
+
+### IDEA运行报Command line is too long
+
+```
+修改项目下 .idea\workspace.xml，找到标签 <component name="PropertiesComponent">
+在标签里加一行  <property name="dynamic.classpath" value="true" />
+```
+
