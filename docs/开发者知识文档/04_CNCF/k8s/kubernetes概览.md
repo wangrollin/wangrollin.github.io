@@ -30,7 +30,7 @@ https://mp.weixin.qq.com/s?__biz=MzI3MTI2NzkxMA==&mid=2247486154&idx=1&sn=becd5d
 
 ## tips
 
-##### CNCF 官方大使张磊：Kubernetes 是一个“数据库”  从数据的角度看k8s
+### CNCF 官方大使张磊：Kubernetes 是一个“数据库”  从数据的角度看k8s
 
 https://my.oschina.net/u/3874284/blog/4286585
 
