@@ -763,6 +763,7 @@
         * 🗂进程通信
             * [📝进程通信](/docs/开发者知识文档/02_GNU-Linux/Linux内核模块和代码/进程通信/进程通信.md)
     * 🗂gnu自由软件
+        * [📝GNU概览](/docs/开发者知识文档/02_GNU-Linux/gnu自由软件/GNU概览.md)
         * [📝Zabbix](/docs/开发者知识文档/02_GNU-Linux/gnu自由软件/Zabbix.md)
         * [📝gnu工具](/docs/开发者知识文档/02_GNU-Linux/gnu自由软件/gnu工具.md)
         * 🗂session管理
@@ -806,11 +807,13 @@
         * [📝centos](/docs/开发者知识文档/02_GNU-Linux/发行版/centos.md)
         * [📝debian](/docs/开发者知识文档/02_GNU-Linux/发行版/debian.md)
         * [📝redhat](/docs/开发者知识文档/02_GNU-Linux/发行版/redhat.md)
+    * 🗂操作系统
+        * [📝文档列表](/docs/开发者知识文档/02_GNU-Linux/操作系统/文档列表.md)
     * 🗂系统API
         * [📝POSIX](/docs/开发者知识文档/02_GNU-Linux/系统API/POSIX.md)
+        * [📝系统调用](/docs/开发者知识文档/02_GNU-Linux/系统API/系统调用.md)
     * 🗂编译Linux
         * [📝Linux-From-Scratch](/docs/开发者知识文档/02_GNU-Linux/编译Linux/Linux-From-Scratch.md)
-        * [📝编译ubuntu](/docs/开发者知识文档/02_GNU-Linux/编译Linux/编译ubuntu.md)
     * 🗂虚拟化技术
         * [📝LXC](/docs/开发者知识文档/02_GNU-Linux/虚拟化技术/LXC.md)
 * 🗂DevOps-CICD-测试
@@ -1024,6 +1027,7 @@
     * 🗂内网穿透
         * [📝Ngrok](/docs/开发者知识文档/99_其他/内网穿透/Ngrok.md)
         * [📝frp](/docs/开发者知识文档/99_其他/内网穿透/frp.md)
+    * [📝创世纪](/docs/开发者知识文档/99_其他/创世纪.md)
     * 🗂域名管理
         * [📝域名管理](/docs/开发者知识文档/99_其他/域名管理/域名管理.md)
     * 🗂工具网站
@@ -1045,7 +1049,7 @@
         * [📝Godot](/docs/开发者知识文档/99_其他/游戏引擎/Godot.md)
     * 🗂电子签名
         * [📝docusign](/docs/开发者知识文档/99_其他/电子签名/docusign.md)
+    * [📝路线图](/docs/开发者知识文档/99_其他/路线图.md)
     * 🗂项目管理工具
         * [📝teambition](/docs/开发者知识文档/99_其他/项目管理工具/teambition.md)
         * [📝语雀](/docs/开发者知识文档/99_其他/项目管理工具/语雀.md)
-* [📝路线图](/docs/开发者知识文档/路线图.md)
