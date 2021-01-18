@@ -628,7 +628,9 @@
                 * [📝rabbitMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/02_rabbitMQ.md)
                 * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/03_kafka.md)
                 * [📝rocketMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/04_rocketMQ.md)
-                * [📝apache_confluent](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/05_apache_confluent.md)
+                * 🗂confluent
+                    * [📝ConfluentSchemaRegistry](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/ConfluentSchemaRegistry.md)
+                    * [📝apache_confluent](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/apache_confluent.md)
             * 🗂缓存
                 * 🗂分布式缓存
                     * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/Hazelcast.md)
@@ -908,6 +910,11 @@
         * [📝cf-for-k8s](/docs/开发者知识文档/04_CNCF/cloud_foundry/cf-for-k8s.md)
         * [📝cfdev](/docs/开发者知识文档/04_CNCF/cloud_foundry/cfdev.md)
     * 🗂k8s
+        * [📝Lynda_Kubernetes_Cloud_Native_Ecosystem](/docs/开发者知识文档/04_CNCF/k8s/Lynda_Kubernetes_Cloud_Native_Ecosystem.md)
+        * [📝Lynda_Kubernetes_Microservices](/docs/开发者知识文档/04_CNCF/k8s/Lynda_Kubernetes_Microservices.md)
+        * [📝Lynda_Kubernetes_for_Java_Developers](/docs/开发者知识文档/04_CNCF/k8s/Lynda_Kubernetes_for_Java_Developers.md)
+        * [📝Lynda_Learning_Azure_Kubernetes_Service-AKS](/docs/开发者知识文档/04_CNCF/k8s/Lynda_Learning_Azure_Kubernetes_Service-AKS.md)
+        * [📝Lynda_Learning_Kubernetes](/docs/开发者知识文档/04_CNCF/k8s/Lynda_Learning_Kubernetes.md)
         * 🗂k8s发行版
             * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/Rancher_Kubernetes_Engine.md)
             * [📝k3s](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/k3s.md)

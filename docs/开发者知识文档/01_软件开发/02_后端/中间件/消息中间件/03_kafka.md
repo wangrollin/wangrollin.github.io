@@ -6,23 +6,34 @@
 
 # kafka-consumer-groups
 # 查看kafka topic列表
-kafka-topics --zookeeper kafka-zookeeper-headless:2181 --list
+kafka-topics --zookeeper [kafka-zookeeper-headless:2181] --list
 
 
 # kafka-consumer-groups
 # 查看consumer group 列表
-kafka-consumer-groups --bootstrap-server kafka-broker-export:9092 --list
+kafka-consumer-groups --bootstrap-server [kafka-broker-export:9092] --list
 # 查看某个consumer group的具体信息
-kafka-consumer-groups --bootstrap-server kafka-broker-export:9092 --describe --group com.example.wechat
+kafka-consumer-groups --bootstrap-server [kafka-broker-export:9092] --describe --group com.example.wechat
 
 
 # kafka-console-consumer
 # 查看某个topic的消息
-kafka-console-consumer --bootstrap-server kafka-broker-export:9092 --topic trackTopicDEV --from-beginning
-kafka-console-consumer --bootstrap-server kafka-broker-export:9092 --topic trackTopicDEV
-
+kafka-console-consumer --bootstrap-server [kafka-broker-export:9092] --topic trackTopicDEV --from-beginning
+kafka-console-consumer --bootstrap-server [kafka-broker-export:9092] --topic trackTopicDEV
 
 ```
+
+## Q&A
+
+> 在消费之后msg会从kafka中删除吗？
+
+不会，kafka中数据的删除跟有没有消费者消费完全无关。数据的删除，只跟kafka broker的这两个配置有关：
+
+```
+log.retention.hours=48 #数据最多保存48小时
+log.retention.bytes=1073741824 #数据最多1G
+```
+
 
 # Kafka入门
 ## 什么是Kafka
