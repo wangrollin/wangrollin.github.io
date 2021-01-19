@@ -372,6 +372,8 @@
                         * [📝Lynda_SpringFramework_In_Depth](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/Lynda_SpringFramework_In_Depth.md)
                         * [📝Lynda_Spring_5.0_and_SpringBoot2.0_NewFeatures](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/Lynda_Spring_5.0_and_SpringBoot2.0_NewFeatures.md)
                         * [📝Notes_Spring5高级编程](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/Notes_Spring5高级编程.md)
+                        * 🗂spring-kafka
+                            * [📝spring-kafka](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/spring-kafka/spring-kafka.md)
                         * 🗂主要模块
                             * [📝batch](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/batch.md)
                             * [📝cloud](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/cloud.md)

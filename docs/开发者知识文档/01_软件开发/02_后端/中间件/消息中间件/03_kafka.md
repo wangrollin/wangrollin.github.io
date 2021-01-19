@@ -6,21 +6,58 @@
 
 # kafka-consumer-groups
 # 查看kafka topic列表
-kafka-topics --zookeeper [kafka-zookeeper-headless:2181] --list
-
+docker-compose exec broker kafka-topics --bootstrap-server localhost:9092 --list
+docker-compose exec broker kafka-topics --zookeeper localhost:2181 --list
+kafka-topics --zookeeper localhost:2181 --list
 
 # kafka-consumer-groups
 # 查看consumer group 列表
-kafka-consumer-groups --bootstrap-server [kafka-broker-export:9092] --list
+docker-compose exec broker kafka-consumer-groups --bootstrap-server localhost:9092 --list
+kafka-consumer-groups --bootstrap-server localhost:9092 --list
 # 查看某个consumer group的具体信息
-kafka-consumer-groups --bootstrap-server [kafka-broker-export:9092] --describe --group com.example.wechat
+docker-compose exec broker kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group fooGroup
+kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group fooGroup
 
 
 # kafka-console-consumer
 # 查看某个topic的消息
-kafka-console-consumer --bootstrap-server [kafka-broker-export:9092] --topic trackTopicDEV --from-beginning
-kafka-console-consumer --bootstrap-server [kafka-broker-export:9092] --topic trackTopicDEV
+docker-compose exec broker kafka-console-consumer \
+  --bootstrap-server localhost:9092 \
+  --topic \
+  users \
+  --from-beginning
+  
+docker-compose exec broker kafka-console-consumer \
+  --bootstrap-server localhost:9092 \
+  --topic \
+  avroUsers \
+  --from-beginning
 
+kafka-console-consumer \
+  --bootstrap-server [kafka-broker-export:9092] \
+  --topic \
+  trackTopicDEV \
+  --from-beginning
+
+kafka-console-consumer \
+  --bootstrap-server [kafka-broker-export:9092] \
+  --topic \
+  trackTopicDEV
+
+# 创建topic
+kafka-topics \
+  --create \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 1 \
+  --topic users
+
+docker-compose exec broker kafka-topics \
+  --create \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 1 \
+  --topic avroUsers
 ```
 
 ## Q&A
