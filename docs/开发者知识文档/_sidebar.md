@@ -344,7 +344,6 @@
                     * [📝Hutool](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/Hutool.md)
                     * [📝guava](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/guava.md)
                 * 🗂序列化_反序列化
-                    * [📝Apache_Avro](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/Apache_Avro.md)
                     * [📝fastjson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/fastjson.md)
                     * [📝gson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/gson.md)
                 * 🗂调用Python
@@ -414,8 +413,6 @@
                     * [📝swagger](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/restful框架/swagger.md)
                 * 🗂rpc框架
                     * [📝dubbo](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/rpc框架/dubbo.md)
-                    * [📝grpc](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/rpc框架/grpc.md)
-                    * [📝protobuf](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/rpc框架/protobuf.md)
                 * 🗂yaml密码加密框架
                     * [📝druid](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/yaml密码加密框架/druid.md)
                     * [📝jasypt](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/yaml密码加密框架/jasypt.md)
@@ -550,6 +547,9 @@
                 * 🗂全功能JakartaEE标准服务器
                     * [📝GlassFish](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/全功能JakartaEE标准服务器/GlassFish.md)
                     * [📝WildFly_JBoss](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/全功能JakartaEE标准服务器/WildFly_JBoss.md)
+            * 🗂RPC框架
+                * [📝Thrift](/docs/开发者知识文档/01_软件开发/02_后端/中间件/RPC框架/Thrift.md)
+                * [📝grpc](/docs/开发者知识文档/01_软件开发/02_后端/中间件/RPC框架/grpc.md)
             * 🗂web服务器
                 * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/web服务器/nginx.md)
             * 🗂分布式调度与计算框架
@@ -560,6 +560,10 @@
                 * [📝Okta](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Okta.md)
             * 🗂密钥存储
                 * [📝vault_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/密钥存储/vault_by_Hashicorp.md)
+            * 🗂序列化
+                * [📝Apache_Avro](/docs/开发者知识文档/01_软件开发/02_后端/中间件/序列化/Apache_Avro.md)
+                * [📝JSON_Schema](/docs/开发者知识文档/01_软件开发/02_后端/中间件/序列化/JSON_Schema.md)
+                * [📝protobuf](/docs/开发者知识文档/01_软件开发/02_后端/中间件/序列化/protobuf.md)
             * 🗂待分类_by_redHat
                 * 🗂redhat_middleware
                     * [📝quarkus](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类_by_redHat/redhat_middleware/quarkus.md)
