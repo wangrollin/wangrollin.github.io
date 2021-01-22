@@ -102,3 +102,6 @@ Change VM options for importer to -Didea.maven3.use.compat.resolver
 在标签里加一行  <property name="dynamic.classpath" value="true" />
 ```
 
+### 在shell用mvn编译正常，IDEA一直报错
+
+可能别人把`.idea`和`.iml`的文件提交了，删掉再来即可
