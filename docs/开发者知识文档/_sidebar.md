@@ -166,6 +166,7 @@
                         * [📝Lynda_Vue.js_Essential_Training](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/Lynda_Vue.js_Essential_Training.md)
                         * [📝Vuelidate](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/Vuelidate.md)
                         * [📝nuxt](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/nuxt.md)
+                        * [📝vite](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vite.md)
                         * [📝vue-router](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vue-router.md)
                         * 🗂vue_core
                             * [📝vue3-composition-api](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vue_core/vue3-composition-api.md)
@@ -174,10 +175,10 @@
                         * [📝vuetify](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vuetify.md)
                         * [📝vuex](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/vuex.md)
                         * 🗂基于vue的库和框架
+                            * [📝element_plus](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/element_plus.md)
                             * [📝微信小程序Vant_Weapp](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/微信小程序Vant_Weapp.md)
                             * [📝微信小程序mpx](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/微信小程序mpx.md)
                             * [📝微信小程序wux_weapp](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/微信小程序wux_weapp.md)
-                            * [📝桌面端element](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/桌面端element.md)
                             * [📝移动端vant](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/移动端vant.md)
                 * 🗂测试框架
                     * [📝Jasmine](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/框架/测试框架/Jasmine.md)
@@ -492,6 +493,7 @@
                     * 🗂java_api
                         * [📝HashMap相关](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/HashMap相关.md)
                         * [📝core_java](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/core_java.md)
+                        * [📝异常类体系](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/异常类体系.md)
                     * 🗂jvm
                         * [📝Notes_深入理解java虚拟机](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/Notes_深入理解java虚拟机.md)
                         * [📝jvm内存](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/jvm内存.md)
@@ -522,6 +524,7 @@
                 * [📝Notes_Java并发编程实战](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/Notes_Java并发编程实战.md)
                 * [📝多线程](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/多线程.md)
                 * [📝相关方法](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/相关方法.md)
+                * [📝线程池](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/线程池.md)
             * 🗂构建工具
                 * 🗂ant
                     * [📝ant](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/ant/ant.md)
@@ -585,7 +588,9 @@
                         * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/MySQL存储位置迁移.md)
                         * [📝PostgreSQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/PostgreSQL.md)
                         * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/h2.md)
-                        * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/mysql.md)
+                        * 🗂mysql
+                            * [📝innoDb引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/mysql/innoDb引擎.md)
+                            * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/mysql/mysql.md)
                         * [📝sqlite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/sqlite.md)
                     * [📝db2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/db2.md)
                     * [📝oceanDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/oceanDB.md)
@@ -632,14 +637,21 @@
                 * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册和发现/Consul_by_Hashicorp.md)
                 * [📝zookeeper](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册和发现/zookeeper.md)
             * 🗂消息中间件
-                * [📝消息中间件概述](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/00_消息中间件概述.md)
-                * [📝activemq](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/01_activemq.md)
-                * [📝rabbitMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/02_rabbitMQ.md)
-                * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/03_kafka.md)
-                * [📝rocketMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/04_rocketMQ.md)
+                * [📝AMQP协议](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/AMQP协议.md)
+                * 🗂ZeroMQ
+                    * [📝ZeroMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/ZeroMQ/ZeroMQ.md)
+                * 🗂activemq
+                    * [📝activemq](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/activemq/01_activemq.md)
                 * 🗂confluent
                     * [📝ConfluentSchemaRegistry](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/ConfluentSchemaRegistry.md)
                     * [📝apache_confluent](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/apache_confluent.md)
+                * 🗂kafka
+                    * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/kafka/03_kafka.md)
+                * 🗂rabbitMQ
+                    * [📝rabbitMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/rabbitMQ/02_rabbitMQ.md)
+                * 🗂rocketMQ
+                    * [📝rocketMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/rocketMQ/04_rocketMQ.md)
+                * [📝消息中间件概述](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/消息中间件概述.md)
             * 🗂缓存
                 * 🗂分布式缓存
                     * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/Hazelcast.md)
