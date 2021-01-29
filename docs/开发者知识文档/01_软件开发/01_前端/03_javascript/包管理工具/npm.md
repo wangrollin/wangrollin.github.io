@@ -11,6 +11,7 @@ npm包：可能是模块(npm install)，也可能是可执行文件（使用npm 
 npm list -g --depth 0
 npm outdated -g --depth 0
 npm update -g xxx
+npm install -g npm@6.14.11
 
 # 初始化
 npm init # 会自动去node_modules目录下，把相关模块自动加进来
