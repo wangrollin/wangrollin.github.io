@@ -47,8 +47,10 @@
             * [📝CNN](/docs/开发者知识文档/00_CS基础/机器学习深度学习/深度学习/CNN.md)
             * [📝RNN](/docs/开发者知识文档/00_CS基础/机器学习深度学习/深度学习/RNN.md)
     * 🗂算法
+        * [📝一致性Hash](/docs/开发者知识文档/00_CS基础/算法/一致性Hash.md)
         * [📝动态规划DP](/docs/开发者知识文档/00_CS基础/算法/动态规划DP.md)
         * [📝图算法](/docs/开发者知识文档/00_CS基础/算法/图算法.md)
+        * [📝布隆过滤器](/docs/开发者知识文档/00_CS基础/算法/布隆过滤器.md)
         * [📝推荐算法](/docs/开发者知识文档/00_CS基础/算法/推荐算法.md)
         * [📝数据挖掘](/docs/开发者知识文档/00_CS基础/算法/数据挖掘.md)
     * 🗂编程范式
@@ -310,9 +312,6 @@
         * 🗂常见问题
             * [📝网站小图标](/docs/开发者知识文档/01_软件开发/01_前端/常见问题/网站小图标.md)
     * 🗂后端
-        * 🗂JHipster
-            * [📝jHipster](/docs/开发者知识文档/01_软件开发/02_后端/JHipster/jHipster.md)
-            * [📝jhipster-devbox](/docs/开发者知识文档/01_软件开发/02_后端/JHipster/jhipster-devbox.md)
         * 🗂java
             * 🗂A_JavaApi
                 * 🗂时间
@@ -440,6 +439,14 @@
                     * 🗂redis框架
                         * [📝Jedis](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/redis框架/Jedis.md)
                         * [📝Redisson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/redis框架/Redisson.md)
+                    * 🗂连接池框架
+                        * [📝BoneCP](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/BoneCP.md)
+                        * [📝C3P0](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/C3P0.md)
+                        * [📝DBCP](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/DBCP.md)
+                        * [📝Druid](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/Druid.md)
+                        * [📝HikariCP](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/HikariCP.md)
+                        * [📝Tomcat-Jdbc-Pool](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/Tomcat-Jdbc-Pool.md)
+                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/总览.md)
                 * 🗂日志框架
                     * 🗂logs
                         * [📝jdkLog](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/logs/jdkLog.md)
@@ -491,6 +498,7 @@
             * 🗂jdk
                 * 🗂jre
                     * 🗂java_api
+                        * [📝CAS](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/CAS.md)
                         * [📝HashMap相关](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/HashMap相关.md)
                         * [📝core_java](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/core_java.md)
                         * [📝异常类体系](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/异常类体系.md)
@@ -559,16 +567,84 @@
                 * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/web服务器/nginx.md)
             * 🗂分布式调度与计算框架
                 * [📝PowerJob](/docs/开发者知识文档/01_软件开发/02_后端/中间件/分布式调度与计算框架/PowerJob.md)
+            * 🗂存储
+                * 🗂keyvalue存储
+                    * [📝minikeyvalue](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/keyvalue存储/minikeyvalue.md)
+                * 🗂密钥存储
+                    * [📝vault_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/密钥存储/vault_by_Hashicorp.md)
+                * 🗂数据库相关
+                    * 🗂数据库产品
+                        * 🗂NoSQL数据库
+                            * [📝Cassandra](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/Cassandra.md)
+                            * [📝Couchbase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/Couchbase.md)
+                            * [📝mongodb](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/mongodb.md)
+                        * 🗂SQL数据库
+                            * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/MySQL存储位置迁移.md)
+                            * [📝PostgreSQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/PostgreSQL.md)
+                            * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/h2.md)
+                            * 🗂mysql
+                                * 🗂MySql存储引擎
+                                    * [📝MEMORY存储引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/mysql/MySql存储引擎/MEMORY存储引擎.md)
+                                    * [📝MERGE存储引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/mysql/MySql存储引擎/MERGE存储引擎.md)
+                                    * [📝MyISAM存储引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/mysql/MySql存储引擎/MyISAM存储引擎.md)
+                                    * [📝innoDb存储引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/mysql/MySql存储引擎/innoDb存储引擎.md)
+                                    * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/mysql/MySql存储引擎/总览.md)
+                                * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/mysql/mysql.md)
+                            * [📝sqlite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/sqlite.md)
+                        * [📝db2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/db2.md)
+                        * [📝oceanDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/oceanDB.md)
+                        * 🗂图形数据库
+                            * [📝GraphQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/图形数据库/GraphQL.md)
+                            * [📝Neo4j](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/图形数据库/Neo4j.md)
+                    * [📝数据库理论](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库理论.md)
+                    * 🗂数据库迁移
+                        * [📝flyway](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库迁移/flyway.md)
+                        * [📝liquibase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库迁移/liquibase.md)
+                    * 🗂数据库锁
+                        * [📝乐观锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库锁/乐观锁.md)
+                        * [📝互斥锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库锁/互斥锁.md)
+                        * [📝悲观锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库锁/悲观锁.md)
+                        * [📝自旋锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库锁/自旋锁.md)
+                        * [📝读写锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库锁/读写锁.md)
+                    * 🗂数据库集群
+                        * 🗂主从读写分离-负载平衡
+                            * 🗂mysql
+                                * [📝Atlas](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/Atlas.md)
+                                * [📝MaxScale](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MaxScale.md)
+                                * [📝MyCat](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MyCat.md)
+                                * [📝mysql-proxy](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/mysql-proxy.md)
+                                * [📝proxysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/proxysql.md)
+                            * 🗂postgresql
+                                * [📝Pgpool](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/Pgpool.md)
+                                * [📝PlProxy](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/PlProxy.md)
+                        * 🗂分库分表
+                            * [📝ShardingSphere](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库集群/分库分表/ShardingSphere.md)
+                * 🗂缓存
+                    * 🗂分布式缓存
+                        * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/分布式缓存/Hazelcast.md)
+                        * [📝infinispan](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/分布式缓存/infinispan.md)
+                        * [📝memcache](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/分布式缓存/memcache.md)
+                        * 🗂redis
+                            * 🗂Redis高可用
+                                * [📝高可用](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/分布式缓存/redis/Redis高可用/高可用.md)
+                            * [📝redis](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/分布式缓存/redis/redis.md)
+                    * 🗂本地缓存
+                        * [📝caffeine](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/本地缓存/caffeine.md)
+                        * [📝ehcache](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/本地缓存/ehcache.md)
+                    * 🗂缓存理论
+                        * [📝缓存常见问题](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/缓存/缓存理论/缓存常见问题.md)
             * 🗂安全认证
                 * [📝Kerberos](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Kerberos.md)
                 * [📝Keycloak](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Keycloak.md)
                 * [📝Okta](/docs/开发者知识文档/01_软件开发/02_后端/中间件/安全认证/Okta.md)
-            * 🗂密钥存储
-                * [📝vault_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/密钥存储/vault_by_Hashicorp.md)
             * 🗂序列化
                 * [📝Apache_Avro](/docs/开发者知识文档/01_软件开发/02_后端/中间件/序列化/Apache_Avro.md)
                 * [📝JSON_Schema](/docs/开发者知识文档/01_软件开发/02_后端/中间件/序列化/JSON_Schema.md)
                 * [📝protobuf](/docs/开发者知识文档/01_软件开发/02_后端/中间件/序列化/protobuf.md)
+            * 🗂开发脚手架
+                * 🗂JHipster
+                    * [📝jHipster](/docs/开发者知识文档/01_软件开发/02_后端/中间件/开发脚手架/JHipster/jHipster.md)
+                    * [📝jhipster-devbox](/docs/开发者知识文档/01_软件开发/02_后端/中间件/开发脚手架/JHipster/jhipster-devbox.md)
             * 🗂待分类_by_redHat
                 * 🗂redhat_middleware
                     * [📝quarkus](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类_by_redHat/redhat_middleware/quarkus.md)
@@ -578,48 +654,6 @@
                 * [📝packer_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/packer_by_Hashicorp.md)
                 * [📝terraform_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/terraform_by_Hashicorp.md)
                 * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/vagrant_by_Hashicorp.md)
-            * 🗂数据库相关
-                * 🗂数据库产品
-                    * 🗂NoSQL数据库
-                        * [📝Cassandra](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/NoSQL数据库/Cassandra.md)
-                        * [📝Couchbase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/NoSQL数据库/Couchbase.md)
-                        * [📝mongodb](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/NoSQL数据库/mongodb.md)
-                    * 🗂SQL数据库
-                        * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/MySQL存储位置迁移.md)
-                        * [📝PostgreSQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/PostgreSQL.md)
-                        * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/h2.md)
-                        * 🗂mysql
-                            * [📝innoDb引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/mysql/innoDb引擎.md)
-                            * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/mysql/mysql.md)
-                        * [📝sqlite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/SQL数据库/sqlite.md)
-                    * [📝db2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/db2.md)
-                    * [📝oceanDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/oceanDB.md)
-                    * 🗂图形数据库
-                        * [📝GraphQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/图形数据库/GraphQL.md)
-                        * [📝Neo4j](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库产品/图形数据库/Neo4j.md)
-                * [📝数据库理论](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库理论.md)
-                * 🗂数据库迁移
-                    * [📝flyway](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库迁移/flyway.md)
-                    * [📝liquibase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库迁移/liquibase.md)
-                * 🗂数据库锁
-                    * [📝乐观锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库锁/乐观锁.md)
-                    * [📝互斥锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库锁/互斥锁.md)
-                    * [📝悲观锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库锁/悲观锁.md)
-                    * [📝自旋锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库锁/自旋锁.md)
-                    * [📝读写锁](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库锁/读写锁.md)
-                * 🗂数据库集群
-                    * 🗂主从读写分离-负载平衡
-                        * 🗂mysql
-                            * [📝Atlas](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/Atlas.md)
-                            * [📝MaxScale](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MaxScale.md)
-                            * [📝MyCat](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MyCat.md)
-                            * [📝mysql-proxy](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/mysql-proxy.md)
-                            * [📝proxysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/proxysql.md)
-                        * 🗂postgresql
-                            * [📝Pgpool](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/Pgpool.md)
-                            * [📝PlProxy](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/PlProxy.md)
-                    * 🗂分库分表
-                        * [📝ShardingSphere](/docs/开发者知识文档/01_软件开发/02_后端/中间件/数据库相关/数据库集群/分库分表/ShardingSphere.md)
             * 🗂日志
                 * 🗂展示
                     * [📝Graphite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/展示/Graphite.md)
@@ -652,15 +686,6 @@
                 * 🗂rocketMQ
                     * [📝rocketMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/rocketMQ/04_rocketMQ.md)
                 * [📝消息中间件概述](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/消息中间件概述.md)
-            * 🗂缓存
-                * 🗂分布式缓存
-                    * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/Hazelcast.md)
-                    * [📝infinispan](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/infinispan.md)
-                    * [📝memcache](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/memcache.md)
-                    * [📝redis](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/分布式缓存/redis.md)
-                * 🗂本地缓存
-                    * [📝caffeine](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/本地缓存/caffeine.md)
-                    * [📝ehcache](/docs/开发者知识文档/01_软件开发/02_后端/中间件/缓存/本地缓存/ehcache.md)
             * 🗂负载均衡
                 * [📝f5](/docs/开发者知识文档/01_软件开发/02_后端/中间件/负载均衡/f5.md)
                 * [📝lvs](/docs/开发者知识文档/01_软件开发/02_后端/中间件/负载均衡/lvs.md)
@@ -709,6 +734,7 @@
         * 🗂DB层
             * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/01_软件开发/03_大数据平台/3_DB层/Lynda_HBase_Essential_Training.md)
             * [📝hbase](/docs/开发者知识文档/01_软件开发/03_大数据平台/3_DB层/hbase.md)
+            * [📝lsm-tree](/docs/开发者知识文档/01_软件开发/03_大数据平台/3_DB层/lsm-tree.md)
             * [📝phoenix](/docs/开发者知识文档/01_软件开发/03_大数据平台/3_DB层/phoenix.md)
         * 🗂文件系统层
             * [📝hdfs](/docs/开发者知识文档/01_软件开发/03_大数据平台/4_文件系统层/hdfs.md)
