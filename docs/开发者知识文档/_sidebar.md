@@ -9,6 +9,19 @@
         * [📝openCL](/docs/开发者知识文档/00_CS基础/图形学/openCL.md)
         * [📝openCV](/docs/开发者知识文档/00_CS基础/图形学/openCV.md)
         * [📝openGL](/docs/开发者知识文档/00_CS基础/图形学/openGL.md)
+    * 🗂并发编程
+        * 🗂锁
+            * [📝乐观锁](/docs/开发者知识文档/00_CS基础/并发编程/锁/乐观锁.md)
+            * [📝互斥锁](/docs/开发者知识文档/00_CS基础/并发编程/锁/互斥锁.md)
+            * [📝总览](/docs/开发者知识文档/00_CS基础/并发编程/锁/总览.md)
+            * [📝悲观锁](/docs/开发者知识文档/00_CS基础/并发编程/锁/悲观锁.md)
+            * [📝自旋锁](/docs/开发者知识文档/00_CS基础/并发编程/锁/自旋锁.md)
+            * [📝读写锁](/docs/开发者知识文档/00_CS基础/并发编程/锁/读写锁.md)
+        * 🗂高性能IO
+            * [📝AIO](/docs/开发者知识文档/00_CS基础/并发编程/高性能IO/AIO.md)
+            * [📝BIO](/docs/开发者知识文档/00_CS基础/并发编程/高性能IO/BIO.md)
+            * [📝NIO](/docs/开发者知识文档/00_CS基础/并发编程/高性能IO/NIO.md)
+            * [📝总览](/docs/开发者知识文档/00_CS基础/并发编程/高性能IO/总览.md)
     * 🗂操作系统
         * 🗂OS
             * [📝通用操作系统](/docs/开发者知识文档/00_CS基础/操作系统/OS/通用操作系统.md)
@@ -31,8 +44,8 @@
             * [📝二叉平衡树](/docs/开发者知识文档/00_CS基础/数据结构/树/二叉平衡树.md)
             * [📝二叉搜索树](/docs/开发者知识文档/00_CS基础/数据结构/树/二叉搜索树.md)
             * [📝二叉树](/docs/开发者知识文档/00_CS基础/数据结构/树/二叉树.md)
-            * [📝最大堆](/docs/开发者知识文档/00_CS基础/数据结构/树/最大堆.md)
-            * [📝最小堆](/docs/开发者知识文档/00_CS基础/数据结构/树/最小堆.md)
+            * 🗂优先队列
+                * [📝最大最小堆](/docs/开发者知识文档/00_CS基础/数据结构/树/优先队列/最大最小堆.md)
             * [📝红黑树](/docs/开发者知识文档/00_CS基础/数据结构/树/红黑树.md)
         * 🗂链表
             * [📝双向链表](/docs/开发者知识文档/00_CS基础/数据结构/链表/双向链表.md)
@@ -51,6 +64,10 @@
         * [📝动态规划DP](/docs/开发者知识文档/00_CS基础/算法/动态规划DP.md)
         * [📝图算法](/docs/开发者知识文档/00_CS基础/算法/图算法.md)
         * [📝布隆过滤器](/docs/开发者知识文档/00_CS基础/算法/布隆过滤器.md)
+        * 🗂排序
+            * [📝冒泡排序](/docs/开发者知识文档/00_CS基础/算法/排序/冒泡排序.md)
+            * [📝归并排序](/docs/开发者知识文档/00_CS基础/算法/排序/归并排序.md)
+            * [📝快速排序](/docs/开发者知识文档/00_CS基础/算法/排序/快速排序.md)
         * [📝推荐算法](/docs/开发者知识文档/00_CS基础/算法/推荐算法.md)
         * [📝数据挖掘](/docs/开发者知识文档/00_CS基础/算法/数据挖掘.md)
     * 🗂编程范式
@@ -498,6 +515,7 @@
             * 🗂jdk
                 * 🗂jre
                     * 🗂java_api
+                        * [📝BlockingQueue](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/BlockingQueue.md)
                         * [📝CAS](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/CAS.md)
                         * [📝HashMap相关](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/HashMap相关.md)
                         * [📝core_java](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/core_java.md)
@@ -506,6 +524,8 @@
                         * [📝Notes_深入理解java虚拟机](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/Notes_深入理解java虚拟机.md)
                         * [📝jvm内存](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/jvm内存.md)
                         * [📝双亲委派类加载机制](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/双亲委派类加载机制.md)
+                        * 🗂垃圾回收
+                            * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/垃圾回收/总览.md)
                 * 🗂jdk-tools
                     * [📝JMap](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/JMap.md)
                     * [📝JStack](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/JStack.md)
@@ -678,6 +698,7 @@
                     * [📝activemq](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/activemq/01_activemq.md)
                 * 🗂confluent
                     * [📝ConfluentSchemaRegistry](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/ConfluentSchemaRegistry.md)
+                    * [📝Kafka-Schema-Registry](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/Kafka-Schema-Registry.md)
                     * [📝apache_confluent](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/apache_confluent.md)
                 * 🗂kafka
                     * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/kafka/03_kafka.md)
@@ -875,6 +896,7 @@
             * [📝ruby](/docs/开发者知识文档/02_GNU-Linux/其他语言/ruby/ruby.md)
     * 🗂包管理工具
         * [📝apt-get](/docs/开发者知识文档/02_GNU-Linux/包管理工具/apt-get.md)
+        * [📝sdkman](/docs/开发者知识文档/02_GNU-Linux/包管理工具/sdkman.md)
         * [📝snap](/docs/开发者知识文档/02_GNU-Linux/包管理工具/snap.md)
         * [📝yum](/docs/开发者知识文档/02_GNU-Linux/包管理工具/yum.md)
     * 🗂操作系统知识
