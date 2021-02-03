@@ -68,6 +68,7 @@
             * [📝冒泡排序](/docs/开发者知识文档/00_CS基础/算法/排序/冒泡排序.md)
             * [📝归并排序](/docs/开发者知识文档/00_CS基础/算法/排序/归并排序.md)
             * [📝快速排序](/docs/开发者知识文档/00_CS基础/算法/排序/快速排序.md)
+            * [📝插入排序](/docs/开发者知识文档/00_CS基础/算法/排序/插入排序.md)
         * [📝推荐算法](/docs/开发者知识文档/00_CS基础/算法/推荐算法.md)
         * [📝数据挖掘](/docs/开发者知识文档/00_CS基础/算法/数据挖掘.md)
     * 🗂编程范式
@@ -332,175 +333,223 @@
             * [📝网站小图标](/docs/开发者知识文档/01_软件开发/01_前端/常见问题/网站小图标.md)
     * 🗂后端
         * 🗂java
-            * 🗂A_JavaApi
-                * 🗂时间
-                    * [📝Clock](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/Clock.md)
-                    * [📝Duration](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/Duration.md)
-                    * [📝Instant](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/Instant.md)
-                    * [📝LocalDate](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/LocalDate.md)
-                    * [📝LocalDateTime](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/LocalDateTime.md)
-                    * [📝LocalTime](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/LocalTime.md)
-                    * [📝Period](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/Period.md)
-                    * [📝ZoneId](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/ZoneId.md)
-                    * 🗂旧的
-                        * [📝Calendar](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/旧的/Calendar.md)
-                        * [📝Date](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/旧的/Date.md)
-                        * [📝DateFormat](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/旧的/DateFormat.md)
-                        * [📝SimpleDateFormat](/docs/开发者知识文档/01_软件开发/02_后端/java/A_JavaApi/时间/旧的/SimpleDateFormat.md)
-            * 🗂A_工具库
-                * [📝glassfish](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/glassfish.md)
+            * 🗂JDK
+                * 🗂JDK-Tools
+                    * [📝JMap](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/JMap.md)
+                    * [📝JStack](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/JStack.md)
+                    * [📝jconsole](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jconsole.md)
+                    * [📝jps](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jps.md)
+                    * [📝visualVM](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/visualVM.md)
+                    * [📝命令行运行java](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/命令行运行java.md)
+                * 🗂JVM
+                    * [📝Notes_深入理解java虚拟机](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/Notes_深入理解java虚拟机.md)
+                    * [📝jvm内存](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/jvm内存.md)
+                    * [📝双亲委派类加载机制](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/双亲委派类加载机制.md)
+                    * 🗂垃圾回收
+                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/垃圾回收/总览.md)
+                * 🗂发行版
+                    * [📝adopt-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/发行版/adopt-openjdk.md)
+                    * [📝oracle-jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/发行版/oracle-jdk.md)
+                    * [📝oracle-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/发行版/oracle-openjdk.md)
+                * 🗂编译jdk
+                    * [📝Mercurial](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/编译jdk/Mercurial.md)
+                    * [📝编译jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/编译jdk/编译jdk.md)
+            * 🗂Java语法
+                * [📝Java11](/docs/开发者知识文档/01_软件开发/02_后端/java/02_Java语法/Java11.md)
+                * [📝Java8](/docs/开发者知识文档/01_软件开发/02_后端/java/02_Java语法/Java8.md)
+                * [📝Java语法](/docs/开发者知识文档/01_软件开发/02_后端/java/02_Java语法/Java语法.md)
+            * 🗂Java_API
+                * 🗂Jakarta_EE
+                    * [📝jakarta_ee](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Jakarta_EE/jakarta_ee.md)
+                * 🗂Java_SE
+                    * 🗂SPI
+                        * [📝spi](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/SPI/spi.md)
+                    * 🗂并发
+                        * [📝CAS](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/CAS.md)
+                        * [📝CompletableFuture](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/CompletableFuture.md)
+                        * [📝Notes_Java并发编程实战](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/Notes_Java并发编程实战.md)
+                        * [📝多线程](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/多线程.md)
+                        * [📝相关方法](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/相关方法.md)
+                        * [📝线程池](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/线程池.md)
+                    * 🗂异常
+                        * [📝异常类体系](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/异常/异常类体系.md)
+                    * 🗂时间
+                        * [📝Clock](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/Clock.md)
+                        * [📝Duration](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/Duration.md)
+                        * [📝Instant](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/Instant.md)
+                        * [📝LocalDate](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/LocalDate.md)
+                        * [📝LocalDateTime](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/LocalDateTime.md)
+                        * [📝LocalTime](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/LocalTime.md)
+                        * [📝Period](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/Period.md)
+                        * [📝ZoneId](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/ZoneId.md)
+                        * 🗂旧的
+                            * [📝Calendar](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/旧的/Calendar.md)
+                            * [📝Date](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/旧的/Date.md)
+                            * [📝DateFormat](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/旧的/DateFormat.md)
+                            * [📝SimpleDateFormat](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/时间/旧的/SimpleDateFormat.md)
+                    * 🗂集合
+                        * [📝BlockingQueue](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/集合/BlockingQueue.md)
+                        * [📝HashMap相关](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/集合/HashMap相关.md)
+            * 🗂工具库
+                * [📝glassfish](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/glassfish.md)
+                * 🗂java.lang包扩展
+                    * [📝commons-lang3](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/java.lang包扩展/commons-lang3.md)
                 * 🗂object_mapper转换
-                    * [📝Dozer](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/Dozer.md)
-                    * [📝JMapper](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/JMapper.md)
-                    * [📝MapStruct](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/MapStruct.md)
-                    * [📝ModelMapper](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/ModelMapper.md)
-                    * [📝Orika](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/Orika.md)
-                    * [📝jackson-databind](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/object_mapper转换/jackson-databind.md)
+                    * [📝Dozer](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/Dozer.md)
+                    * [📝JMapper](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/JMapper.md)
+                    * [📝MapStruct](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/MapStruct.md)
+                    * [📝ModelMapper](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/ModelMapper.md)
+                    * [📝Orika](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/Orika.md)
+                    * [📝jackson-databind](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/jackson-databind.md)
                 * 🗂xml处理工具
-                    * [📝fastXml](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/xml处理工具/fastXml.md)
+                    * [📝fastXml](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/xml处理工具/fastXml.md)
                 * 🗂函数式编程
-                    * [📝Vavr](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/函数式编程/Vavr.md)
+                    * [📝Vavr](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/函数式编程/Vavr.md)
+                * 🗂反射
+                    * [📝commons-beanutils](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/反射/commons-beanutils.md)
                 * 🗂工具箱
-                    * [📝Hutool](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/Hutool.md)
-                    * [📝guava](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/工具箱/guava.md)
+                    * [📝Hutool](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/工具箱/Hutool.md)
+                    * [📝guava](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/工具箱/guava.md)
                 * 🗂序列化_反序列化
-                    * [📝fastjson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/fastjson.md)
-                    * [📝gson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/序列化_反序列化/gson.md)
+                    * [📝fastjson](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/序列化_反序列化/fastjson.md)
+                    * [📝gson](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/序列化_反序列化/gson.md)
                 * 🗂调用Python
-                    * [📝java调python](/docs/开发者知识文档/01_软件开发/02_后端/java/A_工具库/调用Python/java调python.md)
-            * 🗂A_框架
+                    * [📝java调python](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/调用Python/java调python.md)
+            * 🗂框架
                 * 🗂spring全家桶
                     * 🗂SpringSecurity
-                        * [📝springSecurity](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/SpringSecurity/springSecurity.md)
+                        * [📝springSecurity](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/SpringSecurity/springSecurity.md)
                     * 🗂springBoot
                         * 🗂spring-boot-starter-web
-                            * [📝RestTemplate](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springBoot/spring-boot-starter-web/RestTemplate.md)
-                            * [📝springmvc](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springBoot/spring-boot-starter-web/springmvc.md)
+                            * [📝RestTemplate](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/spring-boot-starter-web/RestTemplate.md)
+                            * [📝springmvc](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/spring-boot-starter-web/springmvc.md)
                         * 🗂spring-boot-starter-webflux
-                            * [📝WebClient](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springBoot/spring-boot-starter-webflux/WebClient.md)
-                        * [📝springboot](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springBoot/springboot.md)
-                        * [📝springboot热加载](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springBoot/springboot热加载.md)
+                            * [📝WebClient](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/spring-boot-starter-webflux/WebClient.md)
+                        * [📝springboot](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/springboot.md)
+                        * [📝springboot热加载](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/springboot热加载.md)
                     * 🗂springCloudDataFlow
-                        * [📝springCloudDataFlow](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springCloudDataFlow/springCloudDataFlow.md)
+                        * [📝springCloudDataFlow](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springCloudDataFlow/springCloudDataFlow.md)
                     * 🗂springData
-                        * [📝Spring_Data_Jest](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springData/Spring_Data_Jest.md)
-                        * [📝springDataJpa](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springData/springDataJpa.md)
-                        * [📝springdata](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springData/springdata.md)
+                        * [📝Spring_Data_Jest](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springData/Spring_Data_Jest.md)
+                        * [📝springDataJpa](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springData/springDataJpa.md)
+                        * [📝springdata](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springData/springdata.md)
                     * 🗂springFramework
-                        * [📝Lynda_Learning_Spring_with_SpringBoot](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/Lynda_Learning_Spring_with_SpringBoot.md)
-                        * [📝Lynda_SpringFramework_In_Depth](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/Lynda_SpringFramework_In_Depth.md)
-                        * [📝Lynda_Spring_5.0_and_SpringBoot2.0_NewFeatures](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/Lynda_Spring_5.0_and_SpringBoot2.0_NewFeatures.md)
-                        * [📝Notes_Spring5高级编程](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/Notes_Spring5高级编程.md)
+                        * [📝Lynda_Learning_Spring_with_SpringBoot](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/Lynda_Learning_Spring_with_SpringBoot.md)
+                        * [📝Lynda_SpringFramework_In_Depth](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/Lynda_SpringFramework_In_Depth.md)
+                        * [📝Lynda_Spring_5.0_and_SpringBoot2.0_NewFeatures](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/Lynda_Spring_5.0_and_SpringBoot2.0_NewFeatures.md)
+                        * [📝Notes_Spring5高级编程](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/Notes_Spring5高级编程.md)
                         * 🗂spring-kafka
-                            * [📝spring-kafka](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/spring-kafka/spring-kafka.md)
+                            * [📝spring-kafka](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/spring-kafka/spring-kafka.md)
                         * 🗂主要模块
-                            * [📝batch](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/batch.md)
-                            * [📝cloud](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/cloud.md)
-                            * [📝event-driven](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/event-driven.md)
-                            * [📝microservices](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/microservices.md)
-                            * [📝reactive](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/reactive.md)
-                            * [📝serverless](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/serverless.md)
-                            * [📝web-applications](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springFramework/主要模块/web-applications.md)
+                            * [📝batch](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/batch.md)
+                            * [📝cloud](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/cloud.md)
+                            * [📝event-driven](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/event-driven.md)
+                            * [📝microservices](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/microservices.md)
+                            * [📝reactive](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/reactive.md)
+                            * [📝serverless](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/serverless.md)
+                            * [📝web-applications](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/web-applications.md)
                     * 🗂springIntegration
-                        * [📝springIntegration](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springIntegration/springIntegration.md)
+                        * [📝springIntegration](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springIntegration/springIntegration.md)
                     * 🗂springSession
-                        * [📝springSession](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/springSession/springSession.md)
-                    * [📝spring系列总揽](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/01_spring全家桶/spring系列总揽.md)
+                        * [📝springSession](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springSession/springSession.md)
+                    * [📝spring系列总揽](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/spring系列总揽.md)
                 * 🗂微服务框架
                     * 🗂springCloud
-                        * [📝HystrixDashbord](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/HystrixDashbord.md)
-                        * [📝Hystrix_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Hystrix_by_Netflix.md)
-                        * [📝Nacos_by_alibaba](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Nacos_by_alibaba.md)
-                        * [📝Ribbon_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Ribbon_by_Netflix.md)
-                        * [📝Sleuth和zipkin](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/Sleuth和zipkin.md)
-                        * [📝configServer](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/configServer.md)
-                        * [📝eureka_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/eureka_by_Netflix.md)
-                        * [📝openFeign](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/openFeign.md)
-                        * [📝springcloud](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/springcloud.md)
-                        * [📝traefik](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/traefik.md)
-                        * [📝webflux_gateway](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/webflux_gateway.md)
-                        * [📝zuul](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/02_微服务框架/springCloud/zuul.md)
+                        * [📝HystrixDashbord](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/HystrixDashbord.md)
+                        * [📝Hystrix_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/Hystrix_by_Netflix.md)
+                        * [📝Nacos_by_alibaba](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/Nacos_by_alibaba.md)
+                        * [📝Ribbon_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/Ribbon_by_Netflix.md)
+                        * [📝Sleuth和zipkin](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/Sleuth和zipkin.md)
+                        * [📝configServer](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/configServer.md)
+                        * [📝eureka_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/eureka_by_Netflix.md)
+                        * [📝openFeign](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/openFeign.md)
+                        * [📝springcloud](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/springcloud.md)
+                        * [📝traefik](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/traefik.md)
+                        * [📝webflux_gateway](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/webflux_gateway.md)
+                        * [📝zuul](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/02_微服务框架/springCloud/zuul.md)
+                * 🗂Dropwizard
+                    * [📝Dropwizard](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/Dropwizard/Dropwizard.md)
                 * 🗂SQL相关
-                    * [📝Querydsl](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/SQL相关/Querydsl.md)
+                    * [📝Querydsl](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/SQL相关/Querydsl.md)
                 * 🗂javaEE标准组件
-                    * [📝jsp](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/javaEE标准组件/jsp.md)
-                    * [📝servlet](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/javaEE标准组件/servlet.md)
+                    * [📝jsp](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/javaEE标准组件/jsp.md)
+                    * [📝servlet](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/javaEE标准组件/servlet.md)
                 * 🗂java消息服务
-                    * [📝JMS](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/java消息服务/JMS.md)
+                    * [📝JMS](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/java消息服务/JMS.md)
                 * 🗂restful框架
-                    * [📝OpenAPI](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/restful框架/OpenAPI.md)
-                    * [📝jersy](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/restful框架/jersy.md)
-                    * [📝swagger](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/restful框架/swagger.md)
+                    * [📝OpenAPI](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/restful框架/OpenAPI.md)
+                    * [📝jersy](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/restful框架/jersy.md)
+                    * [📝swagger](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/restful框架/swagger.md)
                 * 🗂rpc框架
-                    * [📝dubbo](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/rpc框架/dubbo.md)
+                    * [📝dubbo](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/rpc框架/dubbo.md)
                 * 🗂yaml密码加密框架
-                    * [📝druid](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/yaml密码加密框架/druid.md)
-                    * [📝jasypt](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/yaml密码加密框架/jasypt.md)
-                    * [📝springCloudVault](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/yaml密码加密框架/springCloudVault.md)
+                    * [📝druid](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/yaml密码加密框架/druid.md)
+                    * [📝jasypt](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/yaml密码加密框架/jasypt.md)
+                    * [📝springCloudVault](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/yaml密码加密框架/springCloudVault.md)
                 * 🗂代码生成框架
-                    * [📝cglib](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/代码生成框架/cglib.md)
-                    * [📝lombok](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/代码生成框架/lombok.md)
-                    * [📝mapstruct](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/代码生成框架/mapstruct.md)
+                    * [📝cglib](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/代码生成框架/cglib.md)
+                    * [📝lombok](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/代码生成框架/lombok.md)
+                    * [📝mapstruct](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/代码生成框架/mapstruct.md)
                 * 🗂参数校验validator
-                    * [📝javax.validation](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/参数校验validator/javax.validation.md)
+                    * [📝javax.validation](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/参数校验validator/javax.validation.md)
                 * 🗂安全认证框架
-                    * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
-                    * [📝OAuth2](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/OAuth2.md)
-                    * [📝OpenID_Connect](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/OpenID_Connect.md)
-                    * [📝Security-Assertion-Markup-Language-Tokens_SAML](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/Security-Assertion-Markup-Language-Tokens_SAML.md)
-                    * [📝Simple-Web-Tokens_SWT](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/Simple-Web-Tokens_SWT.md)
-                    * [📝shrio](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/安全认证框架/shrio.md)
+                    * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
+                    * [📝OAuth2](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/OAuth2.md)
+                    * [📝OpenID_Connect](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/OpenID_Connect.md)
+                    * [📝Security-Assertion-Markup-Language-Tokens_SAML](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/Security-Assertion-Markup-Language-Tokens_SAML.md)
+                    * [📝Simple-Web-Tokens_SWT](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/Simple-Web-Tokens_SWT.md)
+                    * [📝shrio](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/shrio.md)
                 * 🗂数据库缓存相关
                     * 🗂ORM框架
-                        * [📝JDBC](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/ORM框架/JDBC.md)
-                        * [📝hibernate](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/ORM框架/hibernate.md)
-                        * [📝mybatis](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/ORM框架/mybatis.md)
+                        * [📝JDBC](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/ORM框架/JDBC.md)
+                        * [📝hibernate](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/ORM框架/hibernate.md)
+                        * [📝mybatis](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/ORM框架/mybatis.md)
                     * 🗂redis框架
-                        * [📝Jedis](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/redis框架/Jedis.md)
-                        * [📝Redisson](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/redis框架/Redisson.md)
+                        * [📝Jedis](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/redis框架/Jedis.md)
+                        * [📝Redisson](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/redis框架/Redisson.md)
                     * 🗂连接池框架
-                        * [📝BoneCP](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/BoneCP.md)
-                        * [📝C3P0](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/C3P0.md)
-                        * [📝DBCP](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/DBCP.md)
-                        * [📝Druid](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/Druid.md)
-                        * [📝HikariCP](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/HikariCP.md)
-                        * [📝Tomcat-Jdbc-Pool](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/Tomcat-Jdbc-Pool.md)
-                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/数据库缓存相关/连接池框架/总览.md)
+                        * [📝BoneCP](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/BoneCP.md)
+                        * [📝C3P0](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/C3P0.md)
+                        * [📝DBCP](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/DBCP.md)
+                        * [📝Druid](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/Druid.md)
+                        * [📝HikariCP](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/HikariCP.md)
+                        * [📝Tomcat-Jdbc-Pool](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/Tomcat-Jdbc-Pool.md)
+                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/总览.md)
                 * 🗂日志框架
                     * 🗂logs
-                        * [📝jdkLog](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/logs/jdkLog.md)
-                        * [📝log4j](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/logs/log4j.md)
-                        * [📝logback](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/logs/logback.md)
-                        * [📝slf4j](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/logs/slf4j.md)
-                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/logs/总览.md)
+                        * [📝jdkLog](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/jdkLog.md)
+                        * [📝log4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/log4j.md)
+                        * [📝logback](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/logback.md)
+                        * [📝slf4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/slf4j.md)
+                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/总览.md)
                     * 🗂metrics
-                        * [📝JMX](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/metrics/JMX.md)
-                        * [📝micrometer](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/日志框架/metrics/micrometer.md)
+                        * [📝JMX](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/metrics/JMX.md)
+                        * [📝micrometer](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/metrics/micrometer.md)
                 * 🗂模板引擎
-                    * [📝thymeleaf](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/模板引擎/thymeleaf.md)
+                    * [📝thymeleaf](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/模板引擎/thymeleaf.md)
                 * 🗂测试框架
-                    * [📝testcontainers](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/testcontainers.md)
+                    * [📝testcontainers](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/testcontainers.md)
                     * 🗂代码覆盖率
-                        * [📝Jacoco](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/代码覆盖率/Jacoco.md)
+                        * [📝Jacoco](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/代码覆盖率/Jacoco.md)
                     * 🗂单元测试框架
-                        * [📝JUnit5](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/JUnit5.md)
-                        * [📝Lynda_Spring_Test-Driven_Development_with_JUnit](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/Lynda_Spring_Test-Driven_Development_with_JUnit.md)
-                        * [📝Mockito](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/Mockito.md)
-                        * [📝PowerMock](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/单元测试框架/PowerMock.md)
+                        * [📝JUnit5](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/单元测试框架/JUnit5.md)
+                        * [📝Lynda_Spring_Test-Driven_Development_with_JUnit](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/单元测试框架/Lynda_Spring_Test-Driven_Development_with_JUnit.md)
+                        * [📝Mockito](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/单元测试框架/Mockito.md)
+                        * [📝PowerMock](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/单元测试框架/PowerMock.md)
                     * 🗂性能测试
-                        * [📝Gatling](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/性能测试/Gatling.md)
+                        * [📝Gatling](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/性能测试/Gatling.md)
                     * 🗂架构单元测试
-                        * [📝ArchUnit](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/架构单元测试/ArchUnit.md)
+                        * [📝ArchUnit](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/架构单元测试/ArchUnit.md)
                     * 🗂行为驱动开发BDD
-                        * [📝cucumber](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/行为驱动开发BDD/cucumber.md)
+                        * [📝cucumber](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/行为驱动开发BDD/cucumber.md)
                     * 🗂集成测试框架
-                        * [📝SpringTestContextFramework](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/测试框架/集成测试框架/SpringTestContextFramework.md)
+                        * [📝SpringTestContextFramework](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/测试框架/集成测试框架/SpringTestContextFramework.md)
                 * 🗂网络通信框架
-                    * [📝WebSocket](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/网络通信框架/WebSocket.md)
-                    * [📝netty](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/网络通信框架/netty.md)
+                    * [📝WebSocket](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/网络通信框架/WebSocket.md)
+                    * [📝netty](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/网络通信框架/netty.md)
                 * 🗂限流框架
-                    * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/限流框架/Hazelcast.md)
-                    * [📝bucket4j](/docs/开发者知识文档/01_软件开发/02_后端/java/A_框架/限流框架/bucket4j.md)
+                    * [📝Hazelcast](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/限流框架/Hazelcast.md)
+                    * [📝bucket4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/限流框架/bucket4j.md)
             * 🗂IDE
                 * 🗂IntelliJ_idea
                     * [📝intelliJ_idea](/docs/开发者知识文档/01_软件开发/02_后端/java/IDE/IntelliJ_idea/intelliJ_idea.md)
@@ -508,53 +557,13 @@
                     * [📝eclipse](/docs/开发者知识文档/01_软件开发/02_后端/java/IDE/eclipse/eclipse.md)
                     * [📝myeclipse](/docs/开发者知识文档/01_软件开发/02_后端/java/IDE/eclipse/myeclipse.md)
                     * [📝spring_tool_suite](/docs/开发者知识文档/01_软件开发/02_后端/java/IDE/eclipse/spring_tool_suite.md)
-            * 🗂Jakarta_EE
-                * [📝jakarta_ee](/docs/开发者知识文档/01_软件开发/02_后端/java/Jakarta_EE/jakarta_ee.md)
-            * 🗂Java语法
-                * [📝Java11](/docs/开发者知识文档/01_软件开发/02_后端/java/Java语法/Java11.md)
-                * [📝Java8](/docs/开发者知识文档/01_软件开发/02_后端/java/Java语法/Java8.md)
-                * [📝Java语法](/docs/开发者知识文档/01_软件开发/02_后端/java/Java语法/Java语法.md)
-            * 🗂jdk
-                * 🗂jre
-                    * 🗂java_api
-                        * [📝BlockingQueue](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/BlockingQueue.md)
-                        * [📝CAS](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/CAS.md)
-                        * [📝HashMap相关](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/HashMap相关.md)
-                        * [📝core_java](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/core_java.md)
-                        * [📝异常类体系](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/java_api/异常类体系.md)
-                    * 🗂jvm
-                        * [📝Notes_深入理解java虚拟机](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/Notes_深入理解java虚拟机.md)
-                        * [📝jvm内存](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/jvm内存.md)
-                        * [📝双亲委派类加载机制](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/双亲委派类加载机制.md)
-                        * 🗂垃圾回收
-                            * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/01_jre/jvm/垃圾回收/总览.md)
-                * 🗂jdk-tools
-                    * [📝JMap](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/JMap.md)
-                    * [📝JStack](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/JStack.md)
-                    * [📝jconsole](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/jconsole.md)
-                    * [📝jps](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/jps.md)
-                    * [📝visualVM](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/visualVM.md)
-                    * [📝命令行运行java](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/02_jdk-tools/命令行运行java.md)
-                * 🗂发行版
-                    * [📝adopt-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/adopt-openjdk.md)
-                    * [📝oracle-jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/oracle-jdk.md)
-                    * [📝oracle-openjdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/发行版/oracle-openjdk.md)
-                * 🗂编译jdk
-                    * [📝Mercurial](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/编译jdk/Mercurial.md)
-                    * [📝编译jdk](/docs/开发者知识文档/01_软件开发/02_后端/java/jdk/编译jdk/编译jdk.md)
-            * 🗂其他jvm编程语言
-                * [📝Clojure](/docs/开发者知识文档/01_软件开发/02_后端/java/其他jvm编程语言/Clojure.md)
-                * [📝Groovy](/docs/开发者知识文档/01_软件开发/02_后端/java/其他jvm编程语言/Groovy.md)
-                * [📝JPython](/docs/开发者知识文档/01_软件开发/02_后端/java/其他jvm编程语言/JPython.md)
-                * [📝JRuby](/docs/开发者知识文档/01_软件开发/02_后端/java/其他jvm编程语言/JRuby.md)
-                * [📝Kotlin](/docs/开发者知识文档/01_软件开发/02_后端/java/其他jvm编程语言/Kotlin.md)
-                * [📝Scala](/docs/开发者知识文档/01_软件开发/02_后端/java/其他jvm编程语言/Scala.md)
-            * 🗂并发编程
-                * [📝CompletableFuture](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/CompletableFuture.md)
-                * [📝Notes_Java并发编程实战](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/Notes_Java并发编程实战.md)
-                * [📝多线程](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/多线程.md)
-                * [📝相关方法](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/相关方法.md)
-                * [📝线程池](/docs/开发者知识文档/01_软件开发/02_后端/java/并发编程/线程池.md)
+            * 🗂其他JVM编程语言
+                * [📝Clojure](/docs/开发者知识文档/01_软件开发/02_后端/java/其他JVM编程语言/Clojure.md)
+                * [📝Groovy](/docs/开发者知识文档/01_软件开发/02_后端/java/其他JVM编程语言/Groovy.md)
+                * [📝JPython](/docs/开发者知识文档/01_软件开发/02_后端/java/其他JVM编程语言/JPython.md)
+                * [📝JRuby](/docs/开发者知识文档/01_软件开发/02_后端/java/其他JVM编程语言/JRuby.md)
+                * [📝Kotlin](/docs/开发者知识文档/01_软件开发/02_后端/java/其他JVM编程语言/Kotlin.md)
+                * [📝Scala](/docs/开发者知识文档/01_软件开发/02_后端/java/其他JVM编程语言/Scala.md)
             * 🗂构建工具
                 * 🗂ant
                     * [📝ant](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/ant/ant.md)
