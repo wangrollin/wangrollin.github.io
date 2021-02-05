@@ -335,13 +335,19 @@
         * 🗂java
             * 🗂JDK
                 * 🗂JDK-Tools
-                    * [📝JMap](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/JMap.md)
-                    * [📝JStack](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/JStack.md)
-                    * [📝jconsole](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jconsole.md)
+                    * [📝JDK-Tools大全](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/00_JDK-Tools大全.md)
+                    * [📝VisualVM](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/01_VisualVM.md)
+                    * [📝JConsole](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/02_JConsole.md)
+                    * [📝jhat](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jhat.md)
+                    * [📝jinfo](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jinfo.md)
+                    * [📝jmap](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jmap.md)
                     * [📝jps](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jps.md)
-                    * [📝visualVM](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/visualVM.md)
+                    * [📝jstack](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jstack.md)
+                    * [📝jstat](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/jstat.md)
                     * [📝命令行运行java](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JDK-Tools/命令行运行java.md)
                 * 🗂JVM
+                    * 🗂JVM监测工具
+                        * [📝arthas_by_alibaba](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/JVM监测工具/arthas_by_alibaba.md)
                     * [📝Notes_深入理解java虚拟机](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/Notes_深入理解java虚拟机.md)
                     * [📝jvm内存](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/jvm内存.md)
                     * [📝双亲委派类加载机制](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/双亲委派类加载机制.md)
@@ -375,6 +381,7 @@
                         * [📝CAS](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/CAS.md)
                         * [📝CompletableFuture](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/CompletableFuture.md)
                         * [📝Notes_Java并发编程实战](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/Notes_Java并发编程实战.md)
+                        * [📝ThreadLocal](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/ThreadLocal.md)
                         * [📝多线程](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/多线程.md)
                         * [📝相关方法](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/相关方法.md)
                         * [📝线程池](/docs/开发者知识文档/01_软件开发/02_后端/java/03_Java_API/Java_SE/并发/线程池.md)
