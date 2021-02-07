@@ -897,6 +897,8 @@
             * [📝Systemd](/docs/开发者知识文档/02_GNU-Linux/02_GNU/守护进程/Systemd.md)
             * [📝init](/docs/开发者知识文档/02_GNU-Linux/02_GNU/守护进程/init.md)
             * [📝supervisior](/docs/开发者知识文档/02_GNU-Linux/02_GNU/守护进程/supervisior.md)
+        * 🗂汇编相关
+            * [📝objdump](/docs/开发者知识文档/02_GNU-Linux/02_GNU/汇编相关/objdump.md)
     * 🗂LinuxKernel
         * 🗂内存管理
             * [📝内存管理](/docs/开发者知识文档/02_GNU-Linux/03_LinuxKernel/内存管理/内存管理.md)
@@ -1077,83 +1079,86 @@
             * [📝docker-swarm](/docs/开发者知识文档/04_CNCF/容器运行时/docker/docker-swarm.md)
             * [📝docker](/docs/开发者知识文档/04_CNCF/容器运行时/docker/docker.md)
 * 🗂阿里云
-    * 🗂其他云
-        * 🗂Cloud_Foundry
-            * [📝Atos_Canopy](/docs/开发者知识文档/05_阿里云/00_其他云/Cloud_Foundry/Atos_Canopy.md)
-            * [📝IBM_Bluemix](/docs/开发者知识文档/05_阿里云/00_其他云/Cloud_Foundry/IBM_Bluemix.md)
-            * [📝Pivotal_Web_Services](/docs/开发者知识文档/05_阿里云/00_其他云/Cloud_Foundry/Pivotal_Web_Services.md)
-        * 🗂Google_Cloud_Platform
-            * 🗂云存储
-                * [📝Cloud_SQL](/docs/开发者知识文档/05_阿里云/00_其他云/Google_Cloud_Platform/云存储/Cloud_SQL.md)
-            * 🗂云计算
-                * [📝Google_App_Engine](/docs/开发者知识文档/05_阿里云/00_其他云/Google_Cloud_Platform/云计算/Google_App_Engine.md)
-                * [📝Google_Compute_Engine](/docs/开发者知识文档/05_阿里云/00_其他云/Google_Cloud_Platform/云计算/Google_Compute_Engine.md)
-                * [📝Google_Kubernetes_Engine](/docs/开发者知识文档/05_阿里云/00_其他云/Google_Cloud_Platform/云计算/Google_Kubernetes_Engine.md)
-            * 🗂命令行部署工具
-                * [📝gcloud](/docs/开发者知识文档/05_阿里云/00_其他云/Google_Cloud_Platform/命令行部署工具/gcloud.md)
-            * 🗂镜像服务
-                * [📝Google_Container_Registry](/docs/开发者知识文档/05_阿里云/00_其他云/Google_Cloud_Platform/镜像服务/Google_Container_Registry.md)
-        * 🗂aws
-            * [📝AWS云开发基础知识](/docs/开发者知识文档/05_阿里云/00_其他云/aws/AWS云开发基础知识.md)
-            * [📝Deploy_an_App_to_the_Cloud](/docs/开发者知识文档/05_阿里云/00_其他云/aws/Deploy_an_App_to_the_Cloud.md)
-            * [📝Deploying_and_Provisioning](/docs/开发者知识文档/05_阿里云/00_其他云/aws/Deploying_and_Provisioning.md)
-            * 🗂云存储
-                * [📝Elastic_Block_Store](/docs/开发者知识文档/05_阿里云/00_其他云/aws/云存储/Elastic_Block_Store.md)
-                * [📝S3](/docs/开发者知识文档/05_阿里云/00_其他云/aws/云存储/S3.md)
-            * 🗂部署工具
-                * [📝Boxfuse](/docs/开发者知识文档/05_阿里云/00_其他云/aws/部署工具/Boxfuse.md)
-                * [📝Elastic_Beanstalk](/docs/开发者知识文档/05_阿里云/00_其他云/aws/部署工具/Elastic_Beanstalk.md)
-        * 🗂azure
-            * [📝Azure_App_Service](/docs/开发者知识文档/05_阿里云/00_其他云/azure/Azure_App_Service.md)
-            * [📝Azure_Spring_Cloud](/docs/开发者知识文档/05_阿里云/00_其他云/azure/Azure_Spring_Cloud.md)
-            * [📝CosmosDB](/docs/开发者知识文档/05_阿里云/00_其他云/azure/CosmosDB.md)
-            * [📝azure](/docs/开发者知识文档/05_阿里云/00_其他云/azure/azure.md)
-        * 🗂heroku
-            * [📝init](/docs/开发者知识文档/05_阿里云/00_其他云/heroku/init.md)
-            * 🗂云存储
-                * [📝JawsDB_MySQL](/docs/开发者知识文档/05_阿里云/00_其他云/heroku/云存储/JawsDB_MySQL.md)
-        * 🗂华为云
-            * [📝init](/docs/开发者知识文档/05_阿里云/00_其他云/华为云/init.md)
-        * 🗂腾讯云
-            * [📝init](/docs/开发者知识文档/05_阿里云/00_其他云/腾讯云/init.md)
-        * 🗂金山云
-            * [📝金山云](/docs/开发者知识文档/05_阿里云/00_其他云/金山云/金山云.md)
-    * 🗂其他厂商的服务
-        * 🗂CDN
-            * [📝jsdelivr](/docs/开发者知识文档/05_阿里云/01_其他厂商的服务/CDN/jsdelivr.md)
-            * [📝unpkg](/docs/开发者知识文档/05_阿里云/01_其他厂商的服务/CDN/unpkg.md)
+    * 🗂管理服务
+        * 🗂命令行部署工具
+            * [📝aliyun-cli](/docs/开发者知识文档/05_阿里云/00_管理服务/命令行部署工具/aliyun-cli.md)
+        * 🗂控制台
+            * [📝控制台](/docs/开发者知识文档/05_阿里云/00_管理服务/控制台/控制台.md)
+        * 🗂网络服务
+            * [📝云解析DNS](/docs/开发者知识文档/05_阿里云/00_管理服务/网络服务/云解析DNS.md)
+            * [📝内容分发网络CDN](/docs/开发者知识文档/05_阿里云/00_管理服务/网络服务/内容分发网络CDN.md)
+            * [📝域名](/docs/开发者知识文档/05_阿里云/00_管理服务/网络服务/域名.md)
+            * [📝域名备案](/docs/开发者知识文档/05_阿里云/00_管理服务/网络服务/域名备案.md)
+            * [📝网站备案](/docs/开发者知识文档/05_阿里云/00_管理服务/网络服务/网站备案.md)
     * 🗂IaaS
-        * [📝云服务器ECS](/docs/开发者知识文档/05_阿里云/IaaS/云服务器ECS.md)
+        * [📝云服务器ECS](/docs/开发者知识文档/05_阿里云/01_IaaS/云服务器ECS.md)
     * 🗂PaaS
-        * [📝Platform](/docs/开发者知识文档/05_阿里云/PaaS/Platform.md)
+        * [📝Platform](/docs/开发者知识文档/05_阿里云/02_PaaS/Platform.md)
     * 🗂SaaS
         * 🗂云存储
-            * [📝云存储](/docs/开发者知识文档/05_阿里云/SaaS/云存储/云存储.md)
+            * [📝云存储](/docs/开发者知识文档/05_阿里云/03_SaaS/云存储/云存储.md)
         * 🗂云计算
-            * [📝ACK](/docs/开发者知识文档/05_阿里云/SaaS/云计算/ACK.md)
+            * [📝ACK](/docs/开发者知识文档/05_阿里云/03_SaaS/云计算/ACK.md)
         * 🗂镜像服务
-            * [📝容器镜像服务](/docs/开发者知识文档/05_阿里云/SaaS/镜像服务/容器镜像服务.md)
+            * [📝容器镜像服务](/docs/开发者知识文档/05_阿里云/03_SaaS/镜像服务/容器镜像服务.md)
         * 🗂项目管理工具
-            * [📝云效](/docs/开发者知识文档/05_阿里云/SaaS/项目管理工具/云效.md)
+            * [📝云效](/docs/开发者知识文档/05_阿里云/03_SaaS/项目管理工具/云效.md)
     * 🗂Serverless
         * 🗂BaaS
             * 🗂安全服务
-                * [📝安全服务](/docs/开发者知识文档/05_阿里云/Serverless/BaaS/安全服务/安全服务.md)
-            * [📝文字识别](/docs/开发者知识文档/05_阿里云/Serverless/BaaS/文字识别.md)
+                * [📝安全服务](/docs/开发者知识文档/05_阿里云/04_Serverless/BaaS/安全服务/安全服务.md)
+            * [📝文字识别](/docs/开发者知识文档/05_阿里云/04_Serverless/BaaS/文字识别.md)
         * 🗂FaaS
-            * [📝FunctionAsAService](/docs/开发者知识文档/05_阿里云/Serverless/FaaS/FunctionAsAService.md)
-        * [📝severless](/docs/开发者知识文档/05_阿里云/Serverless/severless.md)
-    * 🗂管理服务
-        * 🗂命令行部署工具
-            * [📝aliyun-cli](/docs/开发者知识文档/05_阿里云/管理服务/命令行部署工具/aliyun-cli.md)
-        * 🗂控制台
-            * [📝控制台](/docs/开发者知识文档/05_阿里云/管理服务/控制台/控制台.md)
-        * 🗂网络服务
-            * [📝云解析DNS](/docs/开发者知识文档/05_阿里云/管理服务/网络服务/云解析DNS.md)
-            * [📝内容分发网络CDN](/docs/开发者知识文档/05_阿里云/管理服务/网络服务/内容分发网络CDN.md)
-            * [📝域名](/docs/开发者知识文档/05_阿里云/管理服务/网络服务/域名.md)
-            * [📝域名备案](/docs/开发者知识文档/05_阿里云/管理服务/网络服务/域名备案.md)
-            * [📝网站备案](/docs/开发者知识文档/05_阿里云/管理服务/网络服务/网站备案.md)
+            * [📝FunctionAsAService](/docs/开发者知识文档/05_阿里云/04_Serverless/FaaS/FunctionAsAService.md)
+        * [📝severless](/docs/开发者知识文档/05_阿里云/04_Serverless/severless.md)
+    * 🗂LowCode_NoCode
+        * [📝低代码平台](/docs/开发者知识文档/05_阿里云/05_LowCode_NoCode/低代码平台.md)
+    * 🗂其他云
+        * 🗂Cloud_Foundry
+            * [📝Atos_Canopy](/docs/开发者知识文档/05_阿里云/06_其他云/Cloud_Foundry/Atos_Canopy.md)
+            * [📝IBM_Bluemix](/docs/开发者知识文档/05_阿里云/06_其他云/Cloud_Foundry/IBM_Bluemix.md)
+            * [📝Pivotal_Web_Services](/docs/开发者知识文档/05_阿里云/06_其他云/Cloud_Foundry/Pivotal_Web_Services.md)
+        * 🗂Google_Cloud_Platform
+            * [📝GoogleAppsheet-NoCode平台](/docs/开发者知识文档/05_阿里云/06_其他云/Google_Cloud_Platform/GoogleAppsheet-NoCode平台.md)
+            * 🗂云存储
+                * [📝Cloud_SQL](/docs/开发者知识文档/05_阿里云/06_其他云/Google_Cloud_Platform/云存储/Cloud_SQL.md)
+            * 🗂云计算
+                * [📝Google_App_Engine](/docs/开发者知识文档/05_阿里云/06_其他云/Google_Cloud_Platform/云计算/Google_App_Engine.md)
+                * [📝Google_Compute_Engine](/docs/开发者知识文档/05_阿里云/06_其他云/Google_Cloud_Platform/云计算/Google_Compute_Engine.md)
+                * [📝Google_Kubernetes_Engine](/docs/开发者知识文档/05_阿里云/06_其他云/Google_Cloud_Platform/云计算/Google_Kubernetes_Engine.md)
+            * 🗂命令行部署工具
+                * [📝gcloud](/docs/开发者知识文档/05_阿里云/06_其他云/Google_Cloud_Platform/命令行部署工具/gcloud.md)
+            * 🗂镜像服务
+                * [📝Google_Container_Registry](/docs/开发者知识文档/05_阿里云/06_其他云/Google_Cloud_Platform/镜像服务/Google_Container_Registry.md)
+        * 🗂aws
+            * [📝AWS云开发基础知识](/docs/开发者知识文档/05_阿里云/06_其他云/aws/AWS云开发基础知识.md)
+            * [📝Deploy_an_App_to_the_Cloud](/docs/开发者知识文档/05_阿里云/06_其他云/aws/Deploy_an_App_to_the_Cloud.md)
+            * [📝Deploying_and_Provisioning](/docs/开发者知识文档/05_阿里云/06_其他云/aws/Deploying_and_Provisioning.md)
+            * 🗂云存储
+                * [📝Elastic_Block_Store](/docs/开发者知识文档/05_阿里云/06_其他云/aws/云存储/Elastic_Block_Store.md)
+                * [📝S3](/docs/开发者知识文档/05_阿里云/06_其他云/aws/云存储/S3.md)
+            * 🗂部署工具
+                * [📝Boxfuse](/docs/开发者知识文档/05_阿里云/06_其他云/aws/部署工具/Boxfuse.md)
+                * [📝Elastic_Beanstalk](/docs/开发者知识文档/05_阿里云/06_其他云/aws/部署工具/Elastic_Beanstalk.md)
+        * 🗂azure
+            * [📝Azure_App_Service](/docs/开发者知识文档/05_阿里云/06_其他云/azure/Azure_App_Service.md)
+            * [📝Azure_Spring_Cloud](/docs/开发者知识文档/05_阿里云/06_其他云/azure/Azure_Spring_Cloud.md)
+            * [📝CosmosDB](/docs/开发者知识文档/05_阿里云/06_其他云/azure/CosmosDB.md)
+            * [📝azure](/docs/开发者知识文档/05_阿里云/06_其他云/azure/azure.md)
+        * 🗂heroku
+            * [📝init](/docs/开发者知识文档/05_阿里云/06_其他云/heroku/init.md)
+            * 🗂云存储
+                * [📝JawsDB_MySQL](/docs/开发者知识文档/05_阿里云/06_其他云/heroku/云存储/JawsDB_MySQL.md)
+        * 🗂华为云
+            * [📝init](/docs/开发者知识文档/05_阿里云/06_其他云/华为云/init.md)
+        * 🗂腾讯云
+            * [📝init](/docs/开发者知识文档/05_阿里云/06_其他云/腾讯云/init.md)
+        * 🗂金山云
+            * [📝金山云](/docs/开发者知识文档/05_阿里云/06_其他云/金山云/金山云.md)
+    * 🗂其他厂商的服务
+        * 🗂CDN
+            * [📝jsdelivr](/docs/开发者知识文档/05_阿里云/07_其他厂商的服务/CDN/jsdelivr.md)
+            * [📝unpkg](/docs/开发者知识文档/05_阿里云/07_其他厂商的服务/CDN/unpkg.md)
     * [📝阿里云概览](/docs/开发者知识文档/05_阿里云/阿里云概览.md)
 * 🗂scrum
     * [📝总流程概览](/docs/开发者知识文档/06_scrum/总流程概览.md)
