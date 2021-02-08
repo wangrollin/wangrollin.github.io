@@ -326,6 +326,7 @@
             * 🗂移动和桌面端
                 * [📝flutter](/docs/开发者知识文档/01_软件开发/01_前端/不同的前端技术/03_移动和桌面端/flutter.md)
         * 🗂其他
+            * [📝Alexa排名](/docs/开发者知识文档/01_软件开发/01_前端/其他/Alexa排名.md)
             * [📝Lynda_Introduction_to_Web_Design_and_Development](/docs/开发者知识文档/01_软件开发/01_前端/其他/Lynda_Introduction_to_Web_Design_and_Development.md)
             * [📝MultiPageApp_MPA](/docs/开发者知识文档/01_软件开发/01_前端/其他/MultiPageApp_MPA.md)
             * [📝SinglePageApp_SPA](/docs/开发者知识文档/01_软件开发/01_前端/其他/SinglePageApp_SPA.md)
@@ -900,6 +901,9 @@
         * 🗂汇编相关
             * [📝objdump](/docs/开发者知识文档/02_GNU-Linux/02_GNU/汇编相关/objdump.md)
     * 🗂LinuxKernel
+        * 🗂机制
+            * [📝eBPF](/docs/开发者知识文档/02_GNU-Linux/03_LinuxKernel/00_机制/eBPF.md)
+            * [📝epoll](/docs/开发者知识文档/02_GNU-Linux/03_LinuxKernel/00_机制/epoll.md)
         * 🗂内存管理
             * [📝内存管理](/docs/开发者知识文档/02_GNU-Linux/03_LinuxKernel/内存管理/内存管理.md)
         * [📝内核代码](/docs/开发者知识文档/02_GNU-Linux/03_LinuxKernel/内核代码.md)
@@ -1018,6 +1022,8 @@
             * [📝JMeter](/docs/开发者知识文档/03_DevOps-CICD-测试/06_自动化测试/06_性能压力自动化测试/JMeter.md)
     * 🗂发布策略
         * [📝金丝雀canary](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/金丝雀canary.md)
+    * 🗂分布式部署
+        * [📝多机房部署-异地多活](/docs/开发者知识文档/03_DevOps-CICD-测试/08_分布式部署/多机房部署-异地多活.md)
     * [📝codepipeline](/docs/开发者知识文档/03_DevOps-CICD-测试/codepipeline.md)
     * [📝github开发流](/docs/开发者知识文档/03_DevOps-CICD-测试/github开发流.md)
 * 🗂CNCF

@@ -257,3 +257,7 @@ Second-level cache always associates with the Session Factory object. While runn
 Transactional 注解不生效：
 - 自己调自己，不走代理，也就没有Transactional
 - Transactional用在impl里，因为Transactional不会从接口里继承
+
+> 一个项目配置多个datasource
+
+继承`AbstractRoutingDataSource`
