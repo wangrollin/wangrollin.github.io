@@ -450,6 +450,14 @@
                 * 🗂spring全家桶
                     * 🗂SpringSecurity
                         * [📝springSecurity](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/SpringSecurity/springSecurity.md)
+                    * 🗂Spring主要模块
+                        * [📝batch](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/batch.md)
+                        * [📝cloud](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/cloud.md)
+                        * [📝event-driven](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/event-driven.md)
+                        * [📝microservices](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/microservices.md)
+                        * [📝reactive](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/reactive.md)
+                        * [📝serverless](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/serverless.md)
+                        * [📝web-applications](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/web-applications.md)
                     * 🗂springBoot
                         * 🗂spring-boot-starter-web
                             * [📝RestTemplate](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/spring-boot-starter-web/RestTemplate.md)
@@ -471,14 +479,52 @@
                         * [📝Notes_Spring5高级编程](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/Notes_Spring5高级编程.md)
                         * 🗂spring-kafka
                             * [📝spring-kafka](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/spring-kafka/spring-kafka.md)
-                        * 🗂主要模块
-                            * [📝batch](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/batch.md)
-                            * [📝cloud](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/cloud.md)
-                            * [📝event-driven](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/event-driven.md)
-                            * [📝microservices](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/microservices.md)
-                            * [📝reactive](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/reactive.md)
-                            * [📝serverless](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/serverless.md)
-                            * [📝web-applications](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/主要模块/web-applications.md)
+                        * 🗂模块划分
+                            * 🗂Core
+                                * [📝AOP](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/AOP.md)
+                                * [📝Data-Binding](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/Data-Binding.md)
+                                * [📝Events](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/Events.md)
+                                * [📝IoC-Container](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/IoC-Container.md)
+                                * [📝Resources](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/Resources.md)
+                                * [📝SpEL](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/SpEL.md)
+                                * [📝Type-Conversion](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/Type-Conversion.md)
+                                * [📝Validation](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/Validation.md)
+                                * [📝i18n](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Core/i18n.md)
+                            * 🗂DataAccess
+                                * [📝DAO-Support](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/DataAccess/DAO-Support.md)
+                                * [📝JDBC](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/DataAccess/JDBC.md)
+                                * [📝OR-Mapping](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/DataAccess/OR-Mapping.md)
+                                * [📝R2DBC](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/DataAccess/R2DBC.md)
+                                * [📝Transactions](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/DataAccess/Transactions.md)
+                                * [📝XML-Marshalling](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/DataAccess/XML-Marshalling.md)
+                            * 🗂Integration
+                                * [📝Caching](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/Caching.md)
+                                * [📝Email](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/Email.md)
+                                * [📝JCA](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/JCA.md)
+                                * [📝JMS](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/JMS.md)
+                                * [📝JMX](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/JMX.md)
+                                * [📝Remoting](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/Remoting.md)
+                                * [📝Scheduling](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/Scheduling.md)
+                                * [📝Tasks](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Integration/Tasks.md)
+                            * 🗂Languages
+                                * [📝Dynamic-Languages](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Languages/Dynamic-Languages.md)
+                                * [📝Groovy](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Languages/Groovy.md)
+                                * [📝Kotlin](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Languages/Kotlin.md)
+                            * 🗂Testing
+                                * [📝Mock-Objects](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Testing/Mock-Objects.md)
+                                * [📝Spring-MVC-Test](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Testing/Spring-MVC-Test.md)
+                                * [📝TestContext-Framework](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Testing/TestContext-Framework.md)
+                                * [📝WebTestClient](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/Testing/WebTestClient.md)
+                            * 🗂WebReactive
+                                * [📝RSocket](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebReactive/RSocket.md)
+                                * [📝Spring-WebFlux](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebReactive/Spring-WebFlux.md)
+                                * [📝WebClient](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebReactive/WebClient.md)
+                                * [📝WebSocket](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebReactive/WebSocket.md)
+                            * 🗂WebServlet
+                                * [📝STOMP-Messaging](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebServlet/STOMP-Messaging.md)
+                                * [📝SockJS](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebServlet/SockJS.md)
+                                * [📝Spring-MVC](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebServlet/Spring-MVC.md)
+                                * [📝WebSocket](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springFramework/模块划分/WebServlet/WebSocket.md)
                     * 🗂springIntegration
                         * [📝springIntegration](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springIntegration/springIntegration.md)
                     * 🗂springSession
