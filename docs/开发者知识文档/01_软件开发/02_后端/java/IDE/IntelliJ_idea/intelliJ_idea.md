@@ -30,6 +30,7 @@
 - show tabs in one row: false
 - view - appearance - toolbar
 - Theme: macOS light
+- editor - color scheme - general - background: C7EDCC（浅绿色）
 
 开启 ide settings 同步
 
