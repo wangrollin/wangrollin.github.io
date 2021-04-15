@@ -4,7 +4,6 @@
 ```sql
 
 # group by后进行内部排序，然后拿到第一个记录
-
 WITH summary AS (
     SELECT p.id, 
            p.customer, 
@@ -16,5 +15,5 @@ SELECT s.*
   FROM summary s
  WHERE s.rk = 1
 
- 
+
 ```
