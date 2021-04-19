@@ -791,6 +791,7 @@
                     * [📝apache_confluent](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/confluent/apache_confluent.md)
                 * 🗂kafka
                     * [📝kafka](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/kafka/03_kafka.md)
+                * [📝nsq](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/nsq.md)
                 * 🗂rabbitMQ
                     * [📝rabbitMQ](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/rabbitMQ/02_rabbitMQ.md)
                 * 🗂rocketMQ
@@ -821,6 +822,11 @@
             * [📝esForHadoop](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/esForHadoop.md)
             * [📝jeecy](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/jeecy.md)
             * [📝vueDataV](/docs/开发者知识文档/01_软件开发/03_大数据平台/0_分析展示/vueDataV.md)
+        * 🗂ETL
+            * [📝FiveTran](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_ETL/FiveTran.md)
+            * [📝Informatica](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_ETL/Informatica.md)
+            * [📝Kettle](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_ETL/Kettle.md)
+            * [📝Talend](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_ETL/Talend.md)
         * 🗂SQL和脚本引擎
             * [📝Lynda_Analyzing_Big_Data_with_Hive](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_SQL和脚本引擎/Lynda_Analyzing_Big_Data_with_Hive.md)
             * [📝hive](/docs/开发者知识文档/01_软件开发/03_大数据平台/1_SQL和脚本引擎/hive.md)
@@ -880,6 +886,8 @@
                 * [📝接入层](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/数据仓库DataWarehouse/1_接入层.md)
                 * [📝中间层](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/数据仓库DataWarehouse/2_中间层.md)
                 * [📝应用层](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/数据仓库DataWarehouse/3_应用层.md)
+                * 🗂云数仓
+                    * [📝Snowflake](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/数据仓库DataWarehouse/云数仓/Snowflake.md)
             * [📝数据层级](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/数据层级.md)
             * 🗂数据湖DataLake
                 * [📝Hudi](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/数据湖DataLake/Hudi.md)
@@ -893,6 +901,7 @@
                 * [📝模型规范](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/规范/模型规范.md)
                 * [📝运维规范](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/规范/运维规范.md)
             * [📝质量](/docs/开发者知识文档/01_软件开发/03_大数据平台/6_理论和概念/质量.md)
+        * [📝Kylin](/docs/开发者知识文档/01_软件开发/03_大数据平台/Kylin.md)
         * [📝streamset](/docs/开发者知识文档/01_软件开发/03_大数据平台/streamset.md)
         * 🗂数据生成器
             * [📝mockaroo](/docs/开发者知识文档/01_软件开发/03_大数据平台/数据生成器/mockaroo.md)
