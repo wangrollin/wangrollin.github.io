@@ -580,6 +580,7 @@
                     * 🗂ORM框架
                         * [📝JDBC](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/ORM框架/JDBC.md)
                         * [📝hibernate](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/ORM框架/hibernate.md)
+                        * [📝jOOQ](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/ORM框架/jOOQ.md)
                         * [📝mybatis](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/ORM框架/mybatis.md)
                     * 🗂redis框架
                         * [📝Jedis](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/redis框架/Jedis.md)
