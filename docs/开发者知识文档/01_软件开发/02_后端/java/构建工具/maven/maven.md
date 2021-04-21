@@ -1,10 +1,13 @@
 ## 最近常用的maven命令
 
+```bash
 mvn clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true -U
 
 mvn clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true
 
-
+# 查看 pmd 检查结果
+mvn clean install pmd:check -Dmaven.test.skip=true
+mvn clean install pmd:check -DskipTests=true
 
 不编译，不运行：-Dmaven.test.skip=true
 
@@ -18,19 +21,15 @@ mvn clean package -P docker -DskipTests=true  -Dmaven.javadoc.skip=true
 
 mvn clean install -DskipTests=true  -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true
 
-
-
 mvnw.cmd -Pprod verify jib:dockerBuild -DskipTests=true
 
 mvn -Pprod verify jib:dockerBuild -DskipTests=true -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true
 
-
-
 mvn -Pprod clean verify jib:build -DskipTests=true
 
-
-
 mvn initialize sonar:sonar -Dsonar.login=deployment -Dsonar.password=xxx
+
+```
 
 
 
