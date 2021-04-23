@@ -3,6 +3,7 @@
 ## 插件
 
 - statistics
+- free mybatis plugin
 - snakeYaml plugin
 - alibaba cloud toolkit
 - alibaba Java coding guidelines
