@@ -1,4 +1,9 @@
 
+
+## 知识点
+
+- binlog
+
 ## mysql docker
 
 ```bash
