@@ -928,6 +928,8 @@
                 * [📝cpy](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/cpy.md)
                 * [📝pypy解释器](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/pypy解释器.md)
                 * [📝python](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/python.md)
+                * 🗂框架
+                    * [📝Euler微服务框架](/docs/开发者知识文档/01_软件开发/04_机器学习/python/基础知识/框架/Euler微服务框架.md)
             * 🗂实用工具
                 * 🗂py环境管理
                     * [📝Anaconda](/docs/开发者知识文档/01_软件开发/04_机器学习/python/实用工具/py环境管理/Anaconda.md)
@@ -1046,6 +1048,8 @@
             * [📝RVM](/docs/开发者知识文档/02_GNU-Linux/其他语言/ruby/RVM.md)
             * [📝rbenv](/docs/开发者知识文档/02_GNU-Linux/其他语言/ruby/rbenv.md)
             * [📝ruby](/docs/开发者知识文档/02_GNU-Linux/其他语言/ruby/ruby.md)
+        * 🗂rust
+            * [📝rust](/docs/开发者知识文档/02_GNU-Linux/其他语言/rust/rust.md)
     * 🗂包管理工具
         * [📝apt-get](/docs/开发者知识文档/02_GNU-Linux/包管理工具/apt-get.md)
         * [📝sdkman](/docs/开发者知识文档/02_GNU-Linux/包管理工具/sdkman.md)
@@ -1058,6 +1062,8 @@
         * [📝系统调用](/docs/开发者知识文档/02_GNU-Linux/系统API/系统调用.md)
     * 🗂编译Linux
         * [📝Linux-From-Scratch](/docs/开发者知识文档/02_GNU-Linux/编译Linux/Linux-From-Scratch.md)
+    * 🗂网络编程
+        * [📝C10K问题](/docs/开发者知识文档/02_GNU-Linux/网络编程/C10K问题.md)
     * 🗂虚拟化技术
         * [📝LXC](/docs/开发者知识文档/02_GNU-Linux/虚拟化技术/LXC.md)
 * 🗂DevOps-CICD-测试

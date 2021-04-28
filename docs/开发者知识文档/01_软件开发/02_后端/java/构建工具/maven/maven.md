@@ -5,6 +5,8 @@ mvn clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true -Dmaven.javadoc.
 
 mvn clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true
 
+mvn clean install -Dmaven.test.skip=true
+
 # 查看 pmd 检查结果
 mvn clean install pmd:check -Dmaven.test.skip=true
 mvn clean install pmd:check -DskipTests=true
