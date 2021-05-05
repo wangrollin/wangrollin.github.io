@@ -60,7 +60,6 @@
             * [📝CNN](/docs/开发者知识文档/00_CS基础/机器学习深度学习/深度学习/CNN.md)
             * [📝RNN](/docs/开发者知识文档/00_CS基础/机器学习深度学习/深度学习/RNN.md)
     * 🗂算法
-        * [📝一致性Hash](/docs/开发者知识文档/00_CS基础/算法/一致性Hash.md)
         * [📝动态规划DP](/docs/开发者知识文档/00_CS基础/算法/动态规划DP.md)
         * [📝图算法](/docs/开发者知识文档/00_CS基础/算法/图算法.md)
         * [📝布隆过滤器](/docs/开发者知识文档/00_CS基础/算法/布隆过滤器.md)
@@ -693,6 +692,10 @@
                             * [📝Cassandra](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/Cassandra.md)
                             * [📝Couchbase](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/Couchbase.md)
                             * [📝mongodb](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/mongodb.md)
+                            * 🗂分布式KV数据库
+                                * [📝Pegasus_小米](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/分布式KV数据库/Pegasus_小米.md)
+                                * [📝Tendis_腾讯](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/分布式KV数据库/Tendis_腾讯.md)
+                                * [📝Zeppelin_360](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/NoSQL数据库/分布式KV数据库/Zeppelin_360.md)
                         * 🗂SQL数据库
                             * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/MySQL存储位置迁移.md)
                             * [📝PostgreSQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/SQL数据库/PostgreSQL.md)
@@ -783,9 +786,11 @@
                 * 🗂索引
                     * [📝Elastalert](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/索引/Elastalert.md)
                     * [📝elasticsearch](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/索引/elasticsearch.md)
-            * 🗂服务注册和发现
-                * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册和发现/Consul_by_Hashicorp.md)
-                * [📝zookeeper](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册和发现/zookeeper.md)
+            * 🗂服务注册发现和配置共享
+                * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现和配置共享/Consul_by_Hashicorp.md)
+                * [📝Doozerd](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现和配置共享/Doozerd.md)
+                * [📝etcd](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现和配置共享/etcd.md)
+                * [📝zookeeper](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现和配置共享/zookeeper.md)
             * 🗂消息中间件
                 * [📝AMQP协议](/docs/开发者知识文档/01_软件开发/02_后端/中间件/消息中间件/AMQP协议.md)
                 * 🗂ZeroMQ
@@ -809,8 +814,6 @@
                 * [📝lvs](/docs/开发者知识文档/01_软件开发/02_后端/中间件/负载均衡/lvs.md)
         * 🗂中间件服务
             * [📝segment](/docs/开发者知识文档/01_软件开发/02_后端/中间件服务/segment.md)
-        * 🗂分布式
-            * [📝分布式知识](/docs/开发者知识文档/01_软件开发/02_后端/分布式/分布式知识.md)
         * 🗂商业解决方案
             * 🗂云通信平台
                 * [📝twilio](/docs/开发者知识文档/01_软件开发/02_后端/商业解决方案/云通信平台/twilio.md)
@@ -1026,9 +1029,12 @@
         * [📝ubuntu完整配置流](/docs/开发者知识文档/02_GNU-Linux/04_ubuntu/ubuntu完整配置流.md)
     * 🗂其他发行版
         * [📝CoreOS](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/CoreOS.md)
+        * [📝Fedora](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/Fedora.md)
+        * [📝Rocky_Linux](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/Rocky_Linux.md)
         * [📝alpine](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/alpine.md)
         * [📝centos](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/centos.md)
         * [📝debian](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/debian.md)
+        * [📝deepin](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/deepin.md)
         * [📝redhat](/docs/开发者知识文档/02_GNU-Linux/05_其他发行版/redhat.md)
     * 🗂其他语言
         * 🗂cpp
@@ -1128,6 +1134,7 @@
         * 🗂性能压力自动化测试
             * [📝JMeter](/docs/开发者知识文档/03_DevOps-CICD-测试/06_自动化测试/06_性能压力自动化测试/JMeter.md)
     * 🗂发布策略
+        * [📝AB测试](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/AB测试.md)
         * [📝金丝雀canary](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/金丝雀canary.md)
     * 🗂分布式部署
         * [📝多机房部署-异地多活](/docs/开发者知识文档/03_DevOps-CICD-测试/08_分布式部署/多机房部署-异地多活.md)
@@ -1157,9 +1164,12 @@
                 * [📝kubeadm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/k8s命令行工具/kubeadm.md)
                 * [📝kubectl](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/k8s命令行工具/kubectl.md)
             * 🗂service_mesh
+                * [📝SOFAMesh](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/SOFAMesh.md)
+                * [📝Traffic_Director](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/Traffic_Director.md)
                 * [📝envoy](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/envoy.md)
                 * [📝istio](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/istio.md)
                 * [📝linkerd](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/linkerd.md)
+                * [📝概念](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/概念.md)
             * 🗂存储
                 * [📝longhorn](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/longhorn.md)
                 * [📝nfs](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/nfs.md)
@@ -1278,7 +1288,11 @@
     * [📝论市场和技术的关系](/docs/开发者知识文档/06_scrum/论市场和技术的关系.md)
     * [📝需求管理](/docs/开发者知识文档/06_scrum/需求管理.md)
 * 🗂系统设计
+    * [📝一致性Hash](/docs/开发者知识文档/07_系统设计/一致性Hash.md)
+    * [📝分布式知识](/docs/开发者知识文档/07_系统设计/分布式知识.md)
+    * [📝容灾](/docs/开发者知识文档/07_系统设计/容灾.md)
     * [📝系统设计](/docs/开发者知识文档/07_系统设计/系统设计.md)
+    * [📝高可用理论](/docs/开发者知识文档/07_系统设计/高可用理论.md)
 * 🗂其他
     * 🗂SSL证书
         * [📝LetsEncrypt](/docs/开发者知识文档/99_其他/SSL证书/LetsEncrypt.md)
