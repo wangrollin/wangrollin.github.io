@@ -19,6 +19,7 @@
 - bashsupport
 - go template
 - javafx runtime for plugin
+- thrift support
 
 
 ## 配置
@@ -67,26 +68,26 @@ apply
 
 ## 问题和解决方案 problems
 
-### 查看jar包源码
+> 查看jar包源码
 
 如果是maven的依赖，自动就能看到，但是如果是独立的jar，就看不到。把jar包 add as Library，然后就能看啦
 
 
-### maven reimport 一直报错，修改如下
+> maven reimport 一直报错，修改如下
 
 Go to File > Settings > Build,Execution,Deployment> Build Tools > Maven > Importing .
 
 Change VM options for importer to -Didea.maven3.use.compat.resolver
 
 
-### 生成java doc -encoding utf-8 -charset utf-8
+> 生成java doc -encoding utf-8 -charset utf-8
 
 ![image-20191230152300145](intelliJ_idea.assets/image-20191230152300145.png)
 
 ![image-20191230152311418](intelliJ_idea.assets/image-20191230152311418.png)
 
 
-### 运行spring boot，如果命令行启动，需要编辑一下，如果maven启动，勾选profile
+> 运行spring boot，如果命令行启动，需要编辑一下，如果maven启动，勾选profile
 
 ![image-20191230152327067](intelliJ_idea.assets/image-20191230152327067.png)
 
@@ -94,17 +95,21 @@ Change VM options for importer to -Didea.maven3.use.compat.resolver
 
 ![image-20191230152349614](intelliJ_idea.assets/image-20191230152349614.png)
 
-### 运行两个service实例
+> 运行两个service实例
 
 在configure里勾选 allow parallel run，改改server port
 
-### IDEA运行报Command line is too long
+> IDEA运行报Command line is too long
 
 ```
 修改项目下 .idea\workspace.xml，找到标签 <component name="PropertiesComponent">
 在标签里加一行  <property name="dynamic.classpath" value="true" />
 ```
 
-### 在shell用mvn编译正常，IDEA一直报错
+> 在shell用mvn编译正常，IDEA一直报错
 
 可能别人把`.idea`和`.iml`的文件提交了，删掉再来即可
+
+> IDEA点击Download sources 报错：Caused by: java.rmi.ConnectException: Connection refused to host: 127.0.0.1
+
+删除对应 project 目录的 .idea文件夹，重启idea，reload maven，重新点击 Download sources
