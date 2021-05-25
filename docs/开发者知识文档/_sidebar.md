@@ -68,6 +68,8 @@
             * [📝插入排序](/docs/开发者知识文档/00_CS基础/算法/排序/插入排序.md)
         * [📝推荐算法](/docs/开发者知识文档/00_CS基础/算法/推荐算法.md)
         * [📝数据挖掘](/docs/开发者知识文档/00_CS基础/算法/数据挖掘.md)
+        * 🗂随机算法
+            * [📝随机权重算法](/docs/开发者知识文档/00_CS基础/算法/随机算法/随机权重算法.md)
     * 🗂编程范式
         * [📝范式大全](/docs/开发者知识文档/00_CS基础/编程范式/范式大全.md)
     * 🗂编译原理
@@ -684,6 +686,8 @@
                 * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/web服务器/nginx.md)
             * 🗂分布式调度与计算框架
                 * [📝PowerJob](/docs/开发者知识文档/01_软件开发/02_后端/中间件/分布式调度与计算框架/PowerJob.md)
+            * 🗂图计算框架
+                * [📝Gremlin_TinkerPop](/docs/开发者知识文档/01_软件开发/02_后端/中间件/图计算框架/Gremlin_TinkerPop.md)
             * 🗂存储
                 * 🗂keyvalue存储
                     * [📝minikeyvalue](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/keyvalue存储/minikeyvalue.md)
@@ -975,6 +979,8 @@
                         * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
                         * [📝PyTorch](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/PyTorch/PyTorch.md)
                     * [📝tensorflow](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/深度学习框架/tensorflow.md)
+                * 🗂算法库
+                    * [📝XGBoost](/docs/开发者知识文档/01_软件开发/04_机器学习/python/框架/算法库/XGBoost.md)
 * 🗂GNU-Linux
     * 🗂c
         * 🗂c版本
@@ -1085,9 +1091,11 @@
         * [📝LXC](/docs/开发者知识文档/02_GNU-Linux/虚拟化技术/LXC.md)
 * 🗂DevOps-CICD-测试
     * 🗂代码托管平台
-        * [📝bitbucket](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/bitbucket.md)
-        * [📝github](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/github.md)
-        * [📝gitlab](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/gitlab.md)
+        * [📝分支管理](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/分支管理.md)
+        * 🗂平台
+            * [📝bitbucket](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/平台/bitbucket.md)
+            * [📝github](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/平台/github.md)
+            * [📝gitlab](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/平台/gitlab.md)
         * 🗂版本号控制
             * [📝Project_Module](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/版本号控制/Project_Module.md)
             * [📝Release_Train](/docs/开发者知识文档/03_DevOps-CICD-测试/00_代码托管平台/版本号控制/Release_Train.md)
