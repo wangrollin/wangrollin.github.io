@@ -30,3 +30,26 @@ maven插件
                 </configuration>
             </plugin>
 ```
+
+## tips
+
+> Gson反序列化 和 builder模式 都会忽略设置了值的字段，统一用类型的默认值
+
+```java
+@Builder
+public static class Clazz1 {
+
+    private boolean bool = true;
+    private String f1 = "f1";
+    private String f2;
+}
+
+@Test
+public void test() {
+
+    Clazz1 c1 = Clazz1.builder().f2("f2").build();
+    System.out.println(new Gson().toJson(c1)); // {"bool":false,"f2":"f2"}
+}
+```
+
+
