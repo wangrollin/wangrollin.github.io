@@ -460,6 +460,7 @@
                         * [📝serverless](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/serverless.md)
                         * [📝web-applications](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/Spring主要模块/web-applications.md)
                     * 🗂springBoot
+                        * [📝GracefulShutdown](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/GracefulShutdown.md)
                         * 🗂spring-boot-starter-web
                             * [📝RestTemplate](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/spring-boot-starter-web/RestTemplate.md)
                             * [📝springmvc](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/springBoot/spring-boot-starter-web/springmvc.md)
@@ -598,16 +599,16 @@
                         * [📝HikariCP](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/HikariCP.md)
                         * [📝Tomcat-Jdbc-Pool](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/Tomcat-Jdbc-Pool.md)
                         * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/数据库缓存相关/连接池框架/总览.md)
-                * 🗂日志框架
-                    * 🗂logs
-                        * [📝jdkLog](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/jdkLog.md)
-                        * [📝log4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/log4j.md)
-                        * [📝logback](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/logback.md)
-                        * [📝slf4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/slf4j.md)
-                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/logs/总览.md)
-                    * 🗂metrics
-                        * [📝JMX](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/metrics/JMX.md)
-                        * [📝micrometer](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志框架/metrics/micrometer.md)
+                * 🗂日志和打点框架
+                    * 🗂打点metrics
+                        * [📝JMX](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/打点metrics/JMX.md)
+                        * [📝micrometer](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/打点metrics/micrometer.md)
+                    * 🗂日志log
+                        * [📝jdkLog](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/jdkLog.md)
+                        * [📝log4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/log4j.md)
+                        * [📝logback](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/logback.md)
+                        * [📝slf4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/slf4j.md)
+                        * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/总览.md)
                 * 🗂模板引擎
                     * [📝thymeleaf](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/模板引擎/thymeleaf.md)
                 * 🗂测试框架
@@ -783,15 +784,15 @@
                 * [📝terraform_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/terraform_by_Hashicorp.md)
                 * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/vagrant_by_Hashicorp.md)
             * 🗂日志
-                * 🗂展示
-                    * [📝Graphite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/展示/Graphite.md)
-                    * [📝Zipkin](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/展示/Zipkin.md)
-                    * [📝grafana](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/展示/grafana.md)
-                    * [📝kibana](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/展示/kibana.md)
-                    * [📝prometheus](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/展示/prometheus.md)
                 * 🗂日志收集
                     * [📝fluentd](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/日志收集/fluentd.md)
                     * [📝logstash](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/日志收集/logstash.md)
+                * 🗂监控展示
+                    * [📝Graphite](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/监控展示/Graphite.md)
+                    * [📝Zipkin](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/监控展示/Zipkin.md)
+                    * [📝grafana](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/监控展示/grafana.md)
+                    * [📝kibana](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/监控展示/kibana.md)
+                    * [📝prometheus](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/监控展示/prometheus.md)
                 * 🗂索引
                     * [📝Elastalert](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/索引/Elastalert.md)
                     * [📝elasticsearch](/docs/开发者知识文档/01_软件开发/02_后端/中间件/日志/索引/elasticsearch.md)
@@ -830,8 +831,6 @@
         * 🗂商业解决方案
             * 🗂云通信平台
                 * [📝twilio](/docs/开发者知识文档/01_软件开发/02_后端/商业解决方案/云通信平台/twilio.md)
-            * 🗂大数据平台
-                * [📝神策数据](/docs/开发者知识文档/01_软件开发/02_后端/商业解决方案/大数据平台/神策数据.md)
         * 🗂设计模式
             * 🗂24种设计模式
                 * [📝Notes_设计模式-可复用面向对象软件的基础](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/24种设计模式/Notes_设计模式-可复用面向对象软件的基础.md)
@@ -839,7 +838,14 @@
                     * [📝发布订阅模式](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/24种设计模式/设计模式大全/发布订阅模式.md)
                     * [📝观察者模式](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/24种设计模式/设计模式大全/观察者模式.md)
                 * [📝设计模式总览](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/24种设计模式/设计模式总览.md)
+            * 🗂重试模式
+                * [📝指数退避](/docs/开发者知识文档/01_软件开发/02_后端/设计模式/重试模式/指数退避.md)
     * 🗂数据平台
+        * 🗂商业解决方案
+            * [📝GoogleAnalytics](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/GoogleAnalytics.md)
+            * [📝GrowingIO](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/GrowingIO.md)
+            * [📝神策数据](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/神策数据.md)
+            * [📝诸葛IO](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/诸葛IO.md)
         * 🗂理论概念
             * [📝OLAP](/docs/开发者知识文档/01_软件开发/03_数据平台/00_理论概念/OLAP.md)
             * [📝PLTP](/docs/开发者知识文档/01_软件开发/03_数据平台/00_理论概念/PLTP.md)
