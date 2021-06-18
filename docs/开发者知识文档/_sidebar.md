@@ -435,10 +435,10 @@
                 * 🗂object_mapper转换
                     * [📝Dozer](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/Dozer.md)
                     * [📝JMapper](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/JMapper.md)
-                    * [📝MapStruct](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/MapStruct.md)
                     * [📝ModelMapper](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/ModelMapper.md)
                     * [📝Orika](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/Orika.md)
                     * [📝jackson-databind](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/jackson-databind.md)
+                    * [📝mapstruct](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/object_mapper转换/mapstruct.md)
                 * 🗂函数式编程
                     * [📝Vavr](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/函数式编程/Vavr.md)
                 * 🗂反射
@@ -573,12 +573,12 @@
                     * [📝springCloudVault](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/yaml密码加密框架/springCloudVault.md)
                 * 🗂zk封装
                     * [📝Curator](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/zk封装/Curator.md)
-                * 🗂代码生成框架
-                    * [📝cglib](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/代码生成框架/cglib.md)
-                    * [📝lombok](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/代码生成框架/lombok.md)
-                    * [📝mapstruct](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/代码生成框架/mapstruct.md)
                 * 🗂参数校验validator
                     * [📝javax.validation](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/参数校验validator/javax.validation.md)
+                * 🗂字节码编织框架
+                    * [📝JDK_Dynamic_Proxy](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/字节码编织框架/JDK_Dynamic_Proxy.md)
+                    * [📝cglib](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/字节码编织框架/cglib.md)
+                    * [📝lombok](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/字节码编织框架/lombok.md)
                 * 🗂安全认证框架
                     * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
                     * [📝OAuth2](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/安全认证框架/OAuth2.md)
@@ -895,12 +895,14 @@
                 * [📝pig](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_SQL和脚本引擎/pig.md)
                 * [📝sparkSQL](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_SQL和脚本引擎/sparkSQL.md)
             * 🗂计算引擎
-                * [📝Beam](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Beam.md)
+                * 🗂Query统一平台
+                    * [📝Beam](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/00_Query统一平台/Beam.md)
                 * 🗂Flink
                     * [📝Lynda_Apache_Flink_Batch_Mode_Data_Engineering](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Flink/Lynda_Apache_Flink_Batch_Mode_Data_Engineering.md)
                     * [📝Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Flink/Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL.md)
                     * [📝Lynda_Apache_Flink_Real-Time_Data_Engineering](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Flink/Lynda_Apache_Flink_Real-Time_Data_Engineering.md)
                     * [📝flink](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Flink/flink.md)
+                * [📝Kylin](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Kylin.md)
                 * [📝MR](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/MR.md)
                 * 🗂Spark
                     * [📝Lynda_Apache_Spark_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Spark/Lynda_Apache_Spark_Essential_Training.md)
@@ -917,12 +919,6 @@
                 * [📝DataX](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_数据同步/DataX.md)
                 * [📝Flume](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_数据同步/Flume.md)
                 * [📝Sqoop](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_数据同步/Sqoop.md)
-            * 🗂调度
-                * [📝Airflow](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_调度/Airflow.md)
-                * [📝Azkaban](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_调度/Azkaban.md)
-                * [📝Chronos](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_调度/Chronos.md)
-                * [📝Crontab](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_调度/Crontab.md)
-                * [📝Oozie](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_调度/Oozie.md)
             * 🗂DB层
                 * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/Lynda_HBase_Essential_Training.md)
                 * [📝hbase](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/hbase.md)
@@ -940,15 +936,31 @@
                 * [📝cloudera发行版安装包](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/5_基础部署和管理/cloudera发行版安装包.md)
                 * [📝hadoop](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/5_基础部署和管理/hadoop.md)
                 * [📝最佳实践](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/5_基础部署和管理/最佳实践.md)
-            * [📝Kylin](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/Kylin.md)
             * [📝streamset](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/streamset.md)
             * 🗂数据生成器
                 * [📝mockaroo](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/数据生成器/mockaroo.md)
         * 🗂开发套件
-            * 🗂数据接入
-                * [📝holder](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/00_数据接入/holder.md)
+            * 🗂数据接入DTS
+                * [📝holder](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/00_数据接入DTS/holder.md)
             * 🗂数据研发
-                * [📝holder](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/holder.md)
+                * 🗂调度系统
+                    * 🗂开源实现
+                        * [📝Airflow](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_调度系统/开源实现/Airflow.md)
+                        * [📝Azkaban](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_调度系统/开源实现/Azkaban.md)
+                        * [📝Chronos](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_调度系统/开源实现/Chronos.md)
+                        * [📝Crontab](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_调度系统/开源实现/Crontab.md)
+                        * [📝Oozie](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_调度系统/开源实现/Oozie.md)
+                * 🗂数据开发
+                    * 🗂WebIDE
+                        * [📝placeholder](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/数据开发/WebIDE/placeholder.md)
+                * 🗂运维
+                    * [📝基线预警告警](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/运维/基线预警告警.md)
+                    * [📝调度失败分析](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/运维/调度失败分析.md)
+            * 🗂数据治理
+                * [📝元数仓](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/03_数据治理/元数仓.md)
+                * [📝数据地图](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/03_数据治理/数据地图.md)
+                * [📝数据安全](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/03_数据治理/数据安全.md)
+                * [📝数据质量](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/03_数据治理/数据质量.md)
         * 🗂数仓建设
             * 🗂数据仓库DataWarehouse
                 * [📝接入层](/docs/开发者知识文档/01_软件开发/03_数据平台/03_数仓建设/数据仓库DataWarehouse/1_接入层.md)
@@ -1207,7 +1219,6 @@
             * [📝JMeter](/docs/开发者知识文档/03_DevOps-CICD-测试/06_自动化测试/06_性能压力自动化测试/JMeter.md)
     * 🗂发布策略
         * [📝CodeReview](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/01_CodeReview.md)
-        * [📝设计文档](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/02_设计文档.md)
         * [📝AB测试](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/AB测试.md)
         * [📝金丝雀canary](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/金丝雀canary.md)
     * 🗂分布式部署
@@ -1360,6 +1371,8 @@
             * [📝unpkg](/docs/开发者知识文档/05_阿里云/07_其他厂商的服务/CDN/unpkg.md)
     * [📝阿里云概览](/docs/开发者知识文档/05_阿里云/阿里云概览.md)
 * 🗂scrum
+    * [📝双月规划](/docs/开发者知识文档/06_scrum/00_双月规划.md)
+    * [📝设计文档](/docs/开发者知识文档/06_scrum/02_设计文档.md)
     * [📝总流程概览](/docs/开发者知识文档/06_scrum/总流程概览.md)
     * [📝论市场和技术的关系](/docs/开发者知识文档/06_scrum/论市场和技术的关系.md)
     * [📝需求管理](/docs/开发者知识文档/06_scrum/需求管理.md)
