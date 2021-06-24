@@ -561,12 +561,6 @@
                     * [📝servlet](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/javaEE标准组件/servlet.md)
                 * 🗂java消息服务
                     * [📝JMS](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/java消息服务/JMS.md)
-                * 🗂restful框架
-                    * [📝OpenAPI](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/restful框架/OpenAPI.md)
-                    * [📝jersy](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/restful框架/jersy.md)
-                    * [📝swagger](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/restful框架/swagger.md)
-                * 🗂rpc框架
-                    * [📝dubbo](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/rpc框架/dubbo.md)
                 * 🗂yaml密码加密框架
                     * [📝druid](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/yaml密码加密框架/druid.md)
                     * [📝jasypt](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/yaml密码加密框架/jasypt.md)
@@ -613,6 +607,17 @@
                         * [📝logback](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/logback.md)
                         * [📝slf4j](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/slf4j.md)
                         * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/总览.md)
+                * 🗂服务调用框架
+                    * 🗂GraphSQL
+                        * [📝GraphSQL](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/GraphSQL/GraphSQL.md)
+                    * 🗂restful框架
+                        * [📝OpenAPI](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/restful框架/OpenAPI.md)
+                        * [📝jersy](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/restful框架/jersy.md)
+                        * [📝swagger](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/restful框架/swagger.md)
+                    * 🗂rpc框架
+                        * [📝Thrift](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/rpc框架/Thrift.md)
+                        * [📝dubbo](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/rpc框架/dubbo.md)
+                        * [📝grpc](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/rpc框架/grpc.md)
                 * 🗂模板引擎
                     * [📝thymeleaf](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/模板引擎/thymeleaf.md)
                 * 🗂测试框架
@@ -684,9 +689,6 @@
                 * 🗂全功能JakartaEE标准服务器
                     * [📝GlassFish](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/全功能JakartaEE标准服务器/GlassFish.md)
                     * [📝WildFly_JBoss](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/全功能JakartaEE标准服务器/WildFly_JBoss.md)
-            * 🗂RPC框架
-                * [📝Thrift](/docs/开发者知识文档/01_软件开发/02_后端/中间件/RPC框架/Thrift.md)
-                * [📝grpc](/docs/开发者知识文档/01_软件开发/02_后端/中间件/RPC框架/grpc.md)
             * 🗂web服务器
                 * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/web服务器/nginx.md)
             * 🗂分布式调度与计算框架
