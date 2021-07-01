@@ -100,3 +100,8 @@ dependencyManagement：
 
 
 > 父子工程 vs 聚合工程
+
+> jar包冲突
+
+[Maven中 jar包冲突原理与解决办法](https://blog.csdn.net/noaman_wgs/article/details/81137893)
+
