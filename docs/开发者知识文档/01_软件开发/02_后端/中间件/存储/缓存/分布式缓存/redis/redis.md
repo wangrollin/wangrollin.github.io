@@ -17,3 +17,4 @@ docker start myredis
 - [Redis底层详解（一） 哈希表和字典](https://blog.csdn.net/WhereIsHeroFrom/article/details/80833863)
 - [Redis有哪几种数据类型](https://zhuanlan.zhihu.com/p/98463586)
 
+- [redis文档大全](https://juejin.cn/post/6847902223913992200)
