@@ -33,3 +33,6 @@ LATERAL VIEW
 
 - [hive-sql查询结果保留特点小数位数的方法](https://blog.csdn.net/helloxiaozhe/article/details/103578666)
 
+
+bucketUnion 优化
+SkewedJoin 优化
