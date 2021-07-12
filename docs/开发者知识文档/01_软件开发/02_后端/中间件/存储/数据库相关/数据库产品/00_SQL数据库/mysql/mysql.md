@@ -26,6 +26,12 @@ https://cloud.tencent.com/developer/news/201704
 ## 乐观锁，悲观锁
 
 
+## 执行计划
+
+- [这一次，彻底读懂Mysql执行计划](https://juejin.cn/post/6844903545607553037)
+- [mysql官网文档 执行计划](https://dev.mysql.com/doc/refman/5.7/en/explain-output.html#explain-extra-information)
+
+
 ## Q&A
 
 > 如何关闭 ONLY_FULL_GROUP_BY
