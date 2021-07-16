@@ -21,6 +21,7 @@ mvn clean install pmd:check -DskipTests=true
 
 编译，不运行：-DskipTests=true
 
+mvn dependency:tree
 
 mvn clean deploy -DskipTests=true
 
