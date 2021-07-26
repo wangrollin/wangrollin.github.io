@@ -361,6 +361,7 @@
                         * [📝OpenJ9](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/JVM发行版/OpenJ9.md)
                     * [📝Notes_深入理解java虚拟机](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/Notes_深入理解java虚拟机.md)
                     * [📝jvm内存](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/jvm内存.md)
+                    * [📝参数](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/参数.md)
                     * 🗂类加载
                         * [📝双亲委派类加载机制](/docs/开发者知识文档/01_软件开发/02_后端/java/01_JDK/JVM/类加载/双亲委派类加载机制.md)
                 * 🗂发行版
