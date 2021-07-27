@@ -145,6 +145,7 @@
                     * [📝popper.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/提示工具Tooltip/popper.js.md)
                 * 🗂数据可视化
                     * [📝D3.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/数据可视化/D3.js.md)
+                    * [📝ECharts](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/数据可视化/ECharts.md)
                 * 🗂时间
                     * [📝Moment.js](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/时间/Moment.js.md)
                     * [📝date-and-time](/docs/开发者知识文档/01_软件开发/01_前端/03_javascript/库/时间/date-and-time.md)
@@ -535,7 +536,6 @@
                         * [📝eureka_by_Netflix](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/03_springCloud/eureka_by_Netflix.md)
                         * [📝openFeign](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/03_springCloud/openFeign.md)
                         * [📝springcloud](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/03_springCloud/springcloud.md)
-                        * [📝traefik](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/03_springCloud/traefik.md)
                         * [📝webflux_gateway](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/03_springCloud/webflux_gateway.md)
                         * [📝zuul](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/01_spring全家桶/03_springCloud/zuul.md)
                         * 🗂流控熔断CircuitBreaker
@@ -717,8 +717,9 @@
                             * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/MySQL存储位置迁移.md)
                             * 🗂PostgreSQL
                                 * [📝PostgreSQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/PostgreSQL/PostgreSQL.md)
-                                * 🗂衍生数据库
-                                    * [📝GaussDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/PostgreSQL/衍生数据库/GaussDB.md)
+                                * 🗂衍生发行版
+                                    * [📝GaussDB](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/GaussDB.md)
+                                    * [📝Pigsty](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/Pigsty.md)
                             * [📝SQL语法](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/SQL语法.md)
                             * [📝h2](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/h2.md)
                             * 🗂mysql
@@ -807,11 +808,6 @@
                 * 🗂redhat_middleware
                     * [📝quarkus](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类_by_redHat/redhat_middleware/quarkus.md)
                     * [📝redHat_runtimes](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类_by_redHat/redhat_middleware/redHat_runtimes.md)
-            * 🗂待分类by_Hashicorp
-                * [📝nomad_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/nomad_by_Hashicorp.md)
-                * [📝packer_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/packer_by_Hashicorp.md)
-                * [📝terraform_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/terraform_by_Hashicorp.md)
-                * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类by_Hashicorp/vagrant_by_Hashicorp.md)
             * 🗂服务注册发现_一致性协调系统
                 * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现_一致性协调系统/Consul_by_Hashicorp.md)
                 * [📝Doozerd](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现_一致性协调系统/Doozerd.md)
@@ -926,6 +922,7 @@
                     * [📝Lynda_Apache_Spark_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Spark/Lynda_Apache_Spark_Essential_Training.md)
                     * [📝Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Spark/Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark.md)
                     * [📝Lynda_Introduction_to_Spark_SQL_and_DataFrames](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Spark/Lynda_Introduction_to_Spark_SQL_and_DataFrames.md)
+                    * [📝kyuubi](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Spark/kyuubi.md)
                     * [📝spark](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Spark/spark.md)
                 * [📝Tez](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/Tez.md)
                 * [📝drill](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_计算引擎/drill.md)
@@ -1210,6 +1207,7 @@
         * 🗂进程相关
             * [📝Systemd](/docs/开发者知识文档/02_GNU-Linux/工具软件/进程相关/Systemd.md)
             * [📝init](/docs/开发者知识文档/02_GNU-Linux/工具软件/进程相关/init.md)
+            * [📝lsof](/docs/开发者知识文档/02_GNU-Linux/工具软件/进程相关/lsof.md)
             * [📝ps](/docs/开发者知识文档/02_GNU-Linux/工具软件/进程相关/ps.md)
             * [📝service](/docs/开发者知识文档/02_GNU-Linux/工具软件/进程相关/service.md)
             * [📝supervisior](/docs/开发者知识文档/02_GNU-Linux/工具软件/进程相关/supervisior.md)
@@ -1267,8 +1265,15 @@
         * [📝docker_registry](/docs/开发者知识文档/03_DevOps-CICD-测试/04_镜像仓库/docker_registry.md)
         * [📝官方dockerhub](/docs/开发者知识文档/03_DevOps-CICD-测试/04_镜像仓库/官方dockerhub.md)
     * 🗂运维工具
+        * [📝Ansible](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/Ansible.md)
         * [📝fabric](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/fabric.md)
+        * [📝nomad_by_Hashicorp](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/nomad_by_Hashicorp.md)
+        * [📝packer_by_Hashicorp](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/packer_by_Hashicorp.md)
         * [📝puppet](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/puppet.md)
+        * [📝saltstack](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/saltstack.md)
+        * [📝terraform_by_Hashicorp](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/terraform_by_Hashicorp.md)
+        * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/vagrant_by_Hashicorp.md)
+        * [📝蓝鲸智云bk-job](/docs/开发者知识文档/03_DevOps-CICD-测试/05_运维工具/蓝鲸智云bk-job.md)
     * 🗂自动化测试
         * 🗂POC-概念验证
             * [📝placeholder](/docs/开发者知识文档/03_DevOps-CICD-测试/06_自动化测试/00_POC-概念验证/placeholder.md)
@@ -1313,39 +1318,47 @@
             * [📝k8s](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/k8s.md)
             * [📝microk8s](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/microk8s.md)
             * [📝minikube](/docs/开发者知识文档/04_CNCF/k8s/k8s发行版/minikube.md)
-        * 🗂k8s组件
+        * 🗂k8s组件生态
             * 🗂k8s命令行工具
-                * [📝kubeadm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/k8s命令行工具/kubeadm.md)
-                * [📝kubectl](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/k8s命令行工具/kubectl.md)
+                * [📝kubeadm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/k8s命令行工具/kubeadm.md)
+                * [📝kubectl](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/k8s命令行工具/kubectl.md)
             * 🗂service_mesh
-                * [📝SOFAMesh](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/SOFAMesh.md)
-                * [📝Traffic_Director](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/Traffic_Director.md)
-                * [📝envoy](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/envoy.md)
-                * [📝istio](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/istio.md)
-                * [📝linkerd](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/linkerd.md)
-                * [📝概念](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/service_mesh/概念.md)
+                * [📝SOFAMesh](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/service_mesh/SOFAMesh.md)
+                * [📝Traffic_Director](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/service_mesh/Traffic_Director.md)
+                * [📝envoy](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/service_mesh/envoy.md)
+                * [📝istio](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/service_mesh/istio.md)
+                * [📝linkerd](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/service_mesh/linkerd.md)
+                * [📝概念](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/service_mesh/概念.md)
             * 🗂存储
-                * [📝longhorn](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/longhorn.md)
-                * [📝nfs](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/nfs.md)
-                * [📝storage](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/storage.md)
-                * [📝zfs](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/存储/zfs.md)
+                * [📝longhorn](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/存储/longhorn.md)
+                * [📝nfs](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/存储/nfs.md)
+                * [📝storage](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/存储/storage.md)
+                * [📝zfs](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/存储/zfs.md)
             * 🗂工具镜像
-                * [📝BusyBox](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/工具镜像/BusyBox.md)
+                * [📝BusyBox](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/工具镜像/BusyBox.md)
+            * 🗂机器学习
+                * [📝kubeflow](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/机器学习/kubeflow.md)
             * 🗂监控
-                * [📝argo](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/监控/argo.md)
+                * [📝argo](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/监控/argo.md)
             * 🗂管理界面工具
-                * [📝k8s_dashboard](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/管理界面工具/k8s_dashboard.md)
-                * [📝openshift](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/管理界面工具/openshift.md)
-                * [📝rancher](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/管理界面工具/rancher.md)
+                * [📝k8s_dashboard](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/管理界面工具/k8s_dashboard.md)
+                * [📝openshift](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/管理界面工具/openshift.md)
+                * [📝rancher](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/管理界面工具/rancher.md)
             * 🗂网络
-                * [📝Kube-DNS](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/网络/Kube-DNS.md)
+                * 🗂DNS
+                    * [📝Kube-DNS](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/网络/DNS/Kube-DNS.md)
+                * 🗂Ingress
+                    * [📝traefik](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/网络/Ingress/traefik.md)
                 * 🗂容器网络接口cni
-                    * [📝cilium](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/网络/容器网络接口cni/cilium.md)
+                    * [📝cilium](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/网络/容器网络接口cni/cilium.md)
+            * 🗂边缘计算
+                * [📝kubeEdge](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/边缘计算/kubeEdge.md)
+                * [📝openYurt](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/边缘计算/openYurt.md)
             * 🗂部署工具
-                * [📝Helm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/Helm.md)
-                * [📝Knative](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/Knative.md)
-                * [📝kustomize](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/kustomize.md)
-                * [📝skaffold](/docs/开发者知识文档/04_CNCF/k8s/k8s组件/部署工具/skaffold.md)
+                * [📝Helm](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/部署工具/Helm.md)
+                * [📝Knative](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/部署工具/Knative.md)
+                * [📝kustomize](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/部署工具/kustomize.md)
+                * [📝skaffold](/docs/开发者知识文档/04_CNCF/k8s/k8s组件生态/部署工具/skaffold.md)
         * [📝kubernetes概览](/docs/开发者知识文档/04_CNCF/k8s/kubernetes概览.md)
     * 🗂容器运行时
         * 🗂CRI-O
