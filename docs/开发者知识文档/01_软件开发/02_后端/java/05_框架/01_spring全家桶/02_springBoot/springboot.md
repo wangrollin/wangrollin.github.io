@@ -6,6 +6,13 @@ https://www.ibm.com/developerworks/cn/java/j-using-micrometer-to-record-java-met
 https://github.com/acroquest/micrometer-kibana-dashboard
 
 
+## tips
+
+> Spring Boot 解决跨域问题
+
+- [Spring Boot 解决跨域问题的 3 种方案](https://mp.weixin.qq.com/s/F3qf4cFxpkPWu3XpBaLvVw)
+
+
 ## Spring Boot: how to use multiple yml files
 
 https://stackoverflow.com/questions/23134869/spring-boot-how-to-use-multiple-yml-files

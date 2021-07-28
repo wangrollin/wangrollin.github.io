@@ -4,7 +4,7 @@
 
 - [用大白话给你解释 ZooKeeper 的选举机制](http://dockerone.com/article/696772)
 - [ZooKeeper 定位：能解决什么问题？](https://ningg.top/zookeeper-positioning/)
-
+- [ZooKeeper集群架构以及读写原理](https://mp.weixin.qq.com/s/F5cS-W4WyuRwc8dGPVy0dQ)
 
 - Zab协议
 - 数据一致性与 paxos 算法
