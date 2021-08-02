@@ -32,6 +32,21 @@ https://cloud.tencent.com/developer/news/201704
 - [mysql官网文档 执行计划](https://dev.mysql.com/doc/refman/5.7/en/explain-output.html#explain-extra-information)
 
 
+## mysql日志
+
+- 二进制日志`binlog`
+- 中继日志`relaylog`
+- 重做回滚日志`redolog、undolog`
+- 慢查询日志`slowlog`，用来记录在MySQL中响应时间超过阀值的语句
+
+
+## tips
+
+> 慢查询
+
+- [慢SQL治理分享](https://mp.weixin.qq.com/s/CrIHmXWSqvVj7hB1alZliw)
+
+
 ## Q&A
 
 > 如何关闭 ONLY_FULL_GROUP_BY
