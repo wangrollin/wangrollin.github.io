@@ -1,3 +1,13 @@
+
+## 网页
+
+- [k8s中文社区](https://www.kubernetes.org.cn/)
+- [4 种常用的 Kubernetes 容器(标准容器，Sidecar 容器，Init 容器，Ephemeral 容器)](https://mp.weixin.qq.com/s/S7wB-waJyP8p_2Vp-4y0yg)
+- [深入浅出 Kubernetes 项目网关与应用路由](https://mp.weixin.qq.com/s/G-IwqLlujRnyQReDNi6uOA)
+
+
+
+
 k8s gitbook
 
 https://feisky.gitbooks.io/kubernetes/content/

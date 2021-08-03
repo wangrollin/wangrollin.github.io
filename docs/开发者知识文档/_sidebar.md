@@ -579,6 +579,7 @@
                     * [📝javax.validation](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/参数校验validator/javax.validation.md)
                 * 🗂字节码编织框架
                     * [📝JDK_Dynamic_Proxy](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/字节码编织框架/JDK_Dynamic_Proxy.md)
+                    * [📝Javassist](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/字节码编织框架/Javassist.md)
                     * [📝cglib](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/字节码编织框架/cglib.md)
                     * [📝lombok](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/字节码编织框架/lombok.md)
                 * 🗂安全认证框架
@@ -682,7 +683,10 @@
                     * [📝maven](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/maven/maven.md)
                     * 🗂插件
                         * [📝build-helper-maven-plugin](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/maven/插件/build-helper-maven-plugin.md)
+                        * [📝enforce](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/maven/插件/enforce.md)
+                        * [📝findbugs-maven-plugin](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/maven/插件/findbugs-maven-plugin.md)
                         * [📝jib](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/maven/插件/jib.md)
+                        * [📝maven-shade-plugin](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/maven/插件/maven-shade-plugin.md)
                 * 🗂打包形态
                     * [📝class](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/打包形态/class.md)
                     * [📝jar](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/打包形态/jar.md)
@@ -729,6 +733,8 @@
                                     * [📝MyISAM存储引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/MyISAM存储引擎.md)
                                     * [📝innoDb存储引擎](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/innoDb存储引擎.md)
                                     * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/总览.md)
+                                * 🗂binlog
+                                    * [📝canal](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/binlog/canal.md)
                                 * [📝mysql](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/mysql.md)
                                 * 🗂迁移工具
                                     * [📝gh-ost](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/迁移工具/gh-ost.md)
@@ -808,6 +814,8 @@
                 * 🗂redhat_middleware
                     * [📝quarkus](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类_by_redHat/redhat_middleware/quarkus.md)
                     * [📝redHat_runtimes](/docs/开发者知识文档/01_软件开发/02_后端/中间件/待分类_by_redHat/redhat_middleware/redHat_runtimes.md)
+            * 🗂搜索引擎
+                * [📝sphinx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/搜索引擎/sphinx.md)
             * 🗂服务注册发现_一致性协调系统
                 * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现_一致性协调系统/Consul_by_Hashicorp.md)
                 * [📝Doozerd](/docs/开发者知识文档/01_软件开发/02_后端/中间件/服务注册发现_一致性协调系统/Doozerd.md)
@@ -959,12 +967,12 @@
                 * [📝mockaroo](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/数据生成器/mockaroo.md)
         * 🗂开发套件
             * 🗂数据研发
-                * 🗂数据接入DTS
-                    * [📝Binlog_Kafka](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据接入DTS/Binlog_Kafka.md)
-                    * [📝DataX](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据接入DTS/DataX.md)
-                    * [📝Flume](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据接入DTS/Flume.md)
-                    * [📝Sqoop](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据接入DTS/Sqoop.md)
-                    * [📝holder](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据接入DTS/holder.md)
+                * 🗂数据集成
+                    * [📝Binlog_Kafka](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据集成/Binlog_Kafka.md)
+                    * [📝DataX](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据集成/DataX.md)
+                    * [📝Flume](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据集成/Flume.md)
+                    * [📝Sqoop](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据集成/Sqoop.md)
+                    * [📝holder](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/00_数据集成/holder.md)
                 * 🗂调度系统
                     * 🗂开源实现
                         * [📝Airflow](/docs/开发者知识文档/01_软件开发/03_数据平台/02_开发套件/01_数据研发/01_调度系统/开源实现/Airflow.md)
@@ -1152,6 +1160,7 @@
         * 🗂编辑文件
             * [📝emacs](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/emacs.md)
             * [📝nano](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/nano.md)
+            * [📝rsync](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/rsync.md)
             * [📝sed](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/sed.md)
             * [📝vi](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/vi.md)
             * [📝vim](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/vim.md)
@@ -1168,7 +1177,9 @@
         * 🗂进程相关
             * [📝Systemd](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/Systemd.md)
             * [📝init](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/init.md)
+            * [📝kill](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/kill.md)
             * [📝lsof](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/lsof.md)
+            * [📝pkill](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/pkill.md)
             * [📝ps](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/ps.md)
             * [📝service](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/service.md)
             * [📝supervisior](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/进程相关/supervisior.md)
@@ -1185,6 +1196,7 @@
         * [📝ubuntu](/docs/开发者知识文档/02_GNU-Linux/05_ubuntu/ubuntu.md)
         * [📝ubuntu完整配置流](/docs/开发者知识文档/02_GNU-Linux/05_ubuntu/ubuntu完整配置流.md)
     * 🗂其他发行版
+        * [📝linux发行版关系图](/docs/开发者知识文档/02_GNU-Linux/06_其他发行版/00_linux发行版关系图.md)
         * [📝CoreOS](/docs/开发者知识文档/02_GNU-Linux/06_其他发行版/CoreOS.md)
         * [📝Fedora](/docs/开发者知识文档/02_GNU-Linux/06_其他发行版/Fedora.md)
         * [📝Gentoo](/docs/开发者知识文档/02_GNU-Linux/06_其他发行版/Gentoo.md)
@@ -1482,10 +1494,13 @@
         * 🗂CDN
             * [📝jsdelivr](/docs/开发者知识文档/05_阿里云/07_其他厂商的服务/CDN/jsdelivr.md)
             * [📝unpkg](/docs/开发者知识文档/05_阿里云/07_其他厂商的服务/CDN/unpkg.md)
+    * 🗂衍生服务
+        * [📝Erda](/docs/开发者知识文档/05_阿里云/08_衍生服务/Erda.md)
     * [📝阿里云概览](/docs/开发者知识文档/05_阿里云/阿里云概览.md)
 * 🗂scrum
     * [📝双月规划](/docs/开发者知识文档/06_scrum/00_双月规划.md)
     * [📝设计文档](/docs/开发者知识文档/06_scrum/02_设计文档.md)
+    * [📝jira](/docs/开发者知识文档/06_scrum/jira.md)
     * [📝总流程概览](/docs/开发者知识文档/06_scrum/总流程概览.md)
     * [📝论市场和技术的关系](/docs/开发者知识文档/06_scrum/论市场和技术的关系.md)
     * [📝需求管理](/docs/开发者知识文档/06_scrum/需求管理.md)
@@ -1518,6 +1533,11 @@
         * [📝高性能理论](/docs/开发者知识文档/07_系统设计/02_高性能_并发/高性能理论.md)
     * 🗂高可用_容灾
         * [📝高可用理论](/docs/开发者知识文档/07_系统设计/03_高可用_容灾/高可用理论.md)
+    * 🗂常用功能设计
+        * [📝单点登录SSO](/docs/开发者知识文档/07_系统设计/常用功能设计/单点登录SSO.md)
+        * [📝基于角色的访问控制RBAC](/docs/开发者知识文档/07_系统设计/常用功能设计/基于角色的访问控制RBAC.md)
+        * [📝搜索引擎优化SEO](/docs/开发者知识文档/07_系统设计/常用功能设计/搜索引擎优化SEO.md)
+        * [📝秒杀场景](/docs/开发者知识文档/07_系统设计/常用功能设计/秒杀场景.md)
     * [📝系统设计](/docs/开发者知识文档/07_系统设计/系统设计.md)
     * 🗂缓存理论
         * [📝缓存常见问题](/docs/开发者知识文档/07_系统设计/缓存理论/缓存常见问题.md)

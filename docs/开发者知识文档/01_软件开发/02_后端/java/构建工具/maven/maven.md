@@ -1,3 +1,9 @@
+
+## 网站
+
+- [官网](https://maven.apache.org/index.html)
+
+
 ## 最近常用的maven命令
 
 ```bash
@@ -23,6 +29,8 @@ mvn clean install pmd:check -DskipTests=true
 
 mvn dependency:tree
 
+-am 编译依赖的项 auto make
+
 mvn clean deploy -DskipTests=true
 
 mvn clean package -P docker -DskipTests=true  -Dmaven.javadoc.skip=true
@@ -47,10 +55,6 @@ mvn sonar:sonar \
 maven 3.6.1版本有bug，尽量不要使用
 
 
-
-## maven插件
-
-enforce
 
 
 

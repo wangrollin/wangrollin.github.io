@@ -4,6 +4,14 @@
 用户定义函数
 
 
+## metastore
+
+- [Hive Metastore的故事](https://zhuanlan.zhihu.com/p/100585524)
+- [metastore和hiveserver2](https://www.cnblogs.com/tibit/p/9029905.html)
+
+## hiveServer2
+
+
 ## hive sql
 
 ```sql
@@ -26,6 +34,7 @@ LATERAL VIEW
         EXPLODE(t.dependencies_arr) v AS single_dependent
         
 ```
+
 
 ## tips
 
