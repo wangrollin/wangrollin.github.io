@@ -4,7 +4,7 @@
 - [github官网](https://github.com/tmux/tmux)
 - [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
 - [保存和恢复 TMUX 工作区 —— The Easy Way](https://harttle.land/2017/11/24/tmux-workspace-plugin.html)
-
+- [tmux-xpanes: 巧用 Xpanes 实现多服务器批量管理](https://mp.weixin.qq.com/s/YCFDyEOndB4qcUGDgtHyOQ)
 
 ## 设置
 

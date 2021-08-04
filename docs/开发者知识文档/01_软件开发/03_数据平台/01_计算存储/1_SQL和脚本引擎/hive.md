@@ -1,7 +1,10 @@
 
-## hive UDF
+## Hive系统函数
 
-用户定义函数
+- [Hive系统函数一览](https://www.studytime.xin/article/hive-knowledge-function.html?hmsr=toutiao.io&utm_campaign=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+
+## hive UDF 用户定义函数
 
 
 ## metastore
