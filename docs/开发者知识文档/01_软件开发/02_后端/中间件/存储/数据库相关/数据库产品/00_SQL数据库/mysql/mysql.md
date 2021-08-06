@@ -1,14 +1,16 @@
 
 
-## 知识点
+## 索引
 
-- binlog
+- [MySQL索引18问](https://mp.weixin.qq.com/s/zbLWY9n5rvQy8kJq3r-jgw)
+
 
 ## mysql docker
 
 ```bash
 docker run --name docker-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
 ```
+
 
 ## 登录命令
 
