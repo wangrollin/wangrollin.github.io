@@ -634,7 +634,7 @@
                         * [📝总览](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/日志和打点框架/日志log/总览.md)
                 * 🗂服务调用框架
                     * 🗂GraphSQL
-                        * [📝GraphSQL](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/GraphSQL/GraphSQL.md)
+                        * [📝GraphQL](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/GraphSQL/GraphQL.md)
                     * 🗂restful框架
                         * [📝OpenAPI](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/restful框架/OpenAPI.md)
                         * [📝jersy](/docs/开发者知识文档/01_软件开发/02_后端/java/05_框架/服务调用框架/restful框架/jersy.md)
@@ -721,8 +721,6 @@
                 * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/web服务器/nginx.md)
             * 🗂分布式调度与计算框架
                 * [📝PowerJob](/docs/开发者知识文档/01_软件开发/02_后端/中间件/分布式调度与计算框架/PowerJob.md)
-            * 🗂图计算框架
-                * [📝Gremlin_TinkerPop](/docs/开发者知识文档/01_软件开发/02_后端/中间件/图计算框架/Gremlin_TinkerPop.md)
             * 🗂存储
                 * 🗂keyvalue存储
                     * [📝minikeyvalue](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/keyvalue存储/minikeyvalue.md)
@@ -763,7 +761,6 @@
                             * 🗂列存储
                                 * [📝placeholder](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/02_列存储/placeholder.md)
                             * 🗂图形数据库
-                                * [📝GraphQL](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/03_图形数据库/GraphQL.md)
                                 * [📝Neo4j](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/03_图形数据库/Neo4j.md)
                             * 🗂文档类型
                                 * [📝mongodb](/docs/开发者知识文档/01_软件开发/02_后端/中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/04_文档类型/mongodb.md)
@@ -963,10 +960,15 @@
                 * [📝Parquet](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_数据格式/Parquet.md)
                 * [📝protobuf](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_数据格式/protobuf.md)
             * 🗂DB层
-                * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/Lynda_HBase_Essential_Training.md)
-                * [📝hbase](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/hbase.md)
+                * 🗂hbase
+                    * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/hbase/Lynda_HBase_Essential_Training.md)
+                    * [📝hbase](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/hbase/hbase.md)
+                    * [📝phoenix](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/hbase/phoenix.md)
                 * [📝lsm-tree](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/lsm-tree.md)
-                * [📝phoenix](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/phoenix.md)
+                * 🗂图数据库
+                    * [📝HugeGraph](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/图数据库/HugeGraph.md)
+                    * 🗂图计算框架
+                        * [📝Gremlin_TinkerPop](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_DB层/图数据库/图计算框架/Gremlin_TinkerPop.md)
             * 🗂文件系统层
                 * [📝hdfs](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/4_文件系统层/hdfs.md)
                 * [📝yarn](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/4_文件系统层/yarn.md)
