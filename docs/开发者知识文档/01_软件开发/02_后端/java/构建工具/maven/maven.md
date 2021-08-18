@@ -28,6 +28,8 @@ mvn clean install pmd:check -DskipTests=true
 编译，不运行：-DskipTests=true
 
 mvn dependency:tree
+mvn dependency:tree -Dincludes=java-redis-client
+mvn dependency:tree -Dincludes=dorado-common
 
 -am 编译依赖的项 auto make
 

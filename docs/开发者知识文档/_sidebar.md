@@ -317,6 +317,7 @@
             * [📝Lynda_Introduction_to_Web_Design_and_Development](/docs/开发者知识文档/01_软件开发/01_前端/其他/Lynda_Introduction_to_Web_Design_and_Development.md)
             * [📝MultiPageApp_MPA](/docs/开发者知识文档/01_软件开发/01_前端/其他/MultiPageApp_MPA.md)
             * [📝SinglePageApp_SPA](/docs/开发者知识文档/01_软件开发/01_前端/其他/SinglePageApp_SPA.md)
+            * [📝用户页面操作回放](/docs/开发者知识文档/01_软件开发/01_前端/其他/用户页面操作回放.md)
         * 🗂常见问题
             * [📝网站小图标](/docs/开发者知识文档/01_软件开发/01_前端/常见问题/网站小图标.md)
     * 🗂后端
@@ -1142,6 +1143,8 @@
                 * [📝jemalloc](/docs/开发者知识文档/02_GNU-Linux/00_c/07_框架和库/内存分配/jemalloc.md)
                 * [📝ptmalloc](/docs/开发者知识文档/02_GNU-Linux/00_c/07_框架和库/内存分配/ptmalloc.md)
                 * [📝tcmalloc](/docs/开发者知识文档/02_GNU-Linux/00_c/07_框架和库/内存分配/tcmalloc.md)
+            * 🗂压缩库
+                * [📝zlib](/docs/开发者知识文档/02_GNU-Linux/00_c/07_框架和库/压缩库/zlib.md)
     * 🗂内核
         * 🗂机制
             * [📝epoll](/docs/开发者知识文档/02_GNU-Linux/01_内核/00_机制/epoll.md)
