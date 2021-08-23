@@ -709,20 +709,8 @@
                     * [📝jar](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/打包形态/jar.md)
                     * [📝war](/docs/开发者知识文档/01_软件开发/02_后端/java/构建工具/打包形态/war.md)
         * 🗂中间件
-            * 🗂API网关
-                * [📝Kong](/docs/开发者知识文档/01_软件开发/02_后端/中间件/API网关/Kong.md)
             * 🗂CMS网站生成器
                 * [📝MCms](/docs/开发者知识文档/01_软件开发/02_后端/中间件/CMS网站生成器/MCms.md)
-            * 🗂Java应用服务器
-                * [📝apache](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/apache.md)
-                * [📝jetty](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/jetty.md)
-                * [📝tomcat](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/tomcat.md)
-                * [📝undertow](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/undertow.md)
-                * 🗂全功能JakartaEE标准服务器
-                    * [📝GlassFish](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/全功能JakartaEE标准服务器/GlassFish.md)
-                    * [📝WildFly_JBoss](/docs/开发者知识文档/01_软件开发/02_后端/中间件/Java应用服务器/全功能JakartaEE标准服务器/WildFly_JBoss.md)
-            * 🗂web服务器
-                * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/web服务器/nginx.md)
             * 🗂分布式事务
                 * [📝seata](/docs/开发者知识文档/01_软件开发/02_后端/中间件/分布式事务/seata.md)
             * 🗂分布式调度与计算框架
@@ -885,6 +873,20 @@
                         * [📝prometheus](/docs/开发者知识文档/01_软件开发/02_后端/中间件/监控平台/02_日志监控LOG/02_监控展示/prometheus.md)
                 * 🗂真实用户监控RUM
                     * [📝placeHolder](/docs/开发者知识文档/01_软件开发/02_后端/中间件/监控平台/03_真实用户监控RUM/placeHolder.md)
+            * 🗂网关
+                * 🗂API网关
+                    * [📝Kong](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/API网关/Kong.md)
+                    * [📝apisix](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/API网关/apisix.md)
+                * 🗂Java应用服务器
+                    * [📝apache](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/Java应用服务器/apache.md)
+                    * [📝jetty](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/Java应用服务器/jetty.md)
+                    * [📝tomcat](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/Java应用服务器/tomcat.md)
+                    * [📝undertow](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/Java应用服务器/undertow.md)
+                    * 🗂全功能JakartaEE标准服务器
+                        * [📝GlassFish](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/Java应用服务器/全功能JakartaEE标准服务器/GlassFish.md)
+                        * [📝WildFly_JBoss](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/Java应用服务器/全功能JakartaEE标准服务器/WildFly_JBoss.md)
+                * 🗂web服务器
+                    * [📝nginx](/docs/开发者知识文档/01_软件开发/02_后端/中间件/网关/web服务器/nginx.md)
             * 🗂语音识别工具
                 * [📝vosk](/docs/开发者知识文档/01_软件开发/02_后端/中间件/语音识别工具/vosk.md)
             * 🗂负载均衡
@@ -1364,6 +1366,7 @@
     * 🗂发布策略
         * [📝CodeReview](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/01_CodeReview.md)
         * [📝AB测试](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/AB测试.md)
+        * [📝单体转微服务](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/单体转微服务.md)
         * [📝金丝雀canary](/docs/开发者知识文档/03_DevOps-CICD-测试/07_发布策略/金丝雀canary.md)
     * 🗂分布式部署
         * [📝多机房部署-异地多活](/docs/开发者知识文档/03_DevOps-CICD-测试/08_分布式部署/多机房部署-异地多活.md)
