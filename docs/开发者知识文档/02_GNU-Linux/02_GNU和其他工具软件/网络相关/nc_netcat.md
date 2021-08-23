@@ -1,4 +1,7 @@
 
+netcat被誉为网络安全界的'瑞士军刀'
+
+
 ## 网页
 
 - [用nc命令搭建http请求调试工具](https://blog.csdn.net/diabatic/article/details/46867447)

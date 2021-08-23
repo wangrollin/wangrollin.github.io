@@ -15,6 +15,11 @@
 ## hiveServer2
 
 
+## 数据倾斜
+
+- [知乎：深入浅出Hive数据倾斜](https://zhuanlan.zhihu.com/p/342563538)
+
+
 ## hive sql
 
 ```sql

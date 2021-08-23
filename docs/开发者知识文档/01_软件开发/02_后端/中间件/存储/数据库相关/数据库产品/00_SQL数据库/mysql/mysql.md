@@ -34,6 +34,15 @@ https://cloud.tencent.com/developer/news/201704
 - [mysql官网文档 执行计划](https://dev.mysql.com/doc/refman/5.7/en/explain-output.html#explain-extra-information)
 
 
+## 驱动表
+
+- [掌握MySQL连接查询到底什么是驱动表](https://www.cnblogs.com/sy270321/p/12760211.html)
+- [了解MySQL中的驱动表](https://blog.haohtml.com/archives/17837)
+
+当连接查询没有where条件时，左连接查询时，前面的表是驱动表，后面的表是被驱动表，右连接查询时相反，内连接查询时，哪张表的数据较少，哪张表就是驱动表
+当连接查询有where条件时，带where条件的表是驱动表，否则是被驱动表
+
+
 ## mysql日志
 
 - 二进制日志`binlog`
