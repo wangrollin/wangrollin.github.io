@@ -924,6 +924,11 @@
         * 🗂商业解决方案
             * [📝GoogleAnalytics](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/GoogleAnalytics.md)
             * [📝GrowingIO](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/GrowingIO.md)
+            * [📝dataphin](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/dataphin.md)
+            * [📝dataworks](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/dataworks.md)
+            * 🗂云数仓
+                * [📝Databricks](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/云数仓/Databricks.md)
+                * [📝Snowflake](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/云数仓/Snowflake.md)
             * [📝神策数据](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/神策数据.md)
             * [📝诸葛IO](/docs/开发者知识文档/01_软件开发/03_数据平台/00_商业解决方案/诸葛IO.md)
         * 🗂理论概念
@@ -936,14 +941,9 @@
                 * [📝运维规范](/docs/开发者知识文档/01_软件开发/03_数据平台/00_理论概念/规范/运维规范.md)
             * [📝质量](/docs/开发者知识文档/01_软件开发/03_数据平台/00_理论概念/质量.md)
         * 🗂计算存储
-            * 🗂数据格式
-                * [📝Apache_Avro](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/0_数据格式/Apache_Avro.md)
-                * [📝Arrow](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/0_数据格式/Arrow.md)
-                * [📝ORC](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/0_数据格式/ORC.md)
-                * [📝Parquet](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/0_数据格式/Parquet.md)
-                * [📝protobuf](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/0_数据格式/protobuf.md)
             * 🗂存储
                 * 🗂DB
+                    * [📝clickhouse](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/clickhouse.md)
                     * 🗂hbase
                         * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/hbase/Lynda_HBase_Essential_Training.md)
                         * [📝hbase](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/hbase/hbase.md)
@@ -953,54 +953,53 @@
                         * [📝HugeGraph](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/图数据库/HugeGraph.md)
                         * 🗂图计算框架
                             * [📝Gremlin_TinkerPop](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/图数据库/图计算框架/Gremlin_TinkerPop.md)
-                * 🗂数据仓库DataWarehouse
-                    * [📝接入层](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据仓库DataWarehouse/1_接入层.md)
-                    * [📝中间层](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据仓库DataWarehouse/2_中间层.md)
-                    * [📝应用层](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据仓库DataWarehouse/3_应用层.md)
-                    * 🗂云数仓
-                        * [📝Databricks](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据仓库DataWarehouse/云数仓/Databricks.md)
-                        * [📝Snowflake](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据仓库DataWarehouse/云数仓/Snowflake.md)
-                * 🗂数据湖DataLake
-                    * [📝DeltaLake](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据湖DataLake/DeltaLake.md)
-                    * [📝Hudi](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据湖DataLake/Hudi.md)
-                    * [📝Iceberg](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据湖DataLake/Iceberg.md)
-                    * [📝clickhouse](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据湖DataLake/clickhouse.md)
-                    * [📝hive-acid](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据湖DataLake/hive-acid.md)
+                * 🗂数据格式
+                    * [📝Apache_Avro](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据格式/Apache_Avro.md)
+                    * [📝Arrow](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据格式/Arrow.md)
+                    * [📝ORC](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据格式/ORC.md)
+                    * [📝Parquet](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据格式/Parquet.md)
+                    * [📝protobuf](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/数据格式/protobuf.md)
                 * 🗂文件系统
                     * [📝hdfs](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/文件系统/hdfs.md)
             * 🗂资源调度
                 * [📝yarn](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/2_资源调度/yarn.md)
-            * 🗂ETL
-                * [📝FiveTran](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_ETL/FiveTran.md)
-                * [📝Informatica](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_ETL/Informatica.md)
-                * [📝Kettle](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_ETL/Kettle.md)
-                * [📝Talend](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_ETL/Talend.md)
-            * 🗂SQL和脚本引擎
-                * [📝Lynda_Analyzing_Big_Data_with_Hive](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_SQL和脚本引擎/Lynda_Analyzing_Big_Data_with_Hive.md)
-                * [📝hive](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_SQL和脚本引擎/hive.md)
-                * [📝pig](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_SQL和脚本引擎/pig.md)
-                * [📝sparkSQL](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_SQL和脚本引擎/sparkSQL.md)
             * 🗂计算引擎
+                * 🗂引擎
+                    * 🗂ETL
+                        * [📝FiveTran](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/ETL/FiveTran.md)
+                        * [📝Informatica](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/ETL/Informatica.md)
+                        * [📝Kettle](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/ETL/Kettle.md)
+                        * [📝Talend](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/ETL/Talend.md)
+                    * 🗂Flink
+                        * [📝Lynda_Apache_Flink_Batch_Mode_Data_Engineering](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Flink/Lynda_Apache_Flink_Batch_Mode_Data_Engineering.md)
+                        * [📝Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Flink/Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL.md)
+                        * [📝Lynda_Apache_Flink_Real-Time_Data_Engineering](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Flink/Lynda_Apache_Flink_Real-Time_Data_Engineering.md)
+                        * [📝flink](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Flink/flink.md)
+                    * [📝Kylin](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Kylin.md)
+                    * [📝MR](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/MR.md)
+                    * 🗂SQL和脚本引擎
+                        * [📝Lynda_Analyzing_Big_Data_with_Hive](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/SQL和脚本引擎/Lynda_Analyzing_Big_Data_with_Hive.md)
+                        * [📝hive](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/SQL和脚本引擎/hive.md)
+                        * [📝pig](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/SQL和脚本引擎/pig.md)
+                        * [📝sparkSQL](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/SQL和脚本引擎/sparkSQL.md)
+                    * 🗂Spark
+                        * [📝Lynda_Apache_Spark_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Spark/Lynda_Apache_Spark_Essential_Training.md)
+                        * [📝Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Spark/Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark.md)
+                        * [📝Lynda_Introduction_to_Spark_SQL_and_DataFrames](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Spark/Lynda_Introduction_to_Spark_SQL_and_DataFrames.md)
+                        * [📝kyuubi](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Spark/kyuubi.md)
+                        * [📝spark](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Spark/spark.md)
+                    * [📝Tez](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/Tez.md)
+                    * [📝drill](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/drill.md)
+                    * [📝impala](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/impala.md)
+                    * [📝presto](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/presto.md)
+                    * [📝storm](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/01_引擎/storm.md)
+                * 🗂数据湖技术
+                    * [📝DeltaLake](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/02_数据湖技术/DeltaLake.md)
+                    * [📝Hudi](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/02_数据湖技术/Hudi.md)
+                    * [📝Iceberg](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/02_数据湖技术/Iceberg.md)
+                    * [📝hive-acid](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/02_数据湖技术/hive-acid.md)
                 * 🗂Query统一平台
-                    * [📝Beam](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/00_Query统一平台/Beam.md)
-                * 🗂Flink
-                    * [📝Lynda_Apache_Flink_Batch_Mode_Data_Engineering](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Flink/Lynda_Apache_Flink_Batch_Mode_Data_Engineering.md)
-                    * [📝Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Flink/Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL.md)
-                    * [📝Lynda_Apache_Flink_Real-Time_Data_Engineering](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Flink/Lynda_Apache_Flink_Real-Time_Data_Engineering.md)
-                    * [📝flink](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Flink/flink.md)
-                * [📝Kylin](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Kylin.md)
-                * [📝MR](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/MR.md)
-                * 🗂Spark
-                    * [📝Lynda_Apache_Spark_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Spark/Lynda_Apache_Spark_Essential_Training.md)
-                    * [📝Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Spark/Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark.md)
-                    * [📝Lynda_Introduction_to_Spark_SQL_and_DataFrames](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Spark/Lynda_Introduction_to_Spark_SQL_and_DataFrames.md)
-                    * [📝kyuubi](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Spark/kyuubi.md)
-                    * [📝spark](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Spark/spark.md)
-                * [📝Tez](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/Tez.md)
-                * [📝drill](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/drill.md)
-                * [📝impala](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/impala.md)
-                * [📝presto](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/presto.md)
-                * [📝storm](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/storm.md)
+                    * [📝Beam](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/3_计算引擎/03_Query统一平台/Beam.md)
             * [📝streamset](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/streamset.md)
             * 🗂数据生成器
                 * [📝mockaroo](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/数据生成器/mockaroo.md)
