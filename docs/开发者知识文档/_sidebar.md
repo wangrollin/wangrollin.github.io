@@ -457,6 +457,8 @@
                     * [📝commons-beanutils](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/反射/commons-beanutils.md)
                 * 🗂图
                     * [📝JGraphT](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/图/JGraphT.md)
+                * 🗂画图
+                    * [📝JFreeChart](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/画图/JFreeChart.md)
                 * 🗂调用Python
                     * [📝java调python](/docs/开发者知识文档/01_软件开发/02_后端/java/04_工具库/调用Python/java调python.md)
             * 🗂框架
@@ -1121,15 +1123,17 @@
                             * [📝tensorflow](/docs/开发者知识文档/01_软件开发/03_数据平台/04_数据分析/机器学习/python/框架/深度学习框架/tensorflow.md)
                         * 🗂算法库
                             * [📝XGBoost](/docs/开发者知识文档/01_软件开发/03_数据平台/04_数据分析/机器学习/python/框架/算法库/XGBoost.md)
+        * 🗂数据应用
+            * [📝用户画像](/docs/开发者知识文档/01_软件开发/03_数据平台/05_数据应用/用户画像.md)
         * 🗂hadoop和发行版
             * 🗂CDH
-                * [📝HUE](/docs/开发者知识文档/01_软件开发/03_数据平台/05_hadoop和发行版/CDH/HUE.md)
-            * [📝Lynda_Learning_Hadoop](/docs/开发者知识文档/01_软件开发/03_数据平台/05_hadoop和发行版/Lynda_Learning_Hadoop.md)
-            * [📝ambari](/docs/开发者知识文档/01_软件开发/03_数据平台/05_hadoop和发行版/ambari.md)
-            * [📝cloudera_sandbox](/docs/开发者知识文档/01_软件开发/03_数据平台/05_hadoop和发行版/cloudera_sandbox.md)
-            * [📝cloudera发行版安装包](/docs/开发者知识文档/01_软件开发/03_数据平台/05_hadoop和发行版/cloudera发行版安装包.md)
-            * [📝hadoop](/docs/开发者知识文档/01_软件开发/03_数据平台/05_hadoop和发行版/hadoop.md)
-            * [📝最佳实践](/docs/开发者知识文档/01_软件开发/03_数据平台/05_hadoop和发行版/最佳实践.md)
+                * [📝HUE](/docs/开发者知识文档/01_软件开发/03_数据平台/06_hadoop和发行版/CDH/HUE.md)
+            * [📝Lynda_Learning_Hadoop](/docs/开发者知识文档/01_软件开发/03_数据平台/06_hadoop和发行版/Lynda_Learning_Hadoop.md)
+            * [📝ambari](/docs/开发者知识文档/01_软件开发/03_数据平台/06_hadoop和发行版/ambari.md)
+            * [📝cloudera_sandbox](/docs/开发者知识文档/01_软件开发/03_数据平台/06_hadoop和发行版/cloudera_sandbox.md)
+            * [📝cloudera发行版安装包](/docs/开发者知识文档/01_软件开发/03_数据平台/06_hadoop和发行版/cloudera发行版安装包.md)
+            * [📝hadoop](/docs/开发者知识文档/01_软件开发/03_数据平台/06_hadoop和发行版/hadoop.md)
+            * [📝最佳实践](/docs/开发者知识文档/01_软件开发/03_数据平台/06_hadoop和发行版/最佳实践.md)
 * 🗂GNU-Linux
     * 🗂c
         * 🗂c版本
@@ -1208,6 +1212,8 @@
         * [📝汇总](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/汇总.md)
         * 🗂系统监控
             * [📝top](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/系统监控/top.md)
+        * 🗂编解码
+            * [📝base64](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编解码/base64.md)
         * 🗂编辑文件
             * [📝emacs](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/emacs.md)
             * [📝nano](/docs/开发者知识文档/02_GNU-Linux/02_GNU和其他工具软件/编辑文件/nano.md)
