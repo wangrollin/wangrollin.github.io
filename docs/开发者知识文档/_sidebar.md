@@ -951,6 +951,7 @@
                         * [📝hbase](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/hbase/hbase.md)
                         * [📝phoenix](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/hbase/phoenix.md)
                     * [📝lsm-tree](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/lsm-tree.md)
+                    * [📝starRocks](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/starRocks.md)
                     * 🗂图数据库
                         * [📝HugeGraph](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/图数据库/HugeGraph.md)
                         * 🗂图计算框架
@@ -1677,6 +1678,8 @@
         * [📝docusign](/docs/开发者知识文档/99_其他/电子签名/docusign.md)
     * 🗂编辑器
         * [📝Theia](/docs/开发者知识文档/99_其他/编辑器/Theia.md)
+    * 🗂跳转机
+        * [📝jumpServer](/docs/开发者知识文档/99_其他/跳转机/jumpServer.md)
     * 🗂项目管理工具
         * [📝teambition](/docs/开发者知识文档/99_其他/项目管理工具/teambition.md)
         * [📝语雀](/docs/开发者知识文档/99_其他/项目管理工具/语雀.md)
