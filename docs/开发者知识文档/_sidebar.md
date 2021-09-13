@@ -945,13 +945,14 @@
         * 🗂计算存储
             * 🗂存储
                 * 🗂DB
+                    * 🗂MPP-DB
+                        * [📝starRocks](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/MPP-DB/starRocks.md)
                     * [📝clickhouse](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/clickhouse.md)
                     * 🗂hbase
                         * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/hbase/Lynda_HBase_Essential_Training.md)
                         * [📝hbase](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/hbase/hbase.md)
                         * [📝phoenix](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/hbase/phoenix.md)
                     * [📝lsm-tree](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/lsm-tree.md)
-                    * [📝starRocks](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/starRocks.md)
                     * 🗂图数据库
                         * [📝HugeGraph](/docs/开发者知识文档/01_软件开发/03_数据平台/01_计算存储/1_存储/DB/图数据库/HugeGraph.md)
                         * 🗂图计算框架
