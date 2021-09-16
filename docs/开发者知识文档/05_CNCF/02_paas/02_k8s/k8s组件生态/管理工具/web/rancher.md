@@ -1,6 +1,7 @@
 # rancher
 
-
+rancher-web
+rancher-desktop
 
 
 
