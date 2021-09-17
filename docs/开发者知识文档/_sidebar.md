@@ -1146,6 +1146,8 @@
             * [📝LLVM](/docs/开发者知识文档/03_GNU-Linux/00_c/05_编译器/LLVM.md)
             * [📝clang](/docs/开发者知识文档/03_GNU-Linux/00_c/05_编译器/clang.md)
             * [📝gcc](/docs/开发者知识文档/03_GNU-Linux/00_c/05_编译器/gcc.md)
+            * 🗂检查
+                * [📝sanitizers](/docs/开发者知识文档/03_GNU-Linux/00_c/05_编译器/检查/sanitizers.md)
         * 🗂调试器
             * [📝gdb](/docs/开发者知识文档/03_GNU-Linux/00_c/06_调试器/gdb.md)
         * 🗂框架和库
