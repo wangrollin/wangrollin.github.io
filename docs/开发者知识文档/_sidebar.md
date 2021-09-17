@@ -272,23 +272,25 @@
         * 🗂其他前台脚本语言
             * [📝CoffeeScript](/docs/开发者知识文档/01_WebApp/01_前端/05_其他前台脚本语言/CoffeeScript.md)
             * [📝Dart](/docs/开发者知识文档/01_WebApp/01_前端/05_其他前台脚本语言/Dart.md)
+        * 🗂wasm
+            * [📝WasmEdge](/docs/开发者知识文档/01_WebApp/01_前端/06_wasm/WasmEdge.md)
+            * [📝WebAssembly](/docs/开发者知识文档/01_WebApp/01_前端/06_wasm/WebAssembly.md)
+            * [📝WebGL](/docs/开发者知识文档/01_WebApp/01_前端/06_wasm/WebGL.md)
+            * [📝WebRTC](/docs/开发者知识文档/01_WebApp/01_前端/06_wasm/WebRTC.md)
+            * [📝asm.js](/docs/开发者知识文档/01_WebApp/01_前端/06_wasm/asm.js.md)
         * 🗂中间件
             * 🗂ProgressiveWebApp
-                * [📝ProgressiveWebApp](/docs/开发者知识文档/01_WebApp/01_前端/06_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
+                * [📝ProgressiveWebApp](/docs/开发者知识文档/01_WebApp/01_前端/07_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
             * 🗂doc
-                * [📝Liquid](/docs/开发者知识文档/01_WebApp/01_前端/06_中间件/doc/Liquid.md)
-                * [📝Sphinx](/docs/开发者知识文档/01_WebApp/01_前端/06_中间件/doc/Sphinx.md)
-                * [📝docsify](/docs/开发者知识文档/01_WebApp/01_前端/06_中间件/doc/docsify.md)
-                * [📝github_pages](/docs/开发者知识文档/01_WebApp/01_前端/06_中间件/doc/github_pages.md)
-                * [📝hexo](/docs/开发者知识文档/01_WebApp/01_前端/06_中间件/doc/hexo.md)
-                * [📝jekyll](/docs/开发者知识文档/01_WebApp/01_前端/06_中间件/doc/jekyll.md)
+                * [📝Liquid](/docs/开发者知识文档/01_WebApp/01_前端/07_中间件/doc/Liquid.md)
+                * [📝Sphinx](/docs/开发者知识文档/01_WebApp/01_前端/07_中间件/doc/Sphinx.md)
+                * [📝docsify](/docs/开发者知识文档/01_WebApp/01_前端/07_中间件/doc/docsify.md)
+                * [📝github_pages](/docs/开发者知识文档/01_WebApp/01_前端/07_中间件/doc/github_pages.md)
+                * [📝hexo](/docs/开发者知识文档/01_WebApp/01_前端/07_中间件/doc/hexo.md)
+                * [📝jekyll](/docs/开发者知识文档/01_WebApp/01_前端/07_中间件/doc/jekyll.md)
         * 🗂解决方案
             * 🗂企业级中后台前端_设计解决方案
-                * [📝AntDesignPro](/docs/开发者知识文档/01_WebApp/01_前端/07_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
-        * 🗂前沿技术
-            * [📝WasmEdge](/docs/开发者知识文档/01_WebApp/01_前端/08_前沿技术/WasmEdge.md)
-            * [📝WebAssembly](/docs/开发者知识文档/01_WebApp/01_前端/08_前沿技术/WebAssembly.md)
-            * [📝WebRTC](/docs/开发者知识文档/01_WebApp/01_前端/08_前沿技术/WebRTC.md)
+                * [📝AntDesignPro](/docs/开发者知识文档/01_WebApp/01_前端/08_解决方案/企业级中后台前端_设计解决方案/AntDesignPro.md)
         * [📝BrowserSync](/docs/开发者知识文档/01_WebApp/01_前端/BrowserSync.md)
         * [📝CORS](/docs/开发者知识文档/01_WebApp/01_前端/CORS.md)
         * [📝WebStorm](/docs/开发者知识文档/01_WebApp/01_前端/WebStorm.md)
