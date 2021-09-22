@@ -773,6 +773,7 @@
                         * 🗂文档类型
                             * [📝mongodb](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/04_文档类型/mongodb.md)
                         * 🗂时序类
+                            * [📝OpenTSDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/05_时序类/OpenTSDB.md)
                             * [📝influxdb](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/05_时序类/influxdb.md)
                         * [📝Cassandra](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/Cassandra.md)
                         * [📝Couchbase](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/Couchbase.md)
