@@ -904,6 +904,8 @@
                 * 🗂全功能JakartaEE标准服务器
                     * [📝GlassFish](/docs/开发者知识文档/01_WebApp/03_中间件/网关/Java应用服务器/全功能JakartaEE标准服务器/GlassFish.md)
                     * [📝WildFly_JBoss](/docs/开发者知识文档/01_WebApp/03_中间件/网关/Java应用服务器/全功能JakartaEE标准服务器/WildFly_JBoss.md)
+            * 🗂Python应用服务器
+                * [📝Gunicorn](/docs/开发者知识文档/01_WebApp/03_中间件/网关/Python应用服务器/Gunicorn.md)
             * 🗂web服务器
                 * [📝nginx](/docs/开发者知识文档/01_WebApp/03_中间件/网关/web服务器/nginx.md)
         * 🗂语音识别工具
