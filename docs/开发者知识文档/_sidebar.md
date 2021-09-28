@@ -618,8 +618,11 @@
                         * [📝fluent-mybatis](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/fluent-mybatis.md)
                         * [📝hibernate](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/hibernate.md)
                         * [📝jOOQ](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/jOOQ.md)
-                        * [📝mybatis-plus](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/mybatis-plus.md)
-                        * [📝mybatis](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/mybatis.md)
+                        * 🗂mybatis
+                            * [📝mybatis-plus](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/mybatis/mybatis-plus.md)
+                            * [📝mybatis](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/mybatis/mybatis.md)
+                            * 🗂查询分页框架
+                                * [📝PageHelper](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/ORM框架/mybatis/查询分页框架/PageHelper.md)
                     * 🗂redis框架
                         * [📝Jedis](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/redis框架/Jedis.md)
                         * [📝Lettuce](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/数据库缓存相关/redis框架/Lettuce.md)
