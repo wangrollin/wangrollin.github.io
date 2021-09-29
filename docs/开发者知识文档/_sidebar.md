@@ -729,101 +729,118 @@
         * 🗂分布式调度与计算框架
             * [📝PowerJob](/docs/开发者知识文档/01_WebApp/03_中间件/分布式调度与计算框架/PowerJob.md)
         * 🗂存储
-            * 🗂keyvalue存储
-                * [📝minikeyvalue](/docs/开发者知识文档/01_WebApp/03_中间件/存储/keyvalue存储/minikeyvalue.md)
-            * 🗂分布式文件系统
-                * [📝Ceph](/docs/开发者知识文档/01_WebApp/03_中间件/存储/分布式文件系统/Ceph.md)
-            * 🗂密钥存储
-                * [📝vault_by_Hashicorp](/docs/开发者知识文档/01_WebApp/03_中间件/存储/密钥存储/vault_by_Hashicorp.md)
-            * 🗂数据库相关
+            * 🗂存储排列组合
+                * 🗂块-对象
+                    * [📝Sheepdog](/docs/开发者知识文档/01_WebApp/03_中间件/存储/01_存储排列组合/块-对象/Sheepdog.md)
+                    * [📝Swift](/docs/开发者知识文档/01_WebApp/03_中间件/存储/01_存储排列组合/块-对象/Swift.md)
+                * 🗂块-对象-文件
+                    * 🗂分布式存储
+                        * [📝Ceph](/docs/开发者知识文档/01_WebApp/03_中间件/存储/01_存储排列组合/块-对象-文件/分布式存储/Ceph.md)
+                * 🗂文件
+                    * [📝总览](/docs/开发者知识文档/01_WebApp/03_中间件/存储/01_存储排列组合/文件/总览.md)
+            * 🗂DB
                 * 🗂数据库产品
                     * 🗂SQL数据库
-                        * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/MySQL存储位置迁移.md)
+                        * [📝MySQL存储位置迁移](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/MySQL存储位置迁移.md)
                         * 🗂PostgreSQL
-                            * [📝PostgreSQL](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/PostgreSQL/PostgreSQL.md)
+                            * [📝PostgreSQL](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/PostgreSQL.md)
                             * 🗂衍生发行版
-                                * [📝GaussDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/GaussDB.md)
-                                * [📝Pigsty](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/Pigsty.md)
-                        * [📝SQL语法](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/SQL语法.md)
-                        * [📝h2](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/h2.md)
+                                * [📝GaussDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/GaussDB.md)
+                                * [📝Pigsty](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/Pigsty.md)
+                        * [📝SQL语法](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/SQL语法.md)
+                        * [📝h2](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/h2.md)
                         * 🗂mysql
                             * 🗂MySql存储引擎
-                                * [📝MEMORY存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/MEMORY存储引擎.md)
-                                * [📝MERGE存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/MERGE存储引擎.md)
-                                * [📝MyISAM存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/MyISAM存储引擎.md)
-                                * [📝innoDb存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/innoDb存储引擎.md)
-                                * [📝总览](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/MySql存储引擎/总览.md)
+                                * [📝MEMORY存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/MySql存储引擎/MEMORY存储引擎.md)
+                                * [📝MERGE存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/MySql存储引擎/MERGE存储引擎.md)
+                                * [📝MyISAM存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/MySql存储引擎/MyISAM存储引擎.md)
+                                * [📝innoDb存储引擎](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/MySql存储引擎/innoDb存储引擎.md)
+                                * [📝总览](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/MySql存储引擎/总览.md)
                             * 🗂binlog
-                                * [📝canal](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/binlog/canal.md)
-                            * [📝mysql](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/mysql.md)
+                                * [📝canal](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/binlog/canal.md)
+                            * [📝mysql](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/mysql.md)
                             * 🗂迁移工具
-                                * [📝gh-ost](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/迁移工具/gh-ost.md)
-                                * [📝pt-osc](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/mysql/迁移工具/pt-osc.md)
-                        * [📝sqlite](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/sqlite.md)
-                        * [📝分布式ID](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/00_SQL数据库/分布式ID.md)
+                                * [📝gh-ost](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/迁移工具/gh-ost.md)
+                                * [📝pt-osc](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/mysql/迁移工具/pt-osc.md)
+                        * [📝sqlite](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/sqlite.md)
+                        * [📝分布式ID](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/00_SQL数据库/分布式ID.md)
                     * 🗂NoSQL数据库
                         * 🗂KV类型
-                            * [📝LevelDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/01_KV类型/LevelDB.md)
-                            * [📝RocksDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/01_KV类型/RocksDB.md)
+                            * [📝LevelDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/01_KV类型/LevelDB.md)
+                            * [📝RocksDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/01_KV类型/RocksDB.md)
                             * 🗂分布式KV数据库
-                                * [📝Pegasus_小米](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/01_KV类型/分布式KV数据库/Pegasus_小米.md)
-                                * [📝Tendis_腾讯](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/01_KV类型/分布式KV数据库/Tendis_腾讯.md)
-                                * [📝Zeppelin_360](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/01_KV类型/分布式KV数据库/Zeppelin_360.md)
+                                * [📝Pegasus_小米](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/01_KV类型/分布式KV数据库/Pegasus_小米.md)
+                                * [📝Tendis_腾讯](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/01_KV类型/分布式KV数据库/Tendis_腾讯.md)
+                                * [📝Zeppelin_360](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/01_KV类型/分布式KV数据库/Zeppelin_360.md)
                         * 🗂列存储
-                            * [📝placeholder](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/02_列存储/placeholder.md)
+                            * [📝placeholder](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/02_列存储/placeholder.md)
                         * 🗂图形数据库
-                            * [📝Neo4j](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/03_图形数据库/Neo4j.md)
+                            * [📝Neo4j](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/03_图形数据库/Neo4j.md)
                         * 🗂文档类型
-                            * [📝mongodb](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/04_文档类型/mongodb.md)
+                            * [📝mongodb](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/04_文档类型/mongodb.md)
                         * 🗂时序类
-                            * [📝OpenTSDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/05_时序类/OpenTSDB.md)
-                            * [📝influxdb](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/05_时序类/influxdb.md)
-                        * [📝Cassandra](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/Cassandra.md)
-                        * [📝Couchbase](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/01_NoSQL数据库/Couchbase.md)
+                            * [📝OpenTSDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/05_时序类/OpenTSDB.md)
+                            * [📝influxdb](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/05_时序类/influxdb.md)
+                        * [📝Cassandra](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/Cassandra.md)
+                        * [📝Couchbase](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/01_NoSQL数据库/Couchbase.md)
                     * 🗂NewSQL
-                        * [📝PolarDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/02_NewSQL/PolarDB.md)
-                        * [📝TiDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/02_NewSQL/TiDB.md)
-                        * [📝oceanDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/02_NewSQL/oceanDB.md)
-                    * [📝Druid](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/Druid.md)
-                    * [📝Kudu](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/Kudu.md)
-                    * [📝db2](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库产品/db2.md)
-                * [📝数据库理论](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库理论.md)
+                        * [📝PolarDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/02_NewSQL/PolarDB.md)
+                        * [📝TiDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/02_NewSQL/TiDB.md)
+                        * [📝oceanDB](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/02_NewSQL/oceanDB.md)
+                    * [📝Druid](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/Druid.md)
+                    * [📝Kudu](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/Kudu.md)
+                    * [📝db2](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库产品/db2.md)
+                * [📝数据库理论](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库理论.md)
                 * 🗂数据库迁移
-                    * [📝flyway](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库迁移/flyway.md)
-                    * [📝liquibase](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库迁移/liquibase.md)
+                    * [📝flyway](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库迁移/flyway.md)
+                    * [📝liquibase](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库迁移/liquibase.md)
                 * 🗂数据库锁
-                    * [📝乐观锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库锁/乐观锁.md)
-                    * [📝互斥锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库锁/互斥锁.md)
-                    * [📝悲观锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库锁/悲观锁.md)
-                    * [📝自旋锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库锁/自旋锁.md)
-                    * [📝读写锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库锁/读写锁.md)
+                    * [📝乐观锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库锁/乐观锁.md)
+                    * [📝互斥锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库锁/互斥锁.md)
+                    * [📝悲观锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库锁/悲观锁.md)
+                    * [📝自旋锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库锁/自旋锁.md)
+                    * [📝读写锁](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库锁/读写锁.md)
                 * 🗂数据库集群
                     * 🗂主从读写分离-负载平衡
                         * 🗂mysql
-                            * [📝总览](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/00_总览.md)
-                            * [📝Atlas](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/Atlas.md)
-                            * [📝MaxScale](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MaxScale.md)
-                            * [📝MyCat](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/MyCat.md)
-                            * [📝mysql-proxy](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/mysql-proxy.md)
-                            * [📝proxysql](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/mysql/proxysql.md)
+                            * [📝总览](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/mysql/00_总览.md)
+                            * [📝Atlas](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/mysql/Atlas.md)
+                            * [📝MaxScale](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/mysql/MaxScale.md)
+                            * [📝MyCat](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/mysql/MyCat.md)
+                            * [📝mysql-proxy](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/mysql/mysql-proxy.md)
+                            * [📝proxysql](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/mysql/proxysql.md)
                         * 🗂postgresql
-                            * [📝Pgpool](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/Pgpool.md)
-                            * [📝PlProxy](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/主从读写分离-负载平衡/postgresql/PlProxy.md)
+                            * [📝Pgpool](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/postgresql/Pgpool.md)
+                            * [📝PlProxy](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/主从读写分离-负载平衡/postgresql/PlProxy.md)
                     * 🗂分库分表
-                        * [📝ShardingSphere](/docs/开发者知识文档/01_WebApp/03_中间件/存储/数据库相关/数据库集群/分库分表/ShardingSphere.md)
-            * 🗂缓存
+                        * [📝ShardingSphere](/docs/开发者知识文档/01_WebApp/03_中间件/存储/04_DB/数据库集群/分库分表/ShardingSphere.md)
+            * 🗂keyvalue存储
+                * [📝minikeyvalue](/docs/开发者知识文档/01_WebApp/03_中间件/存储/05_keyvalue存储/minikeyvalue.md)
+            * 🗂搜索引擎
+                * [📝搜索引擎概述](/docs/开发者知识文档/01_WebApp/03_中间件/存储/06_搜索引擎/00_搜索引擎概述.md)
+                * [📝elasticsearch](/docs/开发者知识文档/01_WebApp/03_中间件/存储/06_搜索引擎/elasticsearch.md)
+                * [📝solr](/docs/开发者知识文档/01_WebApp/03_中间件/存储/06_搜索引擎/solr.md)
+                * [📝sphinx](/docs/开发者知识文档/01_WebApp/03_中间件/存储/06_搜索引擎/sphinx.md)
+            * 🗂一致性
+                * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_WebApp/03_中间件/存储/07_一致性/Consul_by_Hashicorp.md)
+                * [📝Doozerd](/docs/开发者知识文档/01_WebApp/03_中间件/存储/07_一致性/Doozerd.md)
+                * [📝etcd](/docs/开发者知识文档/01_WebApp/03_中间件/存储/07_一致性/etcd.md)
+                * [📝zookeeper](/docs/开发者知识文档/01_WebApp/03_中间件/存储/07_一致性/zookeeper.md)
+            * 🗂secret
+                * [📝vault_by_Hashicorp](/docs/开发者知识文档/01_WebApp/03_中间件/存储/08_secret/vault_by_Hashicorp.md)
+            * 🗂Cache
                 * 🗂分布式缓存
-                    * [📝Hazelcast](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/分布式缓存/Hazelcast.md)
-                    * [📝infinispan](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/分布式缓存/infinispan.md)
-                    * [📝memcache](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/分布式缓存/memcache.md)
+                    * [📝Hazelcast](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/分布式缓存/Hazelcast.md)
+                    * [📝infinispan](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/分布式缓存/infinispan.md)
+                    * [📝memcache](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/分布式缓存/memcache.md)
                     * 🗂redis
                         * 🗂Redis高可用
-                            * [📝高可用](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/分布式缓存/redis/Redis高可用/高可用.md)
-                        * [📝codis](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/分布式缓存/redis/codis.md)
-                        * [📝redis](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/分布式缓存/redis/redis.md)
+                            * [📝高可用](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/分布式缓存/redis/Redis高可用/高可用.md)
+                        * [📝codis](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/分布式缓存/redis/codis.md)
+                        * [📝redis](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/分布式缓存/redis/redis.md)
                 * 🗂本地缓存
-                    * [📝caffeine](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/本地缓存/caffeine.md)
-                    * [📝ehcache](/docs/开发者知识文档/01_WebApp/03_中间件/存储/缓存/本地缓存/ehcache.md)
+                    * [📝caffeine](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/本地缓存/caffeine.md)
+                    * [📝ehcache](/docs/开发者知识文档/01_WebApp/03_中间件/存储/09_Cache/本地缓存/ehcache.md)
         * 🗂安全认证
             * [📝Kerberos](/docs/开发者知识文档/01_WebApp/03_中间件/安全认证/Kerberos.md)
             * [📝Keycloak](/docs/开发者知识文档/01_WebApp/03_中间件/安全认证/Keycloak.md)
@@ -838,16 +855,6 @@
             * 🗂redhat_middleware
                 * [📝quarkus](/docs/开发者知识文档/01_WebApp/03_中间件/待分类_by_redHat/redhat_middleware/quarkus.md)
                 * [📝redHat_runtimes](/docs/开发者知识文档/01_WebApp/03_中间件/待分类_by_redHat/redhat_middleware/redHat_runtimes.md)
-        * 🗂搜索引擎
-            * [📝搜索引擎概述](/docs/开发者知识文档/01_WebApp/03_中间件/搜索引擎/00_搜索引擎概述.md)
-            * [📝elasticsearch](/docs/开发者知识文档/01_WebApp/03_中间件/搜索引擎/elasticsearch.md)
-            * [📝solr](/docs/开发者知识文档/01_WebApp/03_中间件/搜索引擎/solr.md)
-            * [📝sphinx](/docs/开发者知识文档/01_WebApp/03_中间件/搜索引擎/sphinx.md)
-        * 🗂服务注册发现_一致性协调系统
-            * [📝Consul_by_Hashicorp](/docs/开发者知识文档/01_WebApp/03_中间件/服务注册发现_一致性协调系统/Consul_by_Hashicorp.md)
-            * [📝Doozerd](/docs/开发者知识文档/01_WebApp/03_中间件/服务注册发现_一致性协调系统/Doozerd.md)
-            * [📝etcd](/docs/开发者知识文档/01_WebApp/03_中间件/服务注册发现_一致性协调系统/etcd.md)
-            * [📝zookeeper](/docs/开发者知识文档/01_WebApp/03_中间件/服务注册发现_一致性协调系统/zookeeper.md)
         * 🗂消息中间件
             * [📝AMQP协议](/docs/开发者知识文档/01_WebApp/03_中间件/消息中间件/AMQP协议.md)
             * 🗂Pulsar.md
