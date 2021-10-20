@@ -140,11 +140,14 @@ Ctrl+b Ctrl+<arrow key> # 按箭头方向调整窗格大小。
 Ctrl+b q # 显示窗格编号。
 
 
+tmux ls
 
 # 窗口管理
 # 新建窗口
 tmux new-window
 tmux new-window -n <window-name>
+# 关闭窗口
+tmux kill-window -t 2 <window-number>
 # 切换窗口
 # 切换到指定编号的窗口
 tmux select-window -t <window-number>

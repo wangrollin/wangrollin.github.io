@@ -10,5 +10,8 @@ netcat被誉为网络安全界的'瑞士军刀'
 
 while true; do nc -l 8888; done
 
+【linux】
+nc -l -p 9999
+while true; do nc -l -p 9999; done
 ```
 
