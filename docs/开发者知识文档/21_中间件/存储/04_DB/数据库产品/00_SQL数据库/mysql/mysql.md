@@ -19,6 +19,15 @@ mysql -u root -p -P 3306
 ```
 
 
+## 命令
+
+修改自增id起始值
+
+```sql
+alter table table_name AUTO_INCREMENT=10000;
+
+```
+
 
 ## 看允许登录的IP范围
 
