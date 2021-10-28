@@ -120,6 +120,7 @@ a=""
 
 
 # string奥义
+echo "Basic "$(echo -n your_account:your_pwd | base64)
 
 # 拼接
 a="hello"
