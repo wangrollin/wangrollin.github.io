@@ -15,7 +15,14 @@ docker run --name docker-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
 ## 登录命令
 
 ```bash
-mysql -u root -p -P 3306
+mysql -h 127.0.0.1 \
+  -P 3306 \
+  -u root \
+  -p
+
+show databases;
+use db_name;
+show tables;
 ```
 
 
