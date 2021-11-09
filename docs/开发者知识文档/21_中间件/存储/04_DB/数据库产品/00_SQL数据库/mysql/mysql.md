@@ -12,27 +12,48 @@ docker run --name docker-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
 ```
 
 
-## 登录命令
+## 命令
 
+*登录*
 ```bash
 mysql -h 127.0.0.1 \
   -P 3306 \
   -u root \
   -p
+```
 
+*创建databases*
+```sql
+CREATE DATABASE `db_test`;
+drop DATABASE `db_test`;
+```
+
+*查看、使用数据库，查看表*
+```sql
 show databases;
 use db_name;
 show tables;
 ```
 
+*执行sql脚本*
+```sql
+source /path/to/xx.sql
+```
 
-## 命令
-
-修改自增id起始值
-
+*修改自增id起始值*
 ```sql
 alter table table_name AUTO_INCREMENT=10000;
+```
 
+*查看权限*
+```sql
+show grants for user_name;
+```
+
+*将结果导出到文件分析*
+```sql
+tee  /xxx/log.txt;
+notee;
 ```
 
 
