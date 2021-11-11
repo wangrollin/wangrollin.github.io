@@ -57,6 +57,13 @@ notee;
 ```
 
 
+## 事务
+
+隔离级别
+- RR
+- RC
+
+
 ## 看允许登录的IP范围
 
 https://cloud.tencent.com/developer/news/201704
