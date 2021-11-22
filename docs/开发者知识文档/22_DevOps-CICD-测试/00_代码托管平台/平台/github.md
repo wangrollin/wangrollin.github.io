@@ -22,3 +22,10 @@ https://github.dev/[用户名]/[仓库名]
 - [github项目](https://github.com/ossf/allstar)
 
 github安全检查，防火墙项目
+
+## tips
+
+### vscode无法push到github
+
+重新打开vscode，再次push。（may need to: delete github macOS keychain）
+
