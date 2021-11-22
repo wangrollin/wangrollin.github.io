@@ -13,5 +13,6 @@ while true; do nc -l 8888; done
 【linux】
 nc -l -p 9999
 while true; do nc -l -p 9999; done
+while true ; do (echo -e "HTTP/1.1 200 OK\n\n $(date)") |  nc -l -p 1500 ; done
 ```
 
