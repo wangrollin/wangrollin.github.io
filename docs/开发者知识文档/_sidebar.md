@@ -1008,6 +1008,7 @@
             * [📝awk](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/查看文件/awk.md)
             * [📝find](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/查看文件/find.md)
             * [📝grep](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/查看文件/grep.md)
+            * [📝jq](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/查看文件/jq.md)
             * [📝kill](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/查看文件/kill.md)
             * 🗂阅读文本
                 * [📝less](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/查看文件/阅读文本/less.md)
