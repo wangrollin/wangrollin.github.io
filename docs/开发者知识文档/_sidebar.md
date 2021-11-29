@@ -990,6 +990,8 @@
             * [📝eBPF](/docs/开发者知识文档/20_GNU-Linux/01_内核/顶级子系统/eBPF.md)
     * 🗂GNU和其他工具软件
         * [📝GNU概览](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/GNU概览.md)
+        * 🗂linuxForMac
+            * [📝multipass](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/linuxForMac/multipass.md)
         * [📝seccomp](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/seccomp.md)
         * 🗂session管理
             * [📝ssh](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/session管理/ssh.md)

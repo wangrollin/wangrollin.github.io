@@ -56,6 +56,11 @@ tee  /xxx/log.txt;
 notee;
 ```
 
+*竖向显示*
+```sql
+select * from demo\G
+```
+
 
 ## 事务
 

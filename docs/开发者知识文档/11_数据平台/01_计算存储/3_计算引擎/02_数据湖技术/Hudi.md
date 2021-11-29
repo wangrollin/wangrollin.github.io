@@ -8,3 +8,9 @@ Apache Hudi（Hadoop Upserts Deletes and Incrementals）由Uber开源
 - []()
 - []()
 
+
+## 特点
+
+- 高效 upsert
+- merge on read
+
