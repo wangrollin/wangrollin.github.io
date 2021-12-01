@@ -30,3 +30,11 @@ Host amazon1
 
 ssh betterdev
 ```
+
+## tips
+
+### 通过 ssh-key 登录
+
+```bash
+复制 id_rsa.pub 到 /root/.ssh/authorized_keys
+```

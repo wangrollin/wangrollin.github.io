@@ -914,6 +914,9 @@
                     * 🗂语言处理库
                         * [📝jieba分词](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/库/语言处理库/jieba分词.md)
                 * 🗂框架
+                    * 🗂ORM
+                        * [📝SQLALchemy](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/ORM/SQLALchemy.md)
+                        * [📝peewee](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/ORM/peewee.md)
                     * 🗂web框架
                         * [📝Django](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Django.md)
                         * [📝Flask](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Flask.md)
@@ -1024,9 +1027,11 @@
         * 🗂编解码
             * [📝base64](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编解码/base64.md)
         * 🗂编辑文件
+            * [📝cp](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/cp.md)
             * [📝emacs](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/emacs.md)
             * [📝nano](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/nano.md)
             * [📝rsync](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/rsync.md)
+            * [📝scp](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/scp.md)
             * [📝sed](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/sed.md)
             * [📝vi](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/vi.md)
             * [📝vim](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/编辑文件/vim.md)
@@ -1042,6 +1047,9 @@
             * [📝route](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/网络相关/route.md)
             * [📝tcpdump](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/网络相关/tcpdump.md)
             * [📝telnet](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/网络相关/telnet.md)
+        * 🗂网络访问
+            * [📝curl](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/网络访问/curl.md)
+            * [📝wget](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/网络访问/wget.md)
         * 🗂进程相关
             * [📝Systemd](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/进程相关/Systemd.md)
             * [📝init](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/进程相关/init.md)

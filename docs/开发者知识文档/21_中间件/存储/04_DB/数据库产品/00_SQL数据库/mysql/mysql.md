@@ -61,6 +61,19 @@ notee;
 select * from demo\G
 ```
 
+*查询所有 tables shcema*
+```sql
+SELECT
+    *
+FROM
+    information_schema.columns
+WHERE
+    table_schema = 'dp_dorado_lj'
+ORDER BY
+    TABLE_NAME,
+    ORDINAL_POSITION;
+```
+
 
 ## 事务
 
