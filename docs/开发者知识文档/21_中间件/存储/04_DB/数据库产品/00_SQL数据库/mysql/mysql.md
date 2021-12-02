@@ -74,6 +74,15 @@ ORDER BY
     ORDINAL_POSITION;
 ```
 
+*插入数据*
+```sql
+INSERT INTO table2
+SELECT * FROM table1;
+
+INSERT INTO Websites (name, country)
+SELECT app_name, country FROM apps;
+```
+
 
 ## 事务
 
