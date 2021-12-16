@@ -1,5 +1,10 @@
 
 
-编译 javac com/wangrollin/Main.java
+```bash
+# Main.java 不需要有 package
+# 编译
+javac Main.java
 
-运行 java com.wangrollin.Main
+#运行
+java Main
+```

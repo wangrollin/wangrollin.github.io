@@ -73,7 +73,7 @@ docker top <容器ID或名称> # 查看容器的进程
 
 docker inspect <容器ID或名称> # 查看容器的底层信息，如 IP 等
 
-
+docker run -d -it adoptopenjdk/openjdk11:latest /bin/bash
 
 ## ubuntu如何安装docker
 
