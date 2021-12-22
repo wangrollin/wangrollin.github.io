@@ -83,6 +83,11 @@ INSERT INTO Websites (name, country)
 SELECT app_name, country FROM apps;
 ```
 
+*dump 数据*
+```bash
+mysqldump -h xxx -P xxx -u root -p --databases db1 db2 >/tmp/user.sql
+```
+
 
 ## 事务
 

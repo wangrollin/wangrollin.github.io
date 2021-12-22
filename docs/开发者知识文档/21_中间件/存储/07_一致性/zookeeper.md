@@ -1,5 +1,4 @@
 
-
 ## 网页
 
 - [用大白话给你解释 ZooKeeper 的选举机制](http://dockerone.com/article/696772)
@@ -10,32 +9,32 @@
 - 数据一致性与 paxos 算法
 
 
+## 介绍
 
-## tips
+ZooKeeper 是存储设施，但特别注意：
 
-ZooKeeper 是存储设施，但特别注意
+ZK上存储的数据聚焦为：协作数据（元数据），而不是应用数据，应用数据有自己的存储方案，例如 HDFS 等
 
-    ZK上存储的数据聚焦为：协作数据（元数据），而不是应用数据，应用数据有自己的存储方案，例如 HDFS 等
-    ZK 本质上，可以看作一种特殊的 FS
+ZK 本质上，可以看作一种特殊的 FS
 
+### Zookeeper 的数据模型
 
-11、Zookeeper 的数据模型　
+- 层次化的目录结构，命名符合常规文件系统规范
+- 每个节点在zookeeper中叫做znode,并且其有一个唯一的路径标识
+- 节点Znode可以包含数据和子节点，但是EPHEMERAL类型的节点不能有子节点
+- Znode中的数据可以有多个版本，比如某一个路径下存有多个数据版本，那么查询这个路径下的数据就需要带上版本
+- 客户端应用可以在节点上设置监视器
+- 节点不支持部分读写，而是一次性完整读写
 
-　　» 层次化的目录结构，命名符合常规文件系统规范
-　　» 每个节点在zookeeper中叫做znode,并且其有一个唯一的路径标识
-　　» 节点Znode可以包含数据和子节点，但是EPHEMERAL类型的节点不能有子节点
-　　» Znode中的数据可以有多个版本，比如某一个路径下存有多个数据版本，那么查询这个路径下的数据就需要带上版本
-　　» 客户端应用可以在节点上设置监视器
-　　» 节点不支持部分读写，而是一次性完整读写
+### Zookeeper 的节点
 
-12、Zookeeper 的节点
+- Znode有两种类型，短暂的（ephemeral）和持久的（persistent）
+- Znode的类型在创建时确定并且之后不能再修改
+- 短暂znode的客户端会话结束时，zookeeper会将该短暂znode删除，短暂znode不可以有子节点
+- 持久znode不依赖于客户端会话，只有当客户端明确要删除该持久znode时才会被删除
+- Znode有四种形式的目录节点
+- PERSISTENT（持久的）
+- EPHEMERAL(暂时的)
+- PERSISTENT_SEQUENTIAL（持久化顺序编号目录节点）
+- EPHEMERAL_SEQUENTIAL（暂时化顺序编号目录节点）
 
-　　» Znode有两种类型，短暂的（ephemeral）和持久的（persistent）
-　　» Znode的类型在创建时确定并且之后不能再修改
-　　» 短暂znode的客户端会话结束时，zookeeper会将该短暂znode删除，短暂znode不可以有子节点
-　　» 持久znode不依赖于客户端会话，只有当客户端明确要删除该持久znode时才会被删除
-　　» Znode有四种形式的目录节点
-　　» PERSISTENT（持久的）
-　　» EPHEMERAL(暂时的)
-　　» PERSISTENT_SEQUENTIAL（持久化顺序编号目录节点）
-　　» EPHEMERAL_SEQUENTIAL（暂时化顺序编号目录节点）
