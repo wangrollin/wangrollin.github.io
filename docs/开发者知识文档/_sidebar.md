@@ -273,11 +273,13 @@
             * [📝CoffeeScript](/docs/开发者知识文档/10_WebApp/01_前端/05_其他前台脚本语言/CoffeeScript.md)
             * [📝Dart](/docs/开发者知识文档/10_WebApp/01_前端/05_其他前台脚本语言/Dart.md)
         * 🗂wasm
+            * [📝WebAssembly](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/00_WebAssembly.md)
+            * [📝Krustlet](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/Krustlet.md)
             * [📝WasmEdge](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/WasmEdge.md)
-            * [📝WebAssembly](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/WebAssembly.md)
             * [📝WebGL](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/WebGL.md)
             * [📝WebRTC](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/WebRTC.md)
             * [📝asm.js](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/asm.js.md)
+            * [📝wasmCloud](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/wasmCloud.md)
         * 🗂中间件
             * 🗂ProgressiveWebApp
                 * [📝ProgressiveWebApp](/docs/开发者知识文档/10_WebApp/01_前端/07_中间件/ProgressiveWebApp/ProgressiveWebApp.md)
@@ -1470,14 +1472,18 @@
             * [📝Lynda_Kubernetes_for_Java_Developers](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/Lynda_Kubernetes_for_Java_Developers.md)
             * [📝Lynda_Learning_Azure_Kubernetes_Service-AKS](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/Lynda_Learning_Azure_Kubernetes_Service-AKS.md)
             * [📝Lynda_Learning_Kubernetes](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/Lynda_Learning_Kubernetes.md)
-            * 🗂k8s发行版
-                * [📝KubeOperator](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版/KubeOperator.md)
-                * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版/Rancher_Kubernetes_Engine.md)
-                * [📝k0s](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版/k0s.md)
-                * [📝k3s](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版/k3s.md)
-                * [📝k8s-原生](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版/k8s-原生.md)
-                * [📝microk8s](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版/microk8s.md)
-                * [📝minikube](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版/minikube.md)
+            * 🗂k8s发行版-普通版
+                * [📝KubeOperator](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-普通版/KubeOperator.md)
+                * [📝Rancher_Kubernetes_Engine](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-普通版/Rancher_Kubernetes_Engine.md)
+                * [📝k0s](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-普通版/k0s.md)
+                * [📝k8s-原生](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-普通版/k8s-原生.md)
+                * [📝microk8s](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-普通版/microk8s.md)
+                * [📝minikube](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-普通版/minikube.md)
+            * 🗂k8s发行版-边缘计算
+                * [📝SuperEdge](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/SuperEdge.md)
+                * [📝k3s](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/k3s.md)
+                * [📝kubeEdge](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/kubeEdge.md)
+                * [📝openYurt](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/openYurt.md)
             * 🗂k8s组件生态
                 * 🗂包管理器
                     * [📝Helm](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/Helm.md)
@@ -1519,9 +1525,6 @@
                         * [📝traefik](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/网络/Ingress/traefik.md)
                     * 🗂容器网络接口cni
                         * [📝cilium](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/网络/容器网络接口cni/cilium.md)
-                * 🗂边缘计算
-                    * [📝kubeEdge](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/边缘计算/kubeEdge.md)
-                    * [📝openYurt](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/边缘计算/openYurt.md)
             * [📝kubernetes概览](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/kubernetes概览.md)
         * 🗂微服务架构
             * 🗂service_mesh
