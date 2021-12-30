@@ -916,15 +916,27 @@
                         * [📝scipy](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/库/数值计算库/scipy.md)
                     * 🗂流水线构建
                         * [📝luigi](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/库/流水线构建/luigi.md)
+                    * 🗂算法库
+                        * [📝XGBoost](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/库/算法库/XGBoost.md)
                     * 🗂语言处理库
                         * [📝jieba分词](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/库/语言处理库/jieba分词.md)
                 * 🗂框架
                     * 🗂ORM
+                        * [📝MongoEngine](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/ORM/MongoEngine.md)
                         * [📝SQLALchemy](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/ORM/SQLALchemy.md)
                         * [📝peewee](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/ORM/peewee.md)
+                        * [📝pymongo](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/ORM/pymongo.md)
                     * 🗂web框架
-                        * [📝Django](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Django.md)
-                        * [📝Flask](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Flask.md)
+                        * 🗂Django
+                            * [📝Django](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Django/00_Django.md)
+                            * [📝django-admin](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Django/django-admin.md)
+                        * 🗂Flask
+                            * [📝Flask](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Flask/00_Flask.md)
+                            * [📝Flask-basic-auth](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Flask/Flask-basic-auth.md)
+                            * [📝Flask-login](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Flask/Flask-login.md)
+                            * [📝flask-admin](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/web框架/Flask/flask-admin.md)
+                    * 🗂数据看板_画板
+                        * [📝dash-Plotly](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/数据看板_画板/dash-Plotly.md)
                     * 🗂深度学习框架
                         * 🗂Keras
                             * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/深度学习框架/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
@@ -933,8 +945,6 @@
                             * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/深度学习框架/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
                             * [📝PyTorch](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/深度学习框架/PyTorch/PyTorch.md)
                         * [📝tensorflow](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/深度学习框架/tensorflow.md)
-                    * 🗂算法库
-                        * [📝XGBoost](/docs/开发者知识文档/11_数据平台/04_数据分析/机器学习/python/框架/算法库/XGBoost.md)
     * 🗂数据应用
         * [📝用户画像](/docs/开发者知识文档/11_数据平台/05_数据应用/用户画像.md)
     * 🗂hadoop和发行版
