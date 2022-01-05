@@ -42,30 +42,20 @@ python 装executable 64amd 的
 
 加path环境变量
 
-
 升级pip
 
 ​	python -m pip install --upgrade pip
 
-
-
 pip install virtualenv
-
-
 
 virtualenv myEnv
 
 activate
 
-
-
 在pyCharm的venv里，升级pip要用，否则会报错，pyCharm的bug
 
 ​	python -m pip install -U --force-reinstall pip
 
-
-
 pip isntall tensorflow
 
 pip install keras
-
