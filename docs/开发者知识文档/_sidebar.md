@@ -755,6 +755,15 @@
             * [📝运维规范](/docs/开发者知识文档/11_数据平台/00_理论概念/规范/运维规范.md)
         * [📝质量](/docs/开发者知识文档/11_数据平台/00_理论概念/质量.md)
     * 🗂计算存储
+        * 🗂hadoop和发行版
+            * 🗂CDH
+                * [📝HUE](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/CDH/HUE.md)
+            * [📝Lynda_Learning_Hadoop](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/Lynda_Learning_Hadoop.md)
+            * [📝ambari](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/ambari.md)
+            * [📝cloudera_sandbox](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/cloudera_sandbox.md)
+            * [📝cloudera发行版安装包](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/cloudera发行版安装包.md)
+            * [📝hadoop](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/hadoop.md)
+            * [📝最佳实践](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/最佳实践.md)
         * 🗂存储
             * 🗂DB
                 * 🗂MPP-DB
@@ -875,102 +884,92 @@
             * [📝纬度建模](/docs/开发者知识文档/11_数据平台/04_数仓建设/建模/纬度建模.md)
             * [📝范式建模](/docs/开发者知识文档/11_数据平台/04_数仓建设/建模/范式建模.md)
         * [📝数据层级](/docs/开发者知识文档/11_数据平台/04_数仓建设/数据层级.md)
-    * 🗂数据分析
+    * 🗂数据应用
         * 🗂AB测试
-            * [📝holder](/docs/开发者知识文档/11_数据平台/05_数据分析/AB测试/holder.md)
+            * [📝holder](/docs/开发者知识文档/11_数据平台/05_数据应用/AB测试/holder.md)
         * 🗂数据分析
-            * [📝DataStory](/docs/开发者知识文档/11_数据平台/05_数据分析/数据分析/DataStory.md)
-            * [📝数据建模](/docs/开发者知识文档/11_数据平台/05_数据分析/数据分析/数据建模.md)
+            * [📝DataStory](/docs/开发者知识文档/11_数据平台/05_数据应用/数据分析/DataStory.md)
+            * [📝数据建模](/docs/开发者知识文档/11_数据平台/05_数据应用/数据分析/数据建模.md)
         * 🗂数据可视化
-            * [📝dataV](/docs/开发者知识文档/11_数据平台/05_数据分析/数据可视化/dataV.md)
-            * [📝esForHadoop](/docs/开发者知识文档/11_数据平台/05_数据分析/数据可视化/esForHadoop.md)
-            * [📝jeecy](/docs/开发者知识文档/11_数据平台/05_数据分析/数据可视化/jeecy.md)
-            * [📝vueDataV](/docs/开发者知识文档/11_数据平台/05_数据分析/数据可视化/vueDataV.md)
+            * [📝dataV](/docs/开发者知识文档/11_数据平台/05_数据应用/数据可视化/dataV.md)
+            * [📝esForHadoop](/docs/开发者知识文档/11_数据平台/05_数据应用/数据可视化/esForHadoop.md)
+            * [📝jeecy](/docs/开发者知识文档/11_数据平台/05_数据应用/数据可视化/jeecy.md)
+            * [📝vueDataV](/docs/开发者知识文档/11_数据平台/05_数据应用/数据可视化/vueDataV.md)
         * 🗂机器学习
             * 🗂python
                 * 🗂IDE
-                    * [📝PyCharm](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/IDE/PyCharm.md)
+                    * [📝PyCharm](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/IDE/PyCharm.md)
                 * 🗂python发行版
-                    * [📝Anaconda](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/python发行版/Anaconda.md)
+                    * [📝Anaconda](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/python发行版/Anaconda.md)
                 * 🗂基础
-                    * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/基础/Lynda_Python_Essential_Training.md)
-                    * [📝python](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/基础/python.md)
+                    * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/基础/Lynda_Python_Essential_Training.md)
+                    * [📝python](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/基础/python.md)
                     * 🗂标准库
-                        * [📝标准库](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/基础/标准库/标准库.md)
+                        * [📝标准库](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/基础/标准库/标准库.md)
                     * 🗂解释器
-                        * [📝cpy](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/基础/解释器/cpy.md)
-                        * [📝pypy](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/基础/解释器/pypy.md)
+                        * [📝cpy](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/基础/解释器/cpy.md)
+                        * [📝pypy](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/基础/解释器/pypy.md)
                 * 🗂实用工具
                     * 🗂包管理
-                        * [📝pip3](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/包管理/00_pip3.md)
-                        * [📝Conda](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/包管理/Conda.md)
-                        * [📝PyPI](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/包管理/PyPI.md)
-                        * [📝requirement.txt](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/包管理/requirement.txt.md)
+                        * [📝pip3](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/包管理/00_pip3.md)
+                        * [📝Conda](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/包管理/Conda.md)
+                        * [📝PyPI](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/包管理/PyPI.md)
+                        * [📝requirement.txt](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/包管理/requirement.txt.md)
                     * 🗂虚拟环境管理
-                        * [📝venv](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/虚拟环境管理/00_venv.md)
-                        * [📝Miniconda](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/虚拟环境管理/Miniconda.md)
-                        * [📝hatch](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/虚拟环境管理/hatch.md)
-                        * [📝pipenv](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/虚拟环境管理/pipenv.md)
-                        * [📝poetry](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/虚拟环境管理/poetry.md)
-                        * [📝pyenv](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/虚拟环境管理/pyenv.md)
-                        * [📝virtualenv](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/实用工具/虚拟环境管理/virtualenv.md)
+                        * [📝venv](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/虚拟环境管理/00_venv.md)
+                        * [📝Miniconda](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/虚拟环境管理/Miniconda.md)
+                        * [📝hatch](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/虚拟环境管理/hatch.md)
+                        * [📝pipenv](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/虚拟环境管理/pipenv.md)
+                        * [📝poetry](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/虚拟环境管理/poetry.md)
+                        * [📝pyenv](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/虚拟环境管理/pyenv.md)
+                        * [📝virtualenv](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/实用工具/虚拟环境管理/virtualenv.md)
                 * 🗂库
                     * 🗂串口通信库
-                        * [📝pyserial](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/串口通信库/pyserial.md)
+                        * [📝pyserial](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/串口通信库/pyserial.md)
                     * 🗂图像处理库
-                        * [📝Pillow](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/图像处理库/Pillow.md)
+                        * [📝Pillow](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/图像处理库/Pillow.md)
                     * 🗂工具库
-                        * [📝pyutil](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/工具库/pyutil.md)
+                        * [📝pyutil](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/工具库/pyutil.md)
                     * 🗂数值计算库
-                        * [📝numpy](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/数值计算库/numpy.md)
-                        * [📝pandas](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/数值计算库/pandas.md)
-                        * [📝scipy](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/数值计算库/scipy.md)
+                        * [📝numpy](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/数值计算库/numpy.md)
+                        * [📝pandas](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/数值计算库/pandas.md)
+                        * [📝scipy](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/数值计算库/scipy.md)
                     * 🗂流水线构建
-                        * [📝luigi](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/流水线构建/luigi.md)
+                        * [📝luigi](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/流水线构建/luigi.md)
                     * 🗂算法库
-                        * [📝XGBoost](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/算法库/XGBoost.md)
+                        * [📝XGBoost](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/算法库/XGBoost.md)
                     * 🗂语言处理库
-                        * [📝jieba分词](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/库/语言处理库/jieba分词.md)
+                        * [📝jieba分词](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/库/语言处理库/jieba分词.md)
                 * 🗂框架
                     * 🗂ORM
-                        * [📝MongoEngine](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/ORM/MongoEngine.md)
-                        * [📝SQLALchemy](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/ORM/SQLALchemy.md)
-                        * [📝peewee](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/ORM/peewee.md)
-                        * [📝pymongo](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/ORM/pymongo.md)
+                        * [📝MongoEngine](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/ORM/MongoEngine.md)
+                        * [📝SQLALchemy](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/ORM/SQLALchemy.md)
+                        * [📝peewee](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/ORM/peewee.md)
+                        * [📝pymongo](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/ORM/pymongo.md)
                     * 🗂web框架
                         * 🗂Django
-                            * [📝Django](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/web框架/Django/00_Django.md)
-                            * [📝django-admin](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/web框架/Django/django-admin.md)
+                            * [📝Django](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/web框架/Django/00_Django.md)
+                            * [📝django-admin](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/web框架/Django/django-admin.md)
                         * 🗂Flask
-                            * [📝Flask](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/web框架/Flask/00_Flask.md)
+                            * [📝Flask](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/web框架/Flask/00_Flask.md)
                             * 🗂管理面
-                                * [📝Flask-Admin](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/web框架/Flask/管理面/Flask-Admin.md)
+                                * [📝Flask-Admin](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/web框架/Flask/管理面/Flask-Admin.md)
                             * 🗂认证授权
-                                * [📝Flask-BasicAuth](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/web框架/Flask/认证授权/Flask-BasicAuth.md)
-                                * [📝Flask-Login](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/web框架/Flask/认证授权/Flask-Login.md)
+                                * [📝Flask-BasicAuth](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/web框架/Flask/认证授权/Flask-BasicAuth.md)
+                                * [📝Flask-Login](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/web框架/Flask/认证授权/Flask-Login.md)
                     * 🗂微服务
-                        * [📝Euler微服务框架](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/微服务/Euler微服务框架.md)
+                        * [📝Euler微服务框架](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/微服务/Euler微服务框架.md)
                     * 🗂数据看板_画板
-                        * [📝dash-Plotly](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/数据看板_画板/dash-Plotly.md)
+                        * [📝dash-Plotly](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/数据看板_画板/dash-Plotly.md)
                     * 🗂深度学习框架
                         * 🗂Keras
-                            * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/深度学习框架/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
-                            * [📝keras](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/深度学习框架/Keras/keras.md)
+                            * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/深度学习框架/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
+                            * [📝keras](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/深度学习框架/Keras/keras.md)
                         * 🗂PyTorch
-                            * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/深度学习框架/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
-                            * [📝PyTorch](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/深度学习框架/PyTorch/PyTorch.md)
-                        * [📝tensorflow](/docs/开发者知识文档/11_数据平台/05_数据分析/机器学习/python/框架/深度学习框架/tensorflow.md)
-    * 🗂数据应用
-        * [📝用户画像](/docs/开发者知识文档/11_数据平台/06_数据应用/用户画像.md)
-    * 🗂hadoop和发行版
-        * 🗂CDH
-            * [📝HUE](/docs/开发者知识文档/11_数据平台/07_hadoop和发行版/CDH/HUE.md)
-        * [📝Lynda_Learning_Hadoop](/docs/开发者知识文档/11_数据平台/07_hadoop和发行版/Lynda_Learning_Hadoop.md)
-        * [📝ambari](/docs/开发者知识文档/11_数据平台/07_hadoop和发行版/ambari.md)
-        * [📝cloudera_sandbox](/docs/开发者知识文档/11_数据平台/07_hadoop和发行版/cloudera_sandbox.md)
-        * [📝cloudera发行版安装包](/docs/开发者知识文档/11_数据平台/07_hadoop和发行版/cloudera发行版安装包.md)
-        * [📝hadoop](/docs/开发者知识文档/11_数据平台/07_hadoop和发行版/hadoop.md)
-        * [📝最佳实践](/docs/开发者知识文档/11_数据平台/07_hadoop和发行版/最佳实践.md)
+                            * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/深度学习框架/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
+                            * [📝PyTorch](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/深度学习框架/PyTorch/PyTorch.md)
+                        * [📝tensorflow](/docs/开发者知识文档/11_数据平台/05_数据应用/机器学习/python/框架/深度学习框架/tensorflow.md)
+        * [📝用户画像](/docs/开发者知识文档/11_数据平台/05_数据应用/用户画像.md)
 * 🗂GNU-Linux
     * 🗂c
         * 🗂c版本
