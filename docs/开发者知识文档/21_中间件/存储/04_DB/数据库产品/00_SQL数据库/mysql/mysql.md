@@ -89,13 +89,6 @@ mysqldump -h xxx -P xxx -u root -p --databases db1 db2 >/tmp/user.sql
 ```
 
 
-## 事务
-
-隔离级别
-- RR
-- RC
-
-
 ## 看允许登录的IP范围
 
 https://cloud.tencent.com/developer/news/201704
@@ -108,6 +101,10 @@ https://cloud.tencent.com/developer/news/201704
 
 - [这一次，彻底读懂Mysql执行计划](https://juejin.cn/post/6844903545607553037)
 - [mysql官网文档 执行计划](https://dev.mysql.com/doc/refman/5.7/en/explain-output.html#explain-extra-information)
+
+## Undo Log 机制
+
+- undo tablespace
 
 
 ## 驱动表

@@ -1,5 +1,5 @@
 
-## 网站
+## 1 网站
 
 - [为什么mysql innodb索引是B+树数据结构](https://blog.csdn.net/xuehuagongzi000/article/details/78985844)
 - [mysql InnoDB数据存储引擎 的B+树索引原理](https://www.huaweicloud.com/articles/6856b2ffc571c3d52b0465e1c68acc77.html)
@@ -12,13 +12,16 @@
 - [搞懂Mysql InnoDB B+树索引](https://developer.aliyun.com/article/693859)
 
 
-## 事务引擎机制
+## 2 InnoDB purge线程
 
-### 事务引擎常用机制
 
-### InnoDB 隔离级别实现方式
+## 3 事务引擎机制
 
-#### SQL92 隔离级别
+### 3.1 事务引擎常用机制
+
+### 3.2 InnoDB 隔离级别实现方式
+
+#### 3.2.1 SQL92 隔离级别
 
 - 读未提交
 - 读已提交 RC （使用最多的）
@@ -26,25 +29,25 @@
 - 可序列化
 
 
-#### InnoDB 隔离级别
+#### 3.2.2 InnoDB 隔离级别
 
 实现方式 MVCC
 
 
-#### InnoDB RR 写偏斜
+#### 3.2.3 InnoDB RR 写偏斜
 
-### InnoDB 锁机制
+### 3.3 InnoDB 锁机制
 
-#### InnoDB 锁类型
+#### 3.3.1 InnoDB 锁类型
 
 - Mutex
 - Latch
 - Lock
 
 
-#### InnoDB Lock锁模式和类型
+#### 3.3.2 InnoDB Lock锁模式和类型
 
-##### Lock表锁
+##### 3.3.2.1 Lock表锁
 
 - LOCK_IS：意向共享锁
 - LOCK_IX：意向排他锁

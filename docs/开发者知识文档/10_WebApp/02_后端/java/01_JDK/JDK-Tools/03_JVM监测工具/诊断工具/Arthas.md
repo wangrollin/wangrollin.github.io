@@ -10,6 +10,14 @@ dashboard
 trace
 
 
+## 快速开始
+
+```bash
+curl -O https://arthas.aliyun.com/arthas-boot.jar
+java -jar arthas-boot.jar
+```
+
+
 ## tips
 
 > trace 重载方法
