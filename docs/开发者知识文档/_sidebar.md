@@ -849,8 +849,7 @@
                     * [📝Airflow](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/Airflow.md)
                     * [📝Azkaban](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/Azkaban.md)
                     * [📝Crontab](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/Crontab.md)
-                    * 🗂DAG工作流调度器
-                        * [📝dolphinscheduler](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/DAG工作流调度器/dolphinscheduler.md)
+                    * [📝DolphinScheduler](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/DolphinScheduler.md)
                     * [📝Oozie](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/Oozie.md)
                     * [📝celery](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/celery.md)
                     * [📝chronos](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/chronos.md)
@@ -960,22 +959,24 @@
             * 🗂语言处理库
                 * [📝jieba分词](/docs/开发者知识文档/12_AI/00_Python/库/语言处理库/jieba分词.md)
         * 🗂框架
+            * 🗂Html渲染框架
+                * [📝Jinja2](/docs/开发者知识文档/12_AI/00_Python/框架/Html渲染框架/Jinja2.md)
             * 🗂ORM
                 * [📝MongoEngine](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/MongoEngine.md)
                 * [📝SQLALchemy](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/SQLALchemy.md)
                 * [📝peewee](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/peewee.md)
                 * [📝pymongo](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/pymongo.md)
-            * 🗂web框架
+            * 🗂Web应用框架
                 * 🗂Django
-                    * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/web框架/Django/00_Django.md)
-                    * [📝django-admin](/docs/开发者知识文档/12_AI/00_Python/框架/web框架/Django/django-admin.md)
+                    * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Django/00_Django.md)
+                    * [📝django-admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Django/django-admin.md)
                 * 🗂Flask
-                    * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/web框架/Flask/00_Flask.md)
+                    * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/00_Flask.md)
                     * 🗂管理面
-                        * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/web框架/Flask/管理面/Flask-Admin.md)
+                        * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/管理面/Flask-Admin.md)
                     * 🗂认证授权
-                        * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/web框架/Flask/认证授权/Flask-BasicAuth.md)
-                        * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/web框架/Flask/认证授权/Flask-Login.md)
+                        * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/认证授权/Flask-BasicAuth.md)
+                        * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/认证授权/Flask-Login.md)
             * 🗂微服务
                 * [📝Euler微服务框架](/docs/开发者知识文档/12_AI/00_Python/框架/微服务/Euler微服务框架.md)
     * 🗂算法分类
