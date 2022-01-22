@@ -89,6 +89,11 @@ mysqldump -h xxx -P xxx -u root -p --databases db1 db2 >/tmp/user.sql
 ```
 
 
+## 修改密码
+
+- [MySQL修改密码（三种方法示例）](https://www.yiibai.com/mysql/changing-password.html)
+
+
 ## 看允许登录的IP范围
 
 https://cloud.tencent.com/developer/news/201704

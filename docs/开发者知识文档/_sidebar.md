@@ -181,6 +181,7 @@
                             * [📝Vuelidate](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/Vuelidate.md)
                             * [📝nuxt](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/nuxt.md)
                             * [📝vite](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vite.md)
+                            * [📝vue-cli](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vue-cli.md)
                             * [📝vue-router](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vue-router.md)
                             * [📝vuetify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vuetify.md)
                             * [📝vuex4](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vuex4.md)
@@ -768,9 +769,10 @@
             * [📝最佳实践](/docs/开发者知识文档/11_数据平台/01_计算存储/00_hadoop和发行版/最佳实践.md)
         * 🗂存储
             * 🗂DB
+                * [📝Clickhouse](/docs/开发者知识文档/11_数据平台/01_计算存储/1_存储/DB/Clickhouse.md)
+                * [📝Impala](/docs/开发者知识文档/11_数据平台/01_计算存储/1_存储/DB/Impala.md)
                 * 🗂MPP-DB
                     * [📝starRocks](/docs/开发者知识文档/11_数据平台/01_计算存储/1_存储/DB/MPP-DB/starRocks.md)
-                * [📝clickhouse](/docs/开发者知识文档/11_数据平台/01_计算存储/1_存储/DB/clickhouse.md)
                 * 🗂hbase
                     * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/11_数据平台/01_计算存储/1_存储/DB/hbase/Lynda_HBase_Essential_Training.md)
                     * [📝hbase](/docs/开发者知识文档/11_数据平台/01_计算存储/1_存储/DB/hbase/hbase.md)
@@ -819,7 +821,6 @@
                     * [📝spark](/docs/开发者知识文档/11_数据平台/01_计算存储/3_计算引擎/01_引擎/Spark/spark.md)
                 * [📝Tez](/docs/开发者知识文档/11_数据平台/01_计算存储/3_计算引擎/01_引擎/Tez.md)
                 * [📝drill](/docs/开发者知识文档/11_数据平台/01_计算存储/3_计算引擎/01_引擎/drill.md)
-                * [📝impala](/docs/开发者知识文档/11_数据平台/01_计算存储/3_计算引擎/01_引擎/impala.md)
                 * [📝presto](/docs/开发者知识文档/11_数据平台/01_计算存储/3_计算引擎/01_引擎/presto.md)
                 * [📝storm](/docs/开发者知识文档/11_数据平台/01_计算存储/3_计算引擎/01_引擎/storm.md)
             * 🗂数据湖技术
@@ -1247,6 +1248,8 @@
                             * [📝总览](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/MySQL/MySQL存储引擎/总览.md)
                         * 🗂Tips
                             * [📝MySQL存储位置迁移](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/MySQL/Tips/MySQL存储位置迁移.md)
+                        * 🗂Web交互
+                            * [📝phpMyAdmin](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/MySQL/Web交互/phpMyAdmin.md)
                         * 🗂binlog
                             * [📝canal](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/MySQL/binlog/canal.md)
                         * 🗂迁移工具
@@ -1263,6 +1266,7 @@
                         * 🗂衍生发行版
                             * [📝GaussDB](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/GaussDB.md)
                             * [📝Pigsty](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/Pigsty.md)
+                    * [📝SQL.js](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/SQL.js.md)
                     * 🗂SQL审核平台
                         * [📝Archery](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/SQL审核平台/Archery.md)
                     * [📝SQL语法](/docs/开发者知识文档/21_中间件/存储/04_DB/数据库产品/00_SQL数据库/SQL语法.md)

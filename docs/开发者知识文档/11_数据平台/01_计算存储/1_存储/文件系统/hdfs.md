@@ -1,3 +1,16 @@
-# Sometimes structure is more important than content
 
-Sometimes structure is more important than content
+
+## 模块
+
+### NameNode
+
+### HDFS Balancer
+
+保持数据平衡
+
+### FsImage
+
+
+## tips
+
+### 合并小文件

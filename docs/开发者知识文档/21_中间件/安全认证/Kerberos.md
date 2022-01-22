@@ -15,3 +15,5 @@
 - [JAAS Authorization](https://docs.oracle.com/javase/8/docs/technotes/guides/security/jgss/tutorials/AcnAndAzn.html)
 - [GSS-API 介绍](https://docs.oracle.com/cd/E19253-01/819-7056/overview-19/index.html)
 - [Permissions in the JDK](https://docs.oracle.com/en/java/javase/15/security/permissions-jdk1.html#GUID-1E8E213A-D7F2-49F1-A2F0-EFB3397A8C95)
+
+- [大数据SRE的总结（10）－－ kerberos in hadoop & 分布式程序认证设计](https://zhuanlan.zhihu.com/p/34556597)
