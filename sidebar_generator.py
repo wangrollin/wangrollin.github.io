@@ -2,6 +2,7 @@
 
 import os
 import re
+import datetime
 
 prefix = '* '
 base_path = os.getcwd()
@@ -42,7 +43,7 @@ def write_to_sidebar(root_path, indent, _sidebar_file):
 
 if __name__ == '__main__':
 
-    print("🔥开始生成sidebar...")
+    print("🔥开始生成sidebar...", datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     for path in path_list:
         sidebar_file = open(path + '/_sidebar.md', 'w')
         write_to_sidebar(path, '', sidebar_file)

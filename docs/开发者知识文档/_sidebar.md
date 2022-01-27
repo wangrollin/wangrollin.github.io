@@ -183,6 +183,7 @@
                             * [📝vite](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vite.md)
                             * [📝vue-cli](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vue-cli.md)
                             * [📝vue-router](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vue-router.md)
+                            * [📝vuePress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vuePress.md)
                             * [📝vuetify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vuetify.md)
                             * [📝vuex4](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vuex4.md)
                         * 🗂基于vue的库和框架
@@ -1335,8 +1336,8 @@
             * [📝Doozerd](/docs/开发者知识文档/21_中间件/存储/07_一致性/Doozerd.md)
             * [📝etcd](/docs/开发者知识文档/21_中间件/存储/07_一致性/etcd.md)
             * [📝zookeeper](/docs/开发者知识文档/21_中间件/存储/07_一致性/zookeeper.md)
-        * 🗂secret
-            * [📝vault_by_Hashicorp](/docs/开发者知识文档/21_中间件/存储/08_secret/vault_by_Hashicorp.md)
+        * 🗂kms_secret
+            * [📝vault_by_Hashicorp](/docs/开发者知识文档/21_中间件/存储/08_kms_secret/vault_by_Hashicorp.md)
         * 🗂Cache
             * 🗂分布式缓存
                 * [📝Hazelcast](/docs/开发者知识文档/21_中间件/存储/09_Cache/分布式缓存/Hazelcast.md)
@@ -1386,31 +1387,6 @@
         * [📝消息中间件概述](/docs/开发者知识文档/21_中间件/消息中间件/消息中间件概述.md)
     * 🗂混沌实验
         * [📝ChaosBlade](/docs/开发者知识文档/21_中间件/混沌实验/ChaosBlade.md)
-    * 🗂监控平台
-        * 🗂基础设施监控_网络性能监控NPM
-            * [📝Zabbix](/docs/开发者知识文档/21_中间件/监控平台/00_基础设施监控_网络性能监控NPM/Zabbix.md)
-        * 🗂应用监控APM_分布式链路追踪
-            * [📝CAT](/docs/开发者知识文档/21_中间件/监控平台/01_应用监控APM_分布式链路追踪/CAT.md)
-            * [📝SkyWalking](/docs/开发者知识文档/21_中间件/监控平台/01_应用监控APM_分布式链路追踪/SkyWalking.md)
-            * [📝bosun](/docs/开发者知识文档/21_中间件/监控平台/01_应用监控APM_分布式链路追踪/bosun.md)
-            * [📝pinpoint](/docs/开发者知识文档/21_中间件/监控平台/01_应用监控APM_分布式链路追踪/pinpoint.md)
-            * [📝sentry](/docs/开发者知识文档/21_中间件/监控平台/01_应用监控APM_分布式链路追踪/sentry.md)
-        * 🗂日志监控LOG
-            * 🗂日志收集
-                * [📝fluentd](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/00_日志收集/fluentd.md)
-                * [📝logstash](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/00_日志收集/logstash.md)
-            * 🗂索引
-                * [📝Elastalert](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/01_索引/Elastalert.md)
-            * 🗂监控展示
-                * [📝Graphite](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/02_监控展示/Graphite.md)
-                * [📝Zipkin](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/02_监控展示/Zipkin.md)
-                * [📝grafana](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/02_监控展示/grafana.md)
-                * [📝kibana](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/02_监控展示/kibana.md)
-                * [📝prometheus](/docs/开发者知识文档/21_中间件/监控平台/02_日志监控LOG/02_监控展示/prometheus.md)
-        * 🗂真实用户监控RUM
-            * [📝placeHolder](/docs/开发者知识文档/21_中间件/监控平台/03_真实用户监控RUM/placeHolder.md)
-        * 🗂商业解决方案
-            * [📝datadog](/docs/开发者知识文档/21_中间件/监控平台/商业解决方案/datadog.md)
     * 🗂网关
         * 🗂API网关
             * [📝Kong](/docs/开发者知识文档/21_中间件/网关/API网关/Kong.md)
@@ -1427,6 +1403,44 @@
             * [📝Gunicorn](/docs/开发者知识文档/21_中间件/网关/Python应用服务器/Gunicorn.md)
         * 🗂web服务器
             * [📝nginx](/docs/开发者知识文档/21_中间件/网关/web服务器/nginx.md)
+    * 🗂观测报警平台
+        * 🗂商业解决方案
+            * [📝datadog](/docs/开发者知识文档/21_中间件/观测报警平台/00_商业解决方案/datadog.md)
+        * 🗂场景
+            * 🗂基础设施监控_网络性能监控NPM
+                * [📝Zabbix](/docs/开发者知识文档/21_中间件/观测报警平台/00_场景/00_基础设施监控_网络性能监控NPM/Zabbix.md)
+            * 🗂应用监控APM_分布式链路追踪
+                * [📝CAT](/docs/开发者知识文档/21_中间件/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/CAT.md)
+                * [📝SkyWalking](/docs/开发者知识文档/21_中间件/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/SkyWalking.md)
+                * [📝pinpoint](/docs/开发者知识文档/21_中间件/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/pinpoint.md)
+                * [📝sentry](/docs/开发者知识文档/21_中间件/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/sentry.md)
+            * 🗂真实用户监控RUM
+                * [📝placeHolder](/docs/开发者知识文档/21_中间件/观测报警平台/00_场景/02_真实用户监控RUM/placeHolder.md)
+        * 🗂打点监控Metric
+            * 🗂打点收集
+                * [📝placeholder](/docs/开发者知识文档/21_中间件/观测报警平台/01_打点监控Metric/00_打点收集/placeholder.md)
+                * [📝prometheus](/docs/开发者知识文档/21_中间件/观测报警平台/01_打点监控Metric/00_打点收集/prometheus.md)
+            * 🗂索引
+                * [📝时序数据库](/docs/开发者知识文档/21_中间件/观测报警平台/01_打点监控Metric/01_索引/时序数据库.md)
+            * 🗂可视化看板
+                * [📝grafana](/docs/开发者知识文档/21_中间件/观测报警平台/01_打点监控Metric/02_可视化看板/grafana.md)
+            * 🗂报警规则和报警服务
+                * 🗂规则引擎
+                    * [📝bosun](/docs/开发者知识文档/21_中间件/观测报警平台/01_打点监控Metric/03_报警规则和报警服务/01_规则引擎/bosun.md)
+                * 🗂报警服务
+                    * [📝placeholder](/docs/开发者知识文档/21_中间件/观测报警平台/01_打点监控Metric/03_报警规则和报警服务/02_报警服务/placeholder.md)
+        * 🗂日志监控LOG
+            * 🗂日志收集
+                * [📝fluentd](/docs/开发者知识文档/21_中间件/观测报警平台/02_日志监控LOG/00_日志收集/fluentd.md)
+                * [📝logstash](/docs/开发者知识文档/21_中间件/观测报警平台/02_日志监控LOG/00_日志收集/logstash.md)
+            * 🗂索引
+                * [📝Elastalert](/docs/开发者知识文档/21_中间件/观测报警平台/02_日志监控LOG/01_索引/Elastalert.md)
+            * 🗂可视化
+                * [📝Graphite](/docs/开发者知识文档/21_中间件/观测报警平台/02_日志监控LOG/02_可视化/Graphite.md)
+                * [📝Zipkin](/docs/开发者知识文档/21_中间件/观测报警平台/02_日志监控LOG/02_可视化/Zipkin.md)
+                * [📝kibana](/docs/开发者知识文档/21_中间件/观测报警平台/02_日志监控LOG/02_可视化/kibana.md)
+            * 🗂报警规则和报警服务
+                * [📝placeholder](/docs/开发者知识文档/21_中间件/观测报警平台/02_日志监控LOG/03_报警规则和报警服务/placeholder.md)
     * 🗂语音识别工具
         * [📝vosk](/docs/开发者知识文档/21_中间件/语音识别工具/vosk.md)
     * 🗂负载均衡
