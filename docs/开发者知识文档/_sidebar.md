@@ -1058,6 +1058,8 @@
                 * [📝tcmalloc](/docs/开发者知识文档/20_GNU-Linux/00_c/07_框架和库/内存分配/tcmalloc.md)
             * 🗂压缩库
                 * [📝zlib](/docs/开发者知识文档/20_GNU-Linux/00_c/07_框架和库/压缩库/zlib.md)
+        * 🗂构建工具
+            * [📝cmake](/docs/开发者知识文档/20_GNU-Linux/00_c/08_构建工具/cmake.md)
     * 🗂内核
         * 🗂机制
             * [📝epoll](/docs/开发者知识文档/20_GNU-Linux/01_内核/00_机制/epoll.md)
@@ -1450,6 +1452,7 @@
         * [📝mesos](/docs/开发者知识文档/21_中间件/集群管理器/mesos.md)
 * 🗂DevOps-CICD-测试
     * 🗂代码托管平台
+        * [📝git](/docs/开发者知识文档/22_DevOps-CICD-测试/00_代码托管平台/git.md)
         * [📝分支管理](/docs/开发者知识文档/22_DevOps-CICD-测试/00_代码托管平台/分支管理.md)
         * 🗂平台
             * [📝bitbucket](/docs/开发者知识文档/22_DevOps-CICD-测试/00_代码托管平台/平台/bitbucket.md)
@@ -1526,6 +1529,9 @@
         * [📝金丝雀canary](/docs/开发者知识文档/22_DevOps-CICD-测试/07_发布策略/金丝雀canary.md)
     * 🗂分布式部署
         * [📝多机房部署-异地多活](/docs/开发者知识文档/22_DevOps-CICD-测试/08_分布式部署/多机房部署-异地多活.md)
+    * 🗂构建工具
+        * [📝Bazel](/docs/开发者知识文档/22_DevOps-CICD-测试/09_构建工具/Bazel.md)
+        * [📝Buck](/docs/开发者知识文档/22_DevOps-CICD-测试/09_构建工具/Buck.md)
     * [📝codepipeline](/docs/开发者知识文档/22_DevOps-CICD-测试/codepipeline.md)
     * [📝github开发流](/docs/开发者知识文档/22_DevOps-CICD-测试/github开发流.md)
 * 🗂CNCF
