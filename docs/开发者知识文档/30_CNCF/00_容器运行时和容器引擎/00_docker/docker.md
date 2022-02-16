@@ -2,8 +2,6 @@
 
 Docker 使用过程中有许多常用的命令，完整列表可以查看docker help
 
- 
-
 ### 阿里云docker镜像服务
 
 ```bash
@@ -16,24 +14,25 @@ docker push registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-front:0.0.3
 docker run -d -p 80:80 registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-front:0.0.3
 ```
 
+### dockerfile
 
+#### .dockerignore
 
+### 常用命令
 
-
-
-
-\# 镜像操作
+#### 镜像操作
 
 ```bash
 docker build -t runoob/ubuntu:v1 . 
 docker build -t config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT .
 
 docker run config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT
-
-docker push config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT
-```
+docker run -d xxx # 后台执行
+docker run -w xxx # 指定工作目录
+docker run -it xxx /bin/sh # 容器不会退出
 
 docker images # 查看镜像
+docker image inspect xxx
 
 docker rmi <镜像ID或名称> # 删除镜像
 
@@ -44,16 +43,15 @@ docker pull <镜像> # 从镜像仓库拉取镜像
 docker save -o image.tar <镜像ID或名称> # 将镜像保存到文件
 
 docker load -i image.tar # 从文件载入镜像
+```
 
- docker container prune # 删除所有停止的容器
+#### 容器操作
 
-
-
-\# 容器操作
-
+```bash
 docker ps # 查看运行的容器
-
 docker ps -a # 查看所有的容器
+
+docker container prune # 删除所有停止的容器
 
 docker restart <容器ID或名称> # 重启容器
 
@@ -66,14 +64,16 @@ docker rm <容器ID或名称> # 删除容器，必须先停止，使用 -f 参�
 docker logs <容器ID或名称> # 查看容器的日志
 
 docker exec <容器ID或名称> <命令> # 在容器中执行命令
-
 docker exec -ti <容器ID或名称> bash # 典型的用法是登陆容器的 bash
+docker exec -it -w /root container_name /bin/bash
 
 docker top <容器ID或名称> # 查看容器的进程
 
 docker inspect <容器ID或名称> # 查看容器的底层信息，如 IP 等
 
 docker run -d -it adoptopenjdk/openjdk11:latest /bin/bash
+```
+
 
 ## ubuntu如何安装docker
 
