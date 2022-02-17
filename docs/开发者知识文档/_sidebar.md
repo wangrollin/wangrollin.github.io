@@ -974,24 +974,29 @@
             * 🗂语言处理库
                 * [📝jieba分词](/docs/开发者知识文档/12_AI/00_Python/库/语言处理库/jieba分词.md)
         * 🗂框架
+            * 🗂DB相关
+                * 🗂DB管理
+                    * [📝Alembic](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/DB管理/Alembic.md)
+                * 🗂ORM
+                    * [📝MongoEngine](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/MongoEngine.md)
+                    * [📝SQLALchemy](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/SQLALchemy.md)
+                    * [📝peewee](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/peewee.md)
+                    * [📝pymongo](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/pymongo.md)
             * 🗂Html渲染框架
                 * [📝Jinja2](/docs/开发者知识文档/12_AI/00_Python/框架/Html渲染框架/Jinja2.md)
-            * 🗂ORM
-                * [📝MongoEngine](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/MongoEngine.md)
-                * [📝SQLALchemy](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/SQLALchemy.md)
-                * [📝peewee](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/peewee.md)
-                * [📝pymongo](/docs/开发者知识文档/12_AI/00_Python/框架/ORM/pymongo.md)
-            * 🗂Web应用框架
+            * 🗂Web应用相关
                 * 🗂Django
-                    * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Django/00_Django.md)
-                    * [📝django-admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Django/django-admin.md)
+                    * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Django/00_Django.md)
+                    * [📝django-admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Django/django-admin.md)
                 * 🗂Flask
-                    * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/00_Flask.md)
+                    * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/00_Flask.md)
+                    * 🗂DB管理
+                        * [📝Flask-Migrate](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/DB管理/Flask-Migrate.md)
                     * 🗂管理面
-                        * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/管理面/Flask-Admin.md)
+                        * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/管理面/Flask-Admin.md)
                     * 🗂认证授权
-                        * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/认证授权/Flask-BasicAuth.md)
-                        * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用框架/Flask/认证授权/Flask-Login.md)
+                        * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/认证授权/Flask-BasicAuth.md)
+                        * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/认证授权/Flask-Login.md)
             * 🗂微服务
                 * [📝Euler微服务框架](/docs/开发者知识文档/12_AI/00_Python/框架/微服务/Euler微服务框架.md)
     * 🗂算法分类

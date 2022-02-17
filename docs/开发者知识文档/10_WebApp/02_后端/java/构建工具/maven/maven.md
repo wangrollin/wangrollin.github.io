@@ -57,6 +57,12 @@ mvn sonar:sonar \
 maven 3.6.1版本有bug，尽量不要使用
 
 
+## scope
+
+### runtime（默认）
+
+### provided
+
 
 
 
