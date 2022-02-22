@@ -1,6 +1,9 @@
 
 ## 网页
 
+- [官网](https://zookeeper.apache.org/)
+- [zkCli 命令](https://zookeeper.apache.org/doc/r3.6.0/zookeeperCLI.html)
+- [github](https://github.com/apache/zookeeper)
 - [用大白话给你解释 ZooKeeper 的选举机制](http://dockerone.com/article/696772)
 - [ZooKeeper 定位：能解决什么问题？](https://ningg.top/zookeeper-positioning/)
 - [ZooKeeper集群架构以及读写原理](https://mp.weixin.qq.com/s/F5cS-W4WyuRwc8dGPVy0dQ)
@@ -16,6 +19,17 @@ ZooKeeper 是存储设施，但特别注意：
 ZK上存储的数据聚焦为：协作数据（元数据），而不是应用数据，应用数据有自己的存储方案，例如 HDFS 等
 
 ZK 本质上，可以看作一种特殊的 FS
+
+## 命令行
+
+下载 https://zookeeper.apache.org/releases.html 二进制版本，否则会报错找不到主类，进入 bin 目录
+
+```bash
+./zkCli.sh -server localhost:2181
+ls /xxx/xxx
+get /xxx/xxx
+```
+
 
 ### Zookeeper 的数据模型
 

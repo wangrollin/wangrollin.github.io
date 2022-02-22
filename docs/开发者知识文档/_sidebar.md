@@ -619,6 +619,7 @@
                     * [📝cglib](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/cglib.md)
                     * [📝lombok](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/lombok.md)
                 * 🗂安全认证框架
+                    * [📝Casbin](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Casbin.md)
                     * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
                     * [📝OAuth2](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/OAuth2.md)
                     * [📝OpenID_Connect](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/OpenID_Connect.md)
@@ -977,6 +978,7 @@
             * 🗂DB相关
                 * 🗂DB管理
                     * [📝Alembic](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/DB管理/Alembic.md)
+                    * [📝sqlacodegen](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/DB管理/sqlacodegen.md)
                 * 🗂ORM
                     * [📝MongoEngine](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/MongoEngine.md)
                     * [📝SQLALchemy](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/SQLALchemy.md)
@@ -984,19 +986,22 @@
                     * [📝pymongo](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/pymongo.md)
             * 🗂Html渲染框架
                 * [📝Jinja2](/docs/开发者知识文档/12_AI/00_Python/框架/Html渲染框架/Jinja2.md)
-            * 🗂Web应用相关
+            * 🗂HttpServer
+                * [📝Gunicorn](/docs/开发者知识文档/12_AI/00_Python/框架/HttpServer/Gunicorn.md)
+            * 🗂Web框架
                 * 🗂Django
-                    * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Django/00_Django.md)
-                    * [📝django-admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Django/django-admin.md)
+                    * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Django/00_Django.md)
+                    * [📝django-admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Django/django-admin.md)
                 * 🗂Flask
-                    * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/00_Flask.md)
+                    * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/00_Flask.md)
                     * 🗂DB管理
-                        * [📝Flask-Migrate](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/DB管理/Flask-Migrate.md)
+                        * [📝Flask-Migrate](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/DB管理/Flask-Migrate.md)
                     * 🗂管理面
-                        * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/管理面/Flask-Admin.md)
+                        * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/管理面/Flask-Admin.md)
                     * 🗂认证授权
-                        * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/认证授权/Flask-BasicAuth.md)
-                        * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/Web应用相关/Flask/认证授权/Flask-Login.md)
+                        * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/认证授权/Flask-BasicAuth.md)
+                        * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/认证授权/Flask-Login.md)
+                        * [📝Flask-Security](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/认证授权/Flask-Security.md)
             * 🗂微服务
                 * [📝Euler微服务框架](/docs/开发者知识文档/12_AI/00_Python/框架/微服务/Euler微服务框架.md)
     * 🗂算法分类
@@ -1377,6 +1382,8 @@
                 * [📝caffeine](/docs/开发者知识文档/21_中间件/存储/09_Cache/本地缓存/caffeine.md)
                 * [📝ehcache](/docs/开发者知识文档/21_中间件/存储/09_Cache/本地缓存/ehcache.md)
     * 🗂安全认证
+        * [📝Auth0](/docs/开发者知识文档/21_中间件/安全认证/Auth0.md)
+        * [📝Casdoor](/docs/开发者知识文档/21_中间件/安全认证/Casdoor.md)
         * [📝Kerberos](/docs/开发者知识文档/21_中间件/安全认证/Kerberos.md)
         * [📝Keycloak](/docs/开发者知识文档/21_中间件/安全认证/Keycloak.md)
         * [📝Okta](/docs/开发者知识文档/21_中间件/安全认证/Okta.md)
