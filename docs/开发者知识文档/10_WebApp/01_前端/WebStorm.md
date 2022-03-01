@@ -16,6 +16,7 @@
   - socket.io
 
 - vue indents: 4
+- Editor > Code Style > JavaScript > Use file extension > Always
 
 > 插件
 

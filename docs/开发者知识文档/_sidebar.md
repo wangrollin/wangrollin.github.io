@@ -619,6 +619,7 @@
                     * [📝cglib](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/cglib.md)
                     * [📝lombok](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/lombok.md)
                 * 🗂安全认证框架
+                    * [📝AKSK](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/AKSK.md)
                     * [📝Casbin](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Casbin.md)
                     * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
                     * [📝OAuth2](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/OAuth2.md)

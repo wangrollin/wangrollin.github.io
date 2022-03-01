@@ -1,4 +1,9 @@
 
+## 网站
+
+- [pallets](https://palletsprojects.com/)
+- [github](https://github.com/pallets/flask/)
+- [官方 doc](https://flask.palletsprojects.com)
 
 ## tips
 
@@ -17,3 +22,13 @@ from flask import render_template
 
 return render_template('dist/index.html')
 ```
+
+### flask app cli 
+
+```bash
+# flask app.py 要引用到那个 cli.py
+flask my_cmd
+```
+
+### CROS
+
