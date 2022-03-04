@@ -18,7 +18,52 @@ https://cn.vuejs.org/v2/guide/
 
 单文件组件，也就是 .vue
 
-## vue3 新特性
+## vue 特性
+
+### slot
+
+```html
+<template>
+    <slot></slot>
+    hello
+</template>
+```
+
+```html
+<Rate v-model="score">课程评分</Rate>
+<Rate v-model="score">
+    <img width="14" src="/favicon.ico">
+</Rate>
+```
+
+### 动画
+
+```css
+<style>
+.box{
+  background:#d88986;
+  height:100px;
+  transition: width 1s linear;
+}
+</style>
+```
+
+```css
+.box1{
+  width:30px;
+  height:30px;
+  position: relative;
+  background:#d88986;
+  animation: move 2s linear infinite;
+}
+@keyframes move {
+  0% {left:0px}
+  50% {left:200px}
+  100% {left:0}
+}
+```
+
+## vue3 特性
 
 Composition API 和 script setup
 
