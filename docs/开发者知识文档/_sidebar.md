@@ -863,6 +863,7 @@
     * 🗂开发套件
         * 🗂数据研发
             * 🗂数据集成
+                * [📝Airbyte](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/00_数据集成/Airbyte.md)
                 * [📝Binlog_Kafka](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/00_数据集成/Binlog_Kafka.md)
                 * [📝DataX](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/00_数据集成/DataX.md)
                 * [📝Flume](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/00_数据集成/Flume.md)
@@ -1180,6 +1181,8 @@
             * [📝ps](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/进程相关/ps.md)
             * [📝service](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/进程相关/service.md)
             * [📝supervisior](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/进程相关/supervisior.md)
+            * 🗂调度工具
+                * [📝crontab](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/进程相关/调度工具/crontab.md)
     * 🗂bash
         * [📝Lynda_Learning_Bash_Scripting](/docs/开发者知识文档/20_GNU-Linux/03_bash/Lynda_Learning_Bash_Scripting.md)
         * [📝bash](/docs/开发者知识文档/20_GNU-Linux/03_bash/bash.md)
