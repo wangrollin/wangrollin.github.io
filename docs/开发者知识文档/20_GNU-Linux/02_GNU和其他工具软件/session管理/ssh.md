@@ -8,7 +8,7 @@ ssh-keygen
 
 ```bash
 cd ~/.ssh
-vim config
+vim ~/.ssh/config
 
 Host betterdev
   HostName better.dev
@@ -38,3 +38,5 @@ ssh betterdev
 ```bash
 复制 id_rsa.pub 到 /root/.ssh/authorized_keys
 ```
+
+ssh -i id_rsa  root@xxxxx 

@@ -3,3 +3,14 @@
 
 
 es是创建索引和检索一起做，会损伤搜索性能。微信搜一搜中，搜索引擎分为在线离线两部分，离线用于创建索引，在线用于检索
+
+## API
+
+### 连通性测试
+
+curl http://localhost:9201
+curl http://localhost:9202
+
+### 设置密码
+
+bin/elasticsearch-setup-passwords interactive
