@@ -1007,6 +1007,7 @@
                         * [📝Flask-Migrate](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/DB管理/Flask-Migrate.md)
                     * 🗂管理面
                         * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/管理面/Flask-Admin.md)
+                        * [📝Flask-AppBuilder](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/管理面/Flask-AppBuilder.md)
                     * 🗂认证授权
                         * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/认证授权/Flask-BasicAuth.md)
                         * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/认证授权/Flask-Login.md)
