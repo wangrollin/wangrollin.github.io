@@ -933,10 +933,13 @@
         * 🗂python发行版
             * [📝Anaconda](/docs/开发者知识文档/12_AI/00_Python/python发行版/Anaconda.md)
             * [📝stackless](/docs/开发者知识文档/12_AI/00_Python/python发行版/stackless.md)
+        * 🗂可运行包
+            * [📝webssh](/docs/开发者知识文档/12_AI/00_Python/可运行包/webssh.md)
         * 🗂基础
             * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/12_AI/00_Python/基础/Lynda_Python_Essential_Training.md)
             * [📝Python](/docs/开发者知识文档/12_AI/00_Python/基础/Python.md)
             * 🗂标准库
+                * [📝异步编程](/docs/开发者知识文档/12_AI/00_Python/基础/标准库/异步编程.md)
                 * [📝标准库](/docs/开发者知识文档/12_AI/00_Python/基础/标准库/标准库.md)
             * 🗂解释器
                 * [📝cpy](/docs/开发者知识文档/12_AI/00_Python/基础/解释器/cpy.md)
@@ -979,8 +982,9 @@
             * 🗂算法库
                 * [📝XGBoost](/docs/开发者知识文档/12_AI/00_Python/库/算法库/XGBoost.md)
             * 🗂网络库
-                * [📝Gevent](/docs/开发者知识文档/12_AI/00_Python/库/网络库/Gevent.md)
-                * [📝eventlet](/docs/开发者知识文档/12_AI/00_Python/库/网络库/eventlet.md)
+                * 🗂ws
+                    * [📝websocket-client](/docs/开发者知识文档/12_AI/00_Python/库/网络库/ws/websocket-client.md)
+                    * [📝websockets](/docs/开发者知识文档/12_AI/00_Python/库/网络库/ws/websockets.md)
             * 🗂语言处理库
                 * [📝jieba分词](/docs/开发者知识文档/12_AI/00_Python/库/语言处理库/jieba分词.md)
         * 🗂框架
@@ -995,8 +999,13 @@
                     * [📝pymongo](/docs/开发者知识文档/12_AI/00_Python/框架/DB相关/ORM/pymongo.md)
             * 🗂Html渲染框架
                 * [📝Jinja2](/docs/开发者知识文档/12_AI/00_Python/框架/Html渲染框架/Jinja2.md)
-            * 🗂HttpServer
-                * [📝Gunicorn](/docs/开发者知识文档/12_AI/00_Python/框架/HttpServer/Gunicorn.md)
+            * 🗂WSGI_Server
+                * 🗂blocking
+                    * [📝Gunicorn](/docs/开发者知识文档/12_AI/00_Python/框架/WSGI_Server/blocking/Gunicorn.md)
+                * 🗂non-blocking
+                    * [📝Gevent](/docs/开发者知识文档/12_AI/00_Python/框架/WSGI_Server/non-blocking/Gevent.md)
+                    * [📝Tornado](/docs/开发者知识文档/12_AI/00_Python/框架/WSGI_Server/non-blocking/Tornado.md)
+                    * [📝eventlet](/docs/开发者知识文档/12_AI/00_Python/框架/WSGI_Server/non-blocking/eventlet.md)
             * 🗂Web框架
                 * 🗂Django
                     * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Django/00_Django.md)
@@ -1005,9 +1014,12 @@
                     * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/00_Flask.md)
                     * 🗂DB管理
                         * [📝Flask-Migrate](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/DB管理/Flask-Migrate.md)
+                        * [📝Flask-Sqlalchemy](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/DB管理/Flask-Sqlalchemy.md)
                     * 🗂管理面
                         * [📝Flask-Admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/管理面/Flask-Admin.md)
                         * [📝Flask-AppBuilder](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/管理面/Flask-AppBuilder.md)
+                    * 🗂网络
+                        * [📝Flask-SocketIO](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/网络/Flask-SocketIO.md)
                     * 🗂认证授权
                         * [📝Flask-BasicAuth](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/认证授权/Flask-BasicAuth.md)
                         * [📝Flask-Login](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/认证授权/Flask-Login.md)
