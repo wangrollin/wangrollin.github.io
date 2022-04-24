@@ -290,7 +290,6 @@
             * [📝WebAssembly](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/00_WebAssembly.md)
             * [📝Krustlet](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/Krustlet.md)
             * [📝WasmEdge](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/WasmEdge.md)
-            * [📝WebGL](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/WebGL.md)
             * [📝WebRTC](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/WebRTC.md)
             * [📝asm.js](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/asm.js.md)
             * [📝wasmCloud](/docs/开发者知识文档/10_WebApp/01_前端/06_wasm/wasmCloud.md)
@@ -339,6 +338,9 @@
             * [📝MultiPageApp_MPA](/docs/开发者知识文档/10_WebApp/01_前端/其他/MultiPageApp_MPA.md)
             * [📝SinglePageApp_SPA](/docs/开发者知识文档/10_WebApp/01_前端/其他/SinglePageApp_SPA.md)
             * [📝用户页面操作回放](/docs/开发者知识文档/10_WebApp/01_前端/其他/用户页面操作回放.md)
+        * 🗂图形学
+            * [📝WebGL](/docs/开发者知识文档/10_WebApp/01_前端/图形学/WebGL.md)
+            * 🗂游戏引擎
         * 🗂常见问题
             * [📝网站小图标](/docs/开发者知识文档/10_WebApp/01_前端/常见问题/网站小图标.md)
     * 🗂后端
@@ -634,6 +636,8 @@
                     * [📝Security-Assertion-Markup-Language-Tokens_SAML](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Security-Assertion-Markup-Language-Tokens_SAML.md)
                     * [📝Simple-Web-Tokens_SWT](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Simple-Web-Tokens_SWT.md)
                     * [📝shrio](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/shrio.md)
+                * 🗂工作流
+                    * [📝activiti](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/工作流/activiti.md)
                 * 🗂并发框架
                     * [📝akka](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/并发框架/akka.md)
                 * 🗂插件框架
@@ -883,8 +887,7 @@
                 * [📝调度失败分析](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/02_任务实例运维/调度失败分析.md)
             * 🗂临时查询notebook
                 * [📝Jupyter](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/03_临时查询notebook/Jupyter.md)
-                * 🗂WebIDE
-                    * [📝code_server](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/03_临时查询notebook/WebIDE/code_server.md)
+                * [📝WebIDE](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/03_临时查询notebook/WebIDE.md)
                 * [📝Zeppelin](/docs/开发者知识文档/11_数据平台/03_开发套件/01_数据研发/03_临时查询notebook/Zeppelin.md)
         * 🗂数据资产
             * [📝指标](/docs/开发者知识文档/11_数据平台/03_开发套件/02_数据资产/指标.md)
@@ -1844,6 +1847,7 @@
     * 🗂高可用_容灾
         * [📝高可用理论](/docs/开发者知识文档/81_系统设计-语言无关/03_高可用_容灾/高可用理论.md)
     * 🗂经典课题
+        * [📝认证方式](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/00_认证方式.md)
         * [📝单点登录SSO](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/01_单点登录SSO.md)
         * [📝基于角色的访问控制RBAC](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/02_基于角色的访问控制RBAC.md)
         * [📝埋点设计](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/03_埋点设计.md)
@@ -1878,6 +1882,13 @@
             * [📝cve-details](/docs/开发者知识文档/99_其他/01_工具网站/漏洞列表/cve-details.md)
         * 🗂脑图
             * [📝processOn](/docs/开发者知识文档/99_其他/01_工具网站/脑图/processOn.md)
+    * 🗂AI编程
+        * [📝copilot](/docs/开发者知识文档/99_其他/AI编程/copilot.md)
+    * 🗂Online_IDE
+        * [📝code_server](/docs/开发者知识文档/99_其他/Online_IDE/code_server.md)
+        * [📝codepen](/docs/开发者知识文档/99_其他/Online_IDE/codepen.md)
+        * [📝github_codespace](/docs/开发者知识文档/99_其他/Online_IDE/github_codespace.md)
+        * [📝stackBlitz](/docs/开发者知识文档/99_其他/Online_IDE/stackBlitz.md)
     * 🗂SSL证书
         * [📝LetsEncrypt](/docs/开发者知识文档/99_其他/SSL证书/LetsEncrypt.md)
         * [📝echosite](/docs/开发者知识文档/99_其他/SSL证书/echosite.md)
