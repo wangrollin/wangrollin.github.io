@@ -199,6 +199,7 @@
                                 * [📝Vuetify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/Vuetify.md)
                                 * [📝element](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/element.md)
                                 * [📝element_plus](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/element_plus.md)
+                                * [📝naiveui](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/naiveui.md)
                                 * [📝移动端vant](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/移动端vant.md)
                             * 🗂路由
                                 * [📝VueRouter](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/路由/VueRouter.md)
@@ -407,6 +408,8 @@
                     * [📝优秀笔记](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/00_优秀笔记.md)
                     * 🗂SPI
                         * [📝spi](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/SPI/spi.md)
+                    * 🗂URL
+                        * [📝UrlEncoder](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/URL/UrlEncoder.md)
                     * 🗂并发
                         * [📝总览](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/00_总览.md)
                         * [📝CAS](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/CAS.md)
@@ -1013,6 +1016,7 @@
                 * 🗂Django
                     * [📝Django](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Django/00_Django.md)
                     * [📝django-admin](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Django/django-admin.md)
+                * [📝FastAPI](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/FastAPI.md)
                 * 🗂Flask
                     * [📝Flask](/docs/开发者知识文档/12_AI/00_Python/框架/Web框架/Flask/00_Flask.md)
                     * 🗂DB管理
