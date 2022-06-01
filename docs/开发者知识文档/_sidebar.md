@@ -1436,6 +1436,8 @@
             * [📝kprobe](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/内核调试/kprobe.md)
         * 🗂切割文件
             * [📝logrotate](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/切割文件/logrotate.md)
+        * 🗂压缩文件
+            * [📝tar](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/压缩文件/tar.md)
         * 🗂性能监控
             * [📝DTrace](/docs/开发者知识文档/20_GNU-Linux/02_GNU和其他工具软件/性能监控/DTrace.md)
         * 🗂查看文件
@@ -1773,11 +1775,14 @@
                 * [📝mecha](/docs/开发者知识文档/30_CNCF/02_paas/03_微服务架构/02_mecha/00_mecha.md)
                 * [📝Dapr](/docs/开发者知识文档/30_CNCF/02_paas/03_微服务架构/02_mecha/Dapr.md)
     * 🗂faas
+        * [📝Dapr](/docs/开发者知识文档/30_CNCF/03_faas/Dapr.md)
         * [📝IronFunctions](/docs/开发者知识文档/30_CNCF/03_faas/IronFunctions.md)
+        * [📝KEDA](/docs/开发者知识文档/30_CNCF/03_faas/KEDA.md)
         * [📝Knative](/docs/开发者知识文档/30_CNCF/03_faas/Knative.md)
         * [📝Kubeless](/docs/开发者知识文档/30_CNCF/03_faas/Kubeless.md)
+        * [📝OpenFaas](/docs/开发者知识文档/30_CNCF/03_faas/OpenFaas.md)
+        * [📝OpenFunction](/docs/开发者知识文档/30_CNCF/03_faas/OpenFunction.md)
         * [📝fission](/docs/开发者知识文档/30_CNCF/03_faas/fission.md)
-        * [📝openfaas](/docs/开发者知识文档/30_CNCF/03_faas/openfaas.md)
         * [📝openwhisk](/docs/开发者知识文档/30_CNCF/03_faas/openwhisk.md)
     * [📝CNCF概览](/docs/开发者知识文档/30_CNCF/CNCF概览.md)
 * 🗂阿里云
