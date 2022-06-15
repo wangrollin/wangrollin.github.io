@@ -892,8 +892,8 @@
                         * [📝Binlog_Kafka](/docs/开发者知识文档/11_云平台/02_产品/05_数据平台/03_开发套件/01_数据研发/00_数据集成/Binlog_Kafka.md)
                         * [📝DataX](/docs/开发者知识文档/11_云平台/02_产品/05_数据平台/03_开发套件/01_数据研发/00_数据集成/DataX.md)
                         * [📝Flume](/docs/开发者知识文档/11_云平台/02_产品/05_数据平台/03_开发套件/01_数据研发/00_数据集成/Flume.md)
+                        * [📝Gobblin](/docs/开发者知识文档/11_云平台/02_产品/05_数据平台/03_开发套件/01_数据研发/00_数据集成/Gobblin.md)
                         * [📝Sqoop](/docs/开发者知识文档/11_云平台/02_产品/05_数据平台/03_开发套件/01_数据研发/00_数据集成/Sqoop.md)
-                        * [📝holder](/docs/开发者知识文档/11_云平台/02_产品/05_数据平台/03_开发套件/01_数据研发/00_数据集成/holder.md)
                     * 🗂调度系统
                         * 🗂开源实现
                             * [📝Airflow](/docs/开发者知识文档/11_云平台/02_产品/05_数据平台/03_开发套件/01_数据研发/01_调度系统/开源实现/Airflow.md)
@@ -1374,7 +1374,8 @@
             * 🗂集群管理器
                 * [📝mesos](/docs/开发者知识文档/11_云平台/02_产品/09_中间件/集群管理器/mesos.md)
         * 🗂开发与运维
-            * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/10_开发与运维/placeholder.md)
+            * 🗂oncall平台
+                * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/10_开发与运维/oncall平台/placeholder.md)
     * 🗂解决方案
         * [📝placeholder](/docs/开发者知识文档/11_云平台/03_解决方案/placeholder.md)
 * 🗂GNU-Linux
@@ -1793,6 +1794,8 @@
         * [📝OpenFunction](/docs/开发者知识文档/30_CNCF/03_faas/OpenFunction.md)
         * [📝fission](/docs/开发者知识文档/30_CNCF/03_faas/fission.md)
         * [📝openwhisk](/docs/开发者知识文档/30_CNCF/03_faas/openwhisk.md)
+        * 🗂前端低代码
+            * [📝mall-cook](/docs/开发者知识文档/30_CNCF/03_faas/前端低代码/mall-cook.md)
     * [📝CNCF概览](/docs/开发者知识文档/30_CNCF/CNCF概览.md)
 * 🗂阿里云
     * 🗂管理服务
