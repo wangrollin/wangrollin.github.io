@@ -1,4 +1,7 @@
 
+brew install helm
+brew install helmfile
+
 ### 安装Helm
 
 ```bash

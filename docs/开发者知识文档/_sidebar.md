@@ -637,7 +637,7 @@
                     * [📝Casbin](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Casbin.md)
                     * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
                     * [📝OAuth2](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/OAuth2.md)
-                    * [📝OpenID_Connect](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/OpenID_Connect.md)
+                    * [📝OpenID-Connect_OIDC](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/OpenID-Connect_OIDC.md)
                     * [📝Security-Assertion-Markup-Language-Tokens_SAML](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Security-Assertion-Markup-Language-Tokens_SAML.md)
                     * [📝Simple-Web-Tokens_SWT](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Simple-Web-Tokens_SWT.md)
                     * [📝shrio](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/shrio.md)
@@ -709,6 +709,7 @@
                         * [📝Jacoco](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/测试框架/代码覆盖率/Jacoco.md)
                     * 🗂单元测试框架
                         * [📝EasyMock](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/测试框架/单元测试框架/EasyMock.md)
+                        * [📝JMockit](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/测试框架/单元测试框架/JMockit.md)
                         * [📝JUnit5](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/测试框架/单元测试框架/JUnit5.md)
                         * [📝Lynda_Spring_Test-Driven_Development_with_JUnit](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/测试框架/单元测试框架/Lynda_Spring_Test-Driven_Development_with_JUnit.md)
                         * [📝Mockito](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/测试框架/单元测试框架/Mockito.md)

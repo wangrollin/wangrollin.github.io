@@ -2,6 +2,7 @@
 
 微博，QQ，微信，github
 
+OIDC 认证，oauth 授权
 
 ## 博客
 
