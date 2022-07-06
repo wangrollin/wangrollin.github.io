@@ -1526,22 +1526,29 @@
     * 🗂其他发行版
         * [📝linux发行版关系图](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/00_linux发行版关系图.md)
         * [📝CoreOS](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/CoreOS.md)
-        * [📝Fedora](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/Fedora.md)
-        * [📝Gentoo](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/Gentoo.md)
-        * [📝Rocky_Linux](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/Rocky_Linux.md)
-        * [📝alpine](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/alpine.md)
-        * [📝arch](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/arch.md)
-        * [📝centos](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/centos.md)
-        * [📝debian](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/debian.md)
-        * [📝deepin](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/deepin.md)
         * [📝elementary](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/elementary.md)
-        * [📝kali](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/kali.md)
-        * [📝manjaro](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/manjaro.md)
-        * [📝openSUSE](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/openSUSE.md)
-        * [📝openWrt](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/openWrt.md)
-        * [📝redhat](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/redhat.md)
+        * 🗂nas类
+            * [📝TrueNas](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/nas类/TrueNas.md)
+        * 🗂server
+            * [📝Rocky_Linux](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/server/Rocky_Linux.md)
+            * [📝centos](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/server/centos.md)
+            * [📝openSUSE](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/server/openSUSE.md)
+            * [📝redhat](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/server/redhat.md)
         * [📝slackware](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/slackware.md)
         * [📝tails](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/tails.md)
+        * 🗂基础镜像
+            * [📝alpine](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/基础镜像/alpine.md)
+        * 🗂安全类
+            * [📝kali](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/安全类/kali.md)
+        * 🗂桌面
+            * [📝Fedora](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/桌面/Fedora.md)
+            * [📝Gentoo](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/桌面/Gentoo.md)
+            * [📝arch](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/桌面/arch.md)
+            * [📝debian](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/桌面/debian.md)
+            * [📝deepin](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/桌面/deepin.md)
+            * [📝manjaro](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/桌面/manjaro.md)
+        * 🗂路由器
+            * [📝openWrt](/docs/开发者知识文档/20_GNU-Linux/06_其他发行版/路由器/openWrt.md)
     * 🗂包管理工具
         * [📝Portage](/docs/开发者知识文档/20_GNU-Linux/07_包管理工具/Portage.md)
         * [📝apt-get](/docs/开发者知识文档/20_GNU-Linux/07_包管理工具/apt-get.md)
