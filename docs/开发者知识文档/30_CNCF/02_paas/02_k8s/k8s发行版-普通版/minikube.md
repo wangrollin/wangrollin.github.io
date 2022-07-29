@@ -5,7 +5,6 @@
 - [官网](https://minikube.sigs.k8s.io/docs/)
 - [github](https://github.com/kubernetes/minikube)
 
-
 ## 常用命令
 
 ```bash
@@ -18,3 +17,7 @@ minikube start --kubernetes-version=1.17.2 --vm-driver=virtualbox --image-reposi
 # 部署busybox
 minikube kubectl -- create deployment busybox-1 --image=busybox
 ```
+
+## tips
+
+电脑休眠后minikube回卡住，直接重启 docker desktop
