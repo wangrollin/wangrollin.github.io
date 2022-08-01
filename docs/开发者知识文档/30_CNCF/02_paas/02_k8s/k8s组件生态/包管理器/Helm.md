@@ -2,14 +2,50 @@
 brew install helm
 brew install helmfile
 
-### 安装Helm
+
+## 网页
+
+- [官网](https://helm.sh/)
+- [官网 doc](https://helm.sh/docs/)
+- [github](https://github.com/helm/helm)
+
+
+## helm 源
+
+### bitnami.com
 
 ```bash
+$ helm repo add bitnami https://charts.bitnami.com/bitnami
+$ helm search repo bitnami
+$ helm install my-release bitnami/<chart>
+```
+
+## 常用命令
+
+```bash
+# 安装 Helm
+brew install helm
+or
 $ curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_helm.sh
-
 $ chmod 700 get_helm.sh
-
 $ ./get_helm.sh
+
+# 更新/查询 charts
+helm repo update
+helm show chart bitnami/mysql
+helm show all bitnami/mysql
+
+# 安装/卸载 charts
+helm list
+helm ls
+helm install bitnami/mysql --generate-name
+helm status mysql-1612624192
+helm uninstall mysql-1612624192
+helm rollback
+
+# 帮助信息
+helm help
+helm get -h
 ```
 
 ## Helm手写Chart

@@ -1750,6 +1750,7 @@
             * 🗂k8s组件生态
                 * 🗂包管理器
                     * [📝Helm](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/Helm.md)
+                    * [📝artifacthub](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/artifacthub.md)
                 * 🗂存储
                     * [📝JuiceFS](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/存储/JuiceFS.md)
                     * [📝longhorn](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/存储/longhorn.md)
