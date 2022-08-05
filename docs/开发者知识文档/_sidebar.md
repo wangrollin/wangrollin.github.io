@@ -983,7 +983,6 @@
                         * [📝pip3](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/实用工具/包管理/00_pip3.md)
                         * [📝Conda](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/实用工具/包管理/Conda.md)
                         * [📝PyPI](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/实用工具/包管理/PyPI.md)
-                        * [📝requirement.txt](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/实用工具/包管理/requirement.txt.md)
                     * 🗂虚拟环境管理
                         * [📝venv](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/实用工具/虚拟环境管理/00_venv.md)
                         * [📝Miniconda](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/实用工具/虚拟环境管理/Miniconda.md)
@@ -1060,7 +1059,7 @@
                             * 🗂认证授权
                                 * [📝Flask-BasicAuth](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/认证授权/Flask-BasicAuth.md)
                                 * [📝Flask-Login](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/认证授权/Flask-Login.md)
-                                * [📝Flask-Security](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/认证授权/Flask-Security.md)
+                                * [📝Flask-Security-Too](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/认证授权/Flask-Security-Too.md)
                     * 🗂微服务
                         * [📝Euler微服务框架](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/微服务/Euler微服务框架.md)
             * 🗂其他
@@ -1333,6 +1332,7 @@
                         * [📝WildFly_JBoss](/docs/开发者知识文档/11_云平台/02_产品/09_中间件/网关/Java应用服务器/全功能JakartaEE标准服务器/WildFly_JBoss.md)
                 * 🗂Python应用服务器
                     * [📝Gunicorn](/docs/开发者知识文档/11_云平台/02_产品/09_中间件/网关/Python应用服务器/Gunicorn.md)
+                    * [📝werkzeug](/docs/开发者知识文档/11_云平台/02_产品/09_中间件/网关/Python应用服务器/werkzeug.md)
                 * 🗂web服务器
                     * [📝nginx](/docs/开发者知识文档/11_云平台/02_产品/09_中间件/网关/web服务器/nginx.md)
             * 🗂观测报警平台
@@ -1750,6 +1750,7 @@
             * 🗂k8s组件生态
                 * 🗂包管理器
                     * [📝Helm](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/Helm.md)
+                    * [📝Helmfile](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/Helmfile.md)
                     * [📝artifacthub](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/artifacthub.md)
                 * 🗂存储
                     * [📝JuiceFS](/docs/开发者知识文档/30_CNCF/02_paas/02_k8s/k8s组件生态/存储/JuiceFS.md)

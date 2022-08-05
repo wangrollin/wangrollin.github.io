@@ -2,7 +2,12 @@
 ## 网站
 
 - [doc](https://docs.python.org/)
+  - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+  - [The Python Standard Library](https://docs.python.org/3/library/index.html)
+  - [The Python Language Reference](https://docs.python.org/3/reference/index.html)
+  - [Python HOWTOs](https://docs.python.org/3/howto/index.html)
 - [官网](https://www.python.org/)
+- [The import system - doc](https://docs.python.org/3/reference/import.html)
 
 
 ## tips
