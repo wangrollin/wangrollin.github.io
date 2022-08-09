@@ -9,14 +9,27 @@
 - [PyPI](https://pypi.org/)
 
 
+## tips
+
+### 包安装路径
+```bash
+python -m site
+python -m site --user-site
+python show [package-name]
+```
+
+### 包依赖树
+```bash
+pip isntall pipdeptree
+pipdeptree -fl
+```
+
 ## pip config
 
 ```bash
 pip config list
 pip config set global.index-url https://pypi.org/simple
 pip config unset global.index-url
-
-
 ```
 
 ## 常用命令
@@ -25,6 +38,7 @@ pip config unset global.index-url
 pip install -r requirements.txt
 pip freeze > requirements.txt
 pip3 freeze > requirements.txt
+pip freeze | xargs pip uninstall -y
 ```
 
 | 类别                 | conda                  | pip                            |
