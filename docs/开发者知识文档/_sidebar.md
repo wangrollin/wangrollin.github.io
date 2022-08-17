@@ -186,23 +186,37 @@
                             * [📝微信小程序wux_weapp](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue变种框架/微信小程序wux_weapp.md)
                         * 🗂vue官方生态
                             * [📝Vuelidate](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/Vuelidate.md)
-                            * [📝vite](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vite.md)
-                            * [📝vue-cli](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vue-cli.md)
                             * [📝vuePress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/vuePress.md)
                         * 🗂基于vue的库和框架
+                            * 🗂IDE_Support
+                                * [📝Volar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/IDE_Support/Volar.md)
                             * 🗂工具库
                                 * [📝VueUse](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/工具库/VueUse.md)
-                            * 🗂服务端渲染应用框架
-                                * [📝Nuxt](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/服务端渲染应用框架/Nuxt.md)
+                            * 🗂服务端渲染应用框架_SSR
+                                * [📝Nuxt](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Nuxt.md)
+                                * [📝Quasar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Quasar.md)
+                                * [📝Vite_SSR](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Vite_SSR.md)
+                            * 🗂测试
+                                * 🗂单元测试
+                                    * [📝Vitest](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/测试/单元测试/Vitest.md)
+                                * 🗂集成测试
+                                    * [📝Cypress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/测试/集成测试/Cypress.md)
+                            * 🗂浏览器_Support
+                                * [📝Vue_devtools](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/浏览器_Support/Vue_devtools.md)
                             * 🗂状态管理
+                                * [📝Pinia](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/状态管理/Pinia.md)
                                 * [📝Vuex4](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/状态管理/Vuex4.md)
-                                * [📝pinia](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/状态管理/pinia.md)
                             * 🗂组件库
                                 * [📝Vuetify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/Vuetify.md)
                                 * [📝element](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/element.md)
                                 * [📝element_plus](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/element_plus.md)
                                 * [📝naiveui](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/naiveui.md)
                                 * [📝移动端vant](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/移动端vant.md)
+                            * 🗂脚手架
+                                * [📝Vite](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/脚手架/Vite.md)
+                                * [📝Vue-CLI](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/脚手架/Vue-CLI.md)
+                            * 🗂语法检查
+                                * [📝eslint-plugin-vue](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/语法检查/eslint-plugin-vue.md)
                             * 🗂路由
                                 * [📝VueRouter](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/路由/VueRouter.md)
                 * 🗂测试框架
@@ -1989,10 +2003,13 @@
     * 🗂AI编程
         * [📝copilot](/docs/开发者知识文档/99_其他/AI编程/copilot.md)
     * 🗂Online_IDE
-        * [📝code_server](/docs/开发者知识文档/99_其他/Online_IDE/code_server.md)
-        * [📝codepen](/docs/开发者知识文档/99_其他/Online_IDE/codepen.md)
-        * [📝github_codespace](/docs/开发者知识文档/99_其他/Online_IDE/github_codespace.md)
-        * [📝stackBlitz](/docs/开发者知识文档/99_其他/Online_IDE/stackBlitz.md)
+        * 🗂saas
+            * [📝codepen](/docs/开发者知识文档/99_其他/Online_IDE/saas/codepen.md)
+            * [📝github_codespace](/docs/开发者知识文档/99_其他/Online_IDE/saas/github_codespace.md)
+            * [📝stackBlitz](/docs/开发者知识文档/99_其他/Online_IDE/saas/stackBlitz.md)
+            * [📝vscode.dev](/docs/开发者知识文档/99_其他/Online_IDE/saas/vscode.dev.md)
+        * 🗂self-hosted
+            * [📝code_server](/docs/开发者知识文档/99_其他/Online_IDE/self-hosted/code_server.md)
     * 🗂SSL证书
         * [📝LetsEncrypt](/docs/开发者知识文档/99_其他/SSL证书/LetsEncrypt.md)
         * [📝echosite](/docs/开发者知识文档/99_其他/SSL证书/echosite.md)
