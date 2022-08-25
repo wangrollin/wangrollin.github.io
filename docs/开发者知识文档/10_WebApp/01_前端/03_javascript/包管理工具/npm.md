@@ -4,6 +4,9 @@
 npm包：可能是模块(npm install)，也可能是可执行文件（使用npm install -g）
 
 
+- npm-check-updates
+
+
 ## 常用命令
 
 ```bash
@@ -17,10 +20,12 @@ npm install -g npm@6.14.11
 npm init # 会自动去node_modules目录下，把相关模块自动加进来
 npm init --yes
 
+npm install
 npm install -g xxx
 npm install xxx
 npm install -s xxx
 npm install --save-dev xxx # 只在开发阶段使用，如：测试框架
+
 ```
 
 
