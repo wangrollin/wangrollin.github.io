@@ -128,9 +128,12 @@
                     * [📝axios](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/Http客户端/axios.md)
                 * 🗂WebTerminal
                     * [📝Xterm.js](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/WebTerminal/Xterm.js.md)
-                * 🗂markdown
-                    * [📝Marked.js](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/markdown/Marked.js.md)
-                    * [📝markdown-it](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/markdown/markdown-it.md)
+                * 🗂markdown-editor
+                    * [📝CodeMirror](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/markdown-editor/CodeMirror.md)
+                    * [📝Marked.js](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/markdown-editor/Marked.js.md)
+                    * [📝highlight.jd](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/markdown-editor/highlight.jd.md)
+                    * [📝markdown-it](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/markdown-editor/markdown-it.md)
+                    * [📝prism](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/markdown-editor/prism.md)
                 * [📝mustache_express](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/mustache_express.md)
                 * 🗂webSocket
                     * [📝socket.io](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/webSocket/socket.io.md)
@@ -188,10 +191,11 @@
                             * [📝微信小程序mpx](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue变种框架/微信小程序mpx.md)
                             * [📝微信小程序wux_weapp](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue变种框架/微信小程序wux_weapp.md)
                         * 🗂vue官方生态
+                            * 🗂IDE_Support
+                                * 🗂vscode
+                                    * [📝Volar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/IDE_Support/vscode/Volar.md)
                             * [📝Vuelidate](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/Vuelidate.md)
                         * 🗂基于vue的库和框架
-                            * 🗂IDE_Support
-                                * [📝Volar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/IDE_Support/Volar.md)
                             * 🗂markdown
                                 * [📝v-md-editor](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/markdown/v-md-editor.md)
                             * 🗂博客
