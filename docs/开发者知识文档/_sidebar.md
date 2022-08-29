@@ -1092,6 +1092,8 @@
                                 * [📝Flask-BasicAuth](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/认证授权/Flask-BasicAuth.md)
                                 * [📝Flask-Login](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/认证授权/Flask-Login.md)
                                 * [📝Flask-Security-Too](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/认证授权/Flask-Security-Too.md)
+                            * 🗂跨域
+                                * [📝Flask-Cors](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/Web框架/Flask/跨域/Flask-Cors.md)
                     * 🗂微服务
                         * [📝Euler微服务框架](/docs/开发者知识文档/11_云平台/02_产品/06_AI平台/00_Python/框架/微服务/Euler微服务框架.md)
             * 🗂其他

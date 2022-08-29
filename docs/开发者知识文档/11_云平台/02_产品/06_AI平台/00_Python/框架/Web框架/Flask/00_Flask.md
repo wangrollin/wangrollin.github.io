@@ -30,5 +30,12 @@ return render_template('dist/index.html')
 flask my_cmd
 ```
 
-### CROS
+### CORS
 
+flask-cors
+
+### 热加载模式
+
+```python
+app.run(debug=True)
+```

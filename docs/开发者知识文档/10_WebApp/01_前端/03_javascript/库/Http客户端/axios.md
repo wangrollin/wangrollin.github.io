@@ -15,3 +15,17 @@ https://web.dev/cross-origin-resource-sharing/
 https://segmentfault.com/q/1010000007665348
 
 https://blog.csdn.net/LJJ1338/article/details/81812035
+
+## tips
+
+### 强制使用 cookie
+
+```js
+// 一次
+axios.post(API_SERVER + '/login', { email, password }, { withCredentials: true })
+
+// 全局
+const axios_instance = axios.create({
+    withCredentials: true
+})
+```
