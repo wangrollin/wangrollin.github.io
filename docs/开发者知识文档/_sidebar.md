@@ -152,11 +152,15 @@
                 * 🗂邮编
                     * [📝ziptastic](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/库/邮编/ziptastic.md)
             * 🗂打包工具
-                * [📝Parcel](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/Parcel.md)
-                * [📝rollup](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/rollup.md)
                 * [📝snowpack](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/snowpack.md)
-                * [📝webpack](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/webpack.md)
                 * [📝yoeman](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/yoeman.md)
+                * 🗂专注于应用
+                    * [📝CRA](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/专注于应用/CRA.md)
+                    * [📝Parcel](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/专注于应用/Parcel.md)
+                * 🗂专注于打包
+                    * [📝browserify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/专注于打包/browserify.md)
+                    * [📝rollup](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/专注于打包/rollup.md)
+                    * [📝webpack](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/打包工具/专注于打包/webpack.md)
             * 🗂框架
                 * [📝Gulp.js](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/Gulp.js.md)
                 * [📝ajax](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/ajax.md)
@@ -165,72 +169,74 @@
                 * [📝jquery](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/jquery.md)
                 * 🗂后台看板框架
                     * [📝metronic](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/后台看板框架/metronic.md)
-                * 🗂应用框架
+                * 🗂开发范式框架
+                    * [📝Solid](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/Solid.md)
+                    * [📝Svelte](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/Svelte.md)
                     * 🗂angular相关
-                        * [📝Angular_CLI](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/angular相关/Angular_CLI.md)
-                        * [📝Augury](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/angular相关/Augury.md)
-                        * [📝angular](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/angular相关/angular.md)
+                        * [📝Angular_CLI](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/angular相关/Angular_CLI.md)
+                        * [📝Augury](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/angular相关/Augury.md)
+                        * [📝angular](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/angular相关/angular.md)
                     * 🗂react相关
-                        * [📝React_router](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/react相关/React_router.md)
-                        * [📝Redux](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/react相关/Redux.md)
-                        * [📝react](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/react相关/react.md)
-                        * [📝react_toastify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/react相关/react_toastify.md)
-                        * [📝redux_reselect](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/react相关/redux_reselect.md)
-                        * [📝redux_saga](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/react相关/redux_saga.md)
-                        * [📝redux_thunk](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/react相关/redux_thunk.md)
+                        * [📝React_router](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/react相关/React_router.md)
+                        * [📝Redux](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/react相关/Redux.md)
+                        * [📝react](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/react相关/react.md)
+                        * [📝react_toastify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/react相关/react_toastify.md)
+                        * [📝redux_reselect](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/react相关/redux_reselect.md)
+                        * [📝redux_saga](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/react相关/redux_saga.md)
+                        * [📝redux_thunk](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/react相关/redux_thunk.md)
                     * 🗂vue相关
                         * 🗂Lynda课程
-                            * [📝Lynda_Learning_Vue.js](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/Lynda课程/Lynda_Learning_Vue.js.md)
-                            * [📝Lynda_Vue.js_Essential_Training](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/Lynda课程/Lynda_Vue.js_Essential_Training.md)
+                            * [📝Lynda_Learning_Vue.js](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/Lynda课程/Lynda_Learning_Vue.js.md)
+                            * [📝Lynda_Vue.js_Essential_Training](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/Lynda课程/Lynda_Vue.js_Essential_Training.md)
                         * 🗂vue_core
-                            * [📝vue3-composition-api](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue_core/vue3-composition-api.md)
-                            * [📝vue3-reactivity](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue_core/vue3-reactivity.md)
-                            * [📝vuejs](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue_core/vuejs.md)
+                            * [📝vue3-composition-api](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue_core/vue3-composition-api.md)
+                            * [📝vue3-reactivity](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue_core/vue3-reactivity.md)
+                            * [📝vuejs](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue_core/vuejs.md)
                         * 🗂vue变种框架
-                            * [📝微信小程序Vant_Weapp](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue变种框架/微信小程序Vant_Weapp.md)
-                            * [📝微信小程序mpx](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue变种框架/微信小程序mpx.md)
-                            * [📝微信小程序wux_weapp](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue变种框架/微信小程序wux_weapp.md)
+                            * [📝微信小程序Vant_Weapp](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue变种框架/微信小程序Vant_Weapp.md)
+                            * [📝微信小程序mpx](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue变种框架/微信小程序mpx.md)
+                            * [📝微信小程序wux_weapp](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue变种框架/微信小程序wux_weapp.md)
                         * 🗂vue官方生态
                             * 🗂IDE_Support
                                 * 🗂vscode
-                                    * [📝Volar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/IDE_Support/vscode/Volar.md)
-                            * [📝Vuelidate](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/vue官方生态/Vuelidate.md)
+                                    * [📝Volar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue官方生态/IDE_Support/vscode/Volar.md)
+                            * [📝Vuelidate](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue官方生态/Vuelidate.md)
                         * 🗂基于vue的库和框架
                             * 🗂markdown
-                                * [📝v-md-editor](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/markdown/v-md-editor.md)
+                                * [📝v-md-editor](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/markdown/v-md-editor.md)
                             * 🗂博客
-                                * [📝docsify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/博客/docsify.md)
-                                * [📝vitepress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/博客/vitepress.md)
-                                * [📝vuepress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/博客/vuepress.md)
+                                * [📝docsify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/博客/docsify.md)
+                                * [📝vitepress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/博客/vitepress.md)
+                                * [📝vuepress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/博客/vuepress.md)
                             * 🗂工具库
-                                * [📝VueUse](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/工具库/VueUse.md)
+                                * [📝VueUse](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/工具库/VueUse.md)
                             * 🗂服务端渲染应用框架_SSR
-                                * [📝Nuxt](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Nuxt.md)
-                                * [📝Quasar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Quasar.md)
-                                * [📝Vite_SSR](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Vite_SSR.md)
+                                * [📝Nuxt](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Nuxt.md)
+                                * [📝Quasar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Quasar.md)
+                                * [📝Vite_SSR](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/服务端渲染应用框架_SSR/Vite_SSR.md)
                             * 🗂测试
                                 * 🗂单元测试
-                                    * [📝Vitest](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/测试/单元测试/Vitest.md)
+                                    * [📝Vitest](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/测试/单元测试/Vitest.md)
                                 * 🗂集成测试
-                                    * [📝Cypress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/测试/集成测试/Cypress.md)
+                                    * [📝Cypress](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/测试/集成测试/Cypress.md)
                             * 🗂浏览器_Support
-                                * [📝Vue_devtools](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/浏览器_Support/Vue_devtools.md)
+                                * [📝Vue_devtools](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/浏览器_Support/Vue_devtools.md)
                             * 🗂状态管理
-                                * [📝Pinia](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/状态管理/Pinia.md)
-                                * [📝Vuex4](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/状态管理/Vuex4.md)
+                                * [📝Pinia](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/状态管理/Pinia.md)
+                                * [📝Vuex4](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/状态管理/Vuex4.md)
                             * 🗂组件库
-                                * [📝Vuetify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/Vuetify.md)
-                                * [📝element](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/element.md)
-                                * [📝element_plus](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/element_plus.md)
-                                * [📝naiveui](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/naiveui.md)
-                                * [📝移动端vant](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/组件库/移动端vant.md)
-                            * 🗂脚手架
-                                * [📝Vite](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/脚手架/Vite.md)
-                                * [📝Vue-CLI](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/脚手架/Vue-CLI.md)
+                                * [📝Vuetify](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/组件库/Vuetify.md)
+                                * [📝element](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/组件库/element.md)
+                                * [📝element_plus](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/组件库/element_plus.md)
+                                * [📝naiveui](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/组件库/naiveui.md)
+                                * [📝移动端vant](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/组件库/移动端vant.md)
                             * 🗂语法检查
-                                * [📝eslint-plugin-vue](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/语法检查/eslint-plugin-vue.md)
+                                * [📝eslint-plugin-vue](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/语法检查/eslint-plugin-vue.md)
                             * 🗂路由
-                                * [📝VueRouter](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/应用框架/vue相关/基于vue的库和框架/路由/VueRouter.md)
+                                * [📝VueRouter](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/路由/VueRouter.md)
+                        * 🗂工具链
+                            * [📝Vite](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/工具链/Vite.md)
+                            * [📝Vue-CLI](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/工具链/Vue-CLI.md)
                 * 🗂测试框架
                     * [📝Jasmine](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/测试框架/Jasmine.md)
                     * [📝Mocha](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/测试框架/Mocha.md)
@@ -2018,6 +2024,8 @@
         * [📝分库分表](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/08_分库分表.md)
         * [📝秒杀场景](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/09_秒杀场景.md)
         * [📝微服务架构设计](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/10_微服务架构设计.md)
+    * 🗂安全
+        * [📝零知识](/docs/开发者知识文档/81_系统设计-语言无关/安全/零知识.md)
     * [📝系统设计](/docs/开发者知识文档/81_系统设计-语言无关/系统设计.md)
     * 🗂缓存理论
         * [📝缓存常见问题](/docs/开发者知识文档/81_系统设计-语言无关/缓存理论/缓存常见问题.md)
