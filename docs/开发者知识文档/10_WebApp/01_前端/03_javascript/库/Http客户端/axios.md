@@ -16,6 +16,18 @@ https://segmentfault.com/q/1010000007665348
 
 https://blog.csdn.net/LJJ1338/article/details/81812035
 
+
+## 网页
+
+- [官网](https://axios-http.com/)
+- [官网 doc](https://axios-http.com/docs/intro)
+- [github](https://github.com/axios/axios)
+
+## axios interceptors
+
+可以在请求的时候执行某些操作
+
+
 ## tips
 
 ### 强制使用 cookie

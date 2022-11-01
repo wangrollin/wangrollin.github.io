@@ -372,9 +372,10 @@
             * [📝MultiPageApp_MPA](/docs/开发者知识文档/10_WebApp/01_前端/其他/MultiPageApp_MPA.md)
             * [📝SinglePageApp_SPA](/docs/开发者知识文档/10_WebApp/01_前端/其他/SinglePageApp_SPA.md)
             * [📝用户页面操作回放](/docs/开发者知识文档/10_WebApp/01_前端/其他/用户页面操作回放.md)
-        * 🗂图形学
-            * [📝WebGL](/docs/开发者知识文档/10_WebApp/01_前端/图形学/WebGL.md)
-            * 🗂游戏引擎
+        * 🗂图形
+            * [📝Canvas](/docs/开发者知识文档/10_WebApp/01_前端/图形/Canvas.md)
+            * [📝SVG](/docs/开发者知识文档/10_WebApp/01_前端/图形/SVG.md)
+            * [📝WebGL](/docs/开发者知识文档/10_WebApp/01_前端/图形/WebGL.md)
         * 🗂常见问题
             * [📝网站小图标](/docs/开发者知识文档/10_WebApp/01_前端/常见问题/网站小图标.md)
     * 🗂后端
