@@ -202,6 +202,8 @@
                                     * [📝Volar](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue官方生态/IDE_Support/vscode/Volar.md)
                             * [📝Vuelidate](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/vue官方生态/Vuelidate.md)
                         * 🗂基于vue的库和框架
+                            * 🗂i18n
+                                * [📝vue-i18n](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/i18n/vue-i18n.md)
                             * 🗂markdown
                                 * [📝v-md-editor](/docs/开发者知识文档/10_WebApp/01_前端/03_javascript/框架/开发范式框架/vue相关/基于vue的库和框架/markdown/v-md-editor.md)
                             * 🗂博客
