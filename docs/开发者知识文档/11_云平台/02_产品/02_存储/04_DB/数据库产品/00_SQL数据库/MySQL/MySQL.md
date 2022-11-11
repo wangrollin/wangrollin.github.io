@@ -127,7 +127,23 @@ https://cloud.tencent.com/developer/news/201704
 - 中继日志`relaylog`
 - 重做回滚日志`redolog、undolog`
 - 慢查询日志`slowlog`，用来记录在MySQL中响应时间超过阀值的语句
+- `~/.mysql_history` 执行过的语句都会记录在这里
+- `general log`
+```
+mysql console
 
+表格方式
+SET GLOBAL log_output = 'TABLE';
+SET GLOBAL general_log = 'ON';
+select * from mysql.general_log
+
+日志文件方式
+SET GLOBAL log_output = "FILE";
+touch logfile.log
+chmod 777 logfile.log
+SET GLOBAL general_log_file = "/path/to/your/logfile.log";
+SET GLOBAL general_log = 'ON';
+```
 
 ## tips
 
