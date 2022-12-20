@@ -7,6 +7,17 @@ kubectl patch deployment your_deployment -p "{\"spec\": {\"template\": {\"metada
 ```
 
 
+## 更新 deploy镜像
+
+```bash
+kubectl set image deployment/<<deployment-name>> -n=<<namespace>> <<container_name>>=<<your_dockerhub_username>>/<<image_name you want to set now>>:<<tag_of_the_image_you_want>>
+
+kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1
+```
+
+## 更新 configmap
+
+kubectl edit configmap <name of the configmap>
 
 ## 添加rancher k8s到本地的k8s context里
 
