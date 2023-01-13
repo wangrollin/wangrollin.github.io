@@ -889,6 +889,8 @@
                         * 🗂工具镜像
                             * [📝BusyBox](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/工具镜像/BusyBox.md)
                         * 🗂应用部署测试工具
+                            * [📝KubeVela](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/应用部署测试工具/KubeVela.md)
+                            * [📝OAM](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/应用部署测试工具/OAM.md)
                             * [📝Tilt](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/应用部署测试工具/Tilt.md)
                             * [📝kustomize](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/应用部署测试工具/kustomize.md)
                             * [📝skaffold](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/应用部署测试工具/skaffold.md)
