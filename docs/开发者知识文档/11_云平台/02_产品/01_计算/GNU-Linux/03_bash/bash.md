@@ -16,3 +16,11 @@ echo $?
 ```bash
 echo -e "\n"
 ```
+
+### 后台运行
+
+- [linux后台执行命令：&和nohup](https://blog.csdn.net/liuyanfeier/article/details/62422742)
+
+```bash
+nohup [command] >> xxx.log 2>&1 &
+```

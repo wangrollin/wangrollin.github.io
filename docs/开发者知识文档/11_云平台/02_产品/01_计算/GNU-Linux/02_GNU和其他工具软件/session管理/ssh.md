@@ -1,12 +1,17 @@
 
-```bash
-ssh-keygen
-```
-
 - [doc: ssh_config — OpenSSH client configuration file](http://man.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/ssh_config.5?query=ssh_config&sec=5)
 
 
+## 配置 ssh config
+
 ```bash
+# 生成 client 机器的密钥对
+ssh-keygen
+
+# 把公钥复制到 server 上
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@[server ip]
+
+# 使用私钥配置 ssh config
 cd ~/.ssh
 vim ~/.ssh/config
 
