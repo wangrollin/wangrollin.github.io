@@ -527,6 +527,8 @@
                     * [📝JFreeChart](/docs/开发者知识文档/10_WebApp/02_后端/java/04_工具库/画图/JFreeChart.md)
                 * 🗂调用Python
                     * [📝java调python](/docs/开发者知识文档/10_WebApp/02_后端/java/04_工具库/调用Python/java调python.md)
+                * 🗂配置Config
+                    * [📝Typesafe_Config](/docs/开发者知识文档/10_WebApp/02_后端/java/04_工具库/配置Config/Typesafe_Config.md)
             * 🗂框架
                 * 🗂spring全家桶
                     * 🗂Spring主要模块
@@ -1697,6 +1699,8 @@
                     * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/基础/Lynda_Python_Essential_Training.md)
                     * [📝Python](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/基础/Python.md)
                     * 🗂标准库
+                        * 🗂XML解析
+                            * [📝ElementTree](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/基础/标准库/XML解析/ElementTree.md)
                         * [📝异步编程](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/基础/标准库/异步编程.md)
                         * 🗂日志
                             * [📝logging](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/基础/标准库/日志/logging.md)

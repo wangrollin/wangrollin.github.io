@@ -69,6 +69,10 @@ maven 3.6.1版本有bug，尽量不要使用
 
 ## Q&A tips
 
+> 让plugin 继承
+
+<inherited>true</inherited>
+
 > MAVEN: was cached in the local repository, resolution will not be reattempted until the update interval of nexus-snapshot has elapsed or updates are forced
 
 参数加上 -U
