@@ -64,3 +64,20 @@ sudo systemctl restart nginx
 ## proxy
 
 转发配置 proxy_redirect 可以修改 response header location，这样 302 请求的才能正常，而不是返回内部域名
+
+## location 匹配顺序
+
+= (exactly)
+location = /path
+
+^~ (forward match)
+location ^~ /path
+
+~ (regular expression case sensitive)
+location ~ /path/
+
+~* (regular expression case insensitive)
+location ~* .(jpg|png|bmp)
+
+/
+location /path

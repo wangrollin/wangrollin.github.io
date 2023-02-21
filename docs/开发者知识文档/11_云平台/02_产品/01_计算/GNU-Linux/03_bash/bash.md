@@ -3,6 +3,14 @@
 https://www.cnblogs.com/pcat/p/5467188.html
 
 
+## build-in Commands
+cd echo kill
+不会有子线程
+
+## External Commands
+开子线程执行
+
+
 ## 命令汇总
 
 ### 获取上一条命令的 exit code
