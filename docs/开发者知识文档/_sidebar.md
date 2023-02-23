@@ -1023,6 +1023,7 @@
                         * [📝tar](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/tar.md)
                     * 🗂字符串处理
                         * [📝awk](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/awk.md)
+                        * [📝cut](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/cut.md)
                         * [📝sed](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/sed.md)
                         * [📝xargs](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/xargs.md)
                     * 🗂性能监控
@@ -1898,6 +1899,8 @@
                 * 🗂NLP
                     * [📝chatGPT](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/NLP/chatGPT.md)
                     * [📝placehodler](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/NLP/placehodler.md)
+                * 🗂代码辅助
+                    * [📝copilot](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/代码辅助/copilot.md)
                 * 🗂推荐
                     * [📝placehodler](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/推荐/placehodler.md)
                 * 🗂自动驾驶
@@ -2079,8 +2082,6 @@
             * [📝cve-details](/docs/开发者知识文档/99_其他/01_工具网站/漏洞列表/cve-details.md)
         * 🗂脑图
             * [📝processOn](/docs/开发者知识文档/99_其他/01_工具网站/脑图/processOn.md)
-    * 🗂AI编程
-        * [📝copilot](/docs/开发者知识文档/99_其他/AI编程/copilot.md)
     * 🗂Online_IDE
         * 🗂saas
             * [📝Github_Codespace](/docs/开发者知识文档/99_其他/Online_IDE/saas/Github_Codespace.md)

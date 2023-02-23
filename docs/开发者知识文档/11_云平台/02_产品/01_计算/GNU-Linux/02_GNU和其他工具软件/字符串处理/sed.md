@@ -6,3 +6,5 @@ sed -i "s/aaa/bbb/g" `grep aaa -rl /modules`
 ```
 
 sed -i "s/leapkeeper_url_prefix/wrlwrlwrl/g" `grep leapkeeper_url_prefix -rl templates/*.html`
+
+echo '1,2,3' | sed 's/,/\n/g'
