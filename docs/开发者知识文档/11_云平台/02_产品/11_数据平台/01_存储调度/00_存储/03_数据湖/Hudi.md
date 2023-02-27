@@ -1,6 +1,7 @@
 
 Apache Hudi（Hadoop Upserts Deletes and Incrementals）由Uber开源
 
+hudi 表
 
 ## 网页
 

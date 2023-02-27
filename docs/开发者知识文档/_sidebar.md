@@ -952,6 +952,12 @@
             * [📝CNCF概览](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/CNCF概览.md)
         * 🗂计算
             * 🗂GNU-Linux
+                * 🗂bash
+                    * [📝Lynda_Learning_Bash_Scripting](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_bash/Lynda_Learning_Bash_Scripting.md)
+                    * [📝bash](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_bash/bash.md)
+                    * [📝fisher](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_bash/fisher.md)
+                    * [📝fishshell](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_bash/fishshell.md)
+                    * [📝zsh](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_bash/zsh.md)
                 * 🗂c
                     * 🗂c版本
                         * [📝c11](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_c/00_c版本/c11.md)
@@ -973,6 +979,7 @@
                             * [📝sanitizers](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_c/05_编译器/检查/sanitizers.md)
                     * 🗂调试器
                         * [📝gdb](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_c/06_调试器/gdb.md)
+                        * [📝gprof](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_c/06_调试器/gprof.md)
                     * 🗂框架和库
                         * 🗂cpu并行计算框架
                             * [📝mpi](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_c/07_框架和库/cpu并行计算框架/mpi.md)
@@ -984,6 +991,8 @@
                             * [📝zlib](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_c/07_框架和库/压缩库/zlib.md)
                     * 🗂构建工具
                         * [📝cmake](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_c/08_构建工具/cmake.md)
+                * 🗂rust
+                    * [📝rust](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/00_rust/rust.md)
                 * 🗂内核
                     * 🗂机制
                         * [📝epoll](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/00_机制/epoll.md)
@@ -1086,12 +1095,6 @@
                             * [📝source](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/执行命令/source.md)
                         * 🗂调度工具
                             * [📝crontab](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/调度工具/crontab.md)
-                * 🗂bash
-                    * [📝Lynda_Learning_Bash_Scripting](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/03_bash/Lynda_Learning_Bash_Scripting.md)
-                    * [📝bash](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/03_bash/bash.md)
-                    * [📝fisher](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/03_bash/fisher.md)
-                    * [📝fishshell](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/03_bash/fishshell.md)
-                    * [📝zsh](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/03_bash/zsh.md)
                 * 🗂编译Linux
                     * [📝Linux-From-Scratch](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/04_编译Linux/Linux-From-Scratch.md)
                 * 🗂ubuntu
@@ -1155,8 +1158,6 @@
                         * [📝RVM](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/其他语言/ruby/RVM.md)
                         * [📝rbenv](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/其他语言/ruby/rbenv.md)
                         * [📝ruby](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/其他语言/ruby/ruby.md)
-                    * 🗂rust
-                        * [📝rust](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/其他语言/rust/rust.md)
                 * 🗂操作系统知识
                     * [📝文档列表](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/操作系统知识/文档列表.md)
                     * [📝无锁算法RCU](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/操作系统知识/无锁算法RCU.md)
@@ -1201,43 +1202,43 @@
                     * [📝总览](/docs/开发者知识文档/11_云平台/02_产品/02_存储/01_文件系统_存储排列组合/文件/总览.md)
             * 🗂DB
                 * 🗂数据库产品
-                    * 🗂SQL数据库
+                    * 🗂SQL数据库_OLTP
                         * 🗂MySQL
-                            * [📝MySQL](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/MySQL.md)
+                            * [📝MySQL](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/MySQL.md)
                             * 🗂MySQL存储引擎
-                                * [📝InnoDB存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/MySQL存储引擎/InnoDB存储引擎.md)
-                                * [📝MEMORY存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/MySQL存储引擎/MEMORY存储引擎.md)
-                                * [📝MERGE存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/MySQL存储引擎/MERGE存储引擎.md)
-                                * [📝MyISAM存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/MySQL存储引擎/MyISAM存储引擎.md)
-                                * [📝总览](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/MySQL存储引擎/总览.md)
+                                * [📝InnoDB存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/MySQL存储引擎/InnoDB存储引擎.md)
+                                * [📝MEMORY存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/MySQL存储引擎/MEMORY存储引擎.md)
+                                * [📝MERGE存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/MySQL存储引擎/MERGE存储引擎.md)
+                                * [📝MyISAM存储引擎](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/MySQL存储引擎/MyISAM存储引擎.md)
+                                * [📝总览](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/MySQL存储引擎/总览.md)
                             * 🗂Tips
-                                * [📝MySQL存储位置迁移](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/Tips/MySQL存储位置迁移.md)
+                                * [📝MySQL存储位置迁移](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/Tips/MySQL存储位置迁移.md)
                             * 🗂Web交互
-                                * [📝phpMyAdmin](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/Web交互/phpMyAdmin.md)
+                                * [📝phpMyAdmin](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/Web交互/phpMyAdmin.md)
                             * 🗂binlog
-                                * [📝canal](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/binlog/canal.md)
+                                * [📝canal](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/binlog/canal.md)
                             * 🗂迁移工具
-                                * [📝gh-ost](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/迁移工具/gh-ost.md)
-                                * [📝pt-osc](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/迁移工具/pt-osc.md)
+                                * [📝gh-ost](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/迁移工具/gh-ost.md)
+                                * [📝pt-osc](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/迁移工具/pt-osc.md)
                             * 🗂集群方案
-                                * [📝MGR](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/集群方案/MGR.md)
-                                * [📝MySQL_Router](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/集群方案/MySQL_Router.md)
-                                * [📝MySQL_Shell](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/集群方案/MySQL_Shell.md)
-                                * [📝全同步](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/集群方案/全同步.md)
-                                * [📝无损半同步复制](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/MySQL/集群方案/无损半同步复制.md)
+                                * [📝MGR](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/MGR.md)
+                                * [📝MySQL_Router](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/MySQL_Router.md)
+                                * [📝MySQL_Shell](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/MySQL_Shell.md)
+                                * [📝全同步](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/全同步.md)
+                                * [📝无损半同步复制](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/无损半同步复制.md)
                         * 🗂PostgreSQL
-                            * [📝PostgreSQL](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/PostgreSQL.md)
+                            * [📝PostgreSQL](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/PostgreSQL/PostgreSQL.md)
                             * 🗂衍生发行版
-                                * [📝GaussDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/GaussDB.md)
-                                * [📝Pigsty](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/Pigsty.md)
-                                * [📝greenplum](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/PostgreSQL/衍生发行版/greenplum.md)
-                        * [📝SQL.js](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/SQL.js.md)
+                                * [📝GaussDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/PostgreSQL/衍生发行版/GaussDB.md)
+                                * [📝Pigsty](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/PostgreSQL/衍生发行版/Pigsty.md)
+                                * [📝greenplum](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/PostgreSQL/衍生发行版/greenplum.md)
+                        * [📝SQL.js](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/SQL.js.md)
                         * 🗂SQL审核平台
-                            * [📝Archery](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/SQL审核平台/Archery.md)
-                        * [📝SQL语法](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/SQL语法.md)
-                        * [📝h2](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/h2.md)
-                        * [📝sqlite](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/sqlite.md)
-                        * [📝分布式ID](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库/分布式ID.md)
+                            * [📝Archery](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/SQL审核平台/Archery.md)
+                        * [📝SQL语法](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/SQL语法.md)
+                        * [📝h2](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/h2.md)
+                        * [📝sqlite](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/sqlite.md)
+                        * [📝分布式ID](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/分布式ID.md)
                     * 🗂NoSQL数据库
                         * 🗂KV类型
                             * [📝LevelDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/01_NoSQL数据库/01_KV类型/LevelDB.md)
@@ -1498,27 +1499,37 @@
         * 🗂数据平台
             * 🗂存储调度
                 * 🗂存储
-                    * 🗂OLAP_DB
-                        * [📝Clickhouse](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/Clickhouse.md)
-                        * [📝Impala](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/Impala.md)
-                        * 🗂MPP-DB
-                            * [📝starRocks](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/MPP-DB/starRocks.md)
-                        * 🗂hbase
-                            * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/hbase/Lynda_HBase_Essential_Training.md)
-                            * [📝hbase](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/hbase/hbase.md)
-                            * [📝phoenix](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/hbase/phoenix.md)
-                        * [📝lsm-tree](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/lsm-tree.md)
-                        * 🗂图数据库
-                            * [📝HugeGraph](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/图数据库/HugeGraph.md)
-                            * 🗂图计算框架
-                                * [📝Gremlin_TinkerPop](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/OLAP_DB/图数据库/图计算框架/Gremlin_TinkerPop.md)
                     * 🗂数据格式
-                        * [📝Apache_Avro](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/数据格式/Apache_Avro.md)
-                        * [📝Arrow](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/数据格式/Arrow.md)
-                        * [📝ORC](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/数据格式/ORC.md)
-                        * [📝Parquet](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/数据格式/Parquet.md)
-                        * [📝Velox](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/数据格式/Velox.md)
-                        * [📝protobuf](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/数据格式/protobuf.md)
+                        * [📝Apache_Avro](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/01_数据格式/Apache_Avro.md)
+                        * [📝Arrow](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/01_数据格式/Arrow.md)
+                        * [📝ORC](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/01_数据格式/ORC.md)
+                        * [📝Parquet](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/01_数据格式/Parquet.md)
+                        * [📝Velox](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/01_数据格式/Velox.md)
+                        * [📝csv](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/01_数据格式/csv.md)
+                        * [📝protobuf](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/01_数据格式/protobuf.md)
+                    * 🗂数据仓库
+                        * [📝HMS_hive_meta_store](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/02_数据仓库/HMS_hive_meta_store.md)
+                    * 🗂数据湖
+                        * [📝DeltaLake](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/03_数据湖/DeltaLake.md)
+                        * [📝Hudi](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/03_数据湖/Hudi.md)
+                        * [📝Iceberg](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/03_数据湖/Iceberg.md)
+                        * [📝hive-acid](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/03_数据湖/hive-acid.md)
+                        * [📝总览](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/03_数据湖/总览.md)
+                    * 🗂湖仓一体_ LakeHouse
+                        * [📝总览](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/04_湖仓一体_ LakeHouse/总览.md)
+                    * 🗂OLAP_DB
+                        * [📝Clickhouse](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/Clickhouse.md)
+                        * 🗂MPP-DB
+                            * [📝starRocks](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/starRocks.md)
+                        * 🗂hbase
+                            * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/Lynda_HBase_Essential_Training.md)
+                            * [📝hbase](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/hbase.md)
+                            * [📝phoenix](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/phoenix.md)
+                        * [📝lsm-tree](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/lsm-tree.md)
+                        * 🗂图数据库
+                            * [📝HugeGraph](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/图数据库/HugeGraph.md)
+                            * 🗂图计算框架
+                                * [📝Gremlin_TinkerPop](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/图数据库/图计算框架/Gremlin_TinkerPop.md)
                 * 🗂存算一体_hadoop_hdfs_yarn
                     * 🗂hadoop和发行版
                         * 🗂CDH
@@ -1546,6 +1557,7 @@
                             * [📝Talend](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/ETL/Talend.md)
                         * [📝MR](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/MR.md)
                         * 🗂SQL和脚本引擎
+                            * [📝Impala](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/Impala.md)
                             * [📝Lynda_Analyzing_Big_Data_with_Hive](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/Lynda_Analyzing_Big_Data_with_Hive.md)
                             * [📝hive](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/hive.md)
                             * [📝pig](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/pig.md)
@@ -1573,12 +1585,6 @@
                     * [📝Tez](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/Tez.md)
                     * [📝drill](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/drill.md)
                     * [📝storm](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/storm.md)
-                * 🗂数据湖技术
-                    * [📝DeltaLake](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_数据湖技术/DeltaLake.md)
-                    * [📝Hudi](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_数据湖技术/Hudi.md)
-                    * [📝Iceberg](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_数据湖技术/Iceberg.md)
-                    * [📝hive-acid](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_数据湖技术/hive-acid.md)
-                    * [📝总览](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_数据湖技术/总览.md)
                 * 🗂Query统一平台
                     * [📝Beam](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/03_Query统一平台/Beam.md)
             * 🗂计算中间层
