@@ -2,6 +2,6 @@
 list open file
 
 ```bash
-lsof -p [pid]
-lsof -i:[port]
+sudo lsof -p [pid]
+sudo lsof -i:[port]
 ```
