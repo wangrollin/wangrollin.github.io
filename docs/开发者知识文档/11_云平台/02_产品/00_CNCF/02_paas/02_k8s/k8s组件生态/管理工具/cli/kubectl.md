@@ -1,6 +1,29 @@
 
+## context
+
+```bash
+# 可以这样临时切换kubectl的指向
+export KUBECONFIG=/Users/wangrollin/code_base/wb2c-helm/k8s/bigdata/config
+```
+
 
 ## 命令大全
+
+### 查看集群信息
+
+kubectl cluster-info
+
+### 创建用户
+
+kubectl create serviceaccount spark
+
+### proxy
+
+kubectl proxy
+
+### port forward
+
+kubectl port-forward
 
 ### 看资源信息 get describe
 

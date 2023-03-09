@@ -877,10 +877,12 @@
                         * [📝kubeEdge](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/kubeEdge.md)
                         * [📝openYurt](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/openYurt.md)
                     * 🗂k8s组件生态
-                        * 🗂包管理器
-                            * [📝Helm](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/Helm.md)
-                            * [📝Helmfile](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/Helmfile.md)
-                            * [📝artifacthub](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/包管理器/artifacthub.md)
+                        * 🗂Operator运维模式
+                            * [📝Operator](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/Operator运维模式/Operator.md)
+                        * 🗂包管理和部署
+                            * [📝Helm](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/包管理和部署/Helm.md)
+                            * [📝Helmfile](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/包管理和部署/Helmfile.md)
+                            * [📝artifacthub](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/包管理和部署/artifacthub.md)
                         * 🗂存储
                             * [📝JuiceFS](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/存储/JuiceFS.md)
                             * [📝nfs](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/存储/nfs.md)
@@ -1084,6 +1086,7 @@
                         * [📝curl](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络访问/curl.md)
                         * [📝wget](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络访问/wget.md)
                     * 🗂进程相关
+                        * [📝Monit](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/Monit.md)
                         * [📝Systemd](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/Systemd.md)
                         * [📝init](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/init.md)
                         * [📝kill](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/kill.md)

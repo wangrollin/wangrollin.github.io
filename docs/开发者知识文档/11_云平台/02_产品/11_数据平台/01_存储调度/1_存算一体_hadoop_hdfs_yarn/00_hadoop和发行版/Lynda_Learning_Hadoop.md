@@ -649,7 +649,7 @@ org.apache.hadoop.mapreduce.filecache.DistributedCache
 
 2.0
 
-| mapreduce | 其他处理 |
+| mapreduce | 其他引擎 |
 | --------- | -------- |
 | yarn      | yarn     |
 | hdfs      | hdfs     |

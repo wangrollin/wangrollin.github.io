@@ -7,24 +7,6 @@
 - [k8s gitbook](https://feisky.gitbooks.io/kubernetes/content/)
 
 
-## kubectl 实用命令
-
-```bash
-# 可以这样临时切换kubectl的指向
-export KUBECONFIG=/Users/wangrollin/code_base/wb2c-helm/k8s/bigdata/config
-
-kubectl scale --replicas=0 -n wechat deployment/acl-content-service && \
-kubectl scale --replicas=0 -n wechat deployment/acl-configuration-service && \
-kubectl scale --replicas=0 -n wechat deployment/acl-eureka-service && \
-kubectl scale --replicas=0 -n wechat deployment/acl-service-gateway && \
-kubectl scale --replicas=0 -n wechat deployment/acl-wechat-api-service && \
-kubectl scale --replicas=0 -n wechat deployment/acl-wechat-auth-service && \
-kubectl scale --replicas=0 -n wechat deployment/acl-wechat-countly-service && \
-kubectl scale --replicas=0 -n wechat deployment/acl-wechat-miniapp-service && \
-kubectl scale --replicas=0 -n wechat deployment/acl-wechat-miniapp-session-service
-```
-
-
 ## k8s yaml
 
 ### 常用变量
