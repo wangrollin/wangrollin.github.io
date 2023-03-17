@@ -1,6 +1,0 @@
-
-```bash
-
-apt list --installed
-
-```

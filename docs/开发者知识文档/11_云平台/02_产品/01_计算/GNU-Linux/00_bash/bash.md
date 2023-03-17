@@ -3,6 +3,12 @@
 https://www.cnblogs.com/pcat/p/5467188.html
 
 
+## 查看当前的 shell 是哪个
+
+```bash
+echo $0
+```
+
 ## build-in Commands
 cd echo kill
 不会有子线程

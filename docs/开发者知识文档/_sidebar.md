@@ -420,8 +420,10 @@
                         * [📝总览](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/GC/总览.md)
                     * [📝JIT](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/JIT.md)
                     * 🗂JVM发行版
+                        * [📝GraalVM](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/JVM发行版/GraalVM.md)
                         * [📝HotSpot](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/JVM发行版/HotSpot.md)
                         * [📝OpenJ9](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/JVM发行版/OpenJ9.md)
+                        * [📝Quarkus](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/JVM发行版/Quarkus.md)
                     * [📝Notes_深入理解java虚拟机](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/Notes_深入理解java虚拟机.md)
                     * [📝jvm内存](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/jvm内存.md)
                     * [📝参数](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/参数.md)
@@ -1058,7 +1060,12 @@
                         * [📝mount](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看目录_磁盘/mount.md)
                         * [📝tree](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看目录_磁盘/tree.md)
                     * [📝汇总](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/汇总.md)
+                    * 🗂用户管理
+                        * [📝su](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/su.md)
+                        * [📝sudo](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/sudo.md)
                     * 🗂系统监控
+                        * [📝lscpu](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lscpu.md)
+                        * [📝lsmem](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lsmem.md)
                         * [📝top](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/top.md)
                     * 🗂编解码
                         * [📝base64](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编解码/base64.md)
@@ -1110,6 +1117,7 @@
                     * [📝ubuntu完整配置流](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/05_ubuntu/ubuntu完整配置流.md)
                 * 🗂其他发行版
                     * [📝linux发行版关系图](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/06_其他发行版/00_linux发行版关系图.md)
+                    * [📝发行版](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/06_其他发行版/00_发行版.md)
                     * [📝CoreOS](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/06_其他发行版/CoreOS.md)
                     * [📝elementary](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/06_其他发行版/elementary.md)
                     * 🗂nas类
@@ -1137,7 +1145,12 @@
                         * [📝openWrt](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/06_其他发行版/路由器/openWrt.md)
                 * 🗂包管理工具
                     * [📝Portage](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/Portage.md)
-                    * [📝apt-get](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt-get.md)
+                    * 🗂apt家族
+                        * [📝apt-cache](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/apt-cache.md)
+                        * [📝apt-get](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/apt-get.md)
+                        * [📝apt](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/apt.md)
+                        * [📝aptitude](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/aptitude.md)
+                    * [📝dnf](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/dnf.md)
                     * [📝sdkman](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/sdkman.md)
                     * [📝snap](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/snap.md)
                     * [📝yum](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/yum.md)
@@ -1343,6 +1356,7 @@
             * [📝域名解析](/docs/开发者知识文档/11_云平台/02_产品/04_网络/域名解析.md)
             * [📝私有网络_VPC](/docs/开发者知识文档/11_云平台/02_产品/04_网络/私有网络_VPC.md)
             * 🗂负载均衡
+                * [📝ALB](/docs/开发者知识文档/11_云平台/02_产品/04_网络/负载均衡/ALB.md)
                 * [📝CLB](/docs/开发者知识文档/11_云平台/02_产品/04_网络/负载均衡/CLB.md)
                 * [📝f5](/docs/开发者知识文档/11_云平台/02_产品/04_网络/负载均衡/f5.md)
                 * [📝lvs](/docs/开发者知识文档/11_云平台/02_产品/04_网络/负载均衡/lvs.md)
@@ -1564,47 +1578,61 @@
                     * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/2_存算分离_cncf_cloudFS_k8s/placeholder.md)
                 * [📝streamset](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/streamset.md)
             * 🗂计算引擎
+                * 🗂API
+                    * [📝任务提交](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/00_API/任务提交.md)
+                    * [📝权限管理](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/00_API/权限管理.md)
+                    * [📝语法解析](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/00_API/语法解析.md)
+                * 🗂Query统一提交器
+                    * [📝Beam](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_Query统一提交器/Beam.md)
+                    * [📝Linkis](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_Query统一提交器/Linkis.md)
+                    * [📝函数](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_Query统一提交器/函数.md)
                 * 🗂引擎
                     * 🗂离线
                         * 🗂ETL
-                            * [📝FiveTran](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/ETL/FiveTran.md)
-                            * [📝Informatica](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/ETL/Informatica.md)
-                            * [📝Kettle](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/ETL/Kettle.md)
-                            * [📝Talend](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/ETL/Talend.md)
-                        * [📝MR](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/MR.md)
+                            * [📝FiveTran](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/ETL/FiveTran.md)
+                            * [📝Informatica](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/ETL/Informatica.md)
+                            * [📝Kettle](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/ETL/Kettle.md)
+                            * [📝Talend](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/ETL/Talend.md)
+                        * [📝MR](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/MR.md)
                         * 🗂SQL和脚本引擎
-                            * [📝Impala](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/Impala.md)
-                            * [📝Lynda_Analyzing_Big_Data_with_Hive](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/Lynda_Analyzing_Big_Data_with_Hive.md)
-                            * [📝hive](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/hive.md)
-                            * [📝pig](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/pig.md)
-                            * [📝sparkSQL](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/SQL和脚本引擎/sparkSQL.md)
+                            * [📝Impala](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/SQL和脚本引擎/Impala.md)
+                            * [📝Lynda_Analyzing_Big_Data_with_Hive](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/SQL和脚本引擎/Lynda_Analyzing_Big_Data_with_Hive.md)
+                            * [📝hive](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/SQL和脚本引擎/hive.md)
+                            * [📝pig](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/SQL和脚本引擎/pig.md)
+                            * [📝sparkSQL](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/SQL和脚本引擎/sparkSQL.md)
                         * 🗂Spark
-                            * [📝Lynda_Apache_Spark_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/Spark/Lynda_Apache_Spark_Essential_Training.md)
-                            * [📝Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/Spark/Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark.md)
-                            * [📝Lynda_Introduction_to_Spark_SQL_and_DataFrames](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/Spark/Lynda_Introduction_to_Spark_SQL_and_DataFrames.md)
-                            * [📝kyuubi](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/Spark/kyuubi.md)
+                            * [📝Lynda_Apache_Spark_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/Spark/Lynda_Apache_Spark_Essential_Training.md)
+                            * [📝Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/Spark/Lynda_Big_Data_Analytics_with_Hadoop_and_Apache_Spark.md)
+                            * [📝Lynda_Introduction_to_Spark_SQL_and_DataFrames](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/Spark/Lynda_Introduction_to_Spark_SQL_and_DataFrames.md)
+                            * [📝kyuubi](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/Spark/kyuubi.md)
                             * 🗂ml_Lib
-                                * [📝SynapseML](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/Spark/ml_Lib/SynapseML.md)
-                            * [📝spark](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/00_离线/Spark/spark.md)
+                                * [📝SynapseML](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/Spark/ml_Lib/SynapseML.md)
+                            * [📝spark](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/00_离线/Spark/spark.md)
                     * 🗂实时
                         * 🗂Flink
-                            * [📝Lynda_Apache_Flink_Batch_Mode_Data_Engineering](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/01_实时/Flink/Lynda_Apache_Flink_Batch_Mode_Data_Engineering.md)
-                            * [📝Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/01_实时/Flink/Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL.md)
-                            * [📝Lynda_Apache_Flink_Real-Time_Data_Engineering](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/01_实时/Flink/Lynda_Apache_Flink_Real-Time_Data_Engineering.md)
-                            * [📝flink](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/01_实时/Flink/flink.md)
+                            * [📝Lynda_Apache_Flink_Batch_Mode_Data_Engineering](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/01_实时/Flink/Lynda_Apache_Flink_Batch_Mode_Data_Engineering.md)
+                            * [📝Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/01_实时/Flink/Lynda_Apache_Flink_Exploratory_Data_Analytics_with_SQL.md)
+                            * [📝Lynda_Apache_Flink_Real-Time_Data_Engineering](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/01_实时/Flink/Lynda_Apache_Flink_Real-Time_Data_Engineering.md)
+                            * [📝flink](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/01_实时/Flink/flink.md)
                     * 🗂交互
-                        * [📝Trino](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/03_交互/Trino.md)
-                        * [📝presto](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/03_交互/presto.md)
-                    * [📝Kylin](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/Kylin.md)
-                    * [📝Pinot](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/Pinot.md)
-                    * [📝Ray](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/Ray.md)
-                    * [📝Tez](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/Tez.md)
-                    * [📝drill](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/drill.md)
-                    * [📝storm](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/01_引擎/storm.md)
-                * 🗂Query统一平台
-                    * [📝Beam](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/03_Query统一平台/Beam.md)
-            * 🗂计算中间层
-                * [📝Linkis](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/03_计算中间层/Linkis.md)
+                        * [📝Trino](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/03_交互/Trino.md)
+                        * [📝presto](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/03_交互/presto.md)
+                    * [📝Kylin](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/Kylin.md)
+                    * [📝Pinot](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/Pinot.md)
+                    * [📝Ray](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/Ray.md)
+                    * [📝Tez](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/Tez.md)
+                    * [📝drill](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/drill.md)
+                    * [📝storm](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/02_引擎/storm.md)
+                * 🗂湖仓一体
+                    * [📝实时湖仓](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/03_湖仓一体/实时湖仓.md)
+                    * [📝统一元数据](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/03_湖仓一体/统一元数据.md)
+                    * [📝统一权限管控](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/03_湖仓一体/统一权限管控.md)
+                    * [📝跨源分析](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/03_湖仓一体/跨源分析.md)
+                * 🗂批流一体
+                    * [📝存储层批流一体](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/04_批流一体/存储层批流一体.md)
+                    * [📝批流一体SQl](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/04_批流一体/批流一体SQl.md)
+                * 🗂事务能力ACID
+                    * [📝hudi](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/02_计算引擎/05_事务能力ACID/hudi.md)
             * 🗂开发套件_DataOps
                 * 🗂数据采集
                     * [📝PlaceHolder_AppLog](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/04_开发套件_DataOps/00_数据采集/PlaceHolder_AppLog.md)

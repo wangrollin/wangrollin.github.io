@@ -107,6 +107,12 @@ spark-submit --kill spark:spark-pi* --master  k8s://https://192.168.2.8:8443
 - [GoogleCloudPlatform/spark-on-k8s-operator github](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator)
 - [GoogleCloudPlatform/spark-on-k8s-operator doc](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator/tree/master/docs)
 
+这种模式相当于是：spark standalone + k8s 自定义资源 > native spark on k8s
+
+sparkCluster
+sparkApplication
+sparkHistoryServer
+
 
 ## spark-class
 

@@ -3,6 +3,42 @@
 Docker 使用过程中有许多常用的命令，完整列表可以查看docker help
 
 
+### 多平台兼容 arm64 amd64
+
+- [Multi-arch build and images, the simple way](https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/)
+
+#### docker manifest
+
+```bash
+# AMD64
+$ docker build -t your-username/multiarch-example:manifest-amd64 --build-arg ARCH=amd64/ .
+$ docker push your-username/multiarch-example:manifest-amd64
+
+# ARM32V7
+$ docker build -t your-username/multiarch-example:manifest-arm32v7 --build-arg ARCH=arm32v7/ .
+$ docker push your-username/multiarch-example:manifest-arm32v7
+
+# ARM64V8
+$ docker build -t your-username/multiarch-example:manifest-arm64v8 --build-arg ARCH=arm64v8/ .
+$ docker push your-username/multiarch-example:manifest-arm64v8
+
+$ docker manifest create \
+your-username/multiarch-example:manifest-latest \
+--amend your-username/multiarch-example:manifest-amd64 \
+--amend your-username/multiarch-example:manifest-arm32v7 \
+--amend your-username/multiarch-example:manifest-arm64v8
+
+$ docker manifest push your-username/multiarch-example:manifest-latest
+```
+
+#### docker buildx
+
+```bash
+$ docker buildx build \
+--push \
+--platform linux/arm/v7,linux/arm64/v8,linux/amd64 \ --tag your-username/multiarch-example:buildx-latest .
+```
+
 
 ### 阿里云docker镜像服务
 

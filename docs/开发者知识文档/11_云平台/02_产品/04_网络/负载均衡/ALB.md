@@ -1,0 +1,1 @@
+应用型负载均衡（Application Load Balancer，ALB）面向七层（HTTP、HTTPS、HTTP/2、WebSocket、QUIC等协议），提升应用系统整体的稳定性、可靠性与服务能力
