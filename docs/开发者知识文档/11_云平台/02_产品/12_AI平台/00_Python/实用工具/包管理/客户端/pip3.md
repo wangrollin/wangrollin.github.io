@@ -2,7 +2,7 @@
 ## 介绍
 
 安装 Python 2 >=2.7.9 或 Python 3 >=3.4 这些版本的 Python 会一并安装 pip
-
+apt-get install python3-pip
 
 ## 网站
 

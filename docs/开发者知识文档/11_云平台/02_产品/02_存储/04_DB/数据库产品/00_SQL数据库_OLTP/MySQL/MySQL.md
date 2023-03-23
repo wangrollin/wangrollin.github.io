@@ -174,6 +174,14 @@ SET GLOBAL general_log = 'ON';
 
 https://cloud.tencent.com/developer/news/201704
 
+### 解决远程连接mysql很慢的方法(mysql_connect 打开连接慢)
+
+```ini
+[mysqld]
+skip-name-resolve
+```
+
+根据文档说明，如果你的mysql主机查询DNS很慢或是有很多客户端主机时会导致连接很慢，由于我们的开发机器是不能够连接外网的，所以DNS解析是不可能完成的，从而也就明白了为什么连接那么慢了。同时，请注意在增加该配置参数后，mysql的授权表中的host字段就不能够使用域名而只能够使用 ip地址了，因为这是禁止了域名解析的结果。
 
 ## Q&A
 

@@ -14,3 +14,12 @@ sudo apt upgrade xxx
 
 
 apt deb格式
+
+## apt source
+
+cat /etc/apt/sources.list
+ll /etc/apt/sources.list.d
+
+## 查看安装路径
+
+dpkg -S softwarename
