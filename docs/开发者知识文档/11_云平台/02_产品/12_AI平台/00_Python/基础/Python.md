@@ -10,6 +10,10 @@
 - [The import system - doc](https://docs.python.org/3/reference/import.html)
 
 
+## 安装
+
+export PATH=$PATH:/usr/local/opt/python-3.7.2/bin
+
 ## tips
 
 ### 模块

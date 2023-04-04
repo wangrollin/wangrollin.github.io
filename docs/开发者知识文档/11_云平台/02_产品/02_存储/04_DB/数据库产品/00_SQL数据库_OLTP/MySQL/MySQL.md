@@ -83,6 +83,11 @@ SELECT app_name, country FROM apps;
 mysqldump -h xxx -P xxx -u root -p --databases db1 db2 >/tmp/user.sql
 ```
 
+*查看读写*
+```sql
+SELECT @@global.read_only, @@global.super_read_only;
+```
+
 ## 性能优化
 
 ### 慢查询

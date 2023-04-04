@@ -3,6 +3,10 @@
 Docker 使用过程中有许多常用的命令，完整列表可以查看docker help
 
 
+### 镜像搬运工
+
+skopeo
+
 ### 多平台兼容 arm64 amd64
 
 - [Multi-arch build and images, the simple way](https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/)
@@ -34,9 +38,10 @@ $ docker manifest push your-username/multiarch-example:manifest-latest
 #### docker buildx
 
 ```bash
-$ docker buildx build \
+docker buildx build \
 --push \
---platform linux/arm/v7,linux/arm64/v8,linux/amd64 \ --tag your-username/multiarch-example:buildx-latest .
+--platform linux/arm/v7,linux/arm64/v8,linux/amd64 \
+--tag your-username/multiarch-example:buildx-latest .
 ```
 
 
@@ -61,6 +66,21 @@ docker run -d -p 80:80 registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-fron
 
 ### 常用命令
 
+#### 登录操作
+
+docker login hub.example.com
+username
+pwd
+
+cat ~/.docker/config.json
+{
+	"auths": {
+		"hub.example.com": {
+			"auth": "yOmZKaVA4eE9RSkRuNA=="
+		}
+	}
+}
+
 #### 镜像操作
 
 ```bash
@@ -71,6 +91,7 @@ docker run config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT
 docker run -d xxx # 后台执行
 docker run -w xxx # 指定工作目录
 docker run -it xxx /bin/sh # 容器不会退出
+docker run -it --entrypoint bash xxx
 
 docker images # 查看镜像
 docker image inspect xxx
@@ -80,10 +101,14 @@ docker rmi <镜像ID或名称> # 删除镜像
 docker search <关键词> # 在镜像仓库中搜索
 
 docker pull <镜像> # 从镜像仓库拉取镜像
+docker pull <镜像> --platform linux/arm64/v8
+docker pull <镜像> --platform linux/amd64
 
 docker save -o image.tar <镜像ID或名称> # 将镜像保存到文件
-
 docker load -i image.tar # 从文件载入镜像
+
+docker save name:version | gzip > name_version.tar.gz
+gunzip -c name_version.tar.gz | docker load
 ```
 
 #### 容器操作

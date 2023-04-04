@@ -25,6 +25,10 @@ kubectl proxy
 
 kubectl port-forward
 
+### 查看日志
+
+kubectl logs [pod-name] -f
+
 ### 看资源信息 get describe
 
 kubectl get node

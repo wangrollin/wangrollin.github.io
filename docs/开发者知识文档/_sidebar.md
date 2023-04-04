@@ -1018,6 +1018,8 @@
                     * 🗂顶级子系统
                         * [📝eBPF](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/顶级子系统/eBPF.md)
                 * 🗂GNU和其他工具软件
+                    * 🗂CPU架构
+                        * [📝uname](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/CPU架构/uname.md)
                     * [📝GNU概览](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/GNU概览.md)
                     * 🗂linuxForMac
                         * [📝multipass](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/linuxForMac/multipass.md)
@@ -1034,7 +1036,13 @@
                     * 🗂切割文件
                         * [📝logrotate](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/切割文件/logrotate.md)
                     * 🗂压缩文件
+                        * 🗂gz
+                            * [📝gunzip](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/gz/gunzip.md)
+                            * [📝gzip](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/gz/gzip.md)
                         * [📝tar](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/tar.md)
+                        * 🗂zip
+                            * [📝unzip](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/zip/unzip.md)
+                            * [📝zip](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/zip/zip.md)
                     * 🗂字符串处理
                         * [📝awk](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/awk.md)
                         * [📝cut](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/cut.md)
@@ -1047,6 +1055,7 @@
                         * [📝grep](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看文件/grep.md)
                         * [📝jq](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看文件/jq.md)
                         * [📝kill](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看文件/kill.md)
+                        * [📝yq](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看文件/yq.md)
                         * 🗂阅读文本
                             * [📝less](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看文件/阅读文本/less.md)
                             * [📝more](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看文件/阅读文本/more.md)
@@ -1070,8 +1079,10 @@
                     * 🗂编解码
                         * [📝base64](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编解码/base64.md)
                     * 🗂编辑文件
+                        * [📝chmod](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/chmod.md)
                         * [📝cp](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/cp.md)
                         * [📝emacs](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/emacs.md)
+                        * [📝ln](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/ln.md)
                         * [📝nano](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/nano.md)
                         * [📝rsync](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/rsync.md)
                         * [📝scp](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/scp.md)
@@ -1226,6 +1237,8 @@
                 * 🗂文件
                     * [📝总览](/docs/开发者知识文档/11_云平台/02_产品/02_存储/01_文件系统_存储排列组合/文件/总览.md)
             * 🗂DB
+                * 🗂DB变更捕捉
+                    * [📝Debezium](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/DB变更捕捉/Debezium.md)
                 * 🗂数据库产品
                     * 🗂SQL数据库_OLTP
                         * 🗂MySQL
@@ -1414,11 +1427,12 @@
                     * [📝Chef](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/Chef.md)
                     * [📝Puppet](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/Puppet.md)
                     * [📝SaltStack](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/SaltStack.md)
-                    * [📝Terraform_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/Terraform_by_Hashicorp.md)
                     * [📝fabric](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/fabric.md)
-                    * [📝nomad_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/nomad_by_Hashicorp.md)
-                    * [📝packer_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/packer_by_Hashicorp.md)
-                    * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/vagrant_by_Hashicorp.md)
+                    * 🗂hashicorp
+                        * [📝Terraform_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/Terraform_by_Hashicorp.md)
+                        * [📝nomad_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/nomad_by_Hashicorp.md)
+                        * [📝packer_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/packer_by_Hashicorp.md)
+                        * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/vagrant_by_Hashicorp.md)
                     * [📝蓝鲸智云bk-job](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/蓝鲸智云bk-job.md)
                 * 🗂自动化测试
                     * 🗂POC-概念验证
