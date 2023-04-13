@@ -138,6 +138,9 @@ docker top <容器ID或名称> # 查看容器的进程
 docker inspect <容器ID或名称> # 查看容器的底层信息，如 IP 等
 
 docker run -d -it adoptopenjdk/openjdk11:latest /bin/bash
+
+# --rm 运行后就退出，适合执行一次
+docker run -it --rm adoptopenjdk/openjdk11:latest bash -c 'echo can run like a charm'
 ```
 
 

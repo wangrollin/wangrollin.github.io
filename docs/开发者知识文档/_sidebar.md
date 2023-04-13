@@ -1098,6 +1098,7 @@
                         * [📝nmap](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/nmap.md)
                         * [📝ping](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/ping.md)
                         * [📝route](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/route.md)
+                        * [📝socat](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/socat.md)
                         * [📝tcpdump](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/tcpdump.md)
                         * [📝telnet](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/telnet.md)
                     * 🗂网络访问
@@ -1355,12 +1356,12 @@
                     * [📝caffeine](/docs/开发者知识文档/11_云平台/02_产品/02_存储/09_Cache/本地缓存/caffeine.md)
                     * [📝ehcache](/docs/开发者知识文档/11_云平台/02_产品/02_存储/09_Cache/本地缓存/ehcache.md)
         * 🗂安全
-            * 🗂安全认证
-                * [📝Auth0](/docs/开发者知识文档/11_云平台/02_产品/03_安全/安全认证/Auth0.md)
-                * [📝Casdoor](/docs/开发者知识文档/11_云平台/02_产品/03_安全/安全认证/Casdoor.md)
-                * [📝Kerberos](/docs/开发者知识文档/11_云平台/02_产品/03_安全/安全认证/Kerberos.md)
-                * [📝Keycloak](/docs/开发者知识文档/11_云平台/02_产品/03_安全/安全认证/Keycloak.md)
-                * [📝Okta](/docs/开发者知识文档/11_云平台/02_产品/03_安全/安全认证/Okta.md)
+            * 🗂用户管理和认证
+                * [📝Auth0](/docs/开发者知识文档/11_云平台/02_产品/03_安全/用户管理和认证/Auth0.md)
+                * [📝Casdoor](/docs/开发者知识文档/11_云平台/02_产品/03_安全/用户管理和认证/Casdoor.md)
+                * [📝Kerberos](/docs/开发者知识文档/11_云平台/02_产品/03_安全/用户管理和认证/Kerberos.md)
+                * [📝Keycloak](/docs/开发者知识文档/11_云平台/02_产品/03_安全/用户管理和认证/Keycloak.md)
+                * [📝Okta](/docs/开发者知识文档/11_云平台/02_产品/03_安全/用户管理和认证/Okta.md)
         * 🗂网络
             * 🗂CDN
                 * [📝内容分发](/docs/开发者知识文档/11_云平台/02_产品/04_网络/CDN/内容分发.md)
@@ -2142,9 +2143,22 @@
     * [📝DDD](/docs/开发者知识文档/81_系统设计-语言无关/DDD.md)
     * 🗂安全
         * [📝零知识](/docs/开发者知识文档/81_系统设计-语言无关/安全/零知识.md)
+    * 🗂授权模型
+        * [📝ABAC](/docs/开发者知识文档/81_系统设计-语言无关/授权模型/ABAC.md)
+        * [📝RBAC](/docs/开发者知识文档/81_系统设计-语言无关/授权模型/RBAC.md)
+    * 🗂用户数据保护协议
+        * [📝GDPR](/docs/开发者知识文档/81_系统设计-语言无关/用户数据保护协议/GDPR.md)
     * [📝系统设计](/docs/开发者知识文档/81_系统设计-语言无关/系统设计.md)
     * 🗂缓存理论
         * [📝缓存常见问题](/docs/开发者知识文档/81_系统设计-语言无关/缓存理论/缓存常见问题.md)
+    * 🗂认证
+        * 🗂用户维度
+            * [📝OAuth2](/docs/开发者知识文档/81_系统设计-语言无关/认证/01_用户维度/01_OAuth2.md)
+            * [📝OpenID_Connect_OIDC](/docs/开发者知识文档/81_系统设计-语言无关/认证/01_用户维度/02_OpenID_Connect_OIDC.md)
+            * [📝SSO](/docs/开发者知识文档/81_系统设计-语言无关/认证/01_用户维度/SSO.md)
+        * 🗂服务维度
+            * [📝AKSK](/docs/开发者知识文档/81_系统设计-语言无关/认证/02_服务维度/AKSK.md)
+            * [📝JWT](/docs/开发者知识文档/81_系统设计-语言无关/认证/02_服务维度/JWT.md)
     * 🗂设计模式
         * 🗂24种设计模式
             * [📝Notes_设计模式-可复用面向对象软件的基础](/docs/开发者知识文档/81_系统设计-语言无关/设计模式/24种设计模式/Notes_设计模式-可复用面向对象软件的基础.md)
@@ -2181,6 +2195,8 @@
             * [📝vscode.dev](/docs/开发者知识文档/99_其他/Online_IDE/saas/vscode.dev.md)
         * 🗂self-hosted
             * [📝code_server](/docs/开发者知识文档/99_其他/Online_IDE/self-hosted/code_server.md)
+        * 🗂桌面_saas
+            * [📝Theia](/docs/开发者知识文档/99_其他/Online_IDE/桌面_saas/Theia.md)
     * 🗂SSL证书
         * [📝LetsEncrypt](/docs/开发者知识文档/99_其他/SSL证书/LetsEncrypt.md)
         * [📝echosite](/docs/开发者知识文档/99_其他/SSL证书/echosite.md)
@@ -2227,8 +2243,6 @@
         * [📝unreal虚幻](/docs/开发者知识文档/99_其他/游戏引擎/unreal虚幻.md)
     * 🗂电子签名
         * [📝docusign](/docs/开发者知识文档/99_其他/电子签名/docusign.md)
-    * 🗂编辑器
-        * [📝Theia](/docs/开发者知识文档/99_其他/编辑器/Theia.md)
     * 🗂跳转机
         * [📝jumpServer](/docs/开发者知识文档/99_其他/跳转机/jumpServer.md)
     * 🗂项目管理工具

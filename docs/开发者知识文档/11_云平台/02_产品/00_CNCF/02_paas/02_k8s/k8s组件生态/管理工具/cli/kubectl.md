@@ -69,12 +69,24 @@ kubectl scale --replicas=0 deployment/deploy-name -n ns
 
 ### 进入 pod 执行命令
 
-kubectl exec -it pod-name bash -n ns
+kubectl exec -it podname bash -n ns
+
+### 不进入 pod 执行命令
+
+kubectl exec -it podname -n ns -- bash -c "ps -ef"
 
 ### 查看 cpu mem
 
 kubectl top po -pod-name
 kubectl top node node-ip
+
+### 允许/禁止调度到某个节点
+
+禁止调度
+kubectl cordon NODE_NAME
+可以调度
+kubectl uncordon NODE_NAME
+
 
 ## 添加rancher k8s到本地的k8s context里
 

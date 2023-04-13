@@ -57,10 +57,34 @@ $1～$n
 echo -e "\n"
 ```
 
+### 查看版本
+
+echo "${BASH_VERSION}"
+
 ### 后台运行
 
 - [linux后台执行命令：&和nohup](https://blog.csdn.net/liuyanfeier/article/details/62422742)
 
 ```bash
 nohup [command] >> xxx.log 2>&1 &
+```
+
+### 通道重定向
+
+https://blog.csdn.net/u011630575/article/details/52151995
+https://cloud.tencent.com/developer/article/1139965
+
+一般来说, "1>" 通常可以省略成 ">".
+/dev/null是一个文件，这个文件比较特殊，所有传给它的东西它都丢弃掉
+
+```bash
+1>/dev/null
+>/dev/null
+
+2>/dev/null
+
+1>&2
+>&2
+
+2>&1
 ```
