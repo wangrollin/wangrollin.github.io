@@ -2,11 +2,40 @@
 ## 介绍
 
 安装 Python 2 >=2.7.9 或 Python 3 >=3.4 这些版本的 Python 会一并安装 pip
-apt-get install python3-pip
+
 
 ## 网站
 
 - [PyPI](https://pypi.org/)
+
+## 安装
+
+### 通用方式
+
+```bash
+python -m ensurepip --upgrade
+```
+
+
+
+### pip2
+
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+sudo python2 get-pip.py
+
+### pip3
+
+
+
+apt install python3 python3-distutils -y
+wget https://bootstrap.pypa.io/pip/get-pip.py
+sudo python3 get-pip.py
+rm /usr/local/bin/pip
+cp /usr/local/bin/pip2 /usr/local/bin/pip
+
+apt install -y python3-pip
+python3 -m pip install --upgrade pip
+
 
 
 ## tips
@@ -30,6 +59,8 @@ pipdeptree -fl
 pip config list
 pip config set global.index-url https://pypi.org/simple
 pip config unset global.index-url
+
+cat /root/.config/pip/pip.conf
 ```
 
 ## 常用命令

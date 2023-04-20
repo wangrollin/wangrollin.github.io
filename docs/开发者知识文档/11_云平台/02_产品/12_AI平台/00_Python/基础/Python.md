@@ -14,6 +14,10 @@
 
 export PATH=$PATH:/usr/local/opt/python-3.7.2/bin
 
+apt install python
+
+apt install python3 python3-distutils python-is-python3
+
 ## tips
 
 ### 模块
@@ -54,10 +58,6 @@ python 装executable 64amd 的
 
 加path环境变量
 
-升级pip
-
-​	python -m pip install --upgrade pip
-
 pip install virtualenv
 
 virtualenv myEnv
@@ -66,7 +66,7 @@ activate
 
 在pyCharm的venv里，升级pip要用，否则会报错，pyCharm的bug
 
-​	python -m pip install -U --force-reinstall pip
+​python -m pip install -U --force-reinstall pip
 
 pip isntall tensorflow
 

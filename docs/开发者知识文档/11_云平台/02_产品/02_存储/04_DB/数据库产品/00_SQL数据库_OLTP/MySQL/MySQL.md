@@ -10,53 +10,70 @@
 docker run --name docker-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
 ```
 
-### mysql cli
+### mysql bash cli
 
-*登录*
+#### client 登录
 ```bash
 mysql -uroot -ppwd -h127.0.0.1 -P3306
 ```
 
-*创建databases*
+#### 查看 mysql 版本
+
+client
+mysql --version
+
+server
+登录 server 后会打印
+
+### mysql inner cli
+
+#### 创建databases
 ```sql
 CREATE DATABASE `db_test`;
 drop DATABASE `db_test`;
 ```
 
-*查看、使用数据库，查看表*
+#### 查看、使用数据库，查看表
+
 ```sql
 show databases;
 use db_name;
 show tables;
 ```
 
-*执行sql脚本*
+#### 执行sql脚本
+
 ```sql
 source /path/to/xx.sql
 ```
 
-*修改自增id起始值*
+#### 修改自增id起始值
+
 ```sql
 alter table table_name AUTO_INCREMENT=10000;
 ```
 
-*查看权限*
+#### 查看权限
+
 ```sql
 show grants for user_name;
 ```
 
-*将结果导出到文件分析*
+#### 将结果导出到文件分析
+
 ```sql
 tee  /xxx/log.txt;
 notee;
 ```
 
-*竖向显示*
+#### 竖向显示
+
 ```sql
 select * from demo\G
 ```
 
-*查询所有 tables shcema*
+#### 查询所有 tables shcema
+
 ```sql
 SELECT
     *
@@ -69,7 +86,8 @@ ORDER BY
     ORDINAL_POSITION;
 ```
 
-*插入数据*
+#### 插入数据
+
 ```sql
 INSERT INTO table2
 SELECT * FROM table1;
@@ -78,17 +96,25 @@ INSERT INTO Websites (name, country)
 SELECT app_name, country FROM apps;
 ```
 
-*dump 数据*
+#### dump 数据
+
 ```bash
 mysqldump -h xxx -P xxx -u root -p --databases db1 db2 >/tmp/user.sql
 ```
 
-*查看读写*
+#### 查看读写
+
 ```sql
 SELECT @@global.read_only, @@global.super_read_only;
 ```
 
 ## 性能优化
+
+### 查看连接数量过多
+
+```bash
+mysql -uxx -pxx -hxx -Pxx -e "dbatman show processlist;" | awk '{print $2" "$4}' | uniq -c | sort -rn
+```
 
 ### 慢查询
 
@@ -122,6 +148,11 @@ show profile cpu, block io for query 6;
 ```
 
 ## 核心概念
+
+### 存储过程
+
+https://www.runoob.com/w3cnote/mysql-stored-procedure.html
+
 
 ### 日志
 
@@ -166,6 +197,26 @@ SET GLOBAL general_log = 'ON';
 
 当连接查询没有where条件时，左连接查询时，前面的表是驱动表，后面的表是被驱动表，右连接查询时相反，内连接查询时，哪张表的数据较少，哪张表就是驱动表
 当连接查询有where条件时，带where条件的表是驱动表，否则是被驱动表
+
+
+## mysql 配置
+
+### ssl 配置
+
+
+- [MySQL Tutorial – Configuring and Managing SSL On Your MySQL Server](https://scalegrid.io/blog/configuring-and-managing-ssl-on-your-mysql-server/)
+
+```bash
+# 关闭ssl
+mysql xxxxx --ssl-mode=DISABLED
+```
+
+```sql
+-- 查看 server ssl 配置
+show variables like '%ssl%';
+```
+
+
 
 
 ## tips

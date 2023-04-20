@@ -431,7 +431,7 @@
                         * [📝ClassLoader](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/类加载/ClassLoader.md)
                         * [📝双亲委派类加载机制](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/JVM/类加载/双亲委派类加载机制.md)
                 * 🗂发行版
-                    * [📝adopt-openjdk](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/发行版/adopt-openjdk.md)
+                    * [📝adoptium](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/发行版/adoptium.md)
                     * [📝oracle-jdk](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/发行版/oracle-jdk.md)
                     * [📝oracle-openjdk](/docs/开发者知识文档/10_WebApp/02_后端/java/01_JDK/发行版/oracle-openjdk.md)
                 * 🗂编译jdk
@@ -1048,6 +1048,9 @@
                         * [📝cut](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/cut.md)
                         * [📝sed](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/sed.md)
                         * [📝xargs](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/xargs.md)
+                    * 🗂密码加密
+                        * [📝GnuPG](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/密码加密/GnuPG.md)
+                        * [📝OpenSSL](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/密码加密/OpenSSL.md)
                     * 🗂性能监控
                         * [📝DTrace](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/性能监控/DTrace.md)
                     * 🗂查看文件
@@ -1068,11 +1071,14 @@
                         * [📝lsblk](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看目录_磁盘/lsblk)
                         * [📝mount](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看目录_磁盘/mount.md)
                         * [📝tree](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/查看目录_磁盘/tree.md)
+                    * 🗂模版渲染
+                        * [📝gomplate](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/模版渲染/gomplate.md)
                     * [📝汇总](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/汇总.md)
                     * 🗂用户管理
                         * [📝su](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/su.md)
                         * [📝sudo](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/sudo.md)
                     * 🗂系统监控
+                        * [📝free](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/free.md)
                         * [📝lscpu](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lscpu.md)
                         * [📝lsmem](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lsmem.md)
                         * [📝top](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/top.md)
@@ -1158,6 +1164,7 @@
                 * 🗂包管理工具
                     * [📝Portage](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/Portage.md)
                     * 🗂apt家族
+                        * [📝add-apt-repository](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/add-apt-repository.md)
                         * [📝apt-cache](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/apt-cache.md)
                         * [📝apt-get](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/apt-get.md)
                         * [📝apt](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/07_包管理工具/apt家族/apt.md)
@@ -1291,6 +1298,7 @@
                         * 🗂图形数据库
                             * [📝Neo4j](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/01_NoSQL数据库/03_图形数据库/Neo4j.md)
                         * 🗂文档类型
+                            * [📝FerretDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/01_NoSQL数据库/04_文档类型/FerretDB.md)
                             * [📝mongodb](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/01_NoSQL数据库/04_文档类型/mongodb.md)
                         * 🗂时序类
                             * [📝OpenTSDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/01_NoSQL数据库/05_时序类/OpenTSDB.md)
@@ -1800,6 +1808,7 @@
                         * [📝Paramiko](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/库/SSHv2协议库/Paramiko.md)
                     * 🗂k8s_client
                         * [📝kubernetes](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/库/k8s_client/kubernetes.md)
+                    * [📝python-setuptools](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/库/python-setuptools.md)
                     * 🗂串口通信库
                         * [📝pyserial](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/库/串口通信库/pyserial.md)
                     * 🗂图像处理库
@@ -1990,8 +1999,10 @@
                 * 🗂NLP
                     * [📝chatGPT](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/NLP/chatGPT.md)
                     * [📝placehodler](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/NLP/placehodler.md)
-                * 🗂代码辅助
-                    * [📝copilot](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/代码辅助/copilot.md)
+                * 🗂开发工具链_代码辅助
+                    * [📝CodeWhisperer](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/开发工具链_代码辅助/CodeWhisperer.md)
+                    * [📝Copilot](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/开发工具链_代码辅助/Copilot.md)
+                    * [📝codeverse](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/开发工具链_代码辅助/codeverse.md)
                 * 🗂推荐
                     * [📝placehodler](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/推荐/placehodler.md)
                 * 🗂自动驾驶
@@ -2127,6 +2138,7 @@
             * [📝NIO](/docs/开发者知识文档/81_系统设计-语言无关/02_高性能_并发/高性能IO/NIO.md)
             * [📝总览](/docs/开发者知识文档/81_系统设计-语言无关/02_高性能_并发/高性能IO/总览.md)
     * 🗂高可用_容灾
+        * [📝容灾演练](/docs/开发者知识文档/81_系统设计-语言无关/03_高可用_容灾/容灾演练.md)
         * [📝高可用理论](/docs/开发者知识文档/81_系统设计-语言无关/03_高可用_容灾/高可用理论.md)
     * 🗂经典课题
         * [📝认证方式](/docs/开发者知识文档/81_系统设计-语言无关/04_经典课题/00_认证方式.md)
@@ -2222,18 +2234,22 @@
         * [📝开源协议区别](/docs/开发者知识文档/99_其他/开源协议/开源协议区别.md)
     * 🗂开源组织
         * [📝Apache](/docs/开发者知识文档/99_其他/开源组织/Apache.md)
+        * [📝Eclipse](/docs/开发者知识文档/99_其他/开源组织/Eclipse.md)
         * [📝FreeSoftareGNU](/docs/开发者知识文档/99_其他/开源组织/FreeSoftareGNU.md)
         * [📝Linux](/docs/开发者知识文档/99_其他/开源组织/Linux.md)
         * [📝OWASP](/docs/开发者知识文档/99_其他/开源组织/OWASP.md)
         * [📝Python](/docs/开发者知识文档/99_其他/开源组织/Python.md)
-        * [📝redhat](/docs/开发者知识文档/99_其他/开源组织/redhat.md)
+        * [📝Redhat](/docs/开发者知识文档/99_其他/开源组织/Redhat.md)
     * [📝我的技术世界观](/docs/开发者知识文档/99_其他/我的技术世界观.md)
     * 🗂抓包工具
         * [📝Charles](/docs/开发者知识文档/99_其他/抓包工具/Charles.md)
+    * 🗂新闻
+        * [📝mail_list](/docs/开发者知识文档/99_其他/新闻/mail_list.md)
     * 🗂流程图工具
         * [📝Plantuml](/docs/开发者知识文档/99_其他/流程图工具/Plantuml.md)
         * [📝UML](/docs/开发者知识文档/99_其他/流程图工具/UML.md)
         * [📝diagrams](/docs/开发者知识文档/99_其他/流程图工具/diagrams.md)
+        * [📝figma](/docs/开发者知识文档/99_其他/流程图工具/figma.md)
         * [📝代码画图](/docs/开发者知识文档/99_其他/流程图工具/代码画图.md)
     * 🗂游戏引擎
         * [📝Cocos3](/docs/开发者知识文档/99_其他/游戏引擎/Cocos3.md)
