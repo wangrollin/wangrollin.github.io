@@ -12,6 +12,7 @@ https://www.runoob.com/linux/linux-comm-tar.html
 tar -czvf xxx.tar.gz from_xxx
 
 # 不带目录信息
+
 tar -czvf /opt/sysin/a.tar.gz -C/opt/sysin/ a.log
 
 ### 解压

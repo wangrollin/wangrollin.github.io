@@ -7,6 +7,15 @@ export KUBECONFIG=/Users/wangrollin/code_base/wb2c-helm/k8s/bigdata/config
 ```
 
 
+## 概念
+
+### 亲和性
+
+污点 taint
+
+容忍度 toleration
+
+
 ## 命令大全
 
 ### 查看集群信息
@@ -16,6 +25,18 @@ kubectl cluster-info
 ### 创建用户
 
 kubectl create serviceaccount spark
+
+### k8s dns 修改
+
+kubectl get cm -A | grep dns
+
+kubectl describe cm coredns -nkube-system
+kubectl edit cm coredns -nkube-system
+
+在hosts部分添加
+ip domain
+
+重启pod才能生效
 
 ### proxy
 
@@ -52,6 +73,7 @@ kubectl patch deployment your_deployment -p "{\"spec\": {\"template\": {\"metada
 kubectl set image deployment/<<deployment-name>> -n=<<namespace>> <<container_name>>=<<your_dockerhub_username>>/<<image_name you want to set now>>:<<tag_of_the_image_you_want>>
 
 kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1
+kubectl set image deploy my-backend -nns my-backend-spec-container-name=image:version
 ```
 
 ### 更新 k8s 资源
@@ -78,6 +100,7 @@ kubectl exec -it podname -n ns -- bash -c "ps -ef"
 ### 查看 cpu mem
 
 kubectl top po -pod-name
+kubectl top po -A
 kubectl top node node-ip
 
 ### 允许/禁止调度到某个节点

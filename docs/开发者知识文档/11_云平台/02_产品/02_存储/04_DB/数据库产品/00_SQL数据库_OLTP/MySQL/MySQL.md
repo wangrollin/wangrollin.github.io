@@ -24,6 +24,7 @@ mysql --version
 
 server
 登录 server 后会打印
+select version();
 
 ### mysql inner cli
 
@@ -201,7 +202,7 @@ SET GLOBAL general_log = 'ON';
 
 ## mysql 配置
 
-### ssl 配置
+### ssl tls 配置
 
 
 - [MySQL Tutorial – Configuring and Managing SSL On Your MySQL Server](https://scalegrid.io/blog/configuring-and-managing-ssl-on-your-mysql-server/)
@@ -214,6 +215,7 @@ mysql xxxxx --ssl-mode=DISABLED
 ```sql
 -- 查看 server ssl 配置
 show variables like '%ssl%';
+show variables like 'tls_version';
 ```
 
 

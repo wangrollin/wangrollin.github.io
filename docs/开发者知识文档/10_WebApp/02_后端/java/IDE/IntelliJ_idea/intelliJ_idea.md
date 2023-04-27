@@ -20,7 +20,7 @@
 - go template
 - javafx runtime for plugin
 - thrift support
-
+- arthas idea
 
 ## 配置
 
