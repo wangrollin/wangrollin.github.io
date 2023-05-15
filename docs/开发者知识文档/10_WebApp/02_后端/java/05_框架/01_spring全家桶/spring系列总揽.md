@@ -125,6 +125,12 @@ https://start.spring.io/actuator/info
 - [Spring Web Services](https://spring.io/projects/spring-ws)
 
 
+## 生态
+
+- [Spring on Kubernetes workshop](https://hackmd.io/@ryanjbaxter/spring-on-k8s-workshop#Spring-on-Kubernetes)
+
+
+
 ## 使用指南
 
 #### 监听服务启动

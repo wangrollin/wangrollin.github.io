@@ -3,11 +3,22 @@
 Docker 使用过程中有许多常用的命令，完整列表可以查看docker help
 
 
-### 镜像搬运工
+## 核心概念
+
+### docker cli
+
+~/.docker/config.json
+
+### docker daemon
+
+/etc/docker/daemon.json
+
+
+## 镜像搬运工
 
 skopeo
 
-### 多平台兼容 arm64 amd64
+## 多平台兼容 arm64 amd64
 
 - [Multi-arch build and images, the simple way](https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/)
 
@@ -38,7 +49,7 @@ docker manifest push your-username/multiarch-example:manifest-latest
 # 构建多架构镜像 tar 的方法
 docker buildx build --platform linux/amd64 --push -t localhost:5000/myimage:amd64 .
 docker buildx build --platform linux/arm64 --push -t localhost:5000/myimage:arm64 .
-docker manifest create myimage:latest myimage:amd64 myimage:arm64
+docker manifest create myimage:latest --amend myimage:amd64 --amend myimage:arm64
 docker manifest push localhost:5000/myimage:latest
 docker image save -o myimage.tar localhost:5000/myimage:latest
 ```
@@ -53,7 +64,7 @@ docker buildx build \
 ```
 
 
-### 阿里云docker镜像服务
+## 阿里云docker镜像服务
 
 ```bash
 docker build -t registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-front:0.0.3 .
@@ -65,16 +76,20 @@ docker push registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-front:0.0.3
 docker run -d -p 80:80 registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-front:0.0.3
 ```
 
-### dockerfile
+## dockerfile
 
 - [菜鸟教程 dockerfile](https://www.runoob.com/docker/docker-dockerfile.html)
 
 
-#### .dockerignore
+### .dockerignore
 
-### 常用命令
+## 常用命令
 
-#### 登录操作
+### 查看版本
+
+docker version
+
+### 登录操作
 
 docker login hub.example.com
 username
@@ -89,7 +104,7 @@ cat ~/.docker/config.json
 	}
 }
 
-#### 镜像操作
+### 镜像操作
 
 ```bash
 docker build -t runoob/ubuntu:v1 . 
@@ -119,13 +134,12 @@ docker save name:version | gzip > name_version.tar.gz
 gunzip -c name_version.tar.gz | docker load
 ```
 
-#### 容器操作
+### 容器操作
 
 ```bash
 docker ps # 查看运行的容器
 docker ps -a # 查看所有的容器
 
-docker container prune # 删除所有停止的容器
 
 docker restart <容器ID或名称> # 重启容器
 
@@ -150,6 +164,38 @@ docker run -d -it adoptopenjdk/openjdk11:latest /bin/bash
 # --rm 运行后就退出，适合执行一次
 docker run -it --rm adoptopenjdk/openjdk11:latest bash -c 'echo can run like a charm'
 ```
+
+### 容器和镜像的磁盘空间
+
+```bash
+# docker镜像和容器空间占用
+docker system df -v | grep GB
+
+# 清理节点镜像缓存，尝试释放空间
+docker system prune -f
+
+docker container prune # 删除所有停止的容器
+docker image prune -a # 删除没有容器使用的镜像
+```
+
+## daemon.json / config.json
+
+/etc/docker/daemon.json
+~/.docker/config.json
+
+### enable experimental
+
+daemon.json
+{
+  "experimental": true
+}
+sudo systemctl restart docker
+
+
+config.json
+{
+  "experimental": "enabled"
+}
 
 
 ## ubuntu如何安装docker

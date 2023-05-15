@@ -15,6 +15,27 @@ export KUBECONFIG=/Users/wangrollin/code_base/wb2c-helm/k8s/bigdata/config
 
 容忍度 toleration
 
+## 暴露服务的方式
+
+### nodeport
+
+### loadbalance
+
+nodeport上 包了一层负载均衡
+
+### ingress
+
+ingress = 微服务网关， 本质：七层反向代理，微服务集中出入口
+
+全部通过一个port来访问，可以设置 cert
+相当于nodeport全部归为80和443，不开放其他端口
+nodeport svc 80 443 -> ingress controller -> ingress(nginx pod) -> svc -> deploy pod
+
+组件
+- ingress controller -- 解决 nginx 如何动态处理配置的问题
+- ingress -- 相当于 yaml 化的 nginx conf
+
+Ingress Controoler 通过与 Kubernetes API 交互，动态的去感知集群中 Ingress 规则变化，然后读取他，按照他自己模板生成一段 Nginx 配置，再写到 Nginx Pod 里，最后 reload 一下
 
 ## 命令大全
 
@@ -45,6 +66,15 @@ kubectl proxy
 ### port forward
 
 kubectl port-forward
+
+### expose 命令
+
+kubectl expose deploy app-name --port=80 --target-port=80 --type=NodePort
+kubectl expose deploy app-name --port=80 --target-port=80 --type=NodePort -o yaml --dry-run > svc.yaml
+
+nodeport -- node
+port -- svc
+target-port -- pod
 
 ### 查看日志
 
@@ -109,6 +139,9 @@ kubectl top node node-ip
 kubectl cordon NODE_NAME
 可以调度
 kubectl uncordon NODE_NAME
+
+### k8s node 时间同步
+
 
 
 ## 添加rancher k8s到本地的k8s context里

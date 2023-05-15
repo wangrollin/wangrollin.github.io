@@ -8,7 +8,6 @@
 - alibaba cloud toolkit
 - alibaba Java coding guidelines
 - sonarLint
-- docker
 - maven helper
 - lombok
 - markdown
@@ -21,6 +20,9 @@
 - javafx runtime for plugin
 - thrift support
 - arthas idea
+- docker
+- kubernetes (by idea)
+
 
 ## 配置
 

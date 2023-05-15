@@ -1,3 +1,4 @@
+
 ## Lynda: Learning Bash Scripting
 
 ```bash

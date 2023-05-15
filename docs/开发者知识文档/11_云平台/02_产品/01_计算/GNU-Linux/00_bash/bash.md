@@ -88,3 +88,17 @@ https://cloud.tencent.com/developer/article/1139965
 
 2>&1
 ```
+
+## 正则匹配
+
+```bash
+s="123"
+regex="[[:digit:]]"
+regex="[0-9]"
+
+if [[ $s =~ $regex ]]; then
+  echo "$s matches $regex"
+else
+  echo "$s doesn't match $regex"
+fi
+```
