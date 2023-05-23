@@ -85,6 +85,10 @@ docker run -d -p 80:80 registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-fron
 
 ## 常用命令
 
+### 启动 docker daemon
+
+systemctl start docker
+
 ### 查看版本
 
 docker version

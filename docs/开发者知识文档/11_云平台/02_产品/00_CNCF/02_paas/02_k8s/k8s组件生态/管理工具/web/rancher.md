@@ -4,16 +4,30 @@ rancher-web
 rancher-desktop
 
 
+## 网页
+
+- [官网](https://rancher.com/)
+- [官网 doc](https://ranchermanager.docs.rancher.com/?_gl=1*es3brl*_ga*MTkzNjEwNjk4My4xNjg0MTIxNjc4*_ga_Y7SFXF9L00*MTY4NDIyNTg2Ni4zLjEuMTY4NDIyNTg4MS40NS4wLjA.)
+- [github](https://github.com/rancher/rancher)
+- [支持的rancher版本](https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/rancher-v2-7-3/)
+
 
 ## 安装rancher
 
+rancher/server 1.x
+rancher/rancher 2.x
+
 ```bash
-sudo docker run -d --name myrancher --restart=unless-stopped -p 8080:8080 rancher/server:stable
+docker run -d --name rancher\
+  --restart=unless-stopped \
+  -p 80:80 -p 443:443 \
+  --privileged \
+  rancher/rancher:stable
+
+docker logs container-id 2>&1 | grep "Bootstrap Password:"
 
 docker logs -f --tail 500 dreamy_morse
 ```
-
-
 
 把azure的aks加入rancher中
 
@@ -109,18 +123,12 @@ TIPS：
 
 在virtualBox里启动一个虚拟机，加载rancherOS，网卡选择桥接模式，IP和宿主机同一网段，可访问外网
 
- 
-
 安装完系统后，执行如下命令安装rancher服务：
 
 docker run -d --restart=unless-stopped \
-
  -p 80:80 -p 443:443 \
-
  -v /var/log/rancher/auditlog:/var/log/auditlog \
-
  -e AUDIT_LEVEL=1 \
-
  rancher/rancher:latest
 
  

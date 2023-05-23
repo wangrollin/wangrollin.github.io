@@ -39,6 +39,11 @@ Ingress Controoler 通过与 Kubernetes API 交互，动态的去感知集群中
 
 ## 命令大全
 
+### 查看版本
+
+kubectl version
+kubectl version --short
+
 ### 查看集群信息
 
 kubectl cluster-info
@@ -46,6 +51,13 @@ kubectl cluster-info
 ### 创建用户
 
 kubectl create serviceaccount spark
+
+### 快速创建 deploy service yaml
+
+kubectl create deployment k8s-demo-app --image localhost:5000/apps/demo -o yaml --dry-run=client > deployment.yaml
+kubectl create service clusterip k8s-demo-app --tcp 80:8080 -o yaml --dry-run=client > service.yaml
+kubectl create configmap log-level --from-literal=LOGGING_LEVEL_ORG_SPRINGFRAMEWORK=DEBUG
+kubectl create configmap k8s-demo-app-config --from-file ./path/to/application.yaml
 
 ### k8s dns 修改
 
@@ -66,6 +78,7 @@ kubectl proxy
 ### port forward
 
 kubectl port-forward
+kubectl port-forward service/k8s-demo-app 8080:80
 
 ### expose 命令
 
@@ -82,19 +95,30 @@ kubectl logs [pod-name] -f
 
 ### 看资源信息 get describe
 
-kubectl get node
+```bash
+# 可以拿到 container runtime
+kubectl get node -o wide
+
 kubectl get deploy
 kubectl get po -A
 kubectl get svc
 kubectl get ingress
+kubectl get crds
+kubectl get componentdefinitions -A
+kubectl get rolebinding
+kubectl get ns
 
 kubectl describe node node-ip
 kubectl describe po po-name
+```
 
 ### 重启 deploy
 
 ```bash
 kubectl patch deployment your_deployment -p "{\"spec\": {\"template\": {\"metadata\": { \"labels\": {  \"redeploy\": \"$(date +%s)\"}}}}}"
+
+kubectl patch service k8s-demo-app -p '{"spec": {"type": "LoadBalancer", "externalIPs":["172.18.0.2"]}}'
+
 ```
 
 ### 更新 deploy 镜像
@@ -104,6 +128,7 @@ kubectl set image deployment/<<deployment-name>> -n=<<namespace>> <<container_na
 
 kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1
 kubectl set image deploy my-backend -nns my-backend-spec-container-name=image:version
+
 ```
 
 ### 更新 k8s 资源
@@ -121,7 +146,7 @@ kubectl scale --replicas=0 deployment/deploy-name -n ns
 
 ### 进入 pod 执行命令
 
-kubectl exec -it podname bash -n ns
+kubectl exec -it podname -n ns -- bash
 
 ### 不进入 pod 执行命令
 
@@ -140,8 +165,10 @@ kubectl cordon NODE_NAME
 可以调度
 kubectl uncordon NODE_NAME
 
-### k8s node 时间同步
+### k8s context
 
+kubectl config current-context
+kubectl config view
 
 
 ## 添加rancher k8s到本地的k8s context里

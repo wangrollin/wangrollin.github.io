@@ -13,9 +13,16 @@ docker run --name docker-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
 ### mysql bash cli
 
 #### client 登录
+
+#### 账号密码
+
 ```bash
 mysql -uroot -ppwd -h127.0.0.1 -P3306
 ```
+
+#### sock方式
+
+mysql -uroot -ppwd -S /opt/tmp/sock/mysql3406.sock
 
 #### 查看 mysql 版本
 
