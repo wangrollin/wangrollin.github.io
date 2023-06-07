@@ -15,6 +15,14 @@ export KUBECONFIG=/Users/wangrollin/code_base/wb2c-helm/k8s/bigdata/config
 
 容忍度 toleration
 
+## 配置
+
+### 从私有仓库拉取镜像
+
+https://kubernetes.io/zh-cn/docs/tasks/configure-pod-container/pull-image-private-registry/
+
+
+
 ## 暴露服务的方式
 
 ### nodeport

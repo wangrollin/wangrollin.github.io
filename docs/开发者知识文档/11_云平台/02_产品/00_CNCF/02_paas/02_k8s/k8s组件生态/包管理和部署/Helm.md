@@ -16,6 +16,16 @@ $ helm search repo bitnami
 $ helm install my-release bitnami/<chart>
 ```
 
+## 插件
+
+### helm-diff
+
+### helm-s3
+
+- [github](https://github.com/hypnoglow/helm-s3)
+
+helm plugin install https://github.com/hypnoglow/helm-s3.git
+
 ## 常用命令
 
 ```bash

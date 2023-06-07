@@ -3,6 +3,12 @@
 
 探索：docker on yarn
 
+## 常用命令
+
+### kill 任务
+
+yarn application -kill app_id
+
 ## 组件
 
 Yarn Node Labels
