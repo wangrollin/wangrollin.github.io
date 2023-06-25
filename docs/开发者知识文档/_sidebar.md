@@ -448,20 +448,26 @@
                         * [📝spi](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/SPI/spi.md)
                     * 🗂URL
                         * [📝UrlEncoder](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/URL/UrlEncoder.md)
-                    * 🗂并发
-                        * [📝总览](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/00_总览.md)
-                        * [📝CAS](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/CAS.md)
-                        * [📝CompletableFuture](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/CompletableFuture.md)
-                        * [📝InheritableThreadLocal](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/InheritableThreadLocal.md)
-                        * [📝LongAdder](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/LongAdder.md)
-                        * [📝Notes_Java并发编程实战](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/Notes_Java并发编程实战.md)
-                        * [📝Striped64](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/Striped64.md)
-                        * [📝ThreadLocal](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/ThreadLocal.md)
-                        * [📝多线程](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/多线程.md)
-                        * [📝相关方法](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/相关方法.md)
-                        * [📝线程池](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/线程池.md)
+                    * 🗂并发_异步
+                        * [📝总览](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/00_总览.md)
+                        * [📝CAS](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/CAS.md)
+                        * [📝CompletableFuture](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/CompletableFuture.md)
+                        * [📝InheritableThreadLocal](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/InheritableThreadLocal.md)
+                        * [📝JTL_JavaThreadLocal](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/JTL_JavaThreadLocal.md)
+                        * [📝LongAdder](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/LongAdder.md)
+                        * [📝Notes_Java并发编程实战](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/Notes_Java并发编程实战.md)
+                        * [📝Striped64](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/Striped64.md)
+                        * 🗂project_loom
+                            * [📝Loom](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/project_loom/00_Loom.md)
+                            * [📝JSV_java_scoped_values](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/project_loom/JSV_java_scoped_values.md)
+                            * [📝结构并发](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/project_loom/结构并发.md)
+                            * [📝虚拟线程_virtual_thread_VT_Loom](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/project_loom/虚拟线程_virtual_thread_VT_Loom.md)
+                        * [📝多线程](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/多线程.md)
+                        * [📝相关方法](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/相关方法.md)
+                        * [📝线程池](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/线程池.md)
                         * 🗂锁
-                            * [📝Synchronized](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发/锁/Synchronized.md)
+                            * [📝ReentrantLock](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/锁/ReentrantLock.md)
+                            * [📝Synchronized](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/锁/Synchronized.md)
                     * 🗂异常
                         * [📝异常类体系](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/异常/异常类体系.md)
                     * 🗂时间
@@ -649,6 +655,10 @@
                     * [📝guice](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/DI框架/guice.md)
                 * 🗂Dropwizard
                     * [📝Dropwizard](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/Dropwizard/Dropwizard.md)
+                * 🗂GPU计算
+                    * [📝JOCL](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/GPU计算/JOCL.md)
+                    * [📝aparapi](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/GPU计算/aparapi.md)
+                    * [📝jcuda](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/GPU计算/jcuda.md)
                 * 🗂SQL相关
                     * [📝Querydsl](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/SQL相关/Querydsl.md)
                 * 🗂javaEE标准组件
@@ -672,6 +682,8 @@
                     * [📝cglib](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/cglib.md)
                     * [📝lombok](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/lombok.md)
                 * 🗂安全认证框架
+                    * 🗂2FA
+                        * [📝java-totp](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/2FA/java-totp.md)
                     * [📝AKSK](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/AKSK.md)
                     * [📝Casbin](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Casbin.md)
                     * [📝JSON-Web-Tokens_JWT](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/JSON-Web-Tokens_JWT.md)
@@ -1022,7 +1034,9 @@
                         * [📝namespace](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/00_机制/namespace.md)
                         * [📝内核模块LKM](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/00_机制/内核模块LKM.md)
                     * 🗂进程管理
-                        * [📝进程管理](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/01_进程管理/进程管理.md)
+                        * [📝进程管理](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/01_进程管理/00_进程管理.md)
+                        * [📝线程_LWP](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/01_进程管理/线程_LWP.md)
+                        * [📝进程_process](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/01_进程管理/进程_process.md)
                     * 🗂进程通信
                         * [📝进程通信](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/01_内核/02_进程通信/进程通信.md)
                     * 🗂内存管理
@@ -1083,6 +1097,7 @@
                                 * [📝SHA-1](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/密码加密/哈希算法/会哈希冲突的/SHA-1.md)
                     * 🗂性能监控
                         * [📝DTrace](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/性能监控/DTrace.md)
+                        * [📝perf](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/性能监控/perf.md)
                     * 🗂时间管理
                         * [📝date](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/时间管理/date.md)
                         * 🗂时间同步
@@ -1113,6 +1128,7 @@
                     * 🗂用户管理
                         * [📝su](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/su.md)
                         * [📝sudo](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/sudo.md)
+                        * [📝useradd](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/useradd.md)
                     * 🗂系统监控
                         * [📝free](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/free.md)
                         * [📝lscpu](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lscpu.md)
@@ -1122,6 +1138,7 @@
                         * [📝base64](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编解码/base64.md)
                     * 🗂编辑文件
                         * [📝chmod](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/chmod.md)
+                        * [📝chown](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/chown.md)
                         * [📝cp](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/cp.md)
                         * [📝emacs](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/emacs.md)
                         * [📝ln](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/ln.md)
@@ -1148,21 +1165,24 @@
                         * [📝wget](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/网络访问/wget.md)
                     * 🗂虚拟化
                         * 🗂系统虚拟机
+                            * [📝VirtualBox](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/系统虚拟机/VirtualBox.md)
+                            * [📝Vmware](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/系统虚拟机/Vmware.md)
                             * 🗂同ISA
                                 * [📝kvm](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/系统虚拟机/同ISA/kvm.md)
                             * 🗂跨ISA
                                 * [📝qemu](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/系统虚拟机/跨ISA/qemu.md)
+                        * [📝虚拟机](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/虚拟机.md)
                         * 🗂进程虚拟机
-                            * [📝VirtualBox](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/VirtualBox.md)
-                            * [📝Vmware](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/Vmware.md)
                             * 🗂同ISA
                                 * 🗂动态二进制优化器
                                     * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/同ISA/动态二进制优化器/placeholder.md)
                             * 🗂跨ISA
-                                * 🗂动态二进制翻译系统
-                                    * [📝DynamicRIO](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/动态二进制翻译系统/DynamicRIO.md)
-                                    * [📝Rosetta](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/动态二进制翻译系统/Rosetta.md)
+                                * 🗂动态二进制翻译系统_DBT
+                                    * [📝DBT](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/动态二进制翻译系统_DBT/00_DBT)
+                                    * [📝DynamicRIO](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/动态二进制翻译系统_DBT/DynamicRIO.md)
+                                    * [📝Rosetta](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/动态二进制翻译系统_DBT/Rosetta.md)
                                 * 🗂高级语言虚拟机_HLLVM
+                                    * [📝HLLVM](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/高级语言虚拟机_HLLVM/00_HLLVM.md)
                                     * [📝Hotspot](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/高级语言虚拟机_HLLVM/Hotspot.md)
                                     * [📝v8](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/高级语言虚拟机_HLLVM/v8.md)
                     * 🗂进程相关
@@ -1439,136 +1459,136 @@
                 * [📝CLB](/docs/开发者知识文档/11_云平台/02_产品/04_网络/负载均衡/CLB.md)
                 * [📝f5](/docs/开发者知识文档/11_云平台/02_产品/04_网络/负载均衡/f5.md)
                 * [📝lvs](/docs/开发者知识文档/11_云平台/02_产品/04_网络/负载均衡/lvs.md)
-        * 🗂研发与运维
+        * 🗂研发与运维_平台工程
             * 🗂oncall平台
-                * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/oncall平台/placeholder.md)
+                * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/oncall平台/placeholder.md)
             * 🗂效能平台
                 * 🗂代码托管平台
                     * 🗂Git
-                        * [📝git](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/Git/git.md)
-                    * [📝分支管理](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/分支管理.md)
+                        * [📝git](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/Git/git.md)
+                    * [📝分支管理](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/分支管理.md)
                     * 🗂平台
-                        * [📝bitbucket](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/平台/bitbucket.md)
-                        * [📝github](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/平台/github.md)
-                        * [📝gitlab](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/平台/gitlab.md)
+                        * [📝bitbucket](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/平台/bitbucket.md)
+                        * [📝github](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/平台/github.md)
+                        * [📝gitlab](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/平台/gitlab.md)
                     * 🗂版本号控制
-                        * [📝Project_Module](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/版本号控制/Project_Module.md)
-                        * [📝Release_Train](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/版本号控制/Release_Train.md)
-                        * [📝日历化版本号](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/版本号控制/日历化版本号.md)
-                        * [📝版本号控制](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/版本号控制/版本号控制.md)
-                        * [📝语义化版本号](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/00_代码托管平台/版本号控制/语义化版本号.md)
+                        * [📝Project_Module](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/版本号控制/Project_Module.md)
+                        * [📝Release_Train](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/版本号控制/Release_Train.md)
+                        * [📝日历化版本号](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/版本号控制/日历化版本号.md)
+                        * [📝版本号控制](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/版本号控制/版本号控制.md)
+                        * [📝语义化版本号](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/00_代码托管平台/版本号控制/语义化版本号.md)
                 * 🗂流水线
-                    * [📝AzurePipelines](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/01_流水线/AzurePipelines.md)
-                    * [📝CircleCI](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/01_流水线/CircleCI.md)
-                    * [📝GitHubActions](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/01_流水线/GitHubActions.md)
-                    * [📝GitLabCI](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/01_流水线/GitLabCI.md)
-                    * [📝Travis](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/01_流水线/Travis.md)
-                    * [📝jenkins](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/01_流水线/jenkins.md)
+                    * [📝AzurePipelines](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/01_流水线/AzurePipelines.md)
+                    * [📝CircleCI](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/01_流水线/CircleCI.md)
+                    * [📝GitHubActions](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/01_流水线/GitHubActions.md)
+                    * [📝GitLabCI](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/01_流水线/GitLabCI.md)
+                    * [📝Travis](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/01_流水线/Travis.md)
+                    * [📝jenkins](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/01_流水线/jenkins.md)
                 * 🗂代码静态检查
                     * 🗂formatter
-                        * [📝Prettier](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/formatter/Prettier.md)
+                        * [📝Prettier](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/formatter/Prettier.md)
                     * 🗂sonar
-                        * [📝sonarCloud](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/sonar/sonarCloud.md)
-                        * [📝sonarqube](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/sonar/sonarqube.md)
+                        * [📝sonarCloud](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/sonar/sonarCloud.md)
+                        * [📝sonarqube](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/sonar/sonarqube.md)
                     * 🗂规则集
-                        * [📝ESLint](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/规则集/ESLint.md)
-                        * [📝PMD](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/规则集/PMD.md)
-                        * [📝checkstyle](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/规则集/checkstyle.md)
-                        * [📝codex](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/规则集/codex.md)
-                        * [📝findbugs](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/02_代码静态检查/规则集/findbugs.md)
+                        * [📝ESLint](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/规则集/ESLint.md)
+                        * [📝PMD](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/规则集/PMD.md)
+                        * [📝checkstyle](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/规则集/checkstyle.md)
+                        * [📝codex](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/规则集/codex.md)
+                        * [📝findbugs](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/02_代码静态检查/规则集/findbugs.md)
                 * 🗂三方件漏洞检查
-                    * [📝Dependabot](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/03_三方件漏洞检查/Dependabot.md)
-                    * [📝Snyk](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/03_三方件漏洞检查/Snyk.md)
+                    * [📝Dependabot](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/03_三方件漏洞检查/Dependabot.md)
+                    * [📝Snyk](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/03_三方件漏洞检查/Snyk.md)
                 * 🗂构件仓库
-                    * [📝artifactory](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/04_构件仓库/artifactory.md)
-                    * [📝nexus](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/04_构件仓库/nexus.md)
+                    * [📝artifactory](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/04_构件仓库/artifactory.md)
+                    * [📝nexus](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/04_构件仓库/nexus.md)
                 * 🗂镜像仓库
-                    * [📝Harbor](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/04_镜像仓库/Harbor.md)
-                    * [📝Quay](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/04_镜像仓库/Quay.md)
-                    * [📝docker_registry](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/04_镜像仓库/docker_registry.md)
-                    * [📝github_registry](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/04_镜像仓库/github_registry.md)
-                    * [📝官方dockerhub](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/04_镜像仓库/官方dockerhub.md)
+                    * [📝Harbor](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/04_镜像仓库/Harbor.md)
+                    * [📝Quay](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/04_镜像仓库/Quay.md)
+                    * [📝docker_registry](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/04_镜像仓库/docker_registry.md)
+                    * [📝github_registry](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/04_镜像仓库/github_registry.md)
+                    * [📝官方dockerhub](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/04_镜像仓库/官方dockerhub.md)
                 * 🗂运维工具
-                    * [📝Ansible](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/Ansible.md)
-                    * [📝Chef](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/Chef.md)
-                    * [📝Puppet](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/Puppet.md)
-                    * [📝SaltStack](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/SaltStack.md)
-                    * [📝fabric](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/fabric.md)
+                    * [📝Ansible](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/Ansible.md)
+                    * [📝Chef](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/Chef.md)
+                    * [📝Puppet](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/Puppet.md)
+                    * [📝SaltStack](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/SaltStack.md)
+                    * [📝fabric](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/fabric.md)
                     * 🗂hashicorp
-                        * [📝Terraform_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/Terraform_by_Hashicorp.md)
-                        * [📝nomad_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/nomad_by_Hashicorp.md)
-                        * [📝packer_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/packer_by_Hashicorp.md)
-                        * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/hashicorp/vagrant_by_Hashicorp.md)
-                    * [📝蓝鲸智云bk-job](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/05_运维工具/蓝鲸智云bk-job.md)
+                        * [📝Terraform_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/hashicorp/Terraform_by_Hashicorp.md)
+                        * [📝nomad_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/hashicorp/nomad_by_Hashicorp.md)
+                        * [📝packer_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/hashicorp/packer_by_Hashicorp.md)
+                        * [📝vagrant_by_Hashicorp](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/hashicorp/vagrant_by_Hashicorp.md)
+                    * [📝蓝鲸智云bk-job](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/05_运维工具/蓝鲸智云bk-job.md)
                 * 🗂自动化测试
                     * 🗂POC-概念验证
-                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/00_POC-概念验证/placeholder.md)
+                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/00_POC-概念验证/placeholder.md)
                     * 🗂UT-单元测试
-                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/01_UT-单元测试/placeholder.md)
+                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/01_UT-单元测试/placeholder.md)
                     * 🗂SIT-集成测试
-                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/02_SIT-集成测试/placeholder.md)
+                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/02_SIT-集成测试/placeholder.md)
                     * 🗂UAT-验收测试
-                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/03_UAT-验收测试/placeholder.md)
+                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/03_UAT-验收测试/placeholder.md)
                     * 🗂API自动化测试
-                        * [📝postman](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/04_API自动化测试/postman.md)
-                        * [📝自动测试](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/04_API自动化测试/自动测试.md)
+                        * [📝postman](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/04_API自动化测试/postman.md)
+                        * [📝自动测试](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/04_API自动化测试/自动测试.md)
                     * 🗂UI自动化测试
-                        * [📝phoenix](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/05_UI自动化测试/phoenix.md)
-                        * [📝selenium](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/05_UI自动化测试/selenium.md)
+                        * [📝phoenix](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/05_UI自动化测试/phoenix.md)
+                        * [📝selenium](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/05_UI自动化测试/selenium.md)
                     * 🗂性能压力自动化测试
-                        * [📝JMeter](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/06_自动化测试/06_性能压力自动化测试/JMeter.md)
+                        * [📝JMeter](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/06_自动化测试/06_性能压力自动化测试/JMeter.md)
                 * 🗂发布策略
-                    * [📝CodeReview](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/07_发布策略/01_CodeReview.md)
-                    * [📝AB测试](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/07_发布策略/AB测试.md)
-                    * [📝单体转微服务](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/07_发布策略/单体转微服务.md)
-                    * [📝金丝雀canary](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/07_发布策略/金丝雀canary.md)
+                    * [📝CodeReview](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/07_发布策略/01_CodeReview.md)
+                    * [📝AB测试](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/07_发布策略/AB测试.md)
+                    * [📝单体转微服务](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/07_发布策略/单体转微服务.md)
+                    * [📝金丝雀canary](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/07_发布策略/金丝雀canary.md)
                 * 🗂分布式部署
-                    * [📝多机房部署-异地多活](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/08_分布式部署/多机房部署-异地多活.md)
+                    * [📝多机房部署-异地多活](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/08_分布式部署/多机房部署-异地多活.md)
                 * 🗂构建工具
-                    * [📝Bazel](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/09_构建工具/Bazel.md)
-                    * [📝Buck](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/09_构建工具/Buck.md)
-                * [📝codepipeline](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/codepipeline.md)
-                * [📝github开发流](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/效能平台/github开发流.md)
+                    * [📝Bazel](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/09_构建工具/Bazel.md)
+                    * [📝Buck](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/09_构建工具/Buck.md)
+                * [📝codepipeline](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/codepipeline.md)
+                * [📝github开发流](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/效能平台/github开发流.md)
             * 🗂观测报警平台
                 * 🗂商业解决方案
-                    * [📝datadog](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_商业解决方案/datadog.md)
+                    * [📝datadog](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_商业解决方案/datadog.md)
                 * 🗂场景
                     * 🗂基础设施监控_网络性能监控NPM
-                        * [📝Zabbix](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/00_基础设施监控_网络性能监控NPM/Zabbix.md)
+                        * [📝Zabbix](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/00_基础设施监控_网络性能监控NPM/Zabbix.md)
                     * 🗂应用监控APM_分布式链路追踪
-                        * [📝OpenTelemetry_Lib](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/00_OpenTelemetry_Lib.md)
-                        * [📝CAT](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/CAT.md)
-                        * [📝Dapper](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/Dapper.md)
-                        * [📝Jaeger](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/Jaeger.md)
-                        * [📝SkyWalking](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/SkyWalking.md)
-                        * [📝pinpoint](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/pinpoint.md)
-                        * [📝sentry](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/sentry.md)
-                        * [📝zipkin](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/zipkin.md)
+                        * [📝OpenTelemetry_Lib](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/00_OpenTelemetry_Lib.md)
+                        * [📝CAT](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/CAT.md)
+                        * [📝Dapper](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/Dapper.md)
+                        * [📝Jaeger](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/Jaeger.md)
+                        * [📝SkyWalking](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/SkyWalking.md)
+                        * [📝pinpoint](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/pinpoint.md)
+                        * [📝sentry](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/sentry.md)
+                        * [📝zipkin](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/01_应用监控APM_分布式链路追踪/zipkin.md)
                     * 🗂真实用户监控RUM
-                        * [📝埋点平台](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/00_场景/02_真实用户监控RUM/埋点平台.md)
+                        * [📝埋点平台](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/00_场景/02_真实用户监控RUM/埋点平台.md)
                 * 🗂Metric_Alarm
                     * 🗂打点收集和报警
                         * 🗂打点存储
-                            * [📝时序数据库](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/01_Metric_Alarm/00_打点收集和报警/01_打点存储/时序数据库.md)
+                            * [📝时序数据库](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/00_打点收集和报警/01_打点存储/时序数据库.md)
                         * 🗂规则引擎
-                            * [📝bosun](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/01_Metric_Alarm/00_打点收集和报警/01_规则引擎/bosun.md)
-                        * [📝prometheus](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/01_Metric_Alarm/00_打点收集和报警/prometheus.md)
+                            * [📝bosun](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/00_打点收集和报警/01_规则引擎/bosun.md)
+                        * [📝prometheus](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/00_打点收集和报警/prometheus.md)
                         * 🗂高可用
-                            * [📝Thanos](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/01_Metric_Alarm/00_打点收集和报警/高可用/Thanos.md)
+                            * [📝Thanos](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/00_打点收集和报警/高可用/Thanos.md)
                     * 🗂可视化看板
-                        * [📝grafana](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/01_Metric_Alarm/01_可视化看板/grafana.md)
+                        * [📝grafana](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/01_可视化看板/grafana.md)
                 * 🗂AppLog_Alarm
                     * 🗂日志收集
-                        * [📝fluentd](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/02_AppLog_Alarm/00_日志收集/fluentd.md)
-                        * [📝logstash](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/02_AppLog_Alarm/00_日志收集/logstash.md)
+                        * [📝fluentd](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/00_日志收集/fluentd.md)
+                        * [📝logstash](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/00_日志收集/logstash.md)
                     * 🗂索引
-                        * [📝Elastalert](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/02_AppLog_Alarm/01_索引/Elastalert.md)
+                        * [📝Elastalert](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/01_索引/Elastalert.md)
                     * 🗂可视化
-                        * [📝Graphite](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/02_AppLog_Alarm/02_可视化/Graphite.md)
-                        * [📝Zipkin](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/02_AppLog_Alarm/02_可视化/Zipkin.md)
-                        * [📝kibana](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/02_AppLog_Alarm/02_可视化/kibana.md)
+                        * [📝Graphite](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/02_可视化/Graphite.md)
+                        * [📝Zipkin](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/02_可视化/Zipkin.md)
+                        * [📝kibana](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/02_可视化/kibana.md)
                     * 🗂报警规则和报警服务
-                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维/观测报警平台/02_AppLog_Alarm/03_报警规则和报警服务/placeholder.md)
+                        * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/03_报警规则和报警服务/placeholder.md)
         * 🗂中间件
             * 🗂CMS网站生成器
                 * [📝MCms](/docs/开发者知识文档/11_云平台/02_产品/06_中间件/CMS网站生成器/MCms.md)
@@ -1829,6 +1849,7 @@
                     * [📝Anaconda](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/python发行版/Anaconda.md)
                     * [📝stackless](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/python发行版/stackless.md)
                 * 🗂可运行包
+                    * [📝qrcode](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/可运行包/qrcode.md)
                     * [📝webssh](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/可运行包/webssh.md)
                 * 🗂基础
                     * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/00_Python/基础/Lynda_Python_Essential_Training.md)
@@ -2027,6 +2048,8 @@
                                     * [📝prompt](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/02_算法_学习_模型/02_模型/神经网络/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/prompt.md)
                                     * [📝token](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/02_算法_学习_模型/02_模型/神经网络/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/token.md)
                                     * [📝多模态](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/02_算法_学习_模型/02_模型/神经网络/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/多模态.md)
+                                    * [📝多语言转换能力](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/02_算法_学习_模型/02_模型/神经网络/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/多语言转换能力.md)
+                                    * [📝模型的具体任务](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/02_算法_学习_模型/02_模型/神经网络/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/模型的具体任务.md)
                             * 🗂语音转文字
                                 * [📝BigSSL](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/02_算法_学习_模型/02_模型/神经网络/03_各领域的预训练模型/02_语音转文字/BigSSL.md)
                                 * [📝DecoAR](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/02_算法_学习_模型/02_模型/神经网络/03_各领域的预训练模型/02_语音转文字/DecoAR.md)
@@ -2084,12 +2107,16 @@
                     * [📝codeium](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/开发工具链_代码辅助/codeium.md)
                     * [📝codeverse](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/开发工具链_代码辅助/codeverse.md)
                     * [📝cursor](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/开发工具链_代码辅助/cursor.md)
+                    * [📝poe](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/开发工具链_代码辅助/poe.md)
                 * 🗂推荐
                     * [📝placehodler](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/推荐/placehodler.md)
                 * 🗂聊天工具_NLP
                     * [📝chatGPT](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/聊天工具_NLP/chatGPT.md)
                 * 🗂自动驾驶
                     * [📝placehodler](/docs/开发者知识文档/11_云平台/02_产品/12_AI平台/99_行业解决方案/自动驾驶/placehodler.md)
+        * 🗂LLMOps
+            * 🗂prompt工程
+                * [📝placeholder](/docs/开发者知识文档/11_云平台/02_产品/13_LLMOps/prompt工程/placeholder.md)
     * 🗂解决方案
         * [📝placeholder](/docs/开发者知识文档/11_云平台/03_解决方案/placeholder.md)
 * 🗂阿里云
@@ -2252,10 +2279,15 @@
     * [📝系统设计](/docs/开发者知识文档/81_系统设计-语言无关/系统设计.md)
     * 🗂缓存理论
         * [📝缓存常见问题](/docs/开发者知识文档/81_系统设计-语言无关/缓存理论/缓存常见问题.md)
+    * 🗂翻译方式
+        * [📝AOT](/docs/开发者知识文档/81_系统设计-语言无关/翻译方式/AOT.md)
+        * [📝JIT](/docs/开发者知识文档/81_系统设计-语言无关/翻译方式/JIT.md)
     * 🗂认证
         * 🗂用户维度
             * [📝OAuth2](/docs/开发者知识文档/81_系统设计-语言无关/认证/01_用户维度/01_OAuth2.md)
             * [📝OpenID_Connect_OIDC](/docs/开发者知识文档/81_系统设计-语言无关/认证/01_用户维度/02_OpenID_Connect_OIDC.md)
+            * 🗂MFA_多重身份验证
+                * [📝2FA_双因子认证_TOTP](/docs/开发者知识文档/81_系统设计-语言无关/认证/01_用户维度/MFA_多重身份验证/2FA_双因子认证_TOTP.md)
             * [📝SSO](/docs/开发者知识文档/81_系统设计-语言无关/认证/01_用户维度/SSO.md)
         * 🗂服务维度
             * [📝AKSK](/docs/开发者知识文档/81_系统设计-语言无关/认证/02_服务维度/AKSK.md)

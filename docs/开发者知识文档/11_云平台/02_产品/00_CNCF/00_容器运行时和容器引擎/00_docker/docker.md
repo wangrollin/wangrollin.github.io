@@ -135,6 +135,7 @@ docker save -o image.tar <镜像ID或名称> # 将镜像保存到文件
 docker load -i image.tar # 从文件载入镜像
 
 docker save name:version | gzip > name_version.tar.gz
+docker load -i image.tar.gz # 从文件载入镜像
 gunzip -c name_version.tar.gz | docker load
 ```
 

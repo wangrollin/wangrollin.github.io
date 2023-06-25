@@ -26,7 +26,28 @@ $ helm install my-release bitnami/<chart>
 
 helm plugin install https://github.com/hypnoglow/helm-s3.git
 
+## helm yaml
+
+### 多行引用
+
+```yaml
+          command:
+            - /bin/bash
+          args:
+            - -c
+            - |
+            {{- range .Values.global.args}}
+                  {{ print . }}
+            {{- end }}
+```
+
 ## 常用命令
+
+### 渲染template
+
+helm template ins-name repo-name/chart-name
+
+### 其他
 
 ```bash
 # 安装 Helm
@@ -65,7 +86,9 @@ helm upgrade --reset-values # clear 配置
 
 # 安装/卸载 charts
 helm install bitnami/mysql --generate-name
+helm install bitnami/mysql --generate-name --set myvalue=123
 helm install my-mysql bitnami/mysql
+helm install my-mysql bitnami/mysql --version 8.3.1
 helm install foo path/to/foo
 helm install foo foo-0.1.1.tgz
 helm install foo https://example.com/charts/foo-1.2.3.tgz

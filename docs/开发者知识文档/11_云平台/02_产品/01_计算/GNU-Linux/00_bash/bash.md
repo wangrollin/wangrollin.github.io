@@ -89,6 +89,14 @@ https://cloud.tencent.com/developer/article/1139965
 2>&1
 ```
 
+### 让命令返回 exit 0
+
+helm delete xxxx || true
+
+### if else 一行写法
+
+test -e 文件路径 && echo "文件存在" || echo "文件不存在"
+
 ## 正则匹配
 
 ```bash

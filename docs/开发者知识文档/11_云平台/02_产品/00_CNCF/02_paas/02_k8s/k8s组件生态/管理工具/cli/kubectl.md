@@ -45,6 +45,22 @@ nodeport svc 80 443 -> ingress controller -> ingress(nginx pod) -> svc -> deploy
 
 Ingress Controoler 通过与 Kubernetes API 交互，动态的去感知集群中 Ingress 规则变化，然后读取他，按照他自己模板生成一段 Nginx 配置，再写到 Nginx Pod 里，最后 reload 一下
 
+## yaml 写法
+
+### 多条命令
+
+```yaml
+          command:
+            - /bin/bash
+          args:
+            - -c
+            - |
+              sleep 1000;
+              sleep 1000;
+              sleep 1000;
+```
+
+
 ## 命令大全
 
 ### 查看版本
