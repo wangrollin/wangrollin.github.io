@@ -959,6 +959,8 @@
                             * 🗂Ingress
                                 * [📝traefik](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/k8s组件生态/网络/Ingress/traefik.md)
                     * [📝kubernetes概览](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/kubernetes概览.md)
+                    * 🗂特性
+                        * [📝serviceaccount](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/02_k8s/特性/serviceaccount.md)
                 * 🗂微服务架构
                     * 🗂service_mesh
                         * [📝SOFAMesh](/docs/开发者知识文档/11_云平台/02_产品/00_CNCF/02_paas/03_微服务架构/01_service_mesh/SOFAMesh.md)
@@ -1083,6 +1085,7 @@
                         * [📝awk](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/awk.md)
                         * [📝cut](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/cut.md)
                         * [📝sed](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/sed.md)
+                        * [📝tr](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/tr.md)
                         * [📝xargs](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/字符串处理/xargs.md)
                     * 🗂密码加密
                         * 🗂加密协议
@@ -1126,9 +1129,12 @@
                         * [📝gomplate](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/模版渲染/gomplate.md)
                     * [📝汇总](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/汇总.md)
                     * 🗂用户管理
+                        * [📝groupadd](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/groupadd.md)
                         * [📝su](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/su.md)
                         * [📝sudo](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/sudo.md)
                         * [📝useradd](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/useradd.md)
+                        * [📝userdel](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/userdel.md)
+                        * [📝usermod](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/usermod.md)
                     * 🗂系统监控
                         * [📝free](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/free.md)
                         * [📝lscpu](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lscpu.md)
@@ -1651,6 +1657,7 @@
                     * 🗂OLAP_DB
                         * [📝Clickhouse](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/Clickhouse.md)
                         * 🗂MPP-DB
+                            * [📝hologres](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/hologres.md)
                             * [📝starRocks](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/starRocks.md)
                         * 🗂hbase
                             * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/Lynda_HBase_Essential_Training.md)
