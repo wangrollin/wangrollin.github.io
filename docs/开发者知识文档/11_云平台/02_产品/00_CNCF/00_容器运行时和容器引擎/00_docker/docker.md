@@ -119,6 +119,7 @@ docker run -d xxx # 后台执行
 docker run -w xxx # 指定工作目录
 docker run -it xxx /bin/sh # 容器不会退出
 docker run -it --entrypoint bash xxx
+docker run --user $(id -u user1):$(id -g user1) -it xxx bash
 
 docker images # 查看镜像
 docker image inspect xxx

@@ -1,4 +1,5 @@
 
+echo $UID
 
 cat /etc/passwd
 

@@ -1130,6 +1130,7 @@
                     * [📝汇总](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/汇总.md)
                     * 🗂用户管理
                         * [📝groupadd](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/groupadd.md)
+                        * [📝id](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/id.md)
                         * [📝su](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/su.md)
                         * [📝sudo](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/sudo.md)
                         * [📝useradd](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/useradd.md)
@@ -1657,8 +1658,9 @@
                     * 🗂OLAP_DB
                         * [📝Clickhouse](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/Clickhouse.md)
                         * 🗂MPP-DB
+                            * [📝ApacheDoris](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/ApacheDoris.md)
+                            * [📝DorisDB_StarRocks](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/DorisDB_StarRocks.md)
                             * [📝hologres](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/hologres.md)
-                            * [📝starRocks](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/starRocks.md)
                         * 🗂hbase
                             * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/Lynda_HBase_Essential_Training.md)
                             * [📝hbase](/docs/开发者知识文档/11_云平台/02_产品/11_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/hbase.md)

@@ -60,6 +60,46 @@ Ingress Controoler 通过与 Kubernetes API 交互，动态的去感知集群中
               sleep 1000;
 ```
 
+### pod run as 宿主机上的某个用户
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  securityContext:
+    runAsUser: 1000
+    runAsGroup: 1000
+```
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  initContainers:
+  - name: init
+    image: <image_name>
+    command: ["sh", "-c", "echo \"user1:x:$(id -u user1):$(id -g user1):User 1:/home/user1:/bin/bash\" >> /etc/passwd"]
+    volumeMounts:
+    - name: passwd-file
+      mountPath: /etc/passwd
+  containers:
+  - name: my-container
+    image: <image_name>
+    command: ["<command>"]
+    volumeMounts:
+    - name: passwd-file
+      mountPath: /etc/passwd
+  volumes:
+  - name: passwd-file
+    hostPath:
+      path: /etc/passwd
+      type: File
+```
+
 
 ## 命令大全
 
