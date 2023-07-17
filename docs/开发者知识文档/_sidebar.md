@@ -1141,6 +1141,7 @@
                         * [📝lscpu](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lscpu.md)
                         * [📝lsmem](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/lsmem.md)
                         * [📝top](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/top.md)
+                        * [📝uptime](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/系统监控/uptime.md)
                     * 🗂编解码
                         * [📝base64](/docs/开发者知识文档/11_云平台/02_产品/01_计算/GNU-Linux/02_GNU和其他工具软件/编解码/base64.md)
                     * 🗂编辑文件
@@ -1389,9 +1390,9 @@
                         * [📝Cassandra](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/01_NoSQL数据库/Cassandra.md)
                         * [📝Couchbase](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/01_NoSQL数据库/Couchbase.md)
                     * 🗂NewSQL
+                        * [📝OceanBase](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/02_NewSQL/OceanBase.md)
                         * [📝PolarDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/02_NewSQL/PolarDB.md)
                         * [📝TiDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/02_NewSQL/TiDB.md)
-                        * [📝oceanDB](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/02_NewSQL/oceanDB.md)
                     * [📝Druid](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/Druid.md)
                     * [📝Kudu](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/Kudu.md)
                     * [📝db2](/docs/开发者知识文档/11_云平台/02_产品/02_存储/04_DB/数据库产品/db2.md)
@@ -1583,7 +1584,10 @@
                         * 🗂高可用
                             * [📝Thanos](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/00_打点收集和报警/高可用/Thanos.md)
                     * 🗂可视化看板
-                        * [📝grafana](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/01_可视化看板/grafana.md)
+                        * 🗂grafana_labs
+                            * [📝Promtail](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/01_可视化看板/grafana_labs/Promtail.md)
+                            * [📝grafana](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/01_可视化看板/grafana_labs/grafana.md)
+                            * [📝loki](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/01_Metric_Alarm/01_可视化看板/grafana_labs/loki.md)
                 * 🗂AppLog_Alarm
                     * 🗂日志收集
                         * [📝fluentd](/docs/开发者知识文档/11_云平台/02_产品/05_研发与运维_平台工程/观测报警平台/02_AppLog_Alarm/00_日志收集/fluentd.md)
