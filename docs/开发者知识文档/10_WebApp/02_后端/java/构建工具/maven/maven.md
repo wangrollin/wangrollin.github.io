@@ -4,6 +4,15 @@
 - [官网](https://maven.apache.org/index.html)
 
 
+## 检查jar class 冲突
+
+三种方法
+
+mvn dependency:tree -Dmaven.test.skip=true
+maven helper
+grep 'javax.servlet.ServletContext' -r lib
+-XX:+TraceClassLoading
+
 ## 最近常用的maven命令
 
 ```bash
