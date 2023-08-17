@@ -28,6 +28,12 @@ Host example3
   User userxyz123
   Port 56000
 
+Host devbox
+    HostName 1.1.1.1
+    User root
+    Port 22
+    IdentityFile /Users/admin/.ssh/id_rsa
+
 Host amazon1
   HostName ec2.amazon.com
   User ec2-user
