@@ -32,3 +32,11 @@ git rev-parse HEAD
 git rev-parse --verify HEAD
 
 git rev-parse --short HEAD
+
+## 拉取新分支
+
+git checkout -b bname origin/bname
+
+## 删除分支
+
+git branch -d bname

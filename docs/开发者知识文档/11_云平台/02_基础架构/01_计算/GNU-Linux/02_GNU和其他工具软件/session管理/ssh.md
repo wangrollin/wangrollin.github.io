@@ -1,6 +1,22 @@
 
 - [doc: ssh_config — OpenSSH client configuration file](http://man.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/ssh_config.5?query=ssh_config&sec=5)
 
+## 指定 private key 登录
+
+```bash
+ssh -i ~/Deploy.key UserName@HostIP
+```
+
+## 配置 ssh 默认 private key
+
+默认使用 id_rsa
+
+```
+Host *
+    IdentityFile ~/.ssh/id_rsa
+```
+
+上述配置将 `~/.ssh/id_rsa` 设置为默认的身份验证私钥文件。如果您的私钥文件名不是 `id_rsa`，请相应地修改 `IdentityFile` 的路径。
 
 ## 配置 ssh config
 

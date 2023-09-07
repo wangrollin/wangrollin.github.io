@@ -15,6 +15,25 @@ grep 'javax.servlet.ServletContext' -r lib
 
 ## 最近常用的maven命令
 
+### -T
+
+在 Maven 中，`-T` 参数用于指定并行构建的级别。它允许您在构建项目时并行执行多个模块的构建任务，以提高构建速度。
+
+`-T` 参数后面可以跟着一个级别值，表示并行构建的级别。常用的级别值包括：
+
+- `1C`：表示串行构建，即不并行执行构建任务。
+- `C`：表示以多线程方式构建模块，但每个模块的构建任务是串行执行的。
+- `N`：表示以多线程方式构建模块，并行执行 N 个模块的构建任务。
+
+例如，如果您有一个包含多个模块的 Maven 项目，并且想要以并行方式构建这些模块，可以使用 `-T` 参数来指定并行级别。例如，`-T 4` 表示同时构建 4 个模块的构建任务。
+
+请注意，`-T` 参数的实际效果可能受到项目的结构、依赖关系和硬件资源的限制影响。在设置并行级别时，需要根据项目的特点和硬件配置进行适当的调整，以避免资源竞争和性能问题。
+
+更多关于 Maven 并行构建的信息可以参考 Maven 官方文档中的并行构建部分：[https://maven.apache.org/guides/mini/guide-parallel-builds.html ↗](https://maven.apache.org/guides/mini/guide-parallel-builds.html)
+
+
+### 其他
+
 ```bash
 mvn clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true -U
 
@@ -77,6 +96,15 @@ maven 3.6.1版本有bug，尽量不要使用
 
 
 ## Q&A tips
+
+### 报错 Malformed \uxxxx encoding
+
+添加 -X 参数，最后一行就是有问题的jar，删掉重新构建
+
+mvn clean install -X
+
+
+### 其他
 
 > 让plugin 继承
 

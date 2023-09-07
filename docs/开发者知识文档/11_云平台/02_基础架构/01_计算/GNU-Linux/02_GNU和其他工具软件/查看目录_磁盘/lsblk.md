@@ -1,2 +1,2 @@
 
-lsblk
+lsblk -f
