@@ -60,6 +60,10 @@ ssh betterdev
 
 ## tips
 
+### xxx.pem 处理
+
+chmod 400 xxx.pem
+
 ### 通过 ssh-key 登录
 
 ```bash
