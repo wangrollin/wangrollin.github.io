@@ -135,6 +135,11 @@ ip domain
 
 重启pod才能生效
 
+### 根据ip查看pod
+
+kubectl get pods --field-selector=status.podIP=ip
+kubectl get po -A -o wide | grep ip
+
 ### proxy
 
 kubectl proxy

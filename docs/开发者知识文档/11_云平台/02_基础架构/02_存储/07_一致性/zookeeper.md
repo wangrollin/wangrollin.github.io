@@ -29,6 +29,7 @@ ZK 本质上，可以看作一种特殊的 FS
 ls /xxx/xxx
 get /xxx/xxx
 delete /xxx/xxx
+stat /xxx/xxx
 ```
 
 
