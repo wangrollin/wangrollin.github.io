@@ -650,6 +650,8 @@
                         * [📝springSecurity](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/05_SpringSecurity/springSecurity.md)
                     * 🗂springSession
                         * [📝springSession](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/06_springSession/springSession.md)
+                    * 🗂springShell
+                        * [📝springShell](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/07_springShell/springShell.md)
                     * 🗂springCloudDataFlow
                         * [📝springCloudDataFlow](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/springCloudDataFlow/springCloudDataFlow.md)
                     * 🗂springIntegration
@@ -1366,6 +1368,8 @@
                                 * [📝MySQL_Shell](/docs/开发者知识文档/11_云平台/02_基础架构/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/MySQL_Shell.md)
                                 * [📝全同步](/docs/开发者知识文档/11_云平台/02_基础架构/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/全同步.md)
                                 * [📝无损半同步复制](/docs/开发者知识文档/11_云平台/02_基础架构/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL/集群方案/无损半同步复制.md)
+                        * 🗂MySQL兼容DB
+                            * [📝MariaDB](/docs/开发者知识文档/11_云平台/02_基础架构/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/MySQL兼容DB/MariaDB.md)
                         * 🗂PostgreSQL
                             * [📝PostgreSQL](/docs/开发者知识文档/11_云平台/02_基础架构/02_存储/04_DB/数据库产品/00_SQL数据库_OLTP/PostgreSQL/PostgreSQL.md)
                             * 🗂衍生发行版
@@ -1853,6 +1857,10 @@
                     * 🗂WeDataSphere
                         * [📝WeDataSphere](/docs/开发者知识文档/11_云平台/03_数据平台/99_其他/00_整体解决方案/开源/WeDataSphere/WeDataSphere.md)
             * 🗂理论概念
+                * 🗂DP范式
+                    * [📝data_lake](/docs/开发者知识文档/11_云平台/03_数据平台/99_其他/00_理论概念/DP范式/data_lake.md)
+                    * [📝kappa](/docs/开发者知识文档/11_云平台/03_数据平台/99_其他/00_理论概念/DP范式/kappa.md)
+                    * [📝lambda](/docs/开发者知识文档/11_云平台/03_数据平台/99_其他/00_理论概念/DP范式/lambda.md)
                 * [📝OLAP](/docs/开发者知识文档/11_云平台/03_数据平台/99_其他/00_理论概念/OLAP.md)
                 * [📝PLTP](/docs/开发者知识文档/11_云平台/03_数据平台/99_其他/00_理论概念/PLTP.md)
                 * 🗂规范
@@ -2359,6 +2367,7 @@
         * [📝echosite](/docs/开发者知识文档/99_其他/SSL证书/echosite.md)
         * [📝ssl证书](/docs/开发者知识文档/99_其他/SSL证书/ssl证书.md)
         * [📝自认证证书](/docs/开发者知识文档/99_其他/SSL证书/自认证证书.md)
+    * [📝rss](/docs/开发者知识文档/99_其他/rss.md)
     * [📝snakeyaml](/docs/开发者知识文档/99_其他/snakeyaml.md)
     * 🗂上网方式
         * [📝ShadowsocksR_SSR](/docs/开发者知识文档/99_其他/上网方式/ShadowsocksR_SSR.md)

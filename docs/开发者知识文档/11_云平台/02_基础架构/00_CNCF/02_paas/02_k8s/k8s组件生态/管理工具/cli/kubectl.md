@@ -247,6 +247,18 @@ kubectl uncordon NODE_NAME
 kubectl config current-context
 kubectl config view
 
+### 操作 configmap
+
+```bash
+kubectl create cm xxx
+# 查
+kubectl get configmap <configmap-name> -o yaml
+kubectl get configmap dataleap-state -o json
+kubectl get configmap <configmap-name> -o jsonpath="{.data.<key-name>}"
+# 增、删、改
+kubectl patch configmap <configmap-name> -p '{"data":{"<key-name>":"<new-value>"}}'
+kubectl patch configmap <configmap-name> -p '{"data":{"<key-name>": null}}'
+```
 
 ## 添加rancher k8s到本地的k8s context里
 

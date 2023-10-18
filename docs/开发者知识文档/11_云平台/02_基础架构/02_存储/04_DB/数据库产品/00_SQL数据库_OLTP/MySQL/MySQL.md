@@ -117,6 +117,22 @@ mysqldump -h xxx -P xxx -u root -p --databases db1 db2 >/tmp/user.sql
 SELECT @@global.read_only, @@global.super_read_only;
 ```
 
+#### 查看和设置事务隔离级别
+
+READ UNCOMMITTED：读取未提交的数据
+READ COMMITTED：读取已提交的数据（默认级别）
+REPEATABLE READ：可重复读
+SERIALIZABLE：可串行化
+
+```sql
+show variables like '%tx_isolation%';
+select @@tx_isolation;
+SELECT @@global.tx_isolation;
+SELECT @@session.tx_isolation;
+
+SET GLOBAL TRANSACTION ISOLATION LEVEL READ COMMITTED;
+```
+
 ## 性能优化
 
 ### 查看连接数量过多
