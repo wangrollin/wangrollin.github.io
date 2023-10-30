@@ -4,7 +4,7 @@
 ### mysql docker
 
 ```bash
-docker run --name docker-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
+docker run --name docker-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root_pwd -d mysql
 ```
 
 ### mysql bash cli
@@ -30,12 +30,47 @@ server
 登录 server 后会打印
 select version();
 
+#### 非交互式命令
+
+```bash
+mysql -uroot -ppwd -h127.0.0.1 -P3306 -e "CREATE DATABASE your_database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+
+mysql -uroot -ppwd -h127.0.0.1 -P3306 < my_schema.sql
+```
+
 ### mysql inner cli
 
 #### 创建databases
 ```sql
 CREATE DATABASE `db_test`;
+CREATE DATABASE your_database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 drop DATABASE `db_test`;
+```
+
+#### 查看/修改字符集
+
+```sql
+SHOW VARIABLES LIKE 'character_set_server';
+SHOW VARIABLES LIKE 'collation_server';
+
+USE your_database_name;
+SHOW VARIABLES LIKE 'character_set_database';
+SHOW VARIABLES LIKE 'collation_database';
+
+-- 修改服务器字符集
+SET character_set_server = 'charset_name';
+
+-- 修改服务器校对规则
+SET collation_server = 'collation_name';
+
+-- 修改数据库字符集
+ALTER DATABASE your_database_name CHARACTER SET 'charset_name';
+
+-- 修改表字符集
+ALTER TABLE your_table_name CONVERT TO CHARACTER SET 'charset_name';
+
+-- 修改列字符集
+ALTER TABLE your_table_name MODIFY column_name column_type CHARACTER SET 'charset_name';
 ```
 
 #### 查看、使用数据库，查看表
@@ -44,6 +79,9 @@ drop DATABASE `db_test`;
 show databases;
 use db_name;
 show tables;
+
+# 查看创建的命令
+SHOW CREATE TABLE table_name;
 ```
 
 #### 执行sql脚本

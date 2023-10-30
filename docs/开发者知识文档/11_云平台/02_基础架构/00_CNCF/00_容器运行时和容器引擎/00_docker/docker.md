@@ -169,6 +169,9 @@ docker run -d -it adoptopenjdk/openjdk11:latest /bin/bash
 
 # --rm 运行后就退出，适合执行一次
 docker run -it --rm adoptopenjdk/openjdk11:latest bash -c 'echo can run like a charm'
+
+# 查看具体信息的列
+docker ps --format "{{.Image}}\t{{.Status}}"
 ```
 
 ### 容器和镜像的磁盘空间
