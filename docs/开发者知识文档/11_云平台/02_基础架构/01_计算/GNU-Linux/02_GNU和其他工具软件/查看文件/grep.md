@@ -16,3 +16,9 @@ grep -B 10 之前
 
 grep -v -E 'a|b|c'
 
+
+在b中存在，在a中不存在的行
+
+```
+grep -v -f a b
+```

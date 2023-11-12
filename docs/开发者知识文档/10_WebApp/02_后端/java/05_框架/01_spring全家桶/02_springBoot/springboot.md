@@ -25,6 +25,14 @@
 
 - [Spring Boot 解决跨域问题的 3 种方案](https://mp.weixin.qq.com/s/F3qf4cFxpkPWu3XpBaLvVw)
 
+## 运行时传递参数
+
+java -jar app.yaml --server.host="x.x.x.x"
+
+or
+
+export SERVER_HOST="x.x.x.x" && java -jar app.yaml
+
 
 ## Spring Boot: how to use multiple yml files
 

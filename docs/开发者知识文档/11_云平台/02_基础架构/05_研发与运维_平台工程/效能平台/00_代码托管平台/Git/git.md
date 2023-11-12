@@ -40,3 +40,8 @@ git checkout -b bname origin/bname
 ## 删除分支
 
 git branch -d bname
+
+## 推送tag
+
+git push --tag
+

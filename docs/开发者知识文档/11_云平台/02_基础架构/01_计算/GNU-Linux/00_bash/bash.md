@@ -97,6 +97,13 @@ helm delete xxxx || true
 
 test -e 文件路径 && echo "文件存在" || echo "文件不存在"
 
+### 变量1的值作为变量2的key
+
+```
+user_w=${module}_MYSQL_USER_W
+echo "${!user_w}"
+```
+
 ## 正则匹配
 
 ```bash

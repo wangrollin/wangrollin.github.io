@@ -16,4 +16,6 @@ XxxData dataObj = JSONObject.parseObject("object string", XxxData.class);
 
 String str = JSONObject.toJSONString(new XxxData());
 
+JSON.toJSONString(object.toJSONString(), SerializerFeature.PrettyFormat)
+
 ```
