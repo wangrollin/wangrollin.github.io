@@ -20,6 +20,12 @@ apt install python3 python3-distutils python-is-python3
 
 ## tips
 
+### 打印 error
+
+```python
+logger.error(f"fail to xxx, error:\n {traceback.format_exc()}")
+```
+
 ### 模块
 
 __init__.py 文件的作用是将文件夹变为一个Python模块,Python 中的每个模块的包中，都有__init__.py 文件
