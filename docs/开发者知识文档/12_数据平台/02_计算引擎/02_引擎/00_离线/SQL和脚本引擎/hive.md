@@ -14,6 +14,8 @@
 
 ## hiveServer2
 
+hms 用来访问表的元数据
+hiveserver2 用来访问表的数据
 
 ## 数据倾斜
 

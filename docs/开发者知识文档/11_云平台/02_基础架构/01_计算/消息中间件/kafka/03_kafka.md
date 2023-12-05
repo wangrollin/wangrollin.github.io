@@ -5,6 +5,9 @@
 - [Kafka基础27问](https://zhuanlan.zhihu.com/p/149421092)
 
 
+## 页面工具
+
+https://github.com/obsidiandynamics/kafdrop
 
 ## 常用命令行
 
