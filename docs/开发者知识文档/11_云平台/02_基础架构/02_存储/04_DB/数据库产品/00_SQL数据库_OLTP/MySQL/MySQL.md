@@ -143,6 +143,17 @@ INSERT INTO Websites (name, country)
 SELECT app_name, country FROM apps;
 ```
 
+#### 执行sql文件
+
+```sql
+source /path/to/file.sql;
+```
+
+```bash
+mysql -u username -p database_name < /path/to/file.sql
+mysql -u username -p -e "source /path/to/file.sql" database_name
+```
+
 #### dump 数据
 
 ```bash

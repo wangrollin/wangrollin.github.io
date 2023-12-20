@@ -7,6 +7,12 @@ export KUBECONFIG=/Users/wangrollin/code_base/wb2c-helm/k8s/bigdata/config
 ```
 
 
+## 安装
+
+brew install kubectl
+或
+brew install kubernetes-cli
+
 ## 概念
 
 ### 亲和性

@@ -100,6 +100,11 @@ maven 3.6.1版本有bug，尽量不要使用
 
 ## Q&A tips
 
+### 依赖传递 fat jar vs thin jar
+
+依赖了 fat jar，不会自动依赖传递
+依赖了 thin jar，会自动依赖传递
+
 ### 报错 Malformed \uxxxx encoding
 
 添加 -X 参数，最后一行就是有问题的jar，删掉重新构建

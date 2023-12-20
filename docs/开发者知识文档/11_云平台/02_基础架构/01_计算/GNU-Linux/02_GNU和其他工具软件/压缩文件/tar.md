@@ -17,7 +17,9 @@ tar -czvf /opt/sysin/a.tar.gz -C/opt/sysin/ a.log
 
 ### 解压
 
-tar -xzvf 文件名.tar.gz -C [指定目录]
+tar -xzvf xxxxxx.tar.gz -C [指定目录]
+tar -zxvf xxxxxx.tar.gz xxxxxx
+
 
 ## 对比
 
