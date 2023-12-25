@@ -95,7 +95,8 @@ docker version
 
 ### 登录操作
 
-docker login hub.example.com
+docker login hub.example.com -u 用户名 -p 密码
+docker login 
 username
 pwd
 
@@ -185,6 +186,7 @@ docker system prune -f
 
 docker container prune # 删除所有停止的容器
 docker image prune -a # 删除没有容器使用的镜像
+docker image rm myimage:tag
 ```
 
 ## daemon.json / config.json
