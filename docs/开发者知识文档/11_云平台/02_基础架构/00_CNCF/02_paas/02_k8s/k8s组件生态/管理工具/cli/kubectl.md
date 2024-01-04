@@ -66,6 +66,46 @@ Ingress Controoler 通过与 Kubernetes API 交互，动态的去感知集群中
               sleep 1000;
 ```
 
+### imagePullSecrets
+
+kubectl create secret docker-registry registry --docker-server=${registry_domain} --docker-username=${registry_username} --docker-password=${registry_password} -n ${namespace}
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+        - name: my-app-container
+          image: my-registry/my-app-image
+      imagePullSecrets:
+        - name: my-secret
+```
+
+patch的方法解决
+
+```bash
+# 给鉴权相关变量赋值
+registry_domain=
+registry_username=
+registry_password=
+
+for namespace in $(kubectl  get ns | tail -n +2 | awk '{print $1}'); do 
+  kubectl create secret docker-registry registry --docker-server=${registry_domain} --docker-username=${registry_username} --docker-password=${registry_password} -n ${namespace}
+  kubectl patch sa default -n ${namespace} -p '{"imagePullSecrets": [{"name": "registry"}]}'
+done
+```
+
 ### pod run as 宿主机上的某个用户
 
 ```yaml
