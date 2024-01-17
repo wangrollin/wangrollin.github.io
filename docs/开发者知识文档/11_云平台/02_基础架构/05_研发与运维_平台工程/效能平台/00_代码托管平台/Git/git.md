@@ -45,3 +45,8 @@ git branch -d bname
 
 git push --tag
 
+```bash
+git tag -a v1.0 -m "Version 1.0"
+git tag v1.0
+git push origin v1.0
+```

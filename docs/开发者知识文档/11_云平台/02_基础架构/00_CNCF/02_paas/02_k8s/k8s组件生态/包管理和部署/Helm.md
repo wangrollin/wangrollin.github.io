@@ -113,6 +113,10 @@ helm <command> --help
 helm get -h
 ```
 
+## version 规格
+
+必须三位版本号，不支持四位，只能a.b.c-xxx a.b.c+xxx
+
 ## 创建 Charts
 
 - [官方文档 - Charts](https://helm.sh/docs/topics/charts/)

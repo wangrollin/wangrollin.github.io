@@ -619,6 +619,7 @@
                             * [📝properties](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/properties.md)
                             * [📝yaml](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/yaml.md)
                             * [📝其他](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/其他.md)
+                            * [📝指定外部配置](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/指定外部配置.md)
                     * 🗂springCloud
                         * [📝springcloud](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/03_springCloud/springcloud.md)
                         * 🗂服务监控
