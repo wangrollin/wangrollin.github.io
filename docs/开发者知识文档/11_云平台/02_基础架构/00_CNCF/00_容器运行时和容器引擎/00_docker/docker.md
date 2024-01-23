@@ -209,6 +209,20 @@ config.json
 }
 
 
+## docker 里运行 docker
+```bash
+
+docker run -it --rm \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /usr/bin/docker:/usr/bin/docker \
+  my_image \
+  bash
+
+-v /var/run/docker.sock:/var/run/docker.sock
+-v /usr/bin/docker:/usr/bin/docker
+
+chmod 777 /var/run/docker.sock
+```
 ## ubuntu如何安装docker
 
 https://docs.docker.com/install/linux/docker-ce/ubuntu/

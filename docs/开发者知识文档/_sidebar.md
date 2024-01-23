@@ -1088,6 +1088,7 @@
                         * 🗂gz
                             * [📝gunzip](/docs/开发者知识文档/11_云平台/02_基础架构/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/gz/gunzip.md)
                             * [📝gzip](/docs/开发者知识文档/11_云平台/02_基础架构/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/gz/gzip.md)
+                            * [📝pigz](/docs/开发者知识文档/11_云平台/02_基础架构/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/gz/pigz.md)
                         * [📝tar](/docs/开发者知识文档/11_云平台/02_基础架构/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/tar.md)
                         * 🗂zip
                             * [📝unzip](/docs/开发者知识文档/11_云平台/02_基础架构/01_计算/GNU-Linux/02_GNU和其他工具软件/压缩文件/zip/unzip.md)

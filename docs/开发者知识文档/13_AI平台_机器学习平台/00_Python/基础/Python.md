@@ -34,6 +34,15 @@ ln -sf /usr/local/bin/python3.12 /usr/local/bin/python
 ln -sf /usr/local/bin/python3.12 /usr/local/bin/python3
 ```
 
+
+### linux 上多版本 python
+
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.5
+```
+
 ### 安装 python lib
 
 venv 中安装
