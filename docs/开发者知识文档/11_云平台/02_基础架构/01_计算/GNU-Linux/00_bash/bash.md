@@ -104,6 +104,17 @@ user_w=${module}_MYSQL_USER_W
 echo "${!user_w}"
 ```
 
+## 脚本常用开头
+
+```bash
+#!/bin/bash
+
+set -euo pipefail
+
+cd "$(dirname ${BASH_SOURCE[0]})"
+SHELL_FOLDER=$(pwd)
+```
+
 ## 正则匹配
 
 ```bash

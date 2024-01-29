@@ -83,6 +83,83 @@ docker run -d -p 80:80 registry.cn-hangzhou.aliyuncs.com/wangrollin-web/web-fron
 
 ### .dockerignore
 
+## 镜像网络
+
+docker network create <network_name>
+docker run --network=<network_name> <container_image>
+docker network ls
+docker network inspect <network_name>
+
+### Docker自带的网络类型主要有以下几种：
+
+1. Bridge网络（桥接网络）：
+   Bridge网络是Docker默认创建的网络类型。它使用Docker宿主机上的网桥设备（通常为docker0）来连接容器和宿主机之间的通信。每个容器都会分配一个IP地址，并可以通过宿主机的IP地址进行访问。
+
+2. Host网络（主机网络）：
+   Host网络类型将容器直接放置在宿主机的网络栈中，与宿主机共享网络命名空间。容器将使用宿主机的IP地址和端口，可以直接访问宿主机上的网络资源，但容器之间的端口会发生冲突。
+
+3. None网络（无网络）：
+   None网络类型是一个隔离网络环境，容器在该网络中没有网络接口。这意味着容器无法直接通过网络访问外部资源，也无法从外部访问容器。但容器仍然可以使用本地的网络和IPC（进程间通信）机制。
+
+4. Overlay网络（覆盖网络）：
+   Overlay网络类型用于创建跨多个Docker宿主机的容器网络。它允许容器在不同的宿主机上进行通信，形成一个虚拟的网络层。Overlay网络使用VXLAN（Virtual Extensible LAN）技术将容器数据包封装在底层网络中。
+
+5. Macvlan网络：
+   Macvlan网络类型允许将容器直接连接到物理网络，每个容器会分配一个独立的MAC地址。这使得容器能够像物理机器一样直接与网络通信。每个容器都可以具有自己的IP地址。
+
+这些是Docker自带的常用网络类型。除了这些，还可以通过自定义网络插件扩展Docker的网络功能，以满足特定的需求。
+
+### 以下是创建不同类型网络的具体Docker命令示例：
+
+1. 创建桥接网络（Bridge）：
+```
+docker network create my-bridge-network
+```
+
+   这将创建一个名为`my-bridge-network`的桥接网络。
+
+2. 创建主机网络（Host）：
+```
+docker network create --driver=host my-host-network
+```
+
+   这将创建一个名为`my-host-network`的主机网络。
+
+3. 创建无网络（None）：
+```
+docker network create --driver=null my-none-network
+```
+
+   这将创建一个名为`my-none-network`的无网络。
+
+4. 创建覆盖网络（Overlay）：
+```
+docker network create --driver=overlay my-overlay-network
+```
+
+   这将创建一个名为`my-overlay-network`的覆盖网络。
+
+5. 创建Macvlan网络：
+```
+docker network create --driver=macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.1 -o parent=eth0 my-macvlan-network
+```
+
+   这将创建一个名为`my-macvlan-network`的Macvlan网络，指定了子网、网关和宿主机的物理网络接口（`eth0`）。
+
+请注意，上述命令中的网络名称（例如`my-bridge-network`）仅为示例，你可以根据需要自行替换。另外，某些网络类型可能需要指定其他参数，以符合你的网络配置。
+
+你可以使用`docker network ls`命令来列出所有的网络，并使用`docker network inspect <network_name>`命令查看特定网络的详细信息。
+
+希望这些命令示例能够帮助你创建不同类型的Docker网络。
+
+## 常用镜像
+
+### busybox, 精简的GNU工具集
+
+### alpine, 精简的linux
+
+### ubuntu, linux
+
 ## 常用命令
 
 ### 启动 docker daemon
@@ -170,6 +247,12 @@ docker run -d -it adoptopenjdk/openjdk11:latest /bin/bash
 
 # --rm 运行后就退出，适合执行一次
 docker run -it --rm adoptopenjdk/openjdk11:latest bash -c 'echo can run like a charm'
+
+docker run -it --rm -d \
+  -p 80:80 \
+  -v /xx:/xx \
+  --name my-container \
+  eclipse-temurin:8 bash -c "echo 111 && sleep 10 && echo 1111"
 
 # 查看具体信息的列
 docker ps --format "{{.Image}}\t{{.Status}}"

@@ -33,6 +33,8 @@ or
 
 export SERVER_HOST="x.x.x.x" && java -jar app.yaml
 
+yaml和jar放到同一个目录下，然后直接 java -jar app.jar
+
 
 ## Spring Boot: how to use multiple yml files
 
