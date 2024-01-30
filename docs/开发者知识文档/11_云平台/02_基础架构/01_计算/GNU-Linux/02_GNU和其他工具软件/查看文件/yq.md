@@ -15,3 +15,7 @@ yq eval 'select(.releases[].values[].global != null).releases[].values[].global.
 # 选择数组中的某个
 yq e '.data[] | select(.name == "John")' <your_file.yaml>
 ```
+
+## 安装
+
+https://github.com/mikefarah/yq/
