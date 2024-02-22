@@ -12,3 +12,8 @@ curl cip.cc
 -i
 
 打印 response headers
+
+### 上传文件接口
+
+curl -X POST -F "file=@/path/to/file" http://example.com/upload
+

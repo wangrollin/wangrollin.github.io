@@ -340,64 +340,6 @@ docker info
 sudo apt install gnupg2 pass
 
 
-
-## 部署docker registry
-
-```bash
-sudo` `docker run \
--e SETTINGS_FLAVOR=s3 \
--e AWS_BUCKET=acme-docker \
--e STORAGE_PATH=``/registry` `\
--e AWS_KEY=AWS_KEY \ 
--e AWS_SECRET=AWS_SECRET \
--e SEARCH_BACKEND=sqlalchemy \
--p 5000:5000 \
-registry
-
-sudo docker run \
--e SEARCH_BACKEND=sqlalchemy \
--p 5000:5000 \
-registry
-```
-
-
-
-## docker registry的一些功能
-
-https://stackoverflow.com/questions/23733678/how-to-search-images-from-private-1-0-registry-in-docker
-
-【坑】必须要开启SEARCH_BACKEND才能进行api调用，否则404
-
-```bash
-curl -X GET http://localhost:5666/v1/search?q=acl-wechat-auth-service
-curl -X GET http://localhost:5666/v1/search
-curl -X GET http://localhost:5666/v2/_catalog
-curl -X GET http://localhost:5666/v2/<name>/tags/list
-curl -X GET http://localhost:5666/v2/acl-wechat-auth-service/tags/list
-
-docker search [my.registry.host]:[port]/library
-docker search localhost:5666/config.example.com
-
-curl -iv https://localhost:5666/v1/search?q=base
-curl -iv http://localhost:5666/v1/search?q=base
-```
-
-
-
-## docker registry web-UI
-
-https://github.com/search?q=docker+registry+web+ui
-
-https://github.com/atc-/docker-registry-web
-
-```bash
-docker run -p 8080:8080 -e REG1=http://registry_host.name:5000/v1/ atcol/docker-registry-ui
-
-docker run -d -p 8123:8080 -e REG1=http://localhost:5666/v1/ atcol/docker-registry-ui
-```
-
-
-
 ## 把运行中的容器保存为新镜像
 
 ```bash

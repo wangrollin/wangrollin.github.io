@@ -259,12 +259,17 @@ kubectl delete po po-name -n ns
 
 kubectl scale --replicas=0 deployment/deploy-name -n ns
 
-### 滚动重启 pod
+### 拿到指定字段 jsonpath
 
+kubectl get svc <svc名称> -o jsonpath='{.spec.clusterIP}'
 
-### rollout
+### rollout 滚动重启 pod
+
+sts 是 statefulSet
 
 kubectl rollout status sts minio -n minio
+kubectl rollout status deploy deploy_name -n ns_name
+kubectl rollout restart deploy deploy_name -n ns_name
 
 
 ### 进入 pod 执行命令

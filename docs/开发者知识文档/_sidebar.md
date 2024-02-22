@@ -608,6 +608,7 @@
                     * 🗂springBoot
                         * [📝Actuator](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/Actuator.md)
                         * [📝GracefulShutdown](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/GracefulShutdown.md)
+                        * [📝spring-boot-starter-validation参数校验](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/spring-boot-starter-validation参数校验.md)
                         * 🗂spring-boot-starter-web
                             * [📝RestTemplate](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/spring-boot-starter-web/RestTemplate.md)
                             * [📝springmvc](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/spring-boot-starter-web/springmvc.md)
@@ -658,8 +659,6 @@
                     * 🗂springIntegration
                         * [📝springIntegration](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/springIntegration/springIntegration.md)
                     * [📝spring系列总揽](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/spring系列总揽.md)
-                * 🗂DI框架
-                    * [📝guice](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/DI框架/guice.md)
                 * 🗂Dropwizard
                     * [📝Dropwizard](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/Dropwizard/Dropwizard.md)
                 * 🗂GPU计算
@@ -683,8 +682,11 @@
                     * [📝Curator](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/zk封装/Curator.md)
                 * 🗂云控制器
                     * [📝OpenDayLight](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/云控制器/OpenDayLight.md)
-                * 🗂参数校验validator
-                    * [📝javax.validation](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/参数校验validator/javax.validation.md)
+                * 🗂任务调度
+                    * [📝QuartzScheduler](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/任务调度/QuartzScheduler.md)
+                    * [📝activiti](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/任务调度/activiti.md)
+                * 🗂依赖注入DI框架
+                    * [📝guice](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/依赖注入DI框架/guice.md)
                 * 🗂字节码编织框架
                     * [📝JDK_Dynamic_Proxy](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/JDK_Dynamic_Proxy.md)
                     * [📝Javassist](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/字节码编织框架/Javassist.md)
@@ -701,8 +703,6 @@
                     * [📝Security-Assertion-Markup-Language-Tokens_SAML](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Security-Assertion-Markup-Language-Tokens_SAML.md)
                     * [📝Simple-Web-Tokens_SWT](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/Simple-Web-Tokens_SWT.md)
                     * [📝shrio](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/安全认证框架/shrio.md)
-                * 🗂工作流
-                    * [📝activiti](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/工作流/activiti.md)
                 * 🗂并发框架
                     * [📝Loom](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/并发框架/Loom.md)
                     * [📝akka](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/并发框架/akka.md)
@@ -858,8 +858,11 @@
                         * 🗂虚拟运行时
                             * [📝虚拟机](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/01_OCI-Open-Container-Initiative/02_沙盒虚拟运行时/虚拟运行时/00_虚拟机.md)
                             * [📝Kata-Containers](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/01_OCI-Open-Container-Initiative/02_沙盒虚拟运行时/虚拟运行时/Kata-Containers.md)
-                * 🗂registry
-                    * [📝registry](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/02_registry/registry.md)
+                * 🗂registry_and_cache
+                    * [📝docker_registry](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/docker_registry.md)
+                    * [📝docker_registry_mirror](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/docker_registry_mirror.md)
+                    * [📝docker_registry_proxy](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/docker_registry_proxy.md)
+                    * [📝harbor](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/harbor.md)
                 * [📝Container-Tools-project](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/Container-Tools-project.md)
                 * 🗂工具链
                     * [📝skopeo](/docs/开发者知识文档/11_云平台/02_基础架构/00_CNCF/00_容器运行时和容器引擎/工具链/skopeo.md)
@@ -1771,11 +1774,6 @@
             * 🗂湖仓一体_ LakeHouse_Architecture 
                 * [📝总览](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/04_湖仓一体_ LakeHouse_Architecture /总览.md)
             * 🗂OLAP_DB
-                * 🗂MPP-DB
-                    * [📝ApacheDoris](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/ApacheDoris.md)
-                    * [📝Clickhouse](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/Clickhouse.md)
-                    * [📝DorisDB_StarRocks](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/DorisDB_StarRocks.md)
-                    * [📝hologres](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/05_OLAP_DB/MPP-DB/hologres.md)
                 * 🗂hbase
                     * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/Lynda_HBase_Essential_Training.md)
                     * [📝hbase](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/05_OLAP_DB/hbase/hbase.md)
@@ -1787,12 +1785,12 @@
                         * [📝Gremlin_TinkerPop](/docs/开发者知识文档/12_数据平台/01_存储调度/00_存储/05_OLAP_DB/图数据库/图计算框架/Gremlin_TinkerPop.md)
         * 🗂存算一体_hadoop_hdfs_yarn
             * 🗂hadoop和发行版
-                * 🗂CDH
-                    * [📝HUE](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/CDH/HUE.md)
                 * [📝Lynda_Learning_Hadoop](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/Lynda_Learning_Hadoop.md)
-                * [📝ambari](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/ambari.md)
-                * [📝cloudera_sandbox](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_sandbox.md)
-                * [📝cloudera发行版安装包](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera发行版安装包.md)
+                * 🗂cloudera_cdp
+                    * [📝HUE](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/HUE.md)
+                    * [📝ambari](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/ambari.md)
+                    * [📝cloudera_sandbox](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/cloudera_sandbox.md)
+                    * [📝cloudera发行版安装包](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/cloudera发行版安装包.md)
                 * [📝hadoop](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/hadoop.md)
                 * [📝最佳实践](/docs/开发者知识文档/12_数据平台/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/最佳实践.md)
             * 🗂存储
@@ -1858,6 +1856,11 @@
             * [📝批流一体SQl](/docs/开发者知识文档/12_数据平台/02_计算引擎/04_批流一体/批流一体SQl.md)
         * 🗂事务能力ACID
             * [📝hudi](/docs/开发者知识文档/12_数据平台/02_计算引擎/05_事务能力ACID/hudi.md)
+    * 🗂MPP
+        * [📝ApacheDoris](/docs/开发者知识文档/12_数据平台/03_MPP/ApacheDoris.md)
+        * [📝Clickhouse](/docs/开发者知识文档/12_数据平台/03_MPP/Clickhouse.md)
+        * [📝DorisDB_StarRocks](/docs/开发者知识文档/12_数据平台/03_MPP/DorisDB_StarRocks.md)
+        * [📝hologres](/docs/开发者知识文档/12_数据平台/03_MPP/hologres.md)
     * 🗂开发套件_DataOps_开发治理平台
         * 🗂数据采集
             * [📝PlaceHolder_AppLog](/docs/开发者知识文档/12_数据平台/04_开发套件_DataOps_开发治理平台/00_数据采集/PlaceHolder_AppLog.md)
@@ -1934,6 +1937,7 @@
             * [📝esForHadoop](/docs/开发者知识文档/12_数据平台/06_数据应用/数据可视化BI/esForHadoop.md)
             * [📝jeecy](/docs/开发者知识文档/12_数据平台/06_数据应用/数据可视化BI/jeecy.md)
             * [📝vueDataV](/docs/开发者知识文档/12_数据平台/06_数据应用/数据可视化BI/vueDataV.md)
+        * [📝数据要素](/docs/开发者知识文档/12_数据平台/06_数据应用/数据要素.md)
     * 🗂结合LLM场景
         * [📝总览](/docs/开发者知识文档/12_数据平台/07_结合LLM场景/总览.md)
     * 🗂其他
@@ -2288,6 +2292,8 @@
             * [📝kserve](/docs/开发者知识文档/13_AI平台_机器学习平台/98_开源实现_机器学习平台_MLOps/01_模型部署/kserve.md)
             * [📝seldon-core](/docs/开发者知识文档/13_AI平台_机器学习平台/98_开源实现_机器学习平台_MLOps/01_模型部署/seldon-core.md)
         * [📝OpenMMLab](/docs/开发者知识文档/13_AI平台_机器学习平台/98_开源实现_机器学习平台_MLOps/OpenMMLab.md)
+    * 🗂向量数据库
+        * [📝向量数据库_vector_DB](/docs/开发者知识文档/13_AI平台_机器学习平台/向量数据库/向量数据库_vector_DB.md)
 * 🗂scrum
     * [📝双月规划](/docs/开发者知识文档/80_scrum/00_双月规划.md)
     * [📝设计文档](/docs/开发者知识文档/80_scrum/02_设计文档.md)
