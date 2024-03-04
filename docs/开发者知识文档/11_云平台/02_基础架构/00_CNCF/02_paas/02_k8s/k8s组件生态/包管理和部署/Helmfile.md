@@ -12,4 +12,6 @@
 brew install helmfile
 
 helmfile apply
+
+helmfile template
 ```

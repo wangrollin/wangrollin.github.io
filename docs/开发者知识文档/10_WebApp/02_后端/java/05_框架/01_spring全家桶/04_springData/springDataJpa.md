@@ -37,6 +37,7 @@ https://docs.spring.io/spring-data/jpa/docs/2.3.0.RELEASE/reference/html/#refere
 - 通过basepackage，如下：
 
 ```java
+@EntityScan(basePackages = "com.xxx")
 @EnableJpaRepositories(basePackages = "com.acme.repositories.jpa")
 @EnableMongoRepositories(basePackages = "com.acme.repositories.mongo")
 class Configuration { … }
