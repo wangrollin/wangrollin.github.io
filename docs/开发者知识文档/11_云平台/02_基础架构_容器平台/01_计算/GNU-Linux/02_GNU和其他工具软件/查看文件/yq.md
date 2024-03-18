@@ -16,6 +16,12 @@ yq eval 'select(.releases[].values[].global != null).releases[].values[].global.
 yq e '.data[] | select(.name == "John")' <your_file.yaml>
 ```
 
+## 在string中引用变量var
+
+```bash
+yq eval '.releases[0].values[3].global.ak = "'${ak}'"' a.yaml
+```
+
 ## 安装
 
 https://github.com/mikefarah/yq/

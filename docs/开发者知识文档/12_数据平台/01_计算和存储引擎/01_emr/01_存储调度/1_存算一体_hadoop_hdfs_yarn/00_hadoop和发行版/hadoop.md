@@ -26,3 +26,12 @@
     Tajo：Hadoop 上的大数据仓库系统
 
     Twill，它使用 HadoopYARN 的分布式功能和类似的编程模型来运行线程
+
+## 命令大全
+
+### 设置默认用户
+
+export HADOOP_USER_NAME=hdfs
+echo $HADOOP_USER_NAME
+unset HADOOP_USER_NAME
+echo $HADOOP_USER_NAME

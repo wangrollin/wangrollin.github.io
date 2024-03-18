@@ -104,6 +104,19 @@ user_w=${module}_MYSQL_USER_W
 echo "${!user_w}"
 ```
 
+### 把路径中的 /a/b/c/d/../.. 自动转换成 /a/b
+
+```bash
+path="/a/b/c/d/../.."
+canonical_path=$(readlink -f "$path")
+echo "$canonical_path"
+
+path="/a/b/c/d/../.."
+canonical_path=$(realpath "$path")
+echo "$canonical_path"
+```
+
+
 ## 脚本常用开头
 
 ```bash

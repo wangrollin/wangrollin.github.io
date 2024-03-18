@@ -1150,8 +1150,11 @@
                         * [📝gomplate](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/模版渲染/gomplate.md)
                     * [📝汇总](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/汇总.md)
                     * 🗂用户管理
+                        * [📝getent](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/getent.md)
                         * [📝groupadd](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/groupadd.md)
+                        * [📝groups](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/groups.md)
                         * [📝id](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/id.md)
+                        * [📝newgrp](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/newgrp.md)
                         * [📝su](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/su.md)
                         * [📝sudo](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/sudo.md)
                         * [📝useradd](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/用户管理/useradd.md)
@@ -1418,7 +1421,6 @@
                         * [📝PolarDB](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/02_存储/04_DB/数据库产品/02_NewSQL/PolarDB.md)
                         * [📝TiDB](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/02_存储/04_DB/数据库产品/02_NewSQL/TiDB.md)
                     * [📝Druid](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/02_存储/04_DB/数据库产品/Druid.md)
-                    * [📝Kudu](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/02_存储/04_DB/数据库产品/Kudu.md)
                     * [📝db2](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/02_存储/04_DB/数据库产品/db2.md)
                 * [📝数据库理论](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/02_存储/04_DB/数据库理论.md)
                 * 🗂数据库迁移
@@ -1861,11 +1863,12 @@
             * [📝placehodler](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/02_severless_spark/placehodler.md)
         * 🗂severless_flink
             * [📝placehodler](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/03_severless_flink/placehodler.md)
-        * 🗂MPP
-            * [📝ApacheDoris](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_MPP/ApacheDoris.md)
-            * [📝Clickhouse](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_MPP/Clickhouse.md)
-            * [📝DorisDB_StarRocks](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_MPP/DorisDB_StarRocks.md)
-            * [📝hologres](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_MPP/hologres.md)
+        * 🗂mpp
+            * [📝ApacheDoris](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_mpp/ApacheDoris.md)
+            * [📝Clickhouse](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_mpp/Clickhouse.md)
+            * [📝DorisDB_StarRocks](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_mpp/DorisDB_StarRocks.md)
+            * [📝Kudu](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_mpp/Kudu.md)
+            * [📝hologres](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/04_mpp/hologres.md)
     * 🗂开发套件_DataOps_开发治理平台
         * 🗂数据采集
             * [📝PlaceHolder_AppLog](/docs/开发者知识文档/12_数据平台/04_开发套件_DataOps_开发治理平台/00_数据采集/PlaceHolder_AppLog.md)
@@ -2213,6 +2216,7 @@
                                 * [📝Generative_Pre-trained_Transformer_GPT](/docs/开发者知识文档/13_AI平台_机器学习平台/02_算法引擎_训练评价_模型/02_模型/00_深度学习_神经网络/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/Generative_Pre-trained_Transformer_GPT.md)
                                 * [📝chatGPT](/docs/开发者知识文档/13_AI平台_机器学习平台/02_算法引擎_训练评价_模型/02_模型/00_深度学习_神经网络/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/chatGPT.md)
                             * 🗂文生视频_Text2Video
+                                * [📝Sora](/docs/开发者知识文档/13_AI平台_机器学习平台/02_算法引擎_训练评价_模型/02_模型/00_深度学习_神经网络/AI分类/功能/01_生成式模型_GenAI/文生视频_Text2Video/Sora.md)
                                 * [📝文生视频_Text2Video](/docs/开发者知识文档/13_AI平台_机器学习平台/02_算法引擎_训练评价_模型/02_模型/00_深度学习_神经网络/AI分类/功能/01_生成式模型_GenAI/文生视频_Text2Video/文生视频_Text2Video.md)
                             * [📝生成匹配网络_GMNs](/docs/开发者知识文档/13_AI平台_机器学习平台/02_算法引擎_训练评价_模型/02_模型/00_深度学习_神经网络/AI分类/功能/01_生成式模型_GenAI/生成匹配网络_GMNs.md)
                             * 🗂生成对抗网络_GANs
