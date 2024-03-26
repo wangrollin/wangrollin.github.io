@@ -558,6 +558,9 @@
                         * [📝Notes_Spring5高级编程](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/01_springFramework/Notes_Spring5高级编程.md)
                         * 🗂spring-kafka
                             * [📝spring-kafka](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/01_springFramework/spring-kafka/spring-kafka.md)
+                        * 🗂spring注解
+                            * [📝OneToMany](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/01_springFramework/spring注解/OneToMany.md)
+                            * [📝value](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/01_springFramework/spring注解/value.md)
                         * 🗂模块划分
                             * 🗂Core
                                 * [📝AOP](/docs/开发者知识文档/10_WebApp/02_后端/java/05_框架/01_spring全家桶/01_springFramework/模块划分/Core/AOP.md)
@@ -1858,7 +1861,7 @@
                     * [📝存储层批流一体](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/01_emr/02_计算引擎/04_批流一体/存储层批流一体.md)
                     * [📝批流一体SQl](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/01_emr/02_计算引擎/04_批流一体/批流一体SQl.md)
                 * 🗂事务能力ACID
-                    * [📝hudi](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/01_emr/02_计算引擎/05_事务能力ACID/hudi.md)
+                    * [📝placeholder](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/01_emr/02_计算引擎/05_事务能力ACID/placeholder.md)
         * 🗂severless_spark
             * [📝placehodler](/docs/开发者知识文档/12_数据平台/01_计算和存储引擎/02_severless_spark/placehodler.md)
         * 🗂severless_flink
@@ -1931,6 +1934,7 @@
             * [📝纬度建模](/docs/开发者知识文档/12_数据平台/05_数仓建设/建模/纬度建模.md)
             * [📝范式建模](/docs/开发者知识文档/12_数据平台/05_数仓建设/建模/范式建模.md)
         * [📝数据层级](/docs/开发者知识文档/12_数据平台/05_数仓建设/数据层级.md)
+        * [📝维表_事实表_宽表](/docs/开发者知识文档/12_数据平台/05_数仓建设/维表_事实表_宽表.md)
     * 🗂大数据局_数交所_数据要素
         * [📝数据要素](/docs/开发者知识文档/12_数据平台/07_大数据局_数交所_数据要素/数据要素.md)
     * 🗂结合LLM场景

@@ -1,5 +1,21 @@
 
 
+## 文档
+
+- [官网](https://flink.apache.org/)
+- [Flink官方答疑：三种运行模式区别及应用场景](https://www.modb.pro/db/128796)
+- [官方文档：Flink 架构](https://nightlies.apache.org/flink/flink-docs-master/zh/docs/concepts/flink-architecture/)
+
+
+## history sever
+
+
+
+## k8s operator
+
+- [flink k8s operator](https://nightlies.apache.org/flink/flink-kubernetes-operator-docs-main/)
+
+
 ## flink sink for jdbc
 
 
