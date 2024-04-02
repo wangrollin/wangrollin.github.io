@@ -7,3 +7,8 @@
 
 ## mc -- minIO client
 
+
+## minio java sdk
+
+sdk demo https://blog.csdn.net/cn_ljr/article/details/128688157
+
