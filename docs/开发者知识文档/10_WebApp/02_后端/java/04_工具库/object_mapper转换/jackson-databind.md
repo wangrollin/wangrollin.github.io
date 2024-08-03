@@ -1,6 +1,5 @@
 
-
-#### maven
+## maven
 
 ```xml
 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
@@ -10,6 +9,11 @@
     <version>2.11.0</version>
 </dependency>
 ```
+
+
+## 关闭spring boot jackson的FAIL_ON_EMPTY_BEANS
+
+https://www.jianshu.com/p/1eb0929503e1
 
 
 ## 代码

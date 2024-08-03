@@ -1,6 +1,4 @@
 
-
-
 - [github: vim 101 hacks](https://github.com/chiranjibKonwar/Documentation/blob/master/Vim%20101%20Hacks.pdf)
 - [github: The ultimate Vim configuration (vimrc)](https://github.com/amix/vimrc)
 - [vim键盘映射图](https://www.runoob.com/linux/linux-vim.html)
@@ -19,4 +17,10 @@
 
 set paste，然后可以正常复制
 
+
+到第一行
+gg
+
+最后一行
+shift + G
 

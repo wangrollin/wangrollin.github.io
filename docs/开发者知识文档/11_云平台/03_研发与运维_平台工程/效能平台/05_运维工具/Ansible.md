@@ -13,4 +13,6 @@ ansible nodes -m file -a "src=/path/to/source/file dest=/path/to/destination/lin
 
 ## 执行 shell 命令
 
-ansible k8s_cluster -m shell -a "mkdir -p /opt/tiger/flink_deploy/deploy"
+ansible k8s_cluster -m shell -a "mkdir -p /opt/tiger/flink_deploy/deploy" -b
+
+-b 代表提权执行，sudo

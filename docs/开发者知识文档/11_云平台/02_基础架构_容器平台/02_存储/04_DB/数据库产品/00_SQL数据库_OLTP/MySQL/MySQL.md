@@ -106,6 +106,21 @@ show grants for user_name;
 
 ALTER TABLE table_name ADD PRIMARY KEY (column_name);
 
+#### 插入列
+
+ALTER TABLE xxx ADD col_name varchar(12) NULL COMMENT 'xxx';
+ALTER TABLE xxx ADD col_name varchar(12) NULL COMMENT 'xxx' after col_name2;
+
+#### 删除行
+
+delete from table where xxx;
+
+#### 更新行
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
 #### 将结果导出到文件分析
 
 ```sql
@@ -322,4 +337,3 @@ skip-name-resolve
 SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
 或者使用聚合函数 ANY_VALUE()，会跳过 `ONLY_FULL_GROUP_BY` 检查
-

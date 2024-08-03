@@ -58,6 +58,13 @@ Host amazon1
 ssh betterdev
 ```
 
+## 执行命令
+
+ssh root@1.1.1.1 "echo 111"
+
+ssh test1 "ls /"
+
+
 ## tips
 
 ### xxx.pem 处理

@@ -151,6 +151,8 @@ https://blog.csdn.net/qq_39101581/article/details/79308851
 https://blog.csdn.net/NokeNoke/article/details/81362257
 https://segmentfault.com/a/1190000021559640
 
+启动后立即执行一次，然后每隔1h执行一次
+@Scheduled(initialDelay = 0, fixedRate = 1, timeUnit = TimeUnit.HOURS)
 
 #### @Async
 
@@ -168,11 +170,3 @@ https://blog.csdn.net/Jas000/article/details/78106804
 @Lazy
 
 @Autowired
-
-
-
-
-
-
-
-

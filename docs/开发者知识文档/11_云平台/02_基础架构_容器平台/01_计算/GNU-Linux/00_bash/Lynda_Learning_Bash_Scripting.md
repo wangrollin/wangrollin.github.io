@@ -421,7 +421,7 @@ done
 
 
 # 防止参数不够
-if [[ $# -lt 3]]; then
+if [[ $# -lt 3 ]]; then
 		echo "at least 3 args"
 else
 		echo "$1 $2 $3"

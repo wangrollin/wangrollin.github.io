@@ -17,3 +17,23 @@
 - [Permissions in the JDK](https://docs.oracle.com/en/java/javase/15/security/permissions-jdk1.html#GUID-1E8E213A-D7F2-49F1-A2F0-EFB3397A8C95)
 
 - [大数据SRE的总结（10）－－ kerberos in hadoop & 分布式程序认证设计](https://zhuanlan.zhihu.com/p/34556597)
+
+
+https://blog.csdn.net/wenwen360360/article/details/78913347
+
+
+## 安装
+
+https://www.cnblogs.com/shuai-shuai-yang/p/15457176.html
+
+客户端
+yum install -y krb5-devel krb5-workstation
+
+
+## 命令
+
+kinit -kt keytab_path principal
+kinit -kt xxx-keytab hdfs@BIGDATA.COM
+
+klist
+klist -ek hdfs.keytab

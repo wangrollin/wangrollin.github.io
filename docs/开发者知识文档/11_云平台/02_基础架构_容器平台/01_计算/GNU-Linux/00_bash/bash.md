@@ -1,3 +1,4 @@
+
 ## Linux里source、sh、bash、./有什么区别
 
 https://www.cnblogs.com/pcat/p/5467188.html
@@ -67,6 +68,7 @@ echo "${BASH_VERSION}"
 
 ```bash
 nohup [command] >> xxx.log 2>&1 &
+nohup [command] >> /dev/null 2>&1 &
 ```
 
 ### 通道重定向
@@ -126,6 +128,20 @@ set -euo pipefail
 
 cd "$(dirname ${BASH_SOURCE[0]})"
 SHELL_FOLDER=$(pwd)
+```
+
+## 文件是否存在
+
+```bash
+#!/bin/bash
+
+file="/opt/file"
+
+if [ -e "$file" ]; then
+    echo "文件存在"
+else
+    echo "文件不存在"
+fi
 ```
 
 ## 正则匹配

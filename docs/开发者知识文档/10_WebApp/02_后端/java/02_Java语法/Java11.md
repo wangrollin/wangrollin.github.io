@@ -1,5 +1,17 @@
 
 
+
+## yum install java11
+
+https://blog.csdn.net/miaohancheng/article/details/121406298
+
+```bash
+yum install -y java-11-openjdk.x86_64
+yum install -y java-11-openjdk-devel.x86_64
+yum install -y java-11-openjdk-headless.x86_64
+```
+
+
 ## Java 11+ Essential Training
 
 **Introduction**
