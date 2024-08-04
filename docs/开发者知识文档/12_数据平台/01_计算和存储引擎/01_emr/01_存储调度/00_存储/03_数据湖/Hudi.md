@@ -10,6 +10,11 @@ hudi 表
 - [AWS - Hudi 工作原理](https://docs.aws.amazon.com/zh_cn/emr/latest/ReleaseGuide/emr-hudi-how-it-works.html)
 
 
+## 数据湖 hudi upsert和增量处理 原语 的支持，补充了hadoop生态的弱点，也就是每次都要全量执行一个分区
+
+https://www.infoq.cn/article/CAgIDpfJBVcJHKJLSbhe
+
+
 ## 如何实现 timeline，两种方法
 
 - CoW -- copy on write -- 高效 upsert

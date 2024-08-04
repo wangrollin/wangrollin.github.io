@@ -15,6 +15,16 @@ DorisDB -> starRocks开源
 - [对比 clickhouse starrocks trino](https://segmentfault.com/a/1190000044149821)
 
 
+## sr ch 对比区别，适用场景
+
+https://zhuanlan.zhihu.com/p/441059030
+https://www.cnblogs.com/syw20170419/p/16421193.html
+https://segmentfault.com/a/1190000043343467
+https://blog.csdn.net/dan20211/article/details/121711042
+https://blog.csdn.net/penriver/article/details/130046033
+https://www.infoq.cn/article/DMGT8JSsG5rrxsItVPwv
+
+
 ## 安装步骤
 
 部署 FE BE
