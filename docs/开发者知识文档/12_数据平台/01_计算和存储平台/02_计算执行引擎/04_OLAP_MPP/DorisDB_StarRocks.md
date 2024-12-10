@@ -13,6 +13,7 @@ DorisDB -> starRocks开源
 - [官网](https://www.dorisdb.com/zh-CN/index)
 - [github](https://github.com/StarRocks/starrocks)
 - [对比 clickhouse starrocks trino](https://segmentfault.com/a/1190000044149821)
+- [官方 doc](https://docs.starrocks.io/zh/docs/introduction/StarRocks_intro/)
 
 
 ## sr ch 对比区别，适用场景
@@ -105,6 +106,9 @@ GRANT SELECT ON ALL TABLES IN ALL DATABASES TO ROLE hive_role_table;
 
 ```
 
+## 查看 query id
+
+show processlist
 
 ## 创建 hive catalog
 
@@ -144,6 +148,8 @@ https://www.inlighting.org/archives/trino-starrocks-emr-kerberos-setup
 
 REFRESH EXTERNAL TABLE <table_name> [PARTITION ('partition_name', ...)]
 
+refresh external table table1 PARTITION ("date=2024-06-20");
+
 ### hive 在写某个分区, sr 直接读那个分区, 会报错
 
 hive读会卡住, pending。SR 读会直接报错。不要使用改写, 使用纯粹物化视图
@@ -179,6 +185,18 @@ AS
 ```
 
 
+## partition by
+
+必须是 hive 的分区字段，date 或者 datetime 类型
+
+https://docs.mirrorship.cn/zh/docs/sql-reference/sql-statements/materialized_view/CREATE_MATERIALIZED_VIEW/#%E5%8F%82%E6%95%B0-1
+
+
+## PROPERTIES
+
+https://docs.mirrorship.cn/zh/docs/sql-reference/sql-statements/materialized_view/CREATE_MATERIALIZED_VIEW/#%E5%8F%82%E6%95%B0-1
+
+
 ### 删除
 
 drop MATERIALIZED VIEW xxxx;
@@ -202,6 +220,7 @@ ALTER MATERIALIZED VIEW order_mv RENAME order_total;
 -- 修改异步物化视图的最大刷新间隔为 2 天。
 
 ALTER MATERIALIZED VIEW order_mv REFRESH ASYNC EVERY(INTERVAL 2 DAY);
+ALTER MATERIALIZED VIEW order_mv REFRESH ASYNC EVERY(INTERVAL 5 MINUTE);
 
 ```
 
@@ -209,7 +228,36 @@ ALTER MATERIALIZED VIEW order_mv REFRESH ASYNC EVERY(INTERVAL 2 DAY);
 
 SHOW MATERIALIZED VIEWS\G
 
+## 物化视图
 
+### 强制刷新
+
+### 多个hive表union 成一个物化视图
+
+union：此过程会自动去重
+
+```sql
+
+CREATE MATERIALIZED VIEW mv_db.mv_tablename
+DISTRIBUTED BY HASH(location, sensor)
+REFRESH ASYNC EVERY(INTERVAL 30 MINUTE) 
+PARTITION BY str2date(date, "%Y-%m-%d")
+PROPERTIES (
+    "force_external_table_query_rewrite" = "TRUE",
+    "partition_refresh_number" = "2"
+)
+AS
+select * from
+(
+select f1, f2, `date`
+from hive_catalog.xxx_db.table1
+union 
+select f1, f2, `date`
+from hive_catalog.xxx_db.table2
+)
+t1;
+
+```
 
 ## 性能调优
 
@@ -346,7 +394,8 @@ CREATE MATERIALIZED VIEW my_database.mv_ods_prod_test_detail_dt
 DISTRIBUTED BY HASH(dt)
 REFRESH ASYNC EVERY(INTERVAL 1 DAY) 
 PROPERTIES (
-    "force_external_table_query_rewrite" = "TRUE"
+    "force_external_table_query_rewrite" = "TRUE",
+    "partition_refresh_number" = "1"
 )
 AS
 select atsn, testdate, dt from dataops_hive.my_database.my_table 
@@ -360,3 +409,6 @@ where dt <= current_date()
 AND dt >= date_add(current_date(), INTERVAL -30 DAY)
 order by atsn desc
 limit 100000;
+
+[PROPERTIES 文档](https://docs.starrocks.io/zh/docs/sql-reference/sql-statements/materialized_view/CREATE_MATERIALIZED_VIEW/#%E5%8F%82%E6%95%B0)
+

@@ -437,6 +437,7 @@
                         * [📝spi](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/SPI/spi.md)
                     * 🗂URL
                         * [📝UrlEncoder](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/URL/UrlEncoder.md)
+                    * [📝stream](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/stream.md)
                     * 🗂并发_异步
                         * [📝总览](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/00_总览.md)
                         * [📝CAS](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/并发_异步/CAS.md)
@@ -461,6 +462,8 @@
                         * [📝异常类体系](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/异常/异常类体系.md)
                     * 🗂数字
                         * [📝小数](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/数字/小数.md)
+                    * 🗂文件IO
+                        * [📝BufferedWriter](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/文件IO/BufferedWriter.md)
                     * 🗂时间
                         * [📝Clock](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/时间/Clock.md)
                         * [📝Duration](/docs/开发者知识文档/10_WebApp/02_后端/java/03_Java_API/01_Java_SE标准/时间/Duration.md)
@@ -530,6 +533,8 @@
                     * [📝JGraphT](/docs/开发者知识文档/10_WebApp/02_后端/java/04_工具库/图/JGraphT.md)
                 * 🗂画图
                     * [📝JFreeChart](/docs/开发者知识文档/10_WebApp/02_后端/java/04_工具库/画图/JFreeChart.md)
+                * 🗂自制工具
+                    * [📝正则工具](/docs/开发者知识文档/10_WebApp/02_后端/java/04_工具库/自制工具/正则工具.md)
                 * 🗂调用Python
                     * [📝java调python](/docs/开发者知识文档/10_WebApp/02_后端/java/04_工具库/调用Python/java调python.md)
                 * 🗂配置Config
@@ -1181,6 +1186,7 @@
                         * [📝vim](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/编辑文件/vim.md)
                     * 🗂网络相关
                         * [📝WireGuard](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/WireGuard.md)
+                        * [📝firwall](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/firwall.md)
                         * [📝ip](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/ip.md)
                         * [📝iptable](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/iptable.md)
                         * [📝ipvadm](/docs/开发者知识文档/11_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/ipvadm.md)
@@ -1768,6 +1774,54 @@
             * [📝函数](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/01_Query解析和优化/函数.md)
         * 🗂计算执行引擎
             * 🗂emr
+                * 🗂存储调度
+                    * 🗂存储
+                        * 🗂数据格式
+                            * [📝Apache_Avro](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/01_数据格式/Apache_Avro.md)
+                            * [📝Arrow](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/01_数据格式/Arrow.md)
+                            * [📝ORC](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/01_数据格式/ORC.md)
+                            * [📝Parquet](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/01_数据格式/Parquet.md)
+                            * [📝Velox](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/01_数据格式/Velox.md)
+                            * [📝csv](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/01_数据格式/csv.md)
+                            * [📝protobuf](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/01_数据格式/protobuf.md)
+                        * 🗂数据仓库
+                            * [📝HMS_hive_meta_store](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/02_数据仓库/HMS_hive_meta_store.md)
+                        * 🗂数据湖
+                            * [📝Delta_Lake](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/03_数据湖/Delta_Lake.md)
+                            * [📝Hudi](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/03_数据湖/Hudi.md)
+                            * [📝Iceberg](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/03_数据湖/Iceberg.md)
+                            * [📝hive-acid](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/03_数据湖/hive-acid.md)
+                            * [📝paimon](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/03_数据湖/paimon.md)
+                            * [📝总览](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/03_数据湖/总览.md)
+                        * 🗂湖仓一体_ LakeHouse_Architecture 
+                            * [📝总览](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/04_湖仓一体_ LakeHouse_Architecture /总览.md)
+                        * 🗂OLAP_DB
+                            * 🗂hbase
+                                * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/05_OLAP_DB/hbase/Lynda_HBase_Essential_Training.md)
+                                * [📝hbase](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/05_OLAP_DB/hbase/hbase.md)
+                                * [📝phoenix](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/05_OLAP_DB/hbase/phoenix.md)
+                            * [📝lsm-tree](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/05_OLAP_DB/lsm-tree.md)
+                            * 🗂图数据库
+                                * [📝HugeGraph](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/05_OLAP_DB/图数据库/HugeGraph.md)
+                                * 🗂图计算框架
+                                    * [📝Gremlin_TinkerPop](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/00_存储/05_OLAP_DB/图数据库/图计算框架/Gremlin_TinkerPop.md)
+                    * 🗂存算一体_hadoop_hdfs_yarn
+                        * 🗂hadoop和发行版
+                            * [📝Lynda_Learning_Hadoop](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/Lynda_Learning_Hadoop.md)
+                            * 🗂cloudera_cdp
+                                * [📝HUE](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/HUE.md)
+                                * [📝ambari](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/ambari.md)
+                                * [📝cloudera_sandbox](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/cloudera_sandbox.md)
+                                * [📝cloudera发行版安装包](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/cloudera发行版安装包.md)
+                            * [📝hadoop](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/hadoop.md)
+                            * [📝最佳实践](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/最佳实践.md)
+                        * 🗂存储
+                            * [📝hdfs](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/存储/hdfs.md)
+                        * 🗂调度
+                            * [📝yarn](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/1_存算一体_hadoop_hdfs_yarn/调度/yarn.md)
+                    * 🗂存算分离_cncf_cloudFS_k8s
+                        * [📝placeholder](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/2_存算分离_cncf_cloudFS_k8s/placeholder.md)
+                    * [📝streamset](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/01_存储调度/streamset.md)
                 * 🗂计算引擎
                     * 🗂API
                         * [📝任务提交](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/01_emr/02_计算引擎/00_API/任务提交.md)
@@ -1830,54 +1884,6 @@
                 * [📝Kudu](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/04_OLAP_MPP/Kudu.md)
                 * [📝hologres](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/04_OLAP_MPP/hologres.md)
             * [📝总览](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/02_计算执行引擎/总览.md)
-        * 🗂存储调度
-            * 🗂存储
-                * 🗂数据格式
-                    * [📝Apache_Avro](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/01_数据格式/Apache_Avro.md)
-                    * [📝Arrow](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/01_数据格式/Arrow.md)
-                    * [📝ORC](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/01_数据格式/ORC.md)
-                    * [📝Parquet](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/01_数据格式/Parquet.md)
-                    * [📝Velox](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/01_数据格式/Velox.md)
-                    * [📝csv](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/01_数据格式/csv.md)
-                    * [📝protobuf](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/01_数据格式/protobuf.md)
-                * 🗂数据仓库
-                    * [📝HMS_hive_meta_store](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/02_数据仓库/HMS_hive_meta_store.md)
-                * 🗂数据湖
-                    * [📝Delta_Lake](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/03_数据湖/Delta_Lake.md)
-                    * [📝Hudi](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/03_数据湖/Hudi.md)
-                    * [📝Iceberg](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/03_数据湖/Iceberg.md)
-                    * [📝hive-acid](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/03_数据湖/hive-acid.md)
-                    * [📝paimon](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/03_数据湖/paimon.md)
-                    * [📝总览](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/03_数据湖/总览.md)
-                * 🗂湖仓一体_ LakeHouse_Architecture 
-                    * [📝总览](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/04_湖仓一体_ LakeHouse_Architecture /总览.md)
-                * 🗂OLAP_DB
-                    * 🗂hbase
-                        * [📝Lynda_HBase_Essential_Training](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/05_OLAP_DB/hbase/Lynda_HBase_Essential_Training.md)
-                        * [📝hbase](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/05_OLAP_DB/hbase/hbase.md)
-                        * [📝phoenix](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/05_OLAP_DB/hbase/phoenix.md)
-                    * [📝lsm-tree](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/05_OLAP_DB/lsm-tree.md)
-                    * 🗂图数据库
-                        * [📝HugeGraph](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/05_OLAP_DB/图数据库/HugeGraph.md)
-                        * 🗂图计算框架
-                            * [📝Gremlin_TinkerPop](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/00_存储/05_OLAP_DB/图数据库/图计算框架/Gremlin_TinkerPop.md)
-            * 🗂存算一体_hadoop_hdfs_yarn
-                * 🗂hadoop和发行版
-                    * [📝Lynda_Learning_Hadoop](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/Lynda_Learning_Hadoop.md)
-                    * 🗂cloudera_cdp
-                        * [📝HUE](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/HUE.md)
-                        * [📝ambari](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/ambari.md)
-                        * [📝cloudera_sandbox](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/cloudera_sandbox.md)
-                        * [📝cloudera发行版安装包](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/cloudera_cdp/cloudera发行版安装包.md)
-                    * [📝hadoop](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/hadoop.md)
-                    * [📝最佳实践](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/00_hadoop和发行版/最佳实践.md)
-                * 🗂存储
-                    * [📝hdfs](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/存储/hdfs.md)
-                * 🗂调度
-                    * [📝yarn](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/1_存算一体_hadoop_hdfs_yarn/调度/yarn.md)
-            * 🗂存算分离_cncf_cloudFS_k8s
-                * [📝placeholder](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/2_存算分离_cncf_cloudFS_k8s/placeholder.md)
-            * [📝streamset](/docs/开发者知识文档/12_数据平台/01_计算和存储平台/03_存储调度/streamset.md)
     * 🗂开发套件_DataOps_开发治理平台
         * 🗂数据采集
             * [📝PlaceHolder_AppLog](/docs/开发者知识文档/12_数据平台/04_开发套件_DataOps_开发治理平台/00_数据采集/PlaceHolder_AppLog.md)
@@ -2023,6 +2029,8 @@
                 * [📝cpy](/docs/开发者知识文档/14_AI_大模型_训推/00_Python/基础/解释器/cpy.md)
                 * [📝pypy](/docs/开发者知识文档/14_AI_大模型_训推/00_Python/基础/解释器/pypy.md)
         * 🗂实用工具
+            * 🗂exe
+                * [📝pyinstaller](/docs/开发者知识文档/14_AI_大模型_训推/00_Python/实用工具/exe/pyinstaller.md)
             * 🗂包管理
                 * 🗂客户端
                     * [📝Conda](/docs/开发者知识文档/14_AI_大模型_训推/00_Python/实用工具/包管理/客户端/Conda.md)

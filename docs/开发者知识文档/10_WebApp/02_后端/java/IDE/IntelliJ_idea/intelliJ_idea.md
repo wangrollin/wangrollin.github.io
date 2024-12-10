@@ -36,6 +36,11 @@
 - Theme: macOS light
 - editor - color scheme - general - background: C7EDCC（浅绿色）
 
+git commit 开启 diff 窗口： 
+version control -> commit 
+  -> use ono-modal commit interface: false
+  -> clear initial commit message: true
+
 开启 ide settings 同步
 
 快捷键：

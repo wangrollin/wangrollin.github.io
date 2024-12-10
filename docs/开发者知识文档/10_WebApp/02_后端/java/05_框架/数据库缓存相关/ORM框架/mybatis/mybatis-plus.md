@@ -4,6 +4,33 @@
 - [官方文档](https://baomidou.com/introduce/)
 
 
+## page
+
+      return baseMapper.selectPage(
+                page, 
+                new QueryWrapper<Record>()
+                        .eq(StringUtils.isNotBlank(xxx), "xxx", xxx)
+                )
+                 .getRecords();;
+
+
+## select distinct 三种方法
+
+// 方法1
+List<Config> result = list(new QueryWrapper<Config>().select("distinct code, area"));
+
+// 方法2：使用QueryWrapper的distinct方法
+QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+queryWrapper.select("id", "name").distinct(true).eq("age", 18);
+List<User> userList = userMapper.selectList(queryWrapper);
+
+// 方法3：使用LambdaQueryWrapper的distinct方法
+LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+lambdaQueryWrapper.select(User::getId, User::getName).distinct(true).eq(User::getAge, 18);
+List<User> userList = userMapper.selectList(lambdaQueryWrapper);
+
+
+
 ## 动态数据源
 
 - [springboot +mybatis-plus 动态切换数据库](https://blog.csdn.net/qq_43898141/article/details/116047512)

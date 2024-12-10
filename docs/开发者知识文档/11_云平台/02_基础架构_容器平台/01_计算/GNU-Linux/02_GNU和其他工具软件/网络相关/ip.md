@@ -1,0 +1,4 @@
+
+ip addr
+
+ip a

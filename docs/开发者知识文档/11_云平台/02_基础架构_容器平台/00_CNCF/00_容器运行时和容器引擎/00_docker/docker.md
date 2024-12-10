@@ -335,6 +335,29 @@ sudo systemctl restart docker
 docker info
 
 
+清华源 https://docker.mirrors.tuna.tsinghua.edu.cn
+
+目前最快: https://docker.m.daocloud.io/
+
+更新: /etc/docker/daemon.json
+
+{
+    "registry-mirrors": [
+        "https://docker.m.daocloud.io",
+        "https://docker.nju.edu.cn",
+        "https://dockerproxy.com"
+    ]
+}
+
+重启 docker 后通过docker info检查源是否替换成功
+
+ Registry Mirrors:
+  https://docker.m.daocloud.io/
+  https://docker.nju.edu.cn/
+  https://dockerproxy.com/
+
+
+
 ## docker login fail ubuntu18.04： error saving credentials: error storing credentials - err: exit status 1, out: Cannot autolaunch D-Bus without X11 $DISPLA
 
 sudo apt install gnupg2 pass

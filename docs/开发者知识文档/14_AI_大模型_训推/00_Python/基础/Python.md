@@ -101,6 +101,17 @@ V2EX：http://pypi.v2ex.com/simple
 
 
 
+### 读取文件内容时，可以先探测文件编码格式
+
+```python
+with open(file_path, "rb") as:
+    raw_data = f.read()
+    result = chardet.detect(raw_data)
+    file_encode = result['encoding']
+with open(file_path, "r", encoding=file_encode) as f
+    fc = f.read()
+```
+
 
 ## 历史遗留
 

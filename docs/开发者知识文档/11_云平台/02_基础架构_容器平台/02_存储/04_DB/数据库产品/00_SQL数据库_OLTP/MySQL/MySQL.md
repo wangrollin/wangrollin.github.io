@@ -197,6 +197,18 @@ SELECT @@session.tx_isolation;
 SET GLOBAL TRANSACTION ISOLATION LEVEL READ COMMITTED;
 ```
 
+## 时间函数
+
+### 计算前一天、后一天
+
+```sql
+SELECT 
+    DATE_FORMAT(DATE_SUB(DATE(`produce_time`), INTERVAL 1 DAY), '%Y-%m-%d') AS one_day_before, 
+    DATE_FORMAT(DATE_ADD(DATE(`produce_time`), INTERVAL 1 DAY), '%Y-%m-%d') AS one_day_after,
+    DATE_FORMAT(DATE(`produce_time`), '%Y-%m-%d')
+FROM table1 limit 1;
+```
+
 ## 性能优化
 
 ### 查看连接数量过多
