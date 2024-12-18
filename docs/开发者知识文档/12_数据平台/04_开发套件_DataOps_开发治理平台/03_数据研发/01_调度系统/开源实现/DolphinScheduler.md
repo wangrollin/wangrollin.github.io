@@ -3,6 +3,12 @@
 - [github](https://github.com/apache/dolphinscheduler)
 
 
+## bugfix
+
+DolphinScheduler配置Kerberos,过期重启解决问题
+https://blog.csdn.net/qq_18453581/article/details/132298018
+
+
 ## 日期参数定义
 
 - [参数定义](https://blog.csdn.net/github_37130188/article/details/114333766)

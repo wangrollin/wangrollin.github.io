@@ -1,5 +1,10 @@
 # intelliJ_idea
 
+## opensource 开源项目免费授权
+
+https://www.jetbrains.com/community/opensource/
+
+
 ## 插件
 
 - statistics

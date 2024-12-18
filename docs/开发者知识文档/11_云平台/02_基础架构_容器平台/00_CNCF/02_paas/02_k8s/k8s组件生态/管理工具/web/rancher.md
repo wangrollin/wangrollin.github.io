@@ -7,7 +7,7 @@ rancher-desktop
 ## 网页
 
 - [官网](https://rancher.com/)
-- [官网 doc](https://ranchermanager.docs.rancher.com/?_gl=1*es3brl*_ga*MTkzNjEwNjk4My4xNjg0MTIxNjc4*_ga_Y7SFXF9L00*MTY4NDIyNTg2Ni4zLjEuMTY4NDIyNTg4MS40NS4wLjA.)
+- [官网 doc](https://ranchermanager.docs.rancher.com/zh/)
 - [github](https://github.com/rancher/rancher)
 - [支持的rancher版本](https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/rancher-v2-7-3/)
 
@@ -18,6 +18,10 @@ rancher/server 1.x
 rancher/rancher 2.x
 
 ```bash
+
+docker pull rancher/rancher:v2.10-head
+docker pull rancher/rancher:stable
+
 docker run -d --name rancher\
   --restart=unless-stopped \
   -p 80:80 -p 443:443 \
@@ -32,6 +36,15 @@ docker logs -f --tail 500 dreamy_morse
 把azure的aks加入rancher中
 
 https://rancher.com/docs/rancher/v2.x/en/cluster-provisioning/hosted-kubernetes-clusters/aks/
+
+
+## 离线 docker 安装 rancher
+
+https://ranchermanager.docs.rancher.com/zh/getting-started/installation-and-upgrade/other-installation-methods/air-gapped-helm-cli-install/publish-images#1-%E6%89%BE%E5%88%B0%E4%BD%A0%E7%9A%84-rancher-%E7%89%88%E6%9C%AC%E6%89%80%E9%9C%80%E7%9A%84%E8%B5%84%E6%BA%90
+
+https://github.com/rancher/rancher/tags
+
+在 github 发布页面找到 rancher 版本对应的 image list
 
 
 
