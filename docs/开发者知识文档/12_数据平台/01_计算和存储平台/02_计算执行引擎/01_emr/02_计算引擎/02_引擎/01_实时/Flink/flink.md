@@ -7,6 +7,24 @@
 - [官方文档：Flink 架构](https://nightlies.apache.org/flink/flink-docs-master/zh/docs/concepts/flink-architecture/)
 
 
+## flink 架构
+
+client：负责将jar包转换成 job graph，然后发给 jobmanager jm。有 sql client、restful api、cli client
+
+job manager：负责资源分配和任务提交的模式。一个主，多个 standby jm 可以在主 jm 失败后直接接管
+
+- app mode：整个 cluster 只给一个 app 跑，一个 app 可能包含多个 job
+- Per-Job mode：整个 cluster 只给一个 job 跑
+- session mode：一个 jm 运行多个 job，多个 job 共享 tm，一个失败了会影响其他 job
+
+task manager：真正运行 job 的地方
+
+## 1.17 docker 启动
+
+https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/deployment/resource-providers/standalone/docker/
+
+
+
 ## history sever
 
 
