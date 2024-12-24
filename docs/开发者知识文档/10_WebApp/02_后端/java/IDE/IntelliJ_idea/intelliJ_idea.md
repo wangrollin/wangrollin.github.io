@@ -5,6 +5,11 @@
 https://www.jetbrains.com/community/opensource/
 
 
+## 离线插件下载
+
+https://plugins.jetbrains.com/idea_ce
+
+
 ## 插件
 
 - statistics

@@ -14,6 +14,10 @@
                  .getRecords();;
 
 
+## lambdaQuery sql 关键字报错
+
+@TableField("`product_sn`")
+
 ## select distinct 三种方法
 
 // 方法1
