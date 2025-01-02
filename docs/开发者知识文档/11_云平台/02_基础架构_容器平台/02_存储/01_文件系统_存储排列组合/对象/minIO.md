@@ -7,6 +7,16 @@
 
 ## mc -- minIO client
 
+- [官方文档](https://min.io/docs/minio/linux/reference/minio-mc.html)
+
+mc alias set myminio http://minioserver.example.net:9000 ACCESS_KEY SECRET_KEY
+mc admin info myminio
+
+mc cp myminio/experiment/html.html /opt/dataops/wrl/
+mc cp /opt/dataops/wrl/html2.html myminio/experiment/html.html
+
+wget http://example.com:9000/experiment/html2.html
+
 
 ## minio java sdk
 

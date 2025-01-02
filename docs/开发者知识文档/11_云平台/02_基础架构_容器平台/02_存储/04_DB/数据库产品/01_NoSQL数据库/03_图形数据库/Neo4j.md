@@ -8,3 +8,6 @@
 
 - Embedded Mode（内存+磁盘？）
 - CS Mode（磁盘？）
+
+## 容器化部署
+
