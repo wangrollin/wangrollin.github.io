@@ -1,10 +1,39 @@
 
+## CNCF distribution
+
+原来是 docker registry
+
 本质上是一个基于http的文件服务器
 
 基于 OCI distribution specification
 
 
-## docker registry
+## 网页
+
+- [github](https://github.com/distribution/distribution/)
+- [doc](https://distribution.github.io/distribution/)
+
+
+## docker run
+
+```bash
+
+docker run -d \
+  -p 5000:5000 \
+  --restart=always \
+  --name registry \
+  -v /opt/datainfra/registry/data:/var/lib/registry \
+  registry:2
+
+
+docker pull ubuntu
+docker image tag ubuntu localhost:5000/myfirstimage
+docker push localhost:5000/myfirstimage
+docker pull localhost:5000/myfirstimage
+```
+
+
+## docker 运行, old
 
 - [官方文档](https://docs.docker.com/registry/)
 
@@ -58,3 +87,16 @@ docker run -p 8080:8080 -e REG1=http://registry_host.name:5000/v1/ atcol/docker-
 
 docker run -d -p 8123:8080 -e REG1=http://localhost:5666/v1/ atcol/docker-registry-ui
 ```
+
+
+## tips
+
+## http 报错
+
+如果上述方法还是不能解决，还可以通过以下办法解决：
+
+1.vim  /etc/docker/daemon.json    增加一个daemon.json文件
+
+{ "insecure-registries":["server host:5000"] }
+保存退出
+

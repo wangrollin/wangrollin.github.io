@@ -1,6 +1,14 @@
 
+
+## 网站
+
 - [官网](https://dolphinscheduler.apache.org/)
 - [github](https://github.com/apache/dolphinscheduler)
+
+
+## 部署
+
+- [docker 部署](https://dolphinscheduler.apache.org/zh-cn/docs/3.2.2/guide/start/docker)
 
 
 ## bugfix

@@ -106,7 +106,6 @@
                 * [📝Bower](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/包管理工具/Bower.md)
                 * [📝Composer](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/包管理工具/Composer.md)
                 * [📝Meteor](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/包管理工具/Meteor.md)
-                * [📝npm](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/包管理工具/npm.md)
                 * [📝yarn](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/包管理工具/yarn.md)
             * 🗂库
                 * 🗂3D图形onWeb
@@ -256,6 +255,11 @@
                     * [📝nodejs](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/nodejs.md)
                     * 🗂node内置模块
                         * [📝fs](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node内置模块/fs.md)
+                    * 🗂node包管理
+                        * [📝npm](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node包管理/npm.md)
+                        * [📝npx](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node包管理/npx.md)
+                        * [📝pnpm](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node包管理/pnpm.md)
+                        * [📝pnpx](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node包管理/pnpx.md)
                     * 🗂node框架
                         * 🗂db框架
                             * [📝Mongoose](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node框架/db框架/Mongoose.md)
@@ -263,11 +267,12 @@
                             * [📝Express](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node框架/web框架/Express.md)
                             * [📝Koa](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node框架/web框架/Koa.md)
                             * [📝Sails](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node框架/web框架/Sails.md)
+                    * 🗂node版本管理
+                        * [📝nvm](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node版本管理/nvm.md)
+                    * 🗂node进程管理
+                        * [📝pm2](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/node进程管理/pm2.md)
                     * 🗂npm包
                         * [📝npm-check-updates](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/npm包/npm-check-updates.md)
-                        * [📝npx](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/npm包/npx.md)
-                        * [📝nvm](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/npm包/nvm.md)
-                        * [📝pm2](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/npm包/pm2.md)
                     * [📝ts-node](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/node/ts-node.md)
                 * 🗂浏览器
                     * [📝浏览器内核](/docs/开发者知识文档/01_WebApp/01_前端/03_javascript/运行时runtime/浏览器/浏览器内核.md)
@@ -423,6 +428,7 @@
                     * [📝adoptium](/docs/开发者知识文档/01_WebApp/02_后端/java/01_JDK/发行版/adoptium.md)
                     * [📝oracle-jdk](/docs/开发者知识文档/01_WebApp/02_后端/java/01_JDK/发行版/oracle-jdk.md)
                     * [📝oracle-openjdk](/docs/开发者知识文档/01_WebApp/02_后端/java/01_JDK/发行版/oracle-openjdk.md)
+                    * [📝temurin](/docs/开发者知识文档/01_WebApp/02_后端/java/01_JDK/发行版/temurin.md)
                 * 🗂编译jdk
                     * [📝Mercurial](/docs/开发者知识文档/01_WebApp/02_后端/java/01_JDK/编译jdk/Mercurial.md)
                     * [📝编译jdk](/docs/开发者知识文档/01_WebApp/02_后端/java/01_JDK/编译jdk/编译jdk.md)
@@ -624,6 +630,7 @@
                             * [📝yaml](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/yaml.md)
                             * [📝其他](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/其他.md)
                             * [📝指定外部配置](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/指定外部配置.md)
+                            * [📝配置导入为map](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/配置文件/配置导入为map.md)
                     * 🗂springCloud
                         * [📝springcloud](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/03_springCloud/springcloud.md)
                         * 🗂服务监控
@@ -672,6 +679,8 @@
                     * [📝Querydsl](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/SQL相关/Querydsl.md)
                 * 🗂csv
                     * [📝apache_common_csv](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/csv/apache_common_csv.md)
+                * 🗂docker_plugin
+                    * [📝docker-maven-plugin](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/docker_plugin/docker-maven-plugin.md)
                 * 🗂javaEE标准组件
                     * [📝jsp](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/javaEE标准组件/jsp.md)
                     * [📝servlet](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/javaEE标准组件/servlet.md)
@@ -867,7 +876,7 @@
                             * [📝虚拟机](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/00_容器运行时和容器引擎/01_OCI-Open-Container-Initiative/02_沙盒虚拟运行时/虚拟运行时/00_虚拟机.md)
                             * [📝Kata-Containers](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/00_容器运行时和容器引擎/01_OCI-Open-Container-Initiative/02_沙盒虚拟运行时/虚拟运行时/Kata-Containers.md)
                 * 🗂registry_and_cache
-                    * [📝docker_registry](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/docker_registry.md)
+                    * [📝distribution_docker_registry](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/distribution_docker_registry.md)
                     * [📝docker_registry_mirror](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/docker_registry_mirror.md)
                     * [📝docker_registry_proxy](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/docker_registry_proxy.md)
                     * [📝harbor](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/00_容器运行时和容器引擎/02_registry_and_cache/harbor.md)
@@ -898,7 +907,7 @@
                         * [📝minikube](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-开发环境/minikube.md)
                     * 🗂k8s发行版-普通版
                         * [📝KubeOperator](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/KubeOperator.md)
-                        * [📝RKE2-Rancher_Kubernetes_Engine](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/RKE2-Rancher_Kubernetes_Engine.md)
+                        * [📝RKE2](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/RKE2.md)
                         * [📝k0s](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/k0s.md)
                         * [📝k8s-原生](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/k8s-原生.md)
                         * [📝microk8s](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/microk8s.md)

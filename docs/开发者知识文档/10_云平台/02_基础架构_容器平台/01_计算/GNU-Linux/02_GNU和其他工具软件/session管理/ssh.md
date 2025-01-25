@@ -24,12 +24,16 @@ Host *
 # 生成 client 机器的密钥对
 ssh-keygen
 
-# 把公钥复制到 server 上
+# 把公钥复制到 server 上，即可实现免密登陆
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@[server ip]
 
 # 使用私钥配置 ssh config
 cd ~/.ssh
 vim ~/.ssh/config
+
+Host rocky1
+  HostName 192.168.3.67
+  User datainfra
 
 Host betterdev
   HostName better.dev

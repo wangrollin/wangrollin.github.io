@@ -165,6 +165,9 @@ docker network create --driver=macvlan --subnet=192.168.1.0/24 --gateway=192.168
 ### 启动 docker daemon
 
 systemctl start docker
+systemctl enable docker
+
+systemctl status docker
 
 ### 查看版本
 
@@ -206,6 +209,7 @@ docker run -d -it \
 
 docker images # 查看镜像
 docker image inspect xxx
+docker image tag ubuntu localhost:5000/myfirstimage
 
 docker rmi <镜像ID或名称> # 删除镜像
 

@@ -28,6 +28,19 @@ else
     echo "world"
 fi
 
+### 两个变量是否相等的判断
+
+```bash
+#!/bin/bash
+
+# 定义变量 a 和 b
+a=10
+b=20
+
+if [ "$a"!= "$b" ]; then
+    echo "hello"
+fi
+```
 
 ### $xxx 相关
 
@@ -150,6 +163,19 @@ echo "process_cnt is $process_cnt"
 
 test -e 文件路径 && echo "文件存在" || echo "文件不存在"
 
+### else if 写法
+
+num=10
+
+if [ $num -lt 5 ]; then
+    echo "数字小于 5"
+elif [ $num -lt 15 ]; then
+    echo "数字大于等于 5 且小于 15"
+else
+    echo "数字大于等于 15"
+fi
+
+
 ### 变量1的值作为变量2的key
 
 ```
@@ -169,6 +195,17 @@ canonical_path=$(realpath "$path")
 echo "$canonical_path"
 ```
 
+### 算数运算
+
+```bash
+#!/bin/bash
+# 定义变量 pid
+pid=344
+# 计算 pid + 4 的值
+result=$((pid + 4))
+# 输出结果
+echo $result
+```
 
 ## 脚本常用开头
 
@@ -194,6 +231,15 @@ else
     echo "文件不存在"
 fi
 ```
+
+## 如果文件不存在
+
+```bash
+if [! -e /opt/file ]; then
+    echo "hello"
+fi
+```
+
 
 ## 正则匹配
 

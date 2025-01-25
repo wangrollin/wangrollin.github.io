@@ -24,6 +24,8 @@ wget http://example.com:9000/experiment/html2.html
 
 sdk demo https://blog.csdn.net/cn_ljr/article/details/128688157
 
+https://min.io/docs/minio/linux/developers/java/minio-java.html
+
 ## docker 运行
 
 podman run -d \
