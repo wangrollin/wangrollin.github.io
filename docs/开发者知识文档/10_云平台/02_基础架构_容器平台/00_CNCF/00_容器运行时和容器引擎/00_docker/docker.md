@@ -196,6 +196,15 @@ docker build -t runoob/ubuntu:v1 .
 docker build -t config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT .
 
 docker run config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT
+
+docker run -d \
+  -it \
+  -p 8080:8080 \
+  -v /xxx:/yyy \
+  --restart=always \
+  --name edp-backend \
+  edp-backend:0.0.1
+
 docker run -d xxx # 后台执行
 docker run -w xxx # 指定工作目录
 docker run -it xxx /bin/sh # 容器不会退出
