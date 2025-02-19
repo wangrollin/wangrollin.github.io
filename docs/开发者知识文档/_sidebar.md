@@ -1305,8 +1305,6 @@
                 * 🗂操作系统分类
                     * 🗂OS
                         * [📝通用操作系统](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/99_操作系统分类/OS/通用操作系统.md)
-                    * 🗂RTOS
-                        * [📝real_time_operating_system](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/99_操作系统分类/RTOS/real_time_operating_system.md)
                 * 🗂Linux社区项目
                     * 🗂文档
                         * [📝tldp](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/Linux社区项目/文档/tldp.md)
@@ -2409,48 +2407,63 @@
             * [📝Lepton_AI](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/99_商业化平台/Lepton_AI.md)
             * [📝flow_扣子](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/99_商业化平台/flow_扣子.md)
             * [📝silliconCloud](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/99_商业化平台/silliconCloud.md)
-    * 🗂AI_APP_硅基灵魂_通用人工智能
+    * 🗂AI_APP_应用
         * 🗂搜索
-            * [📝AI搜索](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/01_搜索/AI搜索.md)
+            * [📝AI搜索](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_搜索/AI搜索.md)
         * 🗂广告
-            * [📝广告](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/02_广告/广告.md)
+            * [📝广告](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/02_广告/广告.md)
         * 🗂推荐系统
-            * [📝推荐系统](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/03_推荐系统/推荐系统.md)
-        * 🗂自动驾驶
-            * [📝placehodler](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/04_自动驾驶/placehodler.md)
-        * 🗂开发工具链_代码辅助
-            * [📝CodeWhisperer](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/05_开发工具链_代码辅助/CodeWhisperer.md)
-            * [📝Copilot](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/05_开发工具链_代码辅助/Copilot.md)
-            * [📝codeium](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/05_开发工具链_代码辅助/codeium.md)
-            * [📝codeverse](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/05_开发工具链_代码辅助/codeverse.md)
-            * [📝cursor](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/05_开发工具链_代码辅助/cursor.md)
-            * [📝poe](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/05_开发工具链_代码辅助/poe.md)
-        * 🗂聊天_客服_助理
-            * [📝placehodler](/docs/开发者知识文档/30_AI平台/16_AI_APP_硅基灵魂_通用人工智能/06_聊天_客服_助理/placehodler.md)
-* 🗂Quant_量化金融
-    * 🗂数据采集
-        * [📝tushare](/docs/开发者知识文档/40_Quant_量化金融/数据采集/tushare.md)
-    * [📝概览](/docs/开发者知识文档/40_Quant_量化金融/概览.md)
-* 🗂具身智能_embodied_AI
-    * 🗂本体
-        * 🗂框架
-            * [📝ROS_元系统](/docs/开发者知识文档/41_具身智能_embodied_AI/01_本体/00_框架/ROS_元系统.md)
-        * 🗂小脑-运动控制
-            * [📝placeholder](/docs/开发者知识文档/41_具身智能_embodied_AI/01_本体/01_小脑-运动控制/placeholder.md)
-        * 🗂传感器
-            * [📝摄像头](/docs/开发者知识文档/41_具身智能_embodied_AI/01_本体/02_传感器/摄像头.md)
-            * [📝雷达](/docs/开发者知识文档/41_具身智能_embodied_AI/01_本体/02_传感器/雷达.md)
-        * 🗂关键部件
-            * [📝仿生材料](/docs/开发者知识文档/41_具身智能_embodied_AI/01_本体/03_关键部件/仿生材料.md)
-            * [📝灵巧手](/docs/开发者知识文档/41_具身智能_embodied_AI/01_本体/03_关键部件/灵巧手.md)
-            * [📝表情脸](/docs/开发者知识文档/41_具身智能_embodied_AI/01_本体/03_关键部件/表情脸.md)
-    * 🗂智能
-        * [📝感知](/docs/开发者知识文档/41_具身智能_embodied_AI/02_智能/01_感知.md)
-        * [📝决策,md](/docs/开发者知识文档/41_具身智能_embodied_AI/02_智能/02_决策,md)
-        * [📝行动](/docs/开发者知识文档/41_具身智能_embodied_AI/02_智能/03_行动.md)
-        * [📝反馈](/docs/开发者知识文档/41_具身智能_embodied_AI/02_智能/04_反馈.md)
-        * [📝综述](/docs/开发者知识文档/41_具身智能_embodied_AI/02_智能/综述.md)
-    * 🗂环境
+            * [📝推荐系统](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/03_推荐系统/推荐系统.md)
+        * 🗂AI_Coding_开发工具链_代码辅助
+            * 🗂单独应用
+                * [📝cursor](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/04_AI_Coding_开发工具链_代码辅助/01_单独应用/cursor.md)
+            * 🗂插件
+                * [📝github_copilot](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/04_AI_Coding_开发工具链_代码辅助/02_插件/github_copilot.md)
+                * [📝通义灵码](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/04_AI_Coding_开发工具链_代码辅助/02_插件/通义灵码.md)
+            * [📝CodeWhisperer](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/04_AI_Coding_开发工具链_代码辅助/CodeWhisperer.md)
+            * [📝codeium](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/04_AI_Coding_开发工具链_代码辅助/codeium.md)
+            * [📝codeverse](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/04_AI_Coding_开发工具链_代码辅助/codeverse.md)
+        * 🗂聊天_客服_助理_chatbox
+            * [📝chatbox](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/05_聊天_客服_助理_chatbox/chatbox.md)
+            * [📝ollama_ui](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/05_聊天_客服_助理_chatbox/ollama_ui.md)
+            * [📝poe](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/05_聊天_客服_助理_chatbox/poe.md)
+        * 🗂Quant_量化金融
+            * 🗂数据采集
+                * [📝tushare](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_Quant_量化金融/数据采集/tushare.md)
+            * [📝概览](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_Quant_量化金融/概览.md)
+        * 🗂 自动驾驶_ADAS
+            * [📝adas](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/08_ 自动驾驶_ADAS/adas.md)
+        * 🗂具身智能_embodied_AI
+            * 🗂本体
+                * 🗂框架
+                    * 🗂RTOS
+                        * [📝freeRTOS](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/00_框架/01_RTOS/freeRTOS.md)
+                    * 🗂ROS_元系统
+                        * [📝ROS2](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/00_框架/02_ROS_元系统/ROS2.md)
+                    * 🗂autoware
+                        * [📝autoware](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/00_框架/03_autoware/autoware.md)
+                * 🗂小脑-运动控制
+                    * [📝placeholder](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/01_小脑-运动控制/placeholder.md)
+                * 🗂传感器
+                    * [📝摄像头](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/02_传感器/摄像头.md)
+                    * [📝雷达](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/02_传感器/雷达.md)
+                * 🗂关键部件
+                    * [📝仿生材料](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/03_关键部件/仿生材料.md)
+                    * [📝灵巧手](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/03_关键部件/灵巧手.md)
+                    * [📝表情脸](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/01_本体/03_关键部件/表情脸.md)
+            * 🗂智能
+                * [📝感知](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/02_智能/01_感知.md)
+                * [📝决策,md](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/02_智能/02_决策,md)
+                * [📝行动](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/02_智能/03_行动.md)
+                * [📝反馈](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/02_智能/04_反馈.md)
+                * [📝综述](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/02_智能/综述.md)
+            * 🗂环境
+                * 🗂仿真平台
+                    * [📝gazebosim](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/03_环境/04_仿真平台/gazebosim.md)
+                    * 🗂自动驾驶
+                        * [📝Carla](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/03_环境/04_仿真平台/自动驾驶/Carla.md)
+                * 🗂数据采集场
+                    * [📝数据场](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_具身智能_embodied_AI/03_环境/数据采集场/数据场.md)
 * 🗂scrum
     * [📝双月规划](/docs/开发者知识文档/80_scrum/00_双月规划.md)
     * [📝设计文档](/docs/开发者知识文档/80_scrum/02_设计文档.md)
