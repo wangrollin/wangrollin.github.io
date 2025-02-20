@@ -52,6 +52,8 @@ topic 话题，message 消息，发布者 publisher，订阅者 subscriber
 
 std_msgs 包中包含很多标准消息格式
 
+
+
 #### 发布者
 
 ```cpp
@@ -85,12 +87,18 @@ void my_callback(std_msgs::String msg)
     ROS_INFO(msg.data.c_str());
 }
 
+void my_callback2(std_msgs::String msg)
+{
+    ROS_WARN(msg.data.c_str());
+}
+
 int main(int argc, char *argv[])
 {
     ros::init(argc, argv, "my_node");
 
     ros::NodeHandler nh;
-    ros::Subscriber pub = nh.subscribe("my_topic_name", 10, my_callback);
+    ros::Subscriber sub = nh.subscribe("my_topic_name", 10, my_callback);
+    ros::Subscriber sub2 = nh.subscribe("my_topic_name2", 10, my_callback2);
     
     while(ros::ok()) {
         ros::spinOnce(); // 持续对新消息瞅一眼
@@ -107,11 +115,6 @@ int main(int argc, char *argv[])
 ## 动作
 
 
-## 录制
-
-rosbag
-
-
 ## 常用命令
 
 ```bash
@@ -120,20 +123,30 @@ sudo apt install ros-noetic-xxx
 
 ```
 
-### roscore rosrun roslaunch
-
-```bash
-# 启动 node
-roscore
-rosrun package-name-包名 node-name-节点文件名
-roslaunch wpr_simulation spb_simple.launch
-```
-
 ### roscd
 
 ```bash
 # 进入包路径
 roscd roscpp
+```
+
+### roscore rosrun
+
+```bash
+# 启动 node
+roscore
+
+# 启动一个节点 node
+rosrun package-name-包名 node-name-节点文件名
+```
+
+### roslaunch
+
+launch 文件是个 xml 文件，批量启动 package 中的 node 只是功能之一
+
+```bash
+# 批量启动 node
+roslaunch wpr_simulation spb_simple.launch
 ```
 
 ### rostopic
@@ -144,3 +157,16 @@ rostopic echo /topic_name ## 查看具体的 msg，对 unicode 编码不友好�
 rostopic hz /topic_name # 查看发送频率
 
 ```
+
+### rqt_graph
+
+```bash
+# 展示活跃节点 topic node 发布订阅关系
+rqt_graph
+```
+
+### rosbag
+
+录制
+
+
