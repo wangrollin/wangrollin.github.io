@@ -39,7 +39,6 @@ git rev-parse --short HEAD
 # 查看远程分支
 git branch -r
 
-
 ```
 
 ## 拉取新分支
