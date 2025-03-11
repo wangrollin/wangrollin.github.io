@@ -524,6 +524,8 @@
                     * [📝Hutool](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/java.lang包扩展万金油/Hutool.md)
                     * [📝commons-lang3](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/java.lang包扩展万金油/commons-lang3.md)
                     * [📝guava](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/java.lang包扩展万金油/guava.md)
+                * 🗂k8s_client
+                    * [📝k8s_client](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/k8s_client/k8s_client.md)
                 * 🗂object_mapper转换
                     * [📝Dozer](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/object_mapper转换/Dozer.md)
                     * [📝JMapper](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/object_mapper转换/JMapper.md)
@@ -531,6 +533,8 @@
                     * [📝Orika](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/object_mapper转换/Orika.md)
                     * [📝jackson-databind](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/object_mapper转换/jackson-databind.md)
                     * [📝mapstruct](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/object_mapper转换/mapstruct.md)
+                * 🗂s3_client
+                    * [📝s3_client](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/s3_client/s3_client.md)
                 * 🗂函数式编程
                     * [📝Vavr](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/函数式编程/Vavr.md)
                 * 🗂反射
@@ -1090,8 +1094,8 @@
                     * 🗂CLI强化工具
                         * [📝eval](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/CLI强化工具/eval.md)
                         * [📝watch](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/CLI强化工具/watch.md)
-                    * 🗂CPU架构
-                        * [📝uname](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/CPU架构/uname.md)
+                    * 🗂CPU架构和发行版
+                        * [📝uname](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/CPU架构和发行版/uname.md)
                     * [📝GNU概览](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/GNU概览.md)
                     * 🗂linuxForMac
                         * [📝multipass](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/linuxForMac/multipass.md)
@@ -1210,6 +1214,7 @@
                         * [📝nc_netcat](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/nc_netcat.md)
                         * [📝netstat](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/netstat.md)
                         * [📝nmap](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/nmap.md)
+                        * [📝nslookup](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/nslookup.md)
                         * [📝ping](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/ping.md)
                         * [📝route](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/route.md)
                         * [📝socat](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/socat.md)
@@ -1340,6 +1345,7 @@
                     * [📝系统调用](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/系统API/系统调用.md)
                 * 🗂网络编程
                     * [📝C10K问题](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/网络编程/C10K问题.md)
+                    * [📝查看公网IP](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/网络编程/查看公网IP.md)
                 * 🗂虚拟化技术
                     * [📝LXC](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/虚拟化技术/LXC.md)
             * [📝GPU云服务器](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GPU云服务器.md)
@@ -2027,7 +2033,6 @@
             * 🗂IDE
                 * [📝PyCharm](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/IDE/PyCharm.md)
             * 🗂python发行版
-                * [📝Anaconda](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/python发行版/Anaconda.md)
                 * [📝stackless](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/python发行版/stackless.md)
             * 🗂可运行包
                 * [📝qrcode](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/可运行包/qrcode.md)
@@ -2057,7 +2062,10 @@
                 * 🗂虚拟环境管理
                     * [📝venv](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/00_venv.md)
                     * [📝pipx](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/01_pipx.md)
-                    * [📝Miniconda](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/Miniconda.md)
+                    * 🗂conda
+                        * [📝Anaconda](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/Anaconda.md)
+                        * [📝Miniconda](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/Miniconda.md)
+                        * [📝miniforge](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/miniforge.md)
                     * [📝hatch](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/hatch.md)
                     * [📝pipenv](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/pipenv.md)
                     * [📝poetry](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/poetry.md)
@@ -2458,7 +2466,8 @@
                     * 🗂感知可视化
                         * [📝webviz](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/感知可视化/01_webviz.md)
                         * [📝foxglove_studio](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/感知可视化/02_foxglove_studio.md)
-                        * [📝rosweb](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/感知可视化/rosweb.md)
+                        * [📝rqt](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/感知可视化/03_rqt.md)
+                        * [📝rviz](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/感知可视化/04_rviz.md)
                     * [📝激光雷达](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/激光雷达.md)
                     * [📝相机](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/相机.md)
                     * [📝超声波雷达](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/00_传感器/超声波雷达.md)
@@ -2504,14 +2513,15 @@
                 * 🗂仿真平台
                     * 🗂背景信息
                         * [📝NVIDIA_三台计算机理论](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/00_背景信息/NVIDIA_三台计算机理论.md)
+                        * [📝URDF](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/00_背景信息/URDF.md)
                         * [📝皮克斯_openUSD](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/00_背景信息/皮克斯_openUSD.md)
                     * 🗂训练数据_合成数据
                         * [📝nvidia_cosmos](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/01_训练数据_合成数据/nvidia_cosmos.md)
                     * 🗂仿真环境
+                        * 🗂Gazebo
+                            * [📝wpr_simulation__Gazebo](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/02_仿真环境/01_Gazebo/wpr_simulation__Gazebo.md)
                         * 🗂AI连接
                             * [📝ROS-X-Habatat](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/02_仿真环境/AI连接/ROS-X-Habatat.md)
-                        * 🗂Gazebo
-                            * [📝wpr_simulation__Gazebo](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/02_仿真环境/Gazebo/wpr_simulation__Gazebo.md)
                         * [📝Libero](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/02_仿真环境/Libero.md)
                         * [📝Webots](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/02_仿真环境/Webots.md)
                         * 🗂omniverse_isaac
@@ -2523,10 +2533,13 @@
                         * [📝虚幻引擎_Unreal](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/02_仿真环境/虚幻引擎_Unreal.md)
                     * 🗂自动驾驶
                         * [📝Carla](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/仿真平台/99_自动驾驶/Carla.md)
-                * 🗂数据采集场
-                    * [📝数据场](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/数据采集场/数据场.md)
+                * 🗂数据场
+                    * [📝数据场](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/数据场/数据场.md)
+                * 🗂采集
+                    * [📝动捕](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/采集/动捕.md)
+                    * [📝遥操作](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_环境_数据采集_推理验证/采集/遥操作.md)
             * 🗂商业化方案_Embodied_AI_Infra
-                * [📝NVIDIA_OSMO](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/04_商业化方案_Embodied_AI_Infra/NVIDIA_OSMO.md)
+                * [📝NVIDIA_OSMO](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/98_商业化方案_Embodied_AI_Infra/NVIDIA_OSMO.md)
             * 🗂商业化公司
                 * 🗂中国
                     * 🗂上海

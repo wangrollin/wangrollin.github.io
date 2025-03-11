@@ -10,54 +10,6 @@ https://www.jetbrains.com/community/opensource/
 https://plugins.jetbrains.com/idea_ce
 
 
-## 插件
-
-- statistics
-- free mybatis plugin
-- snakeYaml plugin
-- alibaba cloud toolkit
-- alibaba Java coding guidelines
-- sonarLint
-- maven helper
-- lombok
-- markdown
-- ideavim
-- shellcheck
-- database navigat
-- junit
-- bashsupport
-- go template
-- javafx runtime for plugin
-- thrift support
-- arthas idea
-- docker
-- kubernetes (by idea)
-
-
-## 配置
-
-### 普通配置
-
-- tab limit 设置为 100
-- front 设置为15
-- Font: Menlo
-- show tabs in one row: false
-- view - appearance - toolbar
-- Theme: macOS light
-- editor - color scheme - general - background: C7EDCC（浅绿色）
-
-git commit 开启 diff 窗口： 
-version control -> commit 
-  -> use ono-modal commit interface: false
-  -> clear initial commit message: true
-
-开启 ide settings 同步
-
-快捷键：
-- 删除：quick switch scheme
-- 添加：open in terminal [ctl + `]
-- 添加：reveal in finder [opt + `]
-
 ### 添加jdk并设置为新项目的默认选项
 
 比如 /usr/local/Cellar/openjdk@11/11.0.7+10/libexec/openjdk.jdk

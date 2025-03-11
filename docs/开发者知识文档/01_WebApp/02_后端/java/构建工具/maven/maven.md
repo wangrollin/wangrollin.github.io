@@ -4,6 +4,11 @@
 - [官网](https://maven.apache.org/index.html)
 
 
+## 安装
+
+https://maven.apache.org/install.html
+
+
 ## 检查jar class 冲突
 
 三种方法

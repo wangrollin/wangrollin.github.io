@@ -22,7 +22,7 @@ mcap
 
 ## 第三方的 docker 镜像
 
-docker run --rm -p "8080:8080" husarion/foxglove:latest
+docker run --rm -p "8080:8080" --name foxglove husarion/foxglove:latest
 
 http://localhost:8080/
 

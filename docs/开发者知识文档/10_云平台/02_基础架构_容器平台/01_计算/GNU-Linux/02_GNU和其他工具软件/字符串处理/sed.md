@@ -16,3 +16,7 @@ sed -i '3d' a.txt
 sed -i '1,3d' a.txt
 
 cat a.txt | sed '3d'
+
+## mac 上面的坑 ''
+
+sed -i '' "s/CHANGEME_IMAGE_VERSION/${IMAGE_VERSION}/g" bin/upload.sh

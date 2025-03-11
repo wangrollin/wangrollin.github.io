@@ -153,6 +153,7 @@ https://segmentfault.com/a/1190000021559640
 
 启动后立即执行一次，然后每隔1h执行一次
 @Scheduled(initialDelay = 0, fixedRate = 1, timeUnit = TimeUnit.HOURS)
+@Scheduled(initialDelay = 0, fixedRate = 1000, timeUnit = TimeUnit.DAYS)
 
 #### @Async
 

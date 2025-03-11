@@ -54,12 +54,66 @@ docker manifest push localhost:5000/myimage:latest
 docker image save -o myimage.tar localhost:5000/myimage:latest
 ```
 
+#### 登录多个仓库
+
+登录了自己的仓库后，再从 dockerhub 拉取会报错，再次登录 dockerhub 后解决了
+
+其实不会报错，是因为 docker 的 registry-1.docker.io 域名访问不通了，这个时候使用 docker mirror 即可
+
+```bash
+docker login my-registry.com -u xxx
+
+docker login registry-1.docker.io -u xxx
+docker login -u xxx
+
+# 查看登录信息
+cat ~/.docker/config.json
+```
+
 #### docker buildx
+
+正常情况下不需要使用 buildx，直接加上 --platform xxx 就可以解决问题了
+
+**macos 启动 buildx**
+
+修改 deamon.json
+```
+{
+  "experimental": true,
+  "features": {
+    "buildkit": true
+  }
+}
+```
+
+```bash
+docker buildx version
+
+# 默认情况下是没有启用buildx配置的, 需要自己创建一个
+docker buildx create --name my-buildx
+docker buildx use my-buildx
+
+# 查看当前 builder 配置
+docker buildx inspect
+
+# 重新创建 buildx
+docker buildx rm my-buildx
+docker buildx create --name my-buildx --use
+
+# 清空缓存
+docker builder prune
+docker system prune -a
+```
 
 ```bash
 docker buildx build \
 --push \
 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 \
+--tag your-username/multiarch-example:buildx-latest .
+
+docker buildx build \
+--push \
+--platform linux/arm64/v8,linux/amd64 \
 --tag your-username/multiarch-example:buildx-latest .
 ```
 
@@ -194,6 +248,7 @@ cat ~/.docker/config.json
 ```bash
 docker build -t runoob/ubuntu:v1 . 
 docker build -t config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT .
+docker build -f  Dockerfile.test -t image-train-test .
 
 docker run config.example.com/wechat-analytics-flink:0.0.1-SNAPSHOT
 
@@ -353,39 +408,25 @@ sudo systemctl restart docker
 docker info
 
 
-清华源 https://docker.mirrors.tuna.tsinghua.edu.cn
-
-目前最快: https://docker.m.daocloud.io/
 
 更新: /etc/docker/daemon.json
-
-{
-    "registry-mirrors": [
-        "https://docker.m.daocloud.io",
-        "https://docker.nju.edu.cn",
-        "https://dockerproxy.com"
-    ]
-}
 
 重启 docker 后通过docker info检查源是否替换成功
 
  Registry Mirrors:
-  https://docker.m.daocloud.io/
-  https://docker.nju.edu.cn/
-  https://dockerproxy.com/
 
-2024-12-18 能用的 docker 源
+**2025-3-4 能用的 docker 源**
 
+  "registry-mirrors": [
+    "https://docker.nju.edu.cn/",
+    "https://dockerproxy.com/",
     "https://docker.hpcloud.cloud",
     "https://docker.m.daocloud.io",
-    "https://docker.unsee.tech",
     "https://docker.1panel.live",
     "http://mirrors.ustc.edu.cn",
-    "https://docker.chenby.cn",
-    "http://mirror.azure.cn",
-    "https://dockerpull.org",
     "https://dockerhub.icu",
     "https://hub.rat.dev"
+  ]
 
 ## docker login fail ubuntu18.04： error saving credentials: error storing credentials - err: exit status 1, out: Cannot autolaunch D-Bus without X11 $DISPLA
 

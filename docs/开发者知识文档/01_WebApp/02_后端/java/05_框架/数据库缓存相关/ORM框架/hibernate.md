@@ -1,3 +1,5 @@
-# Sometimes structure is more important than content
 
-Sometimes structure is more important than content
+
+## hibernate validator
+
+https://hibernate.org/validator/

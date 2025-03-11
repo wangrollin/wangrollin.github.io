@@ -37,6 +37,12 @@ apt install -y python3-pip
 python3 -m pip install --upgrade pip
 
 
+## 换源
+
+清华源
+
+RUN pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 
 ## tips
 

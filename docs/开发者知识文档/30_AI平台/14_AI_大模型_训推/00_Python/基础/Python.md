@@ -55,6 +55,10 @@ pipx install
 
 ## tips
 
+### 不缓存到一起输出，而是直接输出日志
+
+python3 -u xxx.py
+
 ### 输出Python解释器的位置
 
 ```python
