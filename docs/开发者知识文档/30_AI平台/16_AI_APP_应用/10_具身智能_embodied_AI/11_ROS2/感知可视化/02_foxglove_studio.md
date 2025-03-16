@@ -26,3 +26,5 @@ docker run --rm -p "8080:8080" --name foxglove husarion/foxglove:latest
 
 http://localhost:8080/
 
+- 覆盖默认 layout，位置在 /foxglove/default_layout.json
+- 远程文件一键可视化，在url 后面加这个参数：http://foxglove.my-example.com/?ds=remote-file&ds.url=https://xxx/xxx/this-is-my-bag.bag

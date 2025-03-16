@@ -6,13 +6,26 @@
 
 ## page
 
+```java
       return baseMapper.selectPage(
                 page, 
                 new QueryWrapper<Record>()
                         .eq(StringUtils.isNotBlank(xxx), "xxx", xxx)
                 )
                  .getRecords();;
+```
 
+```java
+    // 创建分页对象
+        Page<User> page = new Page<>(pageNum, pageSize);
+
+        // 使用链式查询进行分页查询
+        IPage<User> userPage = new LambdaQueryChainWrapper<>(userMapper)
+               .ge(User::getAge, 18) // 示例条件：年龄大于等于 18
+               .page(page);
+
+        return userPage;
+```
 
 ## lambdaQuery sql 关键字报错
 

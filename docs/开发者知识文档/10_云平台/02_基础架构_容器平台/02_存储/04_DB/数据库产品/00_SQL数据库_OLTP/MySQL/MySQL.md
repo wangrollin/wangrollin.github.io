@@ -190,9 +190,9 @@ SERIALIZABLE：可串行化
 
 ```sql
 show variables like '%tx_isolation%';
-select @@tx_isolation;
-SELECT @@global.tx_isolation;
-SELECT @@session.tx_isolation;
+select @@transaction_isolation;
+SELECT @@global.transaction_isolation;
+SELECT @@session.transaction_isolation;
 
 SET GLOBAL TRANSACTION ISOLATION LEVEL READ COMMITTED;
 ```

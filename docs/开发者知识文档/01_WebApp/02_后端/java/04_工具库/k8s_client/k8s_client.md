@@ -1,4 +1,4 @@
 
-- [github](https://github.com/kubernetes-client/java)
-- [wiki](https://github.com/kubernetes-client/java/wiki)
+- [github code](https://github.com/kubernetes-client/java)
+- [github wiki](https://github.com/kubernetes-client/java/wiki)
 
