@@ -72,6 +72,12 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted
 ```
 
 
+## 安装桌面和远程登录
+
+sudo apt-get update -y
+sudo apt-get install ubuntu-desktop -y
+reboot
+
 
 ## 安装ZFS
 

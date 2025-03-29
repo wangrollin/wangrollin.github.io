@@ -11,3 +11,4 @@ fdisk -l
 
 fdisk /dev/vdb
 
+### 挂盘可以用 mount

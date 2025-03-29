@@ -1247,6 +1247,8 @@
                                     * [📝HLLVM](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/高级语言虚拟机_HLLVM/00_HLLVM.md)
                                     * [📝Hotspot](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/高级语言虚拟机_HLLVM/Hotspot.md)
                                     * [📝v8](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/虚拟化/进程虚拟机/跨ISA/高级语言虚拟机_HLLVM/v8.md)
+                    * 🗂计数
+                        * [📝wc](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/计数/wc.md)
                     * 🗂进程相关
                         * [📝Monit](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/Monit.md)
                         * [📝Systemd](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/进程相关/Systemd.md)
@@ -2405,6 +2407,8 @@
             * 🗂记忆
                 * [📝infinite_transformer](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/02_Agent_范式/记忆/infinite_transformer.md)
         * 🗂基础设施
+            * 🗂低代码平台
+                * [📝dify](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/98_基础设施/低代码平台/dify.md)
             * 🗂向量数据库
                 * [📝向量数据库_vector_DB](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/98_基础设施/向量数据库/向量数据库_vector_DB.md)
             * 🗂开发框架
