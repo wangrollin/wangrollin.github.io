@@ -70,7 +70,10 @@ ALTER DATABASE your_database_name CHARACTER SET 'charset_name';
 ALTER TABLE your_table_name CONVERT TO CHARACTER SET 'charset_name';
 
 -- 修改列字符集
-ALTER TABLE your_table_name MODIFY column_name column_type CHARACTER SET 'charset_name';
+ALTER TABLE your_table_name MODIFY COLUMN column_name column_type CHARACTER SET 'charset_name';
+
+-- 修改列位置
+ALTER TABLE your_table_name MODIFY COLUMN column_name column_type AFTER id;
 ```
 
 #### 查看、使用数据库，查看表
