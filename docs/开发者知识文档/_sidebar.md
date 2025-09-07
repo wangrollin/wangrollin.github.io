@@ -670,6 +670,9 @@
                         * [📝springSession](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/06_springSession/springSession.md)
                     * 🗂springShell
                         * [📝springShell](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/07_springShell/springShell.md)
+                    * 🗂springAI
+                        * [📝embabel](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/08_springAI/embabel.md)
+                        * [📝springAI](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/08_springAI/springAI.md)
                     * 🗂springCloudDataFlow
                         * [📝springCloudDataFlow](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/springCloudDataFlow/springCloudDataFlow.md)
                     * 🗂springIntegration
@@ -915,11 +918,11 @@
                     * 🗂k8s发行版-普通版
                         * [📝KubeOperator](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/KubeOperator.md)
                         * [📝RKE2](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/RKE2.md)
-                        * [📝k0s](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/k0s.md)
                         * [📝k8s-原生](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/k8s-原生.md)
                         * [📝microk8s](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-普通版/microk8s.md)
                     * 🗂k8s发行版-边缘计算
                         * [📝SuperEdge](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/SuperEdge.md)
+                        * [📝k0s](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/k0s.md)
                         * [📝k3s](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/k3s.md)
                         * [📝kubeEdge](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/kubeEdge.md)
                         * [📝openYurt](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s发行版-边缘计算/openYurt.md)
@@ -997,6 +1000,8 @@
                             * 🗂Ingress
                                 * [📝traefik](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s组件生态/网络/Ingress/traefik.md)
                             * [📝总览](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s组件生态/网络/总览.md)
+                        * 🗂调度引擎
+                            * [📝Volcano](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/k8s组件生态/调度引擎/Volcano.md)
                     * [📝kubernetes概览](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/kubernetes概览.md)
                     * 🗂特性
                         * [📝serviceaccount](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/00_CNCF/02_paas/02_k8s/特性/serviceaccount.md)
@@ -1211,6 +1216,7 @@
                         * [📝WireGuard](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/WireGuard.md)
                         * [📝firwall](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/firwall.md)
                         * [📝ip](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/ip.md)
+                        * [📝iproute-tc](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/iproute-tc.md)
                         * [📝iptable](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/iptable.md)
                         * [📝ipvadm](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/ipvadm.md)
                         * [📝nc_netcat](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/01_计算/GNU-Linux/02_GNU和其他工具软件/网络相关/nc_netcat.md)
@@ -1385,6 +1391,7 @@
                     * 🗂分布式存储
                         * [📝Ceph](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/02_存储/01_文件系统_存储排列组合/块-对象-文件/分布式存储/Ceph.md)
                 * 🗂对象
+                    * [📝RustFS](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/02_存储/01_文件系统_存储排列组合/对象/RustFS.md)
                     * [📝minIO](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/02_存储/01_文件系统_存储排列组合/对象/minIO.md)
                 * 🗂文件
                     * [📝总览](/docs/开发者知识文档/10_云平台/02_基础架构_容器平台/02_存储/01_文件系统_存储排列组合/文件/总览.md)
@@ -2035,566 +2042,603 @@
     * 🗂AI_大模型_训推
         * 🗂Python
             * 🗂IDE
-                * [📝PyCharm](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/IDE/PyCharm.md)
+                * [📝PyCharm](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/IDE/PyCharm.md)
             * 🗂python发行版
-                * [📝stackless](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/python发行版/stackless.md)
+                * [📝stackless](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/python发行版/stackless.md)
             * 🗂可运行包
-                * [📝qrcode](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/可运行包/qrcode.md)
-                * [📝webssh](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/可运行包/webssh.md)
+                * [📝qrcode](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/可运行包/qrcode.md)
+                * [📝webssh](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/可运行包/webssh.md)
             * 🗂基础
-                * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/Lynda_Python_Essential_Training.md)
-                * [📝Python](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/Python.md)
+                * [📝Lynda_Python_Essential_Training](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/Lynda_Python_Essential_Training.md)
+                * [📝Python](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/Python.md)
                 * 🗂标准库
                     * 🗂XML解析
-                        * [📝ElementTree](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/标准库/XML解析/ElementTree.md)
-                    * [📝异步编程](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/标准库/异步编程.md)
+                        * [📝ElementTree](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/标准库/XML解析/ElementTree.md)
+                    * [📝异步编程](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/标准库/异步编程.md)
                     * 🗂日志
-                        * [📝logging](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/标准库/日志/logging.md)
-                    * [📝标准库](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/标准库/标准库.md)
+                        * [📝logging](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/标准库/日志/logging.md)
+                    * [📝标准库](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/标准库/标准库.md)
                 * 🗂解释器
-                    * [📝cpy](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/解释器/cpy.md)
-                    * [📝pypy](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/基础/解释器/pypy.md)
+                    * [📝cpy](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/解释器/cpy.md)
+                    * [📝pypy](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/基础/解释器/pypy.md)
             * 🗂实用工具
                 * 🗂exe
-                    * [📝pyinstaller](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/exe/pyinstaller.md)
+                    * [📝pyinstaller](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/exe/pyinstaller.md)
                 * 🗂包管理
                     * 🗂客户端
-                        * [📝Conda](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/包管理/客户端/Conda.md)
-                        * [📝pip3](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/包管理/客户端/pip3.md)
+                        * [📝Conda](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/包管理/客户端/Conda.md)
+                        * [📝pip3](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/包管理/客户端/pip3.md)
                     * 🗂源
-                        * [📝PyPI](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/包管理/源/PyPI.md)
+                        * [📝PyPI](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/包管理/源/PyPI.md)
                 * 🗂虚拟环境管理
-                    * [📝venv](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/00_venv.md)
-                    * [📝pipx](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/01_pipx.md)
+                    * [📝venv](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/00_venv.md)
+                    * [📝pipx](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/01_pipx.md)
                     * 🗂conda
-                        * [📝Anaconda](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/Anaconda.md)
-                        * [📝Miniconda](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/Miniconda.md)
-                        * [📝miniforge](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/miniforge.md)
-                    * [📝hatch](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/hatch.md)
-                    * [📝pipenv](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/pipenv.md)
-                    * [📝poetry](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/poetry.md)
-                    * [📝pyenv](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/pyenv.md)
-                    * [📝virtualenv](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/virtualenv.md)
+                        * [📝Anaconda](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/Anaconda.md)
+                        * [📝Miniconda](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/Miniconda.md)
+                        * [📝miniforge](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/conda/miniforge.md)
+                    * [📝hatch](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/hatch.md)
+                    * [📝pipenv](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/pipenv.md)
+                    * [📝poetry](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/poetry.md)
+                    * [📝pyenv](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/pyenv.md)
+                    * [📝virtualenv](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/实用工具/虚拟环境管理/virtualenv.md)
             * 🗂库
                 * 🗂CLI库
-                    * [📝click](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/CLI库/click.md)
+                    * [📝click](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/CLI库/click.md)
                 * 🗂SSHv2协议库
-                    * [📝Paramiko](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/SSHv2协议库/Paramiko.md)
+                    * [📝Paramiko](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/SSHv2协议库/Paramiko.md)
                 * 🗂k8s_client
-                    * [📝kubernetes](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/k8s_client/kubernetes.md)
-                * [📝python-setuptools](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/python-setuptools.md)
+                    * [📝kubernetes](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/k8s_client/kubernetes.md)
+                * [📝python-setuptools](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/python-setuptools.md)
                 * 🗂yaml
-                    * [📝PyYaml](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/yaml/PyYaml.md)
+                    * [📝PyYaml](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/yaml/PyYaml.md)
                 * 🗂串口通信库
-                    * [📝pyserial](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/串口通信库/pyserial.md)
+                    * [📝pyserial](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/串口通信库/pyserial.md)
                 * 🗂图像处理库
-                    * [📝Pillow](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/图像处理库/Pillow.md)
+                    * [📝Pillow](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/图像处理库/Pillow.md)
                 * 🗂基础工具库
-                    * [📝pyutil](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/基础工具库/pyutil.md)
+                    * [📝pyutil](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/基础工具库/pyutil.md)
                 * 🗂并发编程
-                    * [📝greenlet](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/并发编程/greenlet.md)
+                    * [📝greenlet](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/并发编程/greenlet.md)
                 * 🗂数值计算库
-                    * [📝numpy](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/数值计算库/numpy.md)
-                    * [📝pandas](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/数值计算库/pandas.md)
-                    * [📝scipy](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/数值计算库/scipy.md)
+                    * [📝numpy](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/数值计算库/numpy.md)
+                    * [📝pandas](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/数值计算库/pandas.md)
+                    * [📝scipy](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/数值计算库/scipy.md)
                 * 🗂数据看板_画板
-                    * [📝dash-Plotly](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/数据看板_画板/dash-Plotly.md)
+                    * [📝dash-Plotly](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/数据看板_画板/dash-Plotly.md)
                 * 🗂流水线构建
-                    * [📝luigi](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/流水线构建/luigi.md)
+                    * [📝luigi](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/流水线构建/luigi.md)
                 * 🗂网络库
                     * 🗂http
-                        * [📝requests](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/网络库/http/requests.md)
+                        * [📝requests](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/网络库/http/requests.md)
                     * 🗂ws
-                        * [📝websocket-client](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/网络库/ws/websocket-client.md)
-                        * [📝websockets](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/网络库/ws/websockets.md)
+                        * [📝websocket-client](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/网络库/ws/websocket-client.md)
+                        * [📝websockets](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/网络库/ws/websockets.md)
                 * 🗂语言处理库
-                    * [📝jieba分词](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/库/语言处理库/jieba分词.md)
+                    * [📝jieba分词](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/库/语言处理库/jieba分词.md)
             * 🗂框架
                 * 🗂DB相关
                     * 🗂DB管理
-                        * [📝Alembic](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/DB相关/DB管理/Alembic.md)
-                        * [📝sqlacodegen](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/DB相关/DB管理/sqlacodegen.md)
+                        * [📝Alembic](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/DB相关/DB管理/Alembic.md)
+                        * [📝sqlacodegen](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/DB相关/DB管理/sqlacodegen.md)
                     * 🗂ORM
-                        * [📝MongoEngine](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/DB相关/ORM/MongoEngine.md)
-                        * [📝SQLALchemy](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/DB相关/ORM/SQLALchemy.md)
-                        * [📝peewee](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/DB相关/ORM/peewee.md)
-                        * [📝pymongo](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/DB相关/ORM/pymongo.md)
+                        * [📝MongoEngine](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/DB相关/ORM/MongoEngine.md)
+                        * [📝SQLALchemy](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/DB相关/ORM/SQLALchemy.md)
+                        * [📝peewee](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/DB相关/ORM/peewee.md)
+                        * [📝pymongo](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/DB相关/ORM/pymongo.md)
                 * 🗂Html渲染框架
-                    * [📝Jinja2](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Html渲染框架/Jinja2.md)
+                    * [📝Jinja2](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Html渲染框架/Jinja2.md)
                 * 🗂WSGI_Server
                     * 🗂blocking
-                        * [📝Gunicorn](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/WSGI_Server/blocking/Gunicorn.md)
+                        * [📝Gunicorn](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/WSGI_Server/blocking/Gunicorn.md)
                     * 🗂non-blocking
-                        * [📝Gevent](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/WSGI_Server/non-blocking/Gevent.md)
-                        * [📝Tornado](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/WSGI_Server/non-blocking/Tornado.md)
-                        * [📝eventlet](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/WSGI_Server/non-blocking/eventlet.md)
+                        * [📝Gevent](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/WSGI_Server/non-blocking/Gevent.md)
+                        * [📝Tornado](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/WSGI_Server/non-blocking/Tornado.md)
+                        * [📝eventlet](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/WSGI_Server/non-blocking/eventlet.md)
                 * 🗂Web框架
                     * 🗂Django
-                        * [📝Django](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Django/00_Django.md)
-                        * [📝django-admin](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Django/django-admin.md)
-                    * [📝FastAPI](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/FastAPI.md)
+                        * [📝Django](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Django/00_Django.md)
+                        * [📝django-admin](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Django/django-admin.md)
+                    * [📝FastAPI](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/FastAPI.md)
                     * 🗂Flask
-                        * [📝Flask](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/00_Flask.md)
+                        * [📝Flask](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/00_Flask.md)
                         * 🗂DB管理
-                            * [📝Flask-Migrate](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/DB管理/Flask-Migrate.md)
-                            * [📝Flask-Sqlalchemy](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/DB管理/Flask-Sqlalchemy.md)
+                            * [📝Flask-Migrate](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/DB管理/Flask-Migrate.md)
+                            * [📝Flask-Sqlalchemy](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/DB管理/Flask-Sqlalchemy.md)
                         * 🗂管理面
-                            * [📝Flask-Admin](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/管理面/Flask-Admin.md)
-                            * [📝Flask-AppBuilder](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/管理面/Flask-AppBuilder.md)
+                            * [📝Flask-Admin](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/管理面/Flask-Admin.md)
+                            * [📝Flask-AppBuilder](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/管理面/Flask-AppBuilder.md)
                         * 🗂网络
-                            * [📝Flask-SocketIO](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/网络/Flask-SocketIO.md)
+                            * [📝Flask-SocketIO](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/网络/Flask-SocketIO.md)
                         * 🗂认证授权
-                            * [📝Flask-BasicAuth](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/认证授权/Flask-BasicAuth.md)
-                            * [📝Flask-Login](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/认证授权/Flask-Login.md)
-                            * [📝Flask-Security-Too](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/认证授权/Flask-Security-Too.md)
+                            * [📝Flask-BasicAuth](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/认证授权/Flask-BasicAuth.md)
+                            * [📝Flask-Login](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/认证授权/Flask-Login.md)
+                            * [📝Flask-Security-Too](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/认证授权/Flask-Security-Too.md)
                         * 🗂跨域
-                            * [📝Flask-Cors](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/Web框架/Flask/跨域/Flask-Cors.md)
+                            * [📝Flask-Cors](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/Web框架/Flask/跨域/Flask-Cors.md)
                 * 🗂微服务
-                    * [📝Euler微服务框架](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_Python/框架/微服务/Euler微服务框架.md)
+                    * [📝Euler微服务框架](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_Python/框架/微服务/Euler微服务框架.md)
         * 🗂其他
-            * [📝人工智能安全](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_其他/人工智能安全.md)
-            * [📝人工智能工程化（AI Engineering）](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_其他/人工智能工程化（AI Engineering）.md)
-            * [📝多模态的CV+NLP](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_其他/多模态的CV+NLP.md)
+            * [📝人工智能安全](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_其他/人工智能安全.md)
+            * [📝人工智能工程化（AI Engineering）](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_其他/人工智能工程化（AI Engineering）.md)
+            * [📝多模态的CV+NLP](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_其他/多模态的CV+NLP.md)
             * 🗂深度学习编译器
-                * [📝MLIR](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_其他/深度学习编译器/MLIR.md)
-                * [📝TVM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_其他/深度学习编译器/TVM.md)
-                * [📝XLA](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/00_其他/深度学习编译器/XLA.md)
+                * [📝MLIR](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_其他/深度学习编译器/MLIR.md)
+                * [📝TVM](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_其他/深度学习编译器/TVM.md)
+                * [📝XLA](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/00_其他/深度学习编译器/XLA.md)
         * 🗂数据集管理
-            * [📝数据采集](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/01_数据集管理/01_数据采集.md)
-            * [📝数据清洗](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/01_数据集管理/02_数据清洗.md)
-            * [📝数据标注](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/01_数据集管理/03_数据标注.md)
-            * [📝特征工程](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/01_数据集管理/04_特征工程.md)
+            * [📝数据采集](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/01_数据集管理/01_数据采集.md)
+            * [📝数据清洗](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/01_数据集管理/02_数据清洗.md)
+            * [📝数据标注](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/01_数据集管理/03_数据标注.md)
+            * [📝特征工程](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/01_数据集管理/04_特征工程.md)
             * 🗂数据集
-                * [📝imageNet](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/01_数据集管理/数据集/imageNet.md)
-                * [📝数据生成器](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/01_数据集管理/数据集/数据生成器.md)
-            * [📝有标记_无标记](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/01_数据集管理/有标记_无标记.md)
+                * [📝imageNet](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/01_数据集管理/数据集/imageNet.md)
+                * [📝数据生成器](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/01_数据集管理/数据集/数据生成器.md)
+            * [📝有标记_无标记](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/01_数据集管理/有标记_无标记.md)
         * 🗂nn模型
             * 🗂理论
-                * [📝概念](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/00_理论/00_概念.md)
-                * [📝向前传播_forward](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/00_理论/01_向前传播_forward.md)
-                * [📝损失函数](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/00_理论/02_损失函数.md)
-                * [📝反向传播_BP](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/00_理论/03_反向传播_BP.md)
-                * [📝梯度下降](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/00_理论/04_梯度下降.md)
+                * [📝概念](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/00_理论/00_概念.md)
+                * [📝向前传播_forward](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/00_理论/01_向前传播_forward.md)
+                * [📝损失函数](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/00_理论/02_损失函数.md)
+                * [📝反向传播_BP](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/00_理论/03_反向传播_BP.md)
+                * [📝梯度下降](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/00_理论/04_梯度下降.md)
             * 🗂神经网络模块
-                * [📝AlexNet](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/AlexNet.md)
-                * [📝DNN](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/DNN.md)
-                * [📝DeepFM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/DeepFM.md)
-                * [📝LSTM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/LSTM.md)
-                * [📝MLM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/MLM.md)
-                * [📝RLHF](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/RLHF.md)
-                * [📝RNN](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/RNN.md)
-                * [📝ResNet](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/ResNet.md)
+                * [📝AlexNet](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/AlexNet.md)
+                * [📝DNN](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/DNN.md)
+                * [📝DeepFM](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/DeepFM.md)
+                * [📝LSTM](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/LSTM.md)
+                * [📝MLM](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/MLM.md)
+                * [📝RLHF](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/RLHF.md)
+                * [📝RNN](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/RNN.md)
+                * [📝ResNet](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/ResNet.md)
                 * 🗂transformer
-                    * [📝Transformer](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/00_Transformer.md)
-                    * [📝MoE](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/MoE.md)
-                    * [📝decoder_only](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/decoder_only.md)
-                    * [📝self_attention_自注意力机制](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/self_attention_自注意力机制.md)
-                    * [📝token采样](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/token采样.md)
-                * [📝卷积神经网络_CNNs](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/卷积神经网络_CNNs.md)
-                * [📝最小二乘法](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/最小二乘法.md)
-                * [📝胶囊网络](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/01_神经网络模块/胶囊网络.md)
+                    * [📝Transformer](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/00_Transformer.md)
+                    * [📝MoE](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/MoE.md)
+                    * [📝decoder_only](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/decoder_only.md)
+                    * [📝self_attention_自注意力机制](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/self_attention_自注意力机制.md)
+                    * [📝token采样](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/transformer/token采样.md)
+                * [📝卷积神经网络_CNNs](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/卷积神经网络_CNNs.md)
+                * [📝最小二乘法](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/最小二乘法.md)
+                * [📝胶囊网络](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/01_神经网络模块/胶囊网络.md)
             * 🗂各领域的预训练模型
                 * 🗂NLP_文字转语义_机器翻译
-                    * [📝MS_Office_Copilot](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/MS_Office_Copilot.md)
-                    * [📝New_Bing](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/New_Bing.md)
-                    * [📝SwitchTransformer](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/SwitchTransformer.md)
-                    * [📝alpaca](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/alpaca.md)
-                    * [📝gbdt](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/gbdt.md)
+                    * [📝MS_Office_Copilot](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/MS_Office_Copilot.md)
+                    * [📝New_Bing](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/New_Bing.md)
+                    * [📝SwitchTransformer](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/SwitchTransformer.md)
+                    * [📝alpaca](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/alpaca.md)
+                    * [📝gbdt](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/gbdt.md)
                     * 🗂各种名词
-                        * [📝AIGC](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/AIGC.md)
-                        * [📝Colossal-AI](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/Colossal-AI.md)
-                        * [📝llama-index](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/llama-index.md)
-                        * [📝prompt](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/prompt.md)
-                        * [📝token](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/token.md)
-                        * [📝多模态](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/多模态.md)
-                        * [📝多语言转换能力](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/多语言转换能力.md)
-                        * [📝模型的具体任务](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/模型的具体任务.md)
+                        * [📝AIGC](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/AIGC.md)
+                        * [📝Colossal-AI](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/Colossal-AI.md)
+                        * [📝llama-index](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/llama-index.md)
+                        * [📝prompt](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/prompt.md)
+                        * [📝token](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/token.md)
+                        * [📝多模态](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/多模态.md)
+                        * [📝多语言转换能力](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/多语言转换能力.md)
+                        * [📝模型的具体任务](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/01_NLP_文字转语义_机器翻译/各种名词/模型的具体任务.md)
                 * 🗂语音转文字
-                    * [📝BigSSL](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/BigSSL.md)
-                    * [📝DecoAR](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/DecoAR.md)
-                    * [📝HuBERT](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/HuBERT.md)
-                    * [📝Wav2vec](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/Wav2vec.md)
-                    * [📝WavLM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/WavLM.md)
+                    * [📝BigSSL](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/BigSSL.md)
+                    * [📝DecoAR](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/DecoAR.md)
+                    * [📝HuBERT](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/HuBERT.md)
+                    * [📝Wav2vec](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/Wav2vec.md)
+                    * [📝WavLM](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/02_语音转文字/WavLM.md)
                 * 🗂CV_计算机视觉_ARVR_自动驾驶
-                    * [📝placeholder](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/03_CV_计算机视觉_ARVR_自动驾驶/placeholder.md)
-                * [📝悟道2.0](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/悟道2.0.md)
+                    * [📝placeholder](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/03_CV_计算机视觉_ARVR_自动驾驶/placeholder.md)
+                * [📝悟道2.0](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_各领域的预训练模型/悟道2.0.md)
             * 🗂预训练模型_finetune
-                * [📝预训练模型_finetune](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/03_预训练模型_finetune/预训练模型_finetune.md)
+                * [📝预训练模型_finetune](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/03_预训练模型_finetune/预训练模型_finetune.md)
             * 🗂预训练模型_prompt_human_teaching
-                * [📝预训练模型_prompt_human_teaching](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/04_预训练模型_prompt_human_teaching/预训练模型_prompt_human_teaching.md)
+                * [📝预训练模型_prompt_human_teaching](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/04_预训练模型_prompt_human_teaching/预训练模型_prompt_human_teaching.md)
             * 🗂AI分类
                 * 🗂功能
                     * 🗂判别式模型
-                        * [📝生成式模型_判别式模型](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/00_判别式模型/生成式模型_判别式模型.md)
+                        * [📝生成式模型_判别式模型](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/00_判别式模型/生成式模型_判别式模型.md)
                     * 🗂生成式模型_GenAI
-                        * [📝GenAI](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/GenAI.md)
+                        * [📝GenAI](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/GenAI.md)
                         * 🗂异常检测_anomaly_detection
-                            * [📝异常检测_anomaly_detection](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/异常检测_anomaly_detection/异常检测_anomaly_detection.md)
+                            * [📝异常检测_anomaly_detection](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/异常检测_anomaly_detection/异常检测_anomaly_detection.md)
                         * 🗂文生SQL_text2sql
-                            * [📝defog.ai](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生SQL_text2sql/defog.ai.md)
+                            * [📝defog.ai](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生SQL_text2sql/defog.ai.md)
                         * 🗂文生图_Text2Image
-                            * [📝Text2Image](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生图_Text2Image/Text2Image.md)
+                            * [📝Text2Image](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生图_Text2Image/Text2Image.md)
                         * 🗂文生文_自然语言生成_LLM
-                            * [📝LLM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/00_LLM.md)
-                            * [📝BERT](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/BERT.md)
-                            * [📝Bard](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/Bard.md)
-                            * [📝Generative_Pre-trained_Transformer_GPT](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/Generative_Pre-trained_Transformer_GPT.md)
+                            * [📝LLM](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/00_LLM.md)
+                            * [📝BERT](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/BERT.md)
+                            * [📝Bard](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/Bard.md)
+                            * [📝Generative_Pre-trained_Transformer_GPT](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生文_自然语言生成_LLM/Generative_Pre-trained_Transformer_GPT.md)
                         * 🗂文生视频_Text2Video
-                            * [📝文生视频_Text2Video](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生视频_Text2Video/文生视频_Text2Video.md)
-                        * [📝生成匹配网络_GMNs](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/生成匹配网络_GMNs.md)
+                            * [📝文生视频_Text2Video](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/文生视频_Text2Video/文生视频_Text2Video.md)
+                        * [📝生成匹配网络_GMNs](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/生成匹配网络_GMNs.md)
                         * 🗂生成对抗网络_GANs
-                            * [📝生成对抗网络_GANs](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/生成对抗网络_GANs/生成对抗网络_GANs.md)
+                            * [📝生成对抗网络_GANs](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/功能/01_生成式模型_GenAI/生成对抗网络_GANs/生成对抗网络_GANs.md)
                 * 🗂架构
                     * 🗂Mamba
-                        * [📝Mamba](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/架构/Mamba/Mamba.md)
+                        * [📝Mamba](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/架构/Mamba/Mamba.md)
                     * 🗂transformer
                         * 🗂Transformers开源模型仓库
-                            * [📝Huggingface](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/架构/transformer/Transformers开源模型仓库/Huggingface.md)
-                        * [📝transformer](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/架构/transformer/transformer.md)
+                            * [📝Huggingface](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/架构/transformer/Transformers开源模型仓库/Huggingface.md)
+                        * [📝transformer](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/架构/transformer/transformer.md)
                 * 🗂能力
-                    * [📝单一反应型_Reactive_Machines](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/能力/01_单一反应型_Reactive_Machines.md)
-                    * [📝有限记忆型_Limited_memory](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/能力/02_有限记忆型_Limited_memory.md)
-                    * [📝具有心智型 _Theory_of_mind](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/能力/03_具有心智型 _Theory_of_mind.md)
-                    * [📝狭义AI_自我意识_Self_awareness](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/能力/04_狭义AI_自我意识_Self_awareness.md)
+                    * [📝单一反应型_Reactive_Machines](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/能力/01_单一反应型_Reactive_Machines.md)
+                    * [📝有限记忆型_Limited_memory](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/能力/02_有限记忆型_Limited_memory.md)
+                    * [📝具有心智型 _Theory_of_mind](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/能力/03_具有心智型 _Theory_of_mind.md)
+                    * [📝狭义AI_自我意识_Self_awareness](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/能力/04_狭义AI_自我意识_Self_awareness.md)
                 * 🗂评价方法和标准
-                    * [📝监督](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/00_监督.md)
-                    * [📝半监督](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/01_半监督.md)
-                    * [📝⽆监督_⾃监督](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/02_⽆监督_⾃监督.md)
-                    * [📝强化学习_RL](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/03_强化学习_RL.md)
+                    * [📝监督](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/00_监督.md)
+                    * [📝半监督](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/01_半监督.md)
+                    * [📝⽆监督_⾃监督](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/02_⽆监督_⾃监督.md)
+                    * [📝强化学习_RL](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_nn模型/AI分类/评价方法和标准/03_强化学习_RL.md)
         * 🗂普通模型
             * 🗂机器学习模型_统计模型
-                * [📝LR](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/LR.md)
-                * [📝kNN](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/kNN.md)
-                * [📝决策树](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/决策树.md)
-                * [📝支持向量机_SVM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/支持向量机_SVM.md)
+                * [📝LR](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/LR.md)
+                * [📝kNN](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/kNN.md)
+                * [📝决策树](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/决策树.md)
+                * [📝支持向量机_SVM](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/01_机器学习模型_统计模型/支持向量机_SVM.md)
             * 🗂决策树模型
                 * 🗂树模型
-                    * [📝GBDT](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/决策树模型/树模型/GBDT.md)
-                    * [📝RF](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/决策树模型/树模型/RF.md)
-                    * [📝XGB](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/决策树模型/树模型/XGB.md)
+                    * [📝GBDT](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/决策树模型/树模型/GBDT.md)
+                    * [📝RF](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/决策树模型/树模型/RF.md)
+                    * [📝XGB](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/决策树模型/树模型/XGB.md)
             * 🗂线性模型
-                * [📝placeholder](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/线性模型/placeholder.md)
+                * [📝placeholder](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/线性模型/placeholder.md)
             * 🗂贝叶斯分类器
-                * [📝placeholder](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/02_普通模型/贝叶斯分类器/placeholder.md)
+                * [📝placeholder](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/02_普通模型/贝叶斯分类器/placeholder.md)
         * 🗂模型训练
             * 🗂训练范式
-                * [📝增强学习](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/00_训练范式/增强学习.md)
-                * [📝强化学习](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/00_训练范式/强化学习.md)
+                * [📝增强学习](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/00_训练范式/增强学习.md)
+                * [📝强化学习](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/00_训练范式/强化学习.md)
             * 🗂训练引擎
-                * [📝Caffe](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/Caffe.md)
+                * 🗂底层引擎
+                    * [📝cuda](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/00_底层引擎/cuda.md)
+                    * [📝mac_mps](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/00_底层引擎/mac_mps.md)
+                * [📝Caffe](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/Caffe.md)
                 * 🗂Keras
-                    * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
-                    * [📝keras](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/Keras/keras.md)
-                * [📝OpenCV](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/OpenCV.md)
+                    * [📝Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/Keras/Lynda_Neural_Networks_and_Convolutional_Neural_Networks_Essential_Training.md)
+                    * [📝keras](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/Keras/keras.md)
+                * [📝OpenCV](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/OpenCV.md)
                 * 🗂PyTorch
-                    * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
-                    * [📝PyTorch](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/PyTorch/PyTorch.md)
-                * [📝RLlib](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/RLlib.md)
-                * [📝Spark_ML](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/Spark_ML.md)
+                    * [📝Lynda_PyTorch_Essential_Training_Deep_Learning](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/PyTorch/Lynda_PyTorch_Essential_Training_Deep_Learning.md)
+                    * [📝PyTorch](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/PyTorch/PyTorch.md)
+                * [📝RLlib](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/RLlib.md)
+                * [📝Spark_ML](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/Spark_ML.md)
                 * 🗂Tensorflow
-                    * [📝tensorflow](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/Tensorflow/tensorflow.md)
+                    * [📝tensorflow](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/Tensorflow/tensorflow.md)
                     * 🗂可视化
-                        * [📝Tensorboard](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/Tensorflow/可视化/Tensorboard.md)
-                * [📝XGBoost](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/XGBoost.md)
-                * [📝scikit-learn](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/01_训练引擎/scikit-learn.md)
+                        * [📝Tensorboard](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/Tensorflow/可视化/Tensorboard.md)
+                * [📝XGBoost](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/XGBoost.md)
+                * [📝scikit-learn](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/01_训练引擎/scikit-learn.md)
             * 🗂分布式训练
-                * [📝Ray](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/02_分布式训练/Ray.md)
+                * [📝Ray](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/02_分布式训练/Ray.md)
             * 🗂训练评价
-                * [📝模型训练](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/03_训练评价/02_模型训练.md)
-                * [📝模型测试-实验](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/03_训练评价/03_模型测试-实验.md)
+                * [📝模型训练](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/03_训练评价/02_模型训练.md)
+                * [📝模型测试-实验](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/03_训练评价/03_模型测试-实验.md)
                 * 🗂术语大全
-                    * [📝召回](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/03_训练评价/术语大全/召回.md)
-                    * [📝粗排](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/03_训练评价/术语大全/粗排.md)
+                    * [📝召回](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/03_训练评价/术语大全/召回.md)
+                    * [📝粗排](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/03_训练评价/术语大全/粗排.md)
             * 🗂其他
                 * 🗂算力
-                    * [📝NPU](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/99_其他/算力/NPU.md)
-            * [📝AutoML](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/AutoML.md)
+                    * [📝NPU](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/99_其他/算力/NPU.md)
+            * [📝AutoML](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/AutoML.md)
             * 🗂训练记录
-                * [📝mlflow](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/训练记录/mlflow.md)
-            * [📝超参数优化](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/03_模型训练/超参数优化.md)
+                * [📝mlflow](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/训练记录/mlflow.md)
+            * [📝超参数优化](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/03_模型训练/超参数优化.md)
         * 🗂模型量化和导出格式
+            * 🗂原始格式
+                * [📝pytorch_pt格式](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/00_原始格式/pytorch_pt格式.md)
+            * 🗂中间格式
+                * [📝netron_nn可视化](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/01_中间格式/netron_nn可视化.md)
+                * [📝onnx](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/01_中间格式/onnx.md)
             * 🗂量化方式
-                * [📝PQT_训练后量化](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/04_模型量化和导出格式/01_量化方式/PQT_训练后量化.md)
-                * [📝QAT_量化感知训练](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/04_模型量化和导出格式/01_量化方式/QAT_量化感知训练.md)
+                * [📝PQT_训练后量化](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/02_量化方式/PQT_训练后量化.md)
+                * [📝QAT_量化感知训练](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/02_量化方式/QAT_量化感知训练.md)
             * 🗂导出格式
-            * [📝netron_nn可视化](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/04_模型量化和导出格式/netron_nn可视化.md)
-            * [📝onnx](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/04_模型量化和导出格式/onnx.md)
-            * [📝pytorch_pt格式](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/04_模型量化和导出格式/pytorch_pt格式.md)
-            * [📝tensorRT_engine格式](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/04_模型量化和导出格式/tensorRT_engine格式.md)
+                * [📝gguf](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/03_导出格式/gguf.md)
+                * [📝mac_mlx](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/03_导出格式/mac_mlx.md)
+                * [📝tensorRT_engine格式](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/04_模型量化和导出格式/03_导出格式/tensorRT_engine格式.md)
         * 🗂模型推理
-            * [📝ModelHub](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/01_ModelHub.md)
-            * [📝ModelDeploy](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/02_ModelDeploy.md)
-            * [📝ModelServer](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/03_ModelServer.md)
-            * [📝ModelMonitor](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/04_ModelMonitor.md)
-            * [📝在线学习_online_training](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/在线学习_online_training.md)
+            * [📝ModelHub](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/01_ModelHub.md)
+            * [📝ModelDeploy](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/02_ModelDeploy.md)
+            * [📝ModelServer](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/03_ModelServer.md)
+            * [📝ModelMonitor](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/04_ModelMonitor.md)
+            * [📝在线学习_online_training](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/在线学习_online_training.md)
             * 🗂大模型推理加速
-                * [📝kvCache_缓存中间结果](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/01_kvCache_缓存中间结果.md)
-                * [📝NPU](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/NPU.md)
-                * [📝batch_infer_批量处理](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/batch_infer_批量处理.md)
-                * [📝lazyLLM_token剪枝](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/lazyLLM_token剪枝.md)
-                * 🗂推理平台
-                    * [📝ollama](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/推理平台/ollama.md)
-                    * [📝sgLang](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/推理平台/sgLang.md)
-                    * [📝tensorRT-LLM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/推理平台/tensorRT-LLM.md)
-                    * [📝tensorRT](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/推理平台/tensorRT.md)
-                    * [📝vLLM](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/大模型推理加速/推理平台/vLLM.md)
-            * [📝实时推理_realtime_inference](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/实时推理_realtime_inference.md)
+                * [📝kvCache_缓存中间结果](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/大模型推理加速/01_kvCache_缓存中间结果.md)
+                * [📝NPU](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/大模型推理加速/NPU.md)
+                * [📝batch_infer_批量处理](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/大模型推理加速/batch_infer_批量处理.md)
+                * [📝lazyLLM_token剪枝](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/大模型推理加速/lazyLLM_token剪枝.md)
+            * [📝实时推理_realtime_inference](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/实时推理_realtime_inference.md)
             * 🗂开源部署平台
                 * 🗂后端
-                    * [📝kserve](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/kserve.md)
-                    * [📝mlflow_models](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/mlflow_models.md)
-                    * [📝seldon-core](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/seldon-core.md)
-                    * [📝seldon](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/seldon.md)
+                    * [📝kserve](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/kserve.md)
+                    * [📝mlflow_models](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/mlflow_models.md)
+                    * [📝seldon-core](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/seldon-core.md)
+                    * [📝seldon](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/00_后端/seldon.md)
                 * 🗂客户端
-                    * [📝端上智能](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/01_客户端/端上智能.md)
+                    * [📝端上智能](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/01_客户端/端上智能.md)
                 * 🗂嵌入式设备
-                    * [📝Tengine](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/Tengine.md)
-                    * [📝mnn](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/mnn.md)
-                    * [📝ncnn](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/ncnn.md)
-                    * [📝tnn](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/tnn.md)
+                    * [📝Tengine](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/Tengine.md)
+                    * [📝mnn](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/mnn.md)
+                    * [📝ncnn](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/ncnn.md)
+                    * [📝tnn](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/02_嵌入式设备/tnn.md)
                 * 🗂模型演示平台
-                    * [📝gradio](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/开源部署平台/99_模型演示平台/gradio.md)
-            * [📝批量推理_offline_inference](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/批量推理_offline_inference.md)
+                    * [📝gradio](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/开源部署平台/99_模型演示平台/gradio.md)
+            * [📝批量推理_offline_inference](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/批量推理_offline_inference.md)
             * 🗂硬件平台
-                * [📝nv_orin](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/05_模型推理/硬件平台/nv_orin.md)
+                * [📝nv_orin](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/05_模型推理/硬件平台/nv_orin.md)
         * 🗂模型仓库
             * 🗂公共仓库
-                * [📝hugging_face](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/97_模型仓库/公共仓库/hugging_face.md)
+                * [📝hugging_face](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/97_模型仓库/公共仓库/hugging_face.md)
             * 🗂私有仓库
-                * [📝mlflow_registry](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/97_模型仓库/私有仓库/mlflow_registry.md)
+                * [📝mlflow_registry](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/97_模型仓库/私有仓库/mlflow_registry.md)
         * 🗂大模型目录
             * 🗂中国
-                * [📝DeepSeek](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/DeepSeek.md)
-                * [📝minimax](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/minimax.md)
-                * [📝华为-盘古](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/华为-盘古.md)
-                * [📝字节-Seed-豆包](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/字节-Seed-豆包.md)
-                * [📝智谱](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/智谱.md)
-                * [📝月之暗面-kimi](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/月之暗面-kimi.md)
-                * [📝百川智能](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/百川智能.md)
-                * [📝百度-文心一言](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/百度-文心一言.md)
-                * [📝科大讯飞-星火](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/科大讯飞-星火.md)
-                * [📝腾讯-混元](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/腾讯-混元.md)
-                * [📝阿里-通义千问](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/阿里-通义千问.md)
-                * [📝零一万物](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/零一万物.md)
-                * [📝面壁职能](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/中国/面壁职能.md)
+                * [📝DeepSeek](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/DeepSeek.md)
+                * [📝minimax](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/minimax.md)
+                * [📝华为-盘古](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/华为-盘古.md)
+                * [📝字节-Seed-豆包](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/字节-Seed-豆包.md)
+                * [📝智谱](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/智谱.md)
+                * [📝月之暗面-kimi](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/月之暗面-kimi.md)
+                * [📝百川智能](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/百川智能.md)
+                * [📝百度-文心一言](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/百度-文心一言.md)
+                * [📝科大讯飞-星火](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/科大讯飞-星火.md)
+                * [📝腾讯-混元](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/腾讯-混元.md)
+                * [📝阿里-通义千问Qwen](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/阿里-通义千问Qwen.md)
+                * [📝零一万物](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/零一万物.md)
+                * [📝面壁职能](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/中国/面壁职能.md)
             * 🗂法国
-                * [📝Mistral](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/法国/Mistral.md)
+                * [📝Mistral](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/法国/Mistral.md)
             * 🗂美国
-                * [📝Meta-LLaMa](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/美国/Meta-LLaMa.md)
-                * [📝OpenAI-Sora](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/美国/OpenAI-Sora.md)
-                * [📝OpenAI-chatGPT](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/美国/OpenAI-chatGPT.md)
-                * [📝xAI-grok](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/美国/xAI-grok.md)
-                * [📝谷歌-gemini](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/98_大模型目录/美国/谷歌-gemini.md)
+                * [📝Anthropic-Claude](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/美国/Anthropic-Claude.md)
+                * [📝Meta-LLaMa](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/美国/Meta-LLaMa.md)
+                * [📝OpenAI-Sora](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/美国/OpenAI-Sora.md)
+                * [📝OpenAI-chatGPT](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/美国/OpenAI-chatGPT.md)
+                * [📝xAI-grok](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/美国/xAI-grok.md)
+                * [📝谷歌-gemini](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/98_大模型目录/美国/谷歌-gemini.md)
         * 🗂开源实现_机器学习平台_MLOps
-            * [📝OpenMMLab](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/99_开源实现_机器学习平台_MLOps/OpenMMLab.md)
-            * [📝kubeflow](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/99_开源实现_机器学习平台_MLOps/kubeflow.md)
-            * [📝飞桨_paddlepaddle](/docs/开发者知识文档/30_AI平台/14_AI_大模型_训推/99_开源实现_机器学习平台_MLOps/飞桨_paddlepaddle.md)
+            * [📝OpenMMLab](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/99_开源实现_机器学习平台_MLOps/OpenMMLab.md)
+            * [📝kubeflow](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/99_开源实现_机器学习平台_MLOps/kubeflow.md)
+            * [📝飞桨_paddlepaddle](/docs/开发者知识文档/30_AI平台/01_AI_大模型_训推/99_开源实现_机器学习平台_MLOps/飞桨_paddlepaddle.md)
     * 🗂AI_Infra_LLMOps
         * 🗂大模型后处理
             * 🗂持续训练
-                * [📝持续训练](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/01_持续训练/持续训练.md)
+                * [📝持续训练](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/01_持续训练/持续训练.md)
             * 🗂SFT_微调
-                * [📝LoRA微调](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/LoRA微调.md)
-                * [📝prompt-tuning](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/prompt-tuning.md)
-                * [📝qLoRA](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/qLoRA.md)
-                * [📝全量微调](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/全量微调.md)
+                * [📝LoRA微调](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/LoRA微调.md)
+                * [📝prompt-tuning](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/prompt-tuning.md)
+                * [📝qLoRA](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/qLoRA.md)
+                * [📝全量微调](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/02_SFT_微调/全量微调.md)
             * 🗂模型压缩
-                * [📝模型蒸馏](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/03_模型压缩/模型蒸馏.md)
-                * [📝量化](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/03_模型压缩/量化.md)
+                * [📝模型蒸馏](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/03_模型压缩/模型蒸馏.md)
+                * [📝量化](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/03_模型压缩/量化.md)
             * 🗂alignment_对齐
-                * [📝RLHF](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/00_大模型后处理/04_alignment_对齐/RLHF.md)
-        * 🗂prompt工程
-            * [📝prompt工程](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/01_prompt工程/prompt工程.md)
-        * 🗂Agent_范式
-            * [📝agent](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/02_Agent_范式/00_agent.md)
-            * 🗂技能_ 工具
-                * [📝MCP](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/02_Agent_范式/技能_ 工具/MCP.md)
-            * 🗂知识_RAG_索引增强生成
-                * [📝GraphRag](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/02_Agent_范式/知识_RAG_索引增强生成/GraphRag.md)
-                * [📝RAG](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/02_Agent_范式/知识_RAG_索引增强生成/RAG.md)
-            * 🗂规划_planning
-                * [📝规划-planning](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/02_Agent_范式/规划_planning/规划-planning.md)
-            * 🗂记忆
-                * [📝infinite_transformer](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/02_Agent_范式/记忆/infinite_transformer.md)
-        * 🗂基础设施
-            * 🗂低代码平台
-                * [📝dify](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/98_基础设施/低代码平台/dify.md)
-            * 🗂向量数据库
-                * [📝向量数据库_vector_DB](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/98_基础设施/向量数据库/向量数据库_vector_DB.md)
-            * 🗂开发框架
-                * [📝LangChain](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/98_基础设施/开发框架/LangChain.md)
-                * [📝autoGen](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/98_基础设施/开发框架/autoGen.md)
-                * [📝llama_index](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/98_基础设施/开发框架/llama_index.md)
+                * [📝RLHF](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/00_大模型后处理/04_alignment_对齐/RLHF.md)
         * 🗂AI_Infra_商业化平台
-            * [📝Lepton_AI](/docs/开发者知识文档/30_AI平台/15_AI_Infra_LLMOps/99_AI_Infra_商业化平台/Lepton_AI.md)
-    * 🗂AI_APP_应用
-        * 🗂LLM_gateway_chatbox
-            * 🗂LLM接口套件
-                * [📝aisuite](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_LLM_gateway_chatbox/LLM接口套件/aisuite.md)
-            * [📝OpenRouter](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_LLM_gateway_chatbox/OpenRouter.md)
-            * [📝chatbox](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_LLM_gateway_chatbox/chatbox.md)
-            * [📝ollama_ui](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_LLM_gateway_chatbox/ollama_ui.md)
-            * [📝poe](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_LLM_gateway_chatbox/poe.md)
-            * [📝火山方舟](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_LLM_gateway_chatbox/火山方舟.md)
-            * [📝硅基流动_silliconCloud](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/01_LLM_gateway_chatbox/硅基流动_silliconCloud.md)
-        * 🗂agent平台
-            * [📝flow_扣子](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/02_agent平台/flow_扣子.md)
-        * 🗂搜索
-            * [📝AI搜索](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/03_搜索/AI搜索.md)
-        * 🗂广告
-            * [📝广告](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/04_广告/广告.md)
-        * 🗂推荐系统
-            * [📝推荐系统](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/05_推荐系统/推荐系统.md)
-        * 🗂AI_Coding_开发工具链_代码辅助
-            * 🗂单独应用
-                * [📝cursor](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/01_单独应用/cursor.md)
-                * [📝trae](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/01_单独应用/trae.md)
-            * 🗂插件
-                * [📝cline](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/02_插件/cline.md)
-                * [📝github_copilot](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/02_插件/github_copilot.md)
-                * [📝通义灵码](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/02_插件/通义灵码.md)
-            * [📝CodeWhisperer](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/CodeWhisperer.md)
-            * [📝codeium](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/codeium.md)
-            * [📝codeverse](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/07_AI_Coding_开发工具链_代码辅助/codeverse.md)
-        * 🗂Quant_量化金融
-            * 🗂数据采集
-                * [📝tushare](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/08_Quant_量化金融/数据采集/tushare.md)
-            * [📝概览](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/08_Quant_量化金融/概览.md)
-        * 🗂 自动驾驶_ADAS
-            * 🗂商业化公司.md
-                * 🗂主机厂
-                    * [📝小鹏-XPILOT](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/小鹏-XPILOT.md)
-                    * [📝比亚迪-天神之眼](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/比亚迪-天神之眼.md)
-                    * [📝特斯拉-FSD](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/特斯拉-FSD.md)
-                    * [📝理想-端到端-VLM](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/理想-端到端-VLM.md)
-                    * [📝蔚来-NIO-Pilot](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/蔚来-NIO-Pilot.md)
-                * 🗂聚焦.md
-                    * [📝Momenta](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/Momenta.md)
-                    * [📝华为智驾](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/华为智驾.md)
-                    * [📝博世ADAS](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/博世ADAS.md)
-                    * [📝地平线](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/地平线.md)
-            * [📝adas](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/09_ 自动驾驶_ADAS/adas.md)
-        * 🗂具身智能_Embodied_AI
-            * 🗂本体
-                * 🗂材料
-                * 🗂组成部分
-                    * 🗂感知-传感器
-                        * [📝GPS](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/GPS.md)
-                        * [📝压力传感器](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/压力传感器.md)
-                        * [📝惯导_IMU](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/惯导_IMU.md)
-                        * [📝激光雷达](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/激光雷达.md)
-                        * [📝相机](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/相机.md)
-                        * [📝超声波雷达](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/超声波雷达.md)
-                    * 🗂控制-关键部件
-                        * [📝仿生材料](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/仿生材料.md)
-                        * [📝仿生脸](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/仿生脸.md)
-                        * [📝仿生足](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/仿生足.md)
-                        * [📝关节](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/关节.md)
-                        * [📝灵巧手](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/灵巧手.md)
-                        * [📝躯干](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/躯干.md)
-                * 🗂结构
-            * 🗂小脑-运动控制
-                * [📝运控](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/02_小脑-运动控制/运控.md)
-            * 🗂大脑-智能
-                * [📝感知](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/01_感知.md)
-                * [📝决策,md](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/02_决策,md)
-                * [📝行动](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/03_行动.md)
-                * [📝反馈](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/04_反馈.md)
-                * 🗂任务
-                    * [📝VLA](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/任务/VLA.md)
-                    * [📝VLM](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/任务/VLM.md)
-                    * [📝VLN](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/任务/VLN.md)
-                * [📝综述](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/03_大脑-智能/综述.md)
-            * 🗂ROS2
-                * 🗂RTOS
-                    * [📝freeRTOS](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/01_RTOS/freeRTOS.md)
-                * 🗂ROS_元系统
-                    * [📝ROS2](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS2.md)
-                    * 🗂ROS_Index_常用包
-                        * 🗂导航
-                            * [📝Move_base](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/导航/Move_base.md)
-                        * 🗂建图
-                            * [📝Gmapping](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/建图/Gmapping.md)
-                        * 🗂控制
-                            * 🗂控制底盘
-                                * [📝wpb_core](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/控制/控制底盘/wpb_core.md)
-                            * 🗂控制速度方向
-                                * [📝rqt_robot_steering](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/控制/控制速度方向/rqt_robot_steering.md)
-                            * 🗂驱动雷达
-                                * [📝rplidar_ros](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/控制/驱动雷达/rplidar_ros.md)
-                    * 🗂ROS_生态
-                        * [📝Robot-Web-Tools](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_生态/Robot-Web-Tools.md)
-                * 🗂autoware
-                    * [📝autoware](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/03_autoware/autoware.md)
-                * 🗂感知可视化
-                    * [📝webviz](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/感知可视化/01_webviz.md)
-                    * [📝foxglove_studio](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/感知可视化/02_foxglove_studio.md)
-                    * [📝rqt](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/感知可视化/03_rqt.md)
-                    * [📝rviz](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/11_ROS2/感知可视化/04_rviz.md)
-            * 🗂数据采集
-                * 🗂仿真平台
-                    * 🗂背景信息
-                        * [📝NVIDIA_三台计算机理论](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/00_背景信息/NVIDIA_三台计算机理论.md)
-                        * [📝URDF](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/00_背景信息/URDF.md)
-                        * [📝皮克斯_openUSD](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/00_背景信息/皮克斯_openUSD.md)
-                    * 🗂训练数据_合成数据
-                        * [📝nvidia_cosmos](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/01_训练数据_合成数据/nvidia_cosmos.md)
-                    * 🗂仿真环境
-                        * 🗂Gazebo
-                            * [📝wpr_simulation__Gazebo](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/01_Gazebo/wpr_simulation__Gazebo.md)
-                        * 🗂AI连接
-                            * [📝ROS-X-Habatat](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/AI连接/ROS-X-Habatat.md)
-                        * [📝Libero](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/Libero.md)
-                        * [📝Webots](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/Webots.md)
-                        * 🗂omniverse_isaac
-                            * [📝NVIDIA-Omniverse](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/omniverse_isaac/00_NVIDIA-Omniverse.md)
-                            * [📝nvidia_isaac_sim](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/omniverse_isaac/01_nvidia_isaac_sim.md)
-                            * [📝nvidia_isaac_lab](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/omniverse_isaac/02_nvidia_isaac_lab.md)
-                        * [📝turtlesim](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/turtlesim.md)
-                        * [📝worldview](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/worldview.md)
-                        * [📝虚幻引擎_Unreal](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/虚幻引擎_Unreal.md)
-                    * 🗂自动驾驶
-                        * [📝Carla](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/仿真平台/99_自动驾驶/Carla.md)
-                * 🗂动作捕捉
-                    * [📝动捕](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/动作捕捉/动捕.md)
-                * 🗂遥操作
-                    * [📝VR_手柄](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/遥操作/VR_手柄.md)
-                    * [📝同构操作](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/遥操作/同构操作.md)
-                    * [📝视觉理解](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/遥操作/视觉理解.md)
-                    * [📝遥控器](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/12_数据采集/遥操作/遥控器.md)
-            * 🗂销售市场
-                * [📝科研机构](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/97_销售市场/01_科研机构.md)
-                * [📝ToB-工厂场景](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/97_销售市场/02_ToB-工厂场景.md)
-                * [📝ToC-家庭场景](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/97_销售市场/03_ToC-家庭场景.md)
-            * 🗂商业化方案_Embodied_AI_Infra
-                * [📝NVIDIA_OSMO](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/98_商业化方案_Embodied_AI_Infra/NVIDIA_OSMO.md)
-            * 🗂商业化公司
-                * 🗂中国
-                    * 🗂上海
-                        * [📝智元](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/上海/智元.md)
-                    * 🗂北京
-                        * [📝傅利叶智能](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/北京/傅利叶智能.md)
-                        * [📝加速进化](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/北京/加速进化.md)
-                        * [📝小米-机器人](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/北京/小米-机器人.md)
-                        * [📝星动纪元](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/北京/星动纪元.md)
-                        * [📝银河通用](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/北京/银河通用.md)
-                    * 🗂杭州
-                        * [📝云深处](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/杭州/云深处.md)
-                        * [📝千寻智能](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/杭州/千寻智能.md)
-                        * [📝原力无限](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/杭州/原力无限.md)
-                        * [📝宇树科技](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/杭州/宇树科技.md)
-                    * 🗂深圳
-                        * [📝乐聚机器人](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/深圳/乐聚机器人.md)
-                        * [📝优必选](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/深圳/优必选.md)
-                        * [📝星尘智能](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/深圳/星尘智能.md)
-                        * [📝艾欧智能](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/深圳/艾欧智能.md)
-                        * [📝逐际动力](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/深圳/逐际动力.md)
-                    * 🗂苏州
-                        * [📝星海图](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/苏州/星海图.md)
-                        * [📝追觅-魔法原子](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/中国/苏州/追觅-魔法原子.md)
-                * 🗂美国
-                    * [📝Figure_AI](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/美国/Figure_AI.md)
-                    * [📝特斯拉-机器人](/docs/开发者知识文档/30_AI平台/16_AI_APP_应用/10_具身智能_Embodied_AI/99_商业化公司/美国/特斯拉-机器人.md)
+            * [📝Lepton_AI](/docs/开发者知识文档/30_AI平台/02_AI_Infra_LLMOps/99_AI_Infra_商业化平台/Lepton_AI.md)
+* 🗂Agent
+    * 🗂agent基础
+        * 🗂prompt工程
+            * [📝prompt工程](/docs/开发者知识文档/40_Agent/00_agent基础/01_prompt工程/prompt工程.md)
+        * 🗂Agent_范式
+            * [📝agent](/docs/开发者知识文档/40_Agent/00_agent基础/02_Agent_范式/00_agent.md)
+            * 🗂技能_ 工具
+                * [📝MCP](/docs/开发者知识文档/40_Agent/00_agent基础/02_Agent_范式/技能_ 工具/MCP.md)
+            * 🗂知识_RAG_索引增强生成
+                * [📝GraphRag](/docs/开发者知识文档/40_Agent/00_agent基础/02_Agent_范式/知识_RAG_索引增强生成/GraphRag.md)
+                * [📝RAG](/docs/开发者知识文档/40_Agent/00_agent基础/02_Agent_范式/知识_RAG_索引增强生成/RAG.md)
+            * 🗂规划_planning
+                * [📝规划-planning](/docs/开发者知识文档/40_Agent/00_agent基础/02_Agent_范式/规划_planning/规划-planning.md)
+            * 🗂记忆
+                * [📝infinite_transformer](/docs/开发者知识文档/40_Agent/00_agent基础/02_Agent_范式/记忆/infinite_transformer.md)
+    * 🗂推理引擎
+        * [📝mlx_mac](/docs/开发者知识文档/40_Agent/01_推理引擎/mlx_mac.md)
+        * [📝sgLang](/docs/开发者知识文档/40_Agent/01_推理引擎/sgLang.md)
+        * [📝tensorRT-LLM](/docs/开发者知识文档/40_Agent/01_推理引擎/tensorRT-LLM.md)
+        * [📝tensorRT](/docs/开发者知识文档/40_Agent/01_推理引擎/tensorRT.md)
+        * [📝vLLM](/docs/开发者知识文档/40_Agent/01_推理引擎/vLLM.md)
+    * 🗂LLM_gateway
+        * 🗂商业产品
+            * [📝OpenRouter](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/OpenRouter.md)
+            * [📝poe](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/poe.md)
+            * [📝火山方舟](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/火山方舟.md)
+            * [📝硅基流动_silliconCloud](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/硅基流动_silliconCloud.md)
+        * 🗂开源免费
+            * [📝chatbox](/docs/开发者知识文档/40_Agent/02_LLM_gateway/开源免费/chatbox.md)
+            * [📝lm_studio](/docs/开发者知识文档/40_Agent/02_LLM_gateway/开源免费/lm_studio.md)
+            * [📝ollama](/docs/开发者知识文档/40_Agent/02_LLM_gateway/开源免费/ollama.md)
+            * [📝ollama_ui](/docs/开发者知识文档/40_Agent/02_LLM_gateway/开源免费/ollama_ui.md)
+    * 🗂开发平台
+        * 🗂向量数据库
+            * [📝milvus](/docs/开发者知识文档/40_Agent/03_开发平台/01_向量数据库/milvus.md)
+            * [📝向量数据库_vector_DB](/docs/开发者知识文档/40_Agent/03_开发平台/01_向量数据库/向量数据库_vector_DB.md)
+        * 🗂LLM接口套件
+            * [📝aisuite](/docs/开发者知识文档/40_Agent/03_开发平台/02_LLM接口套件/aisuite.md)
+        * 🗂开发框架
+            * [📝LangChain](/docs/开发者知识文档/40_Agent/03_开发平台/03_开发框架/LangChain.md)
+            * [📝autoGen](/docs/开发者知识文档/40_Agent/03_开发平台/03_开发框架/autoGen.md)
+            * [📝llama_index](/docs/开发者知识文档/40_Agent/03_开发平台/03_开发框架/llama_index.md)
+        * 🗂低代码平台
+            * [📝dify](/docs/开发者知识文档/40_Agent/03_开发平台/04_低代码平台/dify.md)
+            * [📝n8n](/docs/开发者知识文档/40_Agent/03_开发平台/04_低代码平台/n8n.md)
+            * [📝字节_flow_扣子](/docs/开发者知识文档/40_Agent/03_开发平台/04_低代码平台/字节_flow_扣子.md)
+    * 🗂搜索
+        * [📝AI搜索](/docs/开发者知识文档/40_Agent/10_搜索/AI搜索.md)
+    * 🗂广告
+        * [📝广告](/docs/开发者知识文档/40_Agent/11_广告/广告.md)
+    * 🗂推荐系统
+        * [📝推荐系统](/docs/开发者知识文档/40_Agent/12_推荐系统/推荐系统.md)
+    * 🗂Quant_量化金融
+        * 🗂数据采集
+            * [📝tushare](/docs/开发者知识文档/40_Agent/13_Quant_量化金融/数据采集/tushare.md)
+        * [📝概览](/docs/开发者知识文档/40_Agent/13_Quant_量化金融/概览.md)
+    * 🗂 自动驾驶_ADAS
+        * 🗂商业化公司.md
+            * 🗂主机厂
+                * [📝小鹏-XPILOT](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/小鹏-XPILOT.md)
+                * [📝比亚迪-天神之眼](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/比亚迪-天神之眼.md)
+                * [📝特斯拉-FSD](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/特斯拉-FSD.md)
+                * [📝理想-端到端-VLM](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/理想-端到端-VLM.md)
+                * [📝蔚来-NIO-Pilot](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/主机厂/蔚来-NIO-Pilot.md)
+            * 🗂聚焦.md
+                * [📝Momenta](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/Momenta.md)
+                * [📝华为智驾](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/华为智驾.md)
+                * [📝博世ADAS](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/博世ADAS.md)
+                * [📝地平线](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/99_商业化公司.md/聚焦.md/地平线.md)
+        * [📝adas](/docs/开发者知识文档/40_Agent/14_ 自动驾驶_ADAS/adas.md)
+    * 🗂具身智能_Embodied_AI
+        * 🗂本体
+            * 🗂材料
+            * 🗂组成部分
+                * 🗂感知-传感器
+                    * [📝GPS](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/GPS.md)
+                    * [📝压力传感器](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/压力传感器.md)
+                    * [📝惯导_IMU](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/惯导_IMU.md)
+                    * [📝激光雷达](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/激光雷达.md)
+                    * [📝相机](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/相机.md)
+                    * [📝超声波雷达](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/01_感知-传感器/超声波雷达.md)
+                * 🗂控制-关键部件
+                    * [📝仿生材料](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/仿生材料.md)
+                    * [📝仿生脸](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/仿生脸.md)
+                    * [📝仿生足](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/仿生足.md)
+                    * [📝关节](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/关节.md)
+                    * [📝灵巧手](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/灵巧手.md)
+                    * [📝躯干](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/01_本体/组成部分/02_控制-关键部件/躯干.md)
+            * 🗂结构
+        * 🗂小脑-运动控制
+            * [📝运控](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/02_小脑-运动控制/运控.md)
+        * 🗂大脑-智能
+            * [📝感知](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/01_感知.md)
+            * [📝决策,md](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/02_决策,md)
+            * [📝行动](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/03_行动.md)
+            * [📝反馈](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/04_反馈.md)
+            * 🗂任务
+                * [📝VLA](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/任务/VLA.md)
+                * [📝VLM](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/任务/VLM.md)
+                * [📝VLN](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/任务/VLN.md)
+            * [📝综述](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/03_大脑-智能/综述.md)
+        * 🗂ROS2
+            * 🗂RTOS
+                * [📝freeRTOS](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/01_RTOS/freeRTOS.md)
+            * 🗂ROS_元系统
+                * [📝ROS2](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS2.md)
+                * 🗂ROS_Index_常用包
+                    * 🗂导航
+                        * [📝Move_base](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/导航/Move_base.md)
+                    * 🗂建图
+                        * [📝Gmapping](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/建图/Gmapping.md)
+                    * 🗂控制
+                        * 🗂控制底盘
+                            * [📝wpb_core](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/控制/控制底盘/wpb_core.md)
+                        * 🗂控制速度方向
+                            * [📝rqt_robot_steering](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/控制/控制速度方向/rqt_robot_steering.md)
+                        * 🗂驱动雷达
+                            * [📝rplidar_ros](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_Index_常用包/控制/驱动雷达/rplidar_ros.md)
+                * 🗂ROS_生态
+                    * [📝Robot-Web-Tools](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/02_ROS_元系统/ROS_生态/Robot-Web-Tools.md)
+            * 🗂autoware
+                * [📝autoware](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/03_autoware/autoware.md)
+            * 🗂感知可视化
+                * [📝webviz](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/感知可视化/01_webviz.md)
+                * [📝foxglove_studio](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/感知可视化/02_foxglove_studio.md)
+                * [📝rqt](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/感知可视化/03_rqt.md)
+                * [📝rviz](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/11_ROS2/感知可视化/04_rviz.md)
+        * 🗂数据采集
+            * 🗂仿真平台
+                * 🗂背景信息
+                    * [📝NVIDIA_三台计算机理论](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/00_背景信息/NVIDIA_三台计算机理论.md)
+                    * [📝URDF](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/00_背景信息/URDF.md)
+                    * [📝皮克斯_openUSD](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/00_背景信息/皮克斯_openUSD.md)
+                * 🗂训练数据_合成数据
+                    * [📝nvidia_cosmos](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/01_训练数据_合成数据/nvidia_cosmos.md)
+                * 🗂仿真环境
+                    * 🗂Gazebo
+                        * [📝wpr_simulation__Gazebo](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/01_Gazebo/wpr_simulation__Gazebo.md)
+                    * 🗂AI连接
+                        * [📝ROS-X-Habatat](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/AI连接/ROS-X-Habatat.md)
+                    * [📝Libero](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/Libero.md)
+                    * [📝Webots](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/Webots.md)
+                    * 🗂omniverse_isaac
+                        * [📝NVIDIA-Omniverse](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/omniverse_isaac/00_NVIDIA-Omniverse.md)
+                        * [📝nvidia_isaac_sim](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/omniverse_isaac/01_nvidia_isaac_sim.md)
+                        * [📝nvidia_isaac_lab](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/omniverse_isaac/02_nvidia_isaac_lab.md)
+                    * [📝turtlesim](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/turtlesim.md)
+                    * [📝worldview](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/worldview.md)
+                    * [📝虚幻引擎_Unreal](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/02_仿真环境/虚幻引擎_Unreal.md)
+                * 🗂自动驾驶
+                    * [📝Carla](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/仿真平台/99_自动驾驶/Carla.md)
+            * 🗂动作捕捉
+                * [📝动捕](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/动作捕捉/动捕.md)
+            * 🗂遥操作
+                * [📝VR_手柄](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/遥操作/VR_手柄.md)
+                * [📝同构操作](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/遥操作/同构操作.md)
+                * [📝视觉理解](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/遥操作/视觉理解.md)
+                * [📝遥控器](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/12_数据采集/遥操作/遥控器.md)
+        * 🗂销售市场
+            * [📝科研机构](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/97_销售市场/01_科研机构.md)
+            * [📝ToB-工厂场景](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/97_销售市场/02_ToB-工厂场景.md)
+            * [📝ToC-家庭场景](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/97_销售市场/03_ToC-家庭场景.md)
+        * 🗂商业化方案_Embodied_AI_Infra
+            * [📝NVIDIA_OSMO](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/98_商业化方案_Embodied_AI_Infra/NVIDIA_OSMO.md)
+        * 🗂商业化公司
+            * 🗂中国
+                * 🗂上海
+                    * [📝智元](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/上海/智元.md)
+                * 🗂北京
+                    * [📝傅利叶智能](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/北京/傅利叶智能.md)
+                    * [📝加速进化](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/北京/加速进化.md)
+                    * [📝小米-机器人](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/北京/小米-机器人.md)
+                    * [📝星动纪元](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/北京/星动纪元.md)
+                    * [📝银河通用](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/北京/银河通用.md)
+                * 🗂杭州
+                    * [📝云深处](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/杭州/云深处.md)
+                    * [📝千寻智能](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/杭州/千寻智能.md)
+                    * [📝原力无限](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/杭州/原力无限.md)
+                    * [📝宇树科技](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/杭州/宇树科技.md)
+                * 🗂深圳
+                    * [📝乐聚机器人](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/深圳/乐聚机器人.md)
+                    * [📝优必选](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/深圳/优必选.md)
+                    * [📝星尘智能](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/深圳/星尘智能.md)
+                    * [📝艾欧智能](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/深圳/艾欧智能.md)
+                    * [📝逐际动力](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/深圳/逐际动力.md)
+                * 🗂苏州
+                    * [📝星海图](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/苏州/星海图.md)
+                    * [📝追觅-魔法原子](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/中国/苏州/追觅-魔法原子.md)
+            * 🗂美国
+                * [📝Figure_AI](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/美国/Figure_AI.md)
+                * [📝特斯拉-机器人](/docs/开发者知识文档/40_Agent/15_具身智能_Embodied_AI/99_商业化公司/美国/特斯拉-机器人.md)
+    * 🗂AI_Coding_开发工具链_代码辅助
+        * 🗂编程模型
+            * [📝Qwen-code](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/00_编程模型/Qwen-code.md)
+            * [📝anthropic_claude4](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/00_编程模型/anthropic_claude4.md)
+        * 🗂命令行工具
+            * [📝claude_code](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/01_命令行工具/claude_code.md)
+            * [📝claude_code_router](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/01_命令行工具/claude_code_router.md)
+            * [📝gemini_cli](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/01_命令行工具/gemini_cli.md)
+        * 🗂独立IDE
+            * [📝cursor](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/02_独立IDE/cursor.md)
+            * [📝lingma_ide](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/02_独立IDE/lingma_ide.md)
+            * [📝trae](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/02_独立IDE/trae.md)
+            * [📝windsurf](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/02_独立IDE/windsurf.md)
+        * 🗂插件
+            * [📝cline](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/03_插件/cline.md)
+            * [📝github_copilot](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/03_插件/github_copilot.md)
+            * [📝通义灵码_lingma](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/03_插件/通义灵码_lingma.md)
+        * 🗂最佳实践
+            * [📝claude4提示工程最佳实践](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/04_最佳实践/claude4提示工程最佳实践.md)
+            * [📝rules](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/04_最佳实践/rules.md)
+        * [📝CodeWhisperer](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/CodeWhisperer.md)
+        * [📝codeium](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/codeium.md)
+        * [📝codeverse](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/codeverse.md)
+    * 🗂AI浏览器
+        * [📝Perplexity](/docs/开发者知识文档/40_Agent/22_AI浏览器/Perplexity.md)
+    * 🗂通用Agent
+        * [📝AutoGLM沉思](/docs/开发者知识文档/40_Agent/23_通用Agent/AutoGLM沉思.md)
+        * [📝Coze_Space](/docs/开发者知识文档/40_Agent/23_通用Agent/Coze_Space.md)
+        * [📝Flowith](/docs/开发者知识文档/40_Agent/23_通用Agent/Flowith.md)
+        * [📝OWL](/docs/开发者知识文档/40_Agent/23_通用Agent/OWL.md)
+        * [📝OpenManus](/docs/开发者知识文档/40_Agent/23_通用Agent/OpenManus.md)
+        * [📝TARS](/docs/开发者知识文档/40_Agent/23_通用Agent/TARS.md)
+        * [📝lovart](/docs/开发者知识文档/40_Agent/23_通用Agent/lovart.md)
+        * [📝manus](/docs/开发者知识文档/40_Agent/23_通用Agent/manus.md)
 * 🗂scrum
     * [📝双月规划](/docs/开发者知识文档/80_scrum/00_双月规划.md)
     * [📝设计文档](/docs/开发者知识文档/80_scrum/02_设计文档.md)
@@ -2781,3 +2825,5 @@
     * [📝segment](/docs/开发者知识文档/中间件服务/segment.md)
 * 🗂云通信平台
     * [📝twilio](/docs/开发者知识文档/云通信平台/twilio.md)
+* 🗂实践记录
+    * [📝homebrew](/docs/开发者知识文档/实践记录/homebrew.md)

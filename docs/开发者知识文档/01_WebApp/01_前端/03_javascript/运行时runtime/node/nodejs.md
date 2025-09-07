@@ -20,3 +20,16 @@ According to the [Node.js ES Modules docs] --experimental-json-modules. is requi
 ```bash
 node --experimental-json-modules ./demo.mjs
 ```
+
+## 安装
+
+```bash
+# Download and install Node.js:
+brew install node@22
+
+# Verify the Node.js version:
+node -v # Should print "v22.19.0".
+
+# Verify npm version:
+npm -v # Should print "10.9.3".
+```

@@ -3,3 +3,4 @@
 - [spring ai 文档](https://docs.spring.io/spring-ai/reference/api/testcontainers.html)
 - [spring ai 中文文档](https://doc.spring4all.com/spring-ai/reference/index.html)
 
+- [spring ai mcp 基础](https://mp.weixin.qq.com/s/lxa3krYUz-js54mkAMXmPw)

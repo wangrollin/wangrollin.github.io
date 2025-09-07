@@ -22,6 +22,15 @@
 git rev-parse --abbrev-ref HEAD
 git branch --show-current
 
+### git clone 单commit
+
+git clone -b test/v2.1.3 --single-branch --depth 1 https://wrapper.git
+固定住分支和深度，减少拉取的文件大小
+
+### git clone 带密码
+
+git clone https://${cnb 账号}:${CNB_TOKEN}@cnb.cool/原始 repo.git
+
 ## 拿到当前用户
 
 git config user.name
