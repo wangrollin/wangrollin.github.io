@@ -39,3 +39,9 @@ npm install --save-dev xxx # 只在开发阶段使用，如：测试框架
 1. 写npm程序
 2. 发布到npm上面
 3. npm install安装后使用
+
+
+## 换源
+
+sudo npm config set registry https://registry.npm.taobao.org --global
+npm install --registry=https://registry.npm.taobao.org

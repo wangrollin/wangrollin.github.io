@@ -73,6 +73,9 @@ mvn clean package -P docker -DskipTests=true  -Dmaven.javadoc.skip=true
 
 mvn clean install -DskipTests=true  -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true
 
+# 在 Maven 中，-pl 是 --projects 的缩写，用于指定要构建的项目（模块）列表
+mvn clean install -pl <模块1>,<模块2>,<模块3>
+
 mvnw.cmd -Pprod verify jib:dockerBuild -DskipTests=true
 
 mvn -Pprod verify jib:dockerBuild -DskipTests=true -Dcheckstyle.skip=true -Dmaven.javadoc.skip=true

@@ -499,6 +499,8 @@
             * 🗂工具库
                 * 🗂HttpClient
                     * [📝httpclient5](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/HttpClient/httpclient5.md)
+                    * [📝okhttp](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/HttpClient/okhttp.md)
+                    * [📝spring_RestTemplate](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/HttpClient/spring_RestTemplate.md)
                 * 🗂IO
                     * [📝WebSocket](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/IO/WebSocket.md)
                     * [📝commons-io](/docs/开发者知识文档/01_WebApp/02_后端/java/04_工具库/IO/commons-io.md)
@@ -625,7 +627,6 @@
                         * [📝GracefulShutdown](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/GracefulShutdown.md)
                         * [📝spring-boot-starter-validation参数校验](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/spring-boot-starter-validation参数校验.md)
                         * 🗂spring-boot-starter-web
-                            * [📝RestTemplate](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/spring-boot-starter-web/RestTemplate.md)
                             * [📝springmvc](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/spring-boot-starter-web/springmvc.md)
                         * 🗂spring-boot-starter-webflux
                             * [📝WebClient](/docs/开发者知识文档/01_WebApp/02_后端/java/05_框架/01_spring全家桶/02_springBoot/spring-boot-starter-webflux/WebClient.md)
@@ -2441,6 +2442,7 @@
             * [📝poe](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/poe.md)
             * [📝火山方舟](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/火山方舟.md)
             * [📝硅基流动_silliconCloud](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/硅基流动_silliconCloud.md)
+            * [📝阿里云百炼模型](/docs/开发者知识文档/40_Agent/02_LLM_gateway/商业产品/阿里云百炼模型.md)
         * 🗂开源免费
             * [📝chatbox](/docs/开发者知识文档/40_Agent/02_LLM_gateway/开源免费/chatbox.md)
             * [📝lm_studio](/docs/开发者知识文档/40_Agent/02_LLM_gateway/开源免费/lm_studio.md)
@@ -2452,14 +2454,17 @@
             * [📝向量数据库_vector_DB](/docs/开发者知识文档/40_Agent/03_开发平台/01_向量数据库/向量数据库_vector_DB.md)
         * 🗂LLM接口套件
             * [📝aisuite](/docs/开发者知识文档/40_Agent/03_开发平台/02_LLM接口套件/aisuite.md)
-        * 🗂开发框架
-            * [📝LangChain](/docs/开发者知识文档/40_Agent/03_开发平台/03_开发框架/LangChain.md)
-            * [📝autoGen](/docs/开发者知识文档/40_Agent/03_开发平台/03_开发框架/autoGen.md)
-            * [📝llama_index](/docs/开发者知识文档/40_Agent/03_开发平台/03_开发框架/llama_index.md)
-        * 🗂低代码平台
-            * [📝dify](/docs/开发者知识文档/40_Agent/03_开发平台/04_低代码平台/dify.md)
-            * [📝n8n](/docs/开发者知识文档/40_Agent/03_开发平台/04_低代码平台/n8n.md)
-            * [📝字节_flow_扣子](/docs/开发者知识文档/40_Agent/03_开发平台/04_低代码平台/字节_flow_扣子.md)
+        * 🗂agent开发框架
+            * [📝LangChain](/docs/开发者知识文档/40_Agent/03_开发平台/03_agent开发框架/LangChain.md)
+            * [📝autoGen](/docs/开发者知识文档/40_Agent/03_开发平台/03_agent开发框架/autoGen.md)
+            * [📝llama_index](/docs/开发者知识文档/40_Agent/03_开发平台/03_agent开发框架/llama_index.md)
+        * 🗂chat_ui开发框架
+            * [📝lobechat](/docs/开发者知识文档/40_Agent/03_开发平台/04_chat_ui开发框架/lobechat.md)
+        * 🗂低代码平台_agent_工作流
+            * [📝dify](/docs/开发者知识文档/40_Agent/03_开发平台/05_低代码平台_agent_工作流/dify.md)
+            * [📝n8n](/docs/开发者知识文档/40_Agent/03_开发平台/05_低代码平台_agent_工作流/n8n.md)
+            * [📝字节_flow_扣子](/docs/开发者知识文档/40_Agent/03_开发平台/05_低代码平台_agent_工作流/字节_flow_扣子.md)
+            * [📝阿里云百炼应用](/docs/开发者知识文档/40_Agent/03_开发平台/05_低代码平台_agent_工作流/阿里云百炼应用.md)
     * 🗂搜索
         * [📝AI搜索](/docs/开发者知识文档/40_Agent/10_搜索/AI搜索.md)
     * 🗂广告
@@ -2630,15 +2635,18 @@
         * [📝codeverse](/docs/开发者知识文档/40_Agent/21_AI_Coding_开发工具链_代码辅助/codeverse.md)
     * 🗂AI浏览器
         * [📝Perplexity](/docs/开发者知识文档/40_Agent/22_AI浏览器/Perplexity.md)
+    * 🗂agent市场
+        * [📝lobehub](/docs/开发者知识文档/40_Agent/23_agent市场/lobehub.md)
+        * [📝mulerun_骡子快跑](/docs/开发者知识文档/40_Agent/23_agent市场/mulerun_骡子快跑.md)
     * 🗂通用Agent
-        * [📝AutoGLM沉思](/docs/开发者知识文档/40_Agent/23_通用Agent/AutoGLM沉思.md)
-        * [📝Coze_Space](/docs/开发者知识文档/40_Agent/23_通用Agent/Coze_Space.md)
-        * [📝Flowith](/docs/开发者知识文档/40_Agent/23_通用Agent/Flowith.md)
-        * [📝OWL](/docs/开发者知识文档/40_Agent/23_通用Agent/OWL.md)
-        * [📝OpenManus](/docs/开发者知识文档/40_Agent/23_通用Agent/OpenManus.md)
-        * [📝TARS](/docs/开发者知识文档/40_Agent/23_通用Agent/TARS.md)
-        * [📝lovart](/docs/开发者知识文档/40_Agent/23_通用Agent/lovart.md)
-        * [📝manus](/docs/开发者知识文档/40_Agent/23_通用Agent/manus.md)
+        * [📝AutoGLM沉思](/docs/开发者知识文档/40_Agent/24_通用Agent/AutoGLM沉思.md)
+        * [📝Coze_Space](/docs/开发者知识文档/40_Agent/24_通用Agent/Coze_Space.md)
+        * [📝Flowith](/docs/开发者知识文档/40_Agent/24_通用Agent/Flowith.md)
+        * [📝OWL](/docs/开发者知识文档/40_Agent/24_通用Agent/OWL.md)
+        * [📝OpenManus](/docs/开发者知识文档/40_Agent/24_通用Agent/OpenManus.md)
+        * [📝TARS](/docs/开发者知识文档/40_Agent/24_通用Agent/TARS.md)
+        * [📝lovart](/docs/开发者知识文档/40_Agent/24_通用Agent/lovart.md)
+        * [📝manus](/docs/开发者知识文档/40_Agent/24_通用Agent/manus.md)
 * 🗂scrum
     * [📝双月规划](/docs/开发者知识文档/80_scrum/00_双月规划.md)
     * [📝设计文档](/docs/开发者知识文档/80_scrum/02_设计文档.md)

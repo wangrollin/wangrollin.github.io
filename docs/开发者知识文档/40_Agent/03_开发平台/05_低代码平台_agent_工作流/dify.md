@@ -14,3 +14,7 @@ https://docs.dify.ai/zh-hans/workshop/intermediate/customer-service-bot
 https://zhuanlan.zhihu.com/p/27957050944
 https://github.com/wwwzhouhui/dify-for-dsl
 
+## 模式
+
+chatflow
+workflow
