@@ -25,7 +25,7 @@ node --experimental-json-modules ./demo.mjs
 
 ```bash
 # Download and install Node.js:
-brew install node@22
+brew install node@24
 
 # Verify the Node.js version:
 node -v # Should print "v22.19.0".

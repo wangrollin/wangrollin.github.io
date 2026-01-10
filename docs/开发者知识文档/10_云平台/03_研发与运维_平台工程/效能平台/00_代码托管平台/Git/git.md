@@ -87,3 +87,13 @@ git push origin v1.0
 git tag -d <tagname>
 git push origin :refs/tags/<tagname>
 ```
+
+## 修改远程分支
+
+git remote -v
+
+git remote set-url origin https://xxxxxxx
+
+git remote -v
+
+

@@ -6,6 +6,26 @@
 export KUBECONFIG=/Users/wangrollin/code_base/wb2c-helm/k8s/bigdata/config
 ```
 
+```bash
+# 长期同时使用多个集群，通过环境变量指定多个配置文件，Kubernetes 会自动合并这些文件的配置
+# 设置环境变量在终端或配置文件（~/.bashrc、~/.zshrc 等）中定义
+# 多个文件用 :（Linux/macOS）或 ;（Windows）分隔。
+export KUBECONFIG=~/.kube/config:~/.kube/cluster-dev:~/.kube/cluster-prod
+
+
+# 确认所有集群已加载。
+kubectl config get-clusters
+
+# 显示当前使用的上下文
+kubectl config current-context
+
+# 列出所有可用上下文
+kubectl config get-contexts
+
+# 换到目标上下文使用
+kubectl config use-context prod-context
+```
+
 
 ## 安装
 
