@@ -23,6 +23,8 @@ node --experimental-json-modules ./demo.mjs
 
 ## 安装
 
+### mac
+
 ```bash
 # Download and install Node.js:
 brew install node@24
@@ -32,4 +34,16 @@ node -v # Should print "v22.19.0".
 
 # Verify npm version:
 npm -v # Should print "10.9.3".
+```
+
+### ubuntu
+
+1. curl ... | bash - — 只是把 NodeSource 的 apt 源添加到系统中（写入 /etc/apt/sources.list.d/）
+2. apt install -y nodejs — 从刚添加的 NodeSource 源安装 Node.js
+
+如果不执行第一步，apt install nodejs 会从 Ubuntu 默认源安装，版本很旧。加了 NodeSource 源之后，同样的 apt install 命令就会安装 20.x 的新版本。
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && apt install -y nodejs
+
 ```

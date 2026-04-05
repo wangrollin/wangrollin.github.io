@@ -13,6 +13,7 @@ npm包：可能是模块(npm install)，也可能是可执行文件（使用npm 
 # 查看全局安装的包
 npm list -g --depth 0
 npm outdated -g --depth 0
+npm outdated -g --depth 0
 npm update -g xxx
 npm install -g npm@6.14.11
 
@@ -26,6 +27,7 @@ npm install xxx
 npm install -s xxx
 npm install --save-dev xxx # 只在开发阶段使用，如：测试框架
 
+npm uninstall -g @anthropic-ai/claude-code
 ```
 
 

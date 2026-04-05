@@ -1,0 +1,3 @@
+
+apt install iputils-ping
+

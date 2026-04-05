@@ -1,5 +1,5 @@
 
-
+a d
 ## monorepo
 
 - [5 分钟搞懂 Monorepo](https://xie.infoq.cn/article/4f870ba6a7c8e0fd825295c92)
@@ -96,4 +96,43 @@ git remote set-url origin https://xxxxxxx
 
 git remote -v
 
+## 迁移代码仓库从 平台A 到 平台B
 
+参考文档 https://www.wolai.com/yingjie/2EeM2SohjWC6juwgPDAfSW
+
+**仅克隆并同步代码**
+
+```bash
+# git clone 仓库
+git clone --mirror https://e.coding.net/g-qnja0142/webgoat-allinone/webgoat-coding.git
+
+# 进入克隆后的仓库
+cd <新仓库本地目录>
+
+# 添加新仓库的远程地址
+git remote remove origin
+git remote add origin http://119.45.237.50/demo/webgoat-coding.git
+
+# 推送到新仓库，使用 --mirror 选项确保所有分支和引用都被推送
+git push --mirror origin
+```
+
+**同步迁移 LFS 对象**
+
+```bash
+# 在当前 Git 仓库中安装和配置 Git LFS（Large File Storage）的客户端钩子（Hooks）
+git lfs install
+# 克隆完整仓库镜像
+git clone --mirror https://X.X.X.X/webgoat-allinone/webgoat-coding.git
+# 克隆之后，拉取所有 lfs
+git lfs fetch --all
+
+# 添加新仓库的远程地址
+git remote remove origin
+git remote add origin http://119.45.237.50/demo/webgoat-coding.git
+# 推送 Git 对象
+git lfs push --all origin
+# 推送到新仓库，使用 --mirror 选项确保所有分支和引用都被推送
+git push --mirror origin
+
+```

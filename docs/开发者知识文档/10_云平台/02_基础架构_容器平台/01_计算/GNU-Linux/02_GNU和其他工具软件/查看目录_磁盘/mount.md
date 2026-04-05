@@ -2,6 +2,10 @@
 
 ## 命令
 
+### 分区格式化云盘（Linux） + 挂载
+
+https://www.volcengine.com/docs/6396/69095?lang=zh
+
 ### 手动挂载/卸载
 
 sudo mount /dev/vdb1 /data00
