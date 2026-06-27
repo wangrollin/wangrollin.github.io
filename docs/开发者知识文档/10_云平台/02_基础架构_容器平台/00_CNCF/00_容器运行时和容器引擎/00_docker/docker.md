@@ -3,6 +3,46 @@
 Docker 使用过程中有许多常用的命令，完整列表可以查看docker help
 
 
+## 安装和换源
+
+**rocky linux**
+
+- 安装
+```bash
+# 1. 添加 Docker 官方仓库
+sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+# 2. 安装 Docker
+sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+# 3. 启动并设置开机自启
+sudo systemctl enable --now docker
+
+# 4. 验证
+sudo docker version
+sudo docker compose version
+```
+
+- 换源
+```bash
+sudo mkdir -p /etc/docker
+sudo vim /etc/docker/daemon.json
+
+{
+  "registry-mirrors": [
+    "https://docker.m.daocloud.io"
+  ]
+}
+
+# 然后重启 Docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+# 验证是否生效：
+sudo docker info | grep -A 5 "Registry Mirrors"
+```
+
+
 ## 核心概念
 
 ### docker cli

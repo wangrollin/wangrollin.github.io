@@ -1,3 +1,2 @@
-# Sometimes structure is more important than content
 
-Sometimes structure is more important than content
+RocketMQ：稳而全，金融级可靠，功能最完整 — "阿里双11验证过的国产之光"

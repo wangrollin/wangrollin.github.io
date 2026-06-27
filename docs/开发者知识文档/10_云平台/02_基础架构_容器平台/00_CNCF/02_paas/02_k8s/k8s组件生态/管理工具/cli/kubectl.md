@@ -1,5 +1,42 @@
+## kubeconfig
+
+clsuter name, user name, context name 这三个可以随意修改
+它们只是 kubeconfig 文件内部的本地标识符，不影响实际的集群连接。
+
+vim ~/.kube/config
+
+```bash
+clusters:
+- name: my-dev          # ← cluster name（本地别名）
+  cluster:
+    server: https://10.0.0.1:6443    # 真正决定连哪个集群
+    certificate-authority-data: ...
+
+users:
+- name: dev-admin       # ← user name（本地别名）
+  user:
+    token: xxx                        # 真正决定身份认证
+    # 或 client-certificate-data / exec 等
+
+contexts:
+- name: dev-context     # ← context name（本地别名）
+  context:
+    cluster: my-dev      # 引用上面的 cluster name
+    user: dev-admin      # 引用上面的 user name
+    namespace: default
+```
+
+### 最佳实践
+
+1. 每个集群都有自己的config文件
+2. 配置 `export KUBECONFIG=~/.kube/config:~/.kube/cluster-dev:~/.kube/cluster-prod`
+3. 列出所有可用上下文 `kubectl config get-contexts`
+4. 换到目标上下文使用 `kubectl config use-context prod-context`
+
 
 ## context
+
+context = user @ cluster
 
 ```bash
 # 可以这样临时切换kubectl的指向

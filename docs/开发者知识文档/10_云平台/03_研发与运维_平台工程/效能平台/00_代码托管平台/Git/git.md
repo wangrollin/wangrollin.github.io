@@ -10,6 +10,34 @@ a d
 
 - [commitizen github](https://github.com/commitizen/cz-cli)
 
+## git 基础配置
+
+git config --global user.name "name"
+git config --global user.email "name@example.com"
+git config --global user.signingkey "/Users/name/.ssh/id_ed25519.pub"
+git config --global gpg.format ssh
+git config --global commit.gpgsign true
+
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --unset user.signingkey
+git config --global --unset gpg.format
+git config --global --unset commit.gpgsign
+
+git config --global --get user.name
+git config --global --get user.email
+git config --global --get user.signingkey
+git config --global --get gpg.format
+git config --global --get commit.gpgsign
+
+## git signing
+
+github 的ssh key 需要添加一个 signing key
+
+ssh-keygen -t ed25519 -C "xxxxx@example.com" -f ~/.ssh/id_ed25519_signing
+git config gpg.format ssh
+git config user.signingkey ~/.ssh/id_ed25519_signing.pub
+git config commit.gpgSign true
 
 ## git hooks
 
