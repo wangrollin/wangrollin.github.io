@@ -2657,9 +2657,6 @@
                     * [📝Figure_AI](/docs/开发者知识文档/40_LLM/10_Agent/15_具身智能_Embodied_AI/99_商业化公司/美国/Figure_AI.md)
                     * [📝特斯拉-机器人](/docs/开发者知识文档/40_LLM/10_Agent/15_具身智能_Embodied_AI/99_商业化公司/美国/特斯拉-机器人.md)
         * 🗂AI_Coding_开发工具链_代码辅助
-            * 🗂编程模型
-                * [📝Qwen-code](/docs/开发者知识文档/40_LLM/10_Agent/21_AI_Coding_开发工具链_代码辅助/00_编程模型/Qwen-code.md)
-                * [📝anthropic_claude4](/docs/开发者知识文档/40_LLM/10_Agent/21_AI_Coding_开发工具链_代码辅助/00_编程模型/anthropic_claude4.md)
             * 🗂命令行工具
                 * [📝claude_code](/docs/开发者知识文档/40_LLM/10_Agent/21_AI_Coding_开发工具链_代码辅助/01_命令行工具/claude_code.md)
                 * [📝claude_code_router](/docs/开发者知识文档/40_LLM/10_Agent/21_AI_Coding_开发工具链_代码辅助/01_命令行工具/claude_code_router.md)

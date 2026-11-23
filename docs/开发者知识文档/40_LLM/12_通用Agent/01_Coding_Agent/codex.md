@@ -41,6 +41,16 @@ docs/rfcs/xxxx-v2-rfc.md 落地并实施这个 rfc
 
 ### alias codex='codex --dangerously-bypass-approvals-and-sandbox'
 
+同时关闭审批和沙箱（只建议在隔离的 Docker/VM 中使用）
+
+codex --dangerously-bypass-approvals-and-sandbox
+
+短别名：codex --yolo
+
+只取消审批、仍保留工作区沙箱：
+codex --sandbox workspace-write --ask-for-approval never
+codex --ask-for-approval never
+
 
 ### codex --sandbox workspace-write --ask-for-approval on-request
 
