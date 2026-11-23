@@ -5,3 +5,4 @@ _site
 vendor
 .idea
 wangrollin.github.io.iml
+.DS_Store
